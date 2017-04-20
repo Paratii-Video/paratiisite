@@ -398,9 +398,6 @@ a:visited {
     color: purple;
 }
 
-a:hover, a:focus, a:active {
-    color: midnightblue;
-}
 
 a:focus {
     outline: thin dotted;
@@ -928,10 +925,6 @@ a:visited {
     opacity: .9;
 }
 
-a:hover {
-    color: #5d47d7;
-    text-decoration: none;
-}
 
 blockquote {
     overflow: hidden;
@@ -2400,6 +2393,7 @@ padding-top: 50px;
 font-size: 15px;
 font-family: 'Roboto', sans-serif;
 text-align:center;
+color: #666;
 }
 
 #text-16 p {
