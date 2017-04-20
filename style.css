@@ -967,9 +967,6 @@ th, td {
     background: #f5f5f5;
 }
 
-.bg-dark {
-    background: #fafafa;
-}
 
 /*!---------- SECTIONS ----------*/
 
@@ -3250,7 +3247,10 @@ background-color: #fff;
     border-radius: 15px;
 }
 
-
+.bg-dark {
+    background: #fafafa;
+box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
+}
 
 
 
