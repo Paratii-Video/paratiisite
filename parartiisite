@@ -2637,7 +2637,7 @@ margin-bottom: 10px;
     background: #fafafa;
     display: table-cell;
     width: 48%;
-    padding: 0px;
+    padding: 30px 0px;
     border-radius: 15px;
     vertical-align: middle;
     white-space: nowrap;
