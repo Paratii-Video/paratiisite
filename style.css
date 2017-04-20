@@ -2621,6 +2621,8 @@ display: none;
 font-size: 15px;
 font-family: 'Roboto', sans-serif;
 margin-top: 10px;
+color: #666;
+font-weight: 400;
 }
 
 
@@ -3206,7 +3208,7 @@ margin-bottom:10px;
 #text-18 p {
 font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    color: #666;
+    color: #999;
     line-height: 24px;
 margin-bottom: 0px;
     text-align: center;
@@ -3247,10 +3249,11 @@ img.wp-smiley, img.emoji {
     padding: 0 !important;
 }
 
-.footer-inner {
-	background-color: #fff;
+.container.footer-inner {
+background-color: #fff;
     padding: 50px 0px;
-	box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
 }
 
 
