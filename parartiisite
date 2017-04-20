@@ -28,8 +28,6 @@ body {
 background-color: #f2f2f2;
     max-width: 1800px;
     margin: 0 auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     font-size: 14px;
     line-height: 24px;
     color: #666666;
@@ -104,18 +102,6 @@ svg:not(:root) {
 
 figure {
     padding: 1em;
-}
-
-hr {
-margin-bottom: 60px !important;
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border-width: 2px;
-    width: 5%;
-    border-color: blue;
-box-sizing: content-box;
 }
 
 pre {
@@ -338,7 +324,6 @@ table {
 --------------------------------------------------------------*/
 
 input[type="text"], input[type="search"], input[type="email"], input[type="tel"] {
-    touch-action: manipulation;
     cursor: pointer;
     text-align: left;
     white-space: nowrap;
@@ -562,7 +547,7 @@ max-height: 90%;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     font-weight: 300;
-    font-family: 'Raleway';
+    font-family: 'Roboto', sans-serif;
 }
 
 .site-title:hover {
@@ -813,7 +798,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, table, blockquote, input, textarea {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -950,7 +935,7 @@ a:hover {
 
 blockquote {
     overflow: hidden;
-    font-family: "Merriweather", "Georgia", Times New Roman, Times, serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 40px;
     font-style: italic;
@@ -961,7 +946,7 @@ blockquote {
 }
 
 .number {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 @media all and (max-width: 767px) {
@@ -1070,7 +1055,7 @@ section, footer {
     line-height: 36px;
     font-size: 12px;
     font-weight: 700;
-    text-transform: none
+    text-transform: none;
     letter-spacing: 1px;
     border-radius: 0;
     color: #745cf9;
@@ -1175,6 +1160,8 @@ text-indent:initial;
   opacity: 1;
 	display: inline-block;
 border: none;
+	background: url(https://paratii.wpengine.com/wp-content/uploads/2017/03/subscribe.jpg);
+    background-size: 100%;
 }
 
 #subscribe-button:hover {
@@ -1485,7 +1472,6 @@ position: fixed;
     padding: 0 24px;
     cursor: pointer;
     position: relative;
-    -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -1839,16 +1825,6 @@ input[type="text"], textarea {
     appearance: none;
 }
 
-input[type="text"], input[type="search"], input[type="email"], input[type="tel"] {
-    background: #f5f5f5;
-    border: none;
-    width: 100%;
-    height: 50px;
-    padding-left: 20px;
-    font-weight: 500;
-    margin-bottom: 24px;
-    border-radius: 0;
-}
 
 input[type="text"]:focus, input[type="search"]:focus {
     outline: 1px solid #ccc;
@@ -2020,7 +1996,15 @@ input[type="submit"]:focus {
 }
 
 .widget hr {
-    margin-bottom: 12px;
+margin-bottom: 60px;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+    width: 5%;
+    border-color: blue;
+box-sizing: content-box;
 }
 
 .category-list span {
@@ -2338,7 +2322,6 @@ margin-top:20px;
 	-webkit-transition: all .1s linear;
 	-moz-transition: all .1s linear;
 	transition: all .1s linear;
-touch-action: manipulation;
 cursor: pointer;
 text-align: center;
 white-space: nowrap;
@@ -2779,8 +2762,6 @@ color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-wrap: wrap;
@@ -2793,28 +2774,24 @@ background-color: #fafafa;
   width: 100%;
   max-width: 100%;
   min-width: 100%;
-  -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
 .at-grid[data-column="2"] .at-column {
   width: 50%;
   max-width: 50%;
   min-width: 50%;
-  -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
 }
 .at-grid[data-column="3"] .at-column {
   width: 33.33333%;
   max-width: 33.33333%;
   min-width: 33.33333%;
-  -ms-flex-preferred-size: 33.33333%;
       flex-basis: 33.33333%;
 }
 .at-grid[data-column="4"] .at-column {
   width: 25%;
   max-width: 25%;
   min-width: 25%;
-  -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
 background-color: #fafafa;
 }
@@ -2822,35 +2799,30 @@ background-color: #fafafa;
   width: 20%;
   max-width: 20%;
   min-width: 20%;
-  -ms-flex-preferred-size: 20%;
       flex-basis: 20%;
 }
 .at-grid[data-column="6"] .at-column {
   width: 16.66667%;
   max-width: 16.66667%;
   min-width: 16.66667%;
-  -ms-flex-preferred-size: 16.66667%;
       flex-basis: 16.66667%;
 }
 .at-grid[data-column="7"] .at-column {
   width: 14.28571%;
   max-width: 14.28571%;
   min-width: 14.28571%;
-  -ms-flex-preferred-size: 14.28571%;
       flex-basis: 14.28571%;
 }
 .at-grid[data-column="8"] .at-column {
   width: 12.5%;
   max-width: 12.5%;
   min-width: 12.5%;
-  -ms-flex-preferred-size: 12.5%;
       flex-basis: 12.5%;
 }
 .at-grid[data-column="9"] .at-column {
   width: 11.11111%;
   max-width: 11.11111%;
   min-width: 11.11111%;
-  -ms-flex-preferred-size: 11.11111%;
       flex-basis: 11.11111%;
 }
 .at-column {
@@ -2869,7 +2841,6 @@ background-color: #fafafa;
     width: 50% !important;
     max-width: 50% !important;
     min-width: 50% !important;
-    -ms-flex-preferred-size: 50% !important;
         flex-basis: 50% !important;
   }
 }
@@ -2878,7 +2849,6 @@ background-color: #fafafa;
     width: 100% !important;
     max-width: 100% !important;
     min-width: 100% !important;
-    -ms-flex-preferred-size: 100% !important;
         flex-basis: 100% !important;
   }
 }
@@ -3259,6 +3229,18 @@ margin-left:10px;
 footer {
     padding: 32px 0;
     margin-top: 0px;
+}
+
+img.wp-smiley, img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
 }
 
 
