@@ -11,6 +11,7 @@ jQuery(document).ready(function () {
     var siteurl = WPURLS.siteurl;
 $( ".js_active .post-body" ).wrap( "<div class='nav-container'></div>" );
         
+    });
 
 
     // -------- Ajax --------   
@@ -333,5 +334,4 @@ $( ".js_active .post-body" ).wrap( "<div class='nav-container'></div>" );
 
 
 });
-    
-    });
+   
