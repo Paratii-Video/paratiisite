@@ -11,11 +11,15 @@ jQuery(document).ready(function () {
     var siteurl = WPURLS.siteurl;
 $( ".js_active .post-body" ).wrap( "<div class='nav-container'></div>" );
     
-    
+     $('.share-bt').click(function () {
+        $('.share-icons').toggleClass('open');
+        return false;
+
+    });
+        
     $(function(){
       $('#top-header').jPinning();
     });
-
 
 
 
