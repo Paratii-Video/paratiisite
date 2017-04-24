@@ -18,7 +18,7 @@ $( ".js_active .post-body" ).wrap( "<div class='nav-container'></div>" );
     });
         
     $(function(){
-      $('#top-header').jPinning();
+      $('#masthead').jPinning();
     });
 
 
