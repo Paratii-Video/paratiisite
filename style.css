@@ -1832,7 +1832,7 @@ height: 3px;
 
 .site {
 transition: all 0.9s ease-in;
-opacity: 1;
+opacity: 0;
 }
 
 .bi-main-overlay {
