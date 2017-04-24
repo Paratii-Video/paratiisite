@@ -1817,7 +1817,7 @@ user-select: none;
 
 .pace .pace-progress {
 animation: 1s linear 0s normal none infinite running bi-gradient;
-background: transparent linear-gradient(to right, #6cc9ff,#ff6779,#fcc645,#ff6779,#6cc9ff,#ff6779) repeat scroll 0 0/500% auto;
+background: transparent linear-gradient(to right, #3dccee,#3dc7ee,#359df3,#337bf3,#5576f9,#6987fa) repeat scroll 0 0/500% auto;
 position: fixed;
 top: 0;
 right: 100%;
@@ -1833,7 +1833,7 @@ height: 3px;
 
 .site {
 transition: all 0.9s ease-in;
-opacity: 1;
+opacity: 0;
 }
 
 .bi-main-overlay {
