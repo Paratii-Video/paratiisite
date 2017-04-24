@@ -5,6 +5,18 @@ Pace.options = {
 var $ = jQuery.noConflict();
 
 jQuery(document).ready(function () {
+    
+    jQuery(document).ready(function () {
+
+    var siteurl = WPURLS.siteurl;
+$( ".js_active .post-body" ).wrap( "<div class='nav-container'></div>" );
+    
+    
+    $(function(){
+      $('#top-header').jPinning();
+    });
+
+
 
 
     // -------- Ajax --------   
