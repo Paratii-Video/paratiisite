@@ -65,9 +65,9 @@ $( ".js_active .post-body" ).wrap( "<div class='nav-container'></div>" );
 
 
     Pace.on('done', function () {
-        jQuery('.site > :not(.pace)').css('opacity', 1);
+        jQuery('body > :not(.pace)').css('opacity', 1);
     });
-    jQuery('.site > :not(.pace)');
+    jQuery('body > :not(.pace)');
 
 
 //  
