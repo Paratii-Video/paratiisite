@@ -33,6 +33,7 @@ background-color: #f2f2f2;
     color: #666666;
     overflow-x: hidden;
     transition: all .5s ease-in 0s;
+margin: 0 auto;
 }
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
