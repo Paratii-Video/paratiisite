@@ -11,7 +11,7 @@
 <link rel='stylesheet' id="shapely-style-css" href='style.css' type='text/css' media='all' />
 <link rel='stylesheet' id='bootstrap-css'  href='bootstrap.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-css'  href='font-awesome.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='animate-css' href='animate.css' type='text/css' media='all' />
+<link rel="stylesheet" href='aos.css' type='text/css' media='all' />
 	
 <script type='text/javascript'>
 /* <![CDATA[ */
@@ -21,11 +21,17 @@ var WPURLS = {"siteurl":"paratii.video"};
 
 <script type='text/javascript' src='jquery.js?ver=1.11.3'></script>
 <script type='text/javascript' src='jquery-migrate.min.js?ver=1.2.1'></script>
+<script src='aos.js'></script>
 
 <meta name="google-site-verification" content="5wnnvHecRN6YCO9MzHYLpKoUP_bILxd6yPmeO2fK420"/>
 <link rel="icon" href="imagens/cropped-logo_cor_simbolo-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="imagens/cropped-logo_cor_simbolo-180x180.png" />
 <meta name="msapplication-TileImage" content="imagens/cropped-logo_cor_simbolo-270x270.png" />
+	
+<script>
+AOS.init();
+</script>
+	
 </head>
 
 <body class="home page-template page-template-page-templates page-template-template-home page-template-page-templatestemplate-home-php page page-id-2088 wp-custom-logo group-blog has-sidebar-right">
@@ -33,7 +39,7 @@ var WPURLS = {"siteurl":"paratii.video"};
 	<header id="masthead" class="site-header" role="banner">
 		<div class="nav-container">
 			<nav id="site-navigation" class="main-navigation" role="navigation">
-				<div class="container nav-bar">
+				<div class="container nav-bar" data-aos="slide-down" data-aos-duration="600">
 					<div class="row">
 						<div class="module left site-title-container">
 							
@@ -145,7 +151,7 @@ var WPURLS = {"siteurl":"paratii.video"};
 <div class="mobile_fix_features">
 <div class="doubleColumns">
   <div class="doubleColumn">
-<img src="imagens/features1.png" class="img_feature" style="animation-name: fadeIn; animation-duration:2s;">
+<img src="imagens/features1.png" class="img_feature" data-aos="fade" data-aos-duration="400">
 <div class="content_features">
 	<h3>Collective Curation </h3>
     <p>Viewers of online video are already used to rating, flagging and recommending content. On Paratii, these activities will be rewarded.</p>
@@ -153,7 +159,7 @@ var WPURLS = {"siteurl":"paratii.video"};
   </div>
 
   <div class="doubleColumn">
-<img src="imagens/features2.png" class="img_feature" style="animation-name: fadeIn; animation-duration:3s;">
+<img src="imagens/features2.png" class="img_feature" data-aos="fade" data-aos-duration="600">
 <div class="content_features">
 	<h3>Peer-to-peer streaming</h3>
     <p>Distributed file sharing allows for content delivery frameworks independent of private data centers, running at a fraction of the cost.
@@ -165,7 +171,7 @@ var WPURLS = {"siteurl":"paratii.video"};
 
 <div class="doubleColumns">
   <div class="doubleColumn">
-<img src="imagens/features3.png" class="img_feature" style="animation-name: fadeIn; animation-duration:4s;">
+<img src="imagens/features3.png" class="img_feature" data-aos="fade" data-aos-duration="800">
 <div class="content_features">
 	<h3>Automated Ad Selling</h3>
     <p>Media will be sold through real time bidding auctions, while traffic data will always be public and unforgeable. </p>
@@ -173,7 +179,7 @@ var WPURLS = {"siteurl":"paratii.video"};
   </div>
 
   <div class="doubleColumn">
-<img src="imagens/features4.png" class="img_feature" style="animation-name: fadeIn; animation-duration:5s;">
+<img src="imagens/features4.png" class="img_feature" data-aos="fade" data-aos-duration="1000">
 <div class="content_features">
 	<h3>Decentralised Governance</h3>
     <p>Paratii’s evolution is guided not by a private company, but by a community of people steered by a fluid reputation system.</p>
