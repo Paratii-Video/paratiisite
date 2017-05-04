@@ -1253,6 +1253,13 @@ height: 95px;
     line-height: 95px;
 }
 
+html.w-mod-js *[data-ix="slide-down"] {
+    opacity: 0;
+    -webkit-transform: translate(0px, -100px);
+    -ms-transform: translate(0px, -100px);
+    transform: translate(0px, -100px);
+}
+
 nav {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
