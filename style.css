@@ -1799,6 +1799,10 @@ line-height: 12px;
 	margin-bottom:20px;
 	}
 
+.nav-bar img {
+    max-height: 50%;
+    margin-top: -5px;
+}
 
 }
 
