@@ -1251,8 +1251,6 @@ display: inline;
 height: 95px;
     max-height: 95px;
     line-height: 95px;
-animation-name: fadeInDown;
-animation-duration: 2s;
 }
 
 nav {
