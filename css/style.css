@@ -2334,6 +2334,9 @@ position: relative;
     z-index: -1;
 }
 
+.scroll_section {
+padding-top:100px;
+}
 
 /*
 * First Headline
