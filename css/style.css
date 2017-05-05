@@ -2347,25 +2347,56 @@ padding-top:200px;
 }
 
 #every_paratii_scroll {
-padding-top:50px;
+padding-top:40px;
 }
 
 #scroll_features{
-padding-top:130px;
+padding-top:150px;
 }
 
 #text-17 hr {
+	margin-top:30px;
     margin-bottom: 20px;
 }	
 
 .subtitle_seeds {
-margin-bottom:0px !important;
+	
+margin-bottom:20px !important;
 }
 
 #scroll_amyr {
-padding-top:130px;
+padding-top:150px;
+}
+
+#text-14 hr {
+	margin-top:30px;
+    margin-bottom: 20px;
 }
 	
+#gifs_scroll {
+padding-top:70px;
+}
+
+#team_scroll {
+padding-top:70px;	
+}
+
+.at-column {
+padding:0px 10px;
+}
+
+.at-user__avatar {
+margin: 0px auto 0px auto;
+}
+
+#text-15 hr {
+margin-bottom: 0px;
+}
+
+.at-social {
+margin-bottom:0px;
+}
+
 /*
 * First Headline
 */
