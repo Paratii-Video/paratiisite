@@ -2336,9 +2336,36 @@ position: relative;
 
 .scroll_section {
 padding-top:100px;
-padding-bottom:100px;
 }
 
+#first_scroll {
+padding-top:0px;
+}
+
+#white_paper_scroll {
+padding-top:200px;
+}
+
+#every_paratii_scroll {
+padding-top:50px;
+}
+
+#scroll_features{
+padding-top:130px;
+}
+
+#text-17 hr {
+    margin-bottom: 20px;
+}	
+
+.subtitle_seeds {
+margin-bottom:0px !important;
+}
+
+#scroll_amyr {
+padding-top:130px;
+}
+	
 /*
 * First Headline
 */
@@ -2747,7 +2774,7 @@ display: none;
 
 .seeds_text {
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 100px;
     width: 35%;
     color: #fff;
