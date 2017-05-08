@@ -2709,35 +2709,35 @@ width: 150px;
 }
 
 #img_feature1 {
-background-image: url("imagens/features1_back.png");
+background-image: url("../imagens/features1_back.png");
 }
 
 #img_feature1:hover {
-background-image: url("imagens/features1_colorida.png");
+background-image: url("../imagens/features1_colorida.png");
 }
 
 #img_feature2 {
-background-image: url("imagens/features2_back.png");
+background-image: url("../imagens/features2_back.png");
 }
 
 #img_feature2:hover {
-background-image: url("imagens/features2_colorida.png");
+background-image: url("../imagens/features2_colorida.png");
 }
 
 #img_feature3 {
-background-image: url("imagens/features3_back.png");
+background-image: url("../imagens/features3_back.png");
 }
 
 #img_feature3:hover {
-background-image: url("imagens/features3_colorida.png");
+background-image: url("../imagens/features3_colorida.png");
 }
 
 #img_feature4 {
-background-image: url("imagens/features4_back.png");
+background-image: url("../imagens/features4_back.png");
 }
 
 #img_feature4:hover {
-background-image: url("imagens/features4_colorida.png");
+background-image: url("../imagens/features4_colorida.png");
 }
 
 .content_features {
