@@ -3416,6 +3416,10 @@ display: none;
 #text-22 img {
 display: none;
 }
+	
+#grande_gif_section {
+display: none;
+}
 
 #text-16 h2 { 
 padding-top:20px;
@@ -3633,11 +3637,6 @@ margin-bottom: 40px !important;
     box-shadow: none;
 }
 
-.doubleColumn img {
-     width: 200px;
-    box-shadow: none;
-}
-
 .img_feature {
     display: block;
     float: none;
@@ -3646,8 +3645,6 @@ margin-bottom: 40px !important;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
-    border-radius: 200px;
 }
 
 .content_features {
