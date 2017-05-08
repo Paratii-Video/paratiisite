@@ -2885,8 +2885,7 @@ color: #fff;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 margin-bottom: 50px;
-background-color: #fff;
-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
+background-color: #fafafa;
 }
 
 .at-grid[data-column="1"] .at-column {
@@ -2947,7 +2946,7 @@ background-color: #fafafa;
 .at-column {
   z-index: 0;
   position: relative;
-  background: #FFF;
+  background: #fafafa;
   padding: 10px;
 }
 .at-column:before {
@@ -3637,13 +3636,7 @@ margin-bottom: 40px !important;
     margin-bottom: 0px;
     box-shadow: none;
 }
-	
-.mobile_fix_features	{
-    background-color: #fff;
-    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
-    border-radius: 7px;
-}	
-
+		
 .img_feature {
     display: block;
     float: none;
@@ -3807,7 +3800,6 @@ margin: 0 auto 60px auto;
 .at-grid {
     margin-bottom: 100px;
     margin-top: 70px;
-border-radius: 7px;
 }
 
 #text-29.widget.widget_text {
