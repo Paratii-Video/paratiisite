@@ -27,7 +27,7 @@ body {
     font-family: 'Roboto', sans-serif;
 background-color: #f2f2f2;
     max-width: 1800px;
-    margin: 0 auto;
+    margin: 0 auto !important;
     font-size: 14px;
     line-height: 24px;
     color: #666666;
