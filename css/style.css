@@ -2335,7 +2335,7 @@ position: relative;
 }
 
 .section {
-padding-top:150px;
+padding-top:95px;
 }
 
 #first_scroll {
@@ -2348,6 +2348,22 @@ padding-top:200px;
 
 #every_paratii_scroll {
 padding-top:40px;
+}
+
+#scroll_features{
+margin-top:150px;
+}
+
+#scroll_amyr {
+margin-top:150px;
+}
+	
+#gifs_scroll {
+padding-top:70px;
+}
+
+#team_scroll {
+padding-top:70px;	
 }
 
 
