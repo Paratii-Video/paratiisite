@@ -29,14 +29,6 @@ var WPURLS = {"siteurl":"paratii.video"};
 <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
 <script type="text/javascript" src="js/jquery.fullPage.js"></script>
 
-<script>
-jQuery(document).ready(function ($) {
-	$('#fullpage').fullpage({
-		paddingTop:'100px',
-});
-});
-</script>
-
 <meta name="google-site-verification" content="5wnnvHecRN6YCO9MzHYLpKoUP_bILxd6yPmeO2fK420"/>
 <link rel="icon" href="imagens/cropped-logo_cor_simbolo-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="imagens/cropped-logo_cor_simbolo-180x180.png" />
@@ -466,7 +458,13 @@ jQuery(document).ready(function ($) {
 <script type='text/javascript' src='js/pace.min.js?ver=4.4.9'></script>
 <script type='text/javascript' src='js/bi-execute.js?ver=4.4.9'></script>
 
-	<script>
+<script>
+jQuery(document).ready(function ($) {
+	$('#fullpage').fullpage();
+});
+</script>
+	
+<script>
 AOS.init();
 </script>
 		<script type="text/javascript">
