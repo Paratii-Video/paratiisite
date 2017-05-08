@@ -2780,6 +2780,7 @@ width: 65%;
 
 #text-17.widget.widget_text {
 margin-bottom:100px;
+padding-top: 60px;
 }
 
 
@@ -2833,6 +2834,7 @@ font-style: normal;
 
 #text-14.widget.widget_text {
 margin-bottom:100px;
+padding-top: 60px;
 }
 
 #text-14 img {
@@ -2863,6 +2865,10 @@ padding-right: 10%;
 
 #text-15 h2 {
 font-weight: 300;
+}
+
+#text-15.widget.widget_text {
+padding-top: 60px;
 }
 
 #text-15:hover a {
