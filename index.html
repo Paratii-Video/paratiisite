@@ -25,22 +25,7 @@ var WPURLS = {"siteurl":"paratii.video"};
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type='text/javascript' src='js/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript' src='js/aos.js'></script>
-<script type="text/javascript" src="js/scrolloverflow.min.js"></script>
-<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
 	
-<script>
-jQuery(document).ready(function ($) {
-	$('#content').fullpage({
-		scrollOverflow: true,
-		verticalCentered: false,
-	});
-});
-</script>
-	
-<script>
-AOS.init();
-</script>
-
 <meta name="google-site-verification" content="5wnnvHecRN6YCO9MzHYLpKoUP_bILxd6yPmeO2fK420"/>
 <link rel="icon" href="imagens/cropped-logo_cor_simbolo-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="imagens/cropped-logo_cor_simbolo-180x180.png" />
@@ -169,7 +154,7 @@ AOS.init();
 	
 <div class="doubleColumns">
 	
-  <div class="doubleColumn animated fadeIn" style="animation-delay: 500ms;">
+  <div class="doubleColumn" data-aos="fade" data-aos-duration="700" data-aos-easing="ease-in">
 <img src="" class="img_feature" id="img_feature1">
 <div class="content_features">
 	<h3>Collective Curation </h3>
@@ -177,7 +162,7 @@ AOS.init();
 </div>
   </div>
 
-  <div class="doubleColumn animated fadeIn" style="animation-delay: 1000ms;">
+  <div class="doubleColumn" data-aos="fade" data-aos-duration="700" data-aos-delay="700" data-aos-easing="ease-in">
 <img src="" class="img_feature" id="img_feature2">
 <div class="content_features">
 	<h3>Peer-to-peer streaming</h3>
@@ -190,7 +175,7 @@ AOS.init();
 
 <div class="doubleColumns">
 	
-  <div class="doubleColumn animated fadeIn" style="animation-delay: 1500ms;">
+  <div class="doubleColumn" data-aos="fade" data-aos-duration="700" data-aos-delay="1300" data-aos-easing="ease-in">
 <img src="" class="img_feature" id="img_feature3">
 <div class="content_features">
 	<h3>Automated Ad Selling</h3>
@@ -198,7 +183,7 @@ AOS.init();
 </div>
   </div>
 
-  <div class="doubleColumn animated fadeIn" style="animation-delay: 2000ms;">
+  <div class="doubleColumn" data-aos="fade" data-aos-duration="700" data-aos-delay="1900" data-aos-easing="ease-in">
 <img src="" class="img_feature" id="img_feature4">
 <div class="content_features">
 	<h3>Decentralised Governance</h3>
@@ -480,7 +465,11 @@ AOS.init();
 <script type='text/javascript' src='js/jquery.scrollbar.min.js?ver=4.4.9'></script>
 <script type='text/javascript' src='js/pace.min.js?ver=4.4.9'></script>
 <script type='text/javascript' src='js/bi-execute.js?ver=4.4.9'></script>
-	
+
+<script>
+AOS.init();
+</script>
+
 		<script type="text/javascript">
 			jQuery(document).ready(function ($) {
 				if ( $(window).width() >= 767 ) {
