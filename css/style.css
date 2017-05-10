@@ -3847,13 +3847,13 @@ margin-top: 100px;
 /*How it Works*/
 
 #video-background {
-  position: absolute;
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto; 
-  height: auto;
-max-width:1800px;
-  z-index: 1;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    max-width: 1800px;
+    z-index: 1;
 }
