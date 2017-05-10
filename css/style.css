@@ -979,7 +979,7 @@ section, footer {
     padding: 0;
 }
 
-.fullscreen {
+- {
     height: 100vh;
 }
 
@@ -3853,7 +3853,7 @@ margin-top: 100px;
   bottom: 0;
   left: 0;
   overflow: hidden;
-  z-index: -100;
+  z-index: 1;
     &::before {
         content: "";
         position: absolute;
@@ -3869,9 +3869,13 @@ margin-top: 100px;
 .fullscreen-bg__video {
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
+max-width: 1800px;
+    display: block;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
 }
 
 @media (min-aspect-ratio: 16/9) {
