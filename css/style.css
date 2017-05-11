@@ -3869,3 +3869,24 @@ nav#site-navigation2 {
     background-size: 1800px;
     background-repeat: no-repeat;
 }
+
+#text-1 {
+text-align: center;
+    margin-top: 100px;
+}
+
+#text-1 h1 {
+    text-align: left;
+    font-size: 40px;
+    color: #7D70FF;
+    line-height: 50px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+#text-1 p {
+    margin-top: 30px;
+    color: #9B9B9B;
+    font-weight: 300;
+    font-size: 20px;
+}
