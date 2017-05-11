@@ -36,7 +36,6 @@ var WPURLS = {"siteurl":"paratii.video"};
 <body class="home page-template page-template-page-templates page-template-template-home page-template-page-templatestemplate-home-php page page-id-2088 wp-custom-logo group-blog has-sidebar-right">
 <div id="page" class="site">
 	
-	<div id="header_fundo_azul">
 	<header id="masthead" class="site-header" role="banner">
 		<div class="nav-container">
 			<nav id="site-navigation2" class="main-navigation" role="navigation">
@@ -67,9 +66,6 @@ var WPURLS = {"siteurl":"paratii.video"};
 			</nav><!-- #site-navigation -->
 		</div>
 	</header><!-- #masthead -->
-	</div> <!-- #header_fundo_azul -->
-	
-	
 	
 	
 	<div class="bi-main-overlay"></div> 	
@@ -84,14 +80,11 @@ var WPURLS = {"siteurl":"paratii.video"};
 </video>
 				
 				
-				<div class="section" id="first_scroll"><div id="text-1" class="widget widget_text"><div class="textwidget"><h2 class="animated fadeInDown" style="animation-delay: 1800ms;">Conscious video distribution is all about</h2> 
+				<div class="section" id="how_it_works_title"><div id="text-1" class="widget widget_text"><div class="textwidget"><h2 class="animated fadeInDown" style="animation-delay: 1800ms;">Conscious video distribution is all about</h2> 
 <p class="animated fadeInDown" style="animation-delay: 1800ms;">leveraging the edgiest in distributed ledger technologies, cryptonomics and business architecture.</p> 
 
 
-</div></div>
-		<div class="section" id="grande_gif_section"><div id="text-22" class="widget widget_text"><div class="textwidget"><img src="imagens/Grande_noAlpha.gif"></div></div></div>
-
-
+					</div></div></div>
 
 
 <div class="section fp-auto-height" id="section_footer">		
@@ -152,7 +145,7 @@ var WPURLS = {"siteurl":"paratii.video"};
 				
 				
 				
-				
+								
 </div><!-- #main -->
 </section>
 		
@@ -166,6 +159,20 @@ var WPURLS = {"siteurl":"paratii.video"};
 <script type='text/javascript' src='js/pace.min.js?ver=4.4.9'></script>
 <script type='text/javascript' src='js/bi-execute.js?ver=4.4.9'></script>
 
+<script>
+var t = $('#how_it_works_title').offset().top - 100;
+
+jQuery(document).scroll(function ($) {
+    var x = $(this).scrollTop(),
+        home = $('#video-background'),
+        about = $('#how_it_works_title'),
+
+    if (x >= home.offset().top && x < (home.offset().top + home.height())) {
+        $('#site-navigation2').css("background", "url(https://paratii.wpengine.com/wp-content/uploads/2017/04/header_final.jpg);");
+    }
+});
+</script>
+	
 <script>
 AOS.init();
 </script>
