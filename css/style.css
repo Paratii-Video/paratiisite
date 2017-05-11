@@ -3877,7 +3877,6 @@ margin-bottom:100px;
 }
 
 #text-1 h1 {
-    text-align: left;
     font-size: 40px;
     color: #7D70FF;
     line-height: 50px;
@@ -3886,7 +3885,7 @@ margin-bottom:100px;
 }
 
 #text-1 p {
-    margin-top: 20px;
+    margin-top: 0px;
     color: #9B9B9B;
     font-weight: 300;
     font-size: 20px;
