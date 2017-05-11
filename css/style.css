@@ -3872,7 +3872,8 @@ nav#site-navigation2 {
 
 #text-1 {
 text-align: center;
-    margin-top: 100px;
+margin-top: 100px;
+margin-bottom:100px;
 }
 
 #text-1 h1 {
@@ -3885,7 +3886,7 @@ text-align: center;
 }
 
 #text-1 p {
-    margin-top: 30px;
+    margin-top: 20px;
     color: #9B9B9B;
     font-weight: 300;
     font-size: 20px;
