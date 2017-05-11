@@ -3862,6 +3862,7 @@ margin-top: 100px;
     height: auto;
     max-width: 1800px;
     z-index: 1;
+	min-height: 670px;
 }
 
 nav#site-navigation2 {
