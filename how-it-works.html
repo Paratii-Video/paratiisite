@@ -165,7 +165,7 @@ var t = $('#how_it_works_title').offset().top - 100;
 jQuery(document).scroll(function ($) {
     var x = $(this).scrollTop(),
         home = $('#video-background'),
-        about = $('#how_it_works_title'),
+        about = $('#how_it_works_title');
 
     if (x >= home.offset().top && x < (home.offset().top + home.height())) {
         $('#site-navigation2').css("background", "url(https://paratii.wpengine.com/wp-content/uploads/2017/04/header_final.jpg);");
