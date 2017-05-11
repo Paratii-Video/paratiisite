@@ -160,20 +160,16 @@ var WPURLS = {"siteurl":"paratii.video"};
 <script type='text/javascript' src='js/bi-execute.js?ver=4.4.9'></script>
 
 <script>
-$(document).ready(function(){
-var t = $('#how_it_works_title').offset().top - 100;
-});
+var t = jQuery('#how_it_works_title').offset().top - 100;
 
 jQuery(document).ready(function ($) {
-    $(window).scroll(function() {
-    var x = $(this).scrollTop(),
-        home = $('#video-background'),
-        about = $('#how_it_works_title');
-
-    if (x >= home.offset().top && x < (home.offset().top + home.height())) {
-        $('nav#site-navigation2').css("background", "url(https://paratii.wpengine.com/wp-content/uploads/2017/04/header_final.jpg);");
-    }
-});
+$(document).scroll(function(){
+    if($(this).scrollTop() > t)
+    {   
+        $('nav#site-navigation2').css({"background":"url(https://paratii.wpengine.com/wp-content/uploads/2017/04/header_final.jpg)"});
+    } 
+});	
+	
 });
 </script>
 	
