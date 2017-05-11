@@ -1693,11 +1693,7 @@ nav#site-navigation2 {
 background-size: 991px;
 height: 60px;
 }
-	
-#header_fundo_azul {
-background-size: 991px;
-height: 60px;
-}
+
 
 .nav-bar {
     height: 60px;
@@ -3856,12 +3852,6 @@ margin-top: 100px;
 
 /*How it Works*/
 
-#header_fundo_azul {
-    background: url(https://paratii.wpengine.com/wp-content/uploads/2017/04/header_final.jpg);
-    background-size: 1800px;
-    background-repeat: no-repeat;	
-}
-
 #video-background {
     position: relative;
     right: 0;
@@ -3871,7 +3861,7 @@ margin-top: 100px;
     min-height: 100%;
     height: auto;
     max-width: 1800px;
-    z-index: 2;
+    z-index: 1;
 }
 
 nav#site-navigation2 {
