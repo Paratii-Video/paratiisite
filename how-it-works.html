@@ -168,6 +168,10 @@ $(document).scroll(function(){
     {   
         $('nav#site-navigation2').css({"background":"url(https://paratii.wpengine.com/wp-content/uploads/2017/04/header_final.jpg)"});
     } 
+	if($(this).scrollTop() < t)
+    {   
+        $('nav#site-navigation2').css({"background":"transparent"});
+    } 
 });	
 	
 });
