@@ -181,10 +181,8 @@ $(document).scroll(function(){
 <script>
 jQuery(document).ready(function ($) {	
 $(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-
-    if (scroll >= 10) {
-        $(".shape").addClass(".active");
+    if($(this).scrollTop() > 10){
+        $(".shape").addClass("active");
     } 
 });	
 });
