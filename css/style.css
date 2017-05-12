@@ -98,10 +98,6 @@ img {
     border: 0;
 }
 
-svg:not(:root) {
-    overflow: hidden;
-}
-
 figure {
     padding: 1em;
 }
@@ -3927,7 +3923,7 @@ text-align: center;
 }
 
 svg {
-overflow: visible;
+overflow: visible !important;
 }
 
 .svg-wrapper {
