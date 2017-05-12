@@ -3923,3 +3923,8 @@ text-align: center;
     height: auto;
     color: #fff;
 }
+
+.svg-wrapper {
+  position: relative;
+  width: 200px;  
+}
