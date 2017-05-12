@@ -3899,15 +3899,15 @@ text-align: center;
 }
 
 .shape {
-  stroke-dasharray: 140 540;
-  stroke-dashoffset: -235;
+  stroke-dasharray: 50 540;
+  stroke-dashoffset: -122;
   stroke-width: 2px;
   fill: transparent;
   stroke: #fff;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
 
-.svg-wrapper:hover .shape {
+.active {
   stroke-width: 2px;
   stroke-dashoffset: 2000;
   stroke-dasharray: 1000;
@@ -3922,8 +3922,12 @@ text-align: center;
     width: 100px;
     height: 10px;
     color: #fff;
-    margin-top: -30px;
+    margin-top: -35px;
     letter-spacing:2px;
+}
+
+svg {
+overflow: visible;
 }
 
 .svg-wrapper {
