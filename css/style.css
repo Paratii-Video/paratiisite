@@ -3906,22 +3906,24 @@ text-align: center;
   stroke: #fff;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
-.active {
+
+.svg-wrapper:hover .shape {
   stroke-width: 2px;
   stroke-dashoffset: 2000;
   stroke-dasharray: 1000;
 }
 
 .text_support {
-  position: relative;
-text-align: center;
-    border-radius: 30px;
+    position: relative;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 10px;
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 10px;
     color: #fff;
+    margin-top: -30px;
+    letter-spacing:2px;
 }
 
 .svg-wrapper {
