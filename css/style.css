@@ -3874,8 +3874,13 @@ border: none;
 
 #text-1 {
 text-align: center;
-margin-top: 100px;
-margin-bottom:100px;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-top: 20%;
 }
 
 #text-1 h1 {
