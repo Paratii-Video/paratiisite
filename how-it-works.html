@@ -56,8 +56,10 @@ var WPURLS = {"siteurl":"paratii.video"};
 </ul></div>							</div>
 							<!--end of menu module-->
 							<div class="module widget-handle search-widget-handle left hidden-xs hidden-sm">
-								<a class="btn btn-lg btn-white" id="support_btn" href="https://paratii.wpengine.com/wp-content/uploads/2017/03/paratii-whitepaper-16-mar.pdf">SUPPORT</a>
-
+								  <svg height="60" width="200px" xmlns="http://www.w3.org/2000/svg">
+								  <rect class="shape" height="60" width="200" x="0" y="0" rx="30" ry="30"/>
+    								  <a class="btn btn-lg btn-white" id="support_btn" href="https://paratii.wpengine.com/wp-content/uploads/2017/03/paratii-whitepaper-16-mar.pdf">SUPPORT</a>
+ 								   </svg>
 						</div>
 						<!--end of module group-->
 					</div>
@@ -77,14 +79,13 @@ var WPURLS = {"siteurl":"paratii.video"};
 				
 				    <video controls autoplay loop id="video-background" poster="imagens/poster.jpg" preload="auto">
   <source src="imagens/video.mp4" type="video/mp4">
-</video>
-				
+					    
 				<div class="section" id="how_it_works_title"><div id="text-1" class="widget widget_text"><div class="textwidget"><h1 class="animated fadeInDown" style="animation-delay: 1800ms;">Conscious video distribution is all about</h1> 
-<p class="animated fadeInDown" style="animation-delay: 1800ms;">leveraging the edgiest in distributed ledger technologies, cryptonomics and business architecture.</p> 
-					<br><br><br><br>
-
-					</div></div></div>
-
+<p class="animated fadeInDown" style="animation-delay: 1800ms;">leveraging the edgiest in distributed ledger technologies, cryptonomics and business architecture.</p> 	    
+			</div></div></div>
+					    
+</video>
+			
 
 <div class="section fp-auto-height" id="section_footer">		
 <div class="footer-callout">
@@ -175,6 +176,19 @@ $(document).scroll(function(){
 	
 });
 </script>
+	
+<script>
+jQuery(document).ready(function ($) {	
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 10) {
+        $(".shape").addClass(".active");
+    } 
+});	
+});
+</script>
+	
 	
 <script>
 AOS.init();
