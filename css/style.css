@@ -3869,6 +3869,7 @@ nav#site-navigation2 {
     background: transparent;
     background-size: 1800px;
     background-repeat: no-repeat;
+border: none;
 }
 
 #text-1 {
@@ -3879,7 +3880,7 @@ margin-bottom:100px;
 
 #text-1 h1 {
     font-size: 40px;
-    color: #7D70FF;
+    color: #fff;
     line-height: 50px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
@@ -3887,7 +3888,21 @@ margin-bottom:100px;
 
 #text-1 p {
     margin-top: 0px;
-    color: #9B9B9B;
+    color: #fff;
     font-weight: 300;
     font-size: 20px;
+}
+
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -235;
+  stroke-width: 2px;
+  fill: transparent;
+  stroke: #fff;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.active {
+  stroke-width: 2px;
+  stroke-dashoffset: 2000;
+  stroke-dasharray: 1000;
 }
