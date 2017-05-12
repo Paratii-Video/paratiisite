@@ -3903,7 +3903,7 @@ text-align: center;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
 
-.active {
+.shape.active {
   stroke-width: 2px;
   stroke-dashoffset: 2000;
   stroke-dasharray: 1000;
