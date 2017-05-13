@@ -3904,12 +3904,6 @@ text-align: center;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
 
-.svg-wrapper:hover .shape {
-  stroke-width: 2px;
-  stroke-dashoffset: 2000;
-  stroke-dasharray: 1000;
-}
-
 .text_support {
     position: relative;
     text-align: center;
@@ -3923,11 +3917,17 @@ text-align: center;
     letter-spacing:2px;
 }
 
+#link_support {
+margin-top: -6px; 
+height: 10px; 
+color: #fff;
+}
+
 svg {
 overflow: visible !important;
 }
 
 .svg-wrapper {
   position: relative;
-  width: 200px;  
+  width: 100px;  
 }
