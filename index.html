@@ -473,6 +473,22 @@ var WPURLS = {"siteurl":"paratii.video"};
 <script>
 AOS.init();
 </script>
+	
+<script>
+jQuery(document).ready(function ($) {
+$(document).scroll(function(){
+    if($(this).scrollTop() > 10)
+    {   
+        $('.shape').css({"stroke-width":"2px"});
+ 	 $('.shape').css({"stroke-dashoffset":"2000"});
+	  $('.shape').css({"stroke-dasharray":"1000"});
+    } 
+	
+});	
+	
+});
+</script>
+	
 
 		<script type="text/javascript">
 			jQuery(document).ready(function ($) {
