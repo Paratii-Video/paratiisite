@@ -3511,18 +3511,18 @@ margin-top: 50px;
 
 .seeds_title {
     position: absolute;
-    top: 9%;
+    top: 7%;
     left: 0;
     right: 0;
 text-align: center;
     width: 80%;
-line-height: 12px;
+line-height: 20px;
 display: block;
     margin: auto;
 }
 
 .seeds_text {
-top: 25%;
+top: 22%;
     left: 0;
     right: 0;
     width: 100%;
@@ -3902,7 +3902,7 @@ text-align: center;
 
 .shape {
   stroke-dasharray: 50 173;
-  stroke-dashoffset: -129;
+  stroke-dashoffset: 94;
   stroke-width: 2px;
   fill: transparent;
   stroke: #fff;
