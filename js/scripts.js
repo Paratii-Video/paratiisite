@@ -133,6 +133,3 @@
 	
 	
 })(jQuery);
-
-/*
- * Resetting testimonial parallax height
