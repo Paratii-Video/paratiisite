@@ -2442,6 +2442,10 @@ height: 50px;
     margin-top: 15%;
 }
 
+#video_player {
+width: 100%;
+}
+
 /*
 * Moutain
 */
