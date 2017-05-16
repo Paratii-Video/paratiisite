@@ -1666,6 +1666,7 @@ color: #fff;
     background-color: #45ccea;
         margin-bottom: 20px;
     text-align: center;
+	margin-top: -50px;
     }
 
     .nav-bar .module-group .module {
@@ -1679,6 +1680,7 @@ color: #fff;
     display: block;
 margin-bottom: 0px;
     padding-top: 5px;
+margin-bottom: 15px;
 }
 
 nav#site-navigation {
