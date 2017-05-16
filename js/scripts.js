@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+;(function ($) {
 
 	var cl_nav,
 			cl_navOuterHeight;
@@ -107,10 +107,32 @@ jQuery(document).ready(function ($) {
 			e.stopPropagation();
 		});
 
+	/* Function To
+	 * keep menu fixed
+	 **/
+	function updateNav() {
+		var scroll = $(window).scrollTop();
+		var window_w = jQuery(window).width();
 
+		if ( window_w < 992 ) {
+			return;
+		}
 
+		if ( scroll > cl_navOuterHeight ) {
+			cl_nav.addClass('outOfSight');
+		}
 
-	});
+		if ( $(window).scrollTop() > (cl_navOuterHeight + 65) ) {//if href = #element id
+			cl_nav.addClass('fixed scrolled');
+		}
 
+		if ( $(window).scrollTop() == 0 ) {
+			cl_nav.removeClass('fixed scrolled outOfSight');
+		}
+	}
+	
+	
+})(jQuery);
 
-
+/*
+ * Resetting testimonial parallax height
