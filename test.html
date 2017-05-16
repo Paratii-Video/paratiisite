@@ -53,31 +53,6 @@ return " ";
 } 
 </script>
 	
-<script>
-	var e = document.getElementById("video_player");
-e.style.opacity = 0;
-
-var vid = document.getElementById("video_player");
-vid.oncanplaythrough = function() {
-    setTimeout(function() {
-        var e = document.getElementById('video_player');
-        fade(e);
-    }, 5000);
-};
-
-function fade(element) {
-    var op = 0;
-    var timer = setInterval(function() {
-        if (op >= 1) clearInterval(timer);
-        element.style.opacity = op;
-        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-        op += op * 0.1 || 0.1;
-    }, 50);
-}	
-</script>
-	
-	
-	
 </head>
 
 <body class="home page-template page-template-page-templates page-template-template-home page-template-page-templatestemplate-home-php page page-id-2088 wp-custom-logo group-blog has-sidebar-right">
@@ -527,6 +502,30 @@ $(document).scroll(function(){
 });	
 	
 });
+</script>
+	
+	
+	<script>
+	var e = document.getElementById("video_player");
+e.style.opacity = 0;
+
+var vid = document.getElementById("video_player");
+vid.oncanplaythrough = function() {
+    setTimeout(function() {
+        var e = document.getElementById('video_player');
+        fade(e);
+    }, 5000);
+};
+
+function fade(element) {
+    var op = 0;
+    var timer = setInterval(function() {
+        if (op >= 1) clearInterval(timer);
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op += op * 0.1 || 0.1;
+    }, 50);
+}	
 </script>
 	
 
