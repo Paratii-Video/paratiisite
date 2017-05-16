@@ -54,13 +54,9 @@ return " ";
 </script>
 	
 <script>
-jQuery(document).ready(function ($) {
-$(window).load(function () {
-    $(document.body).fadeIn(2000, function(){
-        ('#video_player').get(0).play();
-    });   
-});
-});
+setTimeout(function(){
+    document.getElementById("video_player").play();
+}, 5000);
 </script>
 	
 </head>
