@@ -54,11 +54,12 @@ return " ";
 </script>
 	
 <script>
-var video = document.getElementById("video_player");
-video.addEventListener("canplay", function() {
-  setTimeout(function() {
-    video.play();
-  }, 5000);
+jQuery(document).ready(function ($) {
+$(window).load(function () {
+    $(document.body).fadeIn(2000, function(){
+        ('#video_player').get(0).play();
+    });   
+});
 });
 </script>
 	
