@@ -54,13 +54,13 @@ return " ";
 </script>
 	
 <script>
-	var e = document.getElementById("myVideo");
+	var e = document.getElementById("video_player");
 e.style.opacity = 0;
 
-var vid = document.getElementById("myVideo");
+var vid = document.getElementById("video_player");
 vid.oncanplaythrough = function() {
     setTimeout(function() {
-        var e = document.getElementById('myVideo');
+        var e = document.getElementById('video_player');
         fade(e);
     }, 5000);
 };
