@@ -330,7 +330,7 @@ input[type="text"], input[type="search"], input[type="email"], input[type="tel"]
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 12px;
-    padding: 15px 35px;
+    padding: 15px 35px 15px 15px;
     background: #fff;
     border: solid 2px #efefef;
     width: auto;
@@ -338,6 +338,12 @@ input[type="text"], input[type="search"], input[type="email"], input[type="tel"]
     display: inline-block;
     margin: 0px;
     color: #888;
+}
+
+input,
+textarea,
+select {
+    outline: 0;
 }
 
 input[type="submit"] {
@@ -1321,6 +1327,7 @@ margin-top: 3px;
 
 .menu li a:hover {
     opacity: 1 !important;
+    text-decoration: none;
 }
 
 .menu > li {
@@ -2792,7 +2799,7 @@ width: 65%;
 
 
 #text-17.widget.widget_text {
-margin-bottom:80px;
+margin-bottom:30px;
 padding-top: 60px;
 }
 
@@ -2804,7 +2811,7 @@ padding-top: 60px;
 .image_seeds { 
    position: relative; 
 width: 100%;
-margin: 0px auto 100px auto;
+margin: 0px auto 30px auto;
 display:block;
 }
 
@@ -2825,14 +2832,14 @@ color:#fff;
 
 .seeds_title {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 100px;
     width: 35%;
     color: #fff;
-font-size: 30px;
+font-size: 35px;
 font-family: 'Roboto', sans-serif;
 font-weight: 300;
-    line-height: 25px;
+    line-height: 40px;
 }
 
 #br_amyr {
@@ -2846,7 +2853,7 @@ font-style: normal;
 }
 
 #text-14.widget.widget_text {
-margin-bottom:100px;
+margin-bottom:30px;
 padding-top: 60px;
 }
 
@@ -3380,7 +3387,7 @@ img.wp-smiley, img.emoji {
 
 .container.footer-inner {
 background-color: #fff;
-    padding: 50px 0px;
+    padding: 50px 0px 0px 0px;
     border-radius: 15px;
 }
 
