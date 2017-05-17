@@ -2446,6 +2446,8 @@ height: 50px;
 
 #video_player {
 width: 100%;
+box-shadow: -12px 11px 44px -10px rgba(0,0,0,0.45);
+border-radius: 10px 0px 0px 10px;
 }
 
 /*
@@ -3427,6 +3429,13 @@ display: none;
 #text-22 img {
 display: none;
 }
+
+#video_player {
+width: 100%;
+box-shadow: none;
+border-radius:0px;
+}
+	
 	
 #grande_gif_section {
 display: none;
