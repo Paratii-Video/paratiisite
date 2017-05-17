@@ -2376,6 +2376,11 @@ padding-top:70px;
 * First Headline
 */
 
+#first_scroll {
+    height: auto;
+    display: inline-block;
+}
+
 #text-24.widget.widget_text {
     width: 30%;
     margin-left: 7%;
@@ -2488,7 +2493,7 @@ font-weight:300;
 margin-bottom: 30px;
     padding-right: 20px;
     padding-left: 20px;
-padding-top: 50px;
+padding-top: 40px;
 }
 
 #text-16 h3 {
@@ -2523,7 +2528,7 @@ padding-right: 30%;
 
 #text-16.widget.widget_text {
     box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
-margin-top: 0px;
+margin-top: 100px;
     border-radius: 7px;
 padding-top:20px;
 margin-bottom: 100px;
@@ -2800,7 +2805,7 @@ width: 65%;
 
 #text-17.widget.widget_text {
 margin-bottom:30px;
-padding-top: 60px;
+padding-top: 0px;
 }
 
 
