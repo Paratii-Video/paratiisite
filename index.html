@@ -109,7 +109,7 @@ var WPURLS = {"siteurl":"paratii.video"};
 
 
 </div></div>
-		<div id="text-25" class="widget widget_text"><div class="textwidget"> <video loop autoplay muted class="animated fadeInRight" style="animation-delay: 1800ms;" id="video_player" poster="imagens/poster_player.png" preload="auto">
+		<div id="text-25" class="widget widget_text"><div class="textwidget"> <video loop autoplay muted class="animated fadeInRight" style="animation-delay: 1800ms;" class="video_player" id="video_player" poster="imagens/poster_player.png" preload="auto">
   <source src="http://paratii.wpengine.com/wp-content/uploads/2017/05/Paratii_UI_v3_mobile.mp4" type="video/mp4"></video><audio autoplay id="audio_player"><source src="imagens/paratii_player_audio.mp3" type="audio/mpeg"></audio></div></div></div>
 <div class="section" id="gifs_scroll"><div id="text-16" class="widget widget_text"><h2 class="widget-title">Disintermediated, <b>fair</b> and <b>transparent</b></h2>			<div class="textwidget"><p id="desc3">Removing intermediaries between content producers and common users suddenly sets free a lot of money that can be redistributed to them.</p>
 
@@ -470,6 +470,18 @@ $(document).scroll(function(){
 	
 });	
 	
+});
+</script>
+	
+<script>
+// get the video
+var video = document.querySelector('video_player');
+// use the whole window and a *named function*
+window.addEventListener('touchstart', function videoStart() {
+  video.play();
+  console.log('first touch');
+  // remove from the window and call the function we are removing
+  this.removeEventListener('touchstart', videoStart);
 });
 </script>
 
