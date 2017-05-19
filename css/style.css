@@ -1158,16 +1158,30 @@ background-image: url(https://paratii.wpengine.com/wp-content/uploads/2017/03/su
 border: solid 0px #7D70FF;
 background-size: 160px;
 background-position: 0 0;
-transition: background-image 1s;
+transition: color 1s, border-width 0.5s;
 background-repeat: no-repeat;
+z-index:1;
 }
 
 #subscribe-button:hover {
-transform-origin:left;
-background-image: none;
 text-decoration: none;
 border-width: 2px;
 color: #7D70FF;
+}
+
+#subscribe-background {
+position:absolute;
+  height: 50px;
+  width: 360px;
+  background: linear-gradient(to right, rgba(250,250,250,1) 0%,rgba(250,250,250,1) 80%,rgba(250,250,250,0.5) 100%);
+  margin-left: -260px
+  transition: margin-left 2s ease;
+  position: absolute;
+z-index: 2;
+}
+
+#subscribe-background: hover {
+  margin-left: 0px;
 }
 
 .btn_white_paper {
