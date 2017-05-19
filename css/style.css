@@ -1154,15 +1154,11 @@ color: #fff;
 text-indent:initial;
 opacity: 1;
 display: inline-block;
-border: none;
 background: url(https://paratii.wpengine.com/wp-content/uploads/2017/03/subscribe.jpg);
-background-size: 100%;
 border: solid 0px #7D70FF;
 background-size: 160px;
 background-position: 0 0;
-transition: background-position 0.8s;
-transition: border-width 0.8s;	
-transition: color 0.5s;
+transition: background-position 0.8s, border-width 0.8s, color 0.5s;
 background-repeat: no-repeat;
 }
 
