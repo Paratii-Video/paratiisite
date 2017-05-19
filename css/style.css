@@ -1155,35 +1155,20 @@ padding: 0px 30px;
 color: #fff;
 text-indent:initial;
 opacity: 1;
-display: inline-block;
-background-image: url(https://paratii.wpengine.com/wp-content/uploads/2017/03/subscribe.jpg);
-border: solid 0px #7D70FF;
-background-size: 160px;
-background-position: 0 0;
-transition: color 1s, border-width 0.5s;
-background-repeat: no-repeat;
-z-index:1;
+    display: inline-block;
+    background-image: linear-gradient(to right, rgba(250,250,250,1) 0%,rgba(250,250,250,1) 80%,rgba(250,250,250,0.5) 100%), url(https://paratii.wpengine.com/wp-content/uploads/2017/03/subscribe.jpg);
+    border: solid 0px #7D70FF;
+    background-size: 260px, 160px;
+    background-position: -260 0, 0 0;
+    transition: color 1s, border-width 0.5s, background-position 1s ease;
+    background-repeat: no-repeat, no-repeat;
 }
 
 #subscribe-button:hover {
 text-decoration: none;
 border-width: 2px;
 color: #7D70FF;
-}
-
-#subscribe-background {
-position:absolute;
-  height: 60px;
-  width: 260px;
-  background: linear-gradient(to right, rgba(250,250,250,1) 0%,rgba(250,250,250,1) 80%,rgba(250,250,250,0.5) 100%);
-margin-left: -420px;
-  transition: margin-left 2s ease;
-  position: absolute;
-z-index: 2;
-}
-
-.email_submit_home:hover #subscribe-background {
-  margin-left: -160px;
+background-position: 0 0, 0 0;
 }
 
 .btn_white_paper {
