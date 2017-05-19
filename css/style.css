@@ -1147,20 +1147,30 @@ section, footer {
 }
 
 #subscribe-button {
-width: auto;
-    height: 50px;
-    padding: 0px 30px;
-    color: #fff;
+width: 160px;
+height: 50px;
+padding: 0px 30px;
+color: #fff;
 text-indent:initial;
-  opacity: 1;
-	display: inline-block;
+opacity: 1;
+display: inline-block;
 border: none;
-	background: url(https://paratii.wpengine.com/wp-content/uploads/2017/03/subscribe.jpg);
-    background-size: 100%;
+background: url(https://paratii.wpengine.com/wp-content/uploads/2017/03/subscribe.jpg);
+background-size: 100%;
+border: solid 0px #7D70FF;
+background-size: 160px;
+background-position: 0 0;
+transition: background-position 0.8s;
+transition: border-width 0.8s;	
+transition: color 0.5s;
+background-repeat: no-repeat;
 }
 
 #subscribe-button:hover {
-text-decoration: underline;
+  background-position: 160px 0;
+text-decoration: none;
+border-width: 2px;
+color: #7D70FF;
 }
 
 .btn_white_paper {
