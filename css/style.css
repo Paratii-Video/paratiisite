@@ -346,6 +346,10 @@ select {
     outline: 0;
 }
 
+input:focus {
+box-shadow: -7px 6px 10px -5px rgba(0,0,0,0.2);
+}
+
 input[type="submit"] {
     border-radius: 7px;
     color: #fff;
