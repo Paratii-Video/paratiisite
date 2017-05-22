@@ -118,17 +118,17 @@ var WPURLS = {"siteurl":"paratii.video"};
 <section id="pagewrap2">
 
 	<section id="content2">
-<img  class="personagens" src="imagens/Paratii_IconesSite2.gif">
+<img  class="personagens" id="icones2" src="imagens/Paratii_IconesSite2.gif">
 		<h3>Content Creator</h3>
 		<p>Earn more than anywhere else and decide if you want to display ads or not.</p>
 	</section>
 	<section id="middle2">
-<img class="personagens" src="imagens/Paratii_IconesSite3.gif">
+<img class="personagens" id="icones3" src="imagens/Paratii_IconesSite3.gif">
 		<h3>Advertiser</h3>
 		<p>Lower CPMs than wherever you’re used to buying. Even better: all of your budget is used to pay for media, instead of piling profits for countless intermediaries.</p>
 	</section>
 	<aside id="sidebar2">
-<img  class="personagens" src="imagens/Paratii_IconesSite1.gif">
+<img  class="personagens" id="icones1" src="imagens/Paratii_IconesSite1.gif">
 		<h3>Anyone</h3>
 		<p>The revolution will be streamed. Watch the world’s most inspiring content and get paid for interacting with it.</p>
 	</aside>
@@ -476,18 +476,45 @@ $(document).scroll(function(){
 </script>
 	
 <script>
-jQuery(document).ready(function ($) {	
+jQuery(document).ready(function ($) {
+	
 $(window).scroll(function() {
 
   var current = $(this).scrollTop(),
-  path = '//cdn.pbrd.co/images/5QABxgAp7.gif',
-  visible = $(".personagens").css('opacity') != 0;
+  path = '/imagens/Paratii_IconesSite1.gif',
+  visible = $("#icones1").css('opacity') != 0;
 
   if (current > 200) {
-  if (!visible) $(".personagens").attr('src', path).fadeTo(400,1);
+  if (!visible) $("#icones1").attr('src', path).fadeTo(400,1);
   }
-  else if (visible) $(".personagens").fadeTo(0,0);
+  else if (visible) $("#icones1").fadeTo(0,0);
 });
+
+$(window).scroll(function() {
+
+  var current = $(this).scrollTop(),
+  path = '/imagens/Paratii_IconesSite2.gif',
+  visible = $("#icones2").css('opacity') != 0;
+
+  if (current > 200) {
+  if (!visible) $("#icones2").attr('src', path).fadeTo(400,1);
+  }
+  else if (visible) $("#icones2").fadeTo(0,0);
+});
+	
+$(window).scroll(function() {
+
+  var current = $(this).scrollTop(),
+  path = '/imagens/Paratii_IconesSite3.gif',
+  visible = $("#icones3").css('opacity') != 0;
+
+  if (current > 200) {
+  if (!visible) $("#icones3").attr('src', path).fadeTo(400,1);
+  }
+  else if (visible) $("#icones3").fadeTo(0,0);
+});
+
+	
 });	
 </script>
 	
