@@ -2499,6 +2499,10 @@ box-shadow: -12px 11px 44px -10px rgba(0,0,0,0.45);
 border-radius: 10px 0px 0px 10px;
 }
 
+#video_player_mobile {
+display:none;
+}
+
 /*
 * Moutain
 */
@@ -2797,35 +2801,35 @@ width: 150px;
 }
 
 #img_feature1 {
-background-image: url("/imagens/features1_back.png");
+background-image: url("/imagens/Paratii_Icone1.png");
 }
 
 #img_feature1:hover {
-background-image: url("/imagens/features1_colorida.png"),url("/imagens/features1_back.png");
+background-image: url("/imagens/Paratii_Icone1_colorido2.png"),url("/imagens/Paratii_Icone1.png");
 }
 
 #img_feature2 {
-background-image: url("/imagens/features2_back.png");
+background-image: url("/imagens/Paratii_Icone2.png");
 }
 
 #img_feature2:hover {
-background-image: url("/imagens/features2_colorida.png"),url("/imagens/features2_back.png");
+background-image: url("/imagens/Paratii_Icone2_colorido2.png"),url("/imagens/Paratii_Icone2.png");
 }
 
 #img_feature3 {
-background-image: url("/imagens/features3_back.png");
+background-image: url("/imagens/Paratii_Icone3.png");
 }
 
 #img_feature3:hover {
-background-image: url("/imagens/features3_colorida.png"),url("/imagens/features3_back.png");
+background-image: url("/imagens/Paratii_Icone2_colorido3.png"),url("/imagens/Paratii_Icone3.png");
 }
 
 #img_feature4 {
-background-image: url("/imagens/features4_back.png");
+background-image: url("/imagens/Paratii_Icone4.png");
 }
 
 #img_feature4:hover {
-background-image: url("/imagens/features4_colorida.png"),url("/imagens/features4_back.png");
+background-image: url("/imagens/Paratii_Icone2_colorido4.png"),url("/imagens/Paratii_Icone4.png");
 }
 
 .content_features {
@@ -3480,6 +3484,11 @@ display: none;
 }
 
 #video_player {
+display: none;
+}
+	
+#video_player_mobile {
+display:block;
 width: 100%;
 box-shadow: none;
 border-radius:0px;
