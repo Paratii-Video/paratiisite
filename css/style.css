@@ -2802,6 +2802,8 @@ width: 150px;
 
 #img_feature1 {
 background-image: url("/imagens/Paratii_Icone1.png");
+background-size: 150px;
+background-repeat: no-repeat;
 }
 
 #img_feature1:hover {
@@ -2810,6 +2812,8 @@ background-image: url("/imagens/Paratii_Icone1_colorido2.png"),url("/imagens/Par
 
 #img_feature2 {
 background-image: url("/imagens/Paratii_Icone2.png");
+background-size: 150px;
+background-repeat: no-repeat;
 }
 
 #img_feature2:hover {
@@ -2818,18 +2822,22 @@ background-image: url("/imagens/Paratii_Icone2_colorido2.png"),url("/imagens/Par
 
 #img_feature3 {
 background-image: url("/imagens/Paratii_Icone3.png");
+background-size: 150px;
+background-repeat: no-repeat;
 }
 
 #img_feature3:hover {
-background-image: url("/imagens/Paratii_Icone2_colorido3.png"),url("/imagens/Paratii_Icone3.png");
+background-image: url("/imagens/Paratii_Icone3_colorido2.png"),url("/imagens/Paratii_Icone3.png");
 }
 
 #img_feature4 {
 background-image: url("/imagens/Paratii_Icone4.png");
+background-size: 150px;
+background-repeat: no-repeat;
 }
 
 #img_feature4:hover {
-background-image: url("/imagens/Paratii_Icone2_colorido4.png"),url("/imagens/Paratii_Icone4.png");
+background-image: url("/imagens/Paratii_Icone4_colorido2.png"),url("/imagens/Paratii_Icone4.png");
 }
 
 .content_features {
