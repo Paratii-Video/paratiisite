@@ -3125,6 +3125,7 @@ font-size: 16px;
 box-shadow: none;
 padding-top: 60px;
     margin-bottom: 80px;
+	width:100%;
 }
 
 .el-steps.is-horizontal {
@@ -3667,7 +3668,6 @@ margin-bottom: 40px;
 box-shadow: none;
 padding-top:0px;
 margin-bottom: 40px;
-width: 100%;
 }
 
 .el-steps.is-horizontal {
