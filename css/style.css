@@ -2777,6 +2777,12 @@ font-family: 'Roboto', sans-serif;
 margin-bottom: 10px;
 }
 
+.doubleColumns {
+width: 90%;
+margin: 0 auto;
+padding-left: 20px;
+}
+
 .doubleColumn {
     background: #fafafa;
     display: table-cell;
