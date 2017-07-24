@@ -421,7 +421,6 @@ a:hover, a:active {
 
 
 header#masthead {
-    top: 0;
     width: 100%;
     z-index: 999;
     left: 0;
@@ -437,6 +436,9 @@ height: 90px;
     top: -100px;
 }
 
+.nav-down {
+top: 0;
+}
 
 .main-container {
     clear: both;
