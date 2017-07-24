@@ -2499,9 +2499,6 @@ box-shadow: -12px 11px 44px -10px rgba(0,0,0,0.45);
 border-radius: 10px 0px 0px 10px;
 }
 
-#video_player_mobile {
-display:none;
-}
 
 /*
 * Moutain
@@ -3512,17 +3509,12 @@ display: none;
 }
 
 #video_player {
-display: none;
-}
-	
-#video_player_mobile {
 display:block;
 width: 100%;
 box-shadow: none;
 border-radius:0px;
 }
-	
-	
+		
 #grande_gif_section {
 display: none;
 }
