@@ -34,6 +34,7 @@ background-color: #fafafa;
     overflow-x: hidden;
     transition: all .5s ease-in 0s;
 margin: 0 auto;
+padding-top:40px;
 }
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
@@ -428,7 +429,14 @@ header#masthead {
     right: 0;
 max-width: 1800px;
     margin: 0 auto;
+height: 90px;
+    transition: top 0.2s ease-in-out;
 }
+
+.nav-up {
+    top: -100px;
+}
+
 
 .main-container {
     clear: both;
@@ -2421,7 +2429,7 @@ padding-top:70px;
 #text-24.widget.widget_text {
     width: 30%;
     margin-left: 7%;
-margin-top: 18%;
+margin-top: 15%;
 float:left;
 }
 
@@ -2490,7 +2498,7 @@ height: 50px;
     width: 55%;
     float: right;
     margin-right: 0px;
-    margin-top: 14%;
+    margin-top: 12%;
 }
 
 #video_player {
