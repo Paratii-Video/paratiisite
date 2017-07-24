@@ -4027,3 +4027,11 @@ overflow: visible !important;
   position: relative;
   width: 100px;  
 }
+
+
+
+
+
+.angellist_jobs:hover .angellist_jobs-title-link {
+color: blue !important;
+}
