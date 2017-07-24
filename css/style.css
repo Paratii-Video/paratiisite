@@ -991,7 +991,7 @@ section, footer {
     height: 100vh;
 }
 
-.bg-dark h3, .bg-dark h5, footer.bg-dark h5, .bg-primary h5, .bg-dark h6, footer.bg-dark h6 {
+.bg-dark h3, .h5, footer.bg-dark h5, .bg-primary h5, .bg-dark h6, footer.bg-dark h6 {
     color: #ffffff;
 }
 
@@ -2789,7 +2789,7 @@ margin-bottom: 10px;
 }
 
 .img_feature {
-width: 150px;
+width: 100px;
     right: 0;
     position: relative;
     top: 0;
@@ -2802,7 +2802,7 @@ width: 150px;
 
 #img_feature1 {
 background-image: url("/imagens/Paratii_Icone1.png");
-background-size: 150px;
+background-size: 100px;
 background-repeat: no-repeat;
 }
 
@@ -2812,7 +2812,7 @@ background-image: url("/imagens/Paratii_Icone1_colorido2.png"),url("/imagens/Par
 
 #img_feature2 {
 background-image: url("/imagens/Paratii_Icone2.png");
-background-size: 150px;
+background-size: 100px;
 background-repeat: no-repeat;
 }
 
@@ -2822,7 +2822,7 @@ background-image: url("/imagens/Paratii_Icone2_colorido2.png"),url("/imagens/Par
 
 #img_feature3 {
 background-image: url("/imagens/Paratii_Icone3.png");
-background-size: 150px;
+background-size: 100px;
 background-repeat: no-repeat;
 }
 
@@ -2832,7 +2832,7 @@ background-image: url("/imagens/Paratii_Icone3_colorido2.png"),url("/imagens/Par
 
 #img_feature4 {
 background-image: url("/imagens/Paratii_Icone4.png");
-background-size: 150px;
+background-size: 100px;
 background-repeat: no-repeat;
 }
 
@@ -3133,11 +3133,11 @@ padding-top: 60px;
     margin-left: 0px;
 margin-top: 50px;
     margin-bottom: 0px;
-    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
+box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 0px;
-    border-radius: 15px;
+    border-radius: 7px;
     padding-top: 100px;
 background: #fff;
 }
@@ -3460,6 +3460,7 @@ background-color: #fff;
 .bg-dark {
     background: #fff;
 box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
+	border-radius: 7px;
 }
 
 
@@ -3666,6 +3667,7 @@ margin-bottom: 40px;
 box-shadow: none;
 padding-top:0px;
 margin-bottom: 40px;
+width: 100%;
 }
 
 .el-steps.is-horizontal {
