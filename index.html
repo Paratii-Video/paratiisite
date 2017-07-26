@@ -538,7 +538,9 @@ var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
 var navbarHeight = $('header#masthead').outerHeight();
-
+	
+jQuery(document).ready(function ($) {
+	
 $(window).scroll(function(event){
     didScroll = true;
 });
@@ -572,6 +574,8 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 	
+
+});	
 </script>
 
 </body>
