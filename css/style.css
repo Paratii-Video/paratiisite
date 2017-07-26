@@ -34,7 +34,6 @@ background-color: #fafafa;
     overflow-x: hidden;
     transition: all .5s ease-in 0s;
 margin: 0 auto;
-padding-top:40px;
 }
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
