@@ -2526,9 +2526,10 @@ display: block;
 */
 
 #pagewrap2 {
-padding: 5px 5px 50px 5px;
+padding: 20px 5px 50px 5px;
     width: 90%;
-    margin: 0 auto;
+margin: 30px auto 0;
+box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
 }
 
 #text-16 h2 {
@@ -2572,7 +2573,6 @@ padding-right: 30%;
 }
 
 #text-16.widget.widget_text {
-    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
 margin-top: 100px;
     border-radius: 7px;
 padding-top:20px;
