@@ -4074,9 +4074,6 @@ background: transparent;
 color: #a0a0a0;
 }
 
-.angellist_jobs:hover .angellist_jobs-title-link {
-color: blue !important;
-}
 
 .paraty_works {
 width: 37%;
@@ -4109,4 +4106,38 @@ color: #9a999e;
 font-size: 14px;
 margin: 0;
 line-height: 25px;
+}
+
+.menu_hiw {
+    list-style: none;
+}
+
+.menu_hiw li {
+    display: inline;
+padding: 0px 30px 0px 0px;
+}
+
+.menu_hiw li a {
+    display: inline;
+    color: #a0a0a0;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.menu_hiw li a:hover {
+color: #796ffb;
+}
+
+.active_hiw {
+color: #796ffb !important;
+}
+
+
+
+
+
+
+.angellist_jobs:hover .angellist_jobs-title-link {
+color: blue !important;
 }
