@@ -25,6 +25,21 @@ var WPURLS = {"siteurl":"paratii.video"};
 <link rel="icon" href="imagens/cropped-logo_cor_simbolo-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="imagens/cropped-logo_cor_simbolo-180x180.png" />
 <meta name="msapplication-TileImage" content="imagens/cropped-logo_cor_simbolo-270x270.png" />	
+	
+	
+<script>
+$(document).ready(function() {
+	$('#content_area').fullpage({
+		//Navigation
+		menu: '#menu_hiw',
+		lockAnchors: false,
+		anchors:['firstPage', 'secondPage'],
+		navigation: false,
+	});
+});
+	
+</script>
+	
 </head>
 
 <body class="home page-template page-template-page-templates page-template-template-home page-template-page-templatestemplate-home-php page wp-custom-logo">
@@ -83,8 +98,38 @@ var WPURLS = {"siteurl":"paratii.video"};
 <div class="animation_wrap">
 <div id="bodymovin"></div>
 </div>
+	
+<ul id="menu_hiw">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First section</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
+</ul>
 
+</div> <!-- first_scroll -->
+				
+				
+				
+
+<div class="section" id="second_scroll">
+
+<div class="paraty_works"><div class="textwidget"><h2 class="animated fadeInDown main_hiw" style="animation-delay: 1800ms;"><span class="big_number">1</span><span class="number_text">P2P file</br>distribution</span></h2> 
+
+<p class="hiw_text animated fadeInDown" style="animation-delay: 1800ms;">Modern servers are good, but swarms can be better. Browser tabs that carry a Paratii player temporarily become light nodes in the network, fetching content from peers alike, as well as from regular non-browser clients - the more sources, better the performance</p> 
+
+</div></div>
+
+<div class="animation_wrap">
+<div id="bodymovin"></div>
 </div>
+	
+<ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">1 Peer to peer file distribution</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">2 Earn while you browse</a></li>
+</ul>
+
+</div> <!-- second_scroll -->
+
+
+						
 </div>
 			
 </div><!-- #main -->
