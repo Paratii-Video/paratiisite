@@ -3965,7 +3965,7 @@ margin-top: 100px;
 }
 
 nav#site-navigation2 {
-    background: transparent;
+    background: #fafafa;
     background-size: 1800px;
     background-repeat: no-repeat;
 border: none;
@@ -4061,8 +4061,6 @@ padding-left: 3%;
 padding-right: 3%;
 }
 
-nav#site-navigation2 {
-}
 
 #support_hiw {
 background: transparent;
