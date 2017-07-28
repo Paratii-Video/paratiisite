@@ -4044,16 +4044,21 @@ text-align: center;
 opacity: 1;
 }
 
+.content_area {
+width: 1170px;
+margin: 0 auto;
+}
+
 .title_hiw {
-padding-top: 11%;
+padding-top: 2%;
 color: #796ffb;
-font-size: 20px;
+font-size: 18px;
 font-family: 'Roboto', sans-serif;
 font-weight: 300;
 margin: 0;
 width: 90%;
-padding-left: 5%;
-padding-right: 5%;
+padding-left: 3%;
+padding-right: 3%;
 }
 
 nav#site-navigation2 {
@@ -4078,24 +4083,32 @@ color: blue !important;
 .paraty_works {
 width: 40%;
 margin: 0;
-padding: 50px 5% 50px 5%;
+padding: 50px 3% 50px 3%;
+}
+
+.main_hiw {
+margin-bottom:20px;
+display: flex;
+align-items: flex-end;
 }
 
 .big_number {
-font-size: 180px;
+font-size: 150px;
 font-weight: 600;
 color: #796ffb;
 font-family: 'Roboto', sans-serif;
+line-height: 120px;
 }
 
 .number_text {
 font-family: 'Roboto', sans-serif;
-font-size: 40px;
+font-size: 30px;
 color: #796ffb;
 }
 
 .hiw_text {
 color: #9a999e;
-font-size: 16px;
-margin: 10px 0;
+font-size: 14px;
+margin: 0;
+line-height: 25px;
 }
