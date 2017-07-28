@@ -105,13 +105,17 @@ AOS.init();
 </script>
 
 <script>
-    var animation = hiw_animation.loadAnimation ({
+    var params = {
         container: document.getElementById('hiw_animation'),
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: 'js/iso_vetor_p2p.json'
-    })
+        animationData: 'js/iso_vetor_p2p.json'
+    };
+
+    var anim;
+
+    anim = hiw_animation.loadAnimation(params);
 
 </script>
 
