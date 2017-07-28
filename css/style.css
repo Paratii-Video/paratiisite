@@ -4134,6 +4134,19 @@ color: #796ffb;
 color: #796ffb !important;
 }
 
+.fp-section {
+	visibility: hidden;
+	opacity: 0;
+	z-index: 0;
+	transition: all .7s ease-in-out;
+}
+
+.fp-section.active {
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+}
+
 
 
 
