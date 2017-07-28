@@ -30,11 +30,8 @@ var WPURLS = {"siteurl":"paratii.video"};
 $(document).ready(function() {
 	$('#fullpage').fullpage({
 		//Navigation
-		menu: '#menu_hiw',
-		lockAnchors: false,
 		anchors:['firstPage', 'secondPage'],
 		fitToSection: false,
-		fixedElements: '#menu_hiw'
 	});
 });
 	
@@ -101,6 +98,11 @@ $(document).ready(function() {
 <div id="bodymovin"></div>
 </div>
 
+<ul class="menu_hiw">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First section</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
+</ul>	
+
 </div> <!-- first_scroll -->
 				
 
@@ -115,18 +117,19 @@ $(document).ready(function() {
 </div></div>
 
 <div class="animation_wrap">
-<div id="bodymovin"></div>
+<div id="bodymovin2"></div>
 </div>
+	
+
+<ul class="menu_hiw">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First section</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
+</ul>	
 
 </div> <!-- second_scroll -->
 
 </div>	<!-- fullpage -->
 
-<ul id="menu_hiw">
-    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First section</a></li>
-    <li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
-</ul>
-			
 </div>
 			
 </div><!-- #main -->
