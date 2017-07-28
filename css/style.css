@@ -1337,7 +1337,7 @@ text-transform: none;
 font-size: 13px;
 opacity: 0.8;
 margin-top: 3px;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 1px;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -4044,11 +4044,58 @@ text-align: center;
 opacity: 1;
 }
 
+.title_hiw {
+padding-top: 11%;
+color: #796ffb;
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+margin: 0;
+width: 90%;
+padding-left: 5%;
+padding-right: 5%;
+}
 
+nav#site-navigation2 {
+}
 
+#support_hiw {
+background: transparent;
+    border: solid 2px #a0a0a0;
+    width: auto;
+    height: auto;
+    color: #a0a0a0;
+}
 
-
+#menu2 li a {
+color: #a0a0a0;
+}
 
 .angellist_jobs:hover .angellist_jobs-title-link {
 color: blue !important;
+}
+
+.paraty_works {
+width: 40%;
+margin: 0;
+padding: 50px 5% 50px 5%;
+}
+
+.big_number {
+font-size: 180px;
+font-weight: 600;
+color: #796ffb;
+font-family: 'Roboto', sans-serif;
+}
+
+.number_text {
+font-family: 'Roboto', sans-serif;
+font-size: 40px;
+color: #796ffb;
+}
+
+.hiw_text {
+color: #9a999e;
+font-size: 16px;
+margin: 10px 0;
 }
