@@ -24,7 +24,9 @@ var WPURLS = {"siteurl":"paratii.video"};
 <link rel="icon" href="imagens/cropped-logo_cor_simbolo-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="imagens/cropped-logo_cor_simbolo-180x180.png" />
 <meta name="msapplication-TileImage" content="imagens/cropped-logo_cor_simbolo-270x270.png" />	
-	
+
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
 	
 <script>
 $(document).ready(function() {
@@ -34,8 +36,88 @@ $(document).ready(function() {
 		verticalCentered: false,
 	});
 });
+</script>
+	
+<script>
+	
+$(document).ready(function () {
+
+    $("#views").slider({
+        value: '500000',
+        min: 0,
+        max: 800000,
+        range: 'min',
+        create: function (event, ui) {
+            $('.ui-slider-handle').append('<span id="views_text"/></span>');
+        },
+        slide: function (event, ui) {
+            $("#views_text").val(ui.value);
+        }
+    });
+
+    $("rating").slider({
+        value: '2',
+        min: 0,
+        max: 3,
+        range: 'min',
+        create: function (event, ui) {
+            $('.ui-slider-handle').append('<span id="rating_text"/></span>');
+        },
+        slide: function (event, ui) {
+            $("#rating_text").val(ui.value);
+        }
+    });	
+	
+	
+    $("percentage").slider({
+        value: '30',
+        min: 0,
+        max: 100,
+        range: 'min',
+        create: function (event, ui) {
+            $('.ui-slider-handle').append('<span id="percentage_text"/></span>');
+        },
+        slide: function (event, ui) {
+            $("#percentage_text").val(ui.value);
+        }
+    });	
+
+	
+    $("audience").slider({
+        value: '0.23',
+        min: 0,
+        max: 1,
+	step: 0.1,
+        range: 'min',
+        create: function (event, ui) {
+            $('.ui-slider-handle').append('<span id="audience_text"/></span>');
+        },
+        slide: function (event, ui) {
+            $("#audience_text").val(ui.value);
+        }
+    });		
+	
+	
+	
+    $("days").slider({
+        value: '45',
+        min: 0,
+        max: 60,
+        range: 'min',
+        create: function (event, ui) {
+            $('.ui-slider-handle').append('<span id="days_text"/></span>');
+        },
+        slide: function (event, ui) {
+            $("#days_text").val(ui.value);
+        }
+    });	
+	
+	
+});
+	
 	
 </script>
+	
 	
 </head>
 
@@ -222,7 +304,6 @@ $(document).ready(function() {
 </div></div>
 
 
-
 <ul class="menu_hiw">
     <li data-menuanchor="1"><a href="#1">1 Peer to peer file distribution</a></li>
     <li data-menuanchor="2"><a href="#2">2 Earn while you browse</a></li>
@@ -234,7 +315,38 @@ $(document).ready(function() {
 
 </div> <!-- sixth_scroll -->	
 		
+
 	
+<div class="section> 
+
+<h1 class="title_calculator">Simulate Your Earnings </br>as <strong>a producer on Paratii</strong></h1>
+			    
+			    <div class="calculator">
+					<div class="flex_section">
+						<div id="side1_calculator">
+							<p class="slider_title">Accumulated Views</p><div id="views"></div><div id="views_text"></div>	  
+							<p class="slider_title">Average rating</p><div id="rating"></div><div id="rating_text"></div>	  		  
+							<p class="slider_title">What is the % of revenue are you sharing with your audience?</p><div id="porcentage"></div><div id="percentage_text"></div>			  
+							<p class="slider_title">Estimative of Paratii’s audience size in comparison to Youtube’s</p><div id="audience"></div><div id="audience_text"></div>			  
+							<p class="slider_title">Days since publishing the video</p><div id="days"></div><div id="days_text"></div>	
+			    
+							</div>
+									  
+						<div id="side2_calculator"><p class="pti_projection">According to your projection 1 PTI = <input type="text" id="pti_number" class="pti_number" placeholder="type here"></p>
+							<span class="calculator_result"></span>
+							<p class="bottom_calculator">This is a fictional simulation intended to make Paratii's value distribution engine more comprehensible.
+ Every creator is encouraged to perform his own diligence and hypothetical experiments before joining.</p>			     
+							</div>		
+
+										    
+					</div>
+										    
+				</div>
+	
+	   
+</div> <!-- calculator -->
+	    
+	    
 				
 </div>	<!-- fullpage -->
 
