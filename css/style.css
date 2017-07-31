@@ -4155,7 +4155,91 @@ display: flex;
 margin-top:-100px;
 }
 
+.title_calculator {
+text-align: center;
+font-family: 'Roboto';
+    font-weight: 300;
+    color: #a0a0a0;
+    font-size: 30px;
+    margin-top: 5%;
+}
 
+.calculator {
+margin-left: 3%;
+margin-right: 3%;
+text-align: center;
+padding:0px;
+margin-top:20px;
+border-radius:7px;
+box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+#side1_calculator {
+    width: 50%;
+    padding: 50px;
+}
+
+#side2_calculator {
+    width: 50%;
+    padding: 50px;
+background: url("imagens/fundo_calculadora.jpg");
+position: relative;
+}
+
+.slider_title {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #9a999e;
+}
+
+.ui-widget.ui-widget-content {
+border: none;
+border-radius: 15px;
+background: #796ffb;
+margin-bottom: 30px;
+height: 10px;
+}
+
+.ui-slider .ui-slider-range {
+border: none;
+border-radius: 15px;
+}
+
+.ui-widget-header {
+background-color: #84ecf8;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+border: none;
+background: #e0e0e0;
+border-radius: 50px;
+width: 20px;
+height: 20px;
+}
+
+.pti_projection {
+font-family: 'Roboto';
+color:#fff;
+}
+
+#pti_number {
+border: none;
+background: transparent;
+padding: 0px;
+color: #84ecf8;
+}
+
+#pti_number::placeholder {
+font-family: 'Roboto';
+color: #84ecf8;
+}
+
+#bottom_calculator {
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+}
 
 
 .angellist_jobs:hover .angellist_jobs-title-link {
