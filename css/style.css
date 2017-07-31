@@ -4076,7 +4076,7 @@ color: #a0a0a0;
 
 
 .paraty_works {
-width: 37%;
+width: 45%;
 margin: 0;
 padding: 50px 3% 50px 3%;
 }
@@ -4151,6 +4151,9 @@ color: #796ffb !important;
 display: flex;
 }
 
+.animation_wrap {
+margin-top:-100px;
+}
 
 
 
