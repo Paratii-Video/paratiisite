@@ -4234,7 +4234,7 @@ font-family: 'Roboto';
 color: #84ecf8;
 }
 
-#bottom_calculator {
+.bottom_calculator {
     color: #fff;
     font-size: 10px;
     position: absolute;
