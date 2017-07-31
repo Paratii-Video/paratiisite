@@ -4147,6 +4147,9 @@ color: #796ffb !important;
 	z-index: 1;
 }
 
+.flex_section {
+display: flex;
+}
 
 
 
