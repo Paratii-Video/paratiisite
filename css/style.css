@@ -4191,13 +4191,14 @@ border-radius: 0px 7px 7px 0px;
     font-family: 'Roboto';
     font-weight: 300;
     color: #9a999e;
+font-size: 12px;
 }
 
 .ui-widget.ui-widget-content {
 border: none;
 border-radius: 15px;
 background: #796ffb;
-margin-bottom: 30px;
+margin-bottom: 40px;
 height: 10px;
 }
 
