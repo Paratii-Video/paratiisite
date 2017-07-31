@@ -4244,6 +4244,13 @@ color: #84ecf8;
     bottom: 0;
 }
 
+#views_text, #rating_text, #percentage_text, #audience_text, #days_text {
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 40px;
+}
+
 
 .angellist_jobs:hover .angellist_jobs-title-link {
 color: blue !important;
