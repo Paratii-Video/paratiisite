@@ -4245,10 +4245,13 @@ color: #84ecf8;
 }
 
 #views_text, #rating_text, #percentage_text, #audience_text, #days_text {
-    position: absolute;
     left: 0;
-    bottom: -30px;
+    position: absolute;
+    bottom: -25px;
     width: 40px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 300;
 }
 
 
