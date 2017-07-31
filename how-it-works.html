@@ -48,7 +48,7 @@ $(document).ready(function () {
         max: 800000,
         range: 'min',
         create: function (event, ui) {
-            $('.ui-slider-handle').append('<span id="views_text"/></span>');
+            $('.ui-slider-handle').append('<input id="views_text" />');
         },
         slide: function (event, ui) {
             $("#views_text").val(ui.value);
