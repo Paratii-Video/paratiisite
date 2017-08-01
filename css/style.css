@@ -1488,6 +1488,10 @@ position: fixed;
     display: block;
 }
 
+.home .module.widget-handle {
+    padding: 40px 24px;
+}
+
 .module.widget-handle {
     padding: 0px 24px;
     cursor: pointer;
