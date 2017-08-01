@@ -116,8 +116,35 @@ $(document).ready(function () {
 $("#calculator_result").text("10000");
 
 });
+	
+</script>
+	
+	
+<script>
+	
+$(document).ready(function () {
 
+var ValorPTI = $('#pti_number').val();
 
+var views = $( "#views" ).slider( "value" );
+var rating = $( "#rating" ).slider( "value" );
+var percentage = $( "#percentage" ).slider( "value" );
+var audience = $( "#audience" ).slider( "value" );
+var days = $( "#days" ).slider( "value" );
+
+var ParatiiScore = rating * views;
+var DirectRev = views / 157;
+var totalViews = ((audience/100) * 1000000000)*days;
+var totalBonus = 0.25 * (((totalViews/157)+2400)*days);
+var BonusRev = ParatiiScore * (totalBonus/totalViews);
+var preRev = BonusRev + DirectRev;
+var Rev = preRev*(1 - (percentage/100))
+
+var valorDolar = Rev * ValorPTI;
+
+$("#calculator_result").text(valorDolar);
+	
+});
 	
 </script>
 	
