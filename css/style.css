@@ -4270,6 +4270,16 @@ position: absolute;
 color: #504dc1;
 }
 
+#calculator_result {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 40%;
+    font-size: 70px;
+    color: #fff;
+font-family: 'Roboto';
+}
 
 .angellist_jobs:hover .angellist_jobs-title-link {
 color: blue !important;
