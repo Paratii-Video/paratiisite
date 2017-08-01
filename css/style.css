@@ -2535,6 +2535,7 @@ padding: 20px 5px 50px 5px;
 margin: 30px auto 0;
 box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
 border-radius: 7px;
+background-color: #fff;
 }
 
 #text-16 h2 {
@@ -2582,7 +2583,7 @@ margin-top: 100px;
     border-radius: 7px;
 padding-top:20px;
 margin-bottom: 100px;
-background: #fff;
+background: #fafafa;
 }
 
 #content2 {
@@ -3523,8 +3524,8 @@ display: none;
 #video_player {
 display:block;
 width: 100%;
-box-shadow: none;
-border-radius:0px;
+box-shadow: -12px 11px 44px -10px rgba(0,0,0,0.45);
+border-radius: 10px 0px 0px 10px;
 }
 		
 #grande_gif_section {
