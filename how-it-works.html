@@ -53,7 +53,8 @@ var views = 0;
        	 $('#views .ui-slider-handle').append('<div id="views_text">500000</div>');
         },
         slide: function (event, ui) {
-	$("#views_text").val(ui.value);
+	$("#views_text").text(ui.value);
+	$("#views_text2").val(ui.value);
         }
     });
 
@@ -123,9 +124,9 @@ var views = 0;
 	
 $(document).ready(function () {
 
-var views = $('#views_text').val();
+var views = $('#views_text2').val();
 
-$("#views_text").bind("change", function() {
+$("#views_text2").bind("change", function() {
     views = $(this).val();
 });
 	
@@ -367,7 +368,7 @@ console.log(ValorPTI);
 			    <div class="calculator">
 					<div class="flex_section">
 						<div id="side1_calculator">
-							<p class="slider_title">Accumulated Views</p><div id="views"></div>
+							<p class="slider_title">Accumulated Views</p><div id="views"></div><input type="text" id="views_text2" style="display: none;">
 							<p class="slider_title">Average rating</p><div id="rating"></div>	  		  
 							<p class="slider_title">What is the % of revenue are you sharing with your audience?</p><div id="percentage"></div>			  
 							<p class="slider_title">Estimative of Paratii’s audience size in comparison to Youtube’s</p><div id="audience"></div>			  
