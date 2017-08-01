@@ -53,6 +53,7 @@ var views = 0;
        	 $('#views .ui-slider-handle').append('<div id="views_text">500000</div>');
         },
         slide: function (event, ui) {
+	$("#views_text").val(ui.value);
         }
     });
 
@@ -122,9 +123,9 @@ var views = 0;
 	
 $(document).ready(function () {
 
-var views = $('#views').val();
+var views = $('#views_text').val();
 
-$("#views").bind("change", function() {
+$("#views_text").bind("change", function() {
     views = $(this).val();
 });
 	
