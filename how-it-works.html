@@ -54,7 +54,7 @@ var views = 0;
         },
         slide: function (event, ui) {
         $("#views_text").text(ui.value);
-	$(views).text(ui.value);
+	$(views).slider( "value" );
         }
     });
 
