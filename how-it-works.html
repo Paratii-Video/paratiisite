@@ -42,7 +42,6 @@ $(document).ready(function() {
 	
 $(document).ready(function () {
 
-var handle = $( "#views_text" );
 var handle2 = $( "#rating_text" );
 var handle3 = $( "#percentage_text" );
 var handle4 = $( "#audience_text" );
@@ -54,10 +53,10 @@ var handle5 = $( "#days_text" );
         max: 800000,
         range: 'min',
         create: function () {
-            handle.text( $( this ).slider( "value" ) );
+       	 $('#views_text').appendTo($('#slider a').get(0));
         },
         slide: function (event, ui) {
-            handle.text( ui.value );
+            $(ui.handle).find('span').text('$' + ui.value);
         }
     });
 
