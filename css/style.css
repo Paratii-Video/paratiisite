@@ -451,7 +451,7 @@ box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
 
 
 .nav-bar img {
-max-height: 70%;
+max-height: 55%;
 }
 
 .main-navigation {
@@ -1493,7 +1493,7 @@ position: fixed;
 }
 
 .module.widget-handle {
-    padding: 0px 24px;
+    padding: 1px 24px;
     cursor: pointer;
     position: relative;
     -webkit-user-select: none;
@@ -4089,7 +4089,7 @@ color: #a0a0a0;
 .paraty_works {
     width: 37%;
     margin: 0 50px 0 0;
-    padding: 50px 3% 50px 3%;
+    padding: 5% 3% 8% 3%;
 }
 
 .main_hiw {
@@ -4104,6 +4104,11 @@ font-weight: 600;
 color: #796ffb;
 font-family: 'Roboto', sans-serif;
 line-height: 120px;
+margin-left: -5px;
+}
+
+#number1 {
+margin-left: -12px;
 }
 
 .number_text {
@@ -4122,11 +4127,16 @@ line-height: 25px;
 
 .menu_hiw {
     list-style: none;
+margin: 0;
+    padding-left: 3%;
+text-align: justify;
 }
 
 .menu_hiw li {
-    display: inline;
-padding: 0px 30px 0px 0px;
+    display: inline-block;
+    padding: 0px;
+    vertical-align: top;
+    width: 16%;
 }
 
 .menu_hiw li a {
@@ -4163,7 +4173,7 @@ display: flex;
 }
 
 .animation_wrap {
-margin-top:-100px;
+    margin-top: -80px;
 }
 
 .title_calculator {
