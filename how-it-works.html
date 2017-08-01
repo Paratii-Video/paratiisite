@@ -53,10 +53,10 @@ var handle5 = $( "#days_text" );
         max: 800000,
         range: 'min',
         create: function () {
-       	 $('#views_text').appendTo($('#slider a').get(0));
+       	 $('.ui-slider-handle').append('<div id="views_text"></div>');
         },
         slide: function (event, ui) {
-            $(ui.handle).find('span').text('$' + ui.value);
+            $("#views_text").text(ui.value);
         }
     });
 
@@ -329,7 +329,7 @@ var handle5 = $( "#days_text" );
 			    <div class="calculator">
 					<div class="flex_section">
 						<div id="side1_calculator">
-							<p class="slider_title">Accumulated Views</p><div id="views"><div id="views_text"></div></div>
+							<p class="slider_title">Accumulated Views</p><div id="views"></div>
 							<p class="slider_title">Average rating</p><div id="rating"><div id="rating_text"></div></div>	  		  
 							<p class="slider_title">What is the % of revenue are you sharing with your audience?</p><div id="percentage"><div id="percentage_text"></div></div>			  
 							<p class="slider_title">Estimative of Paratii’s audience size in comparison to Youtube’s</p><div id="audience"><div id="audience_text"></div></div>			  
