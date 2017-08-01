@@ -122,8 +122,12 @@ var views = 0;
 	
 $(document).ready(function () {
 
-var views2 = $("#views_text").val();
-var views=Number(views2);
+var views = $('#views').val();
+
+$("#views").bind("change", function() {
+    views = $(this).val();
+});
+	
 var rating = $( "#rating" ).slider( "value" );
 var percentage = $( "#percentage" ).slider( "value" );
 var audience = $( "#audience" ).slider( "value" );
