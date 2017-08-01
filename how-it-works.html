@@ -41,11 +41,6 @@ $(document).ready(function() {
 <script>
 	
 $(document).ready(function () {
-
-var handle2 = $( "#rating_text" );
-var handle3 = $( "#percentage_text" );
-var handle4 = $( "#audience_text" );
-var handle5 = $( "#days_text" );
 	
     $("#views").slider({
         value: '500000',
@@ -53,7 +48,7 @@ var handle5 = $( "#days_text" );
         max: 800000,
         range: 'min',
         create: function () {
-       	 $('.ui-slider-handle').append('<div id="views_text"></div>');
+       	 $('.ui-slider-handle').append('<div id="views_text" value="500000"></div>');
         },
         slide: function (event, ui) {
             $("#views_text").text(ui.value);
@@ -66,10 +61,10 @@ var handle5 = $( "#days_text" );
         max: 3,
         range: 'min',
         create: function () {
-            handle2.text( $( this ).slider( "value" ) );
+       	 $('.ui-slider-handle').append('<div id="rating_text" value="2"></div>');
         },
         slide: function (event, ui) {
-            handle2.text( ui.value );
+            $("#rating_text").text(ui.value);
         }
     });
 	
@@ -80,10 +75,10 @@ var handle5 = $( "#days_text" );
         max: 100,
         range: 'min',
         create: function () {
-            handle3.text( $( this ).slider( "value" ) );
+       	 $('.ui-slider-handle').append('<div id="percentage_text" value="30"></div>');
         },
         slide: function (event, ui) {
-            handle3.text( ui.value );
+            $("#percentage_text").text(ui.value);
         }
     });
 	
@@ -95,10 +90,10 @@ var handle5 = $( "#days_text" );
 	step: 0.1,
         range: 'min',
         create: function () {
-            handle4.text( $( this ).slider( "value" ) );
+       	 $('.ui-slider-handle').append('<div id="audience_text" value="0.23"></div>');
         },
         slide: function (event, ui) {
-            handle4.text( ui.value );
+            $("#audience_text").text(ui.value);
         }
     });	
 	
@@ -110,10 +105,10 @@ var handle5 = $( "#days_text" );
         max: 60,
         range: 'min',
         create: function () {
-            handle5.text( $( this ).slider( "value" ) );
+       	 $('.ui-slider-handle').append('<div id="days_text" value="45"></div>');
         },
         slide: function (event, ui) {
-            handle5.text( ui.value );
+            $("#days_text").text(ui.value);
         }
     });
 	
@@ -330,10 +325,10 @@ var handle5 = $( "#days_text" );
 					<div class="flex_section">
 						<div id="side1_calculator">
 							<p class="slider_title">Accumulated Views</p><div id="views"></div>
-							<p class="slider_title">Average rating</p><div id="rating"><div id="rating_text"></div></div>	  		  
-							<p class="slider_title">What is the % of revenue are you sharing with your audience?</p><div id="percentage"><div id="percentage_text"></div></div>			  
-							<p class="slider_title">Estimative of Paratii’s audience size in comparison to Youtube’s</p><div id="audience"><div id="audience_text"></div></div>			  
-							<p class="slider_title">Days since publishing the video</p><div id="days"><div id="days_text"></div></div>	
+							<p class="slider_title">Average rating</p><div id="rating"></div>	  		  
+							<p class="slider_title">What is the % of revenue are you sharing with your audience?</p><div id="percentage"></div>			  
+							<p class="slider_title">Estimative of Paratii’s audience size in comparison to Youtube’s</p><div id="audience"></div>			  
+							<p class="slider_title">Days since publishing the video</p><div id="days"></div>	
 			    
 							</div>
 									  
