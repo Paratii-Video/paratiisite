@@ -42,94 +42,9 @@ $(document).ready(function() {
 	
 $(document).ready(function () {
 
-	
-    $("#views").slider({
-        value: '500000',
-        min: 0,
-        max: 800000,
-        range: 'min',
-        create: function () {
-       	 $('#views .ui-slider-handle').append('<div id="views_text">500000</div>');
-        },
-        slide: function (event, ui) {
-	$("#views_text").text(ui.value);
-        $("#views_text2").text(ui.value);
-        }
-    });
+function calculatePTI {
 
-$("#views_text2").change(function() {
-    $("#views").slider('value',$(this).val());
-});
-	
-var views = $("#views_text2").val();
-console.log(views);
-	
-    $("#rating").slider({
-        value: '2',
-        min: 0,
-        max: 3,
-        range: 'min',
-        create: function () {
-       	 $('#rating .ui-slider-handle').append('<div id="rating_text">2</div>');
-        },
-        slide: function (event, ui) {
-            $("#rating_text").text(ui.value);
-        }
-    });
-	
-	
-    $("#percentage").slider({
-        value: '30',
-        min: 0,
-        max: 100,
-        range: 'min',
-        create: function () {
-       	 $('#percentage .ui-slider-handle').append('<div id="percentage_text">30</div>');
-        },
-        slide: function (event, ui) {
-            $("#percentage_text").text(ui.value);
-        }
-    });
-	
-	
-    $("#audience").slider({
-        value: '0.23',
-        min: 0,
-        max: 1,
-	step: 0.1,
-        range: 'min',
-        create: function () {
-       	 $('#audience .ui-slider-handle').append('<div id="audience_text">0.23</div>');
-        },
-        slide: function (event, ui) {
-            $("#audience_text").text(ui.value);
-        }
-    });	
-	
-	
-	
-    $("#days").slider({
-        value: '45',
-        min: 0,
-        max: 60,
-        range: 'min',
-        create: function () {
-       	 $('#days .ui-slider-handle').append('<div id="days_text">45</div>');
-        },
-        slide: function (event, ui) {
-            $("#days_text").text(ui.value);
-        }
-    });
-	
-});
-	
-</script>
-	
-	
-<script>
-	
-$(document).ready(function () {
-	
+var views = $( "#views" ).slider( "value" );
 var rating = $( "#rating" ).slider( "value" );
 var percentage = $( "#percentage" ).slider( "value" );
 var audience = $( "#audience" ).slider( "value" );
@@ -156,12 +71,102 @@ console.log(audience);
 console.log(days);
 
 console.log(ValorPTI);
+	
+}
+	
+    $("#views").slider({
+        value: '500000',
+        min: 0,
+        max: 800000,
+        range: 'min',
+        create: function () {
+       	 $('#views .ui-slider-handle').append('<div id="views_text">500000</div>');
+        },
+        slide: function (event, ui) {
+	$("#views_text").text(ui.value);
+        },
+	change: function(event, ui){
+        calculatePTI();
+    	} 
+    });
 
+
+	
+    $("#rating").slider({
+        value: '2',
+        min: 0,
+        max: 3,
+        range: 'min',
+        create: function () {
+       	 $('#rating .ui-slider-handle').append('<div id="rating_text">2</div>');
+        },
+        slide: function (event, ui) {
+            $("#rating_text").text(ui.value);
+        },
+	change: function(event, ui){
+        calculatePTI();
+    	} 
+	   
+    });
+	
+	
+    $("#percentage").slider({
+        value: '30',
+        min: 0,
+        max: 100,
+        range: 'min',
+        create: function () {
+       	 $('#percentage .ui-slider-handle').append('<div id="percentage_text">30</div>');
+        },
+        slide: function (event, ui) {
+            $("#percentage_text").text(ui.value);
+        },
+	change: function(event, ui){
+        calculatePTI();
+    	} 	    
+    });
+	
+	
+    $("#audience").slider({
+        value: '0.23',
+        min: 0,
+        max: 1,
+	step: 0.1,
+        range: 'min',
+        create: function () {
+       	 $('#audience .ui-slider-handle').append('<div id="audience_text">0.23</div>');
+        },
+        slide: function (event, ui) {
+            $("#audience_text").text(ui.value);
+        },
+	change: function(event, ui){
+        calculatePTI();
+    	} 
+    });	
+	
+	
+	
+    $("#days").slider({
+        value: '45',
+        min: 0,
+        max: 60,
+        range: 'min',
+        create: function () {
+       	 $('#days .ui-slider-handle').append('<div id="days_text">45</div>');
+        },
+        slide: function (event, ui) {
+            $("#days_text").text(ui.value);
+        },
+	change: function(event, ui){
+        calculatePTI();
+    	}   
+    });
+	
 });
 	
 </script>
 	
-	
+
 </head>
 
 <body class="page-template page-template-page-templates page wp-custom-logo">
