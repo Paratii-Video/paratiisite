@@ -1297,6 +1297,10 @@ nav#site-navigation {
     height: 55px;
 }
 
+.home .nav-bar a {
+margin-top: 20px;
+}
+
 .nav-bar a {
     display: inline-block;
     height: 95px;
