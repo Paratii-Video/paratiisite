@@ -4137,7 +4137,7 @@ text-align: justify;
 }
 
 .menu_hiw li {
-    display: inline-block;
+    display: block;
     padding: 0px;
     vertical-align: top;
     width: 16%;
