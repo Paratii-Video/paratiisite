@@ -4131,16 +4131,14 @@ line-height: 25px;
 
 .menu_hiw {
     list-style: none;
-margin: 0;
-    padding-left: 3%;
 text-align: justify;
 }
 
 .menu_hiw li {
-    display: block;
+display: block;
     padding: 0px;
     vertical-align: top;
-    width: 16%;
+    width: auto;
 }
 
 .menu_hiw li a {
@@ -4149,6 +4147,7 @@ text-align: justify;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+list-style-image: url("/imagens/bullet_hiw.png");
 }
 
 .menu_hiw li a:hover {
@@ -4156,7 +4155,12 @@ color: #796ffb;
 }
 
 .active_hiw {
-color: #796ffb !important;
+list-style-image: url("/imagens/bullet_active_hiw.png");
+}
+
+.module.right_hiw, .module-group.right_hiw {
+    float: right;
+    margin-right: 12%;
 }
 
 .fp-section {
