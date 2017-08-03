@@ -4130,32 +4130,45 @@ line-height: 25px;
 }
 
 .menu_hiw {
-    list-style: none;
 text-align: justify;
+min-width:200px;
+margin-top:5%;
 }
 
 .menu_hiw li {
 display: block;
-    padding: 0px;
-    vertical-align: top;
-    width: auto;
+vertical-align: top;
+width: auto;
+border-left:2px solid #d7d7d7;
+padding-left:25px;
+padding-right:0px;
+padding-bottom: 20px;
+padding-top:0px;
 }
 
-.menu_hiw li a {
-    display: inline;
-    color: #a0a0a0;
-    font-weight: 300;
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-list-style-image: url("/imagens/bullet_hiw.png");
+.menu_hiw li:last-child{
+  border-left:3px solid transparent;
+  padding-bottom:0;
 }
 
-.menu_hiw li a:hover {
-color: #796ffb;
+.active_hiw::before {
+  border-radius: 50%;
+  border:2px solid #d7d7d7;
+  background-color:#d7d7d7;   
 }
 
-.active_hiw {
-list-style-image: url("/imagens/bullet_active_hiw.png");
+.menu_hiw li::before {
+  border-radius: 50%;
+  border:2px solid #d7d7d7;
+  background-color:#fafafa;
+  content: "";
+  display:inline-block;
+  float:left;
+  height:20px;
+  width:20px; 
+  line-height:20px;
+  margin-left:-36px;
+  text-align:center;   
 }
 
 .module.right_hiw, .module-group.right_hiw {
