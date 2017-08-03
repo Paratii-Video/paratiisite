@@ -434,16 +434,23 @@ AOS.init();
 	
 <script>
 
-function playPause(myVideo) {
+var v = document.getElementById('video_player');
+v.addEventListener(
+    'play', 
+    function() { 
+        v.play();
+    }, 
+    false);
 
-
-    if (myVideo.paused) {
-        myVideo.play();
-
+v.onclick = function() {
+    if (v.paused) {
+        v.play();
     } else {
-        myVideo.pause();
+        v.pause();
     }
-}	
+
+    return false;
+};
 	
 </script>
 	
@@ -481,19 +488,7 @@ $(window).scroll(function() {
 	
 });	
 </script>
-		
-<script>
-var video = document.getElementById('video_player');
-video.addEventListener('click',function(){
-  video.play();
-},false);
-	
-var video = document.getElementById('video_player');
-video.addEventListener('click',function(){
-  video.play();
-},false);
-	
-</script>
+
 
 <script type='text/javascript'>
 /* <![CDATA[ */
