@@ -4171,6 +4171,13 @@ padding-top:0px;
   text-align:center;   
 }
 
+.menu_hiw a {
+font-family: 'Roboto', sans-serif;
+font-weight:300;
+color:#9a999e;
+font-size:12px;
+}
+
 .module.right_hiw, .module-group.right_hiw {
     float: right;
     margin-right: 12%;
