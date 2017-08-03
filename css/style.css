@@ -454,6 +454,10 @@ box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
 max-height: 55%;
 }
 
+.home .nav-bar img {
+margin-top:20px;
+}
+
 .main-navigation {
     clear: both;
     display: block;
@@ -1295,10 +1299,6 @@ nav#site-navigation {
 
 .nav-bar .module, .nav-bar .module-group {
     height: 55px;
-}
-
-.home .nav-bar a {
-margin-top: 20px;
 }
 
 .nav-bar a {
