@@ -49,8 +49,7 @@ var rating = $( "#rating" ).slider( "value" );
 var percentage = $( "#percentage" ).slider( "value" );
 var audience = $( "#audience" ).slider( "value" );
 var days = $( "#days" ).slider( "value" );
-	
-var ValorPTI = $('#pti_number').val();
+var ValorPTI = $( "#pti_projection" ).slider( "value" );
 	
 var ParatiiScore = rating * views;
 var DirectRev = views / 157;
@@ -64,13 +63,6 @@ var valorDolar = Rev * ValorPTI;
 var resultado = valorDolar.toFixed(2);
 
 $("#calculator_result").text(resultado);
-
-console.log(rating);
-console.log(percentage);
-console.log(audience);
-console.log(days);
-
-console.log(ValorPTI);
 	
 }
 	
@@ -162,6 +154,23 @@ console.log(ValorPTI);
     	}   
     });
 	
+
+ $("#pti_projection").slider({
+        value: '385',
+        min: 0,
+        max: 500,
+        range: 'min',
+        create: function () {
+       	 $('#days .ui-slider-handle').append('<div id="pti_text">385</div>');
+        },
+        slide: function (event, ui) {
+            $("#days_text").text(ui.value);
+        },
+	change: function(event, ui){
+        calculatePTI();
+    	}   
+    });
+		
 });
 	
 </script>
