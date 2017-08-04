@@ -4092,8 +4092,8 @@ color: #a0a0a0;
 
 .paraty_works {
     width: 37%;
-    margin: 0 50px 0 0;
-    padding: 5% 3% 10% 3%;
+    margin: 0 0px 0 0;
+    padding: 5% 0% 10% 3%;
 }
 
 .main_hiw {
@@ -4133,6 +4133,8 @@ line-height: 25px;
 text-align: justify;
 min-width:200px;
 margin-top:5%;
+position: fixed;
+    right: 0;
 }
 
 .menu_hiw_calculator {
@@ -4206,18 +4208,6 @@ color:#fafafa;
     margin-right: 15%;
 }
 
-.fp-section {
-	visibility: hidden;
-	opacity: 0;
-	z-index: 0;
-	transition: all 2s ease-in-out;
-}
-
-.fp-section.active {
-	visibility: visible;
-	opacity: 1;
-	z-index: 1;
-}
 
 .flex_section {
 display: flex;
@@ -4225,6 +4215,7 @@ display: flex;
 
 .animation_wrap {
     margin-top: -60px;
+    margin-left: -10px;
 }
 
 .title_calculator {
@@ -4356,8 +4347,47 @@ margin-top: 5%;
 }
 
 .content_calculator {
-width: 90%;
+width: 80%;
 padding: 0px 50px;
+}
+
+.fp-section .paraty_works {
+	visibility: hidden;
+	opacity: ;
+	z-index: 0;
+	transition: all 2s ease-in-out;
+}
+
+.fp-section.active .paraty_works {
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+}
+
+.fp-section .animation_wrap {
+	visibility: hidden;
+	opacity: ;
+	z-index: 0;
+	transition: all 2s ease-in-out;
+}
+
+.fp-section.active .animation_wrap {
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+}
+
+.fp-section .content_calculator {
+	visibility: hidden;
+	opacity: ;
+	z-index: 0;
+	transition: all 2s ease-in-out;
+}
+
+.fp-section.active .content_calculator {
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
 }
 
 .angellist_jobs:hover .angellist_jobs-title-link {
