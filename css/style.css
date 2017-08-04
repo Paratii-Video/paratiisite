@@ -4225,7 +4225,6 @@ font-family: 'Roboto';
     font-weight: 300;
     color: #a0a0a0;
     font-size: 25px;
-     margin-top: 15%;
 }
 
 .calculator {
@@ -4350,6 +4349,7 @@ margin-top: 5%;
 .content_calculator {
 width: 80%;
 padding: 0px 50px;
+margin-top: 20%;
 }
 
 .fp-section .paraty_works {
