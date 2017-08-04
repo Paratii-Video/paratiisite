@@ -4135,6 +4135,12 @@ min-width:200px;
 margin-top:5%;
 }
 
+.menu_hiw_calculator {
+text-align: justify;
+min-width:200px;
+margin-top: 15%;
+}
+
 .menu_hiw li {
 display: block;
 vertical-align: top;
@@ -4155,6 +4161,10 @@ padding-top:0px;
   border-radius: 50%;
   border:2px solid #d7d7d7;
   background-color: #d7d7d7 !important; 
+}
+
+.active_hiw span {
+display: none;
 }
 
 .menu_hiw li::before {
@@ -4178,11 +4188,22 @@ color:#9a999e;
 font-size:12px;
 }
 
-.menu_hiw a:hover {
+.menu_hiw span {
+font-family: 'Roboto', sans-serif;
+font-weight:300;
+color:#9a999e;
+font-size:12px;
+}
+
+.menu_hiw span:hover {
 text-decoration:none;
 color:#745cf9;
 }
 
+.menu_hiw a:hover {
+text-decoration:none;
+color:#745cf9;
+}
 
 .module.right_hiw, .module-group.right_hiw {
     float: right;
@@ -4336,6 +4357,10 @@ color: #504dc1;
 
 .calculator_new {
 margin-top: 5%;
+}
+
+.content_calculator {
+width: 90%;
 }
 
 .angellist_jobs:hover .angellist_jobs-title-link {
