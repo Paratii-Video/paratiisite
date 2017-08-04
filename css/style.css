@@ -4136,9 +4136,7 @@ margin-top:5%;
 }
 
 .menu_hiw_calculator {
-text-align: justify;
-min-width:200px;
-margin-top: 15%;
+margin-top: 15% !important;
 }
 
 .menu_hiw li {
@@ -4164,7 +4162,7 @@ padding-top:0px;
 }
 
 .active_hiw span {
-display: none;
+display: block;
 }
 
 .menu_hiw li::before {
@@ -4193,6 +4191,7 @@ font-family: 'Roboto', sans-serif;
 font-weight:300;
 color:#9a999e;
 font-size:12px;
+display: none;
 }
 
 .menu_hiw span:hover {
