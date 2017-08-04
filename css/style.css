@@ -4216,7 +4216,7 @@ font-family: 'Roboto';
     font-weight: 300;
     color: #a0a0a0;
     font-size: 25px;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .calculator {
@@ -4243,16 +4243,18 @@ border-radius: 0px 7px 7px 0px;
 }
 
 .slider_title {
-    font-family: 'Roboto';
+font-family: 'Roboto';
     font-weight: 300;
     color: #9a999e;
-font-size: 12px;
+    font-size: 12px;
+    margin: -30px 0px 50px 0px;
+    text-align: center;
 }
 
 .ui-widget.ui-widget-content {
 border: none;
 border-radius: 15px;
-background: #796ffb;
+background: #b1b1b2;
 margin-bottom: 40px;
 height: 10px;
 }
@@ -4263,15 +4265,16 @@ border-radius: 15px;
 }
 
 .ui-widget-header {
-background: #84ecf8 !important;
+background: #796ffb !important;
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-border: none;
-background: #e0e0e0;
-border-radius: 50px;
-width: 20px;
-height: 20px;
+border: none !important;
+    background: #e0e0e0 !important;
+    border-radius: 50px;
+    width: 20px !important;
+    height: 20px !important;
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.65);
 }
 
 .pti_projection {
@@ -4304,8 +4307,8 @@ right: 0;
 
 #views_text, #rating_text, #percentage_text, #audience_text, #days_text {
 position: absolute;
-    bottom: -25px;
-    margin-left: -10px;
+    bottom: 20px;
+margin-left: -10px;
     width: 40px;
     font-family: 'Roboto';
     font-size: 12px;
@@ -4315,14 +4318,24 @@ color: #504dc1;
 }
 
 #calculator_result {
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    top: 40%;
     font-size: 70px;
-    color: #fff;
-font-family: 'Roboto';
+    color: #796ffb;
+    font-family: 'Roboto';
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.subtitle_calculator {
+    font-family: 'Roboto';
+    font-weight: 300;
+    text-align: center;
+    margin-top: 3%;
+    color: #9a999e;
+}
+
+.calculator_new {
+margin-top: 5%;
 }
 
 .angellist_jobs:hover .angellist_jobs-title-link {
