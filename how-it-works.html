@@ -60,7 +60,7 @@ var preRev = BonusRev + DirectRev;
 var Rev = preRev*(1 - (percentage/100))
 
 var valorDolar = Rev * ValorPTI;
-var resultado2 = Math.round(valorDolar) + ' ' + 'U$$';
+var resultado2 = Math.round(valorDolar);
 var resultado = resultado2.toLocaleString() + ' ' + 'U$$'; ;
 
 $("#calculator_result").text(resultado);
@@ -94,7 +94,7 @@ $("#calculator_result").text(resultado);
        	 $('#rating .ui-slider-handle').append('<div id="rating_text">2</div>');
         },
         slide: function (event, ui) {
-            $("#rating_text").text(ui.value);
+            $("#rating_text").text(ui.value) + 'X';
         },
 	change: function(event, ui){
         calculatePTI();
@@ -112,7 +112,7 @@ $("#calculator_result").text(resultado);
        	 $('#percentage .ui-slider-handle').append('<div id="percentage_text">30</div>');
         },
         slide: function (event, ui) {
-            $("#percentage_text").text(ui.value);
+            $("#percentage_text").text(ui.value) + '%';
         },
 	change: function(event, ui){
         calculatePTI();
@@ -130,7 +130,7 @@ $("#calculator_result").text(resultado);
        	 $('#audience .ui-slider-handle').append('<div id="audience_text">0.23</div>');
         },
         slide: function (event, ui) {
-            $("#audience_text").text(ui.value);
+            $("#audience_text").text(ui.value) + '%';
         },
 	change: function(event, ui){
         calculatePTI();
@@ -165,7 +165,7 @@ $("#calculator_result").text(resultado);
        	 $('#pti_projection .ui-slider-handle').append('<div id="pti_text">385</div>');
         },
         slide: function (event, ui) {
-            $("#pti_text").text(ui.value);
+            $("#pti_text").text(ui.value) + ' U$$';
         },
 	change: function(event, ui){
         calculatePTI();
@@ -407,7 +407,7 @@ $("#calculator_result").text(resultado);
 	
 <div class="result_block">
 	<div class="subtitle_calculator">How much you are going to make with one video</div>
-	<span class="calculator_result" id="calculator_result">78000</span>
+	<span class="calculator_result" id="calculator_result">78 000 U$$</span>
 </div>	
 	
 <div class="calculator_new">
