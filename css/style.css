@@ -4154,7 +4154,7 @@ padding-top:0px;
 .active_hiw::before {
   border-radius: 50%;
   border:2px solid #d7d7d7;
-  background-color:#d7d7d7;   
+  background-color: #d7d7d7 !important; 
 }
 
 .menu_hiw li::before {
