@@ -4165,7 +4165,11 @@ padding-top:0px;
 color:#9a999e !important;
 }
 
-.menu_hiw li::before {
+.active_hiw span:hover {
+color:#796ffb !important;
+}
+
+.menu_hiw a::before {
   border-radius: 50%;
   border:2px solid #d7d7d7;
   background-color:#fafafa;
@@ -4179,12 +4183,6 @@ color:#9a999e !important;
   text-align:center;   
 }
 
-.menu_hiw a {
-font-family: 'Roboto', sans-serif;
-font-weight:300;
-color:#9a999e;
-font-size:12px;
-}
 
 .menu_hiw span {
 font-family: 'Roboto', sans-serif;
@@ -4195,12 +4193,12 @@ font-size:12px;
 
 .menu_hiw span:hover {
 text-decoration:none;
-color:#745cf9;
+color:#fafafa;
 }
 
 .menu_hiw a:hover {
 text-decoration:none;
-color:#745cf9;
+color:#fafafa;
 }
 
 .module.right_hiw, .module-group.right_hiw {
@@ -4359,6 +4357,7 @@ margin-top: 5%;
 
 .content_calculator {
 width: 90%;
+padding: 0px 50px;
 }
 
 .angellist_jobs:hover .angellist_jobs-title-link {
