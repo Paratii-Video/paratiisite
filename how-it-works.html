@@ -164,7 +164,7 @@ $("#calculator_result").text(resultado);
        	 $('#days .ui-slider-handle').append('<div id="pti_text">385</div>');
         },
         slide: function (event, ui) {
-            $("#days_text").text(ui.value);
+            $("#pti_text").text(ui.value);
         },
 	change: function(event, ui){
         calculatePTI();
@@ -397,6 +397,10 @@ $("#calculator_result").text(resultado);
 
 	
 <div class="section"> 
+	
+<div class="flex_section">
+	
+<div class="content_calculator">
 
 <h1 class="title_calculator">Simulate Your Earnings as <strong>a producer on Paratii</strong></h1>
 	
@@ -420,7 +424,20 @@ $("#calculator_result").text(resultado);
 	</div>
 	
 </div>
-							
+
+</div> <!-- content calculator  -->
+	
+<ul class="menu_hiw">
+    <li data-menuanchor="1"><a href="#1">P2P file distribution</a></li>
+    <li data-menuanchor="2"><a href="#2">Earn while you browse</a></li>
+    <li data-menuanchor="3"><a href="#3">The value of your opinions</a></li>
+    <li data-menuanchor="4"><a href="#4">Everyone is happier</a></li>
+    <li data-menuanchor="5"><a href="#5">Embed anywhere</a></li>
+    <li data-menuanchor="6"><a href="#6">Producers control</a></li>
+    <li class="active_hiw" data-menuanchor="7"><a href="#7">Simulate your earnings</a></li>
+</ul>	
+	
+</div> <!-- flex section -->	
 	   
 </div> <!-- calculator section -->
 	    
