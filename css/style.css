@@ -4162,7 +4162,7 @@ padding-top:0px;
 }
 
 .active_hiw span {
-display: block;
+color:#9a999e !important;
 }
 
 .menu_hiw li::before {
@@ -4189,9 +4189,8 @@ font-size:12px;
 .menu_hiw span {
 font-family: 'Roboto', sans-serif;
 font-weight:300;
-color:#9a999e;
+color:#fafafa;
 font-size:12px;
-display: none;
 }
 
 .menu_hiw span:hover {
