@@ -4178,6 +4178,12 @@ color:#9a999e;
 font-size:12px;
 }
 
+.menu_hiw a:hover {
+text-decoration:none;
+color:#745cf9;
+}
+
+
 .module.right_hiw, .module-group.right_hiw {
     float: right;
     margin-right: 12%;
