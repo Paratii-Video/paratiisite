@@ -4135,6 +4135,7 @@ min-width:200px;
 margin-top:5%;
 position: fixed;
     right: 0;
+z-index:999;
 }
 
 .menu_hiw_calculator {
@@ -4353,7 +4354,7 @@ padding: 0px 50px;
 
 .fp-section .paraty_works {
 	visibility: hidden;
-	opacity: ;
+	opacity: 0;
 	z-index: 0;
 	transition: all 2s ease-in-out;
 }
@@ -4366,7 +4367,7 @@ padding: 0px 50px;
 
 .fp-section .animation_wrap {
 	visibility: hidden;
-	opacity: ;
+	opacity: 0;
 	z-index: 0;
 	transition: all 2s ease-in-out;
 }
@@ -4379,7 +4380,7 @@ padding: 0px 50px;
 
 .fp-section .content_calculator {
 	visibility: hidden;
-	opacity: ;
+	opacity: 0;
 	z-index: 0;
 	transition: all 2s ease-in-out;
 }
