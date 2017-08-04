@@ -60,7 +60,8 @@ var preRev = BonusRev + DirectRev;
 var Rev = preRev*(1 - (percentage/100))
 
 var valorDolar = Rev * ValorPTI;
-var resultado = Math.round(valorDolar) + 'U$$';
+var resultado2 = Math.round(valorDolar) + ' ' + 'U$$';
+var resultado = resultado2.toLocaleString() + ' ' + 'U$$'; ;
 
 $("#calculator_result").text(resultado);
 	
