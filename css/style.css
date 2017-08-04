@@ -50,6 +50,7 @@ a {
 
 a:active, a:hover {
     outline: 0;
+text-decoration:none;
 }
 
 abbr[title] {
@@ -405,14 +406,6 @@ a:visited {
     color: purple;
 }
 
-
-a:focus {
-    outline: thin dotted;
-}
-
-a:hover, a:active {
-    outline: 0;
-}
 
 /*--------------------------------------------------------------
 ## Menus
@@ -921,7 +914,7 @@ p.lead {
     }
 }
 
-a, a:visited, a:focus, a:active, a:hover {
+a, a:visited, a:focus, a:active, a:hover, a:link {
     text-decoration: none;
     outline: none;
 }
@@ -943,6 +936,8 @@ a:visited {
 .image-bg a:hover {
     color: #fff;
     opacity: .9;
+  text-decoration: none;
+outline:none;
 }
 
 
@@ -4062,6 +4057,7 @@ opacity: 1;
 .content_area {
 width: 1170px;
 margin: 0 auto;
+position:relative;
 }
 
 .title_hiw {
@@ -4131,11 +4127,11 @@ line-height: 25px;
 
 .menu_hiw {
 text-align: justify;
-min-width:200px;
-margin-top:5%;
-position: fixed;
+    min-width: 200px;
+    margin-top: 10%;
+    position: absolute;
     right: 0;
-z-index:999;
+    z-index: 999;
 }
 
 .menu_hiw_calculator {
@@ -4158,19 +4154,23 @@ padding-top:0px;
   padding-bottom:0;
 }
 
-.active_hiw::before {
+#menu_hiw li.active span {
+color: #9a999e;
+text-decoration: none;
+outline:none;
+}
+
+#menu_hiw li.active a {
+text-decoration: none;
+outline:none;
+}
+
+#menu_hiw li.active a::before {
   border-radius: 50%;
   border:2px solid #d7d7d7;
   background-color: #d7d7d7 !important; 
 }
 
-.active_hiw span {
-color:#9a999e !important;
-}
-
-.active_hiw span:hover {
-color:#796ffb !important;
-}
 
 .menu_hiw a::before {
   border-radius: 50%;
@@ -4206,7 +4206,7 @@ color:#fafafa;
 
 .module.right_hiw, .module-group.right_hiw {
     float: right;
-    margin-right: 15%;
+    margin-right: 170px;
 }
 
 
@@ -4225,7 +4225,7 @@ font-family: 'Roboto';
     font-weight: 300;
     color: #a0a0a0;
     font-size: 25px;
-    margin-top: 8%;
+     margin-top: 15%;
 }
 
 .calculator {
