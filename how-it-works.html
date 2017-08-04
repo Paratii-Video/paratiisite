@@ -91,7 +91,7 @@ $("#calculator_result").text(resultado);
         max: 3,
         range: 'min',
         create: function () {
-       	 $('#rating .ui-slider-handle').append('<div id="rating_text">2</div>');
+       	 $('#rating .ui-slider-handle').append('<div id="rating_text">2X</div>');
         },
         slide: function (event, ui) {
             $("#rating_text").text(ui.value + 'X');
@@ -109,7 +109,7 @@ $("#calculator_result").text(resultado);
         max: 100,
         range: 'min',
         create: function () {
-       	 $('#percentage .ui-slider-handle').append('<div id="percentage_text">30</div>');
+       	 $('#percentage .ui-slider-handle').append('<div id="percentage_text">30%</div>');
         },
         slide: function (event, ui) {
             $("#percentage_text").text(ui.value + '%');
@@ -127,7 +127,7 @@ $("#calculator_result").text(resultado);
 	step: 0.1,
         range: 'min',
         create: function () {
-       	 $('#audience .ui-slider-handle').append('<div id="audience_text">0.23</div>');
+       	 $('#audience .ui-slider-handle').append('<div id="audience_text">0.23%</div>');
         },
         slide: function (event, ui) {
             $("#audience_text").text(ui.value + '%');
@@ -162,7 +162,7 @@ $("#calculator_result").text(resultado);
         max: 500,
         range: 'min',
         create: function () {
-       	 $('#pti_projection .ui-slider-handle').append('<div id="pti_text">385</div>');
+       	 $('#pti_projection .ui-slider-handle').append('<div id="pti_text">385 U$$</div>');
         },
         slide: function (event, ui) {
             $("#pti_text").text(ui.value + ' U$$');
