@@ -4322,7 +4322,7 @@ right: 0;
     margin: 10px 50px;
 }
 
-#views_text, #rating_text, #percentage_text, #audience_text, #days_text {
+#views_text, #rating_text, #percentage_text, #audience_text, #days_text, #pti_text {
 position: absolute;
     bottom: 20px;
 margin-left: -10px;
