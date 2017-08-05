@@ -4055,9 +4055,14 @@ opacity: 1;
 }
 
 .content_area {
-width: 1170px;
+width: 90%;
 margin: 0 auto;
 position:relative;
+}
+
+@media (min-width: 1200px)
+.container {
+    width: 90% !important;
 }
 
 .title_hiw {
