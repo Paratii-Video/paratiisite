@@ -44,15 +44,20 @@ $(document).ready(function() {
 $(document).ready(function () {
 
 var views_teste = 0;
+var audience_teste = 0;
+var days_teste = 0;
+var pti_teste = 0;
 	
 function calculatePTI() {
+	
+	str.replace(/[^\d\.\-]/g, "");
 
 var views = parseFloat(views_teste.replace(/,/g, ''));
 var rating = $( "#rating" ).slider( "value" );
 var percentage = $( "#percentage" ).slider( "value" );
-var audience = $( "#audience" ).slider( "value" );
-var days = $( "#days" ).slider( "value" );
-var ValorPTI = $( "#pti_projection" ).slider( "value" );
+var audience = parseFloat(audience_teste.replace(/,/g, ''));
+var days = Number(days_teste);
+var ValorPTI = Number(pti_teste);
 	
 var ParatiiScore = rating * views;
 var DirectRev = views / 157;
@@ -168,6 +173,7 @@ function commafyaudience(val) {
         },
         slide: function (event, ui) {
             $("#audience_text").text(commafyaudience(ui.value) + '%');
+	audience_teste = commafyaudience(ui.value);
         },
 	change: function(event, ui){
         calculatePTI();
@@ -199,6 +205,8 @@ function commafydays(val) {
         },
         slide: function (event, ui) {
             $("#days_text").text(commafydays(ui.value));
+	days_teste = commafydays(ui.value);
+		
         },
 	change: function(event, ui){
         calculatePTI();
@@ -229,6 +237,7 @@ function commafypti(val) {
         },
         slide: function (event, ui) {
             $("#pti_text").text(commafypti(ui.value) + ' U$$');
+	pti_teste = commafypti(ui.value);
         },
 	change: function(event, ui){
         calculatePTI();
