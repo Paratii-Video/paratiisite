@@ -45,10 +45,10 @@ $(document).ready(function () {
 
 function calculatePTI() {
 
-var views = $( "#views" ).slider( "value" );
+var views = Number(document.getElementById("#views_text").value);
 var rating = $( "#rating" ).slider( "value" );
 var percentage = $( "#percentage" ).slider( "value" );
-var audience = $( "#audience" ).slider( "value" );
+var audience = Number(document.getElementById("#audience_text").text);
 var days = $( "#days" ).slider( "value" );
 var ValorPTI = $( "#pti_projection" ).slider( "value" );
 	
