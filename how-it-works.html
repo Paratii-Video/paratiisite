@@ -53,7 +53,7 @@ function calculatePTI() {
 var views = parseFloat(views_teste.replace(/,/g, ''));
 var rating = $( "#rating" ).slider( "value" );
 var percentage = $( "#percentage" ).slider( "value" );
-var audience = parseFloat(audience_teste.replace(/[^\d\.\-]/g, ""));
+var audience = Number(audience_teste);
 var days = Number(days_teste);
 var ValorPTI = Number(pti_teste);
 	
