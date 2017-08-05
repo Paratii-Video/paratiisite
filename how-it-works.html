@@ -43,6 +43,8 @@ $(document).ready(function() {
 	
 $(document).ready(function () {
 
+var views_teste = 0;
+	
 function calculatePTI() {
 
 var views = views_teste;
@@ -97,7 +99,7 @@ function commafyviews(val) {
        	 $('#views .ui-slider-handle').append('<div id="views_text">500,000</div>');
         },
         slide: function (event, ui) {
-	var views_teste = $("#views_text").text(commafyviews(ui.value));
+	views_teste = $("#views_text").text(commafyviews(ui.value));
         },
 	change: function(event, ui){
         calculatePTI();
