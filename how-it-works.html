@@ -54,8 +54,8 @@ var views = parseFloat(views_teste.replace(/,/g, ''));
 var rating = $( "#rating" ).slider( "value" );
 var percentage = $( "#percentage" ).slider( "value" );
 var audience = parseFloat(audience_teste);
-var days = parseFloat(days_teste);
-var ValorPTI = parseFloat(pti_teste);
+var days = parseInt(days_teste);
+var ValorPTI = parseInt(pti_teste);
 	
 var ParatiiScore = rating * views;
 var DirectRev = views / 157;
