@@ -45,7 +45,7 @@ $(document).ready(function () {
 
 function calculatePTI() {
 
-var views = Number(document.getElementById("#views_text").text);
+var views = views_teste;
 var rating = $( "#rating" ).slider( "value" );
 var percentage = $( "#percentage" ).slider( "value" );
 var audience = Number(document.getElementById("#audience_text").text);
@@ -97,7 +97,7 @@ function commafyviews(val) {
        	 $('#views .ui-slider-handle').append('<div id="views_text">500,000</div>');
         },
         slide: function (event, ui) {
-	$("#views_text").text(commafyviews(ui.value));
+	var views_teste = $("#views_text").text(commafyviews(ui.value));
         },
 	change: function(event, ui){
         calculatePTI();
