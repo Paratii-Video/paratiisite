@@ -43,16 +43,18 @@ $(document).ready(function() {
 	
 $(document).ready(function () {
 
-var views_teste = 0;
-var audience_teste = 0;
-var days_teste = 0;
-var pti_teste = 0;
-	
+var views_teste = 500000;
+var audience_teste = 0.23;
+var days_teste = 45;
+var pti_teste = 385;
+var rating = 2;
+var percentage = 30;
+
 function calculatePTI() {
 	
 var views = parseFloat(views_teste.replace(/,/g, ''));
-var rating = $( "#rating" ).slider( "value" );
-var percentage = $( "#percentage" ).slider( "value" );
+rating = $( "#rating" ).slider( "value" );
+percentage = $( "#percentage" ).slider( "value" );
 var audience = parseFloat(audience_teste);
 var days = parseInt(days_teste);
 var ValorPTI = parseInt(pti_teste);
