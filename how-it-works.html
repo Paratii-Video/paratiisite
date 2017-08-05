@@ -138,7 +138,20 @@ $("#calculator_result").text(resultado);
     	} 
     });	
 	
-	
+
+function commafy(val) {
+  /* Total range 0 - 3,000,000 */
+  /* 50% from 0 to 250,000, what have left (2,750,000) */
+  /* So, final dividing */
+  var toPresent = 0;
+  if (val < 75) {
+    toPresent = (val / 75) * 50;
+  } else {
+    toPresent = 50 + (val - 75) / 25 * 310;
+  };
+  toPresent=Math.floor(toPresent);
+  return String(toPresent);
+}	
 	
     $("#days").slider({
         value: '45',
@@ -149,7 +162,7 @@ $("#calculator_result").text(resultado);
        	 $('#days .ui-slider-handle').append('<div id="days_text">45</div>');
         },
         slide: function (event, ui) {
-            $("#days_text").text(ui.value);
+            $("#days_text").text(commafy(ui.value));
         },
 	change: function(event, ui){
         calculatePTI();
