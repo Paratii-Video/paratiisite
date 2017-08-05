@@ -147,7 +147,7 @@ function commafy(val) {
   if (val < 75) {
     toPresent = (val / 75) * 50;
   } else {
-    toPresent = 50 + (val - 75) / 75 * 310;
+    toPresent = 50 + (val - 75) / 25 * 310;
   };
   toPresent=Math.floor(toPresent);
   return String(toPresent);
