@@ -104,7 +104,7 @@ function commafyviews(val) {
 	
     $("#rating").slider({
         value: '2',
-        min: -5,
+        min: 0,
         max: 5,
         range: 'min',
         create: function () {
@@ -146,6 +146,7 @@ function commafyaudience(val) {
   } else {
     toPresent = 0.25 + (val - 50) / 50 * 99.75;
   };
+  toPresent=Math.round(toPresent * 100) / 100
   return String(toPresent);
 }
 	
