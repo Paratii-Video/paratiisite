@@ -85,12 +85,12 @@ function commafyviews(val) {
 }
 	
     $("#views").slider({
-        value: '500000',
+        value: '50',
         min: 0,
         max: 100,
         range: 'min',
         create: function () {
-       	 $('#views .ui-slider-handle').append('<div id="views_text">500000</div>');
+       	 $('#views .ui-slider-handle').append('<div id="views_text">500,000</div>');
         },
         slide: function (event, ui) {
 	$("#views_text").text(commafyviews(ui.value));
@@ -146,12 +146,11 @@ function commafyaudience(val) {
   } else {
     toPresent = 0.25 + (val - 50) / 50 * 99.75;
   };
-  toPresent=Math.floor(toPresent);
   return String(toPresent);
 }
 	
     $("#audience").slider({
-        value: '0.23',
+        value: '45',
         min: 0,
         max: 100,
 	step: 0.1,
@@ -213,7 +212,7 @@ function commafypti(val) {
 }
 	
  $("#pti_projection").slider({
-        value: '385',
+        value: '80',
         min: 0,
         max: 100,
         range: 'min',
