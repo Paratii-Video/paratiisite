@@ -79,9 +79,7 @@ function commafyviews(val) {
     toPresent = 50 + (val - 50) / 50 * 500000;
   };
   toPresent=Math.floor(toPresent);
-  return String(toPresent).split("").reverse().join("")
-    .replace(/(.{3}\B)/g, "$1,")
-    .split("").reverse().join("");
+  return String(toPresent);
 }
 	
     $("#views").slider({
@@ -160,7 +158,7 @@ function commafyaudience(val) {
        	 $('#audience .ui-slider-handle').append('<div id="audience_text">0.23%</div>');
         },
         slide: function (event, ui) {
-            $("#audience_text").text(commafyaudience(ui.value + '%'));
+            $("#audience_text").text(commafyaudience(ui.value) + '%');
         },
 	change: function(event, ui){
         calculatePTI();
@@ -221,7 +219,7 @@ function commafypti(val) {
        	 $('#pti_projection .ui-slider-handle').append('<div id="pti_text">385 U$$</div>');
         },
         slide: function (event, ui) {
-            $("#pti_text").text(commafypti(ui.value + ' U$$'));
+            $("#pti_text").text(commafypti(ui.value) + ' U$$'));
         },
 	change: function(event, ui){
         calculatePTI();
