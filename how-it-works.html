@@ -76,10 +76,12 @@ function commafyviews(val) {
   if (val < 50) {
     toPresent = (val / 50) * 500000;
   } else {
-    toPresent = 50 + (val - 50) / 50 * 500000;
+    toPresent = 500000 + (val - 50) / 50 * 99500000;
   };
   toPresent=Math.floor(toPresent);
-  return String(toPresent);
+  return String(toPresent).split("").reverse().join("")
+    .replace(/(.{3}\B)/g, "$1,")
+    .split("").reverse().join("");
 }
 	
     $("#views").slider({
@@ -142,7 +144,7 @@ function commafyaudience(val) {
   if (val < 50) {
     toPresent = (val / 50) * 0.25;
   } else {
-    toPresent = 50 + (val - 50) / 50 * 99.75;
+    toPresent = 0.25 + (val - 50) / 50 * 99.75;
   };
   toPresent=Math.floor(toPresent);
   return String(toPresent);
@@ -204,7 +206,7 @@ function commafypti(val) {
   if (val < 50) {
     toPresent = (val / 50) * 10;
   } else {
-    toPresent = 50 + (val - 50) / 50 * 490;
+    toPresent = 10 + (val - 50) / 50 * 490;
   };
   toPresent=Math.floor(toPresent);
   return String(toPresent);
