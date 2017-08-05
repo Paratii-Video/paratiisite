@@ -219,7 +219,7 @@ function commafypti(val) {
        	 $('#pti_projection .ui-slider-handle').append('<div id="pti_text">385 U$$</div>');
         },
         slide: function (event, ui) {
-            $("#pti_text").text(commafypti(ui.value) + ' U$$'));
+            $("#pti_text").text(commafypti(ui.value) + ' U$$');
         },
 	change: function(event, ui){
         calculatePTI();
