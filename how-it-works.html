@@ -67,17 +67,33 @@ var resultado = resultado2.toLocaleString() + ' ' + 'U$$'; ;
 $("#calculator_result").text(resultado);
 	
 }
+
+function commafyviews(val) {
+  /* Total range 0 - 3,000,000 */
+  /* 50% from 0 to 250,000, what have left (2,750,000) */
+  /* So, final dividing */
+  var toPresent = 0;
+  if (val < 50) {
+    toPresent = (val / 50) * 500000;
+  } else {
+    toPresent = 50 + (val - 50) / 50 * 500000;
+  };
+  toPresent=Math.floor(toPresent);
+  return String(toPresent).split("").reverse().join("")
+    .replace(/(.{3}\B)/g, "$1,")
+    .split("").reverse().join("");
+}
 	
     $("#views").slider({
         value: '500000',
         min: 0,
-        max: 800000,
+        max: 100,
         range: 'min',
         create: function () {
        	 $('#views .ui-slider-handle').append('<div id="views_text">500000</div>');
         },
         slide: function (event, ui) {
-	$("#views_text").text(ui.value);
+	$("#views_text").text((commafyviews(ui.value));
         },
 	change: function(event, ui){
         calculatePTI();
@@ -88,8 +104,8 @@ $("#calculator_result").text(resultado);
 	
     $("#rating").slider({
         value: '2',
-        min: 0,
-        max: 3,
+        min: -5,
+        max: 5,
         range: 'min',
         create: function () {
        	 $('#rating .ui-slider-handle').append('<div id="rating_text">2X</div>');
@@ -120,18 +136,31 @@ $("#calculator_result").text(resultado);
     	} 	    
     });
 	
+function commafyaudience(val) {
+  /* Total range 0 - 3,000,000 */
+  /* 50% from 0 to 250,000, what have left (2,750,000) */
+  /* So, final dividing */
+  var toPresent = 0;
+  if (val < 50) {
+    toPresent = (val / 50) * 0.25;
+  } else {
+    toPresent = 50 + (val - 50) / 50 * 99.75;
+  };
+  toPresent=Math.floor(toPresent);
+  return String(toPresent);
+}
 	
     $("#audience").slider({
         value: '0.23',
         min: 0,
-        max: 1,
+        max: 100,
 	step: 0.1,
         range: 'min',
         create: function () {
        	 $('#audience .ui-slider-handle').append('<div id="audience_text">0.23%</div>');
         },
         slide: function (event, ui) {
-            $("#audience_text").text(ui.value + '%');
+            $("#audience_text").text(commafyaudience(ui.value + '%'));
         },
 	change: function(event, ui){
         calculatePTI();
@@ -139,7 +168,7 @@ $("#calculator_result").text(resultado);
     });	
 	
 
-function commafy(val) {
+function commafydays(val) {
   /* Total range 0 - 3,000,000 */
   /* 50% from 0 to 250,000, what have left (2,750,000) */
   /* So, final dividing */
@@ -162,24 +191,37 @@ function commafy(val) {
        	 $('#days .ui-slider-handle').append('<div id="days_text">45</div>');
         },
         slide: function (event, ui) {
-            $("#days_text").text(commafy(ui.value));
+            $("#days_text").text(commafydays(ui.value));
         },
 	change: function(event, ui){
         calculatePTI();
     	}   
     });
 	
-
+function commafypti(val) {
+  /* Total range 0 - 3,000,000 */
+  /* 50% from 0 to 250,000, what have left (2,750,000) */
+  /* So, final dividing */
+  var toPresent = 0;
+  if (val < 50) {
+    toPresent = (val / 50) * 10;
+  } else {
+    toPresent = 50 + (val - 50) / 50 * 490;
+  };
+  toPresent=Math.floor(toPresent);
+  return String(toPresent);
+}
+	
  $("#pti_projection").slider({
         value: '385',
         min: 0,
-        max: 500,
+        max: 100,
         range: 'min',
         create: function () {
        	 $('#pti_projection .ui-slider-handle').append('<div id="pti_text">385 U$$</div>');
         },
         slide: function (event, ui) {
-            $("#pti_text").text(ui.value + ' U$$');
+            $("#pti_text").text(commafypti(ui.value + ' U$$'));
         },
 	change: function(event, ui){
         calculatePTI();
