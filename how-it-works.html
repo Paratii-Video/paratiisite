@@ -45,7 +45,7 @@ $(document).ready(function () {
 
 function calculatePTI() {
 
-var views = Number(document.getElementById("#views_text").textContent);
+var views = Number(document.getElementById("#views_text").text);
 var rating = $( "#rating" ).slider( "value" );
 var percentage = $( "#percentage" ).slider( "value" );
 var audience = Number(document.getElementById("#audience_text").text);
