@@ -4233,7 +4233,7 @@ text-align: center;
 font-family: 'Roboto';
     font-weight: 300;
     color: #a0a0a0;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .calculator {
@@ -4313,13 +4313,11 @@ color: #84ecf8;
 }
 
 .bottom_calculator {
-    color: #fff;
+    color: #9a999e;
     font-size: 10px;
-    position: absolute;
-    bottom: 0;
-right: 0;
-    left: 0;
-    margin: 10px 50px;
+text-align:center;
+    width: 60%;
+    margin: 0 auto;
 }
 
 #views_text, #rating_text, #percentage_text, #audience_text, #days_text, #pti_text {
@@ -4335,7 +4333,7 @@ color: #504dc1;
 }
 
 #calculator_result {
-    font-size: 70px;
+    font-size: 50px;
     color: #796ffb;
     font-family: 'Roboto';
     margin: 0 auto;
@@ -4347,8 +4345,9 @@ color: #504dc1;
     font-family: 'Roboto';
     font-weight: 300;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 2%;
     color: #9a999e;
+    font-size: 12px;
 }
 
 .calculator_new {
@@ -4402,6 +4401,77 @@ margin-top: 26%;
 margin-top: 26%;
 }
 
+.result_block_mobile {
+display: none;
+}
+
 .angellist_jobs:hover .angellist_jobs-title-link {
 color: blue !important;
+}
+
+
+
+
+
+
+
+@media only screen and (min-device-width : 100px) and (max-device-width : 767px) {
+.result_block_mobile {
+display: block;
+}
+	
+.result_block {
+display: none;
+}
+	
+.menu_hiw {
+display: none;
+}
+	
+.animation_wrap {
+    display: none;
+}
+	
+.paraty_works {
+    width: 100%;
+     margin-top: 30%;
+    padding: 20px;
+}
+	
+.title_hiw {
+    padding-top: 10%;
+    padding-left: 20px;
+    font-size: 15px;
+}
+	
+.module.right_hiw, .module-group.right_hiw {
+    float: right;
+    margin-right: 0px;
+}
+	
+.module.right_hiw i {
+color: #796ffb;
+}
+	
+nav#site-navigation2 {
+    margin-top: 20%;
+    padding: 0px 20px;
+}	
+	
+.video_hiw {
+display: none;
+}
+	
+.content_calculator {
+    width: 100%;
+    padding: 10px 10px;
+}
+	
+.title_calculator {
+    font-size: 18px;
+    margin-bottom: 50px;
+    padding: 0px 20px;
+}
+	
+	
 }
