@@ -345,8 +345,8 @@ z-index:3;
 
 input,
 textarea,
-select {
-    outline: 0;
+select, a {
+    outline: 0 !important;
 }
 
 input:focus {
