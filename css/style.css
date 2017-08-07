@@ -4426,7 +4426,7 @@ color: blue !important;
 @media only screen and (min-device-width : 100px) and (max-device-width : 767px) {
 .result_block_mobile {
 display: block;
-margin: 30px auto;
+margin: 30px auto 20px auto;
 }
 	
 .result_block {
