@@ -4357,7 +4357,7 @@ margin-top: 5%;
 .content_calculator {
 width: 80%;
 padding: 0px 50px;
-margin-top: 26%;
+margin-top: 30px;
 }
 
 .fp-section .paraty_works {
@@ -4391,14 +4391,14 @@ margin-top: 26%;
 	opacity: 0;
 	z-index: 0;
 	transition: all 2s ease-in-out;
-margin-top: 26%;
+margin-top: 30px;
 }
 
 .fp-section.active .content_calculator {
 	visibility: visible;
 	opacity: 1;
 	z-index: 1;
-margin-top: 26%;
+margin-top: 30px;
 }
 
 .result_block_mobile {
