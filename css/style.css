@@ -353,6 +353,10 @@ input:focus {
 box-shadow: -7px 6px 10px -5px rgba(0,0,0,0.2);
 }
 
+input:focus, textarea:focus {
+    outline: none;
+}
+
 input[type="submit"] {
     border-radius: 7px;
     color: #fff;
