@@ -4357,7 +4357,7 @@ margin-top: 5%;
 .content_calculator {
 width: 80%;
 padding: 0px 50px;
-margin-top: 30px;
+padding-top: 10px;
 }
 
 .fp-section .paraty_works {
@@ -4391,14 +4391,14 @@ margin-top: 30px;
 	opacity: 0;
 	z-index: 0;
 	transition: all 2s ease-in-out;
-margin-top: 30px;
+padding-top: 10px;
 }
 
 .fp-section.active .content_calculator {
 	visibility: visible;
 	opacity: 1;
 	z-index: 1;
-margin-top: 30px;
+padding-top: 10px;
 }
 
 .result_block_mobile {
@@ -4409,6 +4409,14 @@ display: none;
 color: blue !important;
 }
 
+#calculator_result2 {
+    font-size: 30px;
+    color: #796ffb;
+    font-family: 'Roboto';
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
 
 
 
@@ -4418,6 +4426,7 @@ color: blue !important;
 @media only screen and (min-device-width : 100px) and (max-device-width : 767px) {
 .result_block_mobile {
 display: block;
+margin: 30px auto;
 }
 	
 .result_block {
@@ -4470,6 +4479,11 @@ display: none;
     font-size: 18px;
     margin-bottom: 50px;
     padding: 0px 20px;
+}
+	
+.bottom_calculator {
+width:90%;
+margin-bottom: 50px;
 }
 	
 	
