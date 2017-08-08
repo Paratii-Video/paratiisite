@@ -1847,7 +1847,7 @@ line-height: 12px;
 	}
 
 .nav-bar img {
-    max-height: 50%;
+    max-height: 40%;
     margin-top: -5px;
 }
 
@@ -4044,6 +4044,12 @@ overflow: visible !important;
   width: 100px;  
 }
 
+@media (min-width: 1200px)
+grid.less:7
+.container {
+    width: 1150px !important;
+}
+
 .hiw_content {
 padding-top:0px; 
 }
@@ -4476,9 +4482,26 @@ display: none;
 }
 	
 .title_calculator {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 50px;
     padding: 0px 20px;
+}
+	
+#views_text, #rating_text, #percentage_text, #audience_text, #days_text, #pti_text {
+    font-size: 11px;
+}
+
+.ui-widget.ui-widget-content {
+    height: 7px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    width: 15px !important;
+    height: 15px !important;	
+}
+	
+.hiw_text {
+    font-size: 12px;
 }
 	
 .bottom_calculator {
