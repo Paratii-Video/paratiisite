@@ -4454,8 +4454,10 @@ display: none;
 }
 	
 .module.right_hiw, .module-group.right_hiw {
-    float: right;
     margin-right: 0px;
+    right: 0;
+    position: absolute;
+    margin-top: 10px;
 }
 	
 .module.right_hiw i {
