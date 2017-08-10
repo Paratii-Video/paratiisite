@@ -3862,7 +3862,7 @@ font-size: 40px;
 }
 
 .container {
-width: 90% !important;
+width: 91.8% !important;
 padding-top:0px;
 }
 
@@ -4077,8 +4077,8 @@ font-family: 'Roboto', sans-serif;
 font-weight: 300;
 margin: 0;
 width: 90%;
-padding-left: 3%;
-padding-right: 3%;
+padding-left: 2.2%;
+padding-right: 2.2%;
 }
 
 
@@ -4098,7 +4098,7 @@ color: #a0a0a0;
 .paraty_works {
     width: 37%;
     margin: 0 0px 0 0;
-    padding: 5% 0% 10% 3%;
+    padding: 5% 0% 10% 2.2%;
 }
 
 .main_hiw {
@@ -4139,7 +4139,7 @@ text-align: justify;
     min-width: 200px;
     margin-top: 10%;
     position: absolute;
-    right: 0;
+    right: -50px;
     z-index: 999;
 }
 
@@ -4215,7 +4215,7 @@ color:#fafafa;
 
 .module.right_hiw, .module-group.right_hiw {
     float: right;
-    margin-right: 170px;
+    margin-right: 140px;
 }
 
 
