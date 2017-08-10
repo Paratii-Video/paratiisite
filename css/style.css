@@ -3862,7 +3862,7 @@ font-size: 40px;
 }
 
 .container {
-width: 90%;
+width: 90% !important;
 padding-top:0px;
 }
 
@@ -4042,12 +4042,6 @@ overflow: visible !important;
 .svg-wrapper {
   position: relative;
   width: 100px;  
-}
-
-@media (min-width: 1200px)
-grid.less:7
-.container {
-    width: 1150px !important;
 }
 
 .hiw_content {
