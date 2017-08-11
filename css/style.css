@@ -3862,7 +3862,6 @@ font-size: 40px;
 }
 
 .container {
-width: 91.8% !important;
 padding-top:0px;
 }
 
@@ -4059,7 +4058,7 @@ opacity: 1;
 }
 
 .content_area {
-width: 90%;
+width: 1150px;
 margin: 0 auto;
 position:relative;
 }
