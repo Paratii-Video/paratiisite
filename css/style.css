@@ -4138,7 +4138,7 @@ text-align: justify;
     min-width: 200px;
     margin-top: 10%;
     position: absolute;
-    right: -50px;
+    right: -90px;
     z-index: 999;
 }
 
@@ -4214,7 +4214,7 @@ color:#fafafa;
 
 .module.right_hiw, .module-group.right_hiw {
     float: right;
-    margin-right: 140px;
+   margin-right: 90px;
 }
 
 
