@@ -4423,7 +4423,7 @@ display: none;
 	
 .paraty_works {
     width: 100%;
-     margin-top: 30%;
+    margin-top: 60%;
     padding: 20px;
 }
 	
@@ -4483,6 +4483,10 @@ display: none;
 .bottom_calculator {
 width:90%;
 margin-bottom: 50px;
+}
+	
+.content_area {
+    width: 90%;
 }
 	
 	
