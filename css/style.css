@@ -4313,11 +4313,11 @@ color: #84ecf8;
 }
 
 .bottom_calculator {
-    color: #9a999e;
-    font-size: 10px;
-text-align:center;
-    width: 60%;
-    margin: 0 auto;
+color: #9a999e;
+    font-size: 9px;
+    text-align: left;
+    width: 100%;
+    margin: 0 0 0 15px;
 }
 
 #views_text, #rating_text, #percentage_text, #audience_text, #days_text, #pti_text {
@@ -4456,7 +4456,7 @@ display: none;
 	
 .content_calculator {
     width: 100%;
-    padding: 10px 10px;
+    padding: 10px 10px 150px 10px;
 }
 	
 .title_calculator {
