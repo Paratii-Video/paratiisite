@@ -4483,7 +4483,7 @@ display: none;
 }
 	
 .hiw_text {
-    font-size: 12px;
+    font-size: 11px;
 }
 	
 .bottom_calculator {
@@ -4495,5 +4495,13 @@ margin-bottom: 50px;
     width: 90%;
 }
 	
+.big_number {
+    font-size: 100px;
+    line-height: 80px;
+}
+	
+.number_text {
+    font-size: 25px;
+}
 	
 }
