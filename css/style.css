@@ -4411,6 +4411,10 @@ display: block;
 margin: 30px auto 20px auto;
 }
 	
+.calculator_new {
+    margin-left: -5px;
+}
+	
 .result_block {
 display: none;
 }
@@ -4425,7 +4429,7 @@ display: none;
 	
 .paraty_works {
     width: 100%;
-    margin-top: 60%;
+    margin-top: 40%;
     padding: 20px;
 }
 	
