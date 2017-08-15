@@ -4437,16 +4437,14 @@ object {
 	
 .paraty_works {
     width: 100%;
-    margin-top: 0px;
+    margin-top: -60px;
     padding: 20px;
     order: 2;
 }
 	
-.paraty_works_1 {
-    width: 100%;
-    margin-top: -60px;
-    padding: 20px;
-    order: 2;
+.video_animation {
+    max-width: 200px;
+    margin: 20px 40px 40px 40px;
 }
 	
 .section .flex_section {
@@ -4476,7 +4474,7 @@ nav#site-navigation2 {
 }	
 	
 .video_hiw {
-display: none;
+    display: block;
 }
 	
 .content_calculator {
