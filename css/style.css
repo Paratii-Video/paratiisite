@@ -4424,13 +4424,34 @@ display: none;
 }
 	
 .animation_wrap {
-    display: none;
+    order: 1;
+}
+	
+object {
+    max-width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 15%;
+    margin-left: 50px;
 }
 	
 .paraty_works {
     width: 100%;
-    margin-top: 40%;
+    margin-top: 0px;
     padding: 20px;
+    order: 2;
+}
+	
+.paraty_works_1 {
+    width: 100%;
+    margin-top: -60px;
+    padding: 20px;
+    order: 2;
+}
+	
+.section .flex_section {
+    display: flex;
+    flex-direction: column;
 }
 	
 .title_hiw {
