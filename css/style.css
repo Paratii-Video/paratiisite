@@ -4232,7 +4232,7 @@ text-align: left;
 font-family: 'Roboto';
     font-weight: 300;
     color: #a0a0a0;
-    font-size: 20px;
+    font-size: 18px;
 padding-left: 10px;
 }
 
@@ -4316,7 +4316,7 @@ color: #84ecf8;
 color: #9a999e;
     font-size: 9px;
     text-align: left;
-    width: 100%;
+    width: 50%;
     margin: 0 0 0 15px;
 }
 
@@ -4340,6 +4340,7 @@ color: #504dc1;
     display: block;
     text-align: left;
 padding-left: 10px;
+padding-bottom: 10px;
 }
 
 .subtitle_calculator {
