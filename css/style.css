@@ -346,7 +346,7 @@ z-index:3;
 input,
 textarea,
 select, a {
-    outline: 0 !important;
+    outline: none;
 }
 
 input:focus {
@@ -4160,6 +4160,7 @@ padding-top:0px;
 .menu_hiw li:last-child{
   border-left:3px solid transparent;
   padding-bottom:0;
+outline: none;
 }
 
 #menu_hiw li.active span {
@@ -4177,6 +4178,7 @@ outline:none;
   border-radius: 50%;
   border:2px solid #d7d7d7;
   background-color: #d7d7d7 !important; 
+outline: none;	
 }
 
 
@@ -4192,6 +4194,7 @@ outline:none;
   line-height:20px;
   margin-left:-36px;
   text-align:center;   
+outline: none;
 }
 
 
@@ -4205,11 +4208,13 @@ font-size:12px;
 .menu_hiw span:hover {
 text-decoration:none;
 color:#fafafa;
+outline: none;
 }
 
 .menu_hiw a:hover {
 text-decoration:none;
 color:#fafafa;
+outline: none;
 }
 
 .module.right_hiw, .module-group.right_hiw {
