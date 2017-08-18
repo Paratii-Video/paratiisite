@@ -4409,7 +4409,7 @@ color: blue !important;
 }
 
 .video_hiw {
-width: 60%:
+width: 60%;
 }
 	
 .video_animation {
@@ -4417,8 +4417,9 @@ width: 60%:
 margin: 20px 40px 40px 40px;
 }
 
-
-
+.section .flex_section {
+	 margin-top: -10%;
+}
 
 
 @media only screen and (min-device-width : 100px) and (max-device-width : 767px) {
@@ -4463,6 +4464,7 @@ object {
     display: flex;
     flex-direction: column;
 }
+
 	
 .title_hiw {
     padding-top: 10%;
