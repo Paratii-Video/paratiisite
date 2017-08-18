@@ -919,8 +919,9 @@ p.lead {
 }
 
 a, a:visited, a:focus, a:active, a:hover, a:link {
-    text-decoration: none;
-    outline: none;
+    text-decoration: none !important;
+    outline: none !important;
+outline-offset: 0px !important;
 }
 
 a {
