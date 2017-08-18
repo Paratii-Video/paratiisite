@@ -4136,12 +4136,17 @@ line-height: 25px;
 }
 
 .menu_hiw {
-text-align: justify;
+    text-align: justify;
     min-width: 200px;
-    margin-top: 10%;
-    position: absolute;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#container_menu_hiw {
+position: absolute;
     right: -55px;
     z-index: 999;
+    margin-top: 10%;
 }
 
 .menu_hiw_calculator {
@@ -4232,6 +4237,8 @@ display: flex;
 .animation_wrap {
     margin-top: -60px;
     margin-left: -10px;
+    width: 60%;
+	z-index: -1;
 }
 
 .title_calculator {
@@ -4422,6 +4429,8 @@ margin: 20px 40px 40px 40px;
 }
 
 
+
+
 @media only screen and (min-device-width : 100px) and (max-device-width : 767px) {
 .result_block_mobile {
 display: block;
@@ -4445,11 +4454,9 @@ display: none;
 }
 	
 object {
-    max-width: 100%;
-    max-width: 200px;
+max-width: 100%;
     max-height: 200px;
-    margin-top: 15%;
-    margin-left: 50px;
+    margin-top: 20%;
 }
 	
 .paraty_works {
@@ -4463,6 +4470,7 @@ object {
 .section .flex_section {
     display: flex;
     flex-direction: column;
+    margin-top: 0;
 }
 
 	
@@ -4489,6 +4497,7 @@ nav#site-navigation2 {
 	
 .video_hiw {
     display: block;
+    width: 100%;
 }
 	
 .content_calculator {
