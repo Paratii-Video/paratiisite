@@ -4428,6 +4428,24 @@ margin: 20px 40px 40px 40px;
 	 margin-top: -10%;
 }
 
+#colophon2 .container.footer-inner {
+    padding: 10px 0px 0px 0px;
+    border-radius: 15px;
+}
+
+#colophon2 img.icon_footer {
+    width:20px !important;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+#colophon2 .copyright-text {
+margin-top: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+
 
 
 
