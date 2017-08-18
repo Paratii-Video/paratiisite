@@ -4548,7 +4548,7 @@ margin-bottom: 50px;
 }
 	
 .fp-tableCell {
-    vertical-align: top;
+    vertical-align: top !important;
 }
 	
 }
