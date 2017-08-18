@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta charset="UTF-8">
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type='text/javascript' src='js/jquery-migrate.min.js?ver=1.2.1'></script>
+    <style>
+        #bodymovin{
+            background-color:#fafafa;
+            height:100%;
+            display:block;
+            text-align: center;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+<div id="bodymovin"></div>
+
+<script>
+    var params = {
+        container: document.getElementById('bodymovin'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        animationData: data.json
+    };
+
+    var anim;
+
+    anim = bodymovin.loadAnimation(params);
+
+</script>
+
+</body>
+</html>
