@@ -2437,7 +2437,7 @@ padding-top:70px;
 #text-24.widget.widget_text {
     width: 30%;
     margin-left: 7%;
-margin-top: 15%;
+margin-top: 11%;
 float:left;
 }
 
@@ -2506,7 +2506,7 @@ height: 50px;
     width: 55%;
     float: right;
     margin-right: 0px;
-    margin-top: 12%;
+    margin-top: 8%;
 }
 
 #video_player {
@@ -4451,6 +4451,7 @@ display: none;
 	
 .animation_wrap {
     order: 1;
+    margin-top: -50px;
 }
 	
 object {
@@ -4544,6 +4545,10 @@ margin-bottom: 50px;
 	
 .number_text {
     font-size: 25px;
+}
+	
+.fp-tableCell {
+    vertical-align: top;
 }
 	
 }
