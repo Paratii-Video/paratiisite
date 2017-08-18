@@ -1200,7 +1200,7 @@ position: absolute;
 
 
 #support_btn:hover {
-text-decoration: underline;
+text-decoration: none;
 border: solid 2px #fff;
 color: #fff;
 background: transparent;
