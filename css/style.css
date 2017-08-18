@@ -4408,6 +4408,14 @@ color: blue !important;
     text-align: center;
 }
 
+.video_hiw {
+width: 60%:
+}
+	
+.video_animation {
+   width: 70%;
+margin: 20px 40px 40px 40px;
+}
 
 
 
@@ -4450,14 +4458,6 @@ object {
     order: 2;
 }
 	
-.video_hiw {
-width: 60%:
-}
-	
-.video_animation {
-   width: 60%;
-margin: 20px 40px 40px 40px;
-}
 	
 .section .flex_section {
     display: flex;
