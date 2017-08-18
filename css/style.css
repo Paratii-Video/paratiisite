@@ -3863,6 +3863,7 @@ font-size: 40px;
 
 .container {
 padding-top:0px;
+width: 90% !important;
 }
 
 }
@@ -4069,11 +4070,6 @@ position:relative;
     }
 }
 
-@media (min-width: 1200px)
-.container {
-    width: 90% !important;
-}
-
 .title_hiw {
 padding-top: 3%;
 color: #796ffb;
@@ -4144,7 +4140,7 @@ text-align: justify;
     min-width: 200px;
     margin-top: 10%;
     position: absolute;
-    right: -90px;
+    right: -55px;
     z-index: 999;
 }
 
