@@ -4058,9 +4058,15 @@ opacity: 1;
 }
 
 .content_area {
-width: 1150px;
+width: 90%;
 margin: 0 auto;
 position:relative;
+}
+
+@media (min-width: 1200px) and (max-width:1400px) {
+    .module.left {
+        padding-left:20px;
+    }
 }
 
 @media (min-width: 1200px)
@@ -4136,7 +4142,7 @@ line-height: 25px;
 .menu_hiw {
 text-align: justify;
     min-width: 200px;
-    margin-top: 10%;
+    margin-top: 13%;
     position: absolute;
     right: -90px;
     z-index: 999;
@@ -4219,7 +4225,7 @@ outline: none;
 
 .module.right_hiw, .module-group.right_hiw {
     float: right;
-   margin-right: 90px;
+   margin-right: -15px;
 }
 
 
@@ -4448,9 +4454,13 @@ object {
     order: 2;
 }
 	
+.video_hiw {
+width: 60%:
+}
+	
 .video_animation {
-    max-width: 200px;
-    margin: 20px 40px 40px 40px;
+   width: 60%;
+margin: 20px 40px 40px 40px;
 }
 	
 .section .flex_section {
