@@ -1168,7 +1168,7 @@ color: #fff;
 text-indent:initial;
 opacity: 1;
     display: inline-block;
-    background-image: linear-gradient(to right, rgba(250,250,250,1) 0%,rgba(250,250,250,1) 80%,rgba(250,250,250,0.5) 100%), url(https://paratii.wpengine.com/wp-content/uploads/2017/03/subscribe.jpg);
+    background-image: linear-gradient(to right, rgba(250,250,250,1) 0%,rgba(250,250,250,1) 80%,rgba(250,250,250,0) 100%), url(https://paratii.wpengine.com/wp-content/uploads/2017/03/subscribe.jpg);
     border: solid 2px #fafafa;
     background-size: 260px, 160px;
     background-position: -260 0, 0 0;
