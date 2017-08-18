@@ -4146,7 +4146,7 @@ line-height: 25px;
 position: absolute;
     right: -55px;
     z-index: 999;
-    margin-top: 10%;
+       top: 5%;
 }
 
 .menu_hiw_calculator {
