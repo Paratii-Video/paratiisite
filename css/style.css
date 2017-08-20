@@ -3064,6 +3064,7 @@ background-color: #fafafa;
     max-width: 100% !important;
     min-width: 100% !important;
         flex-basis: 100% !important;
+	min-height: 270px;
   }
 }
 .at-user {
@@ -3504,7 +3505,7 @@ width: 100%;
 
 #text-24.widget.widget_text {
 width: 100%;
-    margin-top: 30%;
+    margin-top: 15%;
     float: none;
     text-align: center;
     margin-left: 0;
@@ -3693,9 +3694,16 @@ margin-bottom: 40px;
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 40px;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
+.el-step__head.is-text.is-finish {
+display: none;
+}
+	
+.el-step__head.is-text.is-process {
+display: none;
+}
 
 .fa {
     color: #666;
@@ -3809,26 +3817,38 @@ background: #fafafa;
 }
 
 #text-18 p {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
 }
 
 #text-18 .textwidget {
-margin-bottom:20px;
+margin-bottom:0px;
 }
 
-
-
-
+img.icon_footer {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+	
 .el-step__description.is-process {
     margin-bottom: 50px;
-white-space: pre-wrap;
+    margin-top: 0px;
 }
-
-.el-step__description.is-wait {
-white-space: pre-wrap;
+	
+.el-step__head.is-text.is-wait {
+display: none;
 }
+	
+.container.footer-inner {
+    padding: 0px 0px 0px 0px;
+}
+	
+#colophon .site-info {
+    margin-top: 0px;
+}
+	
+	
 
 }
 
@@ -4145,9 +4165,9 @@ line-height: 25px;
 
 #container_menu_hiw {
 position: absolute;
-    right: -55px;
-    z-index: 999;
-       top: 5%;
+right: -55px;
+z-index: 999;
+top: 4%;
 }
 
 .menu_hiw_calculator {
@@ -4444,6 +4464,27 @@ margin: 20px 40px 40px 40px;
 margin-top: 12px;
     width: 100%;
     text-align: center;
+}
+
+.footer_min {
+    margin-top: -60px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #fafafa;
+    padding: 20px 0px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 10px 11px 44px -10px rgba(0,0,0,0.35);
+}
+
+.footer_min_btn {
+border: 2px solid #745cf9;
+    padding: 10px 20px;
+    font-weight: 300;
+    margin-right: 20px;
+    border-radius: 3px;
+    font-size: 12px;
 }
 
 
