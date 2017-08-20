@@ -4497,6 +4497,10 @@ display: block;
 margin: 30px auto 20px auto;
 }
 	
+.footer_min {
+display: none;
+}
+	
 .calculator_new {
     margin-left: -5px;
 }
