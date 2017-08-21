@@ -4260,6 +4260,7 @@ display: flex;
     margin-left: -10px;
     width: 60%;
 	z-index: -1;
+overflow: hidden;
 }
 
 .title_calculator {
@@ -4398,16 +4399,12 @@ padding: 10px 50px 0px 15px;
 }
 
 .fp-section {
-	visibility: hidden;
 	opacity: 0;
-	z-index: 0;
 	transition: all 2s ease-in-out;
 }
 
 .fp-section.active {
-	visibility: visible;
 	opacity: 1;
-	z-index: 1;
 }
 
 
