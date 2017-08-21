@@ -4106,7 +4106,7 @@ position:relative;
 }
 
 .title_hiw {
-padding-top: 3%;
+padding-top: 7%;
 color: #796ffb;
 font-size: 18px;
 font-family: 'Roboto', sans-serif;
@@ -4181,7 +4181,7 @@ line-height: 25px;
 position: absolute;
 right: -55px;
 z-index: 999;
-top: 4%;
+top: 5%;
 }
 
 .menu_hiw_calculator {
