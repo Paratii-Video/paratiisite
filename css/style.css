@@ -931,7 +931,7 @@ a {
 }
 
 a:visited {
-    color: #745cf9;
+    color: #7e70ff;
 }
 
 .image-bg a {
@@ -4492,7 +4492,7 @@ border: none;
 }
 
 .footer_min_btn {
-border: 2px solid #745cf9;
+border: 2px solid #7e70ff;
     padding: 10px 20px;
     font-weight: 300;
     margin-right: 20px;
