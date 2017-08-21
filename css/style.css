@@ -4012,7 +4012,7 @@ nav#site-navigation2 {
     background-size: 1800px;
     background-repeat: no-repeat;
 border: none;
-position: relative;
+position: fixed;
 z-index: 9999999;
 }
 
