@@ -717,6 +717,7 @@ margin-top:10px;
 
 embed, iframe, object {
     max-width: 100%;
+    overflow: hidden;
 }
 
 
