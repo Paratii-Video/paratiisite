@@ -46,6 +46,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 a {
     background-color: transparent;
+	color: #7e70ff;
 }
 
 a:active, a:hover {
