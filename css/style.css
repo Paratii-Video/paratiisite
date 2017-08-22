@@ -717,7 +717,8 @@ margin-top:10px;
 /* Make sure embeds and iframes fit their containers. */
 
 embed, iframe, object {
-    max-width: 100%;
+    min-width: 100%;
+min-height:103%;
     overflow: hidden;
 }
 
