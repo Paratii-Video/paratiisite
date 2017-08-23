@@ -1,6 +1,7 @@
 <?php $SUBSCRIBE = $GLOBALS['sections']['subscribe']; ?>
 <section class="subscribe">
     <h2 class="visually-hidden"><?php echo $SUBSCRIBE['title']; ?></h2>
+    <span class="subscribe-loader"></span>
     
     <form class="subscribe-form-01" action="includes/send" enctype="text/plain">
         <p class="subscribe-form-01-text">

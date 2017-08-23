@@ -22,15 +22,16 @@
             $mail->setFrom($uemail, 'Around The Block Subscribe');
             $mail->addReplyTo($uemail, 'Around The Block Subscribe');
             $subject = 'Around the Block - Subscribe';
-            $message = '<p>' . $uemail . '</p>';
+            $message = '<p><strong>E-mail: </strong>' . $uemail . '</p>';
         }
 
         if (isset($_GET['who'])) {
             $who = $_GET['who'];
             $why = $_GET['why'];
 
+            $mail->setFrom($guser, 'Around The Block Suggest');
             $subject = 'Around the Block - Suggest';
-            $message = '<p><strong>Who:</strong>' . $who . '</p><p><strong>Why:</strong>' . $why . '</p>';
+            $message = '<p><strong>Who: </strong>' . $who . '</p><p><strong>Why: </strong>' . $why . '</p>';
         }
         
         $mail->addAddress('jrgarou@gmail.com', 'Around The Block');
