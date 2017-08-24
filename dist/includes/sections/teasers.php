@@ -1,6 +1,6 @@
 <?php $TEASERS = $GLOBALS['sections']['teasers']; ?>
 
-<section class="teasers">
+<section id="teasers" class="teasers">
     <h2 class="visually-hidden"><?php echo $TEASERS['title']; ?></h2>
     <?php foreach ($TEASERS['items'] as $key => $value) : ?>
     <article class="teasers-article <?php echo $value['class']; ?>">

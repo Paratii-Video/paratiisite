@@ -1,6 +1,6 @@
 <?php $INTERVIEWS = $GLOBALS['sections']['interviews']; ?>
 
-<section class="interviews">
+<section id="interviews" class="interviews">
     <h2 class="interviews-title"><?php echo $INTERVIEWS['title']; ?></h2>
     <ul class="interviews-nav">
         <?php foreach($INTERVIEWS['items'] as $key => $value): ?>
@@ -20,7 +20,10 @@
         <?php foreach($INTERVIEWS['items'] as $key => $value): ?>
             <article class="interviews-article" id="<?php echo $value['href']; ?>">
                 <div class="interviews-article-wrapper">                
-                    <div class="interviews-article-thumb"><img class="interviews-article-image" src="<?php echo $value['image']; ?>" /></div>
+                    <div class="interviews-article-thumb">
+                        <img class="interviews-article-image" src="<?php echo $value['image']; ?>" />
+                        <img class="interviews-article-gif" src="<?php echo $value['gif']; ?>" />
+                    </div>
                     <div class="interviews-article-entry">
                         <h3 class="interviews-article-title"><?php echo $value['break']; ?></h3>
                         <ul class="interviews-article-social">
@@ -48,6 +51,10 @@
             </article>
         <?php endforeach; ?>
         <button class="interviews-button-back" title="<?php echo $INTERVIEWS['button-back']; ?>">
-            <svg class="interviews-button-back-svg"  viewBox="0 0 81 86.6"><path fill="none" stroke="#00EFC6" stroke-width="6" stroke-miterlimit="10" d="M20 22.5l41 41M20 63.5l41-41"/></svg>
+            <svg class="interviews-button-back-svg"  viewBox="0 0 81 86.6">
+                <path fill="none" stroke="#00EFC6" stroke-width="6" stroke-miterlimit="10" d="M20 22.5l41 41M20 63.5l41-41" />
+            </svg>
+        </button>
+
     </div>
 </section>

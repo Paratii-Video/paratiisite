@@ -1,7 +1,7 @@
 <?php $CHAPTERS = $GLOBALS['sections']['chapters']; ?>
 
-<section class="chapters">
-    <div class="chapters-asset"><svg class="chapters-svg"><use xlink:href="#chapters"></svg></div>
+<section id="chapters" class="chapters">
+    <div class="chapters-asset"><svg class="chapters-svg"><use xlink:href="#svg-chapters"></svg></div>
     <h2 class="chapters-title"><?php echo $CHAPTERS['title']; ?></h2>
     <div class="chapters-items">
         <ul class="chapters-list">

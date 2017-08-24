@@ -1,6 +1,6 @@
 <?php $DISCOVER = $GLOBALS['sections']['discover']; ?>
 
-<aside class="discover">
+<aside id="discover" class="discover">
     <h2 class="discover-title"><?php echo $DISCOVER['title']; ?></h2>
     <ul class="discover-list">
     <?php foreach ($DISCOVER['items'] as $key => $value) : ?>
@@ -14,7 +14,7 @@
         </li>
     <?php endforeach; ?>
     </ul>
-    <svg class="discover-svg hide-mobile"><use xlink:href="#discover"></svg>
-    <svg class="discover-svg show-mobile"><use xlink:href="#discover-mobile"></svg>
+    <svg class="discover-svg hide-mobile"><use xlink:href="#svg-discover"></svg>
+    <svg class="discover-svg show-mobile"><use xlink:href="#svg-discover-mobile"></svg>
 </aside>
 

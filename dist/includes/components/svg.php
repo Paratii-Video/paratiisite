@@ -11,7 +11,7 @@
       <path fill="none" stroke="#00EFC6" stroke-width="6" stroke-miterlimit="10" d="M20 22.5l41 41M20 63.5l41-41"/>
     </symbol>
 
-    <symbol id="about" viewBox="0 0 844 854">
+    <symbol id="svg-about" viewBox="0 0 844 854">
       <g fill="#192552" stroke="#7E70FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
         <path d="M502.2 149.8v92.3l80 46.2 80-46.2v-92.3l-80-46.2z"/>
         <path d="M662.2 149.8l-80 46.2-80-46.2M582.2 288.3V196"/>
@@ -70,7 +70,7 @@
       </g>
     </symbol>
 
-    <symbol id="discover"  viewBox="0 0 321.8 362">
+    <symbol id="svg-discover"  viewBox="0 0 321.8 362">
       <g fill="#192552" stroke="#7E70FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
         <path d="M121.6 147v92.4l80 46.1 80-46.1V147l-80-46.2z"/>
         <path d="M281.6 147l-80 46.2-80-46.2M201.6 285.5v-92.3"/>
@@ -93,7 +93,7 @@
       </g>
     </symbol>
 
-    <symbol id="discover-mobile" viewBox="0 0 441.8 497">
+    <symbol id="svg-discover-mobile" viewBox="0 0 441.8 497">
       <g fill="#192552" stroke="#7E70FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
         <path d="M101.1 179.4v92.4l80 46.2 80-46.2v-92.4l-80-46.2z"/>
         <path d="M261.1 179.4l-80 46.2-80-46.2M181.1 318v-92.4"/>
@@ -112,7 +112,7 @@
       </g>
     </symbol>
 
-    <symbol id="chapters" viewBox="0 0 1041.4 1053.8">
+    <symbol id="svg-chapters" viewBox="0 0 1041.4 1053.8">
       <g fill="#192552" stroke="#7E70FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
         <path d="M701.4 250.4v92.3l80 46.2 80-46.1v-92.4l-80-46.2z"/>
         <path d="M861.4 250.4l-80 46.2-80-46.2M781.4 388.9v-92.3"/>

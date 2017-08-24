@@ -9,32 +9,32 @@
                 [
                     'title' => 'Teasers',
                     'class' => '',
-                    'href' => '#'
+                    'href' => '#teasers'
                 ],
                 [
                     'title' => 'Chapters',
                     'class' => '',
-                    'href' => '#'
+                    'href' => '#chapters'
                 ],
                 [
                     'title' => 'About',
                     'class' => '',
-                    'href' => '#'
+                    'href' => '#about'
                 ],
                 [
                     'title' => 'Interviews with',
                     'class' => '',
-                    'href' => '#'
+                    'href' => '#interviews'
                 ],
                 [
                     'title' => 'Subscribe',
                     'class' => '',
-                    'href' => '#'
+                    'href' => '#subscribe'
                 ],
                 [
                     'title' => 'Discover Paratii',
                     'class' => '',
-                    'href' => '#'
+                    'href' => '#discover'
                 ],
             ]
         ],
@@ -151,6 +151,7 @@
                         'break' => 'Sergio<br /> Lerner',
                         'href' => 'sergio-lerner',
                         'image' => './images/interviews/Sergio_Lerner.jpg',
+                        'gif' => './images/interviews/Sergio_Lerner.gif',
                         'about' => 'Security researcher, co-founder of RSK Labs, author of the Lumino-Compression Transaction Protocol',
                         'description' => 'Sergio has found multiple vulnerabilities in Bitcoin Core and extensively contributed to its codebase. A proponent of off-chain scaling, he\'s the Chief Scientist @ RSK Labs, which intends to bring smart contracts to Bitcoin.',
                         'social' => [
@@ -171,6 +172,7 @@
                         'break' => 'Alex Van<br /> de Sande',
                         'href' => 'alex-van-de-sande',
                         'image' => './images/interviews/Alex_Van_de_Sande.jpg',
+                        'gif' => './images/interviews/Alex_Van_de_Sande.gif',
                         'about' => 'Designer and frontend developer, team lead for Mist (the Ethereum browser)',
                         'description' => 'Alex proposed Mist still as an Ethereum fan, and has since become the project\'s lead. He\'s also part of the team who brought us ENS, the Ethereum Name System, and is widely recognised as one of the most respectable voices in the community.',
                         'social' => [
@@ -191,6 +193,7 @@
                         'break' => 'Aron<br /> Fischer',
                         'href' => 'aron-fischer',
                         'image' => './images/interviews/Aron_Fischer.jpg',
+                        'gif' => './images/interviews/Aron_Fischer.gif',
                         'about' => 'Maths PhD, engineer @ Colony and Swarm',
                         'description' => 'Specialized in Algebraic Topology and Homotopy theory, Aron is developing the governance protocols @ Colony, and working on state and payment channels for the Ethereum Foundation’s Swarm incentive structure.',
                         'social' => [
@@ -211,6 +214,7 @@
                         'break' => 'Viktor<br /> Trón',
                         'href' => 'viktor-tron',
                         'image' => './images/interviews/Viktor_Tron.jpg',
+                        'gif' => './images/interviews/Viktor_Tron.gif',
                         'about' => 'Ethereum core developer, team lead for Swarm',
                         'description' => 'A linguist with long academic records, Viktor has shifted focus towards building the data layer for web 3.0 a few years ago, as one of Ethereum\'s first employees.',
                         'social' => [
@@ -231,6 +235,7 @@
                         'break' => 'Simon de<br /> la Rouviere',
                         'href' => 'simon-de-la-rouviere',
                         'image' => './images/interviews/Simon_de_la_Rouviere.jpg',
+                        'gif' => './images/interviews/Simon_de_la_Rouviere.gif',
                         'about' => 'Blockchain developer @ Consensys',
                         'description' => 'A South African self proclaimed "engineer of societies", Simon\'s time is shared among coding for UJO, a decentralised music distribution platform; conceiving novel models for curation and content monetisation; and working for and Consensys.',
                         'social' => [
@@ -251,6 +256,7 @@
                         'break' => 'Charlie<br /> Shrem',
                         'href' => 'charlie-shrem',
                         'image' => './images/interviews/Charlie_Shrem.jpg',
+                        'gif' => './images/interviews/Charlie_Shrem.gif',
                         'about' => 'Founding member of the Bitcoin Foundation, co-founder of BitInstant, COO @ Jaxx',
                         'description' => 'An early advocate, Charlie\'s story is mixed with that of Bitcoin itself. Currently leading operations @ Jaxx, he\'s been through a conviction, mainstream fame and a series of crypto businesses.',
                         'social' => [
@@ -271,6 +277,7 @@
                         'break' => 'Everton<br /> Fraga',
                         'href' => 'everton-fraga',
                         'image' => './images/interviews/Everton_Fraga.jpg',
+                        'gif' => './images/interviews/Everton_Fraga.gif',
                         'about' => 'Software engineer @ the Ethereum foundation',
                         'description' => 'Everton is the second Brazilian addition to Ethereum\'s official team, and has been contributing with the development of Mist, the platform\'s browser.',
                         'social' => [
@@ -291,6 +298,7 @@
                         'break' => 'Gavin<br /> Wood',
                         'href' => 'gavin-wood',
                         'image' => './images/interviews/Gavin_Wood.jpg',
+                        'gif' => './images/interviews/Gavin_Wood.gif',
                         'about' => 'Former CTO of Ethereum, founder of Parity Technologies, inventor of Polkadot',
                         'description' => 'Gavin coded the first functional implementation of Ethereum, invented the Solidity contract language and wrote the Yellow Paper - first formal specification of any blockchain protocol and one of the key ways Ethereum distinguishes itself.',
                         'social' => [
@@ -311,6 +319,7 @@
                         'break' => 'Anthony<br /> di Iorio',
                         'href' => 'anthony-di-iorio',
                         'image' => './images/interviews/Anthony_di_Iorio.jpg',
+                        'gif' => './images/interviews/Anthony_di_Iorio.gif',
                         'about' => 'Co-founder of Ethereum, co-founder and CEO of Jaxx',
                         'description' => 'Former Chief Digital Officer of the Toronto Stock Exchange, di Iorio leads Jaxx, a multi-token blockchain interface, and Decentral, a software development company. In 2013, he was largely responsible for funding early development of Ethereum.',
                         'social' => [
@@ -331,6 +340,7 @@
                         'break' => 'Alexey<br /> Akhunov',
                         'href' => 'alexey-akhunov',
                         'image' => './images/interviews/Alexey_Akhunov.jpg',
+                        'gif' => './images/interviews/Alexey_Akhunov.gif',
                         'about' => 'Ethereum developer, former banking software specialist',
                         'description' => 'Russian-born, security-oriented, Alexey is a PhD in Computer Sciences who\'s been voluntarily contributing to the Ethereum ecosystem.',
                         'social' => [
@@ -351,6 +361,7 @@
                         'break' => 'Ronaldo<br /> Lemos',
                         'href' => 'ronaldo-lemos',
                         'image' => './images/interviews/Ronaldo_Lemos.jpg',
+                        'gif' => './images/interviews/Ronaldo_Lemos.gif',
                         'about' => 'Father of Brazil\'s Marco Civil Law of the Internet, former professor @ Columbia University',
                         'description' => 'Director for the Institute of Technology and Society in Rio de Janeiro, Ronaldo has spearheaded the launch of Mudamos, an Ethereum-based application for pushing qualifying law proposals to the chamber and encouraging civic participation in Brazil.',
                         'social' => [
@@ -371,6 +382,7 @@
                         'break' => 'Victor<br /> Maia',
                         'href' => 'victor-maia',
                         'image' => './images/interviews/Victor_Maia.jpg',
+                        'gif' => './images/interviews/Victor_Maia.gif',
                         'about' => 'Software engineer and programming language design researcher',
                         'description' => 'Part of the Mist (Ethereum browser) team, Victor has been following the vision of bringing it to the masses. His work on Moon, a novel language for writing faster dApps, is a recent effort in this direction.',
                         'social' => [

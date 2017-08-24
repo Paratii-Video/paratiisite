@@ -1,5 +1,5 @@
 <?php $SUBSCRIBE = $GLOBALS['sections']['subscribe']; ?>
-<section class="subscribe">
+<section id="subscribe" class="subscribe">
     <h2 class="visually-hidden"><?php echo $SUBSCRIBE['title']; ?></h2>
     <span class="subscribe-loader"></span>
     
