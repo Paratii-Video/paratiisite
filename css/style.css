@@ -4016,7 +4016,7 @@ nav#site-navigation2 {
     background-repeat: no-repeat;
 border: none;
 position: fixed;
-z-index: 9999999;
+z-index: 999;
 }
 
 #text-1 {
