@@ -1,12 +1,5 @@
-
 <svg style="display:none;">
-    
-    <symbol id="nav-button" viewBox="0 0 68 102">
-        <path fill="#00F0C8" d="M0 37.5232l63.3912-36.6 3.9 6.7548-63.3912 36.6z"></path>
-        <path fill="#00F0C8" d="M0 65.422l63.3912-36.6 3.9 6.7548-63.3912 36.6z"></path>
-        <path fill="#00F0C8" d="M0 93.3205l63.3912-36.6 3.9 6.7548-63.3912 36.6z"></path>
-    </symbol>
-    
+
     <symbol id="icon-close" viewBox="0 0 81 86.6">
       <path fill="none" stroke="#00EFC6" stroke-width="6" stroke-miterlimit="10" d="M20 22.5l41 41M20 63.5l41-41"/>
     </symbol>

@@ -3,6 +3,8 @@
         'lang' => 'pt',
         'title' => 'Around the Block',
         'description' => 'Around the Block',
+        'logo' => 'images/logo.png',
+        'image_src' => 'images/src_image.png',
         'main-nav' => [
             'title' => 'Menu',
             'items' => [
@@ -74,37 +76,30 @@
         'sections' => [
             'teasers' => [
                 'title' => 'Teasers',
-                'button' => 'Keep scrolling',
+                // 'text' => 'The <span>minds, ideals, tech, politics, ethics</span> behind the <strong>Blockchains</strong>',
+                'text' => 'The <span>minds</span> behind the <strong>Blockchains</strong>',
+                'button-video' => 'Next video',
+                'button-scroll' => 'Keep scrolling',
                 'items' => [
                     [
-                        'title' => 'The minds behind the <strong>Blockchains</strong>',
+                        'class' => '',
+                        'poster' => 'images/teasers/teaser-01.jpg',
+                        'media' => [
+                            [
+                                'src' => 'videos/teaser-01.webm' ,
+                                'type' => 'video/webm', 
+                            ],
+                        ]
+                    ],
+                    [
                         'class' => 'active',
-                        'button' => 'Next teaser',
-                        'media' => '<iframe src="https://player.vimeo.com/video/152601745" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
-                    ],
-                    [
-                        'title' => 'The tech behind the <strong>Blockchains</strong>',
-                        'class' => '',
-                        'button' => 'Next teaser',
-                        'media' => '<iframe src="https://player.vimeo.com/video/229856130" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
-                    ],
-                    [
-                        'title' => 'The ideals behind the <strong>Blockchains</strong>',
-                        'class' => '',
-                        'button' => 'Next teaser',
-                        'media' => '<iframe src="https://player.vimeo.com/video/229856130" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
-                    ],
-                    [
-                        'title' => 'The politics behind the <strong>Blockchains</strong>',
-                        'class' => '',
-                        'button' => 'Next teaser',
-                        'media' => '<iframe src="https://player.vimeo.com/video/229936689" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
-                    ],
-                    [
-                        'title' => 'The ethics behind the <strong>Blockchains</strong>',
-                        'class' => '',
-                        'button' => 'Next teaser',
-                        'media' => '<iframe src="https://player.vimeo.com/video/205161349" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
+                        'poster' => 'images/teasers/teaser-02.jpg',
+                        'media' => [
+                            [
+                                'src' => 'videos/teaser-02.webm' ,
+                                'type' => 'video/webm', 
+                            ],
+                        ]
                     ],
                 ]
             ],

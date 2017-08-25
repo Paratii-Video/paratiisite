@@ -1,4 +1,16 @@
-<?php include './includes/data/globals.php'; ?>
+<?php
+    include './includes/data/globals.php';
+    include './includes/utils/Mobile_Detect.php';
+
+    $detect = new Mobile_Detect;
+    $is_mobile = $detect->isMobile() && $detect->isTablet();
+    // $is_mobile = true;
+
+    $body_class = '';
+
+    if($is_mobile) $body_class .= ' ismobile';
+?>
+
 <!doctype html>
 <html class="no-js" lang="<?php echo $GLOBALS['lang']; ?>">
     <head>
@@ -11,7 +23,7 @@
         <meta property="og:title" content="<?php echo $GLOBALS['title']; ?>" />
         <meta property="og:description" content="<?php echo $GLOBALS['description']; ?>" />
         <meta property="og:type" content="evente" />
-        <meta property="og:image" content="images/src_image.png" />
+        <meta property="og:image" content="<?php echo $GLOBALS['image_src']; ?>" />
         <meta property="og:site_name" content="<?php echo $GLOBALS['title']; ?>" />
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700">
@@ -20,11 +32,22 @@
         <link rel="image_src" href="images/src_image.png" />
         <link rel="manifest" href="manifest.json"> 
     </head>
-    <body>
+    <body class="<?php echo $body_class; ?>">
         <?php include './includes/components/svg.php'; ?>
-        <div class="splash show"></div>
+        <div class="splash show">
+            <?php if ($is_mobile): ?>
+                <img class="splash-media splash-image" src="<?php echo $GLOBALS['logo']; ?>">
+            <?php else: ?>
+                <video class="splash-media splash-video" preload="auto"><source src="videos/logo.mp4" type="video/mp4"></video>
+            <?php endif; ?>
+        </div>
         <header class="main-header">
-            <button class="main-header-button"><svg class="main-header-button-svg"><use xlink:href="#nav-button"></svg>
+            <button class="main-header-button">
+            <svg class="main-header-button-svg" viewBox="0 0 68 102">
+                <path class="path1" d="M0 37.5232l63.3912-36.6 3.9 6.7548-63.3912 36.6z"></path>
+                <path class="path2" d="M0 65.422l63.3912-36.6 3.9 6.7548-63.3912 36.6z"></path>
+                <path class="path3" d="M0 93.3205l63.3912-36.6 3.9 6.7548-63.3912 36.6z"></path>
+            </svg>
             </button>
             <h1 class="main-header-title"><?php echo $GLOBALS['title']; ?></h1>
             <nav class="main-nav">
@@ -48,7 +71,7 @@
             <h1 class="visually-hidden"><?php echo $GLOBALS['main']['title']; ?></h1>
             <?php include './includes/sections/teasers.php'; ?>
             <?php include './includes/sections/about.php'; ?>
-            <?php include './includes/sections/chapters.php'; ?>
+            <?php //include './includes/sections/chapters.php'; ?>
             <?php include './includes/sections/interviews.php'; ?>
             <div class="split">
                 <?php include './includes/sections/subscribe.php'; ?>
