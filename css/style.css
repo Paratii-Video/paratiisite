@@ -461,6 +461,7 @@ margin-top:10px;
     display: block;
     float: left;
     width: 100%;
+    max-width: 1800px;
 }
 
 .main-navigation ul {
