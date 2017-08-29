@@ -26,7 +26,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
 background-color: #fafafa;
-    max-width: 1800px;
+    max-width: 2560px;
     margin: 0 auto !important;
     font-size: 14px;
     line-height: 24px;
@@ -461,6 +461,7 @@ margin-top:10px;
     display: block;
     float: left;
     width: 100%;
+max-width: 2400px;
 }
 
 .main-navigation ul {
@@ -1461,7 +1462,7 @@ background-image: url(https://paratii.wpengine.com/wp-content/uploads/2017/04/he
     transition: none;
     -webkit-transition: none;
     -moz-transition: none;
-max-width: 1800px;
+max-width: 2400px;
     margin: 0 auto;
 background-size: 100%;
     height: 95px;
@@ -2447,13 +2448,13 @@ padding-top:70px;
 
 #first_scroll {
     height: auto;
-    display: inline-block;
+    display: block;
 }
 
 #text-24.widget.widget_text {
     width: 30%;
     margin-left: 7%;
-margin-top: 11%;
+margin-top: 4%;
 float:left;
 }
 
@@ -2522,7 +2523,7 @@ height: 50px;
     width: 55%;
     float: right;
     margin-right: 0px;
-    margin-top: 8%;
+    margin-top: 2%;
 }
 
 #video_player {
@@ -2566,7 +2567,7 @@ font-weight:300;
 margin-bottom: 30px;
     padding-right: 20px;
     padding-left: 20px;
-padding-top: 40px;
+    padding-top: 130px;
 }
 
 #text-16 h3 {
@@ -3065,6 +3066,13 @@ background-color: #fafafa;
   display: block;
   padding-top: 100%;
 }
+
+@media (min-width: 2000px) {
+.at-column:before {
+  padding-top: 70%;
+}
+}
+
 @media (max-width: 800px) {
   .at-column {
     width: 50% !important;
