@@ -21,9 +21,14 @@
         <link rel="icon" type="image/x-icon" href='images/favicon.ico'>
         <link rel="image_src" href="images/src_image.png" />
         <link rel="manifest" href="manifest.json"> 
-
+        <script src="scripts/mobile-detect.min.js"></script>
+        <script>
+            var md = new MobileDetect(window.navigator.userAgent);
+            var BODYCLASS = (md.mobile() || md.tablet()) ? 'ismobile' : '';
+        </script>
     </head>
     <body class="">
+        <script>document.body.className = BODYCLASS;</script>
         <svg style="display:none;">
   <symbol id="icon-footer-steemit" viewBox="0 0 156 150">
     <style>
@@ -291,11 +296,12 @@
       <path d="M75.1 45.4c-3.1 2.6-6.6 5.8-8.4 9.4-1.4 2.6-1.5 5.3-.8 8 .9 3.2 2.2 6.5 3.5 9.6 2.6 6 6 11.7 8.5 17.8.9 2.2 1.9 4.6 2.1 7 .2 3-.8 6.1-1.6 8.9-.2.8-.7 1.9-.6 2.7.1.6.5.3.8.1 1.5-1.2 3-2.5 4.4-3.8 3.7-3.5 7.9-8.2 7.5-13.6-.2-2.2-1.3-4.4-2.2-6.5-1-2.4-2.1-4.7-3.1-7-2-4.4-4-8.7-6.2-13-.7-1.5-1.6-3-2.2-4.5-.8-2.1-1.2-4.2-1.3-6.4-.1-1.6 0-3.3.2-5 .1-1 .5-2.1.5-3.1.3-1.2-.3-1.3-1.1-.6z" fill="#5C9DD5"/>
     </symbol>
 </svg>        <div class="intro show">
-            <video class="intro-media intro-video" preload="auto">
-            <source src="videos/logo.webm" type="video/webm">
-            <source src="videos/logo.mp4" type="video/mp4">
+        <img class="intro-media intro-image" src="images/logo.png">
+        <video class="intro-media intro-video" preload="auto">
+            <!-- <source src="https://s3-us-west-1.amazonaws.com/paratiivideo/videos/logo.webm" type="video/webm"> -->
+            <source src="https://s3-us-west-1.amazonaws.com/paratiivideo/videos/logo.mp4" type="video/mp4">
         </video>
-    </div>        <header class="main-header">
+</div>        <header class="main-header">
     <button class="main-header-button">
     <svg class="main-header-button-svg" viewBox="0 0 68 102">
         <path class="path1" d="M0 37.5232l63.3912-36.6 3.9 6.7548-63.3912 36.6z"></path>
@@ -336,12 +342,11 @@
         <div class="teasers-medias">
                             <div class="teasers-medias-item active" itemscope="" itemtype="http://schema.org/VideoObject">
                     <video class="teasers-video" poster="images/teasers/teaser-01.jpg" preload="metadata">
-                                                    <source src="videos/teaser-01.mp4" type="video/mp4">
-                                                    <source src="videos/teaser-01.webm" type="video/webm">
+                                                    <source src="https://s3-us-west-1.amazonaws.com/paratiivideo/videos/teaser-01.mp4" type="video/mp4">
                                             </video>
                     <meta itemprop='name' content='Teaser: Around the Block'/>
                     <meta itemprop='description' content='Around the Block'/>
-                    <meta itemprop="contentUrl" content="videos/teaser-01.webm">
+                    <meta itemprop="contentUrl" content="https://s3-us-west-1.amazonaws.com/paratiivideo/videos/teaser-01.mp4">
                     <meta itemprop="thumbnailUrl" content="images/teasers/teaser-01.jpg">
                     <div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
                         <meta itemprop="name" content="Paratii">
@@ -351,12 +356,11 @@
                 </div>
                             <div class="teasers-medias-item " itemscope="" itemtype="http://schema.org/VideoObject">
                     <video class="teasers-video" poster="images/teasers/teaser-02.jpg" preload="metadata">
-                                                    <source src="videos/teaser-02.mp4" type="video/mp4">
-                                                    <source src="videos/teaser-02.webm" type="video/webm">
+                                                    <source src="https://s3-us-west-1.amazonaws.com/paratiivideo/videos/teaser-02.mp4" type="video/mp4">
                                             </video>
                     <meta itemprop='name' content='Teaser: Around the Block'/>
                     <meta itemprop='description' content='Around the Block'/>
-                    <meta itemprop="contentUrl" content="videos/teaser-02.webm">
+                    <meta itemprop="contentUrl" content="https://s3-us-west-1.amazonaws.com/paratiivideo/videos/teaser-02.mp4">
                     <meta itemprop="thumbnailUrl" content="images/teasers/teaser-02.jpg">
                     <div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
                         <meta itemprop="name" content="Paratii">
@@ -1160,65 +1164,39 @@
     <h2 class="visually-hidden">Subscribe</h2>
     <span class="subscribe-loader"></span>
     
-    <form class="subscribe-form-01" action="includes/send" enctype="text/plain">
+    <form class="subscribe-form-01" action="//video.us15.list-manage.com/subscribe/post?u=3363d6d446b55bfeec00cb430&id=d12f33be57" method="post" name="mc-embedded-subscribe-form" target="_blank">
+        <input type="hidden" name="u" value="3363d6d446b55bfeec00cb430">
+        <input type="hidden" name="id" value="7ae49d70ce">
+        <!-- <input type="email" value="" name="EMAIL" class="email-field.active" id="email-field" placeholder="insert your email"> -->
         <p class="subscribe-form-01-text">
             <span class="title">Subscribe today</span><span class="text">and begin receiving exclusive content</span>
         </p>
         <label class="subscribe-label green">
             <span class="subscribe-label-text">email</span>
-            <input class="subscribe-input" type="email" name="subscribe_email" data-alert="Need a valid email" />
+            <input class="subscribe-input" type="email" name="EMAIL" data-alert="Need a valid email" />
         </label>
         <button class="button-submit">Submit</button>
     </form>
     
-    <form class="subscribe-form-02" action="includes/send" enctype="text/plain">
+    <form class="subscribe-form-02" action="//video.us15.list-manage.com/subscribe/post?u=3363d6d446b55bfeec00cb430&id=d12f33be57" method="post" name="mc-embedded-subscribe-form" target="_blank">
+        <input type="hidden" name="u" value="3363d6d446b55bfeec00cb430">
+        <input type="hidden" name="id" value="7ae49d70ce">
         <p class="subscribe-form-02-text">Suggest other interviews</p>
         <label class="subscribe-label">
-            <span class="subscribe-label-text">who else do you want to see on around the block?</span>
-            <input class="subscribe-input who" type="text" name="subscribe_who" data-alert="Fill all fields" />
+            <span class="subscribe-label-text">who else do you want to see on around the block? why?</span>
+            <input class="subscribe-input who" type="text" id="MERGE1" name="MERGE1" data-alert="Fill all fields" />
         </label>
 
         <label class="subscribe-label">
-            <span class="subscribe-label-text">Why?</span>
-            <input class="subscribe-input why" type="text" name="subscribe_why" data-alert="Fill all fields" />
+            <span class="subscribe-label-text">e-mail</span>
+            <input class="subscribe-input why" type="text" name="EMAIL" id="email-field" data-alert="Fill all fields" />
         </label>
         <button class="button-submit">Submit</button>
     </form>
 </section>                
 <aside id="discover" class="discover">
     <h2 class="discover-title">Discover Paratii</h2>
-    <ul class="discover-list">
-            <li class="discover-item">
-            <a class="discover-link" href="http://www.blockchain.com/">
-                <!-- <article class="discover-article" role="article" itemscope itemtype="http://schema.org/BlogPosting"> -->
-                <article class="discover-article">
-                    <time class="discover-time">jul 14</time>
-                    <!-- <time class="discover-time" itemprop="dateCreated" datetime="2017-06-14">jul 14</time> -->
-                    <h3 class="discover-item-title">Announcing “Around the Block”: a Documentary Series about the Minds Behind the Blockchains</h3>
-                </article>
-            </a>
-        </li>
-            <li class="discover-item">
-            <a class="discover-link" href="http://www.blockchain.com/">
-                <!-- <article class="discover-article" role="article" itemscope itemtype="http://schema.org/BlogPosting"> -->
-                <article class="discover-article">
-                    <time class="discover-time">may 30</time>
-                    <!-- <time class="discover-time" itemprop="dateCreated" datetime="2017-05-30">may 30</time> -->
-                    <h3 class="discover-item-title">+117% in 21 days: a Practical Trading Experiment With Cryptocurrencies [#1]</h3>
-                </article>
-            </a>
-        </li>
-            <li class="discover-item">
-            <a class="discover-link" href="http://www.blockchain.com/">
-                <!-- <article class="discover-article" role="article" itemscope itemtype="http://schema.org/BlogPosting"> -->
-                <article class="discover-article">
-                    <time class="discover-time">apr 10</time>
-                    <!-- <time class="discover-time" itemprop="dateCreated" datetime="2017-04-10">apr 10</time> -->
-                    <h3 class="discover-item-title">Online Video Meets Decentralised Business Models: What’s Next?</h3>
-                </article>
-            </a>
-        </li>
-        </ul>
+    <div class="discover-entry"></div>
     <svg class="discover-svg hide-mobile"><use xlink:href="#svg-discover"></svg>
     <svg class="discover-svg show-mobile"><use xlink:href="#svg-discover-mobile"></svg>
 </aside>
@@ -1260,13 +1238,12 @@
                 </a>
             </li>
             </ul>
-</aside>        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+</aside>        <script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
         function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
         e=o.createElement(i);r=o.getElementsByTagName(i)[0];
         e.src='//www.google-analytics.com/analytics.js';
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-XXXXX-X','auto');ga('send','pageview');</script>
+        ga('create','UA-99283680-1','auto');ga('send','pageview');</script>
         <script src="scripts/app.js"></script>
     </body>
 </html>
