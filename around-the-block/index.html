@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html class="no-js" lang="pt">
     <head>
@@ -22,7 +23,8 @@
         <script src="scripts/mobile-detect.min.js"></script>
         <script>
             var md = new MobileDetect(window.navigator.userAgent);
-            var BODYCLASS = (md.mobile() || md.tablet()) ? 'ismobile' : '';
+            var ismobile = (md.mobile() || md.tablet());
+            var BODYCLASS = (ismobile) ? 'ismobile' : '';
         </script>
     </head>
     <body class="">
