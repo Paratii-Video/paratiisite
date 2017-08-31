@@ -4553,6 +4553,9 @@ object {
     max-width: 100px;
     margin-top: 20%;
     max-height: 150px;
+min-width: 90px;
+min-height: 140px;
+overflow: hidden;
 }
 	
 .paraty_works {
