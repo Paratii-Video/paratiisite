@@ -4288,6 +4288,10 @@ display: flex;
 overflow: hidden;
 }
 
+.animation_wrap  ::-webkit-scrollbar { 
+    display: none; 
+}
+
 .title_calculator {
 text-align: left;
 font-family: 'Roboto';
