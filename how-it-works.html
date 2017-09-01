@@ -25,7 +25,17 @@ var WPURLS = {"siteurl":"paratii.video"};
 <link rel="apple-touch-icon-precomposed" href="imagens/cropped-logo_cor_simbolo-180x180.png" />
 <meta name="msapplication-TileImage" content="imagens/cropped-logo_cor_simbolo-270x270.png" />	
 
-
+<script>
+$(document).ready(function() {
+	$('#fullpage').fullpage({
+		//Navigation
+		anchors:['1', '2', '3', '4', '5', '6'],
+		menu: '#menu_hiw',
+		verticalCentered: true,
+	});
+});
+</script>
+	
 </head>
 
 <body class="page-template page-template-page-templates page wp-custom-logo">
