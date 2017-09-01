@@ -5,35 +5,31 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,user-scalable=no">
-        
         <title>Around the Block</title>
+        
         <meta name="description" content="Around the Block">
         <meta property="og:title" content="Around the Block" />
         <meta property="og:description" content="Around the Block" />
         <meta property="og:type" content="site" />
-        <meta property="og:image" content="images/src_image.png" />
+        <meta property="og:image" content="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/src_image.png" />
         <meta property="og:site_name" content="Around the Block" />
         <meta name="theme-color" content="#0f1428">
-
+        
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700">
         <link rel="stylesheet" href="styles/styles.css">
-        <link rel="icon" type="image/x-icon" href='images/favicon.ico'>
-        <link rel="image_src" href="images/src_image.png" />
+        <link rel="icon" type="image/x-icon" href="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/favicon.ico">
+        <link rel="image_src" href="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/src_image.png" />
         <link rel="manifest" href="manifest.json"> 
+        
         <script src="scripts/mobile-detect.min.js"></script>
         <script>
             var md = new MobileDetect(window.navigator.userAgent);
             var ismobile = (md.mobile() || md.tablet());
-
-            if (ismobile) {
-                var os = md.os();
-            }
-
-            var BODYCLASS = (ismobile) ? 'ismobile ' + os : '';
+            var bodyclass = (ismobile) ? 'ismobile ' + md.os() : '';
         </script>
     </head>
     <body class="">
-        <script>document.body.className = BODYCLASS;</script>
+        <script>document.body.className = bodyclass;</script>
         <svg style="display:none;">
   <symbol id="icon-footer-steemit" viewBox="0 0 156 150">
     <style>
@@ -300,12 +296,13 @@
       <path d="M55.1 52.2c-2.8 2.3-5.7 5.2-6.8 8.7-1.4 4.2.6 8.3 2.3 12 1.8 3.8 3.8 7.4 5.4 11.3 1.4 3 3.2 6.6 2.8 10-.3 2.4-1.2 4.7-1.6 7.2-.3 1.6 1.2 0 1.7-.5 3.1-2.7 6.6-5.8 7.8-9.8.6-2.1.2-3.9-.5-5.9-.7-1.9-1.5-3.7-2.3-5.5-1.7-3.8-3.5-7.5-5.3-11.3l-2.1-4.2c-.6-1.5-1-3.1-1-4.8-.1-1.4-.1-2.6.1-3.9.1-1 .3-1.9.5-2.9.1-.7-.3-.9-1-.4zm41.1 0c-2.8 2.3-5.7 5.2-6.8 8.7-1.4 4.2.6 8.3 2.3 12 1.8 3.8 3.8 7.4 5.4 11.3 1.4 3 3.2 6.6 2.8 10-.3 2.4-1.2 4.7-1.6 7.2-.3 1.6 1.2 0 1.7-.5 3.1-2.7 6.6-5.8 7.8-9.8.6-2.1.2-3.9-.5-5.9-.7-1.9-1.5-3.7-2.3-5.5-1.7-3.8-3.5-7.5-5.3-11.3l-2.1-4.2c-.6-1.5-1-3.1-1-4.8-.1-1.4-.1-2.6.1-3.9.1-1 .3-1.9.5-2.9 0-.7-.4-.9-1-.4z" fill="#165098"/>
       <path d="M75.1 45.4c-3.1 2.6-6.6 5.8-8.4 9.4-1.4 2.6-1.5 5.3-.8 8 .9 3.2 2.2 6.5 3.5 9.6 2.6 6 6 11.7 8.5 17.8.9 2.2 1.9 4.6 2.1 7 .2 3-.8 6.1-1.6 8.9-.2.8-.7 1.9-.6 2.7.1.6.5.3.8.1 1.5-1.2 3-2.5 4.4-3.8 3.7-3.5 7.9-8.2 7.5-13.6-.2-2.2-1.3-4.4-2.2-6.5-1-2.4-2.1-4.7-3.1-7-2-4.4-4-8.7-6.2-13-.7-1.5-1.6-3-2.2-4.5-.8-2.1-1.2-4.2-1.3-6.4-.1-1.6 0-3.3.2-5 .1-1 .5-2.1.5-3.1.3-1.2-.3-1.3-1.1-.6z" fill="#5C9DD5"/>
     </symbol>
-</svg>        <div class="intro show">
+</svg><div class="intro show">
+        <div class="intro-loader"><span class="intro-loader-text">loading</span></div>
         <img class="intro-media intro-image" src="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/intro/logo-around-the-block-mobile.png">
         <video class="intro-media intro-video" preload="auto">
             <source src="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/videos/logo-around-the-block-opt.mp4" type="video/mp4">
         </video>
-</div>        <header class="main-header">
+</div><header class="main-header">
     <button class="main-header-button">
     <svg class="main-header-button-svg" viewBox="0 0 68 102">
         <path class="path1" d="M0 37.5232l63.3912-36.6 3.9 6.7548-63.3912 36.6z"></path>
@@ -390,7 +387,7 @@
             <svg class="teasers-button-scroll-svg" viewBox="0 0 89.7 33"><path fill="#22225E" d="M44.5 31.3L1.8 6.6l2-3.5 40.7 23.6L85.3 3.1l2 3.5"/></svg>
         </button>
     </div>
-</section>            <section id="about" class="about">
+</section><section id="about" class="about">
     <h2 class="visually-hidden">About</h2>
     <div class="about-content">
         <div class="about-entry">
@@ -402,7 +399,7 @@
     </div>
 </section>
 
-            
+
 <section id="chapters" class="chapters">
     <div class="chapters-asset">
         <div id="cube-animation-2" class="chapters-svg hide-mobile"></div>
@@ -487,7 +484,7 @@
                 </li>
                     </ul>
     </div>
-</section>            
+</section>
 <section id="interviews" class="interviews">
     <h2 class="interviews-title">Interviews with</h2>
     <ul class="interviews-nav">
@@ -1155,11 +1152,11 @@
 
         <label class="subscribe-label">
             <span class="subscribe-label-text">e-mail</span>
-            <input class="subscribe-input why" type="text" name="EMAIL" id="email-field" data-alert="Fill all fields" />
+            <input class="subscribe-input why" type="email" name="EMAIL" id="email-field" data-alert="Fill all fields" />
         </label>
         <button class="button-submit">Submit</button>
     </form>
-</section>                
+</section>
 <aside id="discover" class="discover">
     <h2 class="discover-title">Discover Paratii</h2>
     <div class="discover-entry"></div>
