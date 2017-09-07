@@ -335,7 +335,22 @@
         </div>
     </div>
 </header>        <h2 class="around-copyright">Web Series powered by <a href="http://paratii.video" target="_blank">Paratii</a></h2>
-        <main class="around-main">
+        <main class="around-main" itemscope itemtype="http://schema.org/Movie" data-logo="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/intro/logo-around-the-block-mobile.png">
+            <meta itemprop="name" content="Around the Block"/>
+            <meta itemprop="dateCreated" content="2017"/>
+            <meta itemprop="image" content="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/intro/logo-around-the-block-mobile.png"/>
+            <div itemprop="director" itemscope="" itemtype="http://schema.org/Person">
+                <meta itemprop="name" content="Paratii">
+                <meta itemprop="url" content="http://paratii.video/">
+            </div>
+
+            <div itemprop="creator" itemscope="" itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Paratii">
+                <meta itemprop="alternateName" content="Paratii - Around The Block">
+                <meta itemprop="url" content="http://paratii.video/">
+                <meta itemprop="logo" content="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/intro/logo-around-the-block-mobile.png">
+            </div>
+
             <h1 class="visually-hidden">Content</h1>
             
 <section id="teasers" class="teasers">
@@ -356,12 +371,12 @@
         <div class="teasers-medias">
             <div class="medias-controls"></div>
             <div class="teasers-medias-wrapper">
-                                    <div class="teasers-medias-item active" itemscope="" itemtype="http://schema.org/VideoObject">
+                                    <div class="teasers-medias-item active" itemprop="trailer" itemscope itemtype="http://schema.org/VideoObject">
                         <video class="teasers-video" poster="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/teasers/teaser-01.jpg" preload="auto">
                                                             <source src="https://s3-us-west-1.amazonaws.com/paratiivideo/videos/teaser-01.mp4" type="video/mp4">
                                                     </video>
-                        <meta itemprop='name' content='Teaser: Around the Block'/>
-                        <meta itemprop='description' content='Around the Block is a 6-episode documentary series about blockchain technologists who are decentralising the engines of modern society.'/>
+                        <meta itemprop='name' content='Around The Block - Teaser 2 - Alex Van de Sande'/>
+                        <meta itemprop='description' content='Designer and frontend developer, team lead for Mist (the Ethereum browser)'/>
                         <meta itemprop="contentUrl" content="https://s3-us-west-1.amazonaws.com/paratiivideo/videos/teaser-01.mp4">
                         <meta itemprop="thumbnailUrl" content="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/teasers/teaser-01.jpg">
                         <meta itemprop="uploadDate" content="08/31/2017">
@@ -375,12 +390,12 @@
                             </div>
                         </div>
                     </div>
-                                    <div class="teasers-medias-item " itemscope="" itemtype="http://schema.org/VideoObject">
+                                    <div class="teasers-medias-item " itemprop="trailer" itemscope itemtype="http://schema.org/VideoObject">
                         <video class="teasers-video" poster="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/teasers/teaser-02.jpg" preload="auto">
                                                             <source src="https://s3-us-west-1.amazonaws.com/paratiivideo/videos/teaser-02.mp4" type="video/mp4">
                                                     </video>
-                        <meta itemprop='name' content='Teaser: Around the Block'/>
-                        <meta itemprop='description' content='Around the Block is a 6-episode documentary series about blockchain technologists who are decentralising the engines of modern society.'/>
+                        <meta itemprop='name' content='Around The Block Series - Teaser 1 - Sergio Lerner'/>
+                        <meta itemprop='description' content='Security researcher, co-founder of RSK Labs, author of the Lumino-Compression Transaction Protocol'/>
                         <meta itemprop="contentUrl" content="https://s3-us-west-1.amazonaws.com/paratiivideo/videos/teaser-02.mp4">
                         <meta itemprop="thumbnailUrl" content="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/teasers/teaser-02.jpg">
                         <meta itemprop="uploadDate" content="08/31/2017">
@@ -404,7 +419,7 @@
 </section><section id="about" class="about">
     <h2 class="visually-hidden">About</h2>
     <div class="about-content">
-        <div class="about-entry">
+        <div class="about-entry" itemprop="description">
             <p class="font-text-bigger colorful">Around the Block is a 6-episode documentary series about blockchain technologists who are decentralising the engines of modern society.</p><p class="font-text-bigger">It's production is spearheaded by one of Brazil's biggest film companies, and launch is scheduled for Q4 2017. Content will be released on Paratii, a decentralised peer-to-peer video player under development.</p>        </div>
         <div class="about-asset">
             <div id="cube-animation-1" class="about-svg hide-mobile"></div>
@@ -503,7 +518,7 @@
     <h2 class="interviews-title">Interviews with</h2>
     <ul class="interviews-nav">
                 <li class="interviews-nav-item left">
-            <a href="#sergio-lerner" class="interviews-nav-link">
+            <a href="#sergio-lerner" class="interviews-nav-link" data-title="Sergio Lerner">
                 <div class="interviews-nav-thumb"><img class="interviews-nav-image" src="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/interviews/Sergio_Lerner.jpg" /></div>
                 <div class="interviews-nav-entry">
                     <p class="interviews-nav-title">Sergio Lerner</p>
@@ -513,7 +528,7 @@
             </a>
         </li>
             <li class="interviews-nav-item left">
-            <a href="#alex-van-de-sande" class="interviews-nav-link">
+            <a href="#alex-van-de-sande" class="interviews-nav-link" data-title="Alex Van de Sande">
                 <div class="interviews-nav-thumb"><img class="interviews-nav-image" src="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/interviews/Alex_Van_de_Sande.jpg" /></div>
                 <div class="interviews-nav-entry">
                     <p class="interviews-nav-title">Alex Van de Sande</p>
@@ -523,7 +538,7 @@
             </a>
         </li>
             <li class="interviews-nav-item left">
-            <a href="#aron-fischer" class="interviews-nav-link">
+            <a href="#aron-fischer" class="interviews-nav-link" data-title="Aron Fischer">
                 <div class="interviews-nav-thumb"><img class="interviews-nav-image" src="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/interviews/Aron_Fischer.jpg" /></div>
                 <div class="interviews-nav-entry">
                     <p class="interviews-nav-title">Aron Fischer</p>
@@ -533,7 +548,7 @@
             </a>
         </li>
             <li class="interviews-nav-item right">
-            <a href="#viktor-tron" class="interviews-nav-link">
+            <a href="#viktor-tron" class="interviews-nav-link" data-title="Viktor Trón">
                 <div class="interviews-nav-thumb"><img class="interviews-nav-image" src="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/interviews/Viktor_Tron.jpg" /></div>
                 <div class="interviews-nav-entry">
                     <p class="interviews-nav-title">Viktor Trón</p>
@@ -543,7 +558,7 @@
             </a>
         </li>
             <li class="interviews-nav-item right">
-            <a href="#simon-de-la-rouviere" class="interviews-nav-link">
+            <a href="#simon-de-la-rouviere" class="interviews-nav-link" data-title="Simon de la Rouviere">
                 <div class="interviews-nav-thumb"><img class="interviews-nav-image" src="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/interviews/Simon_de_la_Rouviere.jpg" /></div>
                 <div class="interviews-nav-entry">
                     <p class="interviews-nav-title">Simon de la Rouviere</p>
@@ -553,7 +568,7 @@
             </a>
         </li>
             <li class="interviews-nav-item right">
-            <a href="#charlie-shrem" class="interviews-nav-link">
+            <a href="#charlie-shrem" class="interviews-nav-link" data-title="Anthony di Iorio & Charlie Shrem">
                 <div class="interviews-nav-thumb"><img class="interviews-nav-image" src="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/interviews/Anthony_di_Iorio_Charlie_Shrem.jpg" /></div>
                 <div class="interviews-nav-entry">
                     <p class="interviews-nav-title">Anthony di Iorio<br> & Charlie Shrem</p>
@@ -563,7 +578,7 @@
             </a>
         </li>
             <li class="interviews-nav-item left">
-            <a href="#everton-fraga" class="interviews-nav-link">
+            <a href="#everton-fraga" class="interviews-nav-link" data-title="Everton Fraga">
                 <div class="interviews-nav-thumb"><img class="interviews-nav-image" src="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/interviews/Everton_Fraga.jpg" /></div>
                 <div class="interviews-nav-entry">
                     <p class="interviews-nav-title">Everton Fraga</p>
@@ -573,7 +588,7 @@
             </a>
         </li>
             <li class="interviews-nav-item left">
-            <a href="#gavin-wood" class="interviews-nav-link">
+            <a href="#gavin-wood" class="interviews-nav-link" data-title="Gavin Wood">
                 <div class="interviews-nav-thumb"><img class="interviews-nav-image" src="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/interviews/Gavin_Wood.jpg" /></div>
                 <div class="interviews-nav-entry">
                     <p class="interviews-nav-title">Gavin Wood</p>
@@ -583,7 +598,7 @@
             </a>
         </li>
             <li class="interviews-nav-item left">
-            <a href="#don-tapscott" class="interviews-nav-link">
+            <a href="#don-tapscott" class="interviews-nav-link" data-title="Don Tapscott">
                 <div class="interviews-nav-thumb"><img class="interviews-nav-image" src="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/interviews/Don_Tapscott.jpg" /></div>
                 <div class="interviews-nav-entry">
                     <p class="interviews-nav-title">Don Tapscott</p>
@@ -593,7 +608,7 @@
             </a>
         </li>
             <li class="interviews-nav-item right">
-            <a href="#alexey-akhunov" class="interviews-nav-link">
+            <a href="#alexey-akhunov" class="interviews-nav-link" data-title="Alexey Akhunov">
                 <div class="interviews-nav-thumb"><img class="interviews-nav-image" src="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/interviews/Alexey_Akhunov.jpg" /></div>
                 <div class="interviews-nav-entry">
                     <p class="interviews-nav-title">Alexey Akhunov</p>
@@ -603,7 +618,7 @@
             </a>
         </li>
             <li class="interviews-nav-item right">
-            <a href="#ronaldo-lemos" class="interviews-nav-link">
+            <a href="#ronaldo-lemos" class="interviews-nav-link" data-title="Ronaldo Lemos">
                 <div class="interviews-nav-thumb"><img class="interviews-nav-image" src="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/interviews/Ronaldo_Lemos.jpg" /></div>
                 <div class="interviews-nav-entry">
                     <p class="interviews-nav-title">Ronaldo Lemos</p>
@@ -613,7 +628,7 @@
             </a>
         </li>
             <li class="interviews-nav-item right">
-            <a href="#victor-maia" class="interviews-nav-link">
+            <a href="#victor-maia" class="interviews-nav-link" data-title="Victor Maia">
                 <div class="interviews-nav-thumb"><img class="interviews-nav-image" src="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/interviews/Victor_Maia.jpg" /></div>
                 <div class="interviews-nav-entry">
                     <p class="interviews-nav-title">Victor Maia</p>
@@ -624,7 +639,7 @@
         </li>
         </ul>
     <div class="interviews-modal">
-                    <article class="interviews-article" id="sergio-lerner" itemscope itemtype="http://schema.org/Person">
+                    <article class="interviews-article" id="sergio-lerner" itemprop="actor" itemscope itemtype="http://schema.org/Person">
                 <div class="interviews-article-wrapper">                
                     <div class="interviews-article-thumb" itemscope itemtype="http://schema.org/ImageObject">
                         <meta itemprop="name" content="">
@@ -667,7 +682,7 @@
                     </button>
                 </div>
             </article>
-                    <article class="interviews-article" id="alex-van-de-sande" itemscope itemtype="http://schema.org/Person">
+                    <article class="interviews-article" id="alex-van-de-sande" itemprop="actor" itemscope itemtype="http://schema.org/Person">
                 <div class="interviews-article-wrapper">                
                     <div class="interviews-article-thumb" itemscope itemtype="http://schema.org/ImageObject">
                         <meta itemprop="name" content="">
@@ -710,7 +725,7 @@
                     </button>
                 </div>
             </article>
-                    <article class="interviews-article" id="aron-fischer" itemscope itemtype="http://schema.org/Person">
+                    <article class="interviews-article" id="aron-fischer" itemprop="actor" itemscope itemtype="http://schema.org/Person">
                 <div class="interviews-article-wrapper">                
                     <div class="interviews-article-thumb" itemscope itemtype="http://schema.org/ImageObject">
                         <meta itemprop="name" content="">
@@ -750,7 +765,7 @@
                     </button>
                 </div>
             </article>
-                    <article class="interviews-article" id="viktor-tron" itemscope itemtype="http://schema.org/Person">
+                    <article class="interviews-article" id="viktor-tron" itemprop="actor" itemscope itemtype="http://schema.org/Person">
                 <div class="interviews-article-wrapper">                
                     <div class="interviews-article-thumb" itemscope itemtype="http://schema.org/ImageObject">
                         <meta itemprop="name" content="">
@@ -793,7 +808,7 @@
                     </button>
                 </div>
             </article>
-                    <article class="interviews-article" id="simon-de-la-rouviere" itemscope itemtype="http://schema.org/Person">
+                    <article class="interviews-article" id="simon-de-la-rouviere" itemprop="actor" itemscope itemtype="http://schema.org/Person">
                 <div class="interviews-article-wrapper">                
                     <div class="interviews-article-thumb" itemscope itemtype="http://schema.org/ImageObject">
                         <meta itemprop="name" content="">
@@ -836,7 +851,7 @@
                     </button>
                 </div>
             </article>
-                    <article class="interviews-article" id="charlie-shrem" itemscope itemtype="http://schema.org/Person">
+                    <article class="interviews-article" id="charlie-shrem" itemprop="actor" itemscope itemtype="http://schema.org/Person">
                 <div class="interviews-article-wrapper">                
                     <div class="interviews-article-thumb" itemscope itemtype="http://schema.org/ImageObject">
                         <meta itemprop="name" content="">
@@ -885,7 +900,7 @@
                     </button>
                 </div>
             </article>
-                    <article class="interviews-article" id="everton-fraga" itemscope itemtype="http://schema.org/Person">
+                    <article class="interviews-article" id="everton-fraga" itemprop="actor" itemscope itemtype="http://schema.org/Person">
                 <div class="interviews-article-wrapper">                
                     <div class="interviews-article-thumb" itemscope itemtype="http://schema.org/ImageObject">
                         <meta itemprop="name" content="">
@@ -928,7 +943,7 @@
                     </button>
                 </div>
             </article>
-                    <article class="interviews-article" id="gavin-wood" itemscope itemtype="http://schema.org/Person">
+                    <article class="interviews-article" id="gavin-wood" itemprop="actor" itemscope itemtype="http://schema.org/Person">
                 <div class="interviews-article-wrapper">                
                     <div class="interviews-article-thumb" itemscope itemtype="http://schema.org/ImageObject">
                         <meta itemprop="name" content="">
@@ -971,7 +986,7 @@
                     </button>
                 </div>
             </article>
-                    <article class="interviews-article" id="don-tapscott" itemscope itemtype="http://schema.org/Person">
+                    <article class="interviews-article" id="don-tapscott" itemprop="actor" itemscope itemtype="http://schema.org/Person">
                 <div class="interviews-article-wrapper">                
                     <div class="interviews-article-thumb" itemscope itemtype="http://schema.org/ImageObject">
                         <meta itemprop="name" content="">
@@ -1011,7 +1026,7 @@
                     </button>
                 </div>
             </article>
-                    <article class="interviews-article" id="alexey-akhunov" itemscope itemtype="http://schema.org/Person">
+                    <article class="interviews-article" id="alexey-akhunov" itemprop="actor" itemscope itemtype="http://schema.org/Person">
                 <div class="interviews-article-wrapper">                
                     <div class="interviews-article-thumb" itemscope itemtype="http://schema.org/ImageObject">
                         <meta itemprop="name" content="">
@@ -1051,7 +1066,7 @@
                     </button>
                 </div>
             </article>
-                    <article class="interviews-article" id="ronaldo-lemos" itemscope itemtype="http://schema.org/Person">
+                    <article class="interviews-article" id="ronaldo-lemos" itemprop="actor" itemscope itemtype="http://schema.org/Person">
                 <div class="interviews-article-wrapper">                
                     <div class="interviews-article-thumb" itemscope itemtype="http://schema.org/ImageObject">
                         <meta itemprop="name" content="">
@@ -1091,7 +1106,7 @@
                     </button>
                 </div>
             </article>
-                    <article class="interviews-article" id="victor-maia" itemscope itemtype="http://schema.org/Person">
+                    <article class="interviews-article" id="victor-maia" itemprop="actor" itemscope itemtype="http://schema.org/Person">
                 <div class="interviews-article-wrapper">                
                     <div class="interviews-article-thumb" itemscope itemtype="http://schema.org/ImageObject">
                         <meta itemprop="name" content="">
@@ -1216,12 +1231,15 @@
                 </a>
             </li>
             </ul>
-</aside>        <script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-99283680-1','auto');ga('send','pageview');</script>
+</aside>        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-99283680-1', 'auto');
+            ga('send', 'pageview');
+        </script>
         <script src="scripts/app.js"></script>
     </body>
 </html>
