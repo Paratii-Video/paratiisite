@@ -4550,12 +4550,12 @@ display: none;
 }
 	
 object {
-    max-width: 100px;
+    max-width: 200px;
     margin-top: 20%;
     max-height: 150px;
-min-width: 90px;
-min-height: 140px;
-overflow: hidden;
+    min-width: 90px;
+    min-height: 140px;
+    overflow: hidden;
 }
 	
 .paraty_works {
