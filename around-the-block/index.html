@@ -547,26 +547,15 @@
                     <span class="visually-hidden" itemprop="startDate" content="2017-12-08T13:00">Dec 08</span>
                 </div>
             </div>
-            <div class="event-talk">
+            <div class="event-speeches">
                 <div class="event-content">
-                    <p class="event-talk-text" v-html="content.event_talk_text"></p>
-                    <ul class="event-talk-list">
-                                                    <li class="event-talk-item">Marcelo tas</li>
-                            <li class="event-talk-item">Ronaldo Lemos</li>
-                            <li class="event-talk-item">Felipe Gaúcho</li>
-                            <li class="event-talk-item">Paulo Perez</li>
-                                                    <li class="event-talk-item">Marcelo tas</li>
-                            <li class="event-talk-item">Ronaldo Lemos</li>
-                            <li class="event-talk-item">Felipe Gaúcho</li>
-                            <li class="event-talk-item">Paulo Perez</li>
-                                                    <li class="event-talk-item">Marcelo tas</li>
-                            <li class="event-talk-item">Ronaldo Lemos</li>
-                            <li class="event-talk-item">Felipe Gaúcho</li>
-                            <li class="event-talk-item">Paulo Perez</li>
-                                            </ul>
-                    <p class="event-talk-endtext">
-                        <strong class="event-talk-endtext-text">{{ content.event_talk_endtext_text }}</strong>
-                        <svg class="event-talk-svg" viewBox="899.011 1660 112.701 76.312">
+                    <p class="event-speeches-title" v-html="content.event_talk_text"></p>
+                    <ul class="event-speeches-list">
+                        <li class="event-speeches-item" v-for="item in content.speeches">{{ item }}</li>
+                    </ul>
+                    <p class="event-speeches-endtext">
+                        <strong class="event-speeches-endtext-text">{{ content.event_talk_endtext_text }}</strong>
+                        <svg class="event-speeches-svg" viewBox="899.011 1660 112.701 76.312">
                             <defs>
                                 <linearGradient id="linear-gradient" x1=".003" y1=".306" x2="1.126" y2=".306" gradientUnits="objectBoundingBox">
                                   <stop offset="0" stop-color="#ec125f"/>
