@@ -1,0 +1,36 @@
+// Helpers
+
+/**
+ * Hide element while making it readable for screen readers
+ * Shamelessly borrowed from HTML5Boilerplate:
+ * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+ */
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+// Block
+
+.full-block {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+// Position
+
+.pos-a-lt {
+  left: 0;
+  position: absolute;
+  top: 0;
+}

@@ -1,0 +1,49 @@
+// Main
+
+.paratii-main {
+  position: relative;
+  z-index: $zindex-main-main;
+}
+
+
+// Section
+
+.main-section {
+  color: $color-black;
+  padding: 85px 0 100px;
+
+  &-wrapper {
+    margin: 0 auto;
+    max-width: $size-main-wrapper-width-max;
+    position: relative;
+    width: 100%;
+  }
+
+  &-content {
+    padding-left: 220px;
+
+    &--no-padding {
+      padding: 0;
+    }
+  }
+
+  &-title {
+    font-size: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+
+    &::before {
+      background-color: $color-purply-blue;
+      content: '';
+      display: block;
+      height: 9px;
+      margin: 0 0 20px;
+      width: 62px;
+    }
+  }
+
+  &-subtitle {
+    font-size: 35px;
+  }
+}

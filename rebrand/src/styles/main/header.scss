@@ -1,0 +1,50 @@
+// Header
+
+.main-header {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: $zindex-main-header;
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: $size-main-title-height 0 0;
+  }
+}
+
+
+// Logo
+
+.main-title {
+  background: $color-bluish-purple;
+  height: $size-main-title-height;
+  width: 195px;
+
+  &-link {
+    @extend .full-block;
+  }
+}
+
+
+// Nav
+
+.main-nav {
+  &-list {
+    display: flex;
+  }
+
+  &-item {
+    margin-left: 30px;
+  }
+
+  &-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    height: $size-main-title-height;
+    line-height: $size-main-title-height;
+    letter-spacing: 0.4px;
+  }
+}
