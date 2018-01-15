@@ -19,16 +19,11 @@
     width: 100%;
   }
 
-  &-content {
-    padding-left: 220px;
-
-    &--no-padding {
-      padding: 0;
-    }
-  }
+  //
 
   &-title {
-    font-size: 24px;
+    @extend .title-small;
+
     left: 0;
     position: absolute;
     top: 0;
@@ -44,6 +39,24 @@
   }
 
   &-subtitle {
-    font-size: 35px;
+    @extend .title-main;
+  }
+
+  //
+
+  &-content {
+    padding-left: 220px;
+
+    &--no-padding {
+      padding: 0;
+    }
+
+    &-title {
+      @extend .title-small;
+    }
+
+    &-text {
+      @extend .text-main;
+    }
   }
 }
