@@ -1,0 +1,12 @@
+// Buttons
+
+.paratii-button {
+  background-color: $color-bluish-purple;
+  color: white;
+  padding: 15px 25px 16px;
+  text-align: center;
+
+  &--red {
+    background-color: $color-lipstick;
+  }
+}
