@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Rebrand of paratii website",
   "main": "index.js",
-  "scripts": {
+  "scripts" : {
     "start": "gulp",
-    "build": "gulp build",
+    "deploy": "gulp deploy"
   },
   "repository": "https://github.com/Paratii-Video/paratiisite",
   "author": "paratii",
