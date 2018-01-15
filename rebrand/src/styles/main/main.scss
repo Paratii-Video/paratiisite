@@ -10,7 +10,11 @@
 
 .main-section {
   color: $color-black;
-  padding: 85px 0 100px;
+  margin: 0 0 100px;
+
+  &--color {
+    color: $color-white;
+  }
 
   &-wrapper {
     margin: 0 auto;
