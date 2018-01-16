@@ -4,12 +4,16 @@
   &-list {
     display: flex;
     justify-content: space-between;
+
+    .paratii-audiences & {
+      margin: 100px 0 50px;
+    }
   }
 
   &-item {
     border: solid 1px rgba(64, 14, 130, 0.28);
     border-radius: 4px;
-    flex: 0 0 367px;
+    flex: 0 0 31%;
     overflow: hidden;
 
     //
@@ -29,8 +33,8 @@
     //
 
     &-content {
-      height: 300px;
-      padding: 0 30px;
+      height: 370px;
+      padding: 0 32px;
       text-align: center;
     }
 
