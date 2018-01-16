@@ -1,0 +1,48 @@
+// Components
+
+.paratii-components {
+  padding-bottom: 0;
+
+  //
+
+  &-content {
+    padding: 100px 0 ;
+
+    &--color {
+      background-color: $color-bluish-purple;
+      color: $color-white;
+    }
+
+    &-wrapper {
+      display: flex;
+
+      .paratii-components-content--color & {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+
+  //
+
+  &-entry {
+    width: 50%;
+
+    &-title {
+      @extend .title-small;
+
+      margin: 0 0 40px;
+    }
+
+    &-text {
+      @extend .text-big;
+    }
+  }
+
+  //
+
+  &-asset {
+    background-color: $color-lipstick;
+    height: 100%;
+    width: 50%;
+  }
+}
