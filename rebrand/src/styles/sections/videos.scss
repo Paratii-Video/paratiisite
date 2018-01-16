@@ -1,0 +1,16 @@
+// Videos
+
+.paratii-videos {
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 65px 0 0;
+  }
+
+  &-item {
+    border: 1px solid $color-bluish-purple;
+    flex: 0 0 31%;
+
+    height: 223px;
+  }
+}
