@@ -1,0 +1,13 @@
+// Features
+
+.paratii-features {
+  &-list {
+    margin: 100px 0;
+  }
+
+  //
+
+  &-item {
+    @extend .text-small;
+  }
+}
