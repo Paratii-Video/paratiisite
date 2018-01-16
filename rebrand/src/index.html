@@ -43,7 +43,7 @@
       </header>
 
       <main id="main" class="paratii-main" itemscope itemtype="http://schema.org/?">
-        <section class="main-section main-section--color paratii-about">
+        <section class="paratii-about">
           <span class="paratii-about-bg"></span>
           <div class="main-section-wrapper">
             <h2 class="paratii-about-title">A new era for your videos</h2>
@@ -100,7 +100,7 @@
           <div class="main-section-wrapper">
             <h2 class="main-section-title">Features</h2>
             <div class="main-section-content">
-              <h3 class="main-section-subtitle">A video player like any other. Except for what’s behind it.</h3>
+              <h3 class="main-section-subtitle">A video player like any other. Except for<br> what’s behind it.</h3>
             </div>
             <div class="main-section-content main-section-content--no-padding">
               <ul class="paratii-features-list">
@@ -111,8 +111,8 @@
                 <li class="paratii-features-item">Multiple platforms supported. Sharing is incentivised if creators choose to divide a portion of their earnings with ‘promoters</li>
                 <li class="paratii-features-item">Curation is left to the audience, who’s rewarded for spotting inappropriate content early on or pointing to copyright-infringing material</li>
               </ul>
-              <p class="main-section-content-text"><strong class="main-section-content-title">Experiment version 0.0.1 of the player!</strong></p>
-              <a class="main-button" href="">Try demo</a>
+
+              <p class="main-section-content-text"><strong class="main-section-content-title">Experiment version 0.0.1 of the player!</strong> <a class="paratii-button paratii-button--red" href="">Try demo</a></p>
             </div>
           </div>
         </section>
@@ -123,19 +123,32 @@
             <div class="main-section-content">
               <h3 class="main-section-subtitle">What are we talking about?</h3>
             </div>
-            <div class="main-section-content main-section-content--no-padding">
-              <div class="paratii-components-content">
-                <h4 class="main-section-content-title">THE PROTOCOL</h4>
-                <p class="main-section-content-text">Coordinates creators, publishers and users to maintain a decentralised exchange of videos and attention, that communicates receipts off-chain and settles compensations on Ethereum contracts. It also bundles access to all services needed to distribute media and metadata serverlessly and trustlessly</p>
+          </div>
+          <div class="paratii-components-content">
+            <div class="main-section-wrapper paratii-components-content-wrapper">
+              <div class="paratii-components-entry">
+                <h4 class="paratii-components-entry-title">The Protocol</h4>
+                <p class="paratii-components-entry-text">Coordinates creators, publishers and users to maintain a decentralised exchange of videos and attention, that communicates receipts off-chain and settles compensations on Ethereum contracts. It also bundles access to all services needed to distribute media and metadata serverlessly and trustlessly</p>
               </div>
-              <div class="paratii-components-content">
-                <h4 class="main-section-content-title">THE PTI TOKEN</h4>
-                <p class="main-section-content-text">Native staking token to the Paratii curated registry, it represents the right to belong to and judicate over a content list, and that of creating your own. The PTI can also be used as a means of payment for certain services, paid videos and content promotion. It is mintable: earn tokens by curating content, seeding videos while watching, or running a media node</p>
+              <div class="paratii-components-asset"></div>
+            </div>
+          </div>
+          <div class="paratii-components-content paratii-components-content--color">
+            <div class="main-section-wrapper paratii-components-content-wrapper">
+              <div class="paratii-components-entry">
+                <h4 class="paratii-components-entry-title">The PTI token</h4>
+                <p class="paratii-components-entry-text">Native staking token to the Paratii curated registry, it represents the right to belong to and judicate over a content list, and that of creating your own. The PTI can also be used as a means of payment for certain services, paid videos and content promotion. It is mintable: earn tokens by curating content, seeding videos while watching, or running a media node</p>
               </div>
-              <div class="paratii-components-content">
-                <h4 class="main-section-content-title">THE PLAYER</h4>
-                <p class="main-section-content-text">An embeddable, modular and extensible player to customise as you wish. Apply it on your page, media channel or news outlet with a single line of code. Share it on social media when you spot one on Twitter, Medium or Telegram. With paratii-lib, developers can also build widgets and plugins to modify frontend and interact with specific modules of the protocol</p>
+              <div class="paratii-components-asset"></div>
+            </div>
+          </div>
+          <div class="paratii-components-content">
+            <div class="main-section-wrapper paratii-components-content-wrapper">
+              <div class="paratii-components-entry">
+                <h4 class="paratii-components-entry-title">The player</h4>
+                <p class="paratii-components-entry-text">An embeddable, modular and extensible player to customise as you wish. Apply it on your page, media channel or news outlet with a single line of code. Share it on social media when you spot one on Twitter, Medium or Telegram. With paratii-lib, developers can also build widgets and plugins to modify frontend and interact with specific modules of the protocol</p>
               </div>
+              <div class="paratii-components-asset"></div>
             </div>
           </div>
         </section>
@@ -182,85 +195,113 @@
             <div class="main-section-content main-section-content--no-padding">
               <div class="paratii-people-list">
                 <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <img class="paratii-people-item-image" src="janedoe.jpg" itemprop="image" alt="Photo of Felipe Sant Ana"/>
+                  <div class="paratii-people-item-avatar">
+                    <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Felipe Sant Ana"  />
+                  </div>
                   <h4 class="paratii-people-item-name" itemprop="name">Felipe Sant Ana</h4>
                   <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Project Lead</h5>
                   <p class="paratii-people-item-resume" itemprop="description">Crowdfunding pioneer in Brazil, ESPM alumni, ex-Endeavor & BossaNovaFilms.</p>
                 </article>
                 <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <img class="paratii-people-item-image" src="janedoe.jpg" itemprop="image" alt="Photo of Jelle Gerbrandy"/>
+                  <div class="paratii-people-item-avatar">
+                    <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Jelle Gerbrandy"  />
+                  </div>
                   <h4 class="paratii-people-item-name" itemprop="name">Jelle Gerbrandy</h4>
                   <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Technical Lead</h5>
                   <p class="paratii-people-item-resume" itemprop="description">Ph.D. in Logic at University of Amsterdam, visiting scholar at Stanford, previously CTO at Backfeed.</p>
                 </article>
                 <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <img class="paratii-people-item-image" src="janedoe.jpg" itemprop="image" alt="Photo of Mohamed Yahya"/>
+                  <div class="paratii-people-item-avatar">
+                    <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Mohamed Yahya"/>
+                  </div>
                   <h4 class="paratii-people-item-name" itemprop="name">Mohamed Yahya</h4>
                   <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Lead P2P Engineer</h5>
                   <p class="paratii-people-item-resume" itemprop="description">Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumni.</p>
                 </article>
                 <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <img class="paratii-people-item-image" src="janedoe.jpg" itemprop="image" alt="Photo of Benjamin Baum"/>
+                  <div class="paratii-people-item-avatar">
+                    <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Benjamin Baum"/>
+                  </div>
                   <h4 class="paratii-people-item-name" itemprop="name">Benjamin Baum</h4>
                   <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Lead Frontend Engineer</h5>
                   <p class="paratii-people-item-resume" itemprop="description">University of Cornell alumni and former research assistant, senior software engineer at Hubspot.</p>
                 </article>
                 <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <img class="paratii-people-item-image" src="janedoe.jpg" itemprop="image" alt="Photo of Alef Eftimiades"/>
+                  <div class="paratii-people-item-avatar">
+                    <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Alef Eftimiades"  />
+                  </div>
                   <h4 class="paratii-people-item-name" itemprop="name">Alef Eftimiades</h4>
                   <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">R&D Scientist</h5>
                   <p class="paratii-people-item-resume" itemprop="description">Algorithms expert, internships at the US Army Research Lab and NASA Goddard Space Flight Center.</p>
                 </article>
                 <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <img class="paratii-people-item-image" src="janedoe.jpg" itemprop="image" alt="Photo of Paulo dos Santos"/>
+                  <div class="paratii-people-item-avatar">
+                    <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Paulo dos Santos" />
+                  </div>
                   <h4 class="paratii-people-item-name" itemprop="name">Paulo dos Santos</h4>
                   <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Frontend Developer</h5>
                   <p class="paratii-people-item-resume" itemprop="description">HTML, CSS, JS (Less.js); FitC and FWA awards won for projects with global clients.</p>
                 </article>
                 <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <img class="paratii-people-item-image" src="janedoe.jpg" itemprop="image" alt="Photo of Enrico Cicconi"/>
+                  <div class="paratii-people-item-avatar">
+                    <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Enrico Cicconi"/>
+                  </div>
                   <h4 class="paratii-people-item-name" itemprop="name">Enrico Cicconi</h4>
                   <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Web3 developer</h5>
                   <p class="paratii-people-item-resume" itemprop="description">Engineer @ Instituto Politecnico di Torino, experienced backend developer, responsible for most of the embedding magic the player does.</p>
                 </article>
                 <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <img class="paratii-people-item-image" src="janedoe.jpg" itemprop="image" alt="Photo of Elia Pellegrino"/>
+                  <div class="paratii-people-item-avatar">
+                    <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Elia Pellegrino"  />
+                  </div>
                   <h4 class="paratii-people-item-name" itemprop="name">Elia Pellegrino</h4>
                   <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Web3 developer</h5>
                   <p class="paratii-people-item-resume" itemprop="description">Electronic engineer @ Instituto Politecnico di Torino, professor at IED, former web developer.</p>
                 </article>
                 <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <img class="paratii-people-item-image" src="janedoe.jpg" itemprop="image" alt="Photo of Milan Kragujevic"/>
+                  <div class="paratii-people-item-avatar">
+                    <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Milan Kragujevic" />
+                  </div>
                   <h4 class="paratii-people-item-name" itemprop="name">Milan Kragujevic</h4>
                   <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Video Engineer</h5>
                   <p class="paratii-people-item-resume" itemprop="description">Ex-Popcorn developer; browser-to-browser communication specialist.</p>
                 </article>
                 <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <img class="paratii-people-item-image" src="janedoe.jpg" itemprop="image" alt="Photo of Pedro Casagrande"/>
+                  <div class="paratii-people-item-avatar">
+                    <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Pedro Casagrande" />
+                  </div>
                   <h4 class="paratii-people-item-name" itemprop="name">Pedro Casagrande</h4>
                   <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Designer</h5>
                   <p class="paratii-people-item-resume" itemprop="description">ESPM alumni, previously at Estudio Pulpo and Design Lab ESPM.</p>
                 </article>
                 <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <img class="paratii-people-item-image" src="janedoe.jpg" itemprop="image" alt="Photo of Paulo Perez"/>
+                  <div class="paratii-people-item-avatar">
+                    <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Paulo Perez"/>
+                  </div>
                   <h4 class="paratii-people-item-name" itemprop="name">Paulo Perez</h4>
                   <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Strategy & Vision</h5>
                   <p class="paratii-people-item-resume" itemprop="description">Co-founder @ Doubleleft, (acquired by Interpublic). Cannes Lions and Webby Awards winner.</p>
                 </article>
                 <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <img class="paratii-people-item-image" src="janedoe.jpg" itemprop="image" alt="Photo of Lidia Zuin"/>
+                  <div class="paratii-people-item-avatar">
+                    <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Lidia Zuin"/>
+                  </div>
                   <h4 class="paratii-people-item-name" itemprop="name">Lidia Zuin</h4>
                   <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Content Lead</h5>
                   <p class="paratii-people-item-resume" itemprop="description">Doctoring in visual arts at UNICAMP, masters in semiotics at PUC-SP, alumni at the Cásper Líbero College. Seasoned researcher and writer.</p>
                 </article>
                 <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <img class="paratii-people-item-image" src="janedoe.jpg" itemprop="image" alt="Photo of Daniel Quandt"/>
+                  <div class="paratii-people-item-avatar">
+                    <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Daniel Quandt"/>
+                  </div>
                   <h4 class="paratii-people-item-name" itemprop="name">Daniel Quandt</h4>
                   <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Community Manager</h5>
                   <p class="paratii-people-item-resume" itemprop="description">USP-SP graduate and intern at innovation agency, reddit dinosaur.</p>
                 </article>
                 <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <img class="paratii-people-item-image" src="janedoe.jpg" itemprop="image" alt="Photo of Tomás Xavier"/>
+                  <div class="paratii-people-item-avatar">
+                    <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Tomás Xavier"/>
+                  </div>
                   <h4 class="paratii-people-item-name" itemprop="name">Tomás Xavier</h4>
                   <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Content Producer</h5>
                   <p class="paratii-people-item-resume" itemprop="description">Around the Block lead brain and director of photography, music maker, film composer and editor.</p>
@@ -276,14 +317,17 @@
             <div class="main-section-content">
               <h3 class="main-section-subtitle">You can find someone of the team regularly in (or invite to!) meetups, events and conferences mostly in Brazil, the U.S and Italy.</h3>
             </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/H4-0mNaZP50" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/mX7VuUeduEY" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/7waTiMBlXbw" allowfullscreen></iframe>
+            <div class="paratii-videos-list">
+              <iframe class="paratii-videos-item" src="https://www.youtube.com/embed/H4-0mNaZP50" allowfullscreen></iframe>
+              <iframe class="paratii-videos-item" src="https://www.youtube.com/embed/mX7VuUeduEY" allowfullscreen></iframe>
+              <iframe class="paratii-videos-item" src="https://www.youtube.com/embed/7waTiMBlXbw" allowfullscreen></iframe>
+            </div>
           </div>
         </section>
       </main>
 
       <footer class="main-footer">
+        <span class="main-footer-bg"></span>
         <h2 class="visually-hidden">Footer</h2>
         <aside class="main-social">
           <h2 class="main-social-title">Find us</h2>
