@@ -18,12 +18,13 @@
 // Logo
 
 .main-title {
-  background: $color-bluish-purple;
   height: $size-main-title-height;
   width: 195px;
 
   &-link {
     @extend .full-block;
+
+    color: $color-white;
   }
 }
 

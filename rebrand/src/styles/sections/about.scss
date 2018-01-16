@@ -2,6 +2,7 @@
 
 .paratii-about {
   align-items: center;
+  color: white;
   display: flex;
   height: 100vh;
   max-height: 711px;
@@ -49,10 +50,8 @@
   //
 
   &-title {
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 1.2;
-    letter-spacing: 0.3px;
+    @extend .title-big;
+
     max-width: 350px;
     margin: 0 0 50px;
   }
