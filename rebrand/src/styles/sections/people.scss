@@ -1,0 +1,63 @@
+// People
+
+.paratii-people {
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: calc(100% + 70px);
+  }
+
+  &-item {
+    flex: 0 0 151px;
+    margin: 65px 70px 0 0;
+    overflow: hidden;
+    text-align: center;
+
+    //
+
+    &-avatar {
+      border-radius: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+
+      &::before {
+        content: '';
+        display: block;
+        padding-top: 100%;
+      }
+    }
+
+    &-image {
+      @extend .full-block;
+      @extend .pos-a-lt;
+
+      bottom: 0;
+      right: 0;
+    }
+
+    //
+
+    &-name {
+      @extend .text-main;
+
+      font-weight: normal;
+      margin: 15px 0 0;
+    }
+
+    &-jobtitle {
+      @extend .text-tiny;
+
+      color: $color-bluish-purple;
+      margin: 0 0 14px;
+      text-transform: uppercase;
+    }
+
+    &-resume {
+      @extend .text-small;
+      // @extend .visually-hidden;
+    }
+  }
+}
