@@ -1,13 +1,20 @@
 // Features
 
 .paratii-features {
+  background: $color-gray;
+
   &-list {
     margin: 100px 0;
   }
 
-  //
-
   &-item {
     @extend .text-small;
+  }
+
+  //
+
+  &-svg {
+    width: 959px;
+    height: 571px;
   }
 }

@@ -20,20 +20,20 @@
     
     &-icon {
       display: block;
-      height: 130px;
-      margin: 0 auto;
+      height: 185px;
+      margin: 30px auto 0;
     }
 
     &-svg {
       @extend .full-block;
-      
-      stroke: $color-bluish-purple;
+
+      fill: $color-purple-light;
     }
 
     //
 
     &-content {
-      height: 370px;
+      min-height: 400px;
       padding: 0 32px;
       text-align: center;
     }

@@ -57,11 +57,19 @@
   }
 
   &-text {
-    font-size: 18px;
-    font-weight: 200;
-    font-stretch: normal;
-    line-height: 1.67;
-    letter-spacing: 0.5px;
+    @extend .text-main;
+
     max-width: 480px;
+  }
+
+  //
+
+  &-svg {
+    height: 653px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 962px;
+    z-index: 9999;
   }
 }

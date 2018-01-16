@@ -1,6 +1,8 @@
 // Videos
 
 .paratii-videos {
+  padding-bottom: 150px;
+
   &-list {
     display: flex;
     justify-content: space-between;
@@ -8,7 +10,8 @@
   }
 
   &-item {
-    border: 1px solid $color-bluish-purple;
+    border: solid 1px rgba(64, 14, 130, 0.28);
+    border-radius: 4px;
     flex: 0 0 31%;
 
     height: 223px;

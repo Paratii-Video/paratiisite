@@ -10,7 +10,7 @@
 
 .main-section {
   color: $color-black;
-  padding: 100px 0 80px;
+  padding: 100px 0;
 
   &--color {
     color: $color-white;
@@ -26,8 +26,9 @@
   //
 
   &-title {
-    @extend .title-small;
+    @extend .text-big;
 
+    font-weight: 600;
     left: 0;
     position: absolute;
     top: 0;
@@ -37,7 +38,7 @@
       content: '';
       display: block;
       height: 9px;
-      margin: 0 0 20px;
+      margin: 0 0 10px;
       width: 62px;
     }
   }
