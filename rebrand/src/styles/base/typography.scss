@@ -1,5 +1,6 @@
 body {
   font-family: $font-family;
+  color: $color-black;
 }
 
 // Titles
@@ -9,11 +10,11 @@ body {
 }
 
 .title-main {
-  font-size: 35px; 
+  font-size: 38px; 
 }
 
 .title-small {
-  font-size: 24px; 
+  font-size: 28px; 
 }
 
 // Texts
@@ -23,9 +24,14 @@ body {
 }
 
 .text-main {
-  font-size: 18px; 
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .text-small {
   font-size: 14px; 
+}
+
+.text-tiny {
+  font-size: 11px; 
 }
