@@ -1,0 +1,39 @@
+// Footer
+
+.main-footer {
+  height: 177px;
+  overflow: hidden;
+  position: relative;
+
+  //
+
+  &-bg {
+    background-image: linear-gradient(to bottom,$color-violet-blue, #3f0e80);
+    height: 100%;
+    right: -220px;
+    position: absolute;
+    min-width: 1000px;
+    top: 0;
+    transform: skew(-45deg);
+    width: 92%;
+    z-index: 10;
+
+    &::before {
+      @extend .full-block;
+
+      background: url('../images/bg-pattern.png');
+      content: '';
+    }
+  }
+
+  &::after {
+    background-image: linear-gradient(to bottom,$color-purply-blue, #3f0e80);
+    bottom: 0;
+    content: '';
+    height: calc(100% - 15px);
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+  }
+}
