@@ -63,6 +63,16 @@
     max-width: 480px;
   }
 
+  &-small {
+    @extend .pos-a-b;
+    @extend .text-tiny;
+
+    max-width: 480px;
+    right: 20px;
+    transform: translate3d(0, -300%, 0);
+    z-index: 10;
+  }
+
   //
 
   &-asset {
