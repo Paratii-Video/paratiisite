@@ -65,11 +65,13 @@
 
   //
 
-  &-svg {
+  &-asset {
+    @extend .pos-a-h;
+
+    background: url('../svgs/paratii-about.svg') no-repeat 50% 50%;
     height: 653px;
-    position: absolute;
     right: 0;
-    top: 0;
+    transform: translate3d(0, -50%, 0);
     width: 962px;
     z-index: 9999;
   }
