@@ -3,18 +3,69 @@
 .paratii-features {
   background: $color-gray;
 
+  &-wrapper {
+    position: relative;
+    margin: 150px 0 125px;
+  }
+
   &-list {
-    margin: 100px 0;
+    @extend .pos-a-t;
+
+    left: 0;
+    width: 100%;
   }
 
   &-item {
     @extend .text-small;
+
+    left: 50%;
+    position: absolute;
+
+    &--0 {
+      top: 0;
+      transform: translate3d(-100%, 0, 0);
+      width: 250px;
+    }
+
+    &--1 {
+      top: 0;
+      transform: translate3d(0, 0, 0);
+      width: 250px;
+    }
+
+    &--2 {
+      top: 0;
+      transform: translate3d(0, 0, 0);
+      width: 250px;
+    }
+
+    &--3 {
+      top: 0;
+      transform: translate3d(0, 0, 0);
+      width: 250px;
+    }
+
+    &--4 {
+      top: 0;
+      transform: translate3d(0, 0, 0);
+      width: 250px;
+    }
+
+    &--5 {
+      top: 0;
+      transform: translate3d(0, 0, 0);
+      width: 250px;
+    }
   }
 
   //
 
-  &-svg {
-    width: 959px;
+  &-asset {
+    background: url('../svgs/paratii-features.svg') no-repeat 50% 50%;
+    display: block;
     height: 571px;
+    margin: 0 auto;
+    max-width: 959px;
+    width: 100%;
   }
 }

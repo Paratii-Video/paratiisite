@@ -29,8 +29,12 @@
 
 // Position
 
-.pos-a-lt {
-  left: 0;
+.pos-a-t {
   position: absolute;
   top: 0;
+}
+
+.pos-a-b {
+  bottom: 0;
+  position: absolute;
 }

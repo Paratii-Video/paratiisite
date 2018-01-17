@@ -1,6 +1,8 @@
 // People
 
 .paratii-people {
+  overflow: hidden;
+
   &-list {
     display: flex;
     flex-wrap: wrap;
@@ -32,9 +34,8 @@
 
     &-image {
       @extend .full-block;
-      @extend .pos-a-lt;
+      @extend .pos-a-b;
 
-      bottom: 0;
       right: 0;
     }
 

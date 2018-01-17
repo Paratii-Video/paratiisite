@@ -15,6 +15,7 @@
 
     &-wrapper {
       display: flex;
+      position: relative;
 
       .paratii-components-content--color & {
         flex-direction: row-reverse;
@@ -25,7 +26,7 @@
   //
 
   &-entry {
-    width: 50%;
+    width: 46%;
 
     &-title {
       @extend .title-small;
@@ -41,8 +42,46 @@
   //
 
   &-asset {
-    background-color: $color-lipstick;
-    height: 100%;
-    width: 50%;
+    background: no-repeat 50% 50%;
+    background-size: cover;
+    right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+
+    .paratii-components-content--color & {
+      left: 0;
+      right: auto;
+    }
+
+    &--0 {
+      background-image: url('../svgs/paratii-about.svg');
+      height: 340px;
+      width: 620px;
+    }
+
+    &--1 {
+      background-image: url('../svgs/paratii-the-token.svg');
+      background-color: white;
+      border: 2px dotted $color-purple-light;
+      border-radius: 100%;
+      box-shadow: 0px 0px 20px 0px rgba(46, 18, 84, .14);
+      height: 578px;
+      width: 578px;
+    }
+
+    &--2 {
+      background-image: url('../svgs/paratii-the-player.svg');
+      height: 570px;
+      width: 630px;
+    }
+  }
+
+  &-svg {
+    @extend .full-block;
+  }
+
+  use {
+    @extend .full-block;   
   }
 }

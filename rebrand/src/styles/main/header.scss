@@ -10,7 +10,7 @@
   &-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: $size-main-title-height 0 0;
+    padding: 65px 0 0;
   }
 }
 
@@ -19,12 +19,23 @@
 
 .main-title {
   height: $size-main-title-height;
-  width: 195px;
+  width: 225px;
 
   &-link {
     @extend .full-block;
 
     color: $color-white;
+  }
+
+  &-svg {
+    @extend .full-block;
+
+    fill: $color-white;
+    transition: fill .25s;
+
+    .main-title-link:hover & {
+      fill: $color-purple-light;
+    }
   }
 }
 
@@ -47,5 +58,10 @@
     height: $size-main-title-height;
     line-height: $size-main-title-height;
     letter-spacing: 0.4px;
+    transition: color .25s;
+
+    &:hover {
+      color: $color-purple-light;
+    }
   }
 }
