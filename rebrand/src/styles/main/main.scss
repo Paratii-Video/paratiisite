@@ -16,6 +16,8 @@
     color: $color-white;
   }
 
+  //
+
   &-wrapper {
     margin: 0 auto;
     max-width: $size-main-wrapper-width-max;
@@ -25,13 +27,17 @@
 
   //
 
+  &-header {
+    display: flex;
+  }
+
+  //
+
   &-title {
     @extend .text-big;
 
     font-weight: 600;
-    left: 0;
-    position: absolute;
-    top: 0;
+    flex-basis: $size-main-section-content-padding;
 
     &::before {
       background-color: $color-purply-blue;
@@ -40,6 +46,13 @@
       height: 9px;
       margin: 0 0 10px;
       width: 62px;
+
+    }
+
+    .main-section--color & {
+      &::before {
+        background-color: $color-white;
+      }
     }
   }
 
@@ -50,7 +63,7 @@
   //
 
   &-content {
-    padding-left: 250px;
+    padding-left: $size-main-section-content-padding;
 
     &--no-padding {
       padding: 0;
