@@ -50,17 +50,22 @@
 
   //
 
+  &-content {
+    position: relative;
+    z-index: 10;
+  }
+
   &-title {
     @extend .title-big;
 
     max-width: 350px;
-    margin: 0 0 50px;
+    margin: 0 0 30px;
   }
 
   &-text {
     @extend .text-main;
 
-    max-width: 480px;
+    max-width: 500px;
   }
 
   &-small {
@@ -83,6 +88,6 @@
     right: 0;
     transform: translate3d(0, -50%, 0);
     width: 962px;
-    z-index: 9999;
+    z-index: 5;
   }
 }

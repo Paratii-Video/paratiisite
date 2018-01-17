@@ -29,7 +29,11 @@
 
   &-header {
     display: flex;
-    margin-bottom: 70px
+    margin-bottom: $size-main-section-header-margin-bottom;
+
+    &--no-margin {
+      margin-bottom: 0;
+    }
   }
 
   //
@@ -65,6 +69,10 @@
 
   &-content {
     padding-left: $size-main-section-content-padding;
+
+    &--with-margin {
+      margin-bottom: $size-main-section-header-margin-bottom;
+    }
 
     &--no-padding {
       padding: 0;
