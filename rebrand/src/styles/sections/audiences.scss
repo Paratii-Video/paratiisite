@@ -20,8 +20,8 @@
     
     &-icon {
       display: block;
-      height: 185px;
-      margin: 30px auto 0;
+      height: 170px;
+      margin: 40px auto 0;
     }
 
     &-svg {
@@ -33,15 +33,15 @@
     //
 
     &-content {
-      min-height: 400px;
+      min-height: 340px;
       padding: 0 32px;
       text-align: center;
     }
 
     &-title {
-      @extend .title-small;
+      @extend .text-big;
 
-      margin: 0 0 40px;
+      margin: 0 0 20px;
     }
 
     &-text {

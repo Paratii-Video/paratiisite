@@ -38,7 +38,7 @@
     @extend .text-big;
 
     font-weight: 600;
-    flex-basis: $size-main-section-content-padding;
+    flex: 0 0 $size-main-section-content-padding;
 
     &::before {
       background-color: $color-purply-blue;
