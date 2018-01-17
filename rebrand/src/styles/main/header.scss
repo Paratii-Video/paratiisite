@@ -31,7 +31,7 @@
     @extend .full-block;
 
     fill: $color-white;
-    transition: fill .25s;
+    transition: fill $anim-time-paint;
 
     .main-title-link:hover & {
       fill: $color-purple-light;
@@ -58,7 +58,7 @@
     height: $size-main-title-height;
     line-height: $size-main-title-height;
     letter-spacing: 0.4px;
-    transition: color .25s;
+    transition: color $anim-time-paint;
 
     &:hover {
       color: $color-purple-light;

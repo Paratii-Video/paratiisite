@@ -5,8 +5,17 @@
   color: white;
   padding: 15px 25px 16px;
   text-align: center;
+  transition: background-color $anim-time-paint;
+
+  &:hover {
+    background-color: $color-purply-blue;
+  }
 
   &--red {
     background-color: $color-lipstick;
+
+    &:hover {
+      background-color: $color-lipstick-dark;
+    }
   }
 }

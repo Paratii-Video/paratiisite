@@ -5,9 +5,6 @@ $size-paratii-components-asset--1: 480px;
 //
 
 .paratii-components {
-  padding-bottom: 0;
-
-  //
 
   &-content {
     padding: 100px 0 ;
@@ -15,6 +12,7 @@ $size-paratii-components-asset--1: 480px;
     &--color {
       background-color: $color-bluish-purple;
       color: $color-white;
+      margin: 80px 0;
     }
 
     &-wrapper {
