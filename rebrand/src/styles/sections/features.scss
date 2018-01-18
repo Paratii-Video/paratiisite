@@ -1,7 +1,14 @@
 // Features
 
+//
+
+$size-paratii-features-item-svg: 45px;
+
+//
+
 .paratii-features {
   background: $color-gray;
+  overflow: hidden;
 
   &-wrapper {
     margin: 120px 0 0;
@@ -21,6 +28,15 @@
     left: 50%;
     position: absolute;
 
+    &-svg {
+      fill: $color-bluish-purple;
+      left: -($size-paratii-features-item-svg + 3);
+      height: $size-paratii-features-item-svg;
+      position: absolute;
+      top: -3px;
+      width: $size-paratii-features-item-svg;
+    }
+
     &--0 {
       top: 97px;
       transform: translate3d(200px, 0, 0);
@@ -28,8 +44,8 @@
     }
 
     &--1 {
-      top: 196px;
-      transform: translate3d(388px, 0, 0);
+      top: 235px;
+      transform: translate3d(389px, 0, 0);
       width: 250px;
     }
 
@@ -43,6 +59,10 @@
       top: -62px;
       transform: translate3d(70px, 0, 0);
       width: 250px;
+
+      .paratii-features-item-svg {
+        fill: $color-lipstick;
+      }
     }
 
     &--4 {
@@ -65,7 +85,6 @@
     display: block;
     height: 571px;
     margin: 0 auto 120px;
-    max-width: 959px;
-    width: 100%;
+    width: 1024px;
   }
 }
