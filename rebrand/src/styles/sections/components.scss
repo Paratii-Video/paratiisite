@@ -58,8 +58,8 @@ $size-paratii-components-asset--1: 480px;
 
     &--0 {
       background-image: url('../svgs/paratii-the-protocol.svg');
-      height: 570px;
-      width: 630px;
+      height: 500px;
+      width: 618px;
     }
 
     &--1 {
@@ -67,7 +67,7 @@ $size-paratii-components-asset--1: 480px;
       background-color: white;
       border: 2px dotted $color-purple-light;
       border-radius: 100%;
-      box-shadow: 0px 0px 20px 0px rgba(46, 18, 84, .1);
+      box-shadow: 0 0 20px 0 $box-shadow-color;
       height: $size-paratii-components-asset--1;
       width: $size-paratii-components-asset--1;
     }

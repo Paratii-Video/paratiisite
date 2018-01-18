@@ -1,7 +1,18 @@
 // Footer
 
-.main-footer {
-  height: 177px;
+//
+
+$zindex-paratii-footer-after: 1;
+$zindex-paratii-footer-bg: 2;
+$zindex-paratii-footer-wrapper: 3;
+$size-paratii-footer: 177px;
+
+//
+
+
+.paratii-footer {
+  color: $color-white;
+  height: $size-paratii-footer;
   overflow: hidden;
   position: relative;
 
@@ -16,7 +27,7 @@
     top: 0;
     transform: skew(-45deg);
     width: 92%;
-    z-index: 10;
+    z-index: 2;
 
     &::before {
       @extend .full-block;
@@ -34,6 +45,38 @@
     left: 0;
     position: absolute;
     width: 100%;
-    z-index: 5;
+    z-index: 1;
+  }
+
+  //
+
+  &-text {
+    @extend .text-main;
+
+    line-height: $size-paratii-footer;
+    text-align: center;
+  }
+
+  //
+
+  &-social {
+    @extend .pos-a-h;
+
+    right: 0;
+    text-align: right;
+    transform: translate3d(0, -50%, 0);
+
+    &-title {
+      @extend .text-main;
+
+      margin: 0 0 10px;
+    }
+  }
+
+  .main-section-wrapper {
+    @extend .full-block;
+
+    position: relative;
+    z-index: $zindex-paratii-footer-wrapper;
   }
 }

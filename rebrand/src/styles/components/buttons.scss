@@ -1,11 +1,20 @@
 // Buttons
 
-.paratii-button {
-  background-color: $color-bluish-purple;
+.main-button {
+  @extend .text-main;
+
   color: white;
-  font-weight: 600;
+  font-weight: $font-regular;
   padding: 15px 25px 16px;
   text-align: center;
+  text-transform: uppercase;
+
+}
+
+.paratii-button {
+  @extend .main-button;
+
+  background-color: $color-bluish-purple;
   transition: background-color $anim-time-paint;
 
   &:hover {
@@ -18,5 +27,16 @@
     &:hover {
       background-color: $color-lipstick-dark;
     }
+  }
+}
+
+.paratii-button-border {
+  @extend .main-button;
+
+  border: 1px solid $color-white;
+  transition: border $anim-time-paint;
+
+  &:hover {
+    border-color: $color-bluish-purple;
   }
 }

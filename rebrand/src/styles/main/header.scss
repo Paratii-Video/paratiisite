@@ -10,7 +10,7 @@
   &-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 65px 0 0;
+    padding: 30px 0 0;
   }
 }
 
@@ -54,7 +54,7 @@
   &-link {
     color: white;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: $font-regular;
     height: $size-main-title-height;
     line-height: $size-main-title-height;
     letter-spacing: 0.4px;

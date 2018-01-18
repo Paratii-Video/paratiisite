@@ -1,12 +1,22 @@
 // About
 
+//
+
+$zindex-paratii-about-after: 1;
+$zindex-paratii-about-bg: 2;
+$zindex-paratii-about-assets: 3;
+$zindex-paratii-about-small: 4;
+$zindex-paratii-about-content: 5;
+$zindex-paratii-about-buttons: 6;
+
+//
+
 .paratii-about {
   align-items: center;
   color: white;
   display: flex;
-  height: 100vh;
-  max-height: 711px;
-  min-height: 511px;
+  height: 80vh;
+  min-height: 711px;
   overflow: hidden;
   position: relative;
 
@@ -21,7 +31,7 @@
     min-width: 1000px;
     transform: skew(-45deg);
     width: 92%;
-    z-index: 10;
+    z-index: $zindex-paratii-about-bg;
 
     &::before {
       @extend .full-block;
@@ -39,20 +49,14 @@
     height: calc(100% - 15px);
     left: 0;
     width: 100%;
-    z-index: 5;
-  }
-
-  //
-
-  .main-section-wrapper {
-    z-index: 15;
+    z-index: $zindex-paratii-about-after;
   }
 
   //
 
   &-content {
     position: relative;
-    z-index: 10;
+    z-index: $zindex-paratii-about-content;
   }
 
   &-title {
@@ -68,14 +72,29 @@
     max-width: 500px;
   }
 
+  //
+
+  &-buttons {
+    display: flex;
+    margin: 70px 0 0;
+    position: relative;
+    z-index: $zindex-paratii-about-buttons;
+
+    .paratii-button {
+      margin-right: 25px;
+    }
+  }
+
+  //
+
   &-small {
     @extend .pos-a-b;
     @extend .text-tiny;
 
     max-width: 480px;
     right: 20px;
-    transform: translate3d(0, -300%, 0);
-    z-index: 10;
+    transform: translate3d(0, 200%, 0);
+    z-index: $zindex-paratii-about-small;
   }
 
   //
@@ -84,9 +103,10 @@
     @extend .pos-a-h;
 
     background: url('../svgs/paratii-about.svg') no-repeat 50% 50%;
-    height: 653px;
-    left: 400px;
-    width: 962px;
-    z-index: 5;
+    height: 1000px;
+    left: 200px;
+    transform: translate3d(0, -55%, 0);
+    width: 1520px;
+    z-index: $zindex-paratii-about-assets;
   }
 }

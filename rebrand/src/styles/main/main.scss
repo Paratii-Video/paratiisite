@@ -1,10 +1,44 @@
 // Main
 
+//
+
+$size-main-social-icon: 35px;
+
+//
+
 .paratii-main {
   position: relative;
   z-index: $zindex-main-main;
 }
 
+
+
+.main-social {
+  &-list {
+    display: flex;
+  }
+
+  &-item {
+    margin-left: 15px
+  }
+
+  &-link {
+    display: block;
+  }
+
+  &-svg {
+    display: block;
+    fill: $color-white;
+    height: $size-main-social-icon;
+    transition: opacity $anim-time-paint;
+    width: $size-main-social-icon;
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+
+}
 
 // Section
 
@@ -41,7 +75,7 @@
   &-title {
     @extend .text-big;
 
-    font-weight: 600;
+    font-weight: $font-bold;
     flex: 0 0 $size-main-section-content-padding;
 
     &::before {
@@ -85,5 +119,13 @@
     &-text {
       @extend .text-main;
     }
+  }
+
+  // -call its a block with title and/or text + button
+
+  &-call {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
   }
 }

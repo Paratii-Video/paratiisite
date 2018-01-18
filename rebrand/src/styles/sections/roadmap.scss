@@ -37,7 +37,7 @@ $size-paratii-roadmap-item-date-icon: 36px;
   &-item {
     background: $color-white;
     border-radius: 4px;
-    box-shadow: 0px 0px 20px 0px rgba(46, 18, 84, .1);
+    box-shadow: 0px 0px 20px 0px $box-shadow-color;
     color: $color-black;
     flex-basis: 215px;
     height: 354px;
@@ -75,10 +75,18 @@ $size-paratii-roadmap-item-date-icon: 36px;
     //
     
     &-icon {
+      background: no-repeat 50% 50%;
+      background-size: cover;
       display: block;
-      height: 125px;
-      margin: 70px 0 30px;
+      height: 147px;
+      margin: 60px 0 30px;
       width: 100%;
+
+      @for $i from 0 through 9 {
+        &--#{$i} {
+          background-image: url('../svgs/paratii-roadmap-icon-#{$i}.svg');
+        }
+      }
     }
 
     &-svg {
@@ -92,7 +100,7 @@ $size-paratii-roadmap-item-date-icon: 36px;
     &-text {
       @extend .text-small;
 
-      font-weight: 600;
+      font-weight: $font-bold;
       padding: 0 20px;
     }
 
@@ -101,7 +109,7 @@ $size-paratii-roadmap-item-date-icon: 36px;
       @extend .pos-a-b;
 
       color: $color-white;
-      font-weight: 600;
+      font-weight: $font-bold;
       transform: translate3d(0, 150px, 0);
       width: 100%;
       z-index: 3;
