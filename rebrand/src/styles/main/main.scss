@@ -7,6 +7,7 @@
   z-index: $zindex-main-main;
 }
 
+//
 
 
 .main-social {
@@ -50,7 +51,8 @@
 
   &-wrapper {
     margin: 0 auto;
-    max-width: $size-main-wrapper-width-max;
+    max-width: $size-main-wrapper-width-max + 40px;
+    padding: 0 40px;
     position: relative;
     width: 100%;
   }
