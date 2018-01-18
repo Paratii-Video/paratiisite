@@ -50,16 +50,28 @@ h1, h2, h3, h4, h5, h6, strong {
   font-size: .75em; // 18px
   font-weight: $font-regular;
   line-height: 1.75;
+
+  @include screenPhablet {
+    font-size: .9em;
+  }
 }
 
 .text-small {
   font-size: .6em; // 14px
   font-weight: $font-regular;
   line-height: 1.6;
+
+  @include screenPhablet {
+    font-size: .85em;
+  }
 }
 
 .text-tiny {
   font-size: .47em; // 11px
   font-weight: $font-regular;
   line-height: 1.8;
+
+  @include screenPhablet {
+    font-size: .6em;
+  }
 }

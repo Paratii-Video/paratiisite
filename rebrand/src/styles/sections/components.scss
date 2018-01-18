@@ -1,18 +1,33 @@
 // Components
 
 $size-paratii-components-asset--1: 480px;
+$size-paratii-components-asset--1-mobile: 450px;
 
 //
 
 .paratii-components {
 
   &-content {
-    padding: 100px 0 ;
+    padding: 100px 0;
+
+    @include screenTablet {
+      padding: 0;
+    }
 
     &--color {
       background-color: $color-bluish-purple;
       color: $color-white;
       margin: 80px 0;
+
+      @include screenTablet {
+        margin: 110px 0;
+        padding: 60px 0;
+      }
+
+      @include screenPhablet {
+        margin: 70px 0;
+        padding: 60px 0;
+      }
     }
 
     &-wrapper {
@@ -29,6 +44,10 @@ $size-paratii-components-asset--1: 480px;
 
   &-entry {
     width: 46%;
+
+    @include screenPhablet {
+      width: 100%;
+    }
 
     &-title {
       @extend .title-small;
@@ -51,15 +70,28 @@ $size-paratii-components-asset--1: 480px;
     top: 50%;
     transform: translate3d(0, -50%, 0);
 
+    @include screenPhablet {
+      display: none;
+    }
+
     .paratii-components-content--color & {
       left: 0;
       right: auto;
+
+      @include screenTablet {
+        left: 20px;
+      }
     }
 
     &--0 {
       background-image: url('../svgs/paratii-the-protocol.svg');
       height: 500px;
       width: 618px;
+
+      @include screenTablet {
+        height: 415px;
+        width: 555px;
+      }
     }
 
     &--1 {
@@ -70,12 +102,22 @@ $size-paratii-components-asset--1: 480px;
       box-shadow: 0 0 20px 0 $box-shadow-color;
       height: $size-paratii-components-asset--1;
       width: $size-paratii-components-asset--1;
+
+      @include screenTablet {
+        height: $size-paratii-components-asset--1-mobile;
+        width: $size-paratii-components-asset--1-mobile;
+      }
     }
 
     &--2 {
       background-image: url('../svgs/paratii-the-player.svg');
       height: 570px;
       width: 630px;
+
+      @include screenTablet {
+        height: 450px;
+        width: 580px;
+      }
     }
   }
 

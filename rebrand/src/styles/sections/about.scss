@@ -96,6 +96,10 @@ $zindex-paratii-about-buttons: 6;
     position: relative;
     z-index: $zindex-paratii-about-buttons;
     
+    @include screenPhablet {
+      margin: 70px 0 50px;
+    }
+    
     @include screenMobile {
       flex-direction: column;
     }
@@ -130,12 +134,17 @@ $zindex-paratii-about-buttons: 6;
       transform: translate3d(0, 0, 0);
     }
 
-    @include screenMobile {
+    @include screenPhablet {
       max-width: initial;
       left: 0;
-      text-align: center;
+      position: relative;
       right: auto;
-      width: 100vw;
+      text-align: left;
+      transform: translate3d(0, 0, 0);
+      width: 100%;
+    }
+
+    @include screenMobile {
     }
   }
 

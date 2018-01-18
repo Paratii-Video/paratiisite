@@ -116,6 +116,10 @@
   &-content {
     padding-left: $size-main-section-content-padding;
 
+    @include screenPhablet {
+      padding-left: 0;
+    }
+
     &--with-margin {
       margin-bottom: $size-main-section-header-margin-bottom;
     }
