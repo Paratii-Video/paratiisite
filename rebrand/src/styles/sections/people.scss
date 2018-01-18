@@ -10,11 +10,19 @@ $zindex-paratii-people-avatar-image: 1;
 .paratii-people {
   overflow: hidden;
 
+  @include screenTablet {
+    padding-bottom: 0;
+  }
+
   &-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: calc(100% + 70px);
+
+    @include screenTablet {
+      width: 100%;
+    }
   }
 
   &-item {
@@ -22,6 +30,23 @@ $zindex-paratii-people-avatar-image: 1;
     margin: 0 70px 65px 0;
     overflow: hidden;
     text-align: center;
+
+    @include screenTablet {
+      flex: 0 0 25.5%;
+      margin: 0 0 65px 0;
+    }
+
+    @include screenMobile {
+      flex: 0 0 43%;
+    }
+
+    @include screenMobileMax {
+      flex: 0 0 100%;
+    }
+
+    @include screenMobile {
+      flex: 0 0 43%;
+    }
 
     //
 
