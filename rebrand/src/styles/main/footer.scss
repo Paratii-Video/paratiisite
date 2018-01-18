@@ -67,9 +67,12 @@ $size-paratii-footer: 177px;
     transform: translate3d(0, -50%, 0);
 
     &-title {
+      @extend .pos-a-t;
       @extend .text-main;
 
       margin: 0 0 10px;
+      right: 0;
+      transform: translate3d(0, -($size-main-social-icon + 5), 0)
     }
   }
 
