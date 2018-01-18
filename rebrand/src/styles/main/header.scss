@@ -1,5 +1,7 @@
 // Header
 
+//
+
 .main-header {
   left: 0;
   position: fixed;
@@ -12,11 +14,15 @@
   &::before {
     @extend .pos-a-t;
 
-    background: $color-white;
+    background: $color-lipstick;
     // content: '';
-    height: $size-main-title-height;
+    height: $size-main-header-bg;
     left: 0;
-    width: 100%
+    width: 100%;
+    
+    @include screenMobile {
+      height: $size-main-header-bg-mobile;
+    }
   }
 
 
@@ -25,7 +31,11 @@
   &-wrapper {
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: $size-main-header-wrapper-padding-top;
+
+    @include screenMobile {
+      padding-top: $size-main-header-wrapper-padding-top / 2;
+    }
   }
 }
 
@@ -34,8 +44,15 @@
 
 .main-title {
   height: $size-main-title-height;
-  transform: translate3d(-20px,0,0);
-  width: 225px;
+  transform: translate3d(-20px, 9px, 0);
+  width: $size-main-title-width;
+
+  @include screenMobile {
+    height: $size-main-title-height-mobile;
+    transform: translate3d(-14px, 2px, 0);
+    width: $size-main-title-width-mobile;
+
+  }
 
   &-link {
     @extend .full-block;
@@ -86,8 +103,8 @@
     letter-spacing: 0.4px;
     transition: color $anim-time-paint;
     
-    @include screenPhablet {
-      font-size: 14px;
+    @include screenMobile {
+      font-size: 16px;
     };
 
     &:hover {

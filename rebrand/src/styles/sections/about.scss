@@ -15,10 +15,16 @@ $zindex-paratii-about-buttons: 6;
   align-items: center;
   color: white;
   display: flex;
-  height: 80vh;
-  min-height: 711px;
+  height: calc(70vh + #{$size-main-title-height});
+  min-height: 600px + $size-main-title-height;
   overflow: hidden;
   position: relative;
+
+  @include screenMobile {
+    height: initial;
+    min-height: initial;
+    padding: ($size-main-header-bg-mobile + 40) 0;
+  }
 
   //
 
@@ -32,6 +38,11 @@ $zindex-paratii-about-buttons: 6;
     transform: skew(-45deg);
     width: 92%;
     z-index: $zindex-paratii-about-bg;
+
+    @include screenMobile {
+      left: -400px;
+      width: 100%;
+    }
 
     &::before {
       @extend .full-block;
@@ -55,8 +66,13 @@ $zindex-paratii-about-buttons: 6;
   //
 
   &-content {
+    margin-top: $size-main-title-height;
     position: relative;
     z-index: $zindex-paratii-about-content;
+
+    @include screenMobile {
+      margin-top: 0;
+    }
   }
 
   &-title {
@@ -79,9 +95,23 @@ $zindex-paratii-about-buttons: 6;
     margin: 70px 0 0;
     position: relative;
     z-index: $zindex-paratii-about-buttons;
+    
+    @include screenMobile {
+      flex-direction: column;
+    }
 
     .paratii-button {
       margin-right: 25px;
+    
+      @include screenMobile {
+        margin: 0 0 25px;
+      }
+    }
+  }
+
+  &-button {
+    @include screenMobile {
+      display: inline;
     }
   }
 
@@ -108,5 +138,9 @@ $zindex-paratii-about-buttons: 6;
     transform: translate3d(0, -55%, 0);
     width: 1520px;
     z-index: $zindex-paratii-about-assets;
+    
+    @include screenMobile {
+      display: none;
+    }
   }
 }
