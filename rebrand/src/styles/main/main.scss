@@ -67,6 +67,10 @@
     display: flex;
     margin-bottom: $size-main-section-header-margin-bottom;
 
+    @include screenPhablet {
+      flex-direction: column;
+    }
+
     &--no-margin {
       margin-bottom: 0;
     }
@@ -79,6 +83,12 @@
 
     font-weight: $font-bold;
     flex: 0 0 $size-main-section-content-padding;
+   
+    @include screenPhablet {
+      flex: initial;
+      margin-bottom: 10px;
+    }
+
 
     &::before {
       background-color: $color-purply-blue;
@@ -129,5 +139,16 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+
+    @include screenPhablet {
+      align-items: left;
+      flex-direction: column;
+    }
+
+    .paratii-button {
+      @include screenPhablet {
+        margin-top: 20px;
+      }
+    }
   }
 }

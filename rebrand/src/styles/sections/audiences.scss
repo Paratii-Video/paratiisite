@@ -5,6 +5,10 @@
     display: flex;
     justify-content: space-between;
 
+    @include screenPhablet {
+      flex-direction: column;
+    }
+
     .paratii-audiences & {
       margin-bottom: 60px;
     }
@@ -15,6 +19,12 @@
     border-radius: 4px;
     flex: 0 0 31%;
     overflow: hidden;
+
+    @include screenPhablet {
+      flex: initial;
+      margin-bottom: 40px;
+      width: 100%;
+    }
 
     //
     
@@ -36,6 +46,15 @@
       min-height: 370px;
       padding: 0 32px;
       text-align: center;
+
+      @include screenTablet {
+        min-height: 420px;
+      }
+
+      @include screenPhablet {
+        min-height: initial;
+        margin-bottom: 40px;
+      }
     }
 
     &-title {
