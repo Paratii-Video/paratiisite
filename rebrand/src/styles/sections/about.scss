@@ -23,7 +23,7 @@ $zindex-paratii-about-buttons: 6;
   @include screenMobile {
     height: initial;
     min-height: initial;
-    padding: ($size-main-header-bg-mobile + 40) 0;
+    padding: ($size-main-header-bg-mobile + 40) 0 ($size-main-header-bg-mobile + 80);
   }
 
   //
@@ -125,6 +125,18 @@ $zindex-paratii-about-buttons: 6;
     right: 20px;
     transform: translate3d(0, 200%, 0);
     z-index: $zindex-paratii-about-small;
+
+    @include screenTablet {
+      transform: translate3d(0, 0, 0);
+    }
+
+    @include screenMobile {
+      max-width: initial;
+      left: 0;
+      text-align: center;
+      right: auto;
+      width: 100vw;
+    }
   }
 
   //

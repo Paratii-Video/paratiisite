@@ -43,6 +43,10 @@
   color: $color-black;
   padding: 120px 0 150px;
 
+  @include screenMobile {
+    padding: 90px 0 150px;
+  }
+
   &--color {
     color: $color-white;
   }
