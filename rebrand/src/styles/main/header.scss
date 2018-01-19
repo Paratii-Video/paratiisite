@@ -14,14 +14,22 @@
   &::before {
     @extend .pos-a-t;
 
-    background: $color-lipstick;
-    // content: '';
+    background: $color-white;
+    box-shadow: 0 0 20px 0 $box-shadow-color;
+    content: '';
     height: $size-main-header-bg;
     left: 0;
+    transform: translate3d(0, -100%, 0);
+    transition: transform .5s $ease-smooth;
     width: 100%;
     
     @include screenMobile {
       height: $size-main-header-bg-mobile;
+    }
+
+    .out-top & {
+      transform: translate3d(0, 0, 0);
+      transition: transform .7s $ease-smooth;
     }
   }
 
@@ -31,10 +39,17 @@
   &-wrapper {
     display: flex;
     justify-content: space-between;
-    padding-top: $size-main-header-wrapper-padding-top;
+    transform: translate3d(0, $size-main-header-wrapper-padding-top, 0);
+    transition: transform .5s $ease-smooth;
+
 
     @include screenMobile {
-      padding-top: $size-main-header-wrapper-padding-top / 2;
+      transform: translate3d(0, $size-main-header-wrapper-padding-top / 2, 0);
+    }
+
+    .out-top & {
+      transform: translate3d(0, 0, 0);
+      transition: transform .7s $ease-smooth;
     }
   }
 }
@@ -68,6 +83,10 @@
 
     .main-title-link:hover & {
       fill: $color-purple-light;
+    }
+
+    .out-top & {
+      fill: $color-black;
     }
   }
 }
@@ -109,6 +128,10 @@
 
     &:hover {
       color: $color-purple-light;
+    }
+
+    .out-top & {
+      color: $color-black;
     }
   }
 }
