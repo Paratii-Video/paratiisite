@@ -25,12 +25,12 @@ $size-paratii-footer-mobile: 260px;
   &-bg {
     background-image: linear-gradient(to bottom,$color-violet-blue, #3f0e80);
     height: 100%;
-    right: -220px;
+    right: -20%;
     position: absolute;
     min-width: 1000px;
     top: 0;
     transform: skew(-45deg);
-    width: 92%;
+    width: 100%;
     z-index: 2;
 
     &::before {

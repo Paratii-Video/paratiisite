@@ -9,6 +9,7 @@ $zindex-paratii-people-avatar-image: 1;
 
 .paratii-people {
   overflow: hidden;
+  padding-bottom: 80px;
 
   @include screenTablet {
     padding-bottom: 0;
