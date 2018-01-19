@@ -1,0 +1,131 @@
+// Features
+
+//
+
+$size-paratii-features-item-svg: 45px;
+
+//
+
+.paratii-features {
+  background: $color-gray;
+  overflow: hidden;
+
+  &-wrapper {
+    margin: 120px 0 0;
+    position: relative;
+
+    @include screenPhablet {
+      margin: 0;
+    }
+  }
+
+  &-list {
+    @extend .pos-a-t;
+
+    left: 0;
+    width: 100%;
+
+    @include screenPhablet {
+      margin: 0 0 80px;
+      position: relative;
+      top: 0;
+    }
+  }
+
+  &-item {
+    @extend .text-small;
+
+    left: 50%;
+    position: absolute;
+
+    &-svg {
+      fill: $color-bluish-purple;
+      left: -($size-paratii-features-item-svg + 3);
+      height: $size-paratii-features-item-svg;
+      position: absolute;
+      top: -3px;
+      width: $size-paratii-features-item-svg;
+    }
+
+    &--0 {
+      top: 97px;
+      transform: translate3d(200px, 0, 0);
+      width: 250px;
+    }
+
+    &--1 {
+      top: 235px;
+      transform: translate3d(389px, 0, 0);
+      width: 250px;
+
+      @include screenTablet {
+        width: 110px;
+      }
+    }
+
+    &--2 {
+      top: 240px;
+      transform: translate3d(-582px, 0, 0);
+      width: 250px;
+
+      @include screenTablet {
+        top: 320px;
+        transform: translate3d(-462px, 0, 0);
+      }
+    }
+
+    &--3 {
+      top: -62px;
+      transform: translate3d(70px, 0, 0);
+      width: 250px;
+
+      .paratii-features-item-svg {
+        fill: $color-lipstick;
+      }
+    }
+
+    &--4 {
+      top: -51px;
+      transform: translate3d(-330px, 0, 0);
+      width: 250px;
+    }
+
+    &--5 {
+      top: 490px;
+      transform: translate3d(-302px, 0, 0);
+      width: 250px;
+
+      @include screenTablet {
+        top: 500px;
+      }
+    }
+
+    @include screenPhablet {
+      left: 0;
+      margin: 0 40px 40px;
+      top: auto;
+      transform: translate3d(0, 0, 0);
+      position: relative;
+      width: initial;
+    }
+  }
+
+  //
+
+  &-asset {
+    background: url('../svgs/paratii-features.svg') no-repeat 50% 50%;
+    display: block;
+    height: 571px;
+    margin: 0 auto 120px;
+    width: 1024px;
+
+    @include screenTablet {
+      margin: 0 auto 70px;
+      width: 100%;
+    }
+
+    @include screenPhablet {
+      display: none;
+    }
+  }
+}

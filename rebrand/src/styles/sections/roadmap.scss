@@ -1,0 +1,189 @@
+// Roadmap
+
+//
+
+$size-paratii-roadmap-item-date-icon: 36px;
+
+//
+
+.paratii-roadmap {
+  background: $color-bluish-purple url('../images/bg-pattern.png');
+  padding-bottom: 0;
+  position: relative;
+
+  @include screenMobile {
+    padding: 90px 0 0;
+  }
+
+  &::after {
+    @extend .pos-a-b;
+
+    background: $color-white;
+    content: '';
+    height: 315px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+    @include screenMobile {
+      height: 400px;
+    }
+  }
+
+
+  //
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    position: relative;
+    z-index: 3;
+  }
+
+  &-item {
+    background: $color-white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 20px 0px $box-shadow-color;
+    color: $color-black;
+    flex-basis: 215px;
+    height: 354px;
+    margin-bottom: 240px;
+    position: relative;
+    text-align: center;
+
+    @include screenPhablet {
+      flex-basis: 48%;
+      height: initial;
+    }
+
+    @include screenMobile {
+      flex-basis: 100%;
+    }
+
+    // Compose bottom arrow
+
+    &::before,
+    &::after, {
+      @extend .pos-a-b;
+
+      background: $color-white;
+      content: '';
+      height: 30px;
+    }
+
+    &::before {
+      border-radius: 4px;
+      left: 0;
+      width: 100%;
+      z-index: 2;
+    }
+
+    &::after {
+
+      box-shadow: 0px 0px 20px 0px rgba(46, 18, 84, .1);
+      left: 50%;
+      transform: rotate(45deg) translate3d(0, 20px, 0);
+      width: 30px;
+      z-index: 1;
+    }
+
+    //
+    
+    &-icon {
+      background: no-repeat 50% 50%;
+      background-size: cover;
+      display: block;
+      height: 147px;
+      margin: 60px 0 30px;
+      width: 100%;
+
+      @include screenPhablet {
+        height: 225px;
+        margin: 40px 0 20px;
+      }
+
+      @include screenMobile {
+        height: 195px;
+        margin: 40px 0 20px;
+      }
+
+      @for $i from 0 through 9 {
+        &--#{$i} {
+          background-image: url('../svgs/paratii-roadmap-icon-#{$i}.svg');
+        }
+      }
+    }
+
+    &-svg {
+      @extend .full-block;
+
+      fill: $color-purple-light;
+    }
+
+    //
+
+    &-text {
+      @extend .text-small;
+
+      font-weight: $font-bold;
+      padding: 0 20px;
+
+      @include screenPhablet {
+        margin: 0 0 60px;
+      }
+    }
+
+    &-date {
+      @extend .text-main;
+      @extend .pos-a-b;
+
+      color: $color-white;
+      font-weight: $font-bold;
+      transform: translate3d(0, 150px, 0);
+      width: 100%;
+      z-index: 3;
+
+      .paratii-roadmap-item--future & {
+        color: $color-purply-blue;
+      }
+
+      &-icon {
+        background: $color-white;
+        border-radius: 100%;
+        display: block;
+        height: $size-paratii-roadmap-item-date-icon;
+        margin: 0 auto 10px;
+        position: relative;
+        width: $size-paratii-roadmap-item-date-icon;
+
+        &::before {
+          @extend .pos-a-h;
+          @extend .full-block;
+
+          background: $color-purply-blue;
+          border-radius: 100%;
+          content: '';
+          left: 50%;
+          transform: scale(.48) translate3d(-50%, -50%, 0);
+          transform-origin: left top;
+        }
+
+        .paratii-roadmap-item--past & {
+          &::before {
+            display: none;
+          }
+        }
+
+        .paratii-roadmap-item--future & {
+          background: $color-purply-blue;
+
+          &::before {
+            background: $color-white;
+          }
+        }
+      }
+    }
+  }
+}

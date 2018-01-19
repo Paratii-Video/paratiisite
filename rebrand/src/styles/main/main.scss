@@ -1,0 +1,158 @@
+// Main
+
+//
+
+.paratii-main {
+  position: relative;
+  z-index: $zindex-main-main;
+}
+
+//
+
+
+.main-social {
+  &-list {
+    display: flex;
+  }
+
+  &-item {
+    margin-left: 15px
+  }
+
+  &-link {
+    display: block;
+  }
+
+  &-svg {
+    display: block;
+    fill: $color-white;
+    height: $size-main-social-icon;
+    transition: opacity $anim-time-paint;
+    width: $size-main-social-icon;
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+
+}
+
+// Section
+
+.main-section {
+  color: $color-black;
+  padding: 120px 0 150px;
+
+  @include screenMobile {
+    padding: 90px 0 150px;
+  }
+
+  &--color {
+    color: $color-white;
+  }
+
+  //
+
+  &-wrapper {
+    margin: 0 auto;
+    max-width: $size-main-wrapper-width-max + 40px;
+    padding: 0 40px;
+    position: relative;
+    width: 100%;
+  }
+
+  //
+
+  &-header {
+    display: flex;
+    margin-bottom: $size-main-section-header-margin-bottom;
+
+    @include screenPhablet {
+      flex-direction: column;
+    }
+
+    &--no-margin {
+      margin-bottom: 0;
+    }
+  }
+
+  //
+
+  &-title {
+    @extend .text-big;
+
+    font-weight: $font-bold;
+    flex: 0 0 $size-main-section-content-padding;
+   
+    @include screenPhablet {
+      flex: initial;
+      margin-bottom: 10px;
+    }
+
+
+    &::before {
+      background-color: $color-purply-blue;
+      content: '';
+      display: block;
+      height: 9px;
+      margin: 0 0 10px;
+      width: 62px;
+
+    }
+
+    .main-section--color & {
+      &::before {
+        background-color: $color-white;
+      }
+    }
+  }
+
+  &-subtitle {
+    @extend .title-main;
+  }
+
+  //
+
+  &-content {
+    padding-left: $size-main-section-content-padding;
+
+    @include screenPhablet {
+      padding-left: 0;
+    }
+
+    &--with-margin {
+      margin-bottom: $size-main-section-header-margin-bottom;
+    }
+
+    &--no-padding {
+      padding: 0;
+    }
+
+    &-title {
+      @extend .title-small;
+    }
+
+    &-text {
+      @extend .text-main;
+    }
+  }
+
+  // -call its a block with title and/or text + button
+
+  &-call {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    @include screenPhablet {
+      align-items: left;
+      flex-direction: column;
+    }
+
+    .paratii-button {
+      @include screenPhablet {
+        margin-top: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+// Helpers
+
+// Mixins
+
+$query-mobile-max: "(max-width: ($screen-mobile))";
+$query-mobile: "(max-width: ($screen-phablet - 1))";
+$query-phablet: "(max-width: ($screen-tablet - 1))";
+$query-tablet: "(max-width: ($screen-tablet + 100))";
+$query-fullhd: "(min-width: $screen-fullhd)";
+
+@mixin screenMobileMax {
+  @media #{$query-mobile-max} {
+    @content
+  }
+};
+
+@mixin screenMobile {
+  @media #{$query-mobile} {
+    @content
+  }
+};
+@mixin screenPhablet {
+  @media #{$query-phablet} {
+    @content
+  }
+};
+
+@mixin screenTablet {
+  @media #{$query-tablet} {
+    @content
+  }
+};
+
+@mixin screenFullhd {
+  @media #{$query-fullhd} {
+    @content
+  }
+};
+
+
+
+//
+
+/**
+ * Hide element while making it readable for screen readers
+ * Shamelessly borrowed from HTML5Boilerplate:
+ * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+ */
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+// Block
+
+.full-block {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+// Position
+
+.pos-a-t {
+  position: absolute;
+  top: 0;
+}
+
+.pos-a-h {
+  position: absolute;
+  top: 50%;
+}
+
+.pos-a-b {
+  bottom: 0;
+  position: absolute;
+}

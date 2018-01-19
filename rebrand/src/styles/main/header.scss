@@ -1,0 +1,137 @@
+// Header
+
+//
+
+.main-header {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: $zindex-main-header;
+
+  //
+
+  &::before {
+    @extend .pos-a-t;
+
+    background: $color-white;
+    box-shadow: 0 -2px 18px 0 $box-shadow-color;
+    content: '';
+    height: $size-main-header-bg;
+    left: 0;
+    transform: translate3d(0, -100%, 0);
+    transition: transform .5s $ease-smooth;
+    width: 100%;
+    
+    @include screenMobile {
+      height: $size-main-header-bg-mobile;
+    }
+
+    .out-top & {
+      transform: translate3d(0, 0, 0);
+      transition: transform .7s $ease-smooth;
+    }
+  }
+
+
+  //
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    transform: translate3d(0, $size-main-header-wrapper-padding-top, 0);
+    transition: transform .5s $ease-smooth;
+
+
+    @include screenMobile {
+      transform: translate3d(0, $size-main-header-wrapper-padding-top / 2, 0);
+    }
+
+    .out-top & {
+      transform: translate3d(0, 0, 0);
+      transition: transform .7s $ease-smooth;
+    }
+  }
+}
+
+
+// Logo
+
+.main-title {
+  height: $size-main-title-height;
+  transform: translate3d(-20px, 6px, 0);
+  width: $size-main-title-width;
+
+  @include screenMobile {
+    height: $size-main-title-height-mobile;
+    transform: translate3d(-14px, 2px, 0);
+    width: $size-main-title-width-mobile;
+
+  }
+
+  &-link {
+    @extend .full-block;
+
+    color: $color-white;
+  }
+
+  &-svg {
+    @extend .full-block;
+
+    fill: $color-white;
+    transition: fill $anim-time-paint;
+
+    .main-title-link:hover & {
+      fill: $color-purple-light;
+    }
+
+    .out-top & {
+      fill: $color-black;
+    }
+  }
+}
+
+
+// Nav
+
+.main-nav {
+    
+  @include screenMobile {
+    display: none;
+  };
+
+  &-list {
+    display: flex;
+    // padding: 0 20px 0 0;
+  }
+
+  &-item {
+    margin-left: 30px;
+    
+    @include screenPhablet {
+      margin-left: 15px;
+    };
+  }
+
+  &-link {
+    color: white;
+    font-size: 16px;
+    font-weight: $font-regular;
+    height: $size-main-title-height;
+    line-height: $size-main-title-height;
+    letter-spacing: 0.4px;
+    transition: color $anim-time-paint;
+    
+    @include screenMobile {
+      font-size: 16px;
+    };
+
+    &:hover {
+      color: $color-purple-light;
+    }
+
+    .out-top & {
+      color: $color-black;
+    }
+  }
+}
