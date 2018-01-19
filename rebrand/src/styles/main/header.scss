@@ -15,7 +15,7 @@
     @extend .pos-a-t;
 
     background: $color-white;
-    box-shadow: 0 0 20px 0 $box-shadow-color;
+    box-shadow: 0 -2px 18px 0 $box-shadow-color;
     content: '';
     height: $size-main-header-bg;
     left: 0;
@@ -59,7 +59,7 @@
 
 .main-title {
   height: $size-main-title-height;
-  transform: translate3d(-20px, 9px, 0);
+  transform: translate3d(-20px, 6px, 0);
   width: $size-main-title-width;
 
   @include screenMobile {
