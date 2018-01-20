@@ -6,7 +6,7 @@ $query-mobile-max: "(max-width: ($screen-mobile))";
 $query-mobile: "(max-width: ($screen-phablet - 1))";
 $query-phablet: "(max-width: ($screen-tablet - 1))";
 $query-tablet: "(max-width: ($screen-tablet + 100))";
-$query-fullhd: "(min-width: $screen-fullhd)";
+$query-desktop: "(min-width: $screen-notebook)";
 
 @mixin screenMobileMax {
   @media #{$query-mobile-max} {
@@ -31,8 +31,8 @@ $query-fullhd: "(min-width: $screen-fullhd)";
   }
 };
 
-@mixin screenFullhd {
-  @media #{$query-fullhd} {
+@mixin screenDesktop {
+  @media #{$query-desktop} {
     @content
   }
 };
@@ -56,6 +56,11 @@ $query-fullhd: "(min-width: $screen-fullhd)";
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+.hide-text-indent {
+  overflow: hidden;
+  text-indent: -9999px;
 }
 
 

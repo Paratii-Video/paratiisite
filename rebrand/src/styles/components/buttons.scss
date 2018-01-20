@@ -37,6 +37,6 @@
   transition: border $anim-time-paint;
 
   &:hover {
-    border-color: $color-bluish-purple;
+    border-color: rgba(255, 255, 255, .5);
   }
 }
