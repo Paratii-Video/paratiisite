@@ -58,6 +58,10 @@ $zindex-paratii-people-avatar-image: 1;
       position: relative;
       width: 100%;
 
+      @include screenMobile {
+        width: 50%;
+      }
+
       &::before {
         content: '';
         display: block;
