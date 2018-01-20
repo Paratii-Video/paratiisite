@@ -22,10 +22,22 @@
     flex: 0 0 31%;
     height: 223px;
 
+    @include screenDesktop {
+      height: 198px;
+    }
+
     @include screenPhablet {
       flex: 0 0 100%;
-      height: 320px;
+      height: 380px;
       margin-bottom: 40px;
+    }
+
+    @include screenMobile {
+      height: 310px;
+    }
+
+    @include screenMobileMax {
+      height: 170px;
     }
   }
 }
