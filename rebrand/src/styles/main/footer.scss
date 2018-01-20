@@ -112,7 +112,7 @@ $size-paratii-footer-mobile: 260px;
         top: auto;
       }
 
-      @include screenMobile {
+      @include screenPhablet {
         margin: 20px 0 0;
       }
     }

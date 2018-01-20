@@ -8,6 +8,14 @@ $size-paratii-components-asset--1-mobile: 450px;
 .paratii-components {
   padding-bottom: 150px;
 
+  @include screenPhablet {
+    padding-bottom: 115px;
+  }
+
+  @include screenMobileMax {
+    padding-bottom: 90px;
+  }
+
   &-content {
     padding: 100px 0;
 

@@ -28,6 +28,10 @@
       background-color: $color-lipstick-dark;
     }
   }
+
+  @include screenMobile {
+    font-size: 0.5em;
+  }
 }
 
 .paratii-button-border {
@@ -38,5 +42,9 @@
 
   &:hover {
     border-color: rgba(255, 255, 255, .5);
+  }
+
+  @include screenMobile {
+    font-size: 0.5em;
   }
 }

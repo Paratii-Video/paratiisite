@@ -23,7 +23,11 @@ $zindex-paratii-about-buttons: 6;
   @include screenMobile {
     height: initial;
     min-height: initial;
-    padding: ($size-main-header-bg-mobile + 40) 0 ($size-main-header-bg-mobile + 80);
+    padding: ($size-main-header-bg-mobile + 40) 0 ($size-main-header-bg-mobile + 40);
+  }
+
+  @include screenMobileMax {
+    padding: 40% 0 ($size-main-header-bg-mobile + 40);
   }
 
   //
@@ -86,6 +90,10 @@ $zindex-paratii-about-buttons: 6;
     @extend .text-main;
 
     max-width: 500px;
+
+    @include screenMobile {
+      max-width: initial;
+    }
   }
 
   //
