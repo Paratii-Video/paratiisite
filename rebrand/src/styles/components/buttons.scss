@@ -1,4 +1,4 @@
-// Buttons
+// Buttons & links/anchors)
 
 .main-button {
   @extend .text-main;
@@ -46,5 +46,19 @@
 
   @include screenMobile {
     font-size: 0.5em;
+  }
+}
+
+
+// Link/Anchors
+
+
+.paratii-link {
+  color: $color-lipstick;
+  border-bottom: 1px solid $color-lipstick;
+  transition: opacity $anim-time-paint;
+
+  &:hover {
+    opacity: $anim-opacity-value;
   }
 }

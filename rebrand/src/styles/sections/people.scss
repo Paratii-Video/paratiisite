@@ -85,12 +85,21 @@ $zindex-paratii-people-avatar-image: 1;
       }
     }
 
+    &-link {
+      display: block;
+    }
+
     &-image {
       @extend .full-block;
       @extend .pos-a-b;
 
       right: 0;
+      transition: opacity $anim-time-paint;
       z-index: $zindex-paratii-people-avatar-image;
+
+      .paratii-people-item-link:hover & {
+        opacity: $anim-opacity-value;
+      }
     }
 
     //

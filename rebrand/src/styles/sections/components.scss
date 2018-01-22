@@ -61,11 +61,26 @@ $size-paratii-components-asset--1-mobile: 450px;
     &-title {
       @extend .title-small;
 
+      align-items: center;
+      display: flex;
       margin: 0 0 20px;
     }
 
     &-text {
       @extend .text-main;
+    }
+
+
+    .main-social-link {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .main-social-svg {
+      fill: $color-black;
+    
+      .paratii-components-content--color & {
+        fill: $color-white;
+      }
     }
   }
 
