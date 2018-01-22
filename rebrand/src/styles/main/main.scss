@@ -7,8 +7,8 @@
   z-index: $zindex-main-main;
 }
 
-//
 
+//
 
 .main-social {
   &-list {
@@ -37,14 +37,15 @@
 
 }
 
+
 // Section
 
 .main-section {
   color: $color-black;
-  padding: 120px 0 150px;
+  padding-top: 120px;
 
   @include screenMobile {
-    padding: 90px 0 150px;
+    padding-top: 90px;
   }
 
   &--color {
@@ -59,6 +60,10 @@
     padding: 0 40px;
     position: relative;
     width: 100%;
+
+    @include screenMobile {
+      padding: 0 30px;
+    }
   }
 
   //
@@ -76,7 +81,7 @@
     }
   }
 
-  //
+  // Title and subtitle
 
   &-title {
     @extend .text-big;
@@ -152,6 +157,144 @@
     .paratii-button {
       @include screenPhablet {
         margin-top: 20px;
+      }
+    }
+  }
+}
+
+
+// Colorful section
+
+.main-color-section {
+  color: $color-white;
+  overflow: hidden;
+  padding: 50px 0;
+  position: relative;
+
+  &-wrapper {
+    padding-right: 15%;
+    position: relative;
+    z-index: 2;
+  }
+
+  &-button {
+    margin-left: 40px;
+
+    @include screenPhablet {
+      display: table;
+      margin: 20px 0 0;
+    }
+  }
+
+  &-backgrounds {
+    @extend .pos-a-t;
+    @extend .full-block;
+
+    left: 0;
+    z-index: 1;
+  }
+
+  &-bg {
+    height: 100%;
+    position: absolute;
+    transform: skew(-45deg);
+    top: 0;
+    width: 100%;
+
+    &::before {
+      @extend .full-block;
+
+      background: url('../images/bg-pattern.png');
+      content: '';
+    }
+
+    &-0 {
+      background-image: linear-gradient(to bottom, $color-lipstick, $color-lipstick-dark);
+      left: -335px;
+      z-index: 2;
+
+      @include screenDesktop {
+        left: -195px;
+      }
+
+      @include screenTablet {
+        left: -145px;
+      }
+
+      @include screenPhablet {
+        left: -135px;
+      }
+
+      @include screenMobile {
+        left: -90%;
+        width: 200%;
+      }
+    }
+
+    &-1 {
+      @extend .pos-a-t;
+
+      background-image: linear-gradient(to bottom, $color-violet-blue, #3f0e80);
+      height: 90%;
+      right: -50%;
+      z-index: 1;
+
+      @include screenDesktop {
+        right: -200px;
+      }
+
+      @include screenTablet {
+        right: -140px;
+      }
+    }
+
+    &-2 {
+      @extend .pos-a-t;
+
+      background-image: linear-gradient(38deg, #97139d, #931593);
+      height: 90%;
+      right: 160px;
+      z-index: 1;
+
+      @include screenDesktop {
+        right: 40px;
+      }
+
+      @include screenTablet {
+        right: -20px;
+      }
+
+      @include screenPhablet {
+        right: -30px;
+      }
+
+      @include screenMobile {
+        right: -100px;
+      }
+    }
+
+    &-3 {
+      @extend .pos-a-t;
+
+      background-image: linear-gradient(38deg, #b70f75, #bb1576);
+      height: 90%;
+      right: 250px;
+      z-index: 1;
+
+      @include screenDesktop {
+        right: 110px;
+      }
+
+      @include screenTablet {
+        right: 60px;
+      }
+
+      @include screenPhablet {
+        right: 40px;
+      }
+
+      @include screenMobile {
+        right: -75px;
       }
     }
   }

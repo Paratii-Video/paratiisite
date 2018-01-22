@@ -9,9 +9,10 @@ $zindex-paratii-people-avatar-image: 1;
 
 .paratii-people {
   overflow: hidden;
+  padding-bottom: 80px;
 
   @include screenTablet {
-    padding-bottom: 0;
+    padding-bottom: 50px;
   }
 
   &-list {
@@ -21,6 +22,7 @@ $zindex-paratii-people-avatar-image: 1;
     width: calc(100% + 70px);
 
     @include screenTablet {
+      justify-content: space-evenly;
       width: 100%;
     }
   }
@@ -33,19 +35,16 @@ $zindex-paratii-people-avatar-image: 1;
 
     @include screenTablet {
       flex: 0 0 25.5%;
-      margin: 0 0 65px 0;
+      margin: 0 6.5% 65px 0;
     }
 
     @include screenMobile {
-      flex: 0 0 43%;
+      flex: 0 0 40%;
+      margin: 0 5% 65px;
     }
 
     @include screenMobileMax {
       flex: 0 0 100%;
-    }
-
-    @include screenMobile {
-      flex: 0 0 43%;
     }
 
     //
@@ -56,6 +55,18 @@ $zindex-paratii-people-avatar-image: 1;
       overflow: hidden;
       position: relative;
       width: 100%;
+
+      @include screenTablet {
+        width: 65%;
+      }
+
+      @include screenPhablet {
+        width: 80%;
+      }
+
+      @include screenMobile {
+        width: 50%;
+      }
 
       &::before {
         content: '';
@@ -74,12 +85,21 @@ $zindex-paratii-people-avatar-image: 1;
       }
     }
 
+    &-link {
+      display: block;
+    }
+
     &-image {
       @extend .full-block;
       @extend .pos-a-b;
 
       right: 0;
+      transition: opacity $anim-time-paint;
       z-index: $zindex-paratii-people-avatar-image;
+
+      .paratii-people-item-link:hover & {
+        opacity: $anim-opacity-value;
+      }
     }
 
     //

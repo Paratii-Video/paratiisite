@@ -6,6 +6,15 @@ $size-paratii-components-asset--1-mobile: 450px;
 //
 
 .paratii-components {
+  padding-bottom: 150px;
+
+  @include screenPhablet {
+    padding-bottom: 115px;
+  }
+
+  @include screenMobileMax {
+    padding-bottom: 90px;
+  }
 
   &-content {
     padding: 100px 0;
@@ -52,11 +61,26 @@ $size-paratii-components-asset--1-mobile: 450px;
     &-title {
       @extend .title-small;
 
+      align-items: center;
+      display: flex;
       margin: 0 0 20px;
     }
 
     &-text {
       @extend .text-main;
+    }
+
+
+    .main-social-link {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .main-social-svg {
+      fill: $color-black;
+    
+      .paratii-components-content--color & {
+        fill: $color-white;
+      }
     }
   }
 

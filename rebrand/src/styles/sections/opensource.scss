@@ -2,4 +2,57 @@
 
 .paratii-opensource {
   background: $color-gray;
+  padding-bottom: 150px;
+
+  @include screenMobile {
+    padding-bottom: 70px;
+  }
+
+  &-buttons {
+    display: flex;
+    margin: 30px 0 0;
+
+    @include screenPhablet {
+      justify-content: space-between;
+      margin-top: 10%;
+    }
+
+    @include screenMobile {
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+  }
+
+  &-button {
+    @extend .hide-text-indent;
+
+    background: transparent no-repeat 50% 50%;
+    background-size: contain;
+    margin-right: 8%;
+    height: 70px;
+    transition: opacity $anim-time-paint;
+    width: 30%;
+
+    @include screenMobile {
+      margin: 10% 0;
+      width: 100%;
+    }
+
+    &:hover {
+      opacity: $anim-opacity-value;
+    }
+
+    &--ipfs {
+      background-image: url('../images/open-source/logo-ipfs.png');
+    }
+
+    &--ethereum {
+      background-image: url('../images/open-source/logo-ethereum.png');
+    }
+
+    &--livepeer {
+      background-image: url('../images/open-source/logo-livepeer.png');
+    }
+  }
+
 }
