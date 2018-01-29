@@ -1,4 +1,4 @@
-// Nav and Subnav
+// Nav, Subnav and navlang
 
 //
 
@@ -105,10 +105,13 @@ $size-main-nav-mobile-top: 62px;
 
   @include screenMobile {
     box-shadow: initial;
-    opacity: 1;
-    pointer-events: initial;
     position: relative;
     transform: translate3d(0, 0, 0);
+  }
+
+  .openNav & {
+    opacity: 1;
+    pointer-events: initial;
   }
 
   &-list {
@@ -135,6 +138,44 @@ $size-main-nav-mobile-top: 62px;
       line-height: $size-main-title-height-mobile;
       padding-bottom: 0;
       padding-top: 0;
+    }
+  }
+}
+
+//
+
+
+.nav-lang {
+  @extend .pos-a-t;
+
+  display: flex;
+  flex-direction: column;
+  left: 0;
+
+  @include screenMobile {
+    position: relative;
+  }
+
+  &-button {
+    color: $color-white;
+    font-size: 10px;
+
+    @include screenMobile {
+      color: $color-black;
+    }
+
+    &--pt {
+      opacity: .5;
+
+      .navEn & {
+        opacity: 1;
+      }
+    }
+
+    &--en {
+      .navEn & {
+        opacity: .5;
+      }
     }
   }
 }

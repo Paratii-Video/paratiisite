@@ -5,6 +5,10 @@
 .paratii-main {
   position: relative;
   z-index: $zindex-main-main;
+
+  @include screenMobile {
+    overflow: hidden;
+  }
 }
 
 
@@ -13,10 +17,18 @@
 .main-social {
   &-list {
     display: flex;
+
+    @include screenMobile {
+      margin-top: 15px
+    }
   }
 
   &-item {
-    margin-left: 15px
+    margin-left: 15px;
+
+    @include screenMobile {
+      margin-left: 5px
+    }
   }
 
   &-link {
@@ -33,8 +45,12 @@
     &:hover {
       opacity: .5;
     }
-  }
 
+    @include screenMobile {
+      height: $size-main-social-icon-mobile;
+      width: $size-main-social-icon-mobile;
+    }
+  }
 }
 
 

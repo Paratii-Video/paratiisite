@@ -767,10 +767,20 @@ window.PARATII = {
     el: '#paratii-main',
     data: {
       nav: false,
+      langEn: true,
       content: data_content_en
     },
     mounted: function(e) {
       document.body.className = "hide-cover";
+    },
+    watch: {
+      langEn: function (e) {
+        if (this.langEn) {
+          this.content = data_content_en;
+        } else {
+          this.content = data_content_pt;  
+        }
+      }
     },
     methods: {
       backgroundImage: function (image) {
@@ -800,13 +810,8 @@ window.PARATII = {
         this.nav = !this.nav;
       },
       changeLang: function (lang, e) {
-          // if (lang === 'pt') {
-          //     $event.addClass('lang-pt').removeClass('lang-en');
-          //     this.content = data_content_pt;  
-          // } else {
-          //     $event.addClass('lang-en').removeClass('lang-pt');
-          //     this.content = data_content_en;
-          // }
+        this.langEn = (lang === 'en');
+        this.nav = false;
       }
     }
   });
