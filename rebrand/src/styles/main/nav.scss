@@ -1,16 +1,41 @@
 // Nav and Subnav
 
+//
+
+$size-main-nav-mobile-top: 62px;
+
 // nav
 
 .main-nav {
-    
+
   @include screenMobile {
-    display: none;
+    height: calc(100vh - #{$size-main-nav-mobile-top});
+    left: 0;
+    opacity: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    pointer-events: none;
+    padding-bottom: 30px;
+    position: absolute;
+    transition: opacity $anim-time-repaint;
+    top: $size-main-nav-mobile-top;
+    width: 100vw;
   };
+
+  .openNav & {
+    @include screenMobile {
+      opacity: 1;
+      pointer-events: initial;
+      transition: opacity $anim-time-repaint linear .3s;
+    };
+  }
 
   &-list {
     display: flex;
-    // padding: 0 20px 0 0;
+
+    @include screenMobile {
+      flex-direction: column;
+    }
   }
 
   &-item {
@@ -18,6 +43,10 @@
     
     @include screenPhablet {
       margin-left: 15px;
+    };
+    
+    @include screenMobile {
+      margin: 0 30px;
     };
   }
 
@@ -32,7 +61,10 @@
     transition: color $anim-time-repaint;
     
     @include screenMobile {
+      color: $color-black;
       font-size: 16px;
+      height: $size-main-title-height-mobile;
+      line-height: $size-main-title-height-mobile;
     };
 
     .out-top & {
@@ -50,6 +82,7 @@
 .main-subnav {
 
   &-holder {
+    cursor: pointer;
     position: relative;
   }
 
@@ -70,6 +103,14 @@
     pointer-events: initial;
   }
 
+  @include screenMobile {
+    box-shadow: initial;
+    opacity: 1;
+    pointer-events: initial;
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
+
   &-list {
     display: flex;
     flex-direction: column;
@@ -87,9 +128,13 @@
     &:hover {
       color: $color-lipstick;
     }
+
+    @include screenMobile {
+      font-size: 16px;
+      height: $size-main-title-height-mobile;
+      line-height: $size-main-title-height-mobile;
+      padding-bottom: 0;
+      padding-top: 0;
+    }
   }
-
-
-
-
 }

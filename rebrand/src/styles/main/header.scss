@@ -9,6 +9,12 @@
   width: 100%;
   z-index: $zindex-main-header;
 
+  .openNav & {
+    @include screenMobile {
+      height: 100vh;
+    };
+  }
+
   //
 
   &::before {
@@ -20,7 +26,7 @@
     height: $size-main-header-bg;
     left: 0;
     transform: translate3d(0, -100%, 0);
-    transition: transform .5s $ease-smooth;
+    transition: all .5s $ease-smooth;
     width: 100%;
     
     @include screenMobile {
@@ -29,7 +35,14 @@
 
     .out-top & {
       transform: translate3d(0, 0, 0);
-      transition: transform .7s $ease-smooth;
+      transition: all .7s $ease-smooth;
+    }
+
+    .openNav & {
+      @include screenMobile {
+        height: 100vh;
+        transform: translate3d(0, 0, 0);
+      }
     }
   }
 
@@ -44,6 +57,7 @@
 
 
     @include screenMobile {
+      flex-direction: column;
       transform: translate3d(0, $size-main-header-wrapper-padding-top / 2, 0);
     }
 
@@ -88,5 +102,61 @@
     .out-top & {
       fill: $color-black;
     }
+
+    .openNav & {
+      fill: $color-black;
+    }
+  }
+}
+
+//
+
+.button-call-nav {
+  display: none;
+  height: 20px;
+  position: fixed;
+  right: 20px;
+  top: 28px;
+  transition: transform .5s $ease-smooth;
+  width: 20px;
+
+  .out-top & {
+    transform: translate3d(0, -13px, 0);
+  }
+
+  &::before,
+  &::after {
+    background: $color-white;
+    content: '';
+    height: 4px;
+    left: 0;
+    position: absolute;
+    transition: transform .6s $ease-smooth, background $anim-time-repaint;
+    width: 100%;
+
+    .openNav &,
+    .out-top & {
+      background: $color-black;
+    }
+  }
+
+  &::before {
+    top: 3px;
+
+    .openNav & {
+      transform: translate3d(0, 5px, 0) rotate(45deg);
+    }
+  }
+
+  &::after {
+    bottom: 3px;
+
+    .openNav & {
+      transform: translate3d(0, -5px, 0) rotate(-45deg);
+    }
+  }
+
+  @include screenMobile {
+    display: block;
   }
 }

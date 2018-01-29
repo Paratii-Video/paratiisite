@@ -769,6 +769,7 @@ window.PARATII = {
   vueapp = new Vue({
     el: '#paratii-main',
     data: {
+      nav: false,
       content: data_content_en
     },
     mounted: function(e) {
@@ -798,7 +799,10 @@ window.PARATII = {
           return start+end;
         }
       },
-      changeLang: function (lang, event) {
+      openCloseNav: function (e) {
+        this.nav = !this.nav;
+      },
+      changeLang: function (lang, e) {
           // if (lang === 'pt') {
           //     $event.addClass('lang-pt').removeClass('lang-en');
           //     this.content = data_content_pt;  
