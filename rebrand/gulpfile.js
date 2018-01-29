@@ -15,7 +15,6 @@ plumber        = require('gulp-plumber');
 mergequery     = require('gulp-merge-media-queries');
 
 var app_scripts = [
-    'src/data/data.json',
     'src/scripts/vendors/**/*.js',
     'src/scripts/src/**/*.js',
 ];
@@ -116,7 +115,6 @@ gulp.task('default', function () {
     gulpSequence(['scripts', 'styles']);
 
     gulp.watch('src/scripts/**', ['scripts']);
-    gulp.watch('src/data/data.json', ['scripts']);
     gulp.watch('src/styles/**', ['styles']);
 });
 

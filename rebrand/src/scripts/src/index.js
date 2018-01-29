@@ -1,19 +1,17 @@
 ;(function () {
   'use strict';
-
+ 
   var vueapp, data_content_pt, data_content_en;
 
   // Lang
   
-
   data_content_pt = PARATII.lang.pt;
   data_content_en = PARATII.lang.en;
-
 
   vueapp = new Vue({
     el: '#paratii-main',
     data: {
-      content: data_content_pt
+      content: data_content_en
     },
     mounted: function(e) {
       document.body.className = "hide-cover";
@@ -69,4 +67,4 @@
   };
 
   navBackground(window.scrollY > (window.innerHeight / 2));
-}());
+})();
