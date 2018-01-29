@@ -3,13 +3,14 @@
 //
 
 $size-paratii-roadmap-item-date-icon: 36px;
+$size-paratii-roadmap-item-bottom: 30px;
 
 //
 
 .paratii-roadmap {
   background: $color-bluish-purple url('../images/bg-pattern.png');
   overflow: hidden;
-  padding-bottom: 125px;
+  padding-bottom: 80px;
   position: relative;
 
   @include screenTablet {
@@ -46,6 +47,8 @@ $size-paratii-roadmap-item-date-icon: 36px;
   //
 
   &-path {
+    display: none;
+
     background: url('../svgs/paratii-roadmap-path.svg') no-repeat 50% 50%;
     bottom: -347px;
     fill: $color-purple-light;
@@ -96,8 +99,7 @@ $size-paratii-roadmap-item-date-icon: 36px;
     box-shadow: 0px 0px 20px 0px $box-shadow-color;
     color: $color-black;
     flex-basis: 215px;
-    height: 354px;
-    margin-bottom: 240px;
+    margin-bottom: 170px;
     position: relative;
     text-align: center;
 
@@ -128,7 +130,7 @@ $size-paratii-roadmap-item-date-icon: 36px;
 
       background: $color-white;
       content: '';
-      height: 30px;
+      height: $size-paratii-roadmap-item-bottom;
     }
 
     &::before {
@@ -193,7 +195,7 @@ $size-paratii-roadmap-item-date-icon: 36px;
       @extend .text-small;
 
       font-weight: $font-bold;
-      padding: 0 20px;
+      padding: 0 20px ($size-paratii-roadmap-item-bottom + 10px);
 
       @include screenPhablet {
         margin: 0 0 50px;
@@ -206,13 +208,13 @@ $size-paratii-roadmap-item-date-icon: 36px;
 
       color: $color-white;
       font-weight: $font-bold;
-      transform: translate3d(0, 150px, 0);
+      transform: translate3d(0, 120px, 0);
       width: 100%;
       z-index: 3;
 
-      @include screenMobile {
-        transform: translate3d(0, 120px, 0);
-      }
+      // @include screenMobile {
+      //   transform: translate3d(0, 120px, 0);
+      // }
 
       .paratii-roadmap-item--future & {
         color: $color-purply-blue;

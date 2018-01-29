@@ -1,7 +1,7 @@
 // Vars
 // Animation
 
-$anim-time-paint: .3s;
+$anim-time-repaint: .3s;
 
 $ease-smooth: cubic-bezier(0.4, 0.2, 0, 1);
 
@@ -24,6 +24,7 @@ $box-shadow-color: rgba(23, 8, 41, .1);
 
 // Sizes
 
+$size-main-subnav-width: 200px;
 $size-main-header-bg: 90px;
 $size-main-header-bg-mobile: 57px;
 $size-main-header-wrapper-padding-top: 30px;
@@ -35,11 +36,14 @@ $size-main-section-content-padding: 250px;
 $size-main-section-header-margin-bottom: 70px;
 
 $size-main-social-icon: 35px;
+$size-main-social-icon-mobile: 25px;
 $size-main-title-height: 83px;
 $size-main-wrapper-width-max: 1200px;
 
 // z-index
 
+$zindex-main-subnav: 25;
+$zindex-main-cover: 20;
 $zindex-main-header: 15;
 $zindex-main-main: 10;
 

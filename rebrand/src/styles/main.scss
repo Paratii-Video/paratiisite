@@ -6,15 +6,17 @@
 @import 'components/buttons.scss';
 
 @import 'main/main.scss';
+@import 'main/nav.scss';
 @import 'main/header.scss';
 @import 'main/footer.scss';
 
-@import 'sections/about.scss';
+@import 'sections/cover.scss';
+@import 'sections/header.scss';
 @import 'sections/audiences.scss';
 @import 'sections/features.scss';
 @import 'sections/components.scss';
 @import 'sections/roadmap.scss';
 @import 'sections/opensource.scss';
-@import 'sections/people.scss';
-@import 'sections/partners.scss';
+@import 'sections/team.scss';
+@import 'sections/onthenews.scss';
 @import 'sections/videos.scss';

@@ -33,6 +33,7 @@
     border-radius: 4px;
     flex: 0 0 31%;
     overflow: hidden;
+    position: relative;
 
     @include screenPhablet {
       flex: initial;
@@ -69,13 +70,8 @@
     //
 
     &-content {
-      min-height: 370px;
-      padding: 0 32px;
+      padding: 0 32px 150px;
       text-align: center;
-
-      @include screenTablet {
-        min-height: 420px;
-      }
 
       @include screenPhablet {
         min-height: initial;
@@ -105,10 +101,12 @@
     //
 
     &-link {
+      @extend .pos-a-b;
       @extend .paratii-button;
       @extend .text-main;
 
       display: block;
+      left: 0;
       padding: 25px 25px 28px;
       width: 100%;
     }

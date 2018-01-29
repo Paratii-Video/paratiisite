@@ -9,6 +9,12 @@
   width: 100%;
   z-index: $zindex-main-header;
 
+  .openNav & {
+    @include screenMobile {
+      height: 100vh;
+    };
+  }
+
   //
 
   &::before {
@@ -20,7 +26,7 @@
     height: $size-main-header-bg;
     left: 0;
     transform: translate3d(0, -100%, 0);
-    transition: transform .5s $ease-smooth;
+    transition: all .5s $ease-smooth;
     width: 100%;
     
     @include screenMobile {
@@ -29,7 +35,14 @@
 
     .out-top & {
       transform: translate3d(0, 0, 0);
-      transition: transform .7s $ease-smooth;
+      transition: all .7s $ease-smooth;
+    }
+
+    .openNav & {
+      @include screenMobile {
+        height: 100vh;
+        transform: translate3d(0, 0, 0);
+      }
     }
   }
 
@@ -44,6 +57,7 @@
 
 
     @include screenMobile {
+      flex-direction: column;
       transform: translate3d(0, $size-main-header-wrapper-padding-top / 2, 0);
     }
 
@@ -79,7 +93,7 @@
     @extend .full-block;
 
     fill: $color-white;
-    transition: fill $anim-time-paint;
+    transition: fill $anim-time-repaint;
 
     .main-title-link:hover & {
       fill: $color-purple-light;
@@ -88,50 +102,61 @@
     .out-top & {
       fill: $color-black;
     }
+
+    .openNav & {
+      fill: $color-black;
+    }
   }
 }
 
+//
 
-// Nav
+.button-call-nav {
+  display: none;
+  height: 20px;
+  position: fixed;
+  right: 20px;
+  top: 28px;
+  transition: transform .5s $ease-smooth;
+  width: 20px;
 
-.main-nav {
-    
-  @include screenMobile {
-    display: none;
-  };
-
-  &-list {
-    display: flex;
-    // padding: 0 20px 0 0;
+  .out-top & {
+    transform: translate3d(0, -13px, 0);
   }
 
-  &-item {
-    margin-left: 30px;
-    
-    @include screenPhablet {
-      margin-left: 15px;
-    };
-  }
+  &::before,
+  &::after {
+    background: $color-white;
+    content: '';
+    height: 4px;
+    left: 0;
+    position: absolute;
+    transition: transform .6s $ease-smooth, background $anim-time-repaint;
+    width: 100%;
 
-  &-link {
-    color: white;
-    font-size: 16px;
-    font-weight: $font-regular;
-    height: $size-main-title-height;
-    line-height: $size-main-title-height;
-    letter-spacing: 0.4px;
-    transition: color $anim-time-paint;
-    
-    @include screenMobile {
-      font-size: 16px;
-    };
-
+    .openNav &,
     .out-top & {
-      color: $color-black;
+      background: $color-black;
     }
+  }
 
-    &:hover {
-      color: $color-purple-light;
+  &::before {
+    top: 3px;
+
+    .openNav & {
+      transform: translate3d(0, 5px, 0) rotate(45deg);
     }
+  }
+
+  &::after {
+    bottom: 3px;
+
+    .openNav & {
+      transform: translate3d(0, -5px, 0) rotate(-45deg);
+    }
+  }
+
+  @include screenMobile {
+    display: block;
   }
 }
