@@ -35,7 +35,7 @@ window.PARATII = {
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>"
           },
           {
-            "title": "“Community",
+            "title": "Community",
             "text": "users are the heart of the network, curating content and providing essential resources. In exchange, they earn tokens, which can come in seamlessly, for example, while one watches a video and streams pieces of it to nearby peers.",
             "button": "Join our bounty program",
             "buttonHref": "http://paratii.video/",
