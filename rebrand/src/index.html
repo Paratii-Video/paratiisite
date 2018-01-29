@@ -235,8 +235,8 @@
             <div class="main-section-wrapper paratii-components-content-wrapper">
               <div class="paratii-components-entry">
                 <h4 class="paratii-components-entry-title">
-                    <a class="main-social-link" href="{{item.href}}" target="_blank">
-                      <svg class="main-social-svg" v-html="item.icon"></svg>
+                    <a class="main-social-link" v-bind:href="item.href" target="_blank">
+                      <svg class="main-social-svg"><use xlink:href="#icon-social-github"></use></svg>
                     </a>{{item.title}}</h4>
                 <p class="paratii-components-entry-text" v-html="item.text"></p>
               </div>

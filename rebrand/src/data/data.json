@@ -464,7 +464,6 @@ window.PARATII = {
         "list": [
           {
             "class": "",
-            "icon": "<use xlink:href=\"#icon-social-github\"></use>",
             "title": "O Protocolo",
             "text": "Coordinates creators, publishers and users to maintain a decentralised exchange of videos and attention, that communicates receipts off-chain and settles compensations on Ethereum contracts. It also bundles access to all services needed to distribute media and metadata serverlessly and trustlessly",
             "image": "./svgs/paratii-the-protocol.svg",
@@ -472,7 +471,6 @@ window.PARATII = {
           },
           {
             "class": "paratii-components-content--color",
-            "icon": "<use xlink:href=\"#icon-social-github\"></use>",
             "title": "O token PTI",
             "text": "Token de “stake” nativo do Paratii curated registry, representa o direito de pertencer a uma listagem de conteúdo e curá-la, além de poder criar outras. O PTI também pode ser usado como meio de pagamento para certos serviços, vídeos pay-per-view e anúncios. O token pode ser minerado: ganha-se PTI curando conteúdo, redistribuindo vídeos automaticamente ao assisti-los no browser, ou baixando e rodando um programa que chamamos de nó de mídia",
             "image": "./svgs/paratii-the-token.svg",
@@ -480,7 +478,6 @@ window.PARATII = {
           },
           {
             "class": "",
-            "icon": "<use xlink:href=\"#icon-social-github\"></use>",
             "title": "The Player",
             "text": "<strong>Um player de mídia embedável</strong>, modular e extensível, para se customizar como quiser. Aplique-o na sua página, canal de mídia ou site de notícias com uma linha de código. Compartilhe-o em redes sociais quando encontrar com um no Twitter, no Medium ou no Telegram. Com a paratii-lib, desenvolvedores também podem construir facilmente widgets e plugins de todo tipo para modificar o frontend, além interagir com módulos específicos do protocolo",
             "image": "./svgs/paratii-the-player.svg",
