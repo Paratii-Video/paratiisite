@@ -1,5 +1,60 @@
+;(function () {
+  'use strict';
 
-(function(){
+  var vueapp, data_content_pt, data_content_en;
+
+  // Lang
+  
+
+  data_content_pt = PARATII.lang.pt;
+  data_content_en = PARATII.lang.en;
+
+
+  vueapp = new Vue({
+    el: '#paratii-main',
+    data: {
+      content: data_content_pt
+    },
+    mounted: function(e) {
+      document.body.className = "hide-cover";
+    },
+    methods: {
+      backgroundImage: function (image) {
+        return {
+          'background-image': 'url(' + image + ')'
+        }
+      },
+      isRoadmapBetween: function (start, end) {
+        return moment().isBetween(start, end);
+      },
+      isRoadmapPast: function (d) {
+        return moment().isBefore(d);
+      },
+      roadmapClass: function (klass, item) {
+        var temp = String;
+        if (!this.isRoadmapBetween(item.dateStart, item.dateEnd)) {
+          temp = (this.isRoadmapPast(item.dataEnd)) ? 'past' : 'future';
+          return klass + temp;
+        }
+      },
+      setLoopClass: function (start, end) {
+        if (String(start) && String(end)) {
+          return start+end;
+        }
+      },
+      changeLang: function (lang, event) {
+          // if (lang === 'pt') {
+          //     $event.addClass('lang-pt').removeClass('lang-en');
+          //     this.content = data_content_pt;  
+          // } else {
+          //     $event.addClass('lang-en').removeClass('lang-pt');
+          //     this.content = data_content_en;
+          // }
+      }
+    }
+  });
+
+  // scroll
 
   function navBackground (setColor) {
     if (setColor) {
@@ -14,4 +69,4 @@
   };
 
   navBackground(window.scrollY > (window.innerHeight / 2));
-})()
+}());

@@ -10,7 +10,7 @@
 
   &-buttons {
     display: flex;
-    margin: 30px 0 0;
+    margin: 80px 0 0;
 
     @include screenPhablet {
       justify-content: space-between;
@@ -41,18 +41,5 @@
     &:hover {
       opacity: $anim-opacity-value;
     }
-
-    &--ipfs {
-      background-image: url('../images/open-source/logo-ipfs.png');
-    }
-
-    &--ethereum {
-      background-image: url('../images/open-source/logo-ethereum.png');
-    }
-
-    &--livepeer {
-      background-image: url('../images/open-source/logo-livepeer.png');
-    }
   }
-
 }

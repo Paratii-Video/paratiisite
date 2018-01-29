@@ -20,6 +20,7 @@
     <link rel="manifest" href="manifest.json">
   </head>
   <body class="">
+    <div class="paratii-cover"></div>
     <svg style="display:none;">
       <symbol id="paratii-logo" viewBox="0 0 238.4 87.3">
         <path d="M107.3 37.6c0 6.8-4.9 12-10.9 12-3 0-5.3-1-6.8-2.8V58h-6.8V26.2h6.8v2.1c1.5-1.7 3.7-2.8 6.8-2.8 6 .1 10.9 5.3 10.9 12.1zm-6.8 0c0-3.4-2.3-5.6-5.4-5.6-3.1 0-5.4 2.1-5.4 5.6 0 3.4 2.3 5.6 5.4 5.6 3.1 0 5.4-2.2 5.4-5.6zM133.4 26.2V49h-6.8v-2.1c-1.5 1.7-3.7 2.8-6.8 2.8-6 0-10.9-5.2-10.9-12s4.9-12 10.9-12c3 0 5.3 1 6.8 2.8v-2.1h6.8zm-6.9 11.4c0-3.4-2.3-5.6-5.4-5.6-3.1 0-5.4 2.1-5.4 5.6 0 3.4 2.3 5.6 5.4 5.6 3.2 0 5.4-2.2 5.4-5.6zM151 25.8v7.7c-2.8-.5-6.8.7-6.8 5.2V49h-6.8V26.2h6.8v4.1c.9-3.1 3.9-4.5 6.8-4.5zM176.7 26.2V49h-6.8v-2.1c-1.5 1.7-3.7 2.8-6.8 2.8-6 0-10.9-5.2-10.9-12s4.9-12 10.9-12c3 0 5.3 1 6.8 2.8v-2.1h6.8zm-6.9 11.4c0-3.4-2.3-5.6-5.4-5.6-3.1 0-5.4 2.1-5.4 5.6 0 3.4 2.3 5.6 5.4 5.6 3.2 0 5.4-2.2 5.4-5.6zM190 32.8v8.1c0 2 1.7 2.1 4.7 2V49c-8.9.9-11.5-1.8-11.5-8.1v-8.1h-3.6v-6.6h3.6v-4.3l6.8-2v6.4h8.1v6.6H190z"/>
@@ -111,7 +112,7 @@
         <path d="M5.3,52c2.7-2.3,5.3-4.6,8-7c-0.6-0.6-1.2-1.3-1.7-1.9C8.7,40,6.2,36.6,4.4,32.7c-1.7-3.8-2.6-7.8-2.2-11.9 c0.3-3.9,1.8-7.3,4.2-10.3c3.1-3.8,7.1-6.1,11.7-7.5c2.5-0.8,5.1-1.2,7.7-1.4c1.9-0.1,3.8-0.1,5.7,0.1c2.8,0.2,5.5,0.8,8.1,1.5 C42.5,3.9,45.3,5,48,6.2c0.1,0.1,0.3,0.2,0.5,0.3c-1.6,2.4-3.3,4.9-4.9,7.3c0.2,0.1,0.3,0.2,0.5,0.3c2.6,1.6,4.9,3.5,7,5.7 c2.7,2.9,4.9,6.2,6,10c1.8,6.1,0.8,11.8-2.7,17.1c-2.7,4-6.3,6.8-10.6,8.8c-2.9,1.3-6,2.2-9.2,2.6c-3,0.4-6.1,0.4-9.1,0.1 c-7-0.7-13.5-3-19.7-6.1C5.6,52.2,5.5,52.1,5.3,52z M16.2,49.8c1,0.3,1.8,0.6,2.6,0.9c2.4,0.7,4.8,1.2,7.3,1.4 c11.6,1.2,18.9-2.8,22.2-6.4c2.9-3.5,4.1-7.5,3.7-12c-0.3-3.4-1.6-6.5-4-9c-4.5-4.9-10.2-6.7-16.7-5.1c-7.7,1.8-13.1,9-12.5,17 c0.2,2.9,1.2,5.6,2.8,8c0.1,0.2,0.2,0.4,0.4,0.6C20.4,46.9,18.5,48.5,16.2,49.8z"/>
       </symbol>
     </svg>
-    <div class="main-wrapper">
+    <div class="main-wrapper" id="paratii-main">
       <header class="main-header">
         <div class="main-section-wrapper main-header-wrapper">
           <h1 class="main-title"><a class="main-title-link" href="/"><svg class="main-title-svg"><use xlink:href="#paratii-logo"></use></svg></a></h1>
@@ -129,66 +130,44 @@
       </header>
 
       <main id="main" class="paratii-main" itemscope itemtype="http://schema.org/?">
-        <section class="paratii-about">
-          <span class="paratii-about-bg"></span>
+        <section class="paratii-header">
+          <span class="paratii-header-bg"></span>
           <div class="main-section-wrapper">
-            <span class="paratii-about-asset"></span>
-            <div class="paratii-about-content">
-              <h2 class="paratii-about-title">A new era for your videos</h2>
-              <p class="paratii-about-text">Share stories without middlemen imposing taxes. Monetize with ads, subscriptions, or the way you wish. Engage audiences by letting them earn while watching.</p>
+            <span class="paratii-header-asset" v-bind:style="backgroundImage(content.header.image)"></span>
+            <div class="paratii-header-content">
+              <h2 class="paratii-header-title">{{content.header.title}}</h2>
+              <p class="paratii-header-text">{{content.header.text}}</p>
             </div>
-            <div class="paratii-about-buttons">
-              <a class="paratii-about-button paratii-button" href="">request publisher demo</a>
-              <a class="paratii-about-button paratii-button-border" href="">subscribe</a>
+            <div class="paratii-header-buttons">
+              <a class="paratii-header-button paratii-button"  v-bind:href="content.header.buttonAhref">{{content.header.buttonA}}</a>
+              <a class="paratii-header-button paratii-button-border"  v-bind:href="content.header.buttonBhref">{{content.header.buttonB}}</a>
             </div>
-            <p class="paratii-about-small"><strong>Beta version to be released soon.</strong><br> Subscribe now and don't miss out.</p>
+            <p class="paratii-header-small" v-html="content.header.small"></p>
           </div>
         </section>
 
         <section class="main-section paratii-audiences">
           <div class="main-section-wrapper">
             <header class="main-section-header">
-              <h2 class="main-section-title">Audiences</h2>
-              <h3 class="main-section-subtitle">Who needs a decentralised video exchange?</h3>
+              <h2 class="main-section-title">{{content.audiences.title}}</h2>
+              <h3 class="main-section-subtitle">{{content.audiences.subtitle}}</h3>
             </header>
             <div class="main-section-content">
             </div>
             <div class="main-section-content main-section-content--no-padding">
               <div class="paratii-audiences-list">
-                <div class="paratii-audiences-item">
-                  <div class="paratii-audiences-item-icon">
-                    <svg class="paratii-audiences-item-svg"><use xlink:href="#icon-audiences-creators"></use></svg>
-                  </div>
+                <div class="paratii-audiences-item" v-for="item in content.audiences.list">
+                  <div class="paratii-audiences-item-icon" v-html="item.icon"></div>
                   <div class="paratii-audiences-item-content">
-                    <h4 class="paratii-audiences-item-title"><strong>Creators</strong></h4>
-                    <p class="paratii-audiences-item-text">Upload original creations or mirror existing content on Paratii, and experiment monetisation without middlemen. No cuts on your revenue. No blocking or manipulating your audience</p>
+                    <h4 class="paratii-audiences-item-title"><strong>{{item.title}}</strong></h4>
+                    <p class="paratii-audiences-item-text">{{item.text}}</p>
                   </div>
-                  <a class="paratii-audiences-item-link" href="">Subscribe to be an uploader</a>
-                </div>
-                <div class="paratii-audiences-item">
-                  <div class="paratii-audiences-item-icon">
-                    <svg class="paratii-audiences-item-svg"><use xlink:href="#icon-audiences-publishers"></use></svg>
-                  </div>
-                  <div class="paratii-audiences-item-content">
-                    <h4 class="paratii-audiences-item-title"><strong>Publishers</strong></h4>
-                    <p class="paratii-audiences-item-text">Embed the player in your page with a line of code to access a self-scalable network whose services get cheaper as your audience grows. Want to go further? Download a software package to “profit off” the system by running a special media node.</p>
-                  </div>
-                  <a class="paratii-audiences-item-link" href="">Experiment and earn tokens</a>
-                </div>
-                <div class="paratii-audiences-item">
-                  <div class="paratii-audiences-item-icon">
-                    <svg class="paratii-audiences-item-svg"><use xlink:href="#icon-audiences-community"></use></svg>
-                  </div>
-                  <div class="paratii-audiences-item-content">
-                    <h4 class="paratii-audiences-item-title"><strong>Community</strong></h4>
-                    <p class="paratii-audiences-item-text">users are the heart of the network, curating content and providing essential resources. In exchange, they earn tokens, which can come in seamlessly, for example, while one watches a video and streams pieces of it to nearby peers.</p>
-                  </div>
-                  <a class="paratii-audiences-item-link" href="">Join our bounty program</a>
+                  <a class="paratii-audiences-item-link" v-bind:href="item.buttonHref">{{item.button}}</a>
                 </div>
               </div>
               <div class="main-section-call">
-                <p class="main-section-content-text"><strong class="main-section-content-title">Media buyers & investors:</strong><br> PTI tokens will be publicly distributed in a soon-to-be-announced event.</p>
-                <a class="paratii-button paratii-button--red" href="">Request early access</a>
+                <p class="main-section-content-text" v-html="content.audiences.call.text"></p>
+                <a class="paratii-button paratii-button--red" v-bind:href="content.audiences.call.buttonHref">{{content.audiences.call.button}}</a>
               </div>
             </div>
           </div>
@@ -197,88 +176,53 @@
         <section class="main-section paratii-features">
           <div class="main-section-wrapper">
             <header class="main-section-header">
-              <h2 class="main-section-title">Features</h2>
-              <h3 class="main-section-subtitle">A video player like any other. Except for what’s behind it.</h3>
+              <h2 class="main-section-title">{{content.features.title}}</h2>
+              <h3 class="main-section-subtitle">{{content.features.subtitle}}</h3>
             </header>
             <div class="paratii-features-wrapper">
-              <div class="paratii-features-asset"></div>
+              <div class="paratii-features-asset" v-bind:style="backgroundImage(content.features.image)"></div>
               <ul class="paratii-features-list">
-                <li class="paratii-features-item paratii-features-item--0">
-                  <svg class="paratii-features-item-svg"><use xlink:href="#icon-user"></use></svg>
-                  <strong>Videos can be free or have different monetisation models.</strong> They all look similar, but some prompt users to validate micropayments</li>
-                <li class="paratii-features-item paratii-features-item--1">
-                  <svg class="paratii-features-item-svg"><use xlink:href="#icon-gear"></use></svg>
-                  <strong>Adaptive bitrate streaming: at every point, users get the maximum quality for their device and connection.</strong> The file processing magic is done by a distributed network of transcoders</li>
-                <li class="paratii-features-item paratii-features-item--2">
-                  <svg class="paratii-features-item-svg"><use xlink:href="#icon-user"></use></svg>
-                  <strong>Users can earn tokens whenever they’re active.</strong> These are stored in an in-player wallet, and “excess” funds (think a content creator who’s getting a lot of audience) are transferred to a separate account</li>
-                <li class="paratii-features-item paratii-features-item--3">
-                  <svg class="paratii-features-item-svg"><use xlink:href="#icon-user"></use></svg>
-                  <strong>Casual users may watch for hours and still never notice this is not an average player.</strong> Those who sign up can claim tokens earned and use them to curate, acquire or promote videos</li>
-                <li class="paratii-features-item paratii-features-item--4">
-                  <svg class="paratii-features-item-svg"><use xlink:href="#icon-user"></use></svg>
-                  <strong>Multiple platforms supported.</strong> Sharing is incentivised if creators choose to divide a portion of their earnings with ‘promoters</li>
-                <li class="paratii-features-item paratii-features-item--5">
-                  <svg class="paratii-features-item-svg"><use xlink:href="#icon-like"></use></svg>
-                  <strong>Curation is left to the audience</strong>, who’s rewarded for spotting inappropriate content early on or pointing to copyright-infringing material</li>
+                <li class="paratii-features-item" v-for="(item, index) in content.features.list" v-bind:class="setLoopClass('paratii-features-item--', index)" v-bind:index="index" v-bind:key="item.id">
+                  <svg class="paratii-features-item-svg" v-html="item.icon"></svg>
+                  <p v-html="item.text"></p>
+                </li>
               </ul>
+            </div>
+          </div>
+          <div class="main-color-section main-section--color">
+            <span class="main-color-section-backgrounds">
+              <span class="main-color-section-bg main-color-section-bg-0"></span>
+              <span class="main-color-section-bg main-color-section-bg-1"></span>
+              <span class="main-color-section-bg main-color-section-bg-2"></span>
+              <span class="main-color-section-bg main-color-section-bg-3"></span>
+            </span>
+            <div class="main-section-wrapper main-color-section-wrapper">
+              <p class="main-section-content-text">
+                <strong class="main-section-content-title">
+                  {{content.features.call.text}}
+                </strong> <a class="main-color-section-button paratii-button-border" v-bind:href="content.features.call.href">{{content.features.call.button}}</a>
+              </p>
+            </div>
           </div>
         </section>
-
-        <div class="main-color-section main-section--color">
-          <span class="main-color-section-backgrounds">
-            <span class="main-color-section-bg main-color-section-bg-0"></span>
-            <span class="main-color-section-bg main-color-section-bg-1"></span>
-            <span class="main-color-section-bg main-color-section-bg-2"></span>
-            <span class="main-color-section-bg main-color-section-bg-3"></span>
-          </span>
-          <div class="main-section-wrapper main-color-section-wrapper">
-            <p class="main-section-content-text"><strong class="main-section-content-title">Experiment version 0.0.1 of the player!</strong> <a class="main-color-section-button paratii-button-border" href="">Try demo</a></p>
-                
-          </div>
-        </div>
 
         <section class="main-section paratii-components">
           <div class="main-section-wrapper">
             <header class="main-section-header">
-              <h2 class="main-section-title">Components</h2>
-              <h3 class="main-section-subtitle">What are we talking about?</h3>
+              <h2 class="main-section-title">{{content.components.title}}</h2>
+              <h3 class="main-section-subtitle">{{content.components.subtitle}}</h3>
             </header>
           </div>
-          <div class="paratii-components-content">
+          <div class="paratii-components-content" v-for="(item, index) in content.components.list" v-bind:class="item.class">
             <div class="main-section-wrapper paratii-components-content-wrapper">
               <div class="paratii-components-entry">
                 <h4 class="paratii-components-entry-title">
-                    <a class="main-social-link" href="https://github.com/Paratii-Video/paratii-protocol" target="_blank">
-                      <svg class="main-social-svg"><use xlink:href="#icon-social-github"></use></svg>
-                    </a>The Protocol</h4>
-                <p class="paratii-components-entry-text">Coordinates creators, publishers and users to maintain a decentralised exchange of videos and attention, that communicates receipts off-chain and settles compensations on Ethereum contracts. It also bundles access to all services needed to distribute media and metadata serverlessly and trustlessly.</p>
+                    <a class="main-social-link" href="{{item.href}}" target="_blank">
+                      <svg class="main-social-svg" v-html="item.icon"></svg>
+                    </a>{{item.title}}</h4>
+                <p class="paratii-components-entry-text" v-html="item.text"></p>
               </div>
-              <div class="paratii-components-asset paratii-components-asset--0"></div>
-            </div>
-          </div>
-          <div class="paratii-components-content paratii-components-content--color">
-            <div class="main-section-wrapper paratii-components-content-wrapper">
-              <div class="paratii-components-entry">
-                <h4 class="paratii-components-entry-title">
-                    <a class="main-social-link" href="https://github.com/Paratii-Video/paratii-contracts" target="_blank">
-                      <svg class="main-social-svg"><use xlink:href="#icon-social-github"></use></svg>
-                    </a>The PTI token</h4>
-                <p class="paratii-components-entry-text">Native staking token to the Paratii curated registry, it represents the right to belong to and judicate over a content list, and that of creating your own. The PTI can also be used as a means of payment for certain services, paid videos and content promotion. It is mintable: earn tokens by curating content, seeding videos while watching, or running a media node.</p>
-              </div>
-              <div class="paratii-components-asset paratii-components-asset--1"></div>
-            </div>
-          </div>
-          <div class="paratii-components-content">
-            <div class="main-section-wrapper paratii-components-content-wrapper">
-              <div class="paratii-components-entry">
-                <h4 class="paratii-components-entry-title">
-                    <a class="main-social-link" href="https://github.com/Paratii-Video/paratii-mediaplayer" target="_blank">
-                      <svg class="main-social-svg"><use xlink:href="#icon-social-github"></use></svg>
-                    </a>The player</h4>
-                <p class="paratii-components-entry-text">An embeddable, modular and extensible player to customise as you wish. Apply it on your page, media channel or news outlet with a single line of code. Share it on social media when you spot one on Twitter, Medium or Telegram. With paratii-lib, developers can also build widgets and plugins to modify frontend and interact with specific modules of the protocol.</p>
-              </div>
-              <div class="paratii-components-asset paratii-components-asset--2"></div>
+              <div class="paratii-components-asset" v-bind:class="setLoopClass('paratii-components-asset--',index)" v-bind:style="backgroundImage(item.image)"></div>
             </div>
           </div>
         </section>
@@ -286,62 +230,17 @@
         <section class="main-section main-section--color paratii-roadmap">
           <div class="main-section-wrapper">
             <header class="main-section-header main-section-header--no-margin">
-              <h2 class="main-section-title">Roadmap</h2>
-              <h3 class="main-section-subtitle">A short recap and next milestones</h3>
+              <h2 class="main-section-title">{{content.roadmap.title}}</h2>
+              <h3 class="main-section-subtitle">{{content.roadmap.subtitle}}</h3>
             </header>
             <div class="main-section-content main-section-content--with-margin">
-              <p class="main-section-content-text">Paratii has been under design and development for little over an year. Our vision is to provide an open market for audiovisual stories where any agent, independently of its size and bank account, has an equal chance to be heard or seen and profit off the network.</p>
+              <p class="main-section-content-text">{{content.roadmap.text}}</p>
             </div>
             <ol class="paratii-roadmap-list">
-              <li class="paratii-roadmap-item paratii-roadmap-item--past">
-                <div class="paratii-roadmap-item-icon paratii-roadmap-item-icon--0"></div>
-                <p class="paratii-roadmap-item-text">Team formation</p>
-                <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>Nov 2016</p>
-              </li>
-              <li class="paratii-roadmap-item paratii-roadmap-item--past"> 
-                <div class="paratii-roadmap-item-icon paratii-roadmap-item-icon--1"></div>
-                <p class="paratii-roadmap-item-text">Publish blueprint </p>
-                <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>Jun 2017</p>
-              </li>
-              <li class="paratii-roadmap-item paratii-roadmap-item--past"> 
-                <div class="paratii-roadmap-item-icon paratii-roadmap-item-icon--2"></div>
-                <p class="paratii-roadmap-item-text">Paratii foundation incorporated in Estonia</p>
-                <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>Oct 2017</p>
-              </li>
-              <li class="paratii-roadmap-item paratii-roadmap-item--past"> 
-                <div class="paratii-roadmap-item-icon paratii-roadmap-item-icon--3"></div>
-                <p class="paratii-roadmap-item-text paratii-roadmap-item-text--present">Release Paratii player v0.0.1</p>
-                <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>Dez 2017</p>
-              </li>
-              <li class="paratii-roadmap-item">
-                <div class="paratii-roadmap-item-icon paratii-roadmap-item-icon--4"></div>
-                <p class="paratii-roadmap-item-text">v0.0.2: Paratii-lib and plugin-oriented player refactoring</p>
-                <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>Jan 2018</p>
-              </li>
-              <li class="paratii-roadmap-item paratii-roadmap-item--future"> 
-                <div class="paratii-roadmap-item-icon paratii-roadmap-item-icon--5"></div>
-                <p class="paratii-roadmap-item-text">Web-portal for uploading and browsing (whitelisted creators)</p>
-                <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>Feb 2018</p>
-              </li>
-              <li class="paratii-roadmap-item paratii-roadmap-item--future"> 
-                <div class="paratii-roadmap-item-icon paratii-roadmap-item-icon--6"></div>
-                <p class="paratii-roadmap-item-text">Release bluepaper + protocol completion</p>
-                <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>Mar 2018</p>
-              </li>
-              <li class="paratii-roadmap-item paratii-roadmap-item--future"> 
-                <div class="paratii-roadmap-item-icon paratii-roadmap-item-icon--7"></div>
-                <p class="paratii-roadmap-item-text">Token distribution event (tokens functional on mainnet)</p>
-                <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>Apr-May 2018</p>
-              </li>
-              <li class="paratii-roadmap-item paratii-roadmap-item--future"> 
-                <div class="paratii-roadmap-item-icon paratii-roadmap-item-icon--8"></div>
-                <p class="paratii-roadmap-item-text">Open access to uploading + pilot publishers program</p>
-                <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>Q2 2018</p>
-              </li>
-              <li class="paratii-roadmap-item paratii-roadmap-item--future"> 
-                <div class="paratii-roadmap-item-icon paratii-roadmap-item-icon--9"></div>
-                <p class="paratii-roadmap-item-text">Migration to mainnet for remaining components</p>
-                <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>Q3 2018</p>
+              <li class="paratii-roadmap-item" v-for="(item, index) in content.roadmap.list" v-bind:class="roadmapClass('paratii-roadmap-item--', item)">
+                <div class="paratii-roadmap-item-icon" v-bind:class="setLoopClass('paratii-roadmap-item-icon--', index)"></div>
+                <p class="paratii-roadmap-item-text">{{item.text}}</p>
+                <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>{{item.date}}</p>
               </li>
             </ol>
             <span class="paratii-roadmap-path"></span>
@@ -351,178 +250,47 @@
         <section class="main-section paratii-opensource">
           <div class="main-section-wrapper">
             <header class="main-section-header main-section-header--no-margin">
-              <h2 class="main-section-title">Open Source</h2>
-              <h3 class="main-section-subtitle">Building with world-class open source technology</h3>
+              <h2 class="main-section-title">{{content.opensource.title}}</h2>
+              <h3 class="main-section-subtitle">{{content.opensource.subtitle}}</h3>
             </header>
             <div class="main-section-content">
-              <p class="main-section-content-text">We contribute to, build upon, modify implementations and develop from multiple open source base-layer projects. Are you willing to contribute directly to one of them? We’re willing to support you. <a class="paratii-link" href="mailto:we@paratii.video">we@paratii.video</a></p>
+              <p class="main-section-content-text" v-html="content.opensource.text"></p>
 
             <div class="paratii-opensource-buttons">
-              <a class="paratii-opensource-button paratii-opensource-button--ipfs" href="https://ipfs.io/" target="_blank">IPFS</a>
-              <a class="paratii-opensource-button paratii-opensource-button--ethereum" href="https://www.ethereum.org/" target="_blank">Ethereum</a>
-              <a class="paratii-opensource-button paratii-opensource-button--livepeer" href="https://livepeer.org/" target="_blank">Livepeer</a>
+              <a class="paratii-opensource-button" v-bind:style="backgroundImage(item.image)" v-for="(item, index) in content.opensource.list" v-bind:href="item.href" target="_blank" v-for="(item, item) in content.opensource.list" v-bind:class="setLoopClass('paratii-opensource-button--', item.class)">{{item.title}}</a>
             </div>
             </div>
           </div>
         </section>
 
-        <section class="main-section paratii-people">
+        <section class="main-section paratii-team">
           <div class="main-section-wrapper">
             <header class="main-section-header main-section-header--no-margin">
-              <h2 class="main-section-title">People</h2>
-              <h3 class="main-section-subtitle">Our team</h3>
+              <h2 class="main-section-title">{{content.team.title}}</h2>
+              <h3 class="main-section-subtitle">{{content.team.subtitle}}</h3>
             </header>
             <div class="main-section-content main-section-content--with-margin">
-              <p class="main-section-content-text">We contribute to, build upon, modify implementations and develop from multiple open source base-layer projects. Are you willing to contribute directly to one of them? We’re willing to support you. <a href="mailto:we@paratii.video">we@paratii.video</a></p>
+              <p class="main-section-content-text" v-html="content.team.text"></p>
             </div>
             <div class="main-section-content main-section-content--no-padding">
-              <div class="paratii-people-list">
-                <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <a class="paratii-people-item-link" href="https://medium.com/@felipegachopereira">
-                    <div class="paratii-people-item-avatar">
-                      <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Felipe Sant Ana"  />
+              <div class="paratii-team-list">
+
+                <article class="paratii-team-item" itemscope itemtype="http://schema.org/Person" v-for="(item, index) in content.team.list">
+                  <a class="paratii-team-item-link" v-bind:href="item.url" target="_blank">
+                    <div class="paratii-team-item-avatar">
+                      <img class="paratii-team-item-image" v-bind:src="item.image" itemprop="image"  />
                     </div>
                   </a>
-                  <h4 class="paratii-people-item-name" itemprop="name">Felipe Sant Ana</h4>
-                  <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Project Lead</h5>
-                  <p class="paratii-people-item-resume" itemprop="description">Crowdfunding pioneer in Brazil, ESPM alumni, ex-Endeavor & BossaNovaFilms.</p>
-                </article>
-                <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <a class="paratii-people-item-link" href="https://github.com/jellegerbrandyhttps://github.com/ya7ya">
-                    <div class="paratii-people-item-avatar">
-                      <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Jelle Gerbrandy"  />
-                    </div>
-                  </a>
-                  <h4 class="paratii-people-item-name" itemprop="name">Jelle Gerbrandy</h4>
-                  <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Technical Lead</h5>
-                  <p class="paratii-people-item-resume" itemprop="description">Ph.D. in Logic at University of Amsterdam, visiting scholar at Stanford, previously CTO at Backfeed.</p>
-                </article>
-                <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <a class="paratii-people-item-link" href="https://github.com/ya7ya">
-                    <div class="paratii-people-item-avatar">
-                      <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Mohamed Yahya"/>
-                    </div>
-                  </a>
-                  <h4 class="paratii-people-item-name" itemprop="name">Mohamed Yahya</h4>
-                  <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Lead P2P Engineer</h5>
-                  <p class="paratii-people-item-resume" itemprop="description">Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumni.</p>
-                </article>
-                <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <a class="paratii-people-item-link" href="">
-                    <div class="paratii-people-item-avatar">
-                      <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Benjamin Baum"/>
-                    </div>
-                  </a>
-                  <h4 class="paratii-people-item-name" itemprop="name">Benjamin Baum</h4>
-                  <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Lead Frontend Engineer</h5>
-                  <p class="paratii-people-item-resume" itemprop="description">University of Cornell alumni and former research assistant, senior software engineer at Hubspot.</p>
-                </article>
-                <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <a class="paratii-people-item-link" href="">
-                    <div class="paratii-people-item-avatar">
-                      <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Alef Eftimiades"  />
-                    </div>
-                  </a>
-                  <h4 class="paratii-people-item-name" itemprop="name">Alef Eftimiades</h4>
-                  <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">R&D Scientist</h5>
-                  <p class="paratii-people-item-resume" itemprop="description">Algorithms expert, internships at the US Army Research Lab and NASA Goddard Space Flight Center.</p>
-                </article>
-                <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <a class="paratii-people-item-link" href="https://github.com/jrgarou">
-                    <div class="paratii-people-item-avatar">
-                      <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Paulo dos Santos" />
-                    </div>
-                  </a>
-                  <h4 class="paratii-people-item-name" itemprop="name">Paulo dos Santos</h4>
-                  <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Frontend Developer</h5>
-                  <p class="paratii-people-item-resume" itemprop="description">HTML, CSS, JS (Less.js); FitC and FWA awards won for projects with global clients.</p>
-                </article>
-                <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <a class="paratii-people-item-link" href="https://github.com/enricocicconi">
-                    <div class="paratii-people-item-avatar">
-                      <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Enrico Cicconi"/>
-                    </div>
-                  </a>
-                  <h4 class="paratii-people-item-name" itemprop="name">Enrico Cicconi</h4>
-                  <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Web3 developer</h5>
-                  <p class="paratii-people-item-resume" itemprop="description">Engineer @ Instituto Politecnico di Torino, experienced backend developer, responsible for most of the embedding magic the player does.</p>
-                </article>
-                <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <a class="paratii-people-item-link" href="https://github.com/eliawk">
-                    <div class="paratii-people-item-avatar">
-                      <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Elia Pellegrino"  />
-                    </div>
-                  </a>
-                  <h4 class="paratii-people-item-name" itemprop="name">Elia Pellegrino</h4>
-                  <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Web3 developer</h5>
-                  <p class="paratii-people-item-resume" itemprop="description">Electronic engineer @ Instituto Politecnico di Torino, professor at IED, former web developer.</p>
-                </article>
-                <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <a class="paratii-people-item-link" href="">
-                    <div class="paratii-people-item-avatar">
-                      <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Milan Kragujevic" />
-                    </div>
-                  </a>
-                  <h4 class="paratii-people-item-name" itemprop="name">Milan Kragujevic</h4>
-                  <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Video Engineer</h5>
-                  <p class="paratii-people-item-resume" itemprop="description">Ex-Popcorn developer; browser-to-browser communication specialist.</p>
-                </article>
-                <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <a class="paratii-people-item-link" href="https://pcasa.myportfolio.com/projetos">
-                    <div class="paratii-people-item-avatar">
-                      <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Pedro Casagrande" />
-                    </div>
-                  </a>
-                  <h4 class="paratii-people-item-name" itemprop="name">Pedro Casagrande</h4>
-                  <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Designer</h5>
-                  <p class="paratii-people-item-resume" itemprop="description">ESPM alumni, previously at Estudio Pulpo and Design Lab ESPM.</p>
-                </article>
-                <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <a class="paratii-people-item-link" href="https://www.linkedin.com/in/lupape/">
-                    <div class="paratii-people-item-avatar">
-                      <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Paulo Perez"/>
-                    </div>
-                  </a>
-                  <h4 class="paratii-people-item-name" itemprop="name">Paulo Perez</h4>
-                  <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Strategy & Vision</h5>
-                  <p class="paratii-people-item-resume" itemprop="description">Co-founder @ Doubleleft, (acquired by Interpublic). Cannes Lions and Webby Awards winner.</p>
-                </article>
-                <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <a class="paratii-people-item-link" href="">
-                    <div class="paratii-people-item-avatar">
-                      <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Lidia Zuin"/>
-                    </div>
-                  </a>
-                  <h4 class="paratii-people-item-name" itemprop="name">Lidia Zuin</h4>
-                  <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Content Lead</h5>
-                  <p class="paratii-people-item-resume" itemprop="description">Doctoring in visual arts at UNICAMP, masters in semiotics at PUC-SP, alumni at the Cásper Líbero College. Seasoned researcher and writer.</p>
-                </article>
-                <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <a class="paratii-people-item-link" href="">
-                    <div class="paratii-people-item-avatar">
-                      <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Daniel Quandt"/>
-                    </div>
-                  </a>
-                  <h4 class="paratii-people-item-name" itemprop="name">Daniel Quandt</h4>
-                  <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Community Manager</h5>
-                  <p class="paratii-people-item-resume" itemprop="description">USP-SP graduate and intern at innovation agency, reddit dinosaur.</p>
-                </article>
-                <article class="paratii-people-item" itemscope itemtype="http://schema.org/Person">
-                  <a class="paratii-people-item-link" href="">
-                    <div class="paratii-people-item-avatar">
-                      <img class="paratii-people-item-image" src="./images/avatar.png" itemprop="image" alt="Photo of Tomás Xavier"/>
-                    </div>
-                  </a>
-                  <h4 class="paratii-people-item-name" itemprop="name">Tomás Xavier</h4>
-                  <h5 class="paratii-people-item-jobtitle" itemprop="jobTitle">Content Producer</h5>
-                  <p class="paratii-people-item-resume" itemprop="description">Around the Block lead brain and director of photography, music maker, film composer and editor.</p>
+                  <h4 class="paratii-team-item-name" itemprop="name">{{item.name}}</h4>
+                  <h5 class="paratii-team-item-jobtitle" itemprop="jobTitle">{{item.job}}</h5>
+                  <p class="paratii-team-item-resume" itemprop="description">{{item.text}}</p>
                 </article>
               </div>
             </div>
           </div>
         </section>
 
-        <div class="main-color-section main-section--color paratii-partners">
+        <div class="main-color-section main-section--color paratii-onthenews">
           <span class="main-color-section-backgrounds">
             <span class="main-color-section-bg main-color-section-bg-0"></span>
             <span class="main-color-section-bg main-color-section-bg-1"></span>
@@ -530,13 +298,9 @@
             <span class="main-color-section-bg main-color-section-bg-3"></span>
           </span>
           <div class="main-section-wrapper main-color-section-wrapper">
-            <h2 class="main-section-title">On the news</h2>
-            <div class="paratii-partners-buttons">
-              <a class="paratii-partners-button paratii-partners-button--epocanegocios" href="http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html" target="_blank">ÉPOCA NEGÓCIOS</a>
-              <a class="paratii-partners-button paratii-partners-button--criptomoedasfacil" href="https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/" target="_blank">CRIPTOMOEDAS FÁCIL</a>
-              <a class="paratii-partners-button paratii-partners-button--tecmundo" href="https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm" target="_blank">TECMUNDO</a>
-              <a class="paratii-partners-button paratii-partners-button--olhardigital" href="https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096" target="_blank">OLHAR DIGITAL</a>
-              <a class="paratii-partners-button paratii-partners-button--decentral" href="https://decentral.market/2017/12/13/a-look-on-the-paratii-player-v-0-0-1" target="_blank">DECENTRAL MARKET</a>
+            <h2 class="main-section-title">{{content.onthenews.title}}</h2>
+            <div class="paratii-onthenews-buttons">
+              <a class="paratii-onthenews-button" v-bind:href="item.href" v-bind:style="backgroundImage(item.image)" target="_blank" v-for="(item, index) in content.onthenews.list">{{item.title}}</a>
             </div>
           </div>
         </div>
@@ -544,16 +308,14 @@
         <section class="main-section paratii-videos">
           <div class="main-section-wrapper">
             <header class="main-section-header main-section-header--no-margin">
-              <h2 class="main-section-title">Videos</h2>
-              <h3 class="main-section-subtitle">Our videos</h3>
+              <h2 class="main-section-title">{{content.videos.title}}</h2>
+              <h3 class="main-section-subtitle">{{content.videos.subtitle}}</h3>
             </header>
             <div class="main-section-content main-section-content--with-margin">
-              <p class="main-section-content-text">You can find someone of the team regularly in (or invite to!) meetups, events and conferences mostly in Brazil, the U.S and Italy.</p>
+              <p class="main-section-content-text">{{content.videos.text}}</p>
             </div>
             <div class="paratii-videos-list">
-              <iframe class="paratii-videos-item" src="https://www.youtube.com/embed/H4-0mNaZP50" allowfullscreen></iframe>
-              <iframe class="paratii-videos-item" src="https://www.youtube.com/embed/mX7VuUeduEY" allowfullscreen></iframe>
-              <iframe class="paratii-videos-item" src="https://www.youtube.com/embed/7waTiMBlXbw" allowfullscreen></iframe>
+              <iframe class="paratii-videos-item" v-bind:src="item.url" allowfullscreen v-for="item in content.videos.list"></iframe>
             </div>
           </div>
         </section>
@@ -562,38 +324,14 @@
       <footer class="paratii-footer">
         <div class="main-section-wrapper">
           <div class="paratii-footer-wrapper">
-            <p class="paratii-footer-text">We ♥ open source</p>
+            <p class="paratii-footer-text">{{content.footer.text}}</p>
             <aside class="paratii-footer-social">
-              <h2 class="paratii-footer-social-title">Find us</h2>
+              <h2 class="paratii-footer-social-title">{{content.footer.social.title}}</h2>
               <ul class="main-social-list">
-                <li class="main-social-item">
-                  <h3 class="visually-hidden">Github</h3>
-                    <a class="main-social-link" href="https://github.com/Paratii-Video/wiki/wiki" target="_blank">
-                      <svg class="main-social-svg"><use xlink:href="#icon-social-github"></use></svg>
-                    </a>
-                </li>
-                <li class="main-social-item">
-                  <h3 class="visually-hidden">Gitter</h3>
-                    <a class="main-social-link" href="https://gitter.im/Paratii-Video/" target="_blank">
-                      <svg class="main-social-svg"><use xlink:href="#icon-social-gitter"></use></svg>
-                    </a>
-                </li>
-                <li class="main-social-item">
-                  <h3 class="visually-hidden">Medium</h3>
-                    <a class="main-social-link" href="https://medium.com/paratii" target="_blank">
-                      <svg class="main-social-svg"><use xlink:href="#icon-social-medium"></use></svg>
-                    </a>
-                </li>
-                <li class="main-social-item">
-                  <h3 class="visually-hidden">E-mail</h3>
-                    <a class="main-social-link" href="mailto:hello@paratii.video" target="_blank">
-                      <svg class="main-social-svg"><use xlink:href="#icon-social-email"></use></svg>
-                    </a>
-                </li>
-                <li class="main-social-item">
-                  <h3 class="visually-hidden">Steemit</h3>
-                    <a class="main-social-link" href="http://steemit.com/@paratii" target="_blank">
-                      <svg class="main-social-svg"><use xlink:href="#icon-social-steemit"></use></svg>
+                <li class="main-social-item" v-for="item in content.footer.social.list">
+                  <h3 class="visually-hidden">{{item.title}}</h3>
+                    <a class="main-social-link" v-bind:href="item.href" target="_blank">
+                      <svg class="main-social-svg" v-html="item.icon"></use></svg>
                     </a>
                 </li>
               </ul>
@@ -603,6 +341,15 @@
         <span class="paratii-footer-bg"></span>
       </footer>
     </div>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-99283680-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
     <script src="scripts/index.js"></script>
   </body>
 </html>
