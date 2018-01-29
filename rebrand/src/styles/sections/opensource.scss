@@ -30,7 +30,7 @@
     background-size: contain;
     margin-right: 8%;
     height: 70px;
-    transition: opacity $anim-time-paint;
+    transition: opacity $anim-time-repaint;
     width: 30%;
 
     @include screenMobile {

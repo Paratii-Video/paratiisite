@@ -94,7 +94,7 @@ $zindex-paratii-team-avatar-image: 1;
       @extend .pos-a-b;
 
       right: 0;
-      transition: opacity $anim-time-paint;
+      transition: opacity $anim-time-repaint;
       z-index: $zindex-paratii-team-avatar-image;
 
       .paratii-team-item-link:hover & {

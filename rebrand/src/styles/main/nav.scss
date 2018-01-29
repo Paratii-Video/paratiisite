@@ -1,0 +1,95 @@
+// Nav and Subnav
+
+// nav
+
+.main-nav {
+    
+  @include screenMobile {
+    display: none;
+  };
+
+  &-list {
+    display: flex;
+    // padding: 0 20px 0 0;
+  }
+
+  &-item {
+    margin-left: 30px;
+    
+    @include screenPhablet {
+      margin-left: 15px;
+    };
+  }
+
+  &-link {
+    color: white;
+    display: block;
+    font-size: 16px;
+    font-weight: $font-regular;
+    height: $size-main-title-height;
+    line-height: $size-main-title-height;
+    letter-spacing: 0.4px;
+    transition: color $anim-time-repaint;
+    
+    @include screenMobile {
+      font-size: 16px;
+    };
+
+    .out-top & {
+      color: $color-black;
+    }
+
+    &:hover {
+      color: $color-purple-light;
+    }
+  }
+}
+
+// subnav
+
+.main-subnav {
+
+  &-holder {
+    position: relative;
+  }
+
+  @extend .pos-a-b;
+
+  background-color: $color-white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 20px 0px $box-shadow-color;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate3d(0, 100%, 0);
+  transition: opacity $anim-time-repaint;
+  z-index: $zindex-main-subnav;
+
+  .main-subnav-holder:hover & {
+    opacity: 1;
+    pointer-events: initial;
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-link {
+    @extend .text-small;
+
+    color: $color-black;
+    display: block;
+    padding: 20px 20px 20px 20px;
+    transition: color $anim-time-repaint;
+    white-space: nowrap;
+
+    &:hover {
+      color: $color-lipstick;
+    }
+  }
+
+
+
+
+}

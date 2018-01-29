@@ -79,7 +79,7 @@
     @extend .full-block;
 
     fill: $color-white;
-    transition: fill $anim-time-paint;
+    transition: fill $anim-time-repaint;
 
     .main-title-link:hover & {
       fill: $color-purple-light;
@@ -87,51 +87,6 @@
 
     .out-top & {
       fill: $color-black;
-    }
-  }
-}
-
-
-// Nav
-
-.main-nav {
-    
-  @include screenMobile {
-    display: none;
-  };
-
-  &-list {
-    display: flex;
-    // padding: 0 20px 0 0;
-  }
-
-  &-item {
-    margin-left: 30px;
-    
-    @include screenPhablet {
-      margin-left: 15px;
-    };
-  }
-
-  &-link {
-    color: white;
-    font-size: 16px;
-    font-weight: $font-regular;
-    height: $size-main-title-height;
-    line-height: $size-main-title-height;
-    letter-spacing: 0.4px;
-    transition: color $anim-time-paint;
-    
-    @include screenMobile {
-      font-size: 16px;
-    };
-
-    .out-top & {
-      color: $color-black;
-    }
-
-    &:hover {
-      color: $color-purple-light;
     }
   }
 }
