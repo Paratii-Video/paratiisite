@@ -161,8 +161,8 @@
               <p class="paratii-header-text">{{content.header.text}}</p>
             </div>
             <div class="paratii-header-buttons">
-              <a class="paratii-header-button paratii-button"  v-bind:href="content.header.buttonAhref">{{content.header.buttonA}}</a>
-              <a class="paratii-header-button paratii-button-border"  v-bind:href="content.header.buttonBhref">{{content.header.buttonB}}</a>
+              <a class="paratii-header-button paratii-button" v-bind:href="content.header.buttonAhref" target="_blank">{{content.header.buttonA}}</a>
+              <a class="paratii-header-button paratii-button-border"  v-bind:href="content.header.buttonBhref" target="_blank">{{content.header.buttonB}}</a>
             </div>
             <p class="paratii-header-small" v-html="content.header.small"></p>
           </div>
@@ -184,12 +184,12 @@
                     <h4 class="paratii-audiences-item-title"><strong>{{item.title}}</strong></h4>
                     <p class="paratii-audiences-item-text">{{item.text}}</p>
                   </div>
-                  <a class="paratii-audiences-item-link" v-bind:href="item.buttonHref">{{item.button}}</a>
+                  <a class="paratii-audiences-item-link" v-bind:href="item.buttonHref" target="_blank">{{item.button}}</a>
                 </div>
               </div>
               <div class="main-section-call">
                 <p class="main-section-content-text" v-html="content.audiences.call.text"></p>
-                <a class="paratii-button paratii-button--red" v-bind:href="content.audiences.call.buttonHref">{{content.audiences.call.button}}</a>
+                <a class="paratii-button paratii-button--red" v-bind:href="content.audiences.call.buttonHref" target="_blank">{{content.audiences.call.button}}</a>
               </div>
             </div>
           </div>
@@ -216,7 +216,7 @@
               <p class="main-section-content-text">
                 <strong class="main-section-content-title">
                   {{content.features.call.text}}
-                </strong> <a class="main-color-section-button paratii-button-border" v-bind:href="content.features.call.href">{{content.features.call.button}}</a>
+                </strong> <a class="main-color-section-button paratii-button-border" v-bind:href="content.features.call.href" target="_blank">{{content.features.call.button}}</a>
               </p>
             </div>
           </div>

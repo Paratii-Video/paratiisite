@@ -161,7 +161,9 @@ $size-main-nav-mobile-top: 62px;
 
   &-button {
     color: $color-white;
+    font-size: 14px;
     text-align: center;
+    text-transform: uppercase;
     width: 20px;
 
     .out-top & {
