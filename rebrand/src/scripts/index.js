@@ -244,7 +244,7 @@ window.PARATII = {
             "text": "Algorithms expert, internships at the US Army Research Lab and NASA Goddard Space Flight Center."
           },
           {
-            "url": "https://github.com/jrgarou",
+            "url": "http://garou.in/",
             "image": "./images/team/Junior.png",
             "name": "Paulo dos Santos",
             "job": "Frontend Developer",
@@ -808,6 +808,12 @@ window.PARATII = {
       },
       openCloseNav: function (e) {
         this.nav = !this.nav;
+      },
+      closeNav: function (e) {
+        this.nav = false;
+      },
+      openNav: function (e) {
+        this.nav = true;
       },
       changeLang: function (lang, e) {
         this.langEn = (lang === 'en');

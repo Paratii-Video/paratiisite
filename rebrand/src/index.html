@@ -119,32 +119,31 @@
           <nav class="main-nav">
             <h2 class="visually-hidden">Navigation</h2>
             <div class="nav-lang">
-              <button class="nav-lang-button nav-lang-button--pt" v-on:click="changeLang('pt', $event)" title="Mudar a língua para portuguese">PT</button>
-              <button class="nav-lang-button nav-lang-button--en" v-on:click="changeLang('en', $event)" title="Change language to english">EN</button>
+              <button class="main-nav-link nav-lang-button nav-lang-button--pt" v-on:click="changeLang('pt', $event)" title="Mudar a língua para portuguese">PT</button><span class="main-nav-link nav-lang-space">/</span><button class="main-nav-link nav-lang-button nav-lang-button--en" v-on:click="changeLang('en', $event)" title="Change language to english">EN</button>
             </div>
             <ul class="main-nav-list">
               <li class="main-nav-item main-subnav-holder">
-                <h3><a class="main-nav-link">Documentation</a></h3>
+                <h3><div class="main-nav-link" v-on:click="closeNav()">Documentation</div></h3>
                 <div class="main-subnav">
                   <ul class="main-subnav-list">
-                    <li class="main-subnav-item"><a href="https://github.com/Paratii-Video/wiki/wiki/Paratii-Blueprint" class="main-subnav-link" target="_blank">Blueprint document</a></li>
-                    <li class="main-subnav-item"><a href="https://github.com/Paratii-Video/paratii-lib" class="main-subnav-link" target="_blank">Paratii-lib</a></li>
+                    <li class="main-subnav-item"><a href="https://github.com/Paratii-Video/wiki/wiki/Paratii-Blueprint" class="main-subnav-link" v-on:click="closeNav()" target="_blank">Blueprint document</a></li>
+                    <li class="main-subnav-item"><a href="https://github.com/Paratii-Video/paratii-lib" class="main-subnav-link" v-on:click="closeNav()" target="_blank">Paratii-lib</a></li>
                   </ul>
                 </div>
               </li>
               <li class="main-nav-item main-subnav-holder">
-                <h3><a class="main-nav-link">Code</a></h3>
+                <h3><div class="main-nav-link" v-on:click="closeNav()">Code</div></h3>
                 <div class="main-subnav">
                   <ul class="main-subnav-list">
-                    <li class="main-subnav-item"><a href="https://github.com/Paratii-Video/paratii-mediaplayer" class="main-subnav-link" target="_blank">The player</a></li>
-                    <li class="main-subnav-item"><a href="https://github.com/Paratii-Video/paratii-contracts" class="main-subnav-link" target="_blank">The contracts</a></li>
-                    <li class="main-subnav-item"><a href="https://github.com/Paratii-Video/paratii-protocol" class="main-subnav-link" target="_blank">The protocol</a></li>
+                    <li class="main-subnav-item"><a href="https://github.com/Paratii-Video/paratii-mediaplayer" class="main-subnav-link" v-on:click="closeNav()" target="_blank">The player</a></li>
+                    <li class="main-subnav-item"><a href="https://github.com/Paratii-Video/paratii-contracts" class="main-subnav-link" v-on:click="closeNav()" target="_blank">The contracts</a></li>
+                    <li class="main-subnav-item"><a href="https://github.com/Paratii-Video/paratii-protocol" class="main-subnav-link" v-on:click="closeNav()" target="_blank">The protocol</a></li>
                   </ul>
                 </div>
               </li>
-              <li class="main-nav-item"><h3><a class="main-nav-link" href="#team">Team</a></h3></li>
-              <li class="main-nav-item"><h3><a class="main-nav-link" href="https://medium.com/paratii" target="_blank">Blog</a></h3></li>
-              <li class="main-nav-item"><h3><a class="main-nav-link" href="http://paratii.video/around-the-block/" target="_blank">Around the block</a></h3></li>
+              <li class="main-nav-item"><h3><a class="main-nav-link" href="#team" v-on:click="closeNav()">Team</a></h3></li>
+              <li class="main-nav-item"><h3><a class="main-nav-link" href="https://medium.com/paratii" v-on:click="closeNav()" target="_blank">Blog</a></h3></li>
+              <li class="main-nav-item"><h3><a class="main-nav-link" href="http://paratii.video/around-the-block/" v-on:click="closeNav()" target="_blank">Around the block</a></h3></li>
             </ul>
           </nav>
         </div>
@@ -162,8 +161,8 @@
               <p class="paratii-header-text">{{content.header.text}}</p>
             </div>
             <div class="paratii-header-buttons">
-              <a class="paratii-header-button paratii-button"  v-bind:href="content.header.buttonAhref">{{content.header.buttonA}}</a>
-              <a class="paratii-header-button paratii-button-border"  v-bind:href="content.header.buttonBhref">{{content.header.buttonB}}</a>
+              <a class="paratii-header-button paratii-button" v-bind:href="content.header.buttonAhref" target="_blank">{{content.header.buttonA}}</a>
+              <a class="paratii-header-button paratii-button-border"  v-bind:href="content.header.buttonBhref" target="_blank">{{content.header.buttonB}}</a>
             </div>
             <p class="paratii-header-small" v-html="content.header.small"></p>
           </div>
@@ -185,12 +184,12 @@
                     <h4 class="paratii-audiences-item-title"><strong>{{item.title}}</strong></h4>
                     <p class="paratii-audiences-item-text">{{item.text}}</p>
                   </div>
-                  <a class="paratii-audiences-item-link" v-bind:href="item.buttonHref">{{item.button}}</a>
+                  <a class="paratii-audiences-item-link" v-bind:href="item.buttonHref" target="_blank">{{item.button}}</a>
                 </div>
               </div>
               <div class="main-section-call">
                 <p class="main-section-content-text" v-html="content.audiences.call.text"></p>
-                <a class="paratii-button paratii-button--red" v-bind:href="content.audiences.call.buttonHref">{{content.audiences.call.button}}</a>
+                <a class="paratii-button paratii-button--red" v-bind:href="content.audiences.call.buttonHref" target="_blank">{{content.audiences.call.button}}</a>
               </div>
             </div>
           </div>
@@ -213,17 +212,11 @@
             </div>
           </div>
           <div class="main-color-section main-section--color">
-            <span class="main-color-section-backgrounds">
-              <span class="main-color-section-bg main-color-section-bg-0"></span>
-              <span class="main-color-section-bg main-color-section-bg-1"></span>
-              <span class="main-color-section-bg main-color-section-bg-2"></span>
-              <span class="main-color-section-bg main-color-section-bg-3"></span>
-            </span>
             <div class="main-section-wrapper main-color-section-wrapper">
               <p class="main-section-content-text">
                 <strong class="main-section-content-title">
                   {{content.features.call.text}}
-                </strong> <a class="main-color-section-button paratii-button-border" v-bind:href="content.features.call.href">{{content.features.call.button}}</a>
+                </strong> <a class="main-color-section-button paratii-button-border" v-bind:href="content.features.call.href" target="_blank">{{content.features.call.button}}</a>
               </p>
             </div>
           </div>
@@ -314,12 +307,6 @@
         </section>
 
         <div class="main-color-section main-section--color paratii-onthenews">
-          <span class="main-color-section-backgrounds">
-            <span class="main-color-section-bg main-color-section-bg-0"></span>
-            <span class="main-color-section-bg main-color-section-bg-1"></span>
-            <span class="main-color-section-bg main-color-section-bg-2"></span>
-            <span class="main-color-section-bg main-color-section-bg-3"></span>
-          </span>
           <div class="main-section-wrapper main-color-section-wrapper">
             <h2 class="main-section-title">{{content.onthenews.title}}</h2>
             <div class="paratii-onthenews-buttons">

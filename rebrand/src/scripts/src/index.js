@@ -54,6 +54,12 @@
       openCloseNav: function (e) {
         this.nav = !this.nav;
       },
+      closeNav: function (e) {
+        this.nav = false;
+      },
+      openNav: function (e) {
+        this.nav = true;
+      },
       changeLang: function (lang, e) {
         this.langEn = (lang === 'en');
         this.nav = false;
