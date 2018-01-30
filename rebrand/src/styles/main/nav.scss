@@ -7,8 +7,11 @@ $size-main-nav-mobile-top: 62px;
 // nav
 
 .main-nav {
+  display: flex;
+  flex-direction: row-reverse;
 
   @include screenMobile {
+    display: block;
     height: calc(100vh - #{$size-main-nav-mobile-top});
     left: 0;
     opacity: 0;
@@ -146,35 +149,44 @@ $size-main-nav-mobile-top: 62px;
 
 
 .nav-lang {
-  @extend .pos-a-t;
-
   display: flex;
-  flex-direction: column;
-  left: 0;
+  flex-direction: row;
+  margin: 0 0 0 30px;
 
-  @include screenMobile {
-    position: relative;
+  &-space {
+    font-weight: $font-bold;
+    text-align: center;
+    width: 14px;
   }
 
   &-button {
     color: $color-white;
-    font-size: 10px;
+    text-align: center;
+    width: 20px;
+
+    .out-top & {
+      color: $color-black;
+    }
 
     @include screenMobile {
       color: $color-black;
     }
 
     &--pt {
-      opacity: .5;
+      font-weight: $font-bold;
 
       .navEn & {
-        opacity: 1;
+        font-weight: $font-regular;
+        opacity: .5;
       }
     }
 
     &--en {
+      opacity: .5;
+
       .navEn & {
-        opacity: .5;
+        font-weight: $font-bold;
+        opacity: 1;
       }
     }
   }
