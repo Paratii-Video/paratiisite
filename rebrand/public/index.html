@@ -208,7 +208,6 @@
               <div class="paratii-features-asset" v-bind:style="backgroundImage(content.features.image)"></div>
               <ul class="paratii-features-list">
                 <li class="paratii-features-item" v-for="(item, index) in content.features.list" v-bind:class="setLoopClass('paratii-features-item--', index)" v-bind:index="index" v-bind:key="item.id">
-                  <svg class="paratii-features-item-svg" v-html="item.icon"></svg>
                   <p v-html="item.text"></p>
                 </li>
               </ul>

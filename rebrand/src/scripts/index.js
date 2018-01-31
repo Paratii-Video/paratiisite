@@ -147,7 +147,7 @@ window.PARATII = {
             "text": "v0.0.2: Paratii-lib and plugin-oriented player refactoring",
             "textDate": "Jan 2018",
             "dateStart": "2018-01-01",
-            "dateEnd": "2018-01-31"
+            "dateEnd": "2018-02-01"
           },
           {
             "text": "Web-portal for uploading and browsing (whitelisted creators)",
@@ -794,15 +794,16 @@ window.PARATII = {
         }
       },
       isRoadmapBetween: function (start, end) {
+        console.log(start, end, moment().isBetween(start, end));
         return moment().isBetween(start, end);
       },
       isRoadmapPast: function (d) {
-        return moment().isBefore(d);
+        return moment().isAfter(d);
       },
       roadmapClass: function (klass, item) {
         var temp = String;
         if (!this.isRoadmapBetween(item.dateStart, item.dateEnd)) {
-          temp = (this.isRoadmapPast(item.dataEnd)) ? 'past' : 'future';
+          temp = (this.isRoadmapPast(item.dateEnd)) ? 'past' : 'future';
           return klass + temp;
         }
       },
