@@ -22,23 +22,23 @@ window.PARATII = {
         "list": [
           {
             "title": "Creators",
-            "text": "upload original creations or mirror existing content on Paratii, and experiment monetisation without middlemen. No cuts on your revenue. No blocking or manipulating your audience.",
-            "button": "Subscribe to be among the first uploaders",
+            "text": "Upload original creations or mirror existing content on Paratii, and experiment monetisation without middlemen. No cuts on your revenue. No blocking or manipulating your audience.",
+            "button": "Be among the first uploaders",
             "buttonHref": "http://paratii.video/",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>"
           },
           {
             "title": "Publishers",
-            "text": "embed the player in your page with a line of code to access a self-scalable network whose services get cheaper as your audience grows. Want to go further? Download a software package to “profit off” the system by running a special media node.",
-            "button": "Experiment and earn tokens",
+            "text": "Embed the player in your page with a line of code to access a self-scalable network whose services get cheaper as your audience grows. Want to go further? You'll be able to download a software package and “profit off” the system by running a special media node.",
+            "button": "Request publisher demo",
             "buttonHref": "http://paratii.video/",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>"
           },
           {
             "title": "Community",
             "text": "users are the heart of the network, curating content and providing essential resources. In exchange, they earn tokens, which can come in seamlessly, for example, while one watches a video and streams pieces of it to nearby peers.",
-            "button": "Join our bounty program",
-            "buttonHref": "http://paratii.video/",
+            "button": "Join our Telegram",
+            "buttonHref": "http://t.me/paratiivideo/",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>"
           }
         ],
@@ -54,27 +54,27 @@ window.PARATII = {
         "image": "./svgs/paratii-features.svg",
         "list": [
           {
-            "text": "<strong>Videos can be free or have different monetisation models.</strong> They all look similar, but some prompt users to validate micropayments",
+            "text": "<strong>Videos can be free or have different monetisation models.</strong> They all look similar, but some prompt users to validate micropayments.",
             "icon": "<use xlink:href=\"#icon-user\"></use>"
           },
           {
-            "text": "<strong>Adaptive bitrate streaming: at every point, users get the maximum quality for their device and connection.</strong> The file processing magic is done by a distributed network of transcoders",
+            "text": "<strong>Adaptive bitrate streaming: at every point, users get the maximum quality for their device and connection.</strong> The file processing magic is done by a distributed network of transcoders.",
             "icon": "<use xlink:href=\"#icon-gear\"></use>"
           },
           {
-            "text": "<strong>Users can earn tokens whenever they’re active.</strong> These are stored in an in-player wallet, and “excess” funds (think a content creator who’s getting a lot of audience) are transferred to a separate account",
+            "text": "<strong>Users can earn tokens whenever they’re active.</strong> These are stored in an in-player wallet, and “excess” funds (think a content creator who’s getting a lot of audience) are transferred to a separate account.",
             "icon": "<use xlink:href=\"#icon-user\"></use>"
           },
           {
-            "text": "<strong>Casual users may watch for hours and still never notice this is not an average player.</strong> Those who sign up can claim tokens earned and use them to curate, acquire or promote videos",
+            "text": "<strong>Casual users may watch for hours and still never notice this is not an average player.</strong> Those who sign up can claim tokens earned and use them to curate, acquire or promote videos.",
             "icon": "<use xlink:href=\"#icon-user\"></use>"
           },
           {
-            "text": "<strong>Multiple platforms supported.</strong> Sharing is incentivised if creators choose to divide a portion of their earnings with ‘promoters",
+            "text": "<strong>Multiple platforms supported.</strong> Sharing is incentivised if creators choose to divide a portion of their earnings with ‘promoters.",
             "icon": "<use xlink:href=\"#icon-user\"></use>"
           },
           {
-            "text": "<strong>Curation is left to the audience</strong>, who’s rewarded for spotting inappropriate content early on or pointing to copyright-infringing material",
+            "text": "<strong>Curation is left to the audience</strong>, who’s rewarded for spotting inappropriate content early on or pointing to copyright-infringing material.",
             "icon": "<use xlink:href=\"#icon-like\"></use>"
           }
         ],
@@ -92,7 +92,7 @@ window.PARATII = {
             "class": "",
             "icon": "<use xlink:href=\"#icon-social-github\s\"></use>",
             "title": "The Protocol",
-            "text": "Coordinates creators, publishers and users to maintain a decentralised exchange of videos and attention, that communicates receipts off-chain and settles compensations on Ethereum contracts. It also bundles access to all services needed to distribute media and metadata serverlessly and trustlessly",
+            "text": "Coordinates creators, publishers and users to maintain a decentralised exchange of videos and attention, that communicates receipts off-chain and settles compensations on Ethereum contracts. It also bundles <strong>access to all services needed to distribute media and metadata serverlessly and trustlessly<strong>.",
             "image": "./svgs/paratii-the-protocol.svg",
             "href": "https://github.com/Paratii-Video/paratii-protocol"
           },
@@ -100,7 +100,7 @@ window.PARATII = {
             "class": "paratii-components-content--color",
             "icon": "<use xlink:href=\"#icon-social-github\s\"></use>",
             "title": "The PTI Token",
-            "text": "Native staking token to the Paratii curated registry, it represents the right to belong to and judicate over a content list, and that of creating your own. The PTI can also be used as a means of payment for certain services, paid videos and content promotion. It is mintable: earn tokens by curating content, seeding videos while watching, or running a media node",
+            "text": "Native staking token to the Paratii curated registry, it represents the right to belong to and judicate over a content list, and that of creating your own. The PTI can also be used as a means of payment for certain services, paid videos and content promotion. <strong>It is earnable<strong>: by seeding videos while watching, running a media node or curating content.",
             "image": "./svgs/paratii-the-token.svg",
             "href": "https://github.com/Paratii-Video/paratii-contracts"
           },
@@ -108,7 +108,7 @@ window.PARATII = {
             "class": "",
             "icon": "<use xlink:href=\"#icon-social-github\s\"></use>",
             "title": "The Player",
-            "text": "<strong>An embeddable, modular and extensible player</strong> to customise as you wish. Apply it on your page, media channel or news outlet with a single line of code. Share it on social media when you spot one on Twitter, Medium or Telegram. With paratii-lib, developers can also build widgets and plugins to modify frontend and interact with specific modules of the protocol",
+            "text": "<strong>An embeddable, modular and extensible player</strong> to customise as you wish. Apply it on your page, media channel or news outlet with a single line of code. Share it on social media when you spot one on Twitter, Medium or Telegram. With paratii-lib, developers can also build widgets and plugins to modify frontend and interact with specific modules of the protocol.",
             "image": "./svgs/paratii-the-player.svg",
             "href": "https://github.com/Paratii-Video/paratii-mediaplayer"
           }
@@ -126,7 +126,7 @@ window.PARATII = {
             "dateEnd": "2016-11-30"
           },
           {
-            "text": "Publish blueprint ",
+            "text": "Blueprint published",
             "textDate": "Jun 2017",
             "dateStart": "2017-06-01",
             "dateEnd": "2017-06-30"
@@ -138,20 +138,20 @@ window.PARATII = {
             "dateEnd": "2017-10-31"
           },
           {
-            "text": "Release Paratii player v0.0.1",
+            "text": "Paratii player v0.0.1 released",
             "textDate": "Dez 2017",
             "dateStart": "2017-12-01",
             "dateEnd": "2017-12-31"
           },
           {
             "text": "v0.0.2: Paratii-lib and plugin-oriented player refactoring",
-            "textDate": "Jan 2018",
+            "textDate": "Feb 2018",
             "dateStart": "2018-01-01",
             "dateEnd": "2018-02-01"
           },
           {
             "text": "Web-portal for uploading and browsing (whitelisted creators)",
-            "textDate": "Feb 2018",
+            "textDate": "Mar 2018",
             "dateStart": "2018-02-01",
             "dateEnd": "2018-02-28"
           },
@@ -162,8 +162,8 @@ window.PARATII = {
             "dateEnd": "2018-03-31"
           },
           {
-            "text": "Token distribution event (tokens functional on mainnet)",
-            "textDate": "Apr-May 2018",
+            "text": "Token distribution event",
+            "textDate": "May 2018",
             "dateStart": "2018-04-01",
             "dateEnd": "2018-05-31"
           },
@@ -174,7 +174,7 @@ window.PARATII = {
             "dateEnd": "2018-06-30"
           },
           {
-            "text": "Migration to mainnet for remaining components",
+            "text": "Main contracts bridging to mainnet",
             "textDate": "Q3 2018",
             "dateStart": "2018-08-01",
             "dateEnd": "2018-08-30"
@@ -206,7 +206,7 @@ window.PARATII = {
       "team": {
         "title": "People",
         "subtitle": "Our team",
-        "text": "A distributed workforce of solid background, skilled and passionate people. You’re welcome to drop by one of <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">our weekly development calls</a>",
+        "text": "A distributed workforce of solid background, skilled and passionate people. You’re welcome to drop by one of <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">our weekly development calls.</a>",
         "list": [
           {
             "url": "https://medium.com/@felipegachopereira",
@@ -230,14 +230,14 @@ window.PARATII = {
             "text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumni."
           },
           {
-            "url": "https://github.com/",
+            "url": "https://github.com/bent0b0x",
             "image": "./images/team/Ben.png",
             "name": "Benjamin Baum",
             "job": "Lead Frontend Engineer",
             "text": "University of Cornell alumni and former research assistant, senior software engineer at Hubspot."
           },
           {
-            "url": "https://github.com/",
+            "url": "https://github.com/aeftimia",
             "image": "./images/team/Alex.png",
             "name": "Alex Eftimiades",
             "job": "R&D Scientist",
@@ -272,7 +272,7 @@ window.PARATII = {
             "text": "Ex-Popcorn developer; browser-to-browser communication specialist."
           },
           {
-            "url": "https://github.com/",
+            "url": "https://github.com/Leeaandrob",
             "image": "./images/team/Leandro.png",
             "name": "Leandro Barbosa",
             "job": "Devops Engineer",
@@ -464,20 +464,20 @@ window.PARATII = {
           {
             "class": "",
             "title": "O Protocolo",
-            "text": "Coordinates creators, publishers and users to maintain a decentralised exchange of videos and attention, that communicates receipts off-chain and settles compensations on Ethereum contracts. It also bundles access to all services needed to distribute media and metadata serverlessly and trustlessly",
+            "text": "Coordena criadores, publishers e usuários na manutenção de um mercado descentralizado de vídeo e atenção, que comunica recibos off-chain e executa compensações em contratos na Ethereum. Também integra o acesso a todos os serviços necessários para se distribuir mídia e metadados <strong>sem depender de intermediários<strong>.",
             "image": "./svgs/paratii-the-protocol.svg",
             "href": "https://github.com/Paratii-Video/paratii-protocol"
           },
           {
             "class": "paratii-components-content--color",
             "title": "O token PTI",
-            "text": "Token de “stake” nativo do Paratii curated registry, representa o direito de pertencer a uma listagem de conteúdo e curá-la, além de poder criar outras. O PTI também pode ser usado como meio de pagamento para certos serviços, vídeos pay-per-view e anúncios. O token pode ser minerado: ganha-se PTI curando conteúdo, redistribuindo vídeos automaticamente ao assisti-los no browser, ou baixando e rodando um programa que chamamos de nó de mídia",
+            "text": "Token de “stake” nativo, representa o direito de ter vídeos em uma lista de conteúdo e curá-la, além de poder criar outras. O PTI também pode ser usado como meio de pagamento para certos serviços, vídeos pay-per-view e anúncios. <strong>Como ganhar o token?<strong> Redistribuindo vídeos automaticamente ao assisti-los no browser, rodando um programa que chamamos de 'nó de mídia', ou curando conteúdo.
             "image": "./svgs/paratii-the-token.svg",
             "href": "https://github.com/Paratii-Video/paratii-contracts"
           },
           {
             "class": "",
-            "title": "The Player",
+            "title": "O Player",
             "text": "<strong>Um player de mídia embedável</strong>, modular e extensível, para se customizar como quiser. Aplique-o na sua página, canal de mídia ou site de notícias com uma linha de código. Compartilhe-o em redes sociais quando encontrar com um no Twitter, no Medium ou no Telegram. Com a paratii-lib, desenvolvedores também podem construir facilmente widgets e plugins de todo tipo para modificar o frontend, além interagir com módulos específicos do protocolo",
             "image": "./svgs/paratii-the-player.svg",
             "href": "https://github.com/Paratii-Video/paratii-mediaplayer"
@@ -515,13 +515,13 @@ window.PARATII = {
           },
           {
             "text": "v0.0.2: Paratii-lib e novo player plugin-oriented",
-            "textDate": "Jan 2018",
+            "textDate": "Fev 2018",
             "dateStart": "2018-01-01",
             "dateEnd": "2018-01-31"
           },
           {
             "text": " Portal para upload e browsing de conteúdo",
-            "textDate": "Feb 2018",
+            "textDate": "Mar 2018",
             "dateStart": "2018-02-01",
             "dateEnd": "2018-02-28"
           },
@@ -533,7 +533,7 @@ window.PARATII = {
           },
           {
             "text": "Evento de distribuição dos tokens (com funcionalidade na mainnet)",
-            "textDate": "Apr-May 2018",
+            "textDate": "Mai 2018",
             "dateStart": "2018-04-01",
             "dateEnd": "2018-05-31"
           },
@@ -544,7 +544,7 @@ window.PARATII = {
             "dateEnd": "2018-06-30"
           },
           {
-            "text": "Migração dos componentes faltantes à mainnet",
+            "text": "Bridging de contratos principais à mainnet",
             "textDate": "Q3 2018",
             "dateStart": "2018-08-01",
             "dateEnd": "2018-08-30"
@@ -554,7 +554,7 @@ window.PARATII = {
       "opensource": {
         "title": "Código Aberto",
         "subtitle": "Construindo com tecnologia descentralizada de ponta",
-        "text": "Contribuímos com, construímos sobre, modificamos implementações e desenvolvemos a partir de múltiplos projetos infraestruturais de código aberto. Tem interesse em contribuir diretamente com um deles? <a class=\"paratii-link\" href=\"mailto:we@paratii.video?subject=Here is how I want to help develop open-souce software :)&body=Let us know about ambitions, plans, and ideas you have for making the web3 a better place for society. We're here to help you give power back to peers.\" target=\"_blank\">Temos interesse em te apoiar.</a>",
+        "text": "Construímos sobre, modificamos implementações e contribuímos com múltiplos projetos infraestruturais de código aberto. Tem interesse em contribuir diretamente com um deles? <a class=\"paratii-link\" href=\"mailto:we@paratii.video?subject=Here is how I want to help develop open-souce software :)&body=Let us know about ambitions, plans, and ideas you have for making the web3 a better place for society. We're here to help you give power back to peers.\" target=\"_blank\">Temos interesse em te apoiar.</a>",
         "list": [
           {
             "image": "./images/open-source/logo-ipfs.png",
@@ -576,7 +576,7 @@ window.PARATII = {
       "team": {
         "title": "Time",
         "subtitle": "Nosso time",
-        "text": "Uma força de trabalho distribuída de gente com background sólido, talento e paixão. Sinta-se bem vindo a aparecer em um dos <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">nossos calls semanais de desenvolvimento</a>",
+        "text": "Uma força de trabalho distribuída de gente com background sólido, talento e paixão. Sinta-se bem vindo a aparecer em um dos <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">nossos calls semanais de desenvolvimento.</a>",
         "list": [
           {
             "url": "https://medium.com/@felipegachopereira",
@@ -600,14 +600,14 @@ window.PARATII = {
             "text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumni."
           },
           {
-            "url": "",
+            "url": "https://github.com/bent0b0x",
             "image": "./images/team/Ben.png",
             "name": "Benjamin Baum",
             "job": "Lead Frontend Engineer",
             "text": "University of Cornell alumni and former research assistant, senior software engineer at Hubspot."
           },
           {
-            "url": "",
+            "url": "https://github.com/aeftimia",
             "image": "./images/team/Alex.png",
             "name": "Alex Eftimiades",
             "job": "R&D Scientist",
@@ -642,7 +642,7 @@ window.PARATII = {
             "text": "Ex-Popcorn developer; browser-to-browser communication specialist."
           },
           {
-            "url": "",
+            "url": "https://github.com/Leeaandrob",
             "image": "./images/team/Leandro.png",
             "name": "Leandro Barbosa",
             "job": "Devops Engineer",
@@ -681,7 +681,7 @@ window.PARATII = {
             "image": "./images/team/Tom.png",
             "name": "Tomás Xavier",
             "job": "Content Producer",
-            "text": "Around the Block lead brain and director of photography, music maker, film composer and editor."
+            "text": "Around the Block lead brain and photographer, music maker, film composer and editor."
           },
         ]
       },
