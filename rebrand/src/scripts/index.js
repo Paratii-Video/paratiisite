@@ -582,7 +582,7 @@ window.PARATII = {
         "list": [
           {
             "url": "https://medium.com/@felipegachopereira",
-            "image": "./images/team/Alex.png",
+            "image": "./images/team/Felipe.png",
             "name": "Felipe Sant Ana",
             "job": "Project Lead",
             "text": "Crowdfunding pioneer in Brazil, ESPM alumni, ex-Endeavor & BossaNovaFilms."
@@ -663,13 +663,6 @@ window.PARATII = {
             "name": "Paulo Perez",
             "job": "Strategy & Vision",
             "text": "Co-founder @ Doubleleft, (acquired by Interpublic). Cannes Lions and Webby Awards winner."
-          },
-          {
-            "url": "",
-            "image": "./images/team/Lidia.png",
-            "name": "Lidia Zuin",
-            "job": "Content Lead",
-            "text": "Doctoring in visual arts at UNICAMP, masters in semiotics at PUC-SP, alumni at the Cásper Líbero College. Seasoned researcher and writer."
           },
           {
             "url": "",

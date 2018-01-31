@@ -314,7 +314,9 @@
           <div class="main-section-wrapper main-color-section-wrapper">
             <h2 class="main-section-title">{{content.onthenews.title}}</h2>
             <div class="paratii-onthenews-buttons">
-              <a class="paratii-onthenews-button" v-bind:href="item.href" v-bind:style="backgroundImage(item.image)" target="_blank" v-for="(item, index) in content.onthenews.list">{{item.title}}</a>
+              <a class="paratii-onthenews-button" v-bind:href="item.href" target="_blank" v-for="(item, index) in content.onthenews.list">
+                <img class="paratii-onthenews-button-image" v-bind:src="item.image" />
+              </a>
             </div>
           </div>
         </div>
@@ -329,7 +331,6 @@
               <p class="main-section-content-text">{{content.videos.text}}</p>
             </div>
             <div class="paratii-videos-list">
-              <iframe class="paratii-videos-item" v-bind:src="item.url" allowfullscreen v-for="item in content.videos.list"></iframe>
             </div>
               <div class="main-section-call">
                 <a class="paratii-button paratii-button--red" v-bind:href="content.videos.buttonHref" target="_blank">{{content.videos.button}}</a>
