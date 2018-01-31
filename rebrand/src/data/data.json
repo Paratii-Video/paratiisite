@@ -132,7 +132,7 @@ window.PARATII = {
             "dateEnd": "2017-06-30"
           },
           {
-            "text": "Paratii foundation incorporated in Estonia",
+            "text": "Paratii foundation incorporated",
             "textDate": "Oct 2017",
             "dateStart": "2017-10-01",
             "dateEnd": "2017-10-31"
@@ -144,13 +144,13 @@ window.PARATII = {
             "dateEnd": "2017-12-31"
           },
           {
-            "text": "v0.0.2: Paratii-lib and plugin-oriented player refactoring",
+            "text": "v0.0.2: Paratii-lib and new plugin-oriented player",
             "textDate": "Feb 2018",
             "dateStart": "2018-01-01",
             "dateEnd": "2018-02-01"
           },
           {
-            "text": "Web-portal for uploading and browsing (whitelisted creators)",
+            "text": "First web-portal for uploading and browsing",
             "textDate": "Mar 2018",
             "dateStart": "2018-02-01",
             "dateEnd": "2018-02-28"
@@ -168,13 +168,13 @@ window.PARATII = {
             "dateEnd": "2018-05-31"
           },
           {
-            "text": "Open access to uploading + pilot publishers program",
+            "text": "Pilot program with publishers",
             "textDate": "Q2 2018",
             "dateStart": "2018-06-01",
             "dateEnd": "2018-06-30"
           },
           {
-            "text": "Main contracts bridging to mainnet",
+            "text": "Main contracts' bridging to mainnet",
             "textDate": "Q3 2018",
             "dateStart": "2018-08-01",
             "dateEnd": "2018-08-30"
@@ -504,7 +504,7 @@ window.PARATII = {
             "dateEnd": "2017-06-30"
           },
           {
-            "text": "Fundação Paratii incorporada na Estônia",
+            "text": "Fundação Paratii incorporada",
             "textDate": "Oct 2017",
             "dateStart": "2017-10-01",
             "dateEnd": "2017-10-31"
@@ -522,7 +522,7 @@ window.PARATII = {
             "dateEnd": "2018-01-31"
           },
           {
-            "text": " Portal para upload e browsing de conteúdo",
+            "text": "1º portal para upload e browsing de conteúdo",
             "textDate": "Mar 2018",
             "dateStart": "2018-02-01",
             "dateEnd": "2018-02-28"
@@ -534,13 +534,13 @@ window.PARATII = {
             "dateEnd": "2018-03-31"
           },
           {
-            "text": "Evento de distribuição dos tokens (com funcionalidade na mainnet)",
+            "text": "Evento de distribuição dos tokens",
             "textDate": "Mai 2018",
             "dateStart": "2018-04-01",
             "dateEnd": "2018-05-31"
           },
           {
-            "text": "Acesso aberto a uploads + programa piloto com publishers",
+            "text": "Programa piloto com publishers",
             "textDate": "Q2 2018",
             "dateStart": "2018-06-01",
             "dateEnd": "2018-06-30"
