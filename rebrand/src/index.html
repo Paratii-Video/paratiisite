@@ -329,6 +329,9 @@
             <div class="paratii-videos-list">
               <iframe class="paratii-videos-item" v-bind:src="item.url" allowfullscreen v-for="item in content.videos.list"></iframe>
             </div>
+              <div class="main-section-call">
+                <a class="paratii-button paratii-button--red" v-bind:href="content.videos.buttonHref" target="_blank">{{content.videos.button}}</a>
+              </div>
           </div>
         </section>
       </main>

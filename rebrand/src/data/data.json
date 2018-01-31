@@ -337,7 +337,9 @@ window.PARATII = {
           {"url": "https://www.youtube.com/embed/H4-0mNaZP50"},
           {"url": "https://www.youtube.com/embed/mX7VuUeduEY"},
           {"url": "https://www.youtube.com/embed/7waTiMBlXbw"}
-        ]
+        ],
+        "button": "See more",
+        "buttonHref": "https://www.youtube.com/channel/UC5OOwdF37P_oT0OVf2DvuPg"
       },
       "footer": {
         "text": "We ♥ open source",
@@ -714,7 +716,9 @@ window.PARATII = {
           {"url": "https://www.youtube.com/embed/H4-0mNaZP50"},
           {"url": "https://www.youtube.com/embed/mX7VuUeduEY"},
           {"url": "https://www.youtube.com/embed/7waTiMBlXbw"}
-        ]
+        ],
+        "button": "Veja mais",
+        "buttonHref": "https://www.youtube.com/channel/UC5OOwdF37P_oT0OVf2DvuPg"
       },
       "footer": {
         "text": "Nós ♥ código aberto",
