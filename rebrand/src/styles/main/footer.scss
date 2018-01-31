@@ -110,10 +110,7 @@ $size-paratii-footer-mobile: 260px;
         right: auto;
         text-align: center;
         top: auto;
-      }
-
-      @include screenPhablet {
-        margin: 20px 0 0;
+        margin: 20px 0;
       }
     }
 
@@ -124,8 +121,14 @@ $size-paratii-footer-mobile: 260px;
     }
 
     .main-social-item {
-      @include screenPhablet {
-        margin: 0 15px;
+      margin: 0 15px;
+
+      @include screenMobile {
+        margin: 0 10px
+      }
+
+      @include screenMobileMax {
+        margin: 0 8px
       }
     }
   }
