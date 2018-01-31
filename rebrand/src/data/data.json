@@ -38,7 +38,7 @@ window.PARATII = {
             "title": "Community",
             "text": "users are the heart of the network, curating content and providing essential resources. In exchange, they earn tokens, which can come in seamlessly, for example, while one watches a video and streams pieces of it to nearby peers.",
             "button": "Join our Telegram",
-            "buttonHref": "http://t.me/paratiivideo/",
+            "buttonHref": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>"
           }
         ],
@@ -396,22 +396,22 @@ window.PARATII = {
           {
             "title": "Criadores",
             "text": "faça upload de conteúdo original, ou simplesmente cole um link e “replique” na Paratii conteúdo que já está em outro lugar. Experimente monetizar sem intermediários. Sem cortes na sua receita. Sem bloqueios ou manipulação com sua audiência.",
-            "button": "Inscreva-se para estar entre os primeiros uploaders",
+            "button": "Esteja entre os primeiros uploaders",
             "buttonHref": "http://paratii.video/",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>"
           },
           {
             "title": "Publishers",
             "text": "basta uma linha de código para embedar o player na sua página e acessar uma rede auto-escalável em que o serviço fica mais barato conforme a audiência cresce. Quer ir além? Baixe um pacote para <q>minerar</q> o sistema, rodando um nó especial, que chamamos de nó de mídia.",
-            "button": "Experimente e ganhe tokens para testar",
+            "button": "Peça uma demo",
             "buttonHref": "http://paratii.video/",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>"
           },
           {
             "title": "Comunidade",
             "text": "usuários são o motor da rede, curando conteúdo e provendo atenção e armazenagem enquanto assistem. Em troca, recebem tokens, que podem ser ganhos imperceptivelmente, por exemplo, quando se assiste um clipe e o player manda alguns pedaços dele para um outro habitante da cidade por acaso assistindo-o também.",
-            "button": "Participe do programa de token bounty",
-            "buttonHref": "http://paratii.video/",
+            "button": "Entre no nosso Telegram",
+            "buttonHref": "http://t.me/paratiivideo/",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>"
           }
         ],
