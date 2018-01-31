@@ -254,14 +254,16 @@
             <div class="main-section-content main-section-content--with-margin">
               <p class="main-section-content-text">{{content.roadmap.text}}</p>
             </div>
-            <ol class="paratii-roadmap-list">
-              <li class="paratii-roadmap-item" v-for="(item, index) in content.roadmap.list" v-bind:class="roadmapClass('paratii-roadmap-item--', item)">
-                <div class="paratii-roadmap-item-icon" v-bind:class="setLoopClass('paratii-roadmap-item-icon--', index)"></div>
-                <p class="paratii-roadmap-item-text">{{item.text}}</p>
-                <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>{{item.textDate}}</p>
-              </li>
-            </ol>
-            <span class="paratii-roadmap-path"></span>
+            <div class="main-section-content main-section-content--no-padding paratii-roadmap-content">
+              <ol class="paratii-roadmap-list">
+                <li class="paratii-roadmap-item" v-for="(item, index) in content.roadmap.list" v-bind:class="roadmapClass('paratii-roadmap-item--', item)">
+                  <div class="paratii-roadmap-item-icon" v-bind:class="setLoopClass('paratii-roadmap-item-icon--', index)"></div>
+                  <p class="paratii-roadmap-item-text">{{item.text}}</p>
+                  <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>{{item.textDate}}</p>
+                </li>
+              </ol>
+              <span class="paratii-roadmap-path"></span>
+            </div>
           </div>
         </section>
 

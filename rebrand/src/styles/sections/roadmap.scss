@@ -46,15 +46,19 @@ $size-paratii-roadmap-item-bottom: 30px;
 
   //
 
-  &-path {
-    display: none;
+  &-content {
+    position: relative;
+  }
 
+  //
+
+  &-path {
     background: url('../svgs/paratii-roadmap-path.svg') no-repeat 50% 50%;
-    bottom: -347px;
     fill: $color-purple-light;
     height: 1438px;
     left: 50%;
     position: absolute;
+    top: 60px;
     transform: translate3d(-850px, 0, 0);
     width: 1550px;
     z-index: 3;
@@ -99,7 +103,7 @@ $size-paratii-roadmap-item-bottom: 30px;
     box-shadow: 0px 0px 20px 0px $box-shadow-color;
     color: $color-black;
     flex-basis: 215px;
-    margin-bottom: 170px;
+    margin-bottom: 250px;
     position: relative;
     text-align: center;
 
@@ -195,6 +199,7 @@ $size-paratii-roadmap-item-bottom: 30px;
       @extend .text-small;
 
       font-weight: $font-bold;
+      height: 110px;
       padding: 0 20px ($size-paratii-roadmap-item-bottom + 10px);
 
       @include screenPhablet {
