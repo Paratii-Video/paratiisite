@@ -1,5 +1,21 @@
 // Main
 
+body {
+  &::before {
+    @extend .pos-a-t;
+
+    content: 'screen?';
+    opacity: 0;
+    pointer-events: none;
+
+    @include screenDesktop { content: 'screenDesktop'; }
+    @include screenTablet { content: 'screenTablet'; }
+    @include screenPhablet { content: 'screenPhablet'; }
+    @include screenMobileMax { content: 'screenMobileMax'; }
+    @include screenMobile { content: 'screenMobile'; }
+  }
+}
+
 //
 
 .paratii-main {
@@ -20,14 +36,6 @@
 
     @include screenMobile {
       margin-top: 15px
-    }
-  }
-
-  &-item {
-    margin-left: 15px;
-
-    @include screenMobile {
-      margin-left: 5px
     }
   }
 

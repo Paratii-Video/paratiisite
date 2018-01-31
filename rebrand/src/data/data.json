@@ -210,7 +210,7 @@ window.PARATII = {
         "list": [
           {
             "url": "https://medium.com/@felipegachopereira",
-            "image": "./images/team/Alex.png",
+            "image": "./images/team/Felipe.png",
             "name": "Felipe Sant Ana",
             "job": "Project Lead",
             "text": "Crowdfunding pioneer in Brazil, ESPM alumni, ex-Endeavor & BossaNovaFilms."
@@ -230,16 +230,16 @@ window.PARATII = {
             "text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumni."
           },
           {
-            "url": "",
+            "url": "https://github.com/",
             "image": "./images/team/Ben.png",
             "name": "Benjamin Baum",
             "job": "Lead Frontend Engineer",
             "text": "University of Cornell alumni and former research assistant, senior software engineer at Hubspot."
           },
           {
-            "url": "",
-            "image": "./images/team/Alef.png",
-            "name": "Alef Eftimiades",
+            "url": "https://github.com/",
+            "image": "./images/team/Alex.png",
+            "name": "Alex Eftimiades",
             "job": "R&D Scientist",
             "text": "Algorithms expert, internships at the US Army Research Lab and NASA Goddard Space Flight Center."
           },
@@ -265,14 +265,14 @@ window.PARATII = {
             "text": "Electronic engineer @ Instituto Politecnico di Torino, professor at IED, former web developer."
           },
           {
-            "url": "",
+            "url": "https://github.com/",
             "image": "./images/team/Milan.png",
             "name": "Milan Kragujevic",
             "job": "Video Engineer",
             "text": "Ex-Popcorn developer; browser-to-browser communication specialist."
           },
           {
-            "url": "",
+            "url": "https://github.com/",
             "image": "./images/team/Leandro.png",
             "name": "Leandro Barbosa",
             "job": "Devops Engineer",
@@ -293,21 +293,14 @@ window.PARATII = {
             "text": "Co-founder @ Doubleleft, (acquired by Interpublic). Cannes Lions and Webby Awards winner."
           },
           {
-            "url": "",
-            "image": "./images/team/Lidia.png",
-            "name": "Lidia Zuin",
-            "job": "Content Lead",
-            "text": "Doctoring in visual arts at UNICAMP, masters in semiotics at PUC-SP, alumni at the Cásper Líbero College. Seasoned researcher and writer."
-          },
-          {
-            "url": "",
+            "url": "https://github.com/",
             "image": "./images/team/Daniel.png",
             "name": "Daniel Quandt",
             "job": "Community Manager",
             "text": "USP-SP graduate and intern at innovation agency, reddit dinosaur."
           },
           {
-            "url": "",
+            "url": "https://github.com/",
             "image": "./images/team/Tom.png",
             "name": "Tomás Xavier",
             "job": "Content Producer",
@@ -338,7 +331,8 @@ window.PARATII = {
       },
       "videos": {
         "title": "Videos",
-        "subtitle": "You can find someone of the team regularly in (or invite to!) meetups, events and conferences mostly in Brazil, the U.S and Italy.",
+        "subtitle": "Our videos",
+        "text": "You can find someone of the team regularly in (or invite to!) meetups, events and conferences mostly in Brazil, the U.S and Italy.",
         "list": [
           {"url": "https://www.youtube.com/embed/H4-0mNaZP50"},
           {"url": "https://www.youtube.com/embed/mX7VuUeduEY"},
@@ -363,17 +357,22 @@ window.PARATII = {
             {
               "title": "Medium",
               "href": "https://medium.com/paratii",
-              "icon": "<use xlink:href=\"#icon-social-github\">"
+              "icon": "<use xlink:href=\"#icon-social-medium\">"
             },
             {
               "title": "E-mail",
               "href": "mailto:hello@paratii.video",
-              "icon": "<use xlink:href=\"#icon-social-medium\">"
+              "icon": "<use xlink:href=\"#icon-social-email\">"
             },
             {
               "title": "Steemit",
               "href": "http://steemit.com/@paratii",
               "icon": "<use xlink:href=\"#icon-social-steemit\">"
+            },
+            {
+              "title": "Telegram",
+              "href": "https://t.me/paratiivideo",
+              "icon": "<use xlink:href=\"#icon-social-telegram\">"
             }
           ]
         }
@@ -609,8 +608,8 @@ window.PARATII = {
           },
           {
             "url": "",
-            "image": "./images/team/Alef.png",
-            "name": "Alef Eftimiades",
+            "image": "./images/team/Alex.png",
+            "name": "Alex Eftimiades",
             "job": "R&D Scientist",
             "text": "Algorithms expert, internships at the US Army Research Lab and NASA Goddard Space Flight Center."
           },
@@ -709,7 +708,8 @@ window.PARATII = {
       },
       "videos": {
         "title": "Vídeos",
-        "subtitle": "Encontre com alguém do time em (ou convide para!) meetups, eventos e conferências, principalmente no Brasil, EUA ou Itália.",
+        "subtitle": "Nossos vídeos",
+        "text": "Encontre com alguém do time em (ou convide para!) meetups, eventos e conferências, principalmente no Brasil, EUA ou Itália.",
         "list": [
           {"url": "https://www.youtube.com/embed/H4-0mNaZP50"},
           {"url": "https://www.youtube.com/embed/mX7VuUeduEY"},
@@ -734,17 +734,22 @@ window.PARATII = {
             {
               "title": "Medium",
               "href": "https://medium.com/paratii",
-              "icon": "<use xlink:href=\"#icon-social-github\">"
+              "icon": "<use xlink:href=\"#icon-social-medium\">"
             },
             {
               "title": "E-mail",
               "href": "mailto:hello@paratii.video",
-              "icon": "<use xlink:href=\"#icon-social-medium\">"
+              "icon": "<use xlink:href=\"#icon-social-email\">"
             },
             {
               "title": "Steemit",
               "href": "http://steemit.com/@paratii",
               "icon": "<use xlink:href=\"#icon-social-steemit\">"
+            },
+            {
+              "title": "Telegram",
+              "href": "https://t.me/paratiivideo",
+              "icon": "<use xlink:href=\"#icon-social-telegram\">"
             }
           ]
         }

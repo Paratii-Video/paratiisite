@@ -8,6 +8,24 @@ $query-phablet: "(max-width: ($screen-tablet - 1))";
 $query-tablet: "(max-width: ($screen-tablet + 100))";
 $query-desktop: "(min-width: $screen-notebook)";
 
+@mixin screenDesktop {
+  @media #{$query-desktop} {
+    @content
+  }
+};
+
+@mixin screenTablet {
+  @media #{$query-tablet} {
+    @content
+  }
+};
+
+@mixin screenPhablet {
+  @media #{$query-phablet} {
+    @content
+  }
+};
+
 @mixin screenMobileMax {
   @media #{$query-mobile-max} {
     @content
@@ -19,25 +37,6 @@ $query-desktop: "(min-width: $screen-notebook)";
     @content
   }
 };
-@mixin screenPhablet {
-  @media #{$query-phablet} {
-    @content
-  }
-};
-
-@mixin screenTablet {
-  @media #{$query-tablet} {
-    @content
-  }
-};
-
-@mixin screenDesktop {
-  @media #{$query-desktop} {
-    @content
-  }
-};
-
-
 
 //
 

@@ -32,12 +32,12 @@
       margin-bottom: 40px;
     }
 
-    @include screenMobile {
-      height: 310px;
-    }
-
     @include screenMobileMax {
       height: 170px;
+    }
+
+    @include screenMobile {
+      height: 310px;
     }
   }
 }
