@@ -12,9 +12,9 @@ window.PARATII = {
         "image": "./svgs/paratii-header.svg",
         "small": "<strong>Beta version to be released soon.</strong><br> Subscribe now and don't miss out.",
         "buttonA": "Request publisher demo",
-        "buttonAhref": "http://paratii.video/",
+        "buttonAhref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
         "buttonB": "Subscribe",
-        "buttonBhref": "http://paratii.video/"
+        "buttonBhref": "https://www.getrevue.co/profile/Paratii"
       },
       "audiences": {
         "title": "Audiences",
@@ -31,7 +31,7 @@ window.PARATII = {
             "title": "Publishers",
             "text": "Embed the player in your page with a line of code to access a self-scalable network whose services get cheaper as your audience grows. Want to go further? You'll be able to download a software package and “profit off” the system by running a special media node.",
             "button": "Request publisher demo",
-            "buttonHref": "http://paratii.video/",
+            "buttonHref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>"
           },
           {
@@ -132,7 +132,7 @@ window.PARATII = {
             "dateEnd": "2017-06-30"
           },
           {
-            "text": "Paratii foundation incorporated in Estonia",
+            "text": "Paratii foundation incorporated",
             "textDate": "Oct 2017",
             "dateStart": "2017-10-01",
             "dateEnd": "2017-10-31"
@@ -144,13 +144,13 @@ window.PARATII = {
             "dateEnd": "2017-12-31"
           },
           {
-            "text": "v0.0.2: Paratii-lib and plugin-oriented player refactoring",
+            "text": "v0.0.2: Paratii-lib and new plugin-oriented player",
             "textDate": "Feb 2018",
             "dateStart": "2018-01-01",
             "dateEnd": "2018-02-01"
           },
           {
-            "text": "Web-portal for uploading and browsing (whitelisted creators)",
+            "text": "First web-portal for uploading and browsing",
             "textDate": "Mar 2018",
             "dateStart": "2018-02-01",
             "dateEnd": "2018-02-28"
@@ -168,13 +168,13 @@ window.PARATII = {
             "dateEnd": "2018-05-31"
           },
           {
-            "text": "Open access to uploading + pilot publishers program",
+            "text": "Pilot program with publishers",
             "textDate": "Q2 2018",
             "dateStart": "2018-06-01",
             "dateEnd": "2018-06-30"
           },
           {
-            "text": "Main contracts bridging to mainnet",
+            "text": "Main contracts' bridging to mainnet",
             "textDate": "Q3 2018",
             "dateStart": "2018-08-01",
             "dateEnd": "2018-08-30"
@@ -387,9 +387,9 @@ window.PARATII = {
         "image": "./svgs/paratii-header.svg",
         "small": "<strong>Versão beta será lançada em breve.</strong><br> Inscreva-se e não fique de fora.",
         "buttonA": "Publisher? Peça um demo",
-        "buttonAhref": "http://paratii.video/",
+        "buttonAhref": "https://goo.gl/forms/HTLaPJEwjH0WfXA13",
         "buttonB": "Inscreva-se",
-        "buttonBhref": "http://paratii.video/"
+        "buttonBhref": "https://www.getrevue.co/profile/Paratii"
       },
       "audiences": {
         "title": "Públicos",
@@ -397,21 +397,21 @@ window.PARATII = {
         "list": [
           {
             "title": "Criadores",
-            "text": "faça upload de conteúdo original, ou simplesmente cole um link e “replique” na Paratii conteúdo que já está em outro lugar. Experimente monetizar sem intermediários. Sem cortes na sua receita. Sem bloqueios ou manipulação com sua audiência.",
+            "text": "Faça upload de conteúdo original, ou simplesmente cole um link e “replique” na Paratii conteúdo que já está em outro lugar. Experimente monetizar sem intermediários. Sem cortes na sua receita. Sem bloqueios ou manipulação com sua audiência.",
             "button": "Esteja entre os primeiros uploaders",
-            "buttonHref": "http://paratii.video/",
+            "buttonHref": "https://docs.google.com/forms/d/13neNk4DRE3AxofLhQFb7kidPM-8g5QmxMVumrezrE7Y/",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>"
           },
           {
             "title": "Publishers",
-            "text": "basta uma linha de código para embedar o player na sua página e acessar uma rede auto-escalável em que o serviço fica mais barato conforme a audiência cresce. Quer ir além? Baixe um pacote para <q>minerar</q> o sistema, rodando um nó especial, que chamamos de nó de mídia.",
+            "text": "Basta uma linha de código para embedar o player na sua página e acessar uma rede auto-escalável em que o serviço fica mais barato conforme a audiência cresce. Quer ir além? Baixe um pacote para <q>minerar</q> o sistema, rodando um nó especial, que chamamos de nó de mídia.",
             "button": "Peça uma demo",
-            "buttonHref": "http://paratii.video/",
+            "buttonHref": "https://goo.gl/forms/HTLaPJEwjH0WfXA13",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>"
           },
           {
             "title": "Comunidade",
-            "text": "usuários são o motor da rede, curando conteúdo e provendo atenção e armazenagem enquanto assistem. Em troca, recebem tokens, que podem ser ganhos imperceptivelmente, por exemplo, quando se assiste um clipe e o player manda alguns pedaços dele para um outro habitante da cidade por acaso assistindo-o também.",
+            "text": "Usuários são o motor da rede, curando conteúdo e provendo atenção e armazenagem enquanto assistem. Em troca, recebem tokens, que podem ser ganhos imperceptivelmente, por exemplo, quando se assiste um clipe e o player manda alguns pedaços dele para um outro habitante da cidade por acaso assistindo-o também.",
             "button": "Entre no nosso Telegram",
             "buttonHref": "http://t.me/paratiivideo/",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>"
@@ -504,7 +504,7 @@ window.PARATII = {
             "dateEnd": "2017-06-30"
           },
           {
-            "text": "Fundação Paratii incorporada na Estônia",
+            "text": "Fundação Paratii incorporada",
             "textDate": "Oct 2017",
             "dateStart": "2017-10-01",
             "dateEnd": "2017-10-31"
@@ -522,7 +522,7 @@ window.PARATII = {
             "dateEnd": "2018-01-31"
           },
           {
-            "text": " Portal para upload e browsing de conteúdo",
+            "text": "1º portal para upload e browsing de conteúdo",
             "textDate": "Mar 2018",
             "dateStart": "2018-02-01",
             "dateEnd": "2018-02-28"
@@ -534,13 +534,13 @@ window.PARATII = {
             "dateEnd": "2018-03-31"
           },
           {
-            "text": "Evento de distribuição dos tokens (com funcionalidade na mainnet)",
+            "text": "Evento de distribuição dos tokens",
             "textDate": "Mai 2018",
             "dateStart": "2018-04-01",
             "dateEnd": "2018-05-31"
           },
           {
-            "text": "Acesso aberto a uploads + programa piloto com publishers",
+            "text": "Programa piloto com publishers",
             "textDate": "Q2 2018",
             "dateStart": "2018-06-01",
             "dateEnd": "2018-06-30"
@@ -742,7 +742,7 @@ window.PARATII = {
             },
             {
               "title": "E-mail",
-              "href": "mailto:hello@paratii.video",
+              "href": "mailto:we@paratii.video",
               "icon": "<use xlink:href=\"#icon-social-email\">"
             },
             {
