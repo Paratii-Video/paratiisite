@@ -81,7 +81,7 @@ window.PARATII = {
         "call": {
           "text": "Experiment version 0.0.1 of the player!",
           "button": "Try demo",
-          "href": "http://paratii.video/"
+          "href": "https://paratii-video.github.io/paratii-embed/"
         }
       },
       "components": {
@@ -427,34 +427,34 @@ window.PARATII = {
         "image": "./svgs/paratii-features.svg",
         "list": [
           {
-            "text": "<strong>Vídeos podem ser gratuitos ou não.</strong> Para o usuário, parecem a mesma coisa, mas alguns exigem a validação de um micropagamento",
+            "text": "<strong>Vídeos podem ser gratuitos ou não.</strong> Para o usuário, parecem a mesma coisa, mas alguns exigem a validação de um micropagamento.",
             "icon": "<use xlink:href=\"#icon-user\"></use>"
           },
           {
-            "text": "<strong>Adaptive bitrate streaming: a cada segundo, usuários recebem a melhor qualidade de arquivo suportada por seu aparelho e conexão.</strong> A mágica de processamento é feita por uma rede distribuída de transcoders",
+            "text": "<strong>Adaptive bitrate streaming: a cada segundo, usuários recebem a melhor qualidade de arquivo suportada por seu aparelho e conexão.</strong> A mágica de processamento é feita por uma rede distribuída de transcoders.",
             "icon": "<use xlink:href=\"#icon-gear\"></use>"
           },
           {
-            "text": "<strong>Usuários podem ganhar tokens até ao assistir conteúdo.</strong> Estes ficam numa carteira dentro do player, e fundos “em excesso” (pense num criador que anda gerando muita audiência) são transferidos para uma conta separada",
+            "text": "<strong>Usuários podem ganhar tokens até ao assistir conteúdo.</strong> Estes ficam numa carteira dentro do player, e fundos “em excesso” (pense num criador que anda gerando muita audiência) são transferidos para uma conta separada.",
             "icon": "<use xlink:href=\"#icon-user\"></use>"
           },
           {
-            "text": "<strong>Usuários casuais podem assistir horas de vídeo e nunca notar que este não é um player comum.</strong> TQuem fizer login pode reivindicar os tokens gerados pela atividade passada, e usá-los para curar, adquirir ou promover vídeos",
+            "text": "<strong>Usuários casuais podem assistir horas de vídeo e nunca notar que este não é um player comum.</strong> TQuem fizer login pode reivindicar os tokens gerados pela atividade passada, e usá-los para curar, adquirir ou promover vídeos.",
             "icon": "<use xlink:href=\"#icon-user\"></use>"
           },
           {
-            "text": "<strong>Múltiplas plataformas são suportadas.</strong> Quer ganhar alcance, como criador? Você pode alocar automaticamente parte da receita gerada para aqueles que promoverem o seu conteúdo",
+            "text": "<strong>Múltiplas plataformas são suportadas.</strong> Quer ganhar alcance, como criador? Você pode alocar automaticamente parte da receita gerada para aqueles que promoverem o seu conteúdo.",
             "icon": "<use xlink:href=\"#icon-user\"></use>"
           },
           {
-            "text": "<strong>Quem faz a curadoria é a audiência</strong>, e não um big brother da vida. Usuários são recompensados por apontarem conteúdo inapropriado antes dos outros, ou encontrarem material que infringe copyrights",
+            "text": "<strong>Quem faz a curadoria é a audiência</strong>, e não um big brother da vida. Usuários são recompensados por apontarem conteúdo inapropriado antes dos outros, ou encontrarem material que infringe copyrights.",
             "icon": "<use xlink:href=\"#icon-like\"></use>"
           }
         ],
         "call": {
           "text": "Experimente a versão 0.0.1 do player!",
           "button": "Testar demo",
-          "href": "http://paratii.video/"
+          "href": "https://paratii-video.github.io/paratii-embed/"
         }
       },
       "components": {
@@ -471,14 +471,14 @@ window.PARATII = {
           {
             "class": "paratii-components-content--color",
             "title": "O token PTI",
-            "text": "Token de “stake” nativo, representa o direito de ter vídeos em uma lista de conteúdo e curá-la, além de poder criar outras. O PTI também pode ser usado como meio de pagamento para certos serviços, vídeos pay-per-view e anúncios. <strong>Como ganhar o token?<strong> Redistribuindo vídeos automaticamente ao assisti-los no browser, rodando um programa que chamamos de 'nó de mídia', ou curando conteúdo.
+            "text": "Token de “stake” nativo, representa o direito de ter vídeos em uma lista de conteúdo e curá-la, além de poder criar outras. O PTI também pode ser usado como meio de pagamento para certos serviços, vídeos pay-per-view e anúncios. <strong>Como ganhar o token?<strong> Redistribuindo vídeos automaticamente ao assisti-los no browser, rodando um programa que chamamos de 'nó de mídia', ou curando conteúdo.",
             "image": "./svgs/paratii-the-token.svg",
             "href": "https://github.com/Paratii-Video/paratii-contracts"
           },
           {
             "class": "",
             "title": "O Player",
-            "text": "<strong>Um player de mídia embedável</strong>, modular e extensível, para se customizar como quiser. Aplique-o na sua página, canal de mídia ou site de notícias com uma linha de código. Compartilhe-o em redes sociais quando encontrar com um no Twitter, no Medium ou no Telegram. Com a paratii-lib, desenvolvedores também podem construir facilmente widgets e plugins de todo tipo para modificar o frontend, além interagir com módulos específicos do protocolo",
+            "text": "<strong>Um player de mídia embedável</strong>, modular e extensível, para se customizar como quiser. Aplique-o na sua página, canal de mídia ou site de notícias com uma linha de código. Compartilhe-o em redes sociais quando encontrar com um no Twitter, no Medium ou no Telegram. Com a paratii-lib, desenvolvedores também podem construir facilmente widgets e plugins de todo tipo para modificar o frontend, além interagir com módulos específicos do protocolo.",
             "image": "./svgs/paratii-the-player.svg",
             "href": "https://github.com/Paratii-Video/paratii-mediaplayer"
           }
