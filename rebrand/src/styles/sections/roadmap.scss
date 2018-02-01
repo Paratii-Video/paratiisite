@@ -62,10 +62,6 @@ $size-paratii-roadmap-item-bottom: 30px;
     width: 1550px;
     z-index: 3;
 
-    @include screenTablet {
-      display: none;
-    }
-
     @media (max-width: 1169px) {
       display: none;
     }
@@ -90,12 +86,23 @@ $size-paratii-roadmap-item-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 100px;
     position: relative;
     z-index: 4;
 
-    @include screenTablet {
+    @include screenMobile {
       justify-content: space-evenly;
+    }
+
+    @include screenMobileMax {
+      justify-content: space-between;
+    }
+
+    &--reverse {
+      flex-direction: row-reverse;
+
+      @include screenTablet {
+        flex-direction: row;
+      }
     }
   }
 
@@ -110,7 +117,8 @@ $size-paratii-roadmap-item-bottom: 30px;
     text-align: center;
 
     @include screenTablet {
-      margin: 0 1% 160px;
+      flex-basis: 19%;
+      margin-bottom: 160px;
     }
 
     @include screenPhablet {
@@ -164,6 +172,11 @@ $size-paratii-roadmap-item-bottom: 30px;
       margin: 60px auto 30px;
       width: 100%;
 
+      @include screenTablet {
+        height: 115px;
+        margin: 30px auto 20px;
+      }
+
       @include screenPhablet {
         height: 110px;
         margin: 40px auto 20px;
@@ -201,7 +214,7 @@ $size-paratii-roadmap-item-bottom: 30px;
 
       font-weight: $font-bold;
       height: 110px;
-      padding: 0 20px ($size-paratii-roadmap-item-bottom + 10px);
+      padding: 0 20px $size-paratii-roadmap-item-bottom;
 
       @include screenTablet {
         height: initial;

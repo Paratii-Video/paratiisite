@@ -118,7 +118,7 @@ window.PARATII = {
         "title": "Roadmap",
         "subtitle": "A short recap and next milestones",
         "text": "Paratii has been under design and development for little over an year. Our vision is to provide an open market for audiovisual stories where any agent, independently of its size and bank account, has an equal chance to be heard or seen and profit off the network.",
-        "list": [
+        "listA": [
           {
             "text": "Team formation",
             "textDate": "Nov 2016",
@@ -146,14 +146,16 @@ window.PARATII = {
           {
             "text": "v0.0.2: Paratii-lib and new plugin-oriented player",
             "textDate": "Feb 2018",
-            "dateStart": "2018-01-01",
-            "dateEnd": "2018-02-01"
-          },
+            "dateStart": "2018-02-01",
+            "dateEnd": "2018-02-28"
+          }
+        ],
+        "listB": [
           {
             "text": "First web-portal for uploading and browsing",
             "textDate": "Mar 2018",
-            "dateStart": "2018-02-01",
-            "dateEnd": "2018-02-28"
+            "dateStart": "2018-03-01",
+            "dateEnd": "2018-03-31"
           },
           {
             "text": "Release bluepaper + protocol completion",
@@ -490,7 +492,7 @@ window.PARATII = {
         "title": "Roadmap",
         "subtitle": "Uma breve história e próximos releases",
         "text": "Paratii está sendo desenhada e desenvolvida há mais de um ano. Nossa visão consiste em semear um mercado aberto para histórias audiovisuais onde qualquer agente, independentemente de seu tamanho ou conta bancária, tem oportunidades iguais de ser ouvido e se beneficiar/lucrar do sistema, conforme esteja disposto a contribuir.",
-        "list": [
+        "listA": [
           {
             "text": "Formação do time",
             "textDate": "Nov 2016",
@@ -518,14 +520,16 @@ window.PARATII = {
           {
             "text": "v0.0.2: Paratii-lib e novo player plugin-oriented",
             "textDate": "Fev 2018",
-            "dateStart": "2018-01-01",
-            "dateEnd": "2018-01-31"
-          },
+            "dateStart": "2018-02-01",
+            "dateEnd": "2018-02-28"
+          }
+        ],
+        "listB": [
           {
             "text": "1º portal para upload e browsing de conteúdo",
             "textDate": "Mar 2018",
-            "dateStart": "2018-02-01",
-            "dateEnd": "2018-02-28"
+            "dateStart": "2018-03-01",
+            "dateEnd": "2018-03-31"
           },
           {
             "text": "Publicação do bluepaper + protocolo funcional",
