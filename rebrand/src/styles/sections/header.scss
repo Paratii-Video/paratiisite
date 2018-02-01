@@ -9,6 +9,15 @@ $zindex-paratii-header-small: 4;
 $zindex-paratii-header-content: 5;
 $zindex-paratii-header-buttons: 6;
 
+ // Fix :-webkit-autofill 
+
+@-webkit-keyframes autofill {
+    to {
+        color: $color-white;
+        background: transparent;
+    }
+}
+
 //
 
 .paratii-header {
@@ -19,6 +28,10 @@ $zindex-paratii-header-buttons: 6;
   min-height: 600px + $size-main-title-height;
   overflow: hidden;
   position: relative;
+
+  @include screenPhablet {
+    height: calc(80vh + #{$size-main-title-height});
+  }
 
   @include screenMobile {
     height: initial;
@@ -74,6 +87,10 @@ $zindex-paratii-header-buttons: 6;
     position: relative;
     z-index: $zindex-paratii-header-content;
 
+    @include screenPhablet {
+      margin-top: 130px;
+    }
+
     @include screenMobile {
       margin-top: 0;
     }
@@ -98,14 +115,18 @@ $zindex-paratii-header-buttons: 6;
 
   //
 
-  &-buttons {
+
+
+  &-subscribe {
     display: flex;
     margin: 70px 0 0;
+    max-width: 500px;
     position: relative;
+    width: 100%;
     z-index: $zindex-paratii-header-buttons;
     
     @include screenPhablet {
-      margin: 70px 0 50px;
+      margin: 50px 0;
     }
     
     @include screenMobile {
@@ -118,6 +139,40 @@ $zindex-paratii-header-buttons: 6;
       @include screenMobile {
         margin: 0 0 25px;
       }
+    }
+  }
+
+  &-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &-label {
+    flex: 0 0 60%;
+
+    @include screenPhablet {
+      flex: 0 0 100%;
+      margin-bottom: 50px;
+    }
+  }
+
+  &-input {
+    background: none;
+    border-bottom: 1px solid $color-white;
+    color: $color-white;
+    padding: 15px 2px 16px;
+    width: 100%;
+
+    &:-webkit-autofill {
+      animation-name: autofill;
+      animation-fill-mode: both;
+    }
+    
+    &::placeholder {
+      color: $color-white;
+      opacity: $anim-opacity-value;
     }
   }
 

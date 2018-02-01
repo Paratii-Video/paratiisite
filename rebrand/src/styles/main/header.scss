@@ -76,11 +76,14 @@
   transform: translate3d(-20px, 6px, 0);
   width: $size-main-title-width;
 
+  @include screenPhablet {
+    width: 155px;
+  }
+
   @include screenMobile {
     height: $size-main-title-height-mobile;
     transform: translate3d(-14px, 2px, 0);
     width: $size-main-title-width-mobile;
-
   }
 
   &-link {
