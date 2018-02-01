@@ -45,7 +45,7 @@ window.PARATII = {
         "call": {
           "text": "<strong class=\"main-section-content-title\">Media buyers & investors:</strong><br> PTI tokens will be publicly distributed in a soon-to-be-announced event.",
           "button": "Request early access",
-          "buttonHref": "http://paratii.video/asas",
+          "buttonHref": "https://goo.gl/forms/8zJ6Q6NcqgJXHf7r2",
         }
       },
       "features": {
@@ -420,7 +420,7 @@ window.PARATII = {
         "call": {
           "text": "<strong class=\"main-section-content-title\">Anunciantes e investidores:</strong><br> tokens PTI serão publicamente distribuídos em um evento a ser anunciado em breve.",
           "button": "Quero ter acesso",
-          "buttonHref": "http://paratii.video/",
+          "buttonHref": "https://goo.gl/forms/8zJ6Q6NcqgJXHf7r2",
         }
       },
       "features": {
