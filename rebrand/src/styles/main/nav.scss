@@ -177,7 +177,7 @@ $size-main-nav-mobile-top: 62px;
     &--pt {
       font-weight: $font-bold;
 
-      .navEn & {
+      .langEn & {
         font-weight: $font-regular;
         opacity: .5;
       }
@@ -186,7 +186,7 @@ $size-main-nav-mobile-top: 62px;
     &--en {
       opacity: .5;
 
-      .navEn & {
+      .langEn & {
         font-weight: $font-bold;
         opacity: 1;
       }

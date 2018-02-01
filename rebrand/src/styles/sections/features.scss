@@ -93,9 +93,14 @@ $size-paratii-features-item-svg: 45px;
     }
 
     &--4 {
-      top: -51px;
-      transform: translate3d(-330px, 0, 0);
-      width: 250px;
+      top: -70px;
+      transform: translate3d(-340px, 0, 0);
+      width: 270px;
+
+      .langEn & {
+        top: -51px;
+        width: 250px;
+      }
     }
 
     &--5 {
