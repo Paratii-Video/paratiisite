@@ -100,6 +100,11 @@ $size-paratii-features-item-svg: 45px;
       .langEn & {
         top: -51px;
         width: 250px;
+
+        @include screenPhablet {
+          top: initial;
+          width: initial;
+        }
       }
     }
 
