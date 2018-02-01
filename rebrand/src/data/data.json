@@ -24,7 +24,7 @@ window.PARATII = {
             "title": "Creators",
             "text": "Upload original creations or mirror existing content on Paratii, and experiment monetisation without middlemen. No cuts on your revenue. No blocking or manipulating your audience.",
             "button": "Be among the first uploaders",
-            "buttonHref": "http://paratii.video/",
+            "buttonHref": "https://docs.google.com/forms/d/13neNk4DRE3AxofLhQFb7kidPM-8g5QmxMVumrezrE7Y",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>"
           },
           {
@@ -294,7 +294,7 @@ window.PARATII = {
             "image": "./images/team/Tom.png",
             "name": "Tomás Xavier",
             "job": "Content Producer",
-            "text": "Around the Block lead brain and director of photography, music maker, film composer and editor."
+            "text": "Around the Block lead brain and cinematographer, music maker, film composer and editor."
           },
         ]
       },
@@ -656,7 +656,7 @@ window.PARATII = {
             "image": "./images/team/Tom.png",
             "name": "Tomás Xavier",
             "job": "Content Producer",
-            "text": "Around the Block lead brain and photographer, music maker, film composer and editor."
+            "text": "Around the Block lead brain and cinematographer, music maker, film composer and editor."
           },
         ]
       },
