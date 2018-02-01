@@ -12,26 +12,19 @@
     display: flex;
     margin: 80px 0 0;
 
-    @include screenPhablet {
-      justify-content: space-between;
-      margin-top: 10%;
-    }
-
     @include screenMobile {
       justify-content: space-evenly;
       flex-wrap: wrap;
+      margin-top: 60px;
     }
   }
 
   &-button {
-    @extend .hide-text-indent;
-
-    background: transparent no-repeat 50% 50%;
+    background: transparent no-repeat 0 50%;
     background-size: contain;
     margin-right: 8%;
-    height: 70px;
+    height: 60px;
     transition: opacity $anim-time-repaint;
-    width: 30%;
 
     @include screenMobile {
       margin: 10% 0;
@@ -40,6 +33,18 @@
 
     &:hover {
       opacity: $anim-opacity-value;
+    }
+
+    &-image {
+      display: block;
+      height: 100%;
+      margin: 0;
+
+      @include screenMobile {
+        height: initial;
+        margin: 0 auto;
+        width: 80%;
+      }
     }
   }
 }

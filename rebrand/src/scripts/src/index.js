@@ -34,7 +34,6 @@
         }
       },
       isRoadmapBetween: function (start, end) {
-        console.log(start, end, moment().isBetween(start, end));
         return moment().isBetween(start, end);
       },
       isRoadmapPast: function (d) {
