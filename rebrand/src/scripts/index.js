@@ -197,11 +197,6 @@ window.PARATII = {
             "image": "./images/open-source/logo-ethereum.png",
             "title": "Ethereum",
             "href": "https://www.ethereum.org/"
-          },
-          {
-            "image": "./images/open-source/logo-livepeer.png",
-            "title": "Livepeer",
-            "href": "https://livepeer.org/"
           }
         ]
       },
@@ -265,13 +260,6 @@ window.PARATII = {
             "name": "Elia Pellegrino",
             "job": "Web3 developer",
             "text": "Electronic engineer @ Instituto Politecnico di Torino, professor at IED, former web developer."
-          },
-          {
-            "url": "https://github.com/",
-            "image": "./images/team/Milan.png",
-            "name": "Milan Kragujevic",
-            "job": "Video Engineer",
-            "text": "Ex-Popcorn developer; browser-to-browser communication specialist."
           },
           {
             "url": "https://github.com/Leeaandrob",
@@ -571,11 +559,6 @@ window.PARATII = {
             "image": "./images/open-source/logo-ethereum.png",
             "title": "Ethereum",
             "href": "https://www.ethereum.org/"
-          },
-          {
-            "image": "./images/open-source/logo-livepeer.png",
-            "title": "Livepeer",
-            "href": "https://livepeer.org/"
           }
         ]
       },
@@ -639,13 +622,6 @@ window.PARATII = {
             "name": "Elia Pellegrino",
             "job": "Web3 developer",
             "text": "Electronic engineer @ Instituto Politecnico di Torino, professor at IED, former web developer."
-          },
-          {
-            "url": "",
-            "image": "./images/team/Milan.png",
-            "name": "Milan Kragujevic",
-            "job": "Video Engineer",
-            "text": "Ex-Popcorn developer; browser-to-browser communication specialist."
           },
           {
             "url": "https://github.com/Leeaandrob",
