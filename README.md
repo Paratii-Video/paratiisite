@@ -1,3 +1,22 @@
+<img src="https://github.com/Paratii-Video/paratiisite/blob/master/rebrand/src/svgs/paratii-logo.svg" width="200"> 
+
 # paratiisite
 
-[![Gitter](https://badges.gitter.im/Paratii-Video/paratiisite.svg)](https://gitter.im/Paratii-Video/paratiisite?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+## Prerequisites
+
+* npm/yarn
+* gulp
+
+## Installing
+
+    $ git clone https://github.com/Paratii-Video/paratiisite
+    $ cd paratiisite
+    $ yarn/npm install
+
+## Development
+
+    $ gulp
+
+## Deploy
+
+    $ gulp deploy
