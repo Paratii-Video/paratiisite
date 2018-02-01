@@ -10,14 +10,6 @@ $size-paratii-features-item-svg: 45px;
   background: $color-gray;
   overflow: hidden;
 
-  @include screenTablet {
-    padding-bottom: 60px;
-  }
-
-  @include screenMobile {
-    padding-bottom: 0;
-  }
-
   &-wrapper {
     margin: 120px 0 0;
     position: relative;
