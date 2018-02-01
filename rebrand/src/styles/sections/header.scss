@@ -159,6 +159,8 @@ $zindex-paratii-header-buttons: 6;
   }
 
   &-input {
+    @extend .text-main;
+
     background: none;
     border-bottom: 1px solid $color-white;
     color: $color-white;
@@ -166,11 +168,15 @@ $zindex-paratii-header-buttons: 6;
     width: 100%;
 
     &:-webkit-autofill {
+      @extend .text-main;
+
       animation-name: autofill;
       animation-fill-mode: both;
     }
     
     &::placeholder {
+      @extend .text-main;
+
       color: $color-white;
       opacity: $anim-opacity-value;
     }
@@ -179,6 +185,7 @@ $zindex-paratii-header-buttons: 6;
   &-button {
     @include screenMobile {
       display: inline;
+      width: 100%;
     }
   }
 
