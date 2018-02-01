@@ -54,14 +54,17 @@
     transform: translate3d(0, $size-main-header-wrapper-top, 0);
     transition: transform .5s $ease-smooth;
 
-
     @include screenMobile {
       flex-direction: column;
     }
 
     .out-top & {
-      transform: translate3d(0, 12px, 0);
+      transform: translate3d(0, 22px, 0);
       transition: transform .7s $ease-smooth;
+
+      @include screenMobile {
+        transform: translate3d(0, 13px, 0);
+      }
     }
   }
 }
@@ -122,7 +125,7 @@
   position: fixed;
   right: 20px;
   top: 38px;
-  transition: transform .5s $ease-smooth;
+  transition: transform .5s $ease-smooth, top .5s $ease-smooth;
   width: 20px;
 
   .out-top & {
