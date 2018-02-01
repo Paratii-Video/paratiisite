@@ -1,0 +1,64 @@
+// Buttons & links/anchors)
+
+.main-button {
+  @extend .text-main;
+
+  color: white;
+  font-weight: $font-regular;
+  padding: 15px 25px 16px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.paratii-button {
+  @extend .main-button;
+
+  background-color: $color-bluish-purple;
+  transition: background-color $anim-time-repaint;
+
+  &:hover {
+    background-color: $color-purply-blue;
+  }
+
+  &--red {
+    background-color: $color-lipstick;
+
+    &:hover {
+      background-color: $color-lipstick-dark;
+    }
+  }
+
+  @include screenMobile {
+    font-size: 0.5em;
+  }
+}
+
+.paratii-button-border {
+  @extend .main-button;
+
+  border: 1px solid $color-white;
+  transition: border $anim-time-repaint;
+
+  &:hover {
+    border-color: rgba(255, 255, 255, .5);
+  }
+
+  @include screenMobile {
+    font-size: 0.5em;
+  }
+}
+
+
+// Link/Anchors
+
+
+.paratii-link {
+  color: $color-lipstick;
+  border-bottom: 1px solid $color-lipstick;
+  transition: opacity $anim-time-repaint;
+
+  &:hover {
+    opacity: $anim-opacity-value;
+  }
+}

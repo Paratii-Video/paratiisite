@@ -1,0 +1,53 @@
+// On the news
+
+.paratii-onthenews {
+  &-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0 0;
+  }
+
+  &-button {
+    background: transparent no-repeat 50% 50%;
+    background-size: contain;
+    margin: 0 30px 0 0;
+    height: 40px;
+    transition: opacity $anim-time-repaint;
+
+    @include screenPhablet {
+      margin: 0 50px 50px 0;
+      height: initial;
+      width: 40%;
+    }
+
+    @include screenMobile {
+      margin: 15px 30px 15px 0;
+    }
+
+    @include screenMobileMax {
+      margin: 0 0 50px 0;
+      width: 100%;
+    }
+
+    &:hover {
+      opacity: $anim-opacity-value;
+    }
+
+    &-image {
+      display: block;
+      height: 100%;
+      margin: 0;
+
+      @include screenPhablet {
+        height: initial;
+        width: 80%;
+      }
+
+      @include screenMobile {
+        height: initial;
+        margin: 0 auto;
+        width: 80%;
+      }
+    }
+  }
+}

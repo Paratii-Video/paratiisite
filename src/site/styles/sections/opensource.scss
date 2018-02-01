@@ -1,0 +1,50 @@
+// Open source
+
+.paratii-opensource {
+  background: $color-gray;
+  padding-bottom: 150px;
+
+  @include screenMobile {
+    padding-bottom: 70px;
+  }
+
+  &-buttons {
+    display: flex;
+    margin: 80px 0 0;
+
+    @include screenMobile {
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin-top: 60px;
+    }
+  }
+
+  &-button {
+    background: transparent no-repeat 0 50%;
+    background-size: contain;
+    margin-right: 8%;
+    height: 60px;
+    transition: opacity $anim-time-repaint;
+
+    @include screenMobile {
+      margin: 10% 0;
+      width: 100%;
+    }
+
+    &:hover {
+      opacity: $anim-opacity-value;
+    }
+
+    &-image {
+      display: block;
+      height: 100%;
+      margin: 0;
+
+      @include screenMobile {
+        height: initial;
+        margin: 0 auto;
+        width: 80%;
+      }
+    }
+  }
+}

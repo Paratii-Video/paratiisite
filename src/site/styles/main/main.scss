@@ -1,0 +1,227 @@
+// Main
+
+body {
+  &::before {
+    @extend .pos-a-t;
+
+    content: 'screen?';
+    opacity: 0;
+    pointer-events: none;
+
+    @include screenDesktop { content: 'screenDesktop'; }
+    @include screenTablet { content: 'screenTablet'; }
+    @include screenPhablet { content: 'screenPhablet'; }
+    @include screenMobileMax { content: 'screenMobileMax'; }
+    @include screenMobile { content: 'screenMobile'; }
+  }
+}
+
+//
+
+.paratii-main {
+  position: relative;
+  z-index: $zindex-main-main;
+
+  @include screenMobile {
+    overflow: hidden;
+  }
+}
+
+
+//
+
+.main-social {
+  &-list {
+    display: flex;
+
+    @include screenMobile {
+      margin-top: 15px
+    }
+  }
+
+  &-link {
+    display: block;
+  }
+
+  &-svg {
+    display: block;
+    fill: $color-white;
+    height: $size-main-social-icon;
+    transition: opacity $anim-time-repaint;
+    width: $size-main-social-icon;
+
+    &:hover {
+      opacity: .5;
+    }
+
+    @include screenMobile {
+      height: $size-main-social-icon-mobile;
+      width: $size-main-social-icon-mobile;
+    }
+  }
+}
+
+
+// Section
+
+.main-section {
+  color: $color-black;
+  padding-top: 120px;
+
+  @include screenMobile {
+    padding-top: 90px;
+  }
+
+  &--color {
+    color: $color-white;
+  }
+
+  //
+
+  &-wrapper {
+    margin: 0 auto;
+    max-width: $size-main-wrapper-width-max + 40px;
+    padding: 0 40px;
+    position: relative;
+    width: 100%;
+
+    @include screenMobile {
+      padding: 0 30px;
+    }
+  }
+
+  //
+
+  &-header {
+    display: flex;
+    margin-bottom: $size-main-section-header-margin-bottom;
+
+    @include screenPhablet {
+      flex-direction: column;
+    }
+
+    &--no-margin {
+      margin-bottom: 0;
+    }
+  }
+
+  // Title and subtitle
+
+  &-title {
+    @extend .text-big;
+
+    font-weight: $font-bold;
+    flex: 0 0 $size-main-section-content-padding;
+   
+    @include screenPhablet {
+      flex: initial;
+      margin-bottom: 10px;
+    }
+
+
+    &::before {
+      background-color: $color-purply-blue;
+      content: '';
+      display: block;
+      height: 9px;
+      margin: 0 0 10px;
+      width: 62px;
+
+    }
+
+    .main-section--color & {
+      &::before {
+        background-color: $color-white;
+      }
+    }
+  }
+
+  &-subtitle {
+    @extend .title-main;
+  }
+
+  //
+
+  &-content {
+    padding-left: $size-main-section-content-padding;
+
+    @include screenPhablet {
+      padding-left: 0;
+    }
+
+    &--with-margin {
+      margin-bottom: $size-main-section-header-margin-bottom;
+    }
+
+    &--no-padding {
+      padding: 0;
+    }
+
+    &-title {
+      @extend .title-small;
+    }
+
+    &-text {
+      @extend .text-main;
+    }
+  }
+
+  // -call its a block with title and/or text + button
+
+  &-call {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    @include screenPhablet {
+      align-items: left;
+      flex-direction: column;
+    }
+
+    .paratii-button {
+      @include screenPhablet {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+
+// Colorful section
+
+.main-color-section {
+  background-image: linear-gradient(to bottom, $color-lipstick, $color-lipstick-dark);
+  color: $color-white;
+  overflow: hidden;
+  padding: 50px 0;
+  position: relative;
+
+  &::before {
+    @extend .full-block;
+
+    background: url('../images/bg-pattern.png');
+    content: '';
+  }
+
+  &-wrapper {
+    position: relative;
+    z-index: 2;
+  }
+
+  &-button {
+    margin-left: 40px;
+
+    @include screenPhablet {
+      display: table;
+      margin: 20px 0 0;
+    }
+  }
+
+  &-backgrounds {
+    @extend .pos-a-t;
+    @extend .full-block;
+
+    left: 0;
+    z-index: 1;
+  }
+}
