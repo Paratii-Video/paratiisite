@@ -8,6 +8,8 @@
   data_content_pt = PARATII.lang.pt;
   data_content_en = PARATII.lang.en;
 
+  Vue.config.devtools = true;
+
   vueapp = new Vue({
     el: '#paratii-main',
     data: {

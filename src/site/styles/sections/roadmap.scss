@@ -193,12 +193,6 @@ $size-paratii-roadmap-item-bottom: 30px;
         margin: 20px auto 0px;
         width: 50%;
       }
-
-      @for $i from 0 through 9 {
-        &--#{$i} {
-          background-image: url('../svgs/paratii-roadmap-icon-#{$i}.svg');
-        }
-      }
     }
 
     &-svg {
