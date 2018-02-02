@@ -242,7 +242,7 @@ window.PARATII = {
           },
           {
             "url": "http://garou.in/",
-            "image": "./public/images/team/Junior.png",
+            "image": "./public/images/team/Garou.png",
             "name": "Paulo dos Santos",
             "job": "Frontend Developer",
             "text": "HTML, CSS, JS (Less.js); FitC and FWA awards won for projects with global clients."
@@ -603,8 +603,8 @@ window.PARATII = {
             "text": "Algorithms expert, internships at the US Army Research Lab and NASA Goddard Space Flight Center."
           },
           {
-            "url": "https://github.com/jrgarou",
-            "image": "./public/images/team/Junior.png",
+            "url": "http://garou.in/",
+            "image": "./public/images/team/Garou.png",
             "name": "Paulo dos Santos",
             "job": "Frontend Developer",
             "text": "HTML, CSS, JS (Less.js); FitC and FWA awards won for projects with global clients."
