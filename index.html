@@ -312,7 +312,9 @@
                 <li class="paratii-roadmap-item" v-for="(item, index) in content.roadmap.listA" v-bind:class="roadmapClass('paratii-roadmap-item--', item)">
                   
                   <div class="paratii-roadmap-item-icon" v-bind:class="setLoopClass('paratii-roadmap-item-icon--', index)">
-                    <img v-bind:src="setLoopClass('public/svgs/paratii-roadmap-icon-' + index, '.svg')" />
+                    <svg class="paratii-roadmap-item-svg">
+                      <use v-bind:xlink:href="setLoopClass('public/svgs/paratii-roadmap-icons.svg#roadmap-icon-', index)"/>
+                    </svg>
                   </div>
                   
                   <p class="paratii-roadmap-item-text">{{item.text}}</p>
@@ -323,7 +325,9 @@
                 <li class="paratii-roadmap-item" v-for="(item, index) in content.roadmap.listB" v-bind:class="roadmapClass('paratii-roadmap-item--', item)">
                   
                   <div class="paratii-roadmap-item-icon" v-bind:class="setLoopClass('paratii-roadmap-item-icon--', index)">
-                    <img v-bind:src="setLoopClass('public/svgs/paratii-roadmap-icon-' + (index + 5), '.svg')" />
+                    <svg class="paratii-roadmap-item-svg">
+                      <use v-bind:xlink:href="setLoopClass('public/svgs/paratii-roadmap-icons.svg#roadmap-icon-', (index + 5))"/>
+                    </svg>
                   </div>
                   
                   <p class="paratii-roadmap-item-text">{{item.text}}</p>
