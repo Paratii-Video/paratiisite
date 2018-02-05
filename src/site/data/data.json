@@ -394,7 +394,7 @@ window.PARATII = {
           },
           {
             "title": "Publishers",
-            "text": "Basta uma linha de código para embedar o player na sua página e acessar uma rede auto-escalável em que o serviço fica mais barato conforme a audiência cresce. Quer ir além? Baixe um pacote para <q>minerar</q> o sistema, rodando um nó especial, que chamamos de nó de mídia.",
+            "text": "Basta uma linha de código para embedar o player na sua página e acessar uma rede auto-escalável em que o serviço fica mais barato conforme a audiência cresce. Quer ir além? Baixe um pacote para “minerar” o sistema, rodando um nó especial, que chamamos de nó de mídia.",
             "button": "Peça uma demo",
             "buttonHref": "https://goo.gl/forms/HTLaPJEwjH0WfXA13",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>"
@@ -431,7 +431,7 @@ window.PARATII = {
             "icon": "<use xlink:href=\"#icon-user\"></use>"
           },
           {
-            "text": "<strong>Usuários casuais podem assistir horas de vídeo e nunca notar que este não é um player comum.</strong> TQuem fizer login pode reivindicar os tokens gerados pela atividade passada, e usá-los para curar, adquirir ou promover vídeos.",
+            "text": "<strong>Usuários casuais podem assistir horas de vídeo e nunca notar que este não é um player comum.</strong> Quem fizer login pode reivindicar os tokens gerados pela atividade passada, e usá-los para curar, adquirir ou promover vídeos.",
             "icon": "<use xlink:href=\"#icon-user\"></use>"
           },
           {
