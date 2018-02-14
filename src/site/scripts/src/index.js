@@ -22,11 +22,7 @@
     },
     watch: {
       langEn: function (e) {
-        if (this.langEn) {
-          this.content = data_content_en;
-        } else {
-          this.content = data_content_pt;  
-        }
+        this.content = this.langEn ? data_content_en : data_content_pt;
       }
     },
     methods: {

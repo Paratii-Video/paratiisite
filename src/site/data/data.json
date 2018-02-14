@@ -365,6 +365,16 @@ window.PARATII = {
               "title": "Telegram",
               "href": "https://t.me/paratiivideo",
               "icon": "<use xlink:href=\"#icon-social-telegram\">"
+            },
+            {
+              "title": "Youtube",
+              "href": "https://www.youtube.com/channel/UC5OOwdF37P_oT0OVf2DvuPg",
+              "icon": "<use xlink:href=\"#icon-social-youtube\">"
+            },
+            {
+              "title": "Facebook",
+              "href": "https://www.facebook.com/paratiivideo/",
+              "icon": "<use xlink:href=\"#icon-social-facebook\">"
             }
           ]
         }
@@ -727,6 +737,16 @@ window.PARATII = {
               "title": "Telegram",
               "href": "https://t.me/paratiivideo",
               "icon": "<use xlink:href=\"#icon-social-telegram\">"
+            },
+            {
+              "title": "Youtube",
+              "href": "https://www.youtube.com/channel/UC5OOwdF37P_oT0OVf2DvuPg",
+              "icon": "<use xlink:href=\"#icon-social-youtube\">"
+            },
+            {
+              "title": "Facebook",
+              "href": "https://www.facebook.com/paratiivideo/",
+              "icon": "<use xlink:href=\"#icon-social-facebook\">"
             }
           ]
         }
