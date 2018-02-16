@@ -235,7 +235,7 @@ $size-paratii-roadmap-item-bottom: 30px;
     }
 
     &-date {
-      @extend .text-main;
+      @extend .main-text;
       @extend .pos-a-b;
 
       color: $color-white;

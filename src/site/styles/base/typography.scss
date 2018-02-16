@@ -46,22 +46,22 @@ h1, h2, h3, h4, h5, h6, strong {
   line-height: 1.5;
 }
 
-.text-main {
-  font-size: .7em; // 18px
+.main-text {
+  font-size: 0.7em; // 18px
   font-weight: $font-regular;
   line-height: 1.7;
 
   @include screenPhablet {
-    font-size: .85em;
+    font-size: 0.85em;
   }
 
   @include screenMobileMax {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
 
 .text-small {
-  font-size: .6em; // 14px
+  font-size: 0.6em; // 14px
   font-weight: $font-regular;
   line-height: 1.6;
 
@@ -71,11 +71,11 @@ h1, h2, h3, h4, h5, h6, strong {
 }
 
 .text-tiny {
-  font-size: .47em; // 11px
+  font-size: 0.47em; // 11px
   font-weight: $font-regular;
   line-height: 1.8;
 
   @include screenPhablet {
-    font-size: .6em;
+    font-size: 0.6em;
   }
 }

@@ -1,8 +1,6 @@
 // Buttons & links/anchors)
 
 .main-button {
-  @extend .text-main;
-
   color: white;
   font-weight: $font-regular;
   padding: 15px 25px 16px;
@@ -12,6 +10,7 @@
 }
 
 .paratii-button {
+  @extend .main-text;
   @extend .main-button;
 
   background-color: $color-bluish-purple;
@@ -35,6 +34,7 @@
 }
 
 .paratii-button-border {
+  @extend .main-text;
   @extend .main-button;
 
   border: 1px solid $color-white;
