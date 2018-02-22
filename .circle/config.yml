@@ -8,6 +8,7 @@ jobs:
     docker:
       - image: circleci/node:8.9.1
     working_directory: ~/repo
+    steps:
       - deploy:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
