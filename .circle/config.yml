@@ -9,8 +9,12 @@ jobs:
       - image: circleci/node:8.9.1
     working_directory: ~/repo
     steps:
+      - checkout
+      # Download and cache dependencies
+      - run: npm install
+      # - run: npm install web3@1.0.0-beta.28 --save
       - deploy:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              sh ./deploy.sh
+              sh ./deploy.sh production
             fi
