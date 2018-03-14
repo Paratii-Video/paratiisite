@@ -754,186 +754,186 @@ window.PARATII = {
     },
     "ch": {
       "header": {
-        "title": "一个视频资源的新时代",
-        "text": "Share stories without middlemen imposing taxes. Monetize with ads, subscriptions, or the way you wish. Engage audiences by letting them earn while watching.",
+        "title": "开启视频资源的新时代",
+        "text": "分享你的故事，而无需向中间商支付费用。通过广告、订阅或任何你所希望的方式获取收益。让观众一边观看视频一边赚钱。",
         "image": "./public/svgs/paratii-header.svg",
-        "small": "<strong>Beta version to be released soon.</strong><br> Subscribe now and don't miss out.",
-        "buttonA": "Request publisher demo",
+        "small": "<strong>测试版本很快将会发布.</strong><br> 现在就订阅，不要错过.",
+        "buttonA": "申请发布者演示样品",
         "buttonAhref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
-        "buttonB": "Subscribe",
+        "buttonB": "订阅",
         "buttonBhref": "https://www.getrevue.co/profile/Paratii"
       },
       "audiences": {
-        "title": "Audiences",
-        "subtitle": "Who needs a decentralised video exchange?",
+        "title": "观众",
+        "subtitle": "谁需要一个去中心化的视频交易平台？",
         "list": [
           {
-            "title": "Creators",
-            "text": "Upload original creations or mirror existing content on Paratii, and experiment monetisation without middlemen. No cuts on your revenue. No blocking or manipulating your audience.",
-            "button": "Be among the first uploaders",
+            "title": "创作者",
+            "text": "通过Paratii上传原创内容或映射至现有内容，在没有中间商的情况下获取收益。并且不会削减你的收入，也不会拦截或操纵你的观众。",
+            "button": "成为第一批上传者",
             "buttonHref": "https://docs.google.com/forms/d/13neNk4DRE3AxofLhQFb7kidPM-8g5QmxMVumrezrE7Y",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>"
           },
           {
-            "title": "Publishers",
-            "text": "Embed the player in your page with a line of code to access a self-scalable network whose services get cheaper as your audience grows. Want to go further? You'll be able to download a software package and “profit off” the system by running a special media node.",
-            "button": "Request publisher demo",
+            "title": "发布者",
+            "text": "使用一行代码将播放器嵌入到你的页面中，即可访问一个自可伸缩的网络，其服务随着你的观众数量的增长而变得更加便宜。想要更进一步吗？你将能够下载一个软件安装包，运行一个特殊的媒体节点，从而产生收益。",
+            "button": "申请发布者演示样品",
             "buttonHref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>"
           },
           {
-            "title": "Community",
-            "text": "users are the heart of the network, curating content and providing essential resources. In exchange, they earn tokens, which can come in seamlessly, for example, while one watches a video and streams pieces of it to nearby peers.",
-            "button": "Join our Telegram",
+            "title": "社区",
+            "text": "用户是网络的核心，对内容进行管理，并提供最基本的资源。作为奖励，他们可以获得通证，整个过程可以做到无缝连接。例如，当一个人观看视频的同时会将视频流传送到附近的节点。",
+            "button": "加入Telegram",
             "buttonHref": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>"
           }
         ],
         "call": {
-          "text": "<strong class=\"main-section-content-title\">Media buyers & investors:</strong><br> PTI tokens will be publicly distributed in a soon-to-be-announced event.",
-          "button": "Request early access",
+          "text": "<strong class=\"main-section-content-title\">流媒体消费者和投资者：</strong><br> PTI 通证将会在即将公布的活动中公开发行。",
+          "button": "申请抢先体验",
           "buttonHref": "https://goo.gl/forms/8zJ6Q6NcqgJXHf7r2",
         }
       },
       "features": {
-        "title": "Features",
-        "subtitle": "A video player like any other. Except for what’s behind it.",
+        "title": "特性",
+        "subtitle": "除了隐藏在其背后真正的内容，它像极了其他的视频播放器。",
         "image": "./public/svgs/paratii-features.svg",
         "list": [
           {
-            "text": "<strong>Videos can be free or have different monetisation models.</strong> They all look similar, but some prompt users to validate micropayments.",
+            "text": "<strong>视频可以是免费的，也可以有不同的盈利模型。</strong> 它们看起来都很相似，但也有一些将会提示用户进行微支付验证。",
             "icon": "<use xlink:href=\"#icon-user\"></use>"
           },
           {
-            "text": "<strong>Adaptive bitrate streaming: at every point, users get the maximum quality for their device and connection.</strong> The file processing magic is done by a distributed network of transcoders.",
+            "text": "<strong>自适应比特率流：在每个节点上，用户都能获得设备和连接的最高质量。</strong> 这么不可思议的文件处理过程是由一个分布式的转码网络完成的。",
             "icon": "<use xlink:href=\"#icon-gear\"></use>"
           },
           {
-            "text": "<strong>Users can earn tokens whenever they’re active.</strong> These are stored in an in-player wallet, and “excess” funds (think a content creator who’s getting a lot of audience) are transferred to a separate account.",
+            "text": "<strong>无论何时，活跃用户都可以获得通证。</strong> 这些通证存储在播放器内置的钱包里，而“多余”的资金（例如那些拥有大量观众的内容创作者）将被转移到一个单独的账户上。",
             "icon": "<use xlink:href=\"#icon-user\"></use>"
           },
           {
-            "text": "<strong>Casual users may watch for hours and still never notice this is not an average player.</strong> Those who sign up can claim tokens earned and use them to curate, acquire or promote videos.",
+            "text": "<strong>普通用户可能已经看了几个小时，但仍然不会注意到这不是一个普通的播放器。</strong> 注册用户可以认领赚取的通证，并使用通证来管理、获取或推广视频。",
             "icon": "<use xlink:href=\"#icon-user\"></use>"
           },
           {
-            "text": "<strong>Multiple platforms supported.</strong> Sharing is incentivised if creators choose to divide a portion of their earnings with ‘promoters.",
+            "text": "<strong>支持多种平台。</strong> 如果创作者选择将收入的一部分分给“推广人”，就会激励观众进行分享。",
             "icon": "<use xlink:href=\"#icon-user\"></use>"
           },
           {
-            "text": "<strong>Curation is left to the audience</strong>, who’s rewarded for spotting inappropriate content early on or pointing to copyright-infringing material.",
+            "text": "<strong>由用户进行内容管理</strong>，在早期发现不当内容或侵犯版权的资源时，用户将会获得奖励。",
             "icon": "<use xlink:href=\"#icon-like\"></use>"
           }
         ],
         "call": {
-          "text": "Experiment version 0.0.1 of the player!",
-          "button": "Try demo",
+          "text": "播放器试验版本 0.0.1！",
+          "button": "尝试演示样品",
           "href": "https://paratii-video.github.io/paratii-embed/"
         }
       },
       "components": {
-        "title": "Components",
-        "subtitle": "What are we talking about?",
+        "title": "组件",
+        "subtitle": "我们到底在谈论什么呢？",
         "list": [
           {
             "class": "",
             "icon": "<use xlink:href=\"#icon-social-github\s\"></use>",
-            "title": "The Protocol",
-            "text": "Coordinates creators, publishers and users to maintain a decentralised exchange of videos and attention, that communicates receipts off-chain and settles compensations on Ethereum contracts. It also bundles <strong>access to all services needed to distribute media and metadata serverlessly and trustlessly<strong>.",
+            "title": "协议",
+            "text": "协调创作者、发布者和用户，来维护去中心化的视频资源和注意力交易平台，离链收据的传递，通过以太坊合约结算偿付金额。 协议还包含了<strong>对所有服务的访问，这些服务通过无服务和无需信任的形式发布媒介和元数据<strong>。",
             "image": "./public/svgs/paratii-the-protocol.svg",
             "href": "https://github.com/Paratii-Video/paratii-protocol"
           },
           {
             "class": "paratii-components-content--color",
             "icon": "<use xlink:href=\"#icon-social-github\s\"></use>",
-            "title": "The PTI Token",
-            "text": "Native staking token to the Paratii curated registry, it represents the right to belong to and judicate over a content list, and that of creating your own. The PTI can also be used as a means of payment for certain services, paid videos and content promotion. <strong>It is earnable<strong>: by seeding videos while watching, running a media node or curating content.",
+            "title": "PTI 通证",
+            "text": "对于 Paratii 管理注册表，原生的权益通证代表了对列表中的内容进行认可和的批判的权利，以及创建自己的内容列表的权利。PTI 也可以作为一种支付方式，向特定服务、付费视频和内容推广进行支付。<strong>通过这些方式可以赚取通证<strong>：边看视频边向其他节点发送视频流、运行媒介节点或者管理内容。",
             "image": "./public/svgs/paratii-the-token.svg",
             "href": "https://github.com/Paratii-Video/paratii-contracts"
           },
           {
             "class": "",
             "icon": "<use xlink:href=\"#icon-social-github\s\"></use>",
-            "title": "The Player",
-            "text": "<strong>An embeddable, modular and extensible player</strong> to customise as you wish. Apply it on your page, media channel or news outlet with a single line of code. Share it on social media when you spot one on Twitter, Medium or Telegram. With paratii-lib, developers can also build widgets and plugins to modify frontend and interact with specific modules of the protocol.",
+            "title": "播放器",
+            "text": "<strong>一个可嵌入的、模块化和可扩展的播放器</strong>，可以根据你的需要定制。通过一行代码把它到你的网页、媒体通道或新闻市场上。当你在Twitter、Medium或Telegram上发现一个视频时，在社交媒体上分享它。通过paratii-lib，开发人员还可以构建界面图形元素和插件来修改前端，并与协议的特定模块交互。",
             "image": "./public/svgs/paratii-the-player.svg",
             "href": "https://github.com/Paratii-Video/paratii-mediaplayer"
           }
         ]
       },
       "roadmap": {
-        "title": "Roadmap",
-        "subtitle": "A short recap and next milestones",
-        "text": "Paratii has been under design and development for little over an year. Our vision is to provide an open market for audiovisual stories where any agent, independently of its size and bank account, has an equal chance to be heard or seen and profit off the network.",
+        "title": "路线图",
+        "subtitle": "简短的回顾和下一个里程碑",
+        "text": "Paratii已经进行了一年多的设计和开发。我们的愿景是为视听故事提供一个开放的市场，任何一个用户，无论其规模大小、是否拥有银行账户，都拥有平等的机会在网络中被听到或看到并由此获利。",
         "listA": [
           {
-            "text": "Team formation",
-            "textDate": "Nov 2016",
+            "text": "团队构建",
+            "textDate": "2016年11月",
             "dateStart": "2016-11-01",
             "dateEnd": "2016-11-30"
           },
           {
-            "text": "Blueprint published",
-            "textDate": "Jun 2017",
+            "text": "发布蓝图",
+            "textDate": "2017年6月",
             "dateStart": "2017-06-01",
             "dateEnd": "2017-06-30"
           },
           {
-            "text": "Paratii foundation incorporated",
-            "textDate": "Oct 2017",
+            "text": "Paratii 基本会成立",
+            "textDate": "2017年10月",
             "dateStart": "2017-10-01",
             "dateEnd": "2017-10-31"
           },
           {
-            "text": "Paratii player v0.0.1 released",
-            "textDate": "Dez 2017",
+            "text": "Paratii播放器 v0.0.1 发布",
+            "textDate": "2017年12月",
             "dateStart": "2017-12-01",
             "dateEnd": "2017-12-31"
           },
           {
-            "text": "v0.0.2: Paratii-lib and new plugin-oriented player",
-            "textDate": "Feb 2018",
+            "text": "v0.0.2: Paratii-lib和新的基于插件的播放器",
+            "textDate": "2018年2月",
             "dateStart": "2018-02-01",
             "dateEnd": "2018-02-28"
           }
         ],
         "listB": [
           {
-            "text": "First web-portal for uploading and browsing",
-            "textDate": "Mar 2018",
+            "text": "第一个可以上传和浏览的门户网站",
+            "textDate": "2018年3月",
             "dateStart": "2018-03-01",
             "dateEnd": "2018-03-31"
           },
           {
-            "text": "Release bluepaper + protocol completion",
-            "textDate": "Mar 2018",
+            "text": "发布蓝皮书 + 完成协议",
+            "textDate": "2018年3月",
             "dateStart": "2018-03-01",
             "dateEnd": "2018-03-31"
           },
           {
-            "text": "Token distribution event",
-            "textDate": "May 2018",
+            "text": "通证发行",
+            "textDate": "2018年5月",
             "dateStart": "2018-04-01",
             "dateEnd": "2018-05-31"
           },
           {
-            "text": "Pilot program with publishers",
-            "textDate": "Q2 2018",
+            "text": "发布者试点项目",
+            "textDate": "2018年二季度",
             "dateStart": "2018-06-01",
             "dateEnd": "2018-06-30"
           },
           {
-            "text": "Main contracts' bridging to mainnet",
-            "textDate": "Q3 2018",
+            "text": "主合约连接主干网",
+            "textDate": "2018年三季度",
             "dateStart": "2018-08-01",
             "dateEnd": "2018-08-30"
           }
         ]
       },
       "opensource": {
-        "title": "Open Source",
-        "subtitle": "Building with world-class open source technology",
-        "text": "We contribute to, build upon, modify implementations and develop from multiple open source base-layer projects. Are you willing to contribute directly to one of them? <a class=\"paratii-link\" href=\"mailto:we@paratii.video?subject=Here is how I want to help develop open-souce software :)&body=Let us know about ambitions, plans, and ideas you have for making the web3 a better place for society. We're here to help you give power back to peers.\" target=\"_blank\">We’re willing to support you.</a>",
+        "title": "开源",
+        "subtitle": "使用世界一流的开源技术进行构建",
+        "text": "我们贡献、构建、修改实现和参与开发了多个开源的基础设施项目。你愿意直接为其中某个项目做贡献吗？<a class=\"paratii-link\" href=\"mailto:we@paratii.video?subject=Here is how I want to help develop open-souce software :)&body=Let us know about ambitions, plans, and ideas you have for making the web3 a better place for society. We're here to help you give power back to peers.\" target=\"_blank\">我们很乐意帮助你。</a>",
         "list": [
           {
             "image": "./public/images/open-source/logo-ipfs.png",
@@ -942,111 +942,111 @@ window.PARATII = {
           },
           {
             "image": "./public/images/open-source/logo-ethereum.png",
-            "title": "Ethereum",
+            "title": "以太坊",
             "href": "https://www.ethereum.org/"
           }
         ]
       },
       "team": {
-        "title": "People",
-        "subtitle": "Our team",
+        "title": "成员",
+        "subtitle": "我们的团队",
         "text": "A distributed workforce of solid background, skilled and passionate people. You’re welcome to drop by one of <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">our weekly development calls.</a>",
         "list": [
           {
             "url": "https://medium.com/@felipegachopereira",
             "image": "./public/images/team/Felipe.png",
             "name": "Felipe Sant Ana",
-            "job": "Project Lead",
+            "job": "项目主管",
             "text": "Crowdfunding pioneer in Brazil, ESPM alumni, ex-Endeavor & BossaNovaFilms."
           },
           {
             "url": "https://github.com/jellegerbrandy",
             "image": "./public/images/team/Jelle.png",
             "name": "Jelle Gerbrandy",
-            "job": "Technical Lead",
+            "job": "技术主管",
             "text": "Ph.D. in Logic at University of Amsterdam, visiting scholar at Stanford, previously CTO at Backfeed."
           },
           {
             "url": "https://github.com/ya7ya",
             "image": "./public/images/team/Yahya.png",
             "name": "Mohamed Yahya",
-            "job": "Lead P2P Engineer",
+            "job": "首席 P2P 工程师",
             "text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumni."
           },
           {
             "url": "https://github.com/bent0b0x",
             "image": "./public/images/team/Ben.png",
             "name": "Benjamin Baum",
-            "job": "Lead Frontend Engineer",
+            "job": "首席前端工程师",
             "text": "University of Cornell alumni and former research assistant, senior software engineer at Hubspot."
           },
           {
             "url": "https://github.com/aeftimia",
             "image": "./public/images/team/Alex.png",
             "name": "Alex Eftimiades",
-            "job": "R&D Scientist",
+            "job": "研发科学家",
             "text": "Algorithms expert, internships at the US Army Research Lab and NASA Goddard Space Flight Center."
           },
           {
             "url": "http://garou.in/",
             "image": "./public/images/team/Garou.png",
             "name": "Paulo dos Santos",
-            "job": "Frontend Developer",
+            "job": "前端工程师",
             "text": "HTML, CSS, JS (Less.js); FitC and FWA awards won for projects with global clients."
           },
           {
             "url": "https://github.com/enricocicconi",
             "image": "./public/images/team/Enrico.png",
             "name": "Enrico Cicconi",
-            "job": "Web3 developer",
+            "job": "Web3 开发工程师",
             "text": "Engineer @ Instituto Politecnico di Torino, experienced backend developer, responsible for most of the embedding magic the player does."
           },
           {
             "url": "https://github.com/eliawk",
             "image": "./public/images/team/Elia.png",
             "name": "Elia Pellegrino",
-            "job": "Web3 developer",
+            "job": "Web3 开发工程师",
             "text": "Electronic engineer @ Instituto Politecnico di Torino, professor at IED, former web developer."
           },
           {
             "url": "https://github.com/Leeaandrob",
             "image": "./public/images/team/Leandro.png",
             "name": "Leandro Barbosa",
-            "job": "Devops Engineer",
+            "job": "开发运维工程师",
             "text": "Python-native video infrastructure builder, previous clients include Esporte Interativo (a sports channel), distance learning platforms and video-heavy startups."
           },
           {
             "url": "https://pcasa.myportfolio.com/projetos",
             "image": "./public/images/team/Pedro.png",
             "name": "Pedro Casagrande",
-            "job": "Designer",
+            "job": "设计师",
             "text": "ESPM alumni, previously at Estudio Pulpo and Design Lab ESPM."
           },
           {
             "url": "https://www.linkedin.com/in/lupape/",
             "image": "./public/images/team/Paulo.png",
             "name": "Paulo Perez",
-            "job": "Strategy & Vision",
+            "job": "战略和愿景",
             "text": "Co-founder @ Doubleleft, (acquired by Interpublic). Cannes Lions and Webby Awards winner."
           },
           {
             "url": "https://github.com/",
             "image": "./public/images/team/Daniel.png",
             "name": "Daniel Quandt",
-            "job": "Community Manager",
+            "job": "社区经理",
             "text": "USP-SP graduate and intern at innovation agency, reddit dinosaur."
           },
           {
             "url": "https://github.com/",
             "image": "./public/images/team/Tom.png",
             "name": "Tomás Xavier",
-            "job": "Content Producer",
+            "job": "内容制作人",
             "text": "Around the Block lead brain and cinematographer, music maker, film composer and editor."
           },
         ]
       },
       "onthenews": {
-        "title": "On the news",
+        "title": "新闻列表",
         "list": [
           { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
             "title": "ÉPOCA NEGÓCIOS",
@@ -1067,21 +1067,21 @@ window.PARATII = {
         ]
       },
       "videos": {
-        "title": "Videos",
-        "subtitle": "Our videos",
-        "text": "You can find someone of the team regularly in (or invite to!) meetups, events and conferences mostly in Brazil, the U.S and Italy.",
+        "title": "视频",
+        "subtitle": "我们的视频",
+        "text": "你经常会发现团队中的某个人在(或被邀请参加)线下聚会、活动和会议上，大多数是在巴西、美国和意大利。",
         "list": [
           {"url": "https://www.youtube.com/embed/H4-0mNaZP50"},
           {"url": "https://www.youtube.com/embed/mX7VuUeduEY"},
           {"url": "https://www.youtube.com/embed/7waTiMBlXbw"}
         ],
-        "button": "See more",
+        "button": "观看更多",
         "buttonHref": "https://www.youtube.com/channel/UC5OOwdF37P_oT0OVf2DvuPg"
       },
       "footer": {
-        "text": "We ♥ open source",
+        "text": "我们 ♥ 开源",
         "social": {
-          "title": "Find us here:",
+          "title": "如何发现我们：",
           "list": [
             {
               "title": "Github",
