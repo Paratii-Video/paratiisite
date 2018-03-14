@@ -104,7 +104,7 @@ $zindex-paratii-header-buttons: 6;
   }
 
   &-text {
-    @extend .main-text;
+    @extend .text-main;
 
     max-width: 500px;
 
@@ -157,7 +157,7 @@ $zindex-paratii-header-buttons: 6;
   }
 
   &-input {
-    @extend .main-text;
+    @extend .text-main;
 
     background: none;
     border-bottom: 1px solid $color-white;

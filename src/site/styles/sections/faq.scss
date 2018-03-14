@@ -10,5 +10,13 @@
   }
   &-item {
       @extend .text-big;
+
+      &-title {
+        @extend .text-big;
+      }
+
+      &-text {
+        @extend .text-main;
+      }
   }
 }

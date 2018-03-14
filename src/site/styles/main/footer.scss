@@ -70,7 +70,7 @@ $size-paratii-footer-mobile: 260px;
   //
 
   &-text {
-    @extend .main-text;
+    @extend .text-main;
 
     line-height: $size-paratii-footer;
     text-align: center;
@@ -97,7 +97,7 @@ $size-paratii-footer-mobile: 260px;
     }
 
     &-title {
-      @extend .main-text;
+      @extend .text-main;
       @extend .pos-a-t;
 
       margin: 0 0 10px;

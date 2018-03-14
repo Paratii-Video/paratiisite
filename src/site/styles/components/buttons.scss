@@ -10,7 +10,7 @@
 }
 
 .paratii-button {
-  @extend .main-text;
+  @extend .text-main;
   @extend .main-button;
 
   background-color: $color-bluish-purple;
@@ -38,7 +38,7 @@
 }
 
 .paratii-button-border {
-  @extend .main-text;
+  @extend .text-main;
   @extend .main-button;
 
   border: 1px solid $color-white;
