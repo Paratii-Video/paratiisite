@@ -56,7 +56,7 @@ $size-main-nav-mobile-top: 52px;
   &-link {
     color: white;
     display: block;
-    font-size: 16px;
+    font-size: 0.9rem;
     font-weight: $font-regular;
     height: $size-main-title-height;
     line-height: $size-main-title-height;
@@ -65,7 +65,7 @@ $size-main-nav-mobile-top: 52px;
     
     @include screenMobile {
       color: $color-black;
-      font-size: 16px;
+      font-size: 0.9rem;
       height: $size-main-title-height-mobile;
       line-height: $size-main-title-height-mobile;
     };
@@ -136,7 +136,7 @@ $size-main-nav-mobile-top: 52px;
     }
 
     @include screenMobile {
-      font-size: 16px;
+      font-size: 0.9rem;
       height: $size-main-title-height-mobile;
       line-height: $size-main-title-height-mobile;
       padding-bottom: 0;

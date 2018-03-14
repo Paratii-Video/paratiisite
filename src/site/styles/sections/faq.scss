@@ -1,0 +1,14 @@
+// People
+
+//
+
+.paratii-faq {
+  &-group {
+    &-title {
+      @extend .title-small;
+    }
+  }
+  &-item {
+      @extend .text-big;
+  }
+}

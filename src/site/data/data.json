@@ -16,6 +16,10 @@ window.PARATII = {
         "buttonB": "Subscribe",
         "buttonBhref": "https://www.getrevue.co/profile/Paratii"
       },
+      "faq": {
+        "title": "FAQ",
+        "subtitle": "Asked questions"
+      },
       "audiences": {
         "title": "Audiences",
         "subtitle": "Who needs a decentralised video exchange?",
@@ -390,6 +394,10 @@ window.PARATII = {
         "buttonAhref": "https://goo.gl/forms/HTLaPJEwjH0WfXA13",
         "buttonB": "Inscreva-se",
         "buttonBhref": "https://www.getrevue.co/profile/Paratii"
+      },
+      "faq": {
+        "title": "FAQ",
+        "subtitle": "Perguntas frequentes"
       },
       "audiences": {
         "title": "Públicos",
