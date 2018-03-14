@@ -752,5 +752,380 @@ window.PARATII = {
         }
       }
     },
+    "ch": {
+      "header": {
+        "title": "一个视频资源的新时代",
+        "text": "Share stories without middlemen imposing taxes. Monetize with ads, subscriptions, or the way you wish. Engage audiences by letting them earn while watching.",
+        "image": "./public/svgs/paratii-header.svg",
+        "small": "<strong>Beta version to be released soon.</strong><br> Subscribe now and don't miss out.",
+        "buttonA": "Request publisher demo",
+        "buttonAhref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
+        "buttonB": "Subscribe",
+        "buttonBhref": "https://www.getrevue.co/profile/Paratii"
+      },
+      "audiences": {
+        "title": "Audiences",
+        "subtitle": "Who needs a decentralised video exchange?",
+        "list": [
+          {
+            "title": "Creators",
+            "text": "Upload original creations or mirror existing content on Paratii, and experiment monetisation without middlemen. No cuts on your revenue. No blocking or manipulating your audience.",
+            "button": "Be among the first uploaders",
+            "buttonHref": "https://docs.google.com/forms/d/13neNk4DRE3AxofLhQFb7kidPM-8g5QmxMVumrezrE7Y",
+            "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>"
+          },
+          {
+            "title": "Publishers",
+            "text": "Embed the player in your page with a line of code to access a self-scalable network whose services get cheaper as your audience grows. Want to go further? You'll be able to download a software package and “profit off” the system by running a special media node.",
+            "button": "Request publisher demo",
+            "buttonHref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
+            "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>"
+          },
+          {
+            "title": "Community",
+            "text": "users are the heart of the network, curating content and providing essential resources. In exchange, they earn tokens, which can come in seamlessly, for example, while one watches a video and streams pieces of it to nearby peers.",
+            "button": "Join our Telegram",
+            "buttonHref": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
+            "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>"
+          }
+        ],
+        "call": {
+          "text": "<strong class=\"main-section-content-title\">Media buyers & investors:</strong><br> PTI tokens will be publicly distributed in a soon-to-be-announced event.",
+          "button": "Request early access",
+          "buttonHref": "https://goo.gl/forms/8zJ6Q6NcqgJXHf7r2",
+        }
+      },
+      "features": {
+        "title": "Features",
+        "subtitle": "A video player like any other. Except for what’s behind it.",
+        "image": "./public/svgs/paratii-features.svg",
+        "list": [
+          {
+            "text": "<strong>Videos can be free or have different monetisation models.</strong> They all look similar, but some prompt users to validate micropayments.",
+            "icon": "<use xlink:href=\"#icon-user\"></use>"
+          },
+          {
+            "text": "<strong>Adaptive bitrate streaming: at every point, users get the maximum quality for their device and connection.</strong> The file processing magic is done by a distributed network of transcoders.",
+            "icon": "<use xlink:href=\"#icon-gear\"></use>"
+          },
+          {
+            "text": "<strong>Users can earn tokens whenever they’re active.</strong> These are stored in an in-player wallet, and “excess” funds (think a content creator who’s getting a lot of audience) are transferred to a separate account.",
+            "icon": "<use xlink:href=\"#icon-user\"></use>"
+          },
+          {
+            "text": "<strong>Casual users may watch for hours and still never notice this is not an average player.</strong> Those who sign up can claim tokens earned and use them to curate, acquire or promote videos.",
+            "icon": "<use xlink:href=\"#icon-user\"></use>"
+          },
+          {
+            "text": "<strong>Multiple platforms supported.</strong> Sharing is incentivised if creators choose to divide a portion of their earnings with ‘promoters.",
+            "icon": "<use xlink:href=\"#icon-user\"></use>"
+          },
+          {
+            "text": "<strong>Curation is left to the audience</strong>, who’s rewarded for spotting inappropriate content early on or pointing to copyright-infringing material.",
+            "icon": "<use xlink:href=\"#icon-like\"></use>"
+          }
+        ],
+        "call": {
+          "text": "Experiment version 0.0.1 of the player!",
+          "button": "Try demo",
+          "href": "https://paratii-video.github.io/paratii-embed/"
+        }
+      },
+      "components": {
+        "title": "Components",
+        "subtitle": "What are we talking about?",
+        "list": [
+          {
+            "class": "",
+            "icon": "<use xlink:href=\"#icon-social-github\s\"></use>",
+            "title": "The Protocol",
+            "text": "Coordinates creators, publishers and users to maintain a decentralised exchange of videos and attention, that communicates receipts off-chain and settles compensations on Ethereum contracts. It also bundles <strong>access to all services needed to distribute media and metadata serverlessly and trustlessly<strong>.",
+            "image": "./public/svgs/paratii-the-protocol.svg",
+            "href": "https://github.com/Paratii-Video/paratii-protocol"
+          },
+          {
+            "class": "paratii-components-content--color",
+            "icon": "<use xlink:href=\"#icon-social-github\s\"></use>",
+            "title": "The PTI Token",
+            "text": "Native staking token to the Paratii curated registry, it represents the right to belong to and judicate over a content list, and that of creating your own. The PTI can also be used as a means of payment for certain services, paid videos and content promotion. <strong>It is earnable<strong>: by seeding videos while watching, running a media node or curating content.",
+            "image": "./public/svgs/paratii-the-token.svg",
+            "href": "https://github.com/Paratii-Video/paratii-contracts"
+          },
+          {
+            "class": "",
+            "icon": "<use xlink:href=\"#icon-social-github\s\"></use>",
+            "title": "The Player",
+            "text": "<strong>An embeddable, modular and extensible player</strong> to customise as you wish. Apply it on your page, media channel or news outlet with a single line of code. Share it on social media when you spot one on Twitter, Medium or Telegram. With paratii-lib, developers can also build widgets and plugins to modify frontend and interact with specific modules of the protocol.",
+            "image": "./public/svgs/paratii-the-player.svg",
+            "href": "https://github.com/Paratii-Video/paratii-mediaplayer"
+          }
+        ]
+      },
+      "roadmap": {
+        "title": "Roadmap",
+        "subtitle": "A short recap and next milestones",
+        "text": "Paratii has been under design and development for little over an year. Our vision is to provide an open market for audiovisual stories where any agent, independently of its size and bank account, has an equal chance to be heard or seen and profit off the network.",
+        "listA": [
+          {
+            "text": "Team formation",
+            "textDate": "Nov 2016",
+            "dateStart": "2016-11-01",
+            "dateEnd": "2016-11-30"
+          },
+          {
+            "text": "Blueprint published",
+            "textDate": "Jun 2017",
+            "dateStart": "2017-06-01",
+            "dateEnd": "2017-06-30"
+          },
+          {
+            "text": "Paratii foundation incorporated",
+            "textDate": "Oct 2017",
+            "dateStart": "2017-10-01",
+            "dateEnd": "2017-10-31"
+          },
+          {
+            "text": "Paratii player v0.0.1 released",
+            "textDate": "Dez 2017",
+            "dateStart": "2017-12-01",
+            "dateEnd": "2017-12-31"
+          },
+          {
+            "text": "v0.0.2: Paratii-lib and new plugin-oriented player",
+            "textDate": "Feb 2018",
+            "dateStart": "2018-02-01",
+            "dateEnd": "2018-02-28"
+          }
+        ],
+        "listB": [
+          {
+            "text": "First web-portal for uploading and browsing",
+            "textDate": "Mar 2018",
+            "dateStart": "2018-03-01",
+            "dateEnd": "2018-03-31"
+          },
+          {
+            "text": "Release bluepaper + protocol completion",
+            "textDate": "Mar 2018",
+            "dateStart": "2018-03-01",
+            "dateEnd": "2018-03-31"
+          },
+          {
+            "text": "Token distribution event",
+            "textDate": "May 2018",
+            "dateStart": "2018-04-01",
+            "dateEnd": "2018-05-31"
+          },
+          {
+            "text": "Pilot program with publishers",
+            "textDate": "Q2 2018",
+            "dateStart": "2018-06-01",
+            "dateEnd": "2018-06-30"
+          },
+          {
+            "text": "Main contracts' bridging to mainnet",
+            "textDate": "Q3 2018",
+            "dateStart": "2018-08-01",
+            "dateEnd": "2018-08-30"
+          }
+        ]
+      },
+      "opensource": {
+        "title": "Open Source",
+        "subtitle": "Building with world-class open source technology",
+        "text": "We contribute to, build upon, modify implementations and develop from multiple open source base-layer projects. Are you willing to contribute directly to one of them? <a class=\"paratii-link\" href=\"mailto:we@paratii.video?subject=Here is how I want to help develop open-souce software :)&body=Let us know about ambitions, plans, and ideas you have for making the web3 a better place for society. We're here to help you give power back to peers.\" target=\"_blank\">We’re willing to support you.</a>",
+        "list": [
+          {
+            "image": "./public/images/open-source/logo-ipfs.png",
+            "title": "IPFS",
+            "href": "https://ipfs.io/"
+          },
+          {
+            "image": "./public/images/open-source/logo-ethereum.png",
+            "title": "Ethereum",
+            "href": "https://www.ethereum.org/"
+          }
+        ]
+      },
+      "team": {
+        "title": "People",
+        "subtitle": "Our team",
+        "text": "A distributed workforce of solid background, skilled and passionate people. You’re welcome to drop by one of <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">our weekly development calls.</a>",
+        "list": [
+          {
+            "url": "https://medium.com/@felipegachopereira",
+            "image": "./public/images/team/Felipe.png",
+            "name": "Felipe Sant Ana",
+            "job": "Project Lead",
+            "text": "Crowdfunding pioneer in Brazil, ESPM alumni, ex-Endeavor & BossaNovaFilms."
+          },
+          {
+            "url": "https://github.com/jellegerbrandy",
+            "image": "./public/images/team/Jelle.png",
+            "name": "Jelle Gerbrandy",
+            "job": "Technical Lead",
+            "text": "Ph.D. in Logic at University of Amsterdam, visiting scholar at Stanford, previously CTO at Backfeed."
+          },
+          {
+            "url": "https://github.com/ya7ya",
+            "image": "./public/images/team/Yahya.png",
+            "name": "Mohamed Yahya",
+            "job": "Lead P2P Engineer",
+            "text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumni."
+          },
+          {
+            "url": "https://github.com/bent0b0x",
+            "image": "./public/images/team/Ben.png",
+            "name": "Benjamin Baum",
+            "job": "Lead Frontend Engineer",
+            "text": "University of Cornell alumni and former research assistant, senior software engineer at Hubspot."
+          },
+          {
+            "url": "https://github.com/aeftimia",
+            "image": "./public/images/team/Alex.png",
+            "name": "Alex Eftimiades",
+            "job": "R&D Scientist",
+            "text": "Algorithms expert, internships at the US Army Research Lab and NASA Goddard Space Flight Center."
+          },
+          {
+            "url": "http://garou.in/",
+            "image": "./public/images/team/Garou.png",
+            "name": "Paulo dos Santos",
+            "job": "Frontend Developer",
+            "text": "HTML, CSS, JS (Less.js); FitC and FWA awards won for projects with global clients."
+          },
+          {
+            "url": "https://github.com/enricocicconi",
+            "image": "./public/images/team/Enrico.png",
+            "name": "Enrico Cicconi",
+            "job": "Web3 developer",
+            "text": "Engineer @ Instituto Politecnico di Torino, experienced backend developer, responsible for most of the embedding magic the player does."
+          },
+          {
+            "url": "https://github.com/eliawk",
+            "image": "./public/images/team/Elia.png",
+            "name": "Elia Pellegrino",
+            "job": "Web3 developer",
+            "text": "Electronic engineer @ Instituto Politecnico di Torino, professor at IED, former web developer."
+          },
+          {
+            "url": "https://github.com/Leeaandrob",
+            "image": "./public/images/team/Leandro.png",
+            "name": "Leandro Barbosa",
+            "job": "Devops Engineer",
+            "text": "Python-native video infrastructure builder, previous clients include Esporte Interativo (a sports channel), distance learning platforms and video-heavy startups."
+          },
+          {
+            "url": "https://pcasa.myportfolio.com/projetos",
+            "image": "./public/images/team/Pedro.png",
+            "name": "Pedro Casagrande",
+            "job": "Designer",
+            "text": "ESPM alumni, previously at Estudio Pulpo and Design Lab ESPM."
+          },
+          {
+            "url": "https://www.linkedin.com/in/lupape/",
+            "image": "./public/images/team/Paulo.png",
+            "name": "Paulo Perez",
+            "job": "Strategy & Vision",
+            "text": "Co-founder @ Doubleleft, (acquired by Interpublic). Cannes Lions and Webby Awards winner."
+          },
+          {
+            "url": "https://github.com/",
+            "image": "./public/images/team/Daniel.png",
+            "name": "Daniel Quandt",
+            "job": "Community Manager",
+            "text": "USP-SP graduate and intern at innovation agency, reddit dinosaur."
+          },
+          {
+            "url": "https://github.com/",
+            "image": "./public/images/team/Tom.png",
+            "name": "Tomás Xavier",
+            "job": "Content Producer",
+            "text": "Around the Block lead brain and cinematographer, music maker, film composer and editor."
+          },
+        ]
+      },
+      "onthenews": {
+        "title": "On the news",
+        "list": [
+          { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
+            "title": "ÉPOCA NEGÓCIOS",
+            "image": "./public/images/on-the-news/logo-epocanegocios.png"
+          },
+          { "href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
+            "title": "CRIPTOMOEDAS FÁCIL",
+            "image": "./public/images/on-the-news/logo-criptomoedasfacil.png"
+          },
+          { "href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
+            "title": "TECMUNDO",
+            "image": "./public/images/on-the-news/logo-tecmundo.png"
+          },
+          { "href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
+            "title": "OLHAR DIGITAL",
+            "image": "./public/images/on-the-news/logo-olhardigital.png"
+          }
+        ]
+      },
+      "videos": {
+        "title": "Videos",
+        "subtitle": "Our videos",
+        "text": "You can find someone of the team regularly in (or invite to!) meetups, events and conferences mostly in Brazil, the U.S and Italy.",
+        "list": [
+          {"url": "https://www.youtube.com/embed/H4-0mNaZP50"},
+          {"url": "https://www.youtube.com/embed/mX7VuUeduEY"},
+          {"url": "https://www.youtube.com/embed/7waTiMBlXbw"}
+        ],
+        "button": "See more",
+        "buttonHref": "https://www.youtube.com/channel/UC5OOwdF37P_oT0OVf2DvuPg"
+      },
+      "footer": {
+        "text": "We ♥ open source",
+        "social": {
+          "title": "Find us here:",
+          "list": [
+            {
+              "title": "Github",
+              "href": "https://github.com/Paratii-Video/wiki/wiki",
+              "icon": "<use xlink:href=\"#icon-social-github\">"
+            },
+            {
+              "title": "Gitter",
+              "href": "https://gitter.im/Paratii-Video/",
+              "icon": "<use xlink:href=\"#icon-social-gitter\">"
+            },
+            {
+              "title": "Medium",
+              "href": "https://medium.com/paratii",
+              "icon": "<use xlink:href=\"#icon-social-medium\">"
+            },
+            {
+              "title": "E-mail",
+              "href": "mailto:hello@paratii.video",
+              "icon": "<use xlink:href=\"#icon-social-email\">"
+            },
+            {
+              "title": "Steemit",
+              "href": "http://steemit.com/@paratii",
+              "icon": "<use xlink:href=\"#icon-social-steemit\">"
+            },
+            {
+              "title": "Telegram",
+              "href": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
+              "icon": "<use xlink:href=\"#icon-social-telegram\">"
+            },
+            {
+              "title": "Youtube",
+              "href": "https://www.youtube.com/channel/UC5OOwdF37P_oT0OVf2DvuPg",
+              "icon": "<use xlink:href=\"#icon-social-youtube\">"
+            },
+            {
+              "title": "Facebook",
+              "href": "https://www.facebook.com/paratiivideo/",
+              "icon": "<use xlink:href=\"#icon-social-facebook\">"
+            }
+          ]
+        }
+      }
+    },
   }
 }

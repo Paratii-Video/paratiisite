@@ -1,12 +1,13 @@
 ;(function () {
   'use strict';
  
-  var vueapp, data_content_pt, data_content_en;
+  var vueapp, data_content_pt, data_content_en, data_content_ch;
 
   // Lang
   
   data_content_pt = PARATII.lang.pt;
   data_content_en = PARATII.lang.en;
+  data_content_ch = PARATII.lang.ch;
 
   Vue.config.devtools = true;
 
@@ -14,15 +15,27 @@
     el: '#paratii-main',
     data: {
       nav: false,
-      langEn: true,
+      lang: 'en',
       content: data_content_en
     },
     mounted: function(e) {
       document.body.className = "hide-cover";
     },
     watch: {
-      langEn: function (e) {
-        this.content = this.langEn ? data_content_en : data_content_pt;
+      lang: function (e) {
+        switch(this.lang) {
+          case 'en':
+            this.content = data_content_en
+            break;
+          case 'pt':
+            this.content = data_content_pt
+            break;
+          case 'ch':
+            this.content = data_content_ch
+            break;
+          default:
+            this.content = data_content_en
+        }
       }
     },
     methods: {
@@ -59,7 +72,7 @@
         this.nav = true;
       },
       changeLang: function (lang, e) {
-        this.langEn = (lang === 'en');
+        this.lang = lang;
         this.nav = false;
       }
     }
