@@ -950,103 +950,103 @@ window.PARATII = {
       "team": {
         "title": "成员",
         "subtitle": "我们的团队",
-        "text": "A distributed workforce of solid background, skilled and passionate people. You’re welcome to drop by one of <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">our weekly development calls.</a>",
+        "text": "作为分布式团队，成员拥有扎实的工作经验，技术卓越，并充满热情。欢迎你来参加<a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">我们的每周开发会议。</a>",
         "list": [
           {
             "url": "https://medium.com/@felipegachopereira",
             "image": "./public/images/team/Felipe.png",
             "name": "Felipe Sant Ana",
             "job": "项目主管",
-            "text": "Crowdfunding pioneer in Brazil, ESPM alumni, ex-Endeavor & BossaNovaFilms."
+            "text": "巴西的众筹先锋，ESPM校友，之前就职于Endeavor & BossaNovaFilms。"
           },
           {
             "url": "https://github.com/jellegerbrandy",
             "image": "./public/images/team/Jelle.png",
             "name": "Jelle Gerbrandy",
             "job": "技术主管",
-            "text": "Ph.D. in Logic at University of Amsterdam, visiting scholar at Stanford, previously CTO at Backfeed."
+            "text": "阿姆斯特丹大学的逻辑学博士，斯坦福大学的访问学者，前Backfeed CTO。"
           },
           {
             "url": "https://github.com/ya7ya",
             "image": "./public/images/team/Yahya.png",
             "name": "Mohamed Yahya",
             "job": "首席 P2P 工程师",
-            "text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumni."
+            "text": "为js-ipfs贡献代码，支付通道的原型设计师，Petronas科技大学校友。"
           },
           {
             "url": "https://github.com/bent0b0x",
             "image": "./public/images/team/Ben.png",
             "name": "Benjamin Baum",
             "job": "首席前端工程师",
-            "text": "University of Cornell alumni and former research assistant, senior software engineer at Hubspot."
+            "text": "康奈尔大学校友、前研究助理，Hubspot高级软件工程师。"
           },
           {
             "url": "https://github.com/aeftimia",
             "image": "./public/images/team/Alex.png",
             "name": "Alex Eftimiades",
             "job": "研发科学家",
-            "text": "Algorithms expert, internships at the US Army Research Lab and NASA Goddard Space Flight Center."
+            "text": "算法专家，曾在美国陆军研究实验室和美国航天局戈达德太空飞行中心的实习。"
           },
           {
             "url": "http://garou.in/",
             "image": "./public/images/team/Garou.png",
             "name": "Paulo dos Santos",
             "job": "前端工程师",
-            "text": "HTML, CSS, JS (Less.js); FitC and FWA awards won for projects with global clients."
+            "text": "精通HTML,CSS,javascript(Less.js)，FitC和FWA世界大赛获奖者。"
           },
           {
             "url": "https://github.com/enricocicconi",
             "image": "./public/images/team/Enrico.png",
             "name": "Enrico Cicconi",
             "job": "Web3 开发工程师",
-            "text": "Engineer @ Instituto Politecnico di Torino, experienced backend developer, responsible for most of the embedding magic the player does."
+            "text": "Instituto Politecnico di Torino 工程师，经验丰富的后端开发人员，负责播放器大部分的嵌入式工作。"
           },
           {
             "url": "https://github.com/eliawk",
             "image": "./public/images/team/Elia.png",
             "name": "Elia Pellegrino",
             "job": "Web3 开发工程师",
-            "text": "Electronic engineer @ Instituto Politecnico di Torino, professor at IED, former web developer."
+            "text": "Instituto Politecnico di Torino 电子工程师，IED 教授，前web开发人员。"
           },
           {
             "url": "https://github.com/Leeaandrob",
             "image": "./public/images/team/Leandro.png",
             "name": "Leandro Barbosa",
             "job": "开发运维工程师",
-            "text": "Python-native video infrastructure builder, previous clients include Esporte Interativo (a sports channel), distance learning platforms and video-heavy startups."
+            "text": "原生Python视频基础设施构建者，以前的客户包括Esporte Interativo(一个体育频道)，远程学习平台和视频创业公司。"
           },
           {
             "url": "https://pcasa.myportfolio.com/projetos",
             "image": "./public/images/team/Pedro.png",
             "name": "Pedro Casagrande",
             "job": "设计师",
-            "text": "ESPM alumni, previously at Estudio Pulpo and Design Lab ESPM."
+            "text": "ESPM校友，之前就职于Estudio Pulpo和Design Lab ESPM。"
           },
           {
             "url": "https://www.linkedin.com/in/lupape/",
             "image": "./public/images/team/Paulo.png",
             "name": "Paulo Perez",
             "job": "战略和愿景",
-            "text": "Co-founder @ Doubleleft, (acquired by Interpublic). Cannes Lions and Webby Awards winner."
+            "text": "Doubleleft（被Interpublic收购）联合创始人。戛纳电影节和威比奖得主。"
           },
           {
             "url": "https://github.com/",
             "image": "./public/images/team/Daniel.png",
             "name": "Daniel Quandt",
             "job": "社区经理",
-            "text": "USP-SP graduate and intern at innovation agency, reddit dinosaur."
+            "text": "USP-SP 研究生，创新公司实习生，reddit资深用户。"
           },
           {
             "url": "https://github.com/",
             "image": "./public/images/team/Tom.png",
             "name": "Tomás Xavier",
             "job": "内容制作人",
-            "text": "Around the Block lead brain and cinematographer, music maker, film composer and editor."
+            "text": "街区意见领袖和电影摄影师、音乐制作人、电影制作人和编辑。"
           },
         ]
       },
       "onthenews": {
-        "title": "新闻列表",
+        "title": "在这些新闻里",
         "list": [
           { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
             "title": "ÉPOCA NEGÓCIOS",
