@@ -18,7 +18,164 @@ window.PARATII = {
       },
       "faq": {
         "title": "FAQ",
-        "subtitle": "Asked questions"
+        "subtitle": "Frequently Asked Questions",
+        "list": [
+          {
+            "title": "Service",
+            "group": [
+              {
+                "title": "What is Paratii?",
+                "text": "Paratii is a new online platform for video that aims to change the way you publish and consume content on the internet. Through its decentralized architecture and democratic monetization model, as well as having its content displayable on any page or system, Paratii represents a paradigm shift and socioeconomic experiment as much as just another online platform."
+              },
+              {
+                "title": "Who is Paratii for?",
+                "text": "Paratii is for everyone who wants to distribute and/or consume video on the internet. From everyday vlogging to huge productions, the platform aims for the best and fairest experience for spectators and content creators. Further on, Paratii will also strengthen its relationship with publishers (websites, portals and apps that integrate video in their services) and media buyers."
+              },
+              {
+                "title": "Is the service functional? When will it be launched?",
+                "text": "We are currently undergoing testing with a small selection of uploaders, and plan on expanding throughout the next few weeks. The player is already functional and content can be shared on Twitter, Telegram, or as embedded content on websites. Sign up to our newsletter and keep up with our social media channels to know when you’ll be able to upload your own videos. This should occur in the second quarter of 2018."
+              },
+              {
+                "title": "What problems does Paratii solve?",
+                "text": "For creators: demonetization and censorship. For audiences: economic exploitation and lack of options. For advertisers: abusive prices and fraud in audience calculation. <br/>Paratii’s decentralized architecture allows the platform to exist without requiring the gigantic infrastructure of traditional centralized services, because participants share computational resources. Also, video monetization is entirely in the users’ hands, through contracts in the Ethereum blockchain. This works to free creators from institutions and platforms tied to the interests of large corporations - especially niche creators. Metrics and media opportunities are not held by a central agent, but public (respecting each user’s privacy settings) so that their value is dictated by the market without the necessity for middlemen."
+              },
+              {
+                "title": "How is Paratii different from other video platforms?*",
+                "text": "In comparison to Youtube, Vimeo and such, Paratii distinguishes itself on two fronts: tech and business model. On the tech side because it is built on decentralized architecture, which makes it free from the necessity of housing gigantic warehouses full of servers, for instance. On the business model front, Paratii is unique in granting the power over monetization and curation to its creators and audiences, allowing for diverse options in sustaining the production of content. Importantly, Paratii also does not charge fees or take a cut of any transactions that happen in the platform."
+              },
+              {
+                "title": "Who are Paratii’s competitors?",
+                "text": "In 2015, Preston Byrne wrote about using Ethereum contracts to execute micropayments in the distribution of video. Since then, an array of alternatives to traditional video platforms have appeared. Many claimed to be “the first decentralized video network”, but it’s hard to grant the title to one specific initiative. Each project tackles a specific problem, in theory, and many that may seem similar are actually complementary and need one another to function. Below, we list some of them:<br><br> <strong>Data Storage:</strong> IPFS, Swarm, Sia, Storj, Maidsafe and Decent compete in offering options for “peer-to-peer clouds”. They may be used as the “backend” for applications that need to communicate with large files and would rather not store them on the blockchain due to cost. They are analogous to Amazon S3, Dropbox, etc.<br><br><strong>Blockchains with a specific purpose:</strong> VideoCoin, Theta, LBRY.io, Alexandria and Steem are examples of blockchains dedicated to a specific type of application - they integrate identity, payment, data storage, load distribution and reputation in a single network, under a single protocol. That is to say, they don’t operate on Ethereum, Bitcoin, or any other blockchain, and allow applications to be built on top of them.<br/><br/><strong>“Auxiliary” services:</strong> Livepeer and Stream are examples of protocols that are dedicated to solving a specific part of the video pipeline. The first, for instance, provides a network of “transcoders” that prepare raw video files to be shown in many resolutions - the idea is to provide this service for applications that require it to offer optimal user experience on different devices and connections. At Paratii, for instance, we are experimenting with integrating Livepeer. That is, we are mixing different protocols and services in a single application.<br/><br/><strong>Content aggregators:</strong> SingularDTV, Viuly, Viewly, DTube, PopChest and Lino have their distinctions, but their objective can basically be said to aggregate content and provide portals where fans can sponsor artists. In most cases, they are against advertising. Some of them are built on Ethereum; others on Steem; some are even built on Bitcoin.<br/><br/><strong>Mobile applications:</strong> Props (YouNow), Current and Flixxo are examples of mobile applications with a similar purpose to the ones listed above. However, they are developed by centralized, profit-minded companies, and incorporate fees on certain transactions in order to maintain themselves.<br/><br/><strong>Curation and governance:</strong> Lightstreams and Userfeeds propose solutions for organizing and recommending content, in a way that could be integrated into video platforms.<br/><br/>The way all these layers of technology can interact is still unclear. A couple of them might make up what we would call a “platform”. There are also cases in which half a dozen or more might intersect in a single platform. Many that seem identical are actually quite different (e.g. WebTorrent x IPFS). Also, some initiatives that aren’t currently integrated to the ones mentioned above might soon become part of the group, such as Bidio for advertisements and Userfeeds for recommendations.<br/><br/>We are still in the early steps of a journey that is gradually redesigning the panorama for video, content creation and online advertising. A market of two billion people awaits disintermediation. The path towards that goal demands collaboration, patience and experimentation."
+              },
+              {
+                "title": "I am a content creator and wish to migrate platform. What advantages can I find in Paratii?",
+                "text": "Independent creators have been ignored by the big video platforms for too long. At Paratii, you are our number one priority, and everything from the underlying technology to the launch event carries that philosophy. The monetizing of your videos does not depend on a corporation deciding if they’re valid or good enough, and is directly in your control. You may opt for advertisements, pay-per-view, and even offer incentives for watching and sharing your videos, nourishing an audience and making it a community. Also, you’ll be able to hold tokens (currently projected for the first semester of 2018) and reap the economic benefits conferred by them."
+              },
+              {
+                "title": "I have a webpage or app that distributes videos. How do I use Paratii?",
+                "text": "The service is designed to be universally embeddable on the web. This means that your website can have all of its video content “hosted” on Paratii, while at the same time showing it with no additional friction to the end user - superficially, it’s just like any other player. If you have your own domain, a Wordpress page or an article on Medium that could use some extra life, all you’ll have to do is paste a link like the following to show video on your content: <a class=\"paratii-link\" href=\"https://portal.paratii.video/play/XXXXXXXXXXXX\" target=\"_blank\">https://portal.paratii.video/play/XXXXXXXXXXXX</a><br/><br/>If you’re a developer and want to use decentralized video in your app, the <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-lib\" target=\"_blank\">paratii-lib</a> library was made for you. It’s used to read and write on the Ethereum blockchain, interact with peers on the IPFS network and search on the Paratii index, for instance. With it, we want to allow anyone to build browser clients such as the Paratii portal (we’ll provide a webpacked version for that) and also nodeJS based applications. All you need to initialize the library is the URL of an Ethereum node (the provider parameter) and the address for the ParatiiRegistry contract (the registry parameter). You can find current documentation <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-lib/tree/dev/docs\" target=\"_blank\">here</a>. Our <a class=\"paratii-link\" href=\"https://www.getrevue.co/profile/Paratii\" target=\"_blank\">newsletter</a> and <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">Gitter</a> are the best channels to get update on the library’s development."
+              },
+              {
+                "title": "How do I upload a video?",
+                "text": "It’s quite simple: access portal.paratii.video and drag your video file to the upload zone. The rest should be self-explanatory. As soon as the platform is available to the public, we’ll update this section with more information."
+              },
+              {
+                "title": "What kind of video can or can’t I upload?",
+                "text": "In essence, any content that belongs to you or that you have permission to share, that is legal in its country of origin, and is not pornographic, can be uploaded to Paratii. Users that go through the upload process must accept the service’s terms of use."
+              },
+              {
+                "title": "How much does it cost?",
+                "text": "Usage of the platform is free, but certain actions cost PTI, our token, which has its own section below. Our mantra is: <strong>it costs you nothing to use it, but it’ll cost you to abuse it.</strong> When creating your account, you’ll get enough PTI to upload a few videos or watch a couple of pay-per-views. You’ll get more, seamlessly, whenever you watch content, register contact information or participate in the curation process. You can also buy tokens on the market or run a media node on your computer, “mining” new tokens."
+              },
+              {
+                "title": "Are there advertisements? Subscriptions? How can I monetize?",
+                "text": "The form of monetizing content will always be in the hands of whoever created it - from running ads to accepting subscriptions, donations, or even charging per view. Currently, none of those options are enabled yet. The first one to be activated will be direct donations, then pay-per-view, and finally subscriptions and advertisements. In the medium-term, you won’t be lacking in options to be compensated for your work. Do you have ideas for a monetization process that we might not have thought of? How about jumping on our <a class=\"paratii-link\" href=\"https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A\" target=\"_blank\">Telegram</a> and sharing them?"
+              },
+              {
+                "title": "Do I have to pay fees? How does Paratii make money?",
+                "text": "No! Creating an account on Paratii is totally free. Part of the issued tokens (12%) are granted to the Paratii Foundation, a nonprofit that aims to foster research, development, and expansion of the network. The foundation benefits if the platform is a success, grows, and the native token appreciates in value - gaining resources to invest in communcation, tutorials and training of the core development team, for instance. These tokens, however, will be issued slowly over four years, so that incentives are structured in a way to guarantee the sustainability of the technology in the long-term."
+              },
+              {
+                "title": "How do I keep up with news about Paratii?",
+                "text": "There are many ways! Sign up for our newsletter, follow us on social media (LINKS PARA REDES) and check out our <a class=\"paratii-link\" href=\"http://www.paratii.video\" target=\"_blank\">website</a> to see what’s new. Feel free to ask questions and participate in the community."
+              },
+              {
+                "title": "I represent a media outlet and want to write about Paratii - how do I get in touch?",
+                "text": "If you’re interested in talking about Paratii in the press, send an e-mail to <a class=\"paratii-link\" href=\"mailto:press@paratii.video\" target=\"_blank\">press@paratii.video</a> and we’ll be glad to chat!"
+              },
+              {
+                "title": "Quem está por trás disso?",
+                "text": "A team spanning Brazil, the USA, Italy and Egypt. You can find information on the team and each person’s social channels <a class=\"paratii-link\" href=\"https://paratii.video/#team\" target=\"_blank\">here</a>. We are mostly comprised of developers, as well as designers, creatives and those in business positions. Since all of our code is open source, a nonprofit - the Paratii Foundation - set up in Estonia is responsible for financing the efforts and resources employed in researching, developing and communication the technology and its products. We get paid in cryptocurrency. We are supported by private investors and one of the largest film and entertainment production companies in Brazil."
+              }
+            ]
+          },
+          {
+            "title": "Technology",
+            "group": [
+              {
+                "title": "What does it mean for Paratii to use the “blockchain”?",
+                "text": "Blockchain technology can be summed up as a digitally secured, inalterable public record. At Paratii, it is used so that all transactions of the PTI token are secured against fraud and can never be lost, because they are replicated in every single computer that composes it - depending on the scale, it could be millions!"
+              },
+              {
+                "title": "Which blockchain is Paratii using? Are any others planned for?",
+                "text": "Currently, Paratii uses the Ethereum blockchain. We are on the way to being on the public network; today, Paratii operates on a testnet, still permissioned. We are closely following the development of Steem, EOS, and a few other base technologies. Our R&D team always has alternatives in mind, but right now our commitment is to the community in which we came up with and developed our technology."
+              },
+              {
+                "title": "How is Paratii’s architecture structured?",
+                "text": "Paratii is built on a decentralized architecture. This mean that, instead of housing the files and processing power required to run a platform of this magnitude in huge warehouses of servers owned by a single company, this infrastructure is distributed between countless computers that make up the network, be they regular users or media nodes, and they are rewarded for doing their part in keeping the service running. You can find a more detailed breakdown in our <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/wiki/wiki/Paratii-Blueprint\" target=\"_blank\">technical documentation</a>."
+              },
+              {
+                "title": "Does Paratii support livestreaming or strictly on-demand video?",
+                "text": "We are progressing towards allowing livestreaming on the platform. This should become possible in the next few months."
+              },
+              {
+                "title": "360º video and Virtual Reality: are they supported?",
+                "text": "Support for 360 degree videos and VR are in our near-future plans, and we should add this capability soon (after livestreaming, of course). Technically, it’s not a huge challenge to implement."
+              },
+              {
+                "title": "How does the network sustain itself with no servers? Where are the files?",
+                "text": "The files are distributed between the computers of everyone who uses Paratii and runs our media node software, and are sent to whoever requests them. It works similarly to a torrent, or programs such as Stremio or Popcorn Time."
+              },
+              {
+                "title": "Can Paratii run on any device?",
+                "text": "The current player prototype runs on iOS and Android as well as Mac, Windows and Linux on the Chrome, Safari, Brave and Firefox browsers. We are constantly working to add support for more devices and systems."
+              },
+              {
+                "title": "Isn’t it dangerous to use my computer to store third-party files?",
+                "text": "It’s as dangerous as browsing websites that use cookies - the personal information files that certain publishers warn you about storing on your machine (“this website uses cookies…”). On Paratii, you don’t store whole files on your computer, but small random chunks of data. These chunks are stored in your browser’s local storage, and have no access to the device’s core memory. The user has full control over the expiration time of these files and how much space they’re allowed to take up, but <a class=\"paratii-link\" href=\"https://plus.google.com/u/0/+FrancoisBeaufort/posts/S5Q9HqDB8bh\" target=\"_blank\">this is usually limited by the browser itself at something between 5 and 10MB</a>."
+              },
+              {
+                "title": "Can anyone see everything I do on Paratii?",
+                "text": "Not everything you do! Activity is anonymized, encrypted and is only sent out of your computer when it is directly relevant to an operation that must be executed. You’ll have the option to remain anonymous indefinitely (though you might feel a bit lonely!). Once conducted, transactions are public and irreversible - that is, if you decide to support a video with some tokens, other people may see it."
+              },
+              {
+                "title": "Is the codebase open? How can I follow along?",
+                "text": "Yes! You may follow the activity on our <a class=\"paratii-link\" href=\"https://github.com/paratii-video\" target=\"_blank\">Github repository</a> and even talk to the dev team or ask questions on <a class=\"paratii-link\" href=\"http://gitter.im/Paratii-Video\" target=\"_blank\">Gitter</a>. <a class=\"paratii-link\" href=\"https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A\" target=\"_blank\">Telegram</a> is where you’ll find more informal chatting."
+              }
+            ]
+          },
+          {
+            "title": "Token",
+            "group": [
+              {
+                "title": "What is the PTI token?",
+                "text": "PTI is Paratii’s currency. It is issued according to codebound rules, its inflation is non-manipulable and its distribution rewards curators that help to keep content organized and filtered. Some functions in the platform require the user to deposit and “stake” PTIs, losing the ability to transfer them for a determined period but keeping ownership over them, consequently becoming entitled to rewards. As well a staking unit, the token can be used to pay for videos, make paid subscriptions or buy advertising, further on."
+              },
+              {
+                "title": "What is having PTI good for?",
+                "text": "PTI allows you access to participation in the content machine sustained by the platform. In other words, you can upload videos and curate available content, becoming eligible for rewards paid in PTI. Soon, this answer will be updated with an infographic detailing the token’s mechanisms."
+              },
+              {
+                "title": "Couldn’t an existing token be used instead?",
+                "text": "It is important that the token’s utility be contained within the services provided by Paratii, so that its value is not contaminated by forces external to the microeconomy it supports. Since it is a staking unit, it’s vital that the same token “stored” by the system to execute certain functions also be used to reward those that perform these functions in accordance with collective objectives. A third (but no less important) reason for an isolated token is the possibility of implementing a “monetary policy” that benefits the network’s bootstrapping - incentivizing early adoption, for instance. It should be noted that PTI is issued through the Ethereum blockchain, and compatible with wallets that follow its protocols."
+              },
+              {
+                "title": "How do I get PTI?",
+                "text": "First of all, any user that validates their registration gets a few PTI to start experimenting. This “initial gift” will be reduced in accordance to the userbase’s growth. There are a few different ways of <strong>acquiring</strong> PTIs - the most direct one is to buy them from other users or exchanges with money, when the token is on the main net and is sold through third parties. It will be possible to <strong>earn</strong> PTI when interacting with the system in three different ways beside the initial gift: watching a video on the player, contributing to the curation of content uploaded to the system, or downloading and running a sorte of master node, which we call media node."
+              },
+              {
+                "title": "Can it be mined?",
+                "text": "Yes and no - PTI cannot be mined in the same way as Bitcoin, for instance, in which users dedicate processing power to register opeartions on the blockchain, but it can be earned by dedicating processing power and bandwidth to run a media node, becoming part of the network that sustains the platform’s infrastructure."
+              },
+              {
+                "title": "What is a media node?",
+                "text": "A media node is software that can be downloaded and run by someone who wishes to provide extra resources and be compensated by the Paratii network. This program, in the vein of a master node, is fit for individuals who have machines with plenty of free space, server owners, or media vehicles interested in supporting and owning a piece of the future. When run, it allows the company to identify itself with an address on Paratii, Ethereum and IPFS (and soon, Livepeer); it allows the device to receive videos uploaded to the platform, prepare them to be watched in multiple resolutions, help to store and index them, and assist in distribution as a gateway."
+              },
+              {
+                "title": "How many PTI can there be?",
+                "text": "Just like in Bitcoin’s case, the number of PTI tokens that can exist will never go beyond 21 million. The issuance of new units slows down exponentially as the quantity available to the market approaches that number."
+              },
+              {
+                "title": "Can I get PTI yet?",
+                "text": "Our plan is to initiate public distribution of the token in May. Keep an eye on our newsletter and social media channels to learn more as we approach that date."
+              },
+              {
+                "title": "What factors can appreciate or depreciate PTI’s value?",
+                "text": "Supply and demand. The only factors that directly determine PTI’s market price are the market forces - the prices set in executed buy and sell orders. Demand may rise as creators seek out tokens to support or promote their videos, users participate in the curation process to get rewards, media buyers become interested in advertising on the platform or speculators bet on the platform’s future. On the supply side, the price may go down if users sell their tokens en masse; but it may also go up as tokens are staked and become frozen for a period, or as tokens become lost (deducted from circulation) or unredeemed by anonymous users who don’t know any better."
+              }
+            ]
+          }
+        ]
       },
       "audiences": {
         "title": "Audiences",
@@ -328,9 +485,9 @@ window.PARATII = {
         "subtitle": "Our videos",
         "text": "You can find someone of the team regularly in (or invite to!) meetups, events and conferences mostly in Brazil, the U.S and Italy.",
         "list": [
-          {"url": "https://www.youtube.com/embed/H4-0mNaZP50"},
-          {"url": "https://www.youtube.com/embed/mX7VuUeduEY"},
-          {"url": "https://www.youtube.com/embed/7waTiMBlXbw"}
+          {"url": "https://portal.paratii.video/embed/N7Hic8d0yNst"},
+          {"url": "https://portal.paratii.video/embed/N7Hic8d0yNst"},
+          {"url": "https://portal.paratii.video/embed/N7Hic8d0yNst"}
         ],
         "button": "See more",
         "buttonHref": "https://www.youtube.com/channel/UC5OOwdF37P_oT0OVf2DvuPg"
@@ -397,7 +554,164 @@ window.PARATII = {
       },
       "faq": {
         "title": "FAQ",
-        "subtitle": "Perguntas frequentes"
+        "subtitle": "Perguntas Frequentes",
+        "list": [
+          {
+            "title": "Service",
+            "group": [
+              {
+                "title": "O que é a Paratii?*",
+                "text": "A Paratii é uma nova plataforma vídeos online que visa mudar a forma como você distribui e consome conteúdo na internet. Com uma arquitetura descentralizada e monetização democrática, além da capacidade de ter seu conteúdo exibido em qualquer página ou sistema, a Paratii representa uma quebra de paradigma e um experimento socioeconômico tanto quanto mais uma plataforma entre tantas na web."
+              },
+              {
+                "title": "Para quem é a Paratii?",
+                "text": "A Paratii é para todos aqueles que querem distribuir e/ou consumir vídeo na internet. Dos vídeos mais cotidianos às maiores produções, a plataforma visa a melhor e mais justa experiência possível para <strong>espectadores</strong> e <strong>criadores de conteúdo</strong>. Mais à frente, Paratii deve estreitar relações também com <strong>publishers</strong> (domínios, portais e aplicativos que integram vídeo em seus serviços) e compradores de mídia, conforme"
+              },
+              {
+                "title": "O serviço já está funcionando? Quando vai ser lançado?*",
+                "text": "Estamos lançando um teste com uma quantidade pequena de uploaders em breve, e os vídeos deles devem estar disponíveis para serem assistidos, ao longo do mês de março, em um portal que está tomando forma. O player da Paratii já funciona e alguns conteúdos podem ser compartilhados no Twitter, Telegram, ou, se você administra um domínio, de forma embedada. Assine nossa newsletter e acompanhe nossos canais sociais para saber quando você poderá subir seus próprios vídeos. A previsão é para que isso aconteça no primeiro quadrimestre de 2018."
+              },
+              {
+                "title": "Que problemas a Paratii resolve?",
+                "text": "Para criadores: desmonetização e censura. Para audiências: extingue a exploração econômica e outras forma de violação. Para anunciantes, em breve: preços abusivos pela mídia e susceptibilidade a fraudes.<br/>A arquitetura descentralizada da Paratii permite que a plataforma exista sem necessitar da infraestrutura gigantesca exigida por serviços tradicionais e centralizados, uma vez que participantes da rede compartilham recursos computacionais. Além disso, a monetização dos vídeos é gerida diretamente pelos usuários, entre si, por meio de contratos na blockchain da Ethereum, o que serve para libertar os criadores das amarras de instituições e plataformas presas aos interesses de grandes empresas - principalmente os criadores de nicho. Informações históricas e oportunidades de mídia não são resguardadas por um agente central, mas sim públicas (na medida da privacidade exigida por cada usuário), para que se extraia delas o valor ditado pelo mercado, livre de margens para terceiros."
+              },
+              {
+                "title": "Qual é a diferença entre a Paratii e outras plataformas de vídeo?*",
+                "text": "Quando comparada ao Youtube, Vimeo e afins, a Paratii se distingue em duas frentes: tecnologia e modelo de negócios. Na tecnológica, por se sustentar em uma arquitetura descentralizada que independe de possuir enormes galpões de servidores. No modelo de negócios, por colocar o poder sobre a monetização e a curadoria nas mãos de criadores e audiências, permitindo diversas opções para sustentar a produção de conteúdo, além de não cobrar taxas para lucro próprio."
+              },
+              {
+                "title": "Quais são os competidores da Paratii?",
+                "text": "Em 2015, <a class=\"paratii-link\" href=\"https://prestonbyrne.com/2015/02/28/this-is-how-you-use-smart-contracts/\" target=\"_blank\">Preston Byrne já escreveu</a> sobre como usar contratos na Ethereum para executar micropagamentos atrelados a distribuição de vídeos. De lá pra cá, surgiram uma gama vasta de alternativas a plataformas tradicionais de vídeo. Muitas clamaram ser “a primeira rede de vídeo descentralizada” do mercado, mas é difícil entregar o título a uma iniciativa em particular. Cada projeto, na teoria, ataca um problema específico, e muitos que parecem similares, na verdade se complementam e precisam um do outro para funcionar. Vamos por partes:<br><br> <strong>Armazenagem de dados:</strong> IPFS, Swarm, Sia, Storj, Maidsafe e Decent competem para oferecer opções de “nuvens peer-to-peer”. Podem ser usadas como “backend” de aplicações que precisam se comunicar com arquivos pesados, e evitam armazená-los em uma blockchain por conta do custo. Análogos à S3 (Amazon), Dropbox, e outros.<br/><br/><strong>Blockchains com propósito específico:</strong> VideoCoin, Theta, LBRY.io, Alexandria e Steem são exemplos de blockchains dedicadas a um tipo específico de aplicação - integram lógicas de identidade, pagamento, armazenagem de dados, distribuição de carga e reputação em uma mesma rede, sob um mesmo protocolo. Ou seja: não operam sobre Ethereum, Bitcoin, ou outra blockchain, e permitem que aplicações sejam construídas sobre elas.<br/><br/><strong>Serviços “auxiliares”:</strong> Livepeer e Stream são exemplos de protocolos que se dedicam a solucionar uma parte específica do pipeline de vídeo. A primeira, por exemplo, provê uma rede de “transcoders” que preparam arquivos crus de vídeo para serem exibidos em diversas resoluções - a ideia é que seja integrada a aplicações que requerem esse tipo de funcionalidade para oferecerem uma boa experiência de usuário em qualquer aparelho ou conexão. Na Paratii, por exemplo, estamos experimentando essa integração, ou seja, mesclando os serviços de protocolos diferentes numa só aplicação.<br/><br/><strong>Agregadores de conteúdo:</strong> SingularDTV, Viuly, Viewly, DTube, PopChest e Lino tem suas dissimilaridades, mas basicamente se propõe a agregar conteúdo e prover portais onde fãs podem patrocinarem artistas. Na maioria dos casos, são contra propagandas. Alguns são construídos sobre Ethereum; outros sobre Steem; tem até aquelas que se sustentam sobre Bitcoin.<br/><br/><strong>Aplicativos mobile:</strong> Props (YouNow), Current e Flixxo são exemplos de aplicativos mobile com propósitos parecidos aos da categoria acima. São, no entanto, desenvolvidos por empresas centralizadas com fins lucrativos, e incorporam taxas sobre certas transações para se manterem.<br/><br/><strong>Curadoria e governança:</strong> Lightstreams e Userfeeds propõe soluções para se organizar, permissionar e recomendar conteúdos, podendo ser integrados a plataformas de vídeo.<br/><br/>As interações entre todas essas camadas de tecnologia ainda não são claras. Um par delas pode constituir aquilo que chamamos de “plataforma”. Mas também há casos em que meia dúzia ou mais se encontram, transversalmente, em uma única “plataforma”. Muitas que soam idênticas têm tecnologias na verdade bem diferentes (e.g. WebTorrent X IPFS). E algumas iniciativas que ainda não estão sendo integradas às mencionadas acima, muito em breve, devem estar fazendo parte do bolo (por exemplo, a Bidio para anúncios; e a Userfeeds para recomendações).<br/><br/>Ainda é o começo de uma jornada que está, aos poucos, redesenhando o panorama do vídeo, da criação de conteúdo e da publicidade no meio digital. Tem um mercado de 2 bilhões de pessoas esperando para ser desintermediado. O caminho passa por muita colaboração, paciência e experimentação."
+              },
+              {
+                "title": "Sou um criador de conteúdo e quero migrar de plataforma. Quais são as vantagens da Paratii?",
+                "text": "Os criadores independentes já foram ignorados pelas grandes plataformas de vídeo por tempo demais. Na Paratii, vocês são nossa prioridade número um, e tudo desde a tecnologia até o lançamento da plataforma transparece essa filosofia. A monetização dos seus vídeos não depende de uma corporação decidir que eles são ou não válidos ou bons o suficiente, e está diretamente nas suas mãos. Você vai poder optar por publicidade, pay-per-view, e até mesmo oferecer incentivos para seus vídeos serem assistidos ou compartilhados, nutrindo a audiência e transformando-a em comunidade. Além disso, vai poder holdar tokens (cujo lançamento é projetado para o primeiro semestre de 2018) e se valer dos benefícios econômicos conferidos por eles."
+              },
+              {
+                "title": "Tenho uma página ou app por onde distribuo vídeos. Como passo a usar Paratii?",
+                "text": "O serviço é desenhado para ser universalmente embedável na web. Isso significa que seu site pode ter todo o conteúdo de vídeo “hospedado na Paratii”, e ao mesmo tempo exibi-lo sem encargos adicionais ou fricção para o usuário final - para os desavisados, nosso player é como um player qualquer. Se você tem um domínio próprio, uma página Wordpress, ou um artigo no Medium que precisa ganhar vida, bastará colar um link como esse para materializar um vídeo no seu conteúdo:  <a class=\"paratii-link\" href=\"https://portal.paratii.video/play/XXXXXXXXXXXX\" target=\"_blank\">https://portal.paratii.video/play/XXXXXXXXXXXX</a><br/><br/>Se você for desenvolvedor, e quiser usar vídeo descentralizado dentro de seus aplicativos, a biblioteca <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-lib\" target=\"_blank\">paratii-lib</a> foi feita para você. Ela é usada para ler e escrever na blockchain da Ethereum, interagir com peers da rede do IPFS e fazer buscas no Paratii index, por exemplo. Com ela, queremos permitir a qualquer um construir browser clients, como o paratii-portal (vamos prover uma versão webpack’ed para isso) e também aplicações baseadas em nodeJS. Tudo o que você precisará para inicializar a biblioteca é a URL de um nó da Ethereum (o parâmetro provedor) e o endereço do contrato ParatiiRegistry (o parâmetro registro). Cheque a <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-lib/tree/dev/docs\" target=\"_blank\">documentação atual aqui</a>. Nossa <a class=\"paratii-link\" href=\"https://www.getrevue.co/profile/Paratii\" target=\"_blank\">newsletter</a> e <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">Gitter</a> são os canais certos para receber updates sobre a biblioteca."
+              },
+              {
+                "title": "Como faço pra subir um vídeo?",
+                "text": "É simples: vá até portal.paratii.video e arraste seu arquivo de vídeo para a zona de upload. O resto deve ser autoexplicativo. Assim que a plataforma for lançada ao público, atualizaremos esta área com mais informações."
+              },
+              {
+                "title": "Quais tipos de vídeos posso subir? E quais não posso?",
+                "text": "Em essência, qualquer conteúdo cujos direitos sejam seus ou você tenha permissão de compartilhar, que seja lícito no país de origem, e não seja pornográfico, pode ser subido na Paratii. Usuários que passam pelo processo de upload devem aderir aos <strong>termos de uso do serviço</strong>."
+              },
+              {
+                "title": "Quanto custa?",
+                "text": "O uso da plataforma é gratuito, mas certas ações custam PTIs, token que tem sua própria seção abaixo. O mantra é: <strong>não custa pra usar, mas custa pra abusar</strong>. Ao criar uma conta, você recebe PTIs o bastante para subir alguns vídeos ou assistir a alguns pay-per-views. Ganha mais, sem perceber, a cada vez que assiste a conteúdo, registra informações de contato, ou participa do processo de curadoria. Também pode comprar tokens no mercado, ou rodar um nó de mídia no seu computador, “minerando” novos tokens."
+              },
+              {
+                "title": "Tem propaganda? Assinaturas? Como posso monetizar?*",
+                "text": "A forma de monetizar conteúdo estará sempre nas mãos de quem o cria  - desde rodar publicidade até aceitar assinaturas, doações ou mesmo cobrar por visualização. Atualmente, nenhuma dessas opções está ativada. A primeira a sê-lo será a de doações diretas. Depois, pay-per-view. Então, assinaturas e publicidade. No médio-prazo, não vão faltar opções para transformar seu trabalho em rendimento. Tem ideias de modelos de monetização que não estão no nosso radar? Que tal dar um pulo no nosso <a class=\"paratii-link\" href=\"https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A\" target=\"_blank\">Telegram</a>  e compartilhar?"
+              },
+              {
+                "title": "Preciso pagar taxa? Como a Paratii ganha dinheiro?",
+                "text": "Não! Criar uma conta na Paratii é totalmente gratuito. Parte dos tokens PTI emitidos (12%) são destinados à Fundação Paratii, uma entidade sem fins lucrativos, com o propósito de fomentar a pesquisa, desenvolvimento e expansão da rede. A fundação se beneficia se a plataforma for um sucesso, crescer, e o token nativo apreciar em valor - ganhando fôlego para investir em comunicação, tutoriais e treinamento do time de desenvolvedores core, por exemplo. Estes tokens, no entanto, são liberados devagar, ao longo de quatro anos, para que os incentivos estejam alinhados no sentido de garantir a sustentabilidade da tecnologia no longo-prazo."
+              },
+              {
+                "title": "Como faço pra acompanhar as notícias da Paratii?*",
+                "text": "Tem muitos jeitos! Assine nossa newsletter, acompanhe nossos canais nas redes sociais (LINKS PARA REDES) e confira <a class=\"paratii-link\" href=\"http://www.paratii.video\" target=\"_blank\">nosso site</a> para ver o que há de novo! Fique à vontade para fazer perguntas e participar na comunidade."
+              },
+              {
+                "title": "Essa história já saiu na mídia?",
+                "text": "Sim! Aqui estão algumas matérias que falaram da gente até agora:<br/><br/>Época Negócios: <a class=\"paratii-link\" href=\"http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html\" target=\"_blank\">Brasileiros Criam Youtube Decentralizado com Ajuda do Blockchain</a><br/><br/>Coindesk: <a class=\"paratii-link\" href=\"http://www.coindesk.com/3-web-giants-decentralized-blockchain\" target=\"_blank\">3 Web Giants That Could be Decentralised on a Blockchain</a><br/><br/>Tecmundo: <a class=\"paratii-link\" href=\"https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm\" target=\"_blank\">Brasileiros lançam “Youtube sem servidor” que paga pelos vídeos em Ethereum</a><br/><br/>Criptomoedas Fácil: <a class=\"paratii-link\" href=\"https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/\" target=\"_blank\">Paratii - um novo consenso para vídeos descentralizados</a><br/><br/>Olhar Digital: <a class=\"paratii-link\" href=\"https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096\" target=\"_blank\">Brasileiros criam rival do Youtube que paga em criptomoeda</a><br/><br/>Se você tiver interesse em falar sobre a Paratii na imprensa, mande um email para <a class=\"paratii-link\" href=\"mailto:press@paratii.video\" target=\"_blank\">press@paratii.video</a> e teremos todo prazer em bater um papo."
+              },
+              {
+                "title": "Quem está por trás disso?",
+                "text": "Um time distribuído pelo Brasil, EUA, Itália e Egito. <a class=\"paratii-link\" href=\"https://paratii.video/#team\" target=\"_blank\">Você pode conferir a equipe e canais sociais de cada um aqui.</a>. Somos, na maioria, desenvolvedores, além dos designers, criativos e das posições de negócio. Como todo código que produzimos é aberto, uma entidade sem fins lucrativos - a Fundação Paratii - sediada na Estônia é responsável por financiar os esforços e recursos empregados e pesquisa, desenvolvimento e comunicação da tecnologia e seus produtos derivados. Recebemos salários em criptomoeda. Somos suportados por investidores privados e por uma das maiores produtoras de cinema e entretenimento do Brasil."
+              }
+            ]
+          },
+          {
+            "title": "Tecnologia",
+            "group": [
+              {
+                "title": "O que significa a Paratii usar “blockchain”?",
+                "text": "A tecnologia de blockchain refere-se, resumidamente, a um registro público inalterável assegurado digitalmente. Na Paratii, isso é usado para que todas as transações do token PTI sejam asseguradas contra fraude e jamais possam ser perdidas, pois são replicadas em todos os computadores que a compõem - dependendo da escala, chegam a ser milhões!"
+              },
+              {
+                "title": "Qual blockchain é usada? Há alguma outra, nos planos?*",
+                "text": "Atualmente, a blockchain da Ethereum. Estamos a caminho da rede pública; hoje Paratii funciona numa rede-teste, ainda permissionada. Acompanhamos de perto a evolução da Steem, da EOS, além de algumas outras tecnologias de base. Nosso time de P&D sempre tem alternativas em vista, mas, hoje, nosso comprometimento é com a comunidade em que surgimos e nos desenvolvemos."
+              },
+              {
+                "title": "Como é a arquitetura da Paratii?*",
+                "text": "A Paratii é sustentada por uma arquitetura descentralizada. Isso significa que, ao invés de os arquivos e poder de processamento necessários para rodar uma plataforma dessa magnitude serem contidos em grandes galpões de servidores pertencentes a uma só empresa, essa infraestrutura é distribuída entre incontáveis computadores que fazem parte da rede, entre usuários comuns e nós de mídia, que são recompensados por fazer a sua parte em manter o serviço em pé. Tudo bem, esse é um resumo. Você encontra mais detalhes na nossa <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/wiki/wiki/Paratii-Blueprint\" target=\"_blank\">documentação técnica</a>."
+              },
+              {
+                "title": "Permite livestreams, ou somente vídeos on-demand?",
+                "text": "Estamos progredindo em direção a permitir a realização de livestreams na plataforma. Isso deve se tornar possível nos próximos meses."
+              },
+              {
+                "title": "360º e Realidade Virtual: dá pra transmitir?",
+                "text": "Suporte para vídeos 360 e VR estão no nosso plano para o futuro próximo, e devemos acrescentar essa capacidade em breve (depois de live, é claro). Tecnicamente, não se trata de um bicho de sete cabeças."
+              },
+              {
+                "title": "Como a rede se mantém sem servidores? Onde estão os arquivos?",
+                "text": "Os arquivos estão distribuídos entre os computadores de todos que utilizam a Paratii e rodam o nosso software de nó de mídia, sendo enviados a quem os requisita. Funciona de forma semelhante a um torrent, ou programas como o Stremio ou Popcorn Time."
+              },
+              {
+                "title": "Funciona em qualquer aparelho? *",
+                "text": "O primeiro protótipo desenvolvido do player funciona em MAC e Windows (além de iPhone e Android), no navegador Chrome. A segunda versão já funciona nos mesmos sistemas operacionais além de Linux, nos navegadores Chrome, Safari, Brave e Firefox."
+              },
+              {
+                "title": "Não é perigoso usar meu aparelho para guardar arquivos alheios?",
+                "text": "É tão perigoso quanto navegar em sites que usam cookies - aqueles registros de informações pessoais e de terceiros que certos publishers avisam estarem armazenando na sua máquina (“Esse site usa cookies”...). Na Paratii, você não guarda arquivos inteiros dos outros, mas sim pedaços pequenos aleatórios, que chamamos de chunks. Esse pedaços ficam na armazenagem local do seu navegador, e não tem acesso a memória central do aparelho. O usuário tem controle sobre seu tempo de expiração, e o limite de espaço a ser usado pode ser customizado, mas é geralmente <a class=\"paratii-link\" href=\"https://plus.google.com/u/0/+FrancoisBeaufort/posts/S5Q9HqDB8bh\" target=\"_blank\">limitado pelo próprio browser a algo entre 5Mb e 10Mb.</a>."
+              },
+              {
+                "title": "Qualquer um pode ver o que eu faço na Paratii?",
+                "text": "Tudo o que você faz, não! A atividade é anonimizada, encriptada e só é enviada para fora do seu computador quando diretamente relevante para operações a ser executadas. Você terá a opção de se manter anônimo indefinidamente (mas também se sentirá um pouquinho isolado!). Uma vez realizadas, transações são públicas e irreversíveis - ou seja, se você decidir suportar um vídeo com alguns tokens, outras pessoas poderão vê-lo."
+              },
+              {
+                "title": "O código é aberto? Onde posso acompanhar?",
+                "text": "Sim! É possível acompanhar nosso <a class=\"paratii-link\" href=\"https://github.com/paratii-video\" target=\"_blank\">repositório no Github</a> e até mesmo conversar com o time de desenvolvimento ou fazer perguntas pelo <a class=\"paratii-link\" href=\"http://gitter.im/Paratii-Video\" target=\"_blank\">Gitter</a>. O <a class=\"paratii-link\" href=\"https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A\" target=\"_blank\">Telegram</a> é o espaço certo para papos mais informais."
+              }
+            ]
+          },
+          {
+            "title": "Token",
+            "group": [
+              {
+                "title": "O que é o token PTI?*",
+                "text": "PTI é a moeda da Paratii. Ela tem a emissão ditada por regras escritas em código, sua inflação é não-manipulável, e sua distribuição remunera curadores que ajudam a manter o conteúdo distribuído devidamente organizado e filtrado. Você pode enxergá-la como uma daquelas fichas que se usa para jogar jogos de arcade e tentar ganhar recompensas, em casas de fliperama. Algumas funções do sistema exigem que o usuário “aposte” PTIs, perdendo a capacidade de transferí-los por um período determinado, mas continuando a ser dono deles, para ter o direito de receber rendimentos em seguida. Além de unidade nativa de “staking”, para esse tipo de função, o token também poderá ser usado para se pagar por vídeos, fazer assinaturas pagas ou comprar publicidade, mais à frente."
+              },
+              {
+                "title": "Pra que serve ter PTIs?*",
+                "text": "Serve para ter o direito de participar da máquina de conteúdo sustentada pela plataforma: em outras palavras, pode subir vídeos e curar o conteúdo disponível, sendo elegível a recompensas (pagas em PTI). Em breve, essa resposta será atualizada com um infográfico detalhando os mecanismos do token."
+              },
+              {
+                "title": "Não dava pra usar um token que já existe?*",
+                "text": "É importante que a utilidade do token esteja contida dentro dos serviços providos pela Paratii, para que seu valor não seja contaminado por forças extrínsecas à microeconomia que suporta. Como trata-se de uma unidade de staking, é imprescindível que o mesmo token “guardado” pelo sistema para se executar certas funções seja usado para recompensar aqueles que performam tais funções de acordo com os objetivos coletivos. Uma terceira (mas não menos importante) razão para um token isolado é a possibilidade de se implementar uma “política monetária” que influencie positivamente no bootstrap da rede - por exemplo, incentivando early adopters. Vale ressaltar que o PTI é emitido sobre a blockchain da Ethereum, e compatível com carteiras que sigam os padrões da rede-mãe."
+              },
+              {
+                "title": "Como consigo ter PTIs?*",
+                "text": "Antes de mais nada, todo usuário que valida seu registro recebe alguns PTIs para começar a experimentar. Esse “presente incial” vai diminuir conforme a base de usuários crescer. Há algumas formas diferentes de se <strong>adquirir</strong> PTIs - a mais direta é comprá-los de outros usuários ou corretoras com dinheiro, quando o token estiver na main net e for vendido em plataformas terceiras. Será possível <strong>ganhar</strong> PTIs ao se interagir com o sistema de três formas (além da citada anteriormente, na validação do cadastro): assistindo a um vídeo no player; contribuindo na curadoria do conteúdo subido no sistema; ou baixando e rodando uma espécie de master node, que chamamos de media node, ou “nó de mídia”."
+              },
+              {
+                "title": "Dá pra minerar?",
+                "text": "Sim e não - o PTI não é minerável no mesmo sentido que a Bitcoin, por exemplo, em que usuários dedicam poder de processamento para registrar operações na blockchain, mas pode ser obtido dedicando poder de processamento para rodar um “nó de mídia”, tornando-se parte da rede que mantém a infraestrutura da plataforma."
+              },
+              {
+                "title": "O que é um nó de mídia?",
+                "text": "Um nó de mídia é um software que pode ser baixado e executado por quem deseja prover recursos extra e ser recompensado pela rede Paratii. Esse programa, na linha de um master node, é adequado para indivíduos com máquinas com bastante espaço livre, donos de servidores, ou veículos de mídia interessados em suportar e possuir uma fatia do futuro. Quando executado, permite à máquina se identificar com um endereço na Paratii, na Ethereum e na IPFS (em breve, Livepeer também); faz com que receba vídeos subidos no sistema; os prepare para serem assistidos em múltiplas resoluções; ajude a armazená-los e indexá-los; e assista na sua distribuição como um gateway."
+              },
+              {
+                "title": "Quantas unidades de PTI existem?",
+                "text": "Assim como no caso do bitcoin, o número de tokens PTI que podem existir jamais ultrapassará 21 milhões. A emissão de novas unidades diminui de ritmo exponencialmente à medida que a quantidade disponível ao mercado aproxima desse número."
+              },
+              {
+                "title": "Já posso adquirir PTIs?*",
+                "text": "O plano é iniciar a distribuição pública do token em maio. Fique atento na nossa newsletter e redes sociais para saber mais à medida que chegarmos perto dessa data."
+              },
+              {
+                "title": "Que vetores podem apreciar ou depreciar seu valor?",
+                "text": "Demanda e oferta. Os únicos fatores que determinam diretamente o preço do PTI no mercado são as forças de mercado - os preços praticados pelas ordens de compra e venda executadas. A demanda pode aumentar conforme criadores busquem tokens para suportar ou promover seus vídeos, usuários desejem participar do processo de curadoria para receber recompensas, compradores de mídia estejam interessados em anunciar através do sistema ou especuladores apostarem no futuro da plataforma. Do lado da oferta, o preço pode ser puxado para baixo se usuários venderem seus tokens em massa; mas também pode subir conforme tokens forem “apostados” e ficarem presos por certos períodos, ou conforme tokens forem perdidos (deduzidos da oferta corrente) ou não-resgatados por usuários anônimos desavisados. "
+              }
+            ]
+          }
+        ]
       },
       "audiences": {
         "title": "Públicos",
@@ -704,9 +1018,9 @@ window.PARATII = {
         "subtitle": "Nossos vídeos",
         "text": "Encontre com alguém do time em (ou convide para!) meetups, eventos e conferências, principalmente no Brasil, EUA ou Itália.",
         "list": [
-          {"url": "https://www.youtube.com/embed/H4-0mNaZP50"},
-          {"url": "https://www.youtube.com/embed/mX7VuUeduEY"},
-          {"url": "https://www.youtube.com/embed/7waTiMBlXbw"}
+          {"url": "https://portal.paratii.video/embed/N7Hic8d0yNst"},
+          {"url": "https://portal.paratii.video/embed/N7Hic8d0yNst"},
+          {"url": "https://portal.paratii.video/embed/N7Hic8d0yNst"}
         ],
         "button": "Veja mais",
         "buttonHref": "https://www.youtube.com/channel/UC5OOwdF37P_oT0OVf2DvuPg"

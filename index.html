@@ -165,11 +165,14 @@
           <path  d="M1600.532 983.663a4.753 4.753 0 0 0-3.343-3.344c-2.969-.812-14.842-.812-14.842-.812s-11.874 0-14.842.781a4.85 4.85 0 0 0-3.344 3.375c-.781 2.968-.781 9.124-.781 9.124s0 6.187.781 9.12a4.753 4.753 0 0 0 3.343 3.343c3 .812 14.842.812 14.842.812s11.874 0 14.842-.781a4.753 4.753 0 0 0 3.343-3.343c.781-2.968.781-9.124.781-9.124s.033-6.183-.78-9.151zm-21.966 14.811V987.1l9.874 5.687z" />
         </g>
       </symbol>
+      <symbol id="icon-faq-arrow" viewBox="6988.818 1621.499 18.332 7.969">
+        <path d="M6998.067 1621.499a.906.906 0 0 1 .639.239l7.979 5.667a1.152 1.152 0 0 1 .239 1.597 1.141 1.141 0 0 1-1.6.239l-7.34-5.268-7.343 5.268a1.152 1.152 0 0 1-1.6-.239 1.152 1.152 0 0 1 .239-1.6l7.987-5.664a1.784 1.784 0 0 1 .8-.239z"/>
+      </symbol>
     </svg>
     <div id="paratii-main" class="main-wrapper" v-bind:class="{ openNav: nav, langEn: langEn }">
       <header class="main-header">
         <div class="main-section-wrapper main-header-wrapper">
-          <h1 class="main-title"><a class="main-title-link" href="/"><svg class="main-title-svg"><use xlink:href="#paratii-logo"></use></svg></a></h1>
+          <logo></logo>
           <nav class="main-nav">
             <h2 class="visually-hidden">Navigation</h2>
             <div class="nav-lang">
@@ -198,6 +201,7 @@
               <li class="main-nav-item"><h3><a class="main-nav-link" href="#team" v-on:click="closeNav()">Team</a></h3></li>
               <li class="main-nav-item"><h3><a class="main-nav-link" href="https://medium.com/paratii" v-on:click="closeNav()" target="_blank">Blog</a></h3></li>
               <li class="main-nav-item"><h3><a class="main-nav-link" href="http://paratii.video/around-the-block/" v-on:click="closeNav()" target="_blank">Around the block</a></h3></li>
+              <li class="main-nav-item"><h3><a class="main-nav-link" href="/faq.html" v-on:click="closeNav()" target="_blank">FAQ</a></h3></li>
             </ul>
           </nav>
         </div>
@@ -231,32 +235,12 @@
           </div>
         </section>
 
-        <section id="faq" class="main-section paratii-faq">
-          <div class="main-section-wrapper">
-            <header class="main-section-header">
-              <h2 class="main-section-title">{{content.faq.title}}</h2>
-              <h3 class="main-section-subtitle">{{content.faq.subtitle}}</h3>
-            </header>
-            <div class="main-section-content">
-              <div class="paratii-faq-group">
-                <h4 class="paratii-faq-group-title">Serviço</h4>
-                <ul class="paratii-faq-list">
-                  <li class="paratii-faq-item">
-                    <h4 class="paratii-faq-item-title">O que é a Paratii?</h4>
-                    <p class="paratii-faq-item-text">A Paratii é para todos aqueles que querem distribuir e/ou consumir vídeo na internet. Dos vídeos mais cotidianos às maiores produções, a plataforma visa a melhor e mais justa experiência possível para espectadores e criadores de conteúdo. Mais à frente, Paratii deve estreitar relações também com publishers (domínios, portais e aplicativos que integram vídeo em seus serviços) e compradores de mídia, conforme</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <section class="main-section paratii-audiences">
           <div class="main-section-wrapper">
-            <header class="main-section-header">
-              <h2 class="main-section-title">{{content.audiences.title}}</h2>
-              <h3 class="main-section-subtitle">{{content.audiences.subtitle}}</h3>
-            </header>
+            <section-header
+              v-bind:title="content.audiences.title"
+              v-bind:subtitle="content.audiences.subtitle"
+            ></section-header>
             <div class="main-section-content">
             </div>
             <div class="main-section-content main-section-content--no-padding">
@@ -280,10 +264,10 @@
 
         <section class="main-section paratii-features">
           <div class="main-section-wrapper">
-            <header class="main-section-header">
-              <h2 class="main-section-title">{{content.features.title}}</h2>
-              <h3 class="main-section-subtitle">{{content.features.subtitle}}</h3>
-            </header>
+            <section-header
+              v-bind:title="content.features.title"
+              v-bind:subtitle="content.features.subtitle"
+            ></section-header>
             <div class="paratii-features-wrapper">
               <div class="paratii-features-asset" v-bind:style="backgroundImage(content.features.image)"></div>
               <ul class="paratii-features-list">
@@ -306,10 +290,10 @@
 
         <section class="main-section paratii-components">
           <div class="main-section-wrapper">
-            <header class="main-section-header">
-              <h2 class="main-section-title">{{content.components.title}}</h2>
-              <h3 class="main-section-subtitle">{{content.components.subtitle}}</h3>
-            </header>
+            <section-header
+              v-bind:title="content.components.title"
+              v-bind:subtitle="content.components.subtitle"
+            ></section-header>
           </div>
           <div class="paratii-components-content" v-for="(item, index) in content.components.list" v-bind:class="item.class">
             <div class="main-section-wrapper paratii-components-content-wrapper">
@@ -327,10 +311,11 @@
 
         <section class="main-section main-section--color paratii-roadmap">
           <div class="main-section-wrapper">
-            <header class="main-section-header main-section-header--no-margin">
-              <h2 class="main-section-title">{{content.roadmap.title}}</h2>
-              <h3 class="main-section-subtitle">{{content.roadmap.subtitle}}</h3>
-            </header>
+            <section-header
+              nomargin
+              v-bind:title="content.roadmap.title"
+              v-bind:subtitle="content.roadmap.subtitle"
+            ></section-header>
             <div class="main-section-content main-section-content--with-margin">
               <p class="main-section-content-text">{{content.roadmap.text}}</p>
             </div>
@@ -370,32 +355,32 @@
 
         <section class="main-section paratii-opensource">
           <div class="main-section-wrapper">
-            <header class="main-section-header main-section-header--no-margin">
-              <h2 class="main-section-title">{{content.opensource.title}}</h2>
-              <h3 class="main-section-subtitle">{{content.opensource.subtitle}}</h3>
-            </header>
+            <section-header
+              nomargin
+              v-bind:title="content.opensource.title"
+              v-bind:subtitle="content.opensource.subtitle"
+            ></section-header>
             <div class="main-section-content">
               <p class="main-section-content-text" v-html="content.opensource.text"></p>
-
-            <div class="paratii-opensource-buttons">
-              <a class="paratii-opensource-button" v-bind:href="item.href" v-for="(item, index) in content.opensource.list" v-bind:class="setLoopClass('paratii-opensource-button--', index)" v-bind:index="index" v-bind:key="item.id" title="{item.title}" target="_blank"><img class="paratii-opensource-button-image" v-bind:src="item.image"></a>
-            </div>
+              <div class="paratii-opensource-buttons">
+                <a class="paratii-opensource-button" v-bind:href="item.href" v-for="(item, index) in content.opensource.list" v-bind:class="setLoopClass('paratii-opensource-button--', index)" v-bind:index="index" v-bind:key="item.id" title="{item.title}" target="_blank"><img class="paratii-opensource-button-image" v-bind:src="item.image"></a>
+              </div>
             </div>
           </div>
         </section>
 
         <section id="team" class="main-section paratii-team">
           <div class="main-section-wrapper">
-            <header class="main-section-header main-section-header--no-margin">
-              <h2 class="main-section-title">{{content.team.title}}</h2>
-              <h3 class="main-section-subtitle">{{content.team.subtitle}}</h3>
-            </header>
+            <section-header
+              nomargin
+              v-bind:title="content.team.title"
+              v-bind:subtitle="content.team.subtitle"
+            ></section-header>
             <div class="main-section-content main-section-content--with-margin">
               <p class="main-section-content-text" v-html="content.team.text"></p>
             </div>
             <div class="main-section-content main-section-content--no-padding">
               <div class="paratii-team-list">
-
                 <article class="paratii-team-item" itemscope itemtype="http://schema.org/Person" v-for="(item, index) in content.team.list">
                   <a class="paratii-team-item-link" v-bind:href="item.url" target="_blank">
                     <div class="paratii-team-item-avatar">
@@ -424,10 +409,11 @@
 
         <section class="main-section paratii-videos">
           <div class="main-section-wrapper">
-            <header class="main-section-header main-section-header--no-margin">
-              <h2 class="main-section-title">{{content.videos.title}}</h2>
-              <h3 class="main-section-subtitle">{{content.videos.subtitle}}</h3>
-            </header>
+            <section-header
+              nomargin
+              v-bind:title="content.videos.title"
+              v-bind:subtitle="content.videos.subtitle"
+            ></section-header>
             <div class="main-section-content main-section-content--with-margin">
               <p class="main-section-content-text">{{content.videos.text}}</p>
             </div>
