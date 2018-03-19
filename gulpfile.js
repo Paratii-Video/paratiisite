@@ -77,6 +77,7 @@ gulp.task('deploy-scripts', function () {
     return gulp.src(src_scripts)
      .pipe(plumber())
      .pipe(concat('index.js'))
+     .on('error', gutil.log)
      .pipe(uglify())
      .pipe(gulp.dest(public_dest + 'scripts'))
 });

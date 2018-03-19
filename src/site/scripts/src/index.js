@@ -23,9 +23,9 @@
           default: false
         }
     },
-    template: '<header class="main-section-header" v-bind:class="getMarginClass()" v-if="title"><h2 class="main-section-title">{{ title }}</h2><h3 class="main-section-subtitle" v-if="subtitle">{{ subtitle }}</h3></header>',
+    template: '<header class="main-section-header" v-bind:class="getMarginClass" v-if="title"><h2 class="main-section-title">{{ title }}</h2><h3 class="main-section-subtitle" v-if="subtitle">{{ subtitle }}</h3></header>',
     methods: {
-      getMarginClass () {
+      getMarginClass: function () {
         return this.nomargin ? 'main-section-header--no-margin' : null;
       }
     }
@@ -40,13 +40,13 @@
       }
     },
     methods: {
-      handleActive () {
+      handleActive: function () {
         this.theHeight = this.isActive ? '0px' : this.$refs.text.offsetHeight + 'px';
         this.isActive = !this.isActive;
       }
     },
     computed: {
-      faqClass () {
+      faqClass: function () {
         return this.isActive ? 'active' : null;
       }
     },
