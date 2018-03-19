@@ -720,7 +720,7 @@ window.PARATII = {
           {
             "title": "Criadores",
             "text": "Faça upload de conteúdo original, ou simplesmente cole um link e “replique” na Paratii conteúdo que já está em outro lugar. Experimente monetizar sem intermediários. Sem cortes na sua receita. Sem bloqueios ou manipulação com sua audiência.",
-            "button": "Esteja entre os primeiros uploaders",
+            "button": "Seja um uploader",
             "buttonHref": "https://docs.google.com/forms/d/13neNk4DRE3AxofLhQFb7kidPM-8g5QmxMVumrezrE7Y/",
             "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>"
           },
