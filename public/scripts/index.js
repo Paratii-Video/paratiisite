@@ -485,9 +485,9 @@ window.PARATII = {
         "subtitle": "Our videos",
         "text": "You can find someone of the team regularly in (or invite to!) meetups, events and conferences mostly in Brazil, the U.S and Italy.",
         "list": [
-          {"url": "https://portal.paratii.video/embed/N7Hic8d0yNst"},
-          {"url": "https://portal.paratii.video/embed/N7Hic8d0yNst"},
-          {"url": "https://portal.paratii.video/embed/N7Hic8d0yNst"}
+          {"url": "https://portal.paratii.video/embed/akX1Cvz1G7In"},
+          {"url": "https://portal.paratii.video/embed/2tfgCqOQgASU"},
+          {"url": "https://portal.paratii.video/embed/b9yOYeQrYIxR"}
         ],
         "button": "See more",
         "buttonHref": "https://www.youtube.com/channel/UC5OOwdF37P_oT0OVf2DvuPg"
@@ -1018,9 +1018,9 @@ window.PARATII = {
         "subtitle": "Nossos vídeos",
         "text": "Encontre com alguém do time em (ou convide para!) meetups, eventos e conferências, principalmente no Brasil, EUA ou Itália.",
         "list": [
-          {"url": "https://portal.paratii.video/embed/N7Hic8d0yNst"},
-          {"url": "https://portal.paratii.video/embed/N7Hic8d0yNst"},
-          {"url": "https://portal.paratii.video/embed/N7Hic8d0yNst"}
+          {"url": "https://portal.paratii.video/embed/akX1Cvz1G7In"},
+          {"url": "https://portal.paratii.video/embed/2tfgCqOQgASU"},
+          {"url": "https://portal.paratii.video/embed/b9yOYeQrYIxR"}
         ],
         "button": "Veja mais",
         "buttonHref": "https://www.youtube.com/channel/UC5OOwdF37P_oT0OVf2DvuPg"
