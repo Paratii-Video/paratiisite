@@ -10,6 +10,54 @@
 
   Vue.config.devtools = true;
 
+  Vue.component('logo', {
+    template: '<h1 class="main-title"><a class="main-title-link" href="/" v-on:click.prevent="goTop"><svg class="main-title-svg"><use xlink:href="#paratii-logo"></use></svg></a></h1>',
+    methods: {
+      goTop: function (event) {
+        window.scrollTo(0,0);
+      }
+    }
+  });
+
+  Vue.component('section-header', {
+    props: {
+        title: String,
+        subtitle: String,
+        nomargin: {
+          type: Boolean,
+          default: false
+        }
+    },
+    template: '<header class="main-section-header" v-bind:class="getMarginClass" v-if="title"><h2 class="main-section-title">{{ title }}</h2><h3 class="main-section-subtitle" v-if="subtitle">{{ subtitle }}</h3></header>',
+    methods: {
+      getMarginClass: function () {
+        return this.nomargin ? 'main-section-header--no-margin' : null;
+      }
+    }
+  });
+
+  Vue.component('faq', {
+    props: ['title', 'text'],
+    data: function () {
+      return {
+        theHeight: '0px',
+        isActive: this.title.length ? 0 : 1
+      }
+    },
+    methods: {
+      handleActive: function () {
+        this.theHeight = this.isActive ? '0px' : this.$refs.text.offsetHeight + 'px';
+        this.isActive = !this.isActive;
+      }
+    },
+    computed: {
+      faqClass: function () {
+        return this.isActive ? 'active' : null;
+      }
+    },
+    template: '<li class="paratii-faq-item" v-bind:class="faqClass"><h4 class="paratii-faq-item-title" @click="handleActive()">{{ title }}<svg class="paratii-faq-item-icon"><use xlink:href="#icon-faq-arrow"/></svg></h4><div class="paratii-faq-item-entry" v-bind:style="{ height: theHeight }"><p class="paratii-faq-item-text" ref="text" v-html="text"></p></div></li>'
+  });
+
   vueapp = new Vue({
     el: '#paratii-main',
     data: {
@@ -18,7 +66,7 @@
       content: data_content_en
     },
     mounted: function(e) {
-      document.body.className = "hide-cover";
+      document.body.classList.add('hide-cover')
     },
     watch: {
       langEn: function (e) {
@@ -30,6 +78,11 @@
         return {
           'background-image': 'url(' + image + ')'
         }
+      },
+      scrollToElement: function (target) {
+        var element = document.getElementById(target);
+        var y = element.offsetTop;
+        window.scrollTo(0, y);
       },
       isRoadmapBetween: function (start, end) {
         return moment().isBetween(start, end);
@@ -74,10 +127,13 @@
       document.body.classList.remove('out-top')
     }
   }
+  
+  if (!document.body.classList.contains('faq')) {  
+    window.onscroll = function () {
+      navBackground(window.scrollY > (window.innerHeight / 2));
+    };
 
-  window.onscroll = function (event) {
-    navBackground(window.scrollY > (window.innerHeight / 2));
-  };
+    window.onscroll();
+  }
 
-  navBackground(window.scrollY > (window.innerHeight / 2));
 })();

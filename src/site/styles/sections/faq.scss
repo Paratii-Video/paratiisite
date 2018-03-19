@@ -1,0 +1,70 @@
+// People
+
+//
+
+.paratii-faq {
+  padding-top: 210px;
+
+  &-group {
+    margin-bottom: 100px;
+
+    &-title {
+      @extend .title-small;
+
+      color: $color-bluish-purple;
+    }
+  }
+
+  &-item {
+      @extend .text-big;
+
+      border-bottom: 1px solid #C7C7C7;
+      transition: opacity $anim-time-repaint;
+
+      &:hover {
+        opacity: $anim-opacity-value;
+      }
+
+      &-title {
+        @extend .text-big;
+
+        cursor: pointer;
+        padding: 50px 80px 50px 0;
+        user-select: none;
+        position: relative;
+
+      }
+      
+      &-icon {
+        @extend .pos-a-h;
+
+        fill: $color-gray-dark;
+        height: 12px;
+        right: 0;
+        transform: translate3d(0, -50%, 0) rotatex(180deg);
+        transition: fill $anim-time-repaint, transform 1s $ease-smooth;
+        width: 20px;
+
+        .active & {
+          fill: $color-black;
+          transform: translate3d(0, -50%, 0);
+        }
+      }
+
+      &-entry {
+        overflow: hidden;
+        transition: height .5s $ease-in-out;
+
+        .active & {
+          transition: height .6s $ease-in-out;
+        }
+      }
+
+      &-text {
+        @extend .text-main;
+
+        display: block;
+        padding-bottom: 50px;
+      }
+  }
+}

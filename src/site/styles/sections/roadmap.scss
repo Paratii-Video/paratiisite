@@ -35,6 +35,14 @@ $size-paratii-roadmap-item-bottom: 30px;
     width: 100%;
     z-index: 1;
 
+    @include screenTablet {
+      height: 300px;
+    }
+
+    @include screenPhablet {
+      height: 750px;
+    }
+
     @include screenMobile {
       height: 400px;
     }
@@ -235,7 +243,7 @@ $size-paratii-roadmap-item-bottom: 30px;
     }
 
     &-date {
-      @extend .main-text;
+      @extend .text-main;
       @extend .pos-a-b;
 
       color: $color-white;
@@ -260,6 +268,10 @@ $size-paratii-roadmap-item-bottom: 30px;
         margin: 0 auto 10px;
         position: relative;
         width: $size-paratii-roadmap-item-date-icon;
+
+        .paratii-roadmap-list--reverse & {
+          background: $color-purply-blue;
+        }
 
         &::before {
           @extend .pos-a-h;

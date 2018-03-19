@@ -10,7 +10,7 @@
 }
 
 .paratii-button {
-  @extend .main-text;
+  @extend .text-main;
   @extend .main-button;
 
   background-color: $color-bluish-purple;
@@ -28,13 +28,17 @@
     }
   }
 
+  @include screenTablet {
+    font-size: 0.9rem;
+  }
+
   @include screenMobile {
-    font-size: 0.5em;
+    font-size: 0.7rem;
   }
 }
 
 .paratii-button-border {
-  @extend .main-text;
+  @extend .text-main;
   @extend .main-button;
 
   border: 1px solid $color-white;
@@ -44,8 +48,12 @@
     border-color: rgba(255, 255, 255, .5);
   }
 
+  @include screenTablet {
+    font-size: 0.9rem;
+  }
+
   @include screenMobile {
-    font-size: 0.5em;
+    font-size: 0.7rem;
   }
 }
 

@@ -91,10 +91,10 @@
     }
 
     &-text {
-      @extend .main-text;
+      @extend .text-main;
 
       @include screenMobileMax {
-        font-size: .5em;
+        font-size: .8rem;
       }
     }
 
@@ -103,7 +103,7 @@
     &-link {
       @extend .pos-a-b;
       @extend .paratii-button;
-      @extend .main-text;
+      @extend .text-main;
 
       display: block;
       left: 0;
