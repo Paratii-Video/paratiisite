@@ -11,7 +11,12 @@
   Vue.config.devtools = true;
 
   Vue.component('logo', {
-    template: '<h1 class="main-title"><a class="main-title-link" href="/"><svg class="main-title-svg"><use xlink:href="#paratii-logo"></use></svg></a></h1>'
+    template: '<h1 class="main-title"><a class="main-title-link" href="/" v-on:click.prevent="goTop"><svg class="main-title-svg"><use xlink:href="#paratii-logo"></use></svg></a></h1>',
+    methods: {
+      goTop: function (event) {
+        window.scrollTo(0,0);
+      }
+    }
   });
 
   Vue.component('section-header', {
@@ -73,6 +78,11 @@
         return {
           'background-image': 'url(' + image + ')'
         }
+      },
+      scrollToElement: function (target) {
+        var element = document.getElementById(target);
+        var y = element.offsetTop;
+        window.scrollTo(0, y);
       },
       isRoadmapBetween: function (start, end) {
         return moment().isBetween(start, end);

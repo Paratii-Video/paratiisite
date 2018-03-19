@@ -117,7 +117,7 @@
           <nav class="main-nav">
             <h2 class="visually-hidden">Navigation</h2>
             <div class="nav-lang">
-              <button class="main-nav-link nav-lang-button nav-lang-button--pt" v-on:click="changeLang('pt', $event)" title="Mudar a língua para portuguese">PT</button><span class="main-nav-link nav-lang-space">/</span><button class="main-nav-link nav-lang-button nav-lang-button--en" v-on:click="changeLang('en', $event)" title="Change language to english">EN</button>
+              <button class="main-nav-link nav-lang-button nav-lang-button--pt" v-on:click.prevent="changeLang('pt', $event)" title="Mudar a língua para portuguese">PT</button><span class="main-nav-link nav-lang-space">/</span><button class="main-nav-link nav-lang-button nav-lang-button--en" v-on:click="changeLang('en', $event)" title="Change language to english">EN</button>
             </div>
             <ul class="main-nav-list">
               <li class="main-nav-item main-subnav-holder">
