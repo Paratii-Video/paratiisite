@@ -201,7 +201,7 @@
               <li class="main-nav-item"><h3><a class="main-nav-link" href="#team" v-on:click="closeNav()">Team</a></h3></li>
               <li class="main-nav-item"><h3><a class="main-nav-link" href="https://medium.com/paratii" v-on:click="closeNav()" target="_blank">Blog</a></h3></li>
               <li class="main-nav-item"><h3><a class="main-nav-link" href="http://paratii.video/around-the-block/" v-on:click="closeNav()" target="_blank">Around the block</a></h3></li>
-              <li class="main-nav-item"><h3><a class="main-nav-link" href="/faq.html" v-on:click="closeNav()" target="_blank">FAQ</a></h3></li>
+              <li class="main-nav-item"><h3><a class="main-nav-link" href="/faq.html" v-on:click="closeNav()">FAQ</a></h3></li>
             </ul>
           </nav>
         </div>
@@ -418,7 +418,7 @@
               <p class="main-section-content-text">{{content.videos.text}}</p>
             </div>
             <div class="paratii-videos-list">
-              <iframe class="paratii-videos-item" v-bind:src="item.url" allowfullscreen v-for="item in content.videos.list"></iframe>
+              <iframe class="paratii-videos-item" v-bind:src="item.url" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"  v-for="item in content.videos.list"></iframe>
             </div>
               <div class="main-section-call">
                 <a class="paratii-button paratii-button--red" v-bind:href="content.videos.buttonHref" target="_blank">{{content.videos.button}}</a>
