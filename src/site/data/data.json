@@ -77,7 +77,7 @@ window.PARATII = {
               },
               {
                 "title": "How do I keep up with news about Paratii?",
-                "text": "There are many ways! Sign up for our newsletter, follow us on social media (LINKS PARA REDES) and check out our <a class=\"paratii-link\" href=\"http://www.paratii.video\" target=\"_blank\">website</a> to see what’s new. Feel free to ask questions and participate in the community."
+                "text": "There are many ways! Sign up for our newsletter, <a class=\"paratii-link\" href=\"#follow-us\">follow us</a> and check out our <a class=\"paratii-link\" href=\"http://www.paratii.video\" target=\"_blank\">website</a> to see what’s new. Feel free to ask questions and participate in the community."
               },
               {
                 "title": "I represent a media outlet and want to write about Paratii - how do I get in touch?",
@@ -613,7 +613,7 @@ window.PARATII = {
               },
               {
                 "title": "Como faço pra acompanhar as notícias da Paratii?",
-                "text": "Tem muitos jeitos! Assine nossa newsletter, acompanhe nossos canais nas redes sociais (LINKS PARA REDES) e confira <a class=\"paratii-link\" href=\"http://www.paratii.video\" target=\"_blank\">nosso site</a> para ver o que há de novo! Fique à vontade para fazer perguntas e participar na comunidade."
+                "text": "Tem muitos jeitos! Assine nossa newsletter, <a class=\"paratii-link\" href=\"#follow-us\">acompanhe nossos canais</a> e confira <a class=\"paratii-link\" href=\"http://www.paratii.video\" target=\"_blank\">nosso site</a> para ver o que há de novo! Fique à vontade para fazer perguntas e participar na comunidade."
               },
               {
                 "title": "Essa história já saiu na mídia?",
