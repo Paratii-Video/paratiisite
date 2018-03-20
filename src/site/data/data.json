@@ -557,7 +557,7 @@ window.PARATII = {
         "subtitle": "Perguntas Frequentes",
         "list": [
           {
-            "title": "Service",
+            "title": "Serviço",
             "group": [
               {
                 "title": "O que é a Paratii?",
@@ -565,7 +565,7 @@ window.PARATII = {
               },
               {
                 "title": "Para quem é a Paratii?",
-                "text": "A Paratii é para todos aqueles que querem distribuir e/ou consumir vídeo na internet. Dos vídeos mais cotidianos às maiores produções, a plataforma visa a melhor e mais justa experiência possível para <strong>espectadores</strong> e <strong>criadores de conteúdo</strong>. Mais à frente, Paratii deve estreitar relações também com <strong>publishers</strong> (domínios, portais e aplicativos que integram vídeo em seus serviços) e compradores de mídia, conforme"
+                "text": "A Paratii é para todos aqueles que querem distribuir e/ou consumir vídeo na internet. Dos vídeos mais cotidianos às maiores produções, a plataforma visa a melhor e mais justa experiência possível para <strong>espectadores</strong> e <strong>criadores de conteúdo</strong>. Mais à frente, Paratii deve estreitar relações também com <strong>publishers</strong> (domínios, portais e aplicativos que integram vídeo em seus serviços) e compradores de mídia."
               },
               {
                 "title": "O serviço já está funcionando? Quando vai ser lançado?",
