@@ -16,7 +16,9 @@
       <ParatiiHeader
         v-on:onOutOfTop="outOfTop($event)"
         v-bind:content="this.content.lang[indexLang].sections.header"></ParatiiHeader>
-      <!-- <router-view></router-view> -->
+      <router-view></router-view>
+      <Faq
+        v-bind:content="this.content.lang[indexLang].sections.faq"></Faq>
       <Audiences
         v-bind:content="this.content.lang[indexLang].sections.audiences"></Audiences>
       <Features

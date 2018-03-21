@@ -7,9 +7,20 @@
       ></SectionHeader>
       <div class="main-section-content">
 
-        <div class="paratii-faq-group" v-for="(item, index) in content.list">
+        <div
+          class="paratii-faq-group"
+          v-for="(item, index) in content.list"
+          v-bind:key="item.id"
+        >
           <h4 class="paratii-faq-group-title">{{item.title}}</h4>
           <ul class="paratii-faq-list">
+            <FaqItem
+              v-for="(item2, index2) in item.group"
+              v-bind:title="item2.title"
+              v-bind:text="item2.text"
+              v-bind:key="item2.id"
+            />
+            </FaqItem>
           </ul>
         </div>
       </div>
