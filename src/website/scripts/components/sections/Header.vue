@@ -4,7 +4,7 @@
     <div class="main-section-wrapper">
       <span class="paratii-header-asset" v-bind:style="backgroundImage(content.image)"></span>
       <div class="paratii-header-content">
-        <h2 class="paratii-header-title" ref="ParatiiHeaderTitle">{{content.title}}</h2>
+        <h2 class="paratii-header-title">{{content.title}}</h2>
         <p class="paratii-header-text">{{content.text}}</p>
       </div>
       <div class="paratii-header-subscribe">
@@ -34,19 +34,7 @@
         return {
           'background-image': 'url(' + image + ')'
         }
-      },
-      checkTitleCollision (event) {
-        let scrollY = window.scrollY
-        // let titleY = this.$refs.ParatiiHeaderTitle.offsetParent.offsetTop
-        let titleY = 50
-        this.$emit('onOutOfTop', titleY < scrollY)
       }
-    },
-    created () {
-      window.addEventListener('scroll', this.checkTitleCollision)
-    },
-    destroyed () {
-      window.removeEventListener('scroll', this.checkTitleCollision)
     }
   }
 </script>

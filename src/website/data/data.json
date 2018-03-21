@@ -52,7 +52,7 @@
             },
             {
               "label": "Faq",
-              "href": "/faq"
+              "href": "/#/faq"
             },
             {
               "label": "Around the block",
@@ -641,7 +641,7 @@
             },
             {
               "label": "Faq",
-              "href": "/faq"
+              "href": "/#/faq"
             },
             {
               "label": "Around the block",

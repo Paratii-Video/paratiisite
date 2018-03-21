@@ -12,30 +12,11 @@
       v-on:onToggleNav="toggleNav"
       v-on:onCloseNav="closeNav"
     ></MainHeader>
-    <main id="main" class="paratii-main">
-      <ParatiiHeader
-        v-on:onOutOfTop="outOfTop($event)"
-        v-bind:content="this.content.lang[indexLang].sections.header"></ParatiiHeader>
-      <router-view></router-view>
-      <Faq
-        v-bind:content="this.content.lang[indexLang].sections.faq"></Faq>
-      <Audiences
-        v-bind:content="this.content.lang[indexLang].sections.audiences"></Audiences>
-      <Features
-        v-bind:content="this.content.lang[indexLang].sections.features"></Features>
-      <Components
-        v-bind:content="this.content.lang[indexLang].sections.components"></Components>
-      <Roadmap
-        v-bind:content="this.content.lang[indexLang].sections.roadmap"></Roadmap>
-      <Opensource
-        v-bind:content="this.content.lang[indexLang].sections.opensource"></Opensource>
-      <Team
-        v-bind:content="this.content.lang[indexLang].sections.team"></Team>
-      <OnTheNews
-        v-bind:content="this.content.lang[indexLang].sections.onthenews"></OnTheNews>
-      <Videos
-        v-bind:content="this.content.lang[indexLang].sections.videos"></Videos>
-    </main>
+    <router-view
+      v-bind:content="this.content.lang[indexLang]"
+      v-on:onOpenNav="openNav"
+      v-on:onCloseNav="closeNav"
+    ></router-view>
     <MainFooter
       v-bind:content="this.content.lang[indexLang]"
     ></MainFooter>
@@ -44,22 +25,12 @@
 
 <script>
   import MainHeader from './components/main/MainHeader'
-  import ParatiiHeader from './components/sections/Header'
-  import Audiences from './components/sections/Audiences'
-  import Features from './components/sections/Features'
-  import Components from './components/sections/Components'
-  import Roadmap from './components/sections/RoadMap'
-  import Opensource from './components/sections/OpenSource'
-  import Team from './components/sections/Team'
-  import OnTheNews from './components/sections/OnTheNews'
-  import Videos from './components/sections/Videos'
-  import Faq from './components/sections/Faq'
   import MainFooter from './components/main/MainFooter'
   import MainSvg from './components/shared/MainSvg'
-  import AppData from '../data/data.json';
+  import AppData from '../data/data.json'
 
   export default {
-    name: 'app',
+    name: 'App',
     data () {
       return {
         content: AppData,
@@ -71,17 +42,7 @@
     components: {
       MainSvg,
       MainHeader,
-      MainFooter,
-      ParatiiHeader,
-      Audiences,
-      Features,
-      Components,
-      Roadmap,
-      Opensource,
-      Team,
-      OnTheNews,
-      Videos,
-      Faq
+      MainFooter
     },
     methods: {
       changeLanguage (lang) {
@@ -97,14 +58,16 @@
         this.isNavOpen = false
       },
       outOfTop (event) {
-        this.isOutOfTop = event
+        this.isOutOfTop = window.scrollY > 50
       }
     },
     created () {
       window.addEventListener('resize', this.closeNav)
+      window.addEventListener('scroll', this.outOfTop)
     },
     destroyed () {
       window.removeEventListener('resize', this.closeNav)
+      window.removeEventListener('scroll', this.outOfTop)
     }
   }
 </script>

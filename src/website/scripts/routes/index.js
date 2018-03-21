@@ -1,13 +1,13 @@
-import Home from '../components/pages/Home'
-import Faq from '../components/pages/Faq'
+import PageHome from '../components/pages/PageHome'
+import PageFaq from '../components/pages/PageFaq'
 
 export const routes = [
   {
     path: '',
-    component: Home
+    component: PageHome
   },
   {
     path: '/faq',
-    component: Faq
+    component: PageFaq
   }
 ]
