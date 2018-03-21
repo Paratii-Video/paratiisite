@@ -169,14 +169,18 @@
         <path d="M6998.067 1621.499a.906.906 0 0 1 .639.239l7.979 5.667a1.152 1.152 0 0 1 .239 1.597 1.141 1.141 0 0 1-1.6.239l-7.34-5.268-7.343 5.268a1.152 1.152 0 0 1-1.6-.239 1.152 1.152 0 0 1 .239-1.6l7.987-5.664a1.784 1.784 0 0 1 .8-.239z"/>
       </symbol>
     </svg>
-    <div id="paratii-main" class="main-wrapper" v-bind:class="{ openNav: nav, langEn: langEn }">
+    <div id="paratii-main" class="main-wrapper" v-bind:class="{ openNav: nav, lang: lang }">
       <header class="main-header">
         <div class="main-section-wrapper main-header-wrapper">
           <logo></logo>
           <nav class="main-nav">
             <h2 class="visually-hidden">Navigation</h2>
             <div class="nav-lang">
-              <button class="main-nav-link nav-lang-button nav-lang-button--pt" v-on:click="changeLang('pt', $event)" title="Mudar a língua para portuguese">PT</button><span class="main-nav-link nav-lang-space">/</span><button class="main-nav-link nav-lang-button nav-lang-button--en" v-on:click="changeLang('en', $event)" title="Change language to english">EN</button>
+              <button class="main-nav-link nav-lang-button nav-lang-button--pt" v-on:click="changeLang('pt', $event)" title="Mudar a língua para portuguese">PT</button>
+              <span class="main-nav-link nav-lang-space">/</span>
+              <button class="main-nav-link nav-lang-button nav-lang-button--en" v-on:click="changeLang('en', $event)" title="Change language to english">EN</button>
+              <span class="main-nav-link nav-lang-space">/</span>
+              <button class="main-nav-link nav-lang-button nav-lang-button--ch" v-on:click="changeLang('ch', $event)" title="切换到中文">ZH</button>
             </div>
             <ul class="main-nav-list">
               <li class="main-nav-item main-subnav-holder">
