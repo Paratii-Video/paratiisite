@@ -1,0 +1,170 @@
+// Header
+
+//
+
+.main-header {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: $zindex-main-header;
+
+  .nav-open & {
+    @include screenMobile {
+      height: 100vh;
+    };
+  }
+
+  //
+
+  &::before {
+    @extend .pos-a-t;
+
+    background: $color-white;
+    box-shadow: 0 -2px 18px 0 $box-shadow-color;
+    content: '';
+    height: $size-main-header-bg;
+    left: 0;
+    transform: translate3d(0, -100%, 0);
+    transition: all .5s $ease-smooth;
+    width: 100%;
+    
+    @include screenMobile {
+      height: $size-main-header-bg-mobile;
+    }
+
+    .out-of-top & {
+      transform: translate3d(0, 0, 0);
+      transition: all .7s $ease-smooth;
+    }
+  }
+
+  .nav-open &::before {
+    @include screenMobile {
+      height: 100vh;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  //
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    transform: translate3d(0, $size-main-header-wrapper-top, 0);
+    transition: transform .5s $ease-smooth;
+
+    @include screenMobile {
+      flex-direction: column;
+    }
+
+    .out-of-top & {
+      transform: translate3d(0, 22px, 0);
+      transition: transform .7s $ease-smooth;
+
+      @include screenMobile {
+        transform: translate3d(0, 13px, 0);
+      }
+    }
+  }
+}
+
+
+// Logo
+
+.main-title {
+  height: $size-main-title-height;
+  transform-origin: left;
+  transition: transform .5s $ease-smooth;
+  width: $size-main-title-width;
+
+  @include screenPhablet {
+    width: 155px;
+  }
+
+  @include screenMobile {
+    height: $size-main-title-height-mobile;
+    width: $size-main-title-width-mobile;
+  }
+
+  .out-of-top & {
+    transform: scale(0.8);
+  }
+
+  &-link {
+    @extend .full-block;
+
+    color: $color-white;
+  }
+
+  &-svg {
+    @extend .full-block;
+
+    fill: $color-white;
+    transition: fill $anim-time-repaint;
+
+    .main-title-link:hover & {
+      fill: $color-purple-light;
+    }
+
+    .out-of-top & {
+      fill: $color-black;
+    }
+
+    .nav-open & {
+      fill: $color-black;
+    }
+  }
+}
+
+//
+
+.button-call-nav {
+  display: none;
+  height: 20px;
+  position: fixed;
+  right: 20px;
+  top: 38px;
+  transition: transform .5s $ease-smooth, top .5s $ease-smooth;
+  width: 20px;
+
+  .out-of-top & {
+    top: 18px;
+  }
+
+  &::before,
+  &::after {
+    background: $color-white;
+    content: '';
+    height: 4px;
+    left: 0;
+    position: absolute;
+    transition: transform .6s $ease-smooth, background $anim-time-repaint;
+    width: 100%;
+
+    .nav-open &,
+    .out-of-top & {
+      background: $color-black;
+    }
+  }
+
+  &::before {
+    top: 3px;
+
+    .nav-open & {
+      transform: translate3d(0, 5px, 0) rotate(45deg);
+    }
+  }
+
+  &::after {
+    bottom: 3px;
+
+    .nav-open & {
+      transform: translate3d(0, -5px, 0) rotate(-45deg);
+    }
+  }
+
+  @include screenMobile {
+    display: block;
+  }
+}

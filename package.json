@@ -1,29 +1,37 @@
 {
-  "name": "paratii-rebrand",
+  "name": "paratiisite",
+  "description": "Paratii project is developing a video player upon p2p streaming and decentralized service providers to put revenue 100% in control of producers.",
   "version": "1.0.0",
-  "description": "Rebrand of paratii website",
-  "main": "index.js",
-  "scripts": {
-    "start": "gulp",
-    "deploy": "gulp deploy"
-  },
-  "repository": "https://github.com/Paratii-Video/paratiisite",
-  "author": "paratii",
+  "author": "jrgarou <jrgarou@gmail.com>",
   "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-jshint": "^2.1.0",
-    "gulp-merge-media-queries": "^0.2.1",
-    "gulp-minify-css": "^1.2.4",
-    "gulp-plumber": "^1.2.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sequence": "^1.0.0",
-    "gulp-shell": "^0.5.2",
-    "gulp-sourcemaps": "^2.6.3",
-    "gulp-uglify": "^3.0.0",
-    "gulp-util": "^3.0.8",
-    "jshint": "^2.9.5"
+    "extract-text-webpack-plugin": "^3.0.2",
+    "vue": "^2.5.11",
+    "vue-router": "^3.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
   }
 }
