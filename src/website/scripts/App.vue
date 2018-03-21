@@ -51,6 +51,7 @@
   import Team from './components/sections/Team'
   import OnTheNews from './components/sections/OnTheNews'
   import Videos from './components/sections/Videos'
+  import Faq from './components/sections/Faq'
   import MainFooter from './components/main/MainFooter'
   import MainSvg from './components/shared/MainSvg'
   import AppData from '../data/data.json';
@@ -77,7 +78,8 @@
       Opensource,
       Team,
       OnTheNews,
-      Videos
+      Videos,
+      Faq
     },
     methods: {
       changeLanguage (lang) {
