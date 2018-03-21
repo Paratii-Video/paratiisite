@@ -13,11 +13,11 @@
     $ yarn/npm install
 
 ## Development
-# serve with hot reload at localhost:8080
+serve with hot reload at localhost:8080
     $ yarn run dev
 
 ## Deploy
-# build for production with minification
+build for production with minification
     $ yarn run build
 
 
