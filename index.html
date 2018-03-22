@@ -169,14 +169,25 @@
         <path d="M6998.067 1621.499a.906.906 0 0 1 .639.239l7.979 5.667a1.152 1.152 0 0 1 .239 1.597 1.141 1.141 0 0 1-1.6.239l-7.34-5.268-7.343 5.268a1.152 1.152 0 0 1-1.6-.239 1.152 1.152 0 0 1 .239-1.6l7.987-5.664a1.784 1.784 0 0 1 .8-.239z"/>
       </symbol>
     </svg>
-    <div id="paratii-main" class="main-wrapper" v-bind:class="{ openNav: nav, langEn: langEn }">
+    <div id="paratii-main" class="main-wrapper" v-bind:class="{ openNav: nav, langEn: 'langEn' }">
       <header class="main-header">
         <div class="main-section-wrapper main-header-wrapper">
           <logo></logo>
           <nav class="main-nav">
             <h2 class="visually-hidden">Navigation</h2>
             <div class="nav-lang">
-              <button class="main-nav-link nav-lang-button nav-lang-button--pt" v-on:click="changeLang('pt', $event)" title="Mudar a língua para portuguese">PT</button><span class="main-nav-link nav-lang-space">/</span><button class="main-nav-link nav-lang-button nav-lang-button--en" v-on:click="changeLang('en', $event)" title="Change language to english">EN</button>
+              <template v-for="(item, index) in content">
+                <button
+                  class="main-nav-link nav-lang-button"
+                  v-bind:title="item.title"
+                  v-bind:class="{ active: index === langIndex }"
+                  v-on:click="changeLanguage(index)"
+                >{{ item.label }}</button>
+                <span
+                  class="main-nav-link nav-lang-space"
+                  v-if="index < (getContentLength - 1)"
+                >/</span>
+              </template>
             </div>
             <ul class="main-nav-list">
               <li class="main-nav-item main-subnav-holder">
@@ -212,17 +223,17 @@
         <section class="paratii-header">
           <span class="paratii-header-bg"></span>
           <div class="main-section-wrapper">
-            <span class="paratii-header-asset" v-bind:style="backgroundImage(content.header.image)"></span>
+            <span class="paratii-header-asset" v-bind:style="backgroundImage(getSectionsContent.header.image)"></span>
             <div class="paratii-header-content">
-              <h2 class="paratii-header-title">{{content.header.title}}</h2>
-              <p class="paratii-header-text">{{content.header.text}}</p>
+              <h2 class="paratii-header-title">{{getSectionsContent.header.title}}</h2>
+              <p class="paratii-header-text">{{getSectionsContent.header.text}}</p>
             </div>
             <div class="paratii-header-subscribe">
               <form class="paratii-header-form" action="https://video.us15.list-manage.com/subscribe/post?u=3363d6d446b55bfeec00cb430&id=d12f33be57" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <label class="paratii-header-label" for="mce-EMAIL">
                   <input class="paratii-header-input" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="your@email.here" />
                 </label>
-                <button class="paratii-header-button paratii-button-border" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">{{content.header.buttonB}}</button>
+                <button class="paratii-header-button paratii-button-border" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">{{getSectionsContent.header.buttonB}}</button>
 
                 <div class="visually-hidden" id="mce-responses">
                   <div class="visually-hidden" id="mce-error-response" style="display:none"></div>
@@ -231,21 +242,21 @@
                 </div>
               </form>
             </div>
-            <p class="paratii-header-small" v-html="content.header.small"></p>
+            <p class="paratii-header-small" v-html="getSectionsContent.header.small"></p>
           </div>
         </section>
 
         <section class="main-section paratii-audiences">
           <div class="main-section-wrapper">
             <section-header
-              v-bind:title="content.audiences.title"
-              v-bind:subtitle="content.audiences.subtitle"
+              v-bind:title="getSectionsContent.audiences.title"
+              v-bind:subtitle="getSectionsContent.audiences.subtitle"
             ></section-header>
             <div class="main-section-content">
             </div>
             <div class="main-section-content main-section-content--no-padding">
               <div class="paratii-audiences-list">
-                <div class="paratii-audiences-item" v-for="item in content.audiences.list">
+                <div class="paratii-audiences-item" v-for="item in getSectionsContent.audiences.list">
                   <div class="paratii-audiences-item-icon" v-html="item.icon"></div>
                   <div class="paratii-audiences-item-content">
                     <h4 class="paratii-audiences-item-title"><strong>{{item.title}}</strong></h4>
@@ -255,8 +266,8 @@
                 </div>
               </div>
               <div class="main-section-call">
-                <p class="main-section-content-text" v-html="content.audiences.call.text"></p>
-                <a class="paratii-button paratii-button--red" v-bind:href="content.audiences.call.buttonHref" target="_blank">{{content.audiences.call.button}}</a>
+                <p class="main-section-content-text" v-html="getSectionsContent.audiences.call.text"></p>
+                <a class="paratii-button paratii-button--red" v-bind:href="getSectionsContent.audiences.call.buttonHref" target="_blank">{{getSectionsContent.audiences.call.button}}</a>
               </div>
             </div>
           </div>
@@ -265,13 +276,13 @@
         <section class="main-section paratii-features">
           <div class="main-section-wrapper">
             <section-header
-              v-bind:title="content.features.title"
-              v-bind:subtitle="content.features.subtitle"
+              v-bind:title="getSectionsContent.features.title"
+              v-bind:subtitle="getSectionsContent.features.subtitle"
             ></section-header>
             <div class="paratii-features-wrapper">
-              <div class="paratii-features-asset" v-bind:style="backgroundImage(content.features.image)"></div>
+              <div class="paratii-features-asset" v-bind:style="backgroundImage(getSectionsContent.features.image)"></div>
               <ul class="paratii-features-list">
-                <li class="paratii-features-item" v-for="(item, index) in content.features.list" v-bind:class="setLoopClass('paratii-features-item--', index)" v-bind:index="index" v-bind:key="item.id">
+                <li class="paratii-features-item" v-for="(item, index) in getSectionsContent.features.list" v-bind:class="setLoopClass('paratii-features-item--', index)" v-bind:index="index" v-bind:key="item.id">
                   <p v-html="item.text"></p>
                 </li>
               </ul>
@@ -281,8 +292,8 @@
             <div class="main-section-wrapper main-color-section-wrapper">
               <p class="main-section-content-text">
                 <strong class="main-section-content-title">
-                  {{content.features.call.text}}
-                </strong> <a class="main-color-section-button paratii-button-border" v-bind:href="content.features.call.href" target="_blank">{{content.features.call.button}}</a>
+                  {{getSectionsContent.features.call.text}}
+                </strong> <a class="main-color-section-button paratii-button-border" v-bind:href="getSectionsContent.features.call.href" target="_blank">{{getSectionsContent.features.call.button}}</a>
               </p>
             </div>
           </div>
@@ -291,11 +302,11 @@
         <section class="main-section paratii-components">
           <div class="main-section-wrapper">
             <section-header
-              v-bind:title="content.components.title"
-              v-bind:subtitle="content.components.subtitle"
+              v-bind:title="getSectionsContent.components.title"
+              v-bind:subtitle="getSectionsContent.components.subtitle"
             ></section-header>
           </div>
-          <div class="paratii-components-content" v-for="(item, index) in content.components.list" v-bind:class="item.class">
+          <div class="paratii-components-content" v-for="(item, index) in getSectionsContent.components.list" v-bind:class="item.class">
             <div class="main-section-wrapper paratii-components-content-wrapper">
               <div class="paratii-components-entry">
                 <h4 class="paratii-components-entry-title">
@@ -313,16 +324,16 @@
           <div class="main-section-wrapper">
             <section-header
               nomargin
-              v-bind:title="content.roadmap.title"
-              v-bind:subtitle="content.roadmap.subtitle"
+              v-bind:title="getSectionsContent.roadmap.title"
+              v-bind:subtitle="getSectionsContent.roadmap.subtitle"
             ></section-header>
             <div class="main-section-content main-section-content--with-margin">
-              <p class="main-section-content-text">{{content.roadmap.text}}</p>
+              <p class="main-section-content-text">{{getSectionsContent.roadmap.text}}</p>
             </div>
             <div class="main-section-content main-section-content--no-padding paratii-roadmap-content">
 
               <ol class="paratii-roadmap-list">
-                <li class="paratii-roadmap-item" v-for="(item, index) in content.roadmap.listA" v-bind:class="roadmapClass('paratii-roadmap-item--', item)">
+                <li class="paratii-roadmap-item" v-for="(item, index) in getSectionsContent.roadmap.listA" v-bind:class="roadmapClass('paratii-roadmap-item--', item)">
                   
                   <div class="paratii-roadmap-item-icon" v-bind:class="setLoopClass('paratii-roadmap-item-icon--', index)">
                     <svg class="paratii-roadmap-item-svg">
@@ -335,7 +346,7 @@
                 </li>
               </ol>
               <ol class="paratii-roadmap-list paratii-roadmap-list--reverse">
-                <li class="paratii-roadmap-item" v-for="(item, index) in content.roadmap.listB" v-bind:class="roadmapClass('paratii-roadmap-item--', item)">
+                <li class="paratii-roadmap-item" v-for="(item, index) in getSectionsContent.roadmap.listB" v-bind:class="roadmapClass('paratii-roadmap-item--', item)">
                   
                   <div class="paratii-roadmap-item-icon" v-bind:class="setLoopClass('paratii-roadmap-item-icon--', index)">
                     <svg class="paratii-roadmap-item-svg">
@@ -357,13 +368,13 @@
           <div class="main-section-wrapper">
             <section-header
               nomargin
-              v-bind:title="content.opensource.title"
-              v-bind:subtitle="content.opensource.subtitle"
+              v-bind:title="getSectionsContent.opensource.title"
+              v-bind:subtitle="getSectionsContent.opensource.subtitle"
             ></section-header>
             <div class="main-section-content">
-              <p class="main-section-content-text" v-html="content.opensource.text"></p>
+              <p class="main-section-content-text" v-html="getSectionsContent.opensource.text"></p>
               <div class="paratii-opensource-buttons">
-                <a class="paratii-opensource-button" v-bind:href="item.href" v-for="(item, index) in content.opensource.list" v-bind:class="setLoopClass('paratii-opensource-button--', index)" v-bind:index="index" v-bind:key="item.id" title="{item.title}" target="_blank"><img class="paratii-opensource-button-image" v-bind:src="item.image"></a>
+                <a class="paratii-opensource-button" v-bind:href="item.href" v-for="(item, index) in getSectionsContent.opensource.list" v-bind:class="setLoopClass('paratii-opensource-button--', index)" v-bind:index="index" v-bind:key="item.id" title="{item.title}" target="_blank"><img class="paratii-opensource-button-image" v-bind:src="item.image"></a>
               </div>
             </div>
           </div>
@@ -373,15 +384,15 @@
           <div class="main-section-wrapper">
             <section-header
               nomargin
-              v-bind:title="content.team.title"
-              v-bind:subtitle="content.team.subtitle"
+              v-bind:title="getSectionsContent.team.title"
+              v-bind:subtitle="getSectionsContent.team.subtitle"
             ></section-header>
             <div class="main-section-content main-section-content--with-margin">
-              <p class="main-section-content-text" v-html="content.team.text"></p>
+              <p class="main-section-content-text" v-html="getSectionsContent.team.text"></p>
             </div>
             <div class="main-section-content main-section-content--no-padding">
               <div class="paratii-team-list">
-                <article class="paratii-team-item" itemscope itemtype="http://schema.org/Person" v-for="(item, index) in content.team.list">
+                <article class="paratii-team-item" itemscope itemtype="http://schema.org/Person" v-for="(item, index) in getSectionsContent.team.list">
                   <a class="paratii-team-item-link" v-bind:href="item.url" target="_blank">
                     <div class="paratii-team-item-avatar">
                       <img class="paratii-team-item-image" v-bind:src="item.image" itemprop="image"  />
@@ -398,9 +409,9 @@
 
         <div class="main-color-section main-section--color paratii-onthenews">
           <div class="main-section-wrapper main-color-section-wrapper">
-            <h2 class="main-section-title">{{content.onthenews.title}}</h2>
+            <h2 class="main-section-title">{{getSectionsContent.onthenews.title}}</h2>
             <div class="paratii-onthenews-buttons">
-              <a class="paratii-onthenews-button" v-bind:href="item.href" target="_blank" v-for="(item, index) in content.onthenews.list">
+              <a class="paratii-onthenews-button" v-bind:href="item.href" target="_blank" v-for="(item, index) in getSectionsContent.onthenews.list">
                 <img class="paratii-onthenews-button-image" v-bind:src="item.image" />
               </a>
             </div>
@@ -411,17 +422,17 @@
           <div class="main-section-wrapper">
             <section-header
               nomargin
-              v-bind:title="content.videos.title"
-              v-bind:subtitle="content.videos.subtitle"
+              v-bind:title="getSectionsContent.videos.title"
+              v-bind:subtitle="getSectionsContent.videos.subtitle"
             ></section-header>
             <div class="main-section-content main-section-content--with-margin">
-              <p class="main-section-content-text">{{content.videos.text}}</p>
+              <p class="main-section-content-text">{{getSectionsContent.videos.text}}</p>
             </div>
             <div class="paratii-videos-list">
-              <iframe class="paratii-videos-item" v-bind:src="item.url" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"  v-for="item in content.videos.list"></iframe>
+              <iframe class="paratii-videos-item" v-bind:src="item.url" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"  v-for="item in getSectionsContent.videos.list"></iframe>
             </div>
               <div class="main-section-call">
-                <a class="paratii-button paratii-button--red" v-bind:href="content.videos.buttonHref" target="_blank">{{content.videos.button}}</a>
+                <a class="paratii-button paratii-button--red" v-bind:href="getSectionsContent.videos.buttonHref" target="_blank">{{getSectionsContent.videos.button}}</a>
               </div>
           </div>
         </section>
@@ -430,11 +441,11 @@
       <footer class="paratii-footer">
         <div class="main-section-wrapper">
           <div class="paratii-footer-wrapper">
-            <p class="paratii-footer-text">{{content.footer.text}}</p>
+            <p class="paratii-footer-text">{{getContent.footer.text}}</p>
             <aside id="follow-us" class="paratii-footer-social">
-              <h2 class="paratii-footer-social-title">{{content.footer.social.title}}</h2>
+              <h2 class="paratii-footer-social-title">{{getContent.footer.social.title}}</h2>
               <ul class="main-social-list">
-                <li class="main-social-item" v-for="item in content.footer.social.list">
+                <li class="main-social-item" v-for="item in getContent.footer.social.list">
                   <h3 class="visually-hidden">{{item.title}}</h3>
                     <a class="main-social-link" v-bind:href="item.href" target="_blank">
                       <svg class="main-social-svg" v-html="item.icon"></svg>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>FAQ - Paratii</title>
+    <title>Paratii</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -22,7 +22,7 @@
     <meta name="theme-color" content="#8535ee">
     <link rel="stylesheet" href="https://use.typekit.net/gis5uub.css">
     <link rel="stylesheet" href="../public/styles/index.css">
-    <link rel="icon" href="public/images/paratii-icon-192x192.png">
+    <link rel="icon" href="../public/images/paratii-icon-192x192.png">
     <link rel="image_src" href="http://paratii.video/public/images/paratii-src.png">
   </head>
   <body class="faq out-top">
@@ -110,14 +110,25 @@
         <path d="M6998.067 1621.499a.906.906 0 0 1 .639.239l7.979 5.667a1.152 1.152 0 0 1 .239 1.597 1.141 1.141 0 0 1-1.6.239l-7.34-5.268-7.343 5.268a1.152 1.152 0 0 1-1.6-.239 1.152 1.152 0 0 1 .239-1.6l7.987-5.664a1.784 1.784 0 0 1 .8-.239z"/>
       </symbol>
     </svg>
-    <div id="paratii-main" class="main-wrapper" v-bind:class="{ openNav: nav, langEn: langEn }">
+    <div id="paratii-main" class="main-wrapper" v-bind:class="{ openNav: nav, langEn: 'langEn' }">
       <header class="main-header">
         <div class="main-section-wrapper main-header-wrapper">
           <logo></logo>
           <nav class="main-nav">
             <h2 class="visually-hidden">Navigation</h2>
             <div class="nav-lang">
-              <button class="main-nav-link nav-lang-button nav-lang-button--pt" v-on:click.prevent="changeLang('pt', $event)" title="Mudar a língua para portuguese">PT</button><span class="main-nav-link nav-lang-space">/</span><button class="main-nav-link nav-lang-button nav-lang-button--en" v-on:click="changeLang('en', $event)" title="Change language to english">EN</button>
+              <template v-for="(item, index) in content">
+                <button
+                  class="main-nav-link nav-lang-button"
+                  v-bind:title="item.title"
+                  v-bind:class="{ active: index === langIndex }"
+                  v-on:click="changeLanguage(index)"
+                >{{ item.label }}</button>
+                <span
+                  class="main-nav-link nav-lang-space"
+                  v-if="index < (getContentLength - 1)"
+                >/</span>
+              </template>
             </div>
             <ul class="main-nav-list">
               <li class="main-nav-item main-subnav-holder">
@@ -139,9 +150,10 @@
                   </ul>
                 </div>
               </li>
-              <li class="main-nav-item"><h3><a class="main-nav-link" href="https://paratii.video/#team" v-on:click="closeNav()">Team</a></h3></li>
+              <li class="main-nav-item"><h3><a class="main-nav-link" href="#team" v-on:click="closeNav()">Team</a></h3></li>
               <li class="main-nav-item"><h3><a class="main-nav-link" href="https://medium.com/paratii" v-on:click="closeNav()" target="_blank">Blog</a></h3></li>
               <li class="main-nav-item"><h3><a class="main-nav-link" href="http://paratii.video/around-the-block/" v-on:click="closeNav()" target="_blank">Around the block</a></h3></li>
+              <li class="main-nav-item"><h3><a class="main-nav-link" href="/faq/" v-on:click="closeNav()">FAQ</a></h3></li>
             </ul>
           </nav>
         </div>
@@ -152,12 +164,12 @@
         <section id="faq" class="main-section paratii-faq">
           <div class="main-section-wrapper">
             <section-header
-              v-bind:title="content.faq.title"
-              v-bind:subtitle="content.faq.subtitle"
+              v-bind:title="getSectionsContent.faq.title"
+              v-bind:subtitle="getSectionsContent.faq.subtitle"
             ></section-header>
             <div class="main-section-content">
 
-              <div class="paratii-faq-group" v-for="(item, index) in content.faq.list">
+              <div class="paratii-faq-group" v-for="(item, index) in getSectionsContent.faq.list">
                 <h4 class="paratii-faq-group-title">{{item.title}}</h4>
                 <ul class="paratii-faq-list">
                   <faq
@@ -172,15 +184,14 @@
           </div>
         </section>
       </main>
-
       <footer class="paratii-footer">
         <div class="main-section-wrapper">
           <div class="paratii-footer-wrapper">
-            <p class="paratii-footer-text">{{content.footer.text}}</p>
+            <p class="paratii-footer-text">{{getContent.footer.text}}</p>
             <aside id="follow-us" class="paratii-footer-social">
-              <h2 class="paratii-footer-social-title">{{content.footer.social.title}}</h2>
+              <h2 class="paratii-footer-social-title">{{getContent.footer.social.title}}</h2>
               <ul class="main-social-list">
-                <li class="main-social-item" v-for="item in content.footer.social.list">
+                <li class="main-social-item" v-for="item in getContent.footer.social.list">
                   <h3 class="visually-hidden">{{item.title}}</h3>
                     <a class="main-social-link" v-bind:href="item.href" target="_blank">
                       <svg class="main-social-svg" v-html="item.icon"></svg>

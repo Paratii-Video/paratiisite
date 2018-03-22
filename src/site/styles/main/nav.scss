@@ -161,12 +161,15 @@ $size-main-nav-mobile-top: 52px;
 
   &-button {
     color: $color-white;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: $font-regular;
+    opacity: .5;
     text-align: center;
     text-transform: uppercase;
+    transition: opacity $anim-time-repaint;
     width: 20px;
 
-    .out-top & {
+    .out-of-top & {
       color: $color-black;
     }
 
@@ -174,22 +177,9 @@ $size-main-nav-mobile-top: 52px;
       color: $color-black;
     }
 
-    &--pt {
+    &.active {
       font-weight: $font-bold;
-
-      .langEn & {
-        font-weight: $font-regular;
-        opacity: .5;
-      }
-    }
-
-    &--en {
-      opacity: .5;
-
-      .langEn & {
-        font-weight: $font-bold;
-        opacity: 1;
-      }
+      opacity: 1;
     }
   }
 }
