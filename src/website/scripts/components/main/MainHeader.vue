@@ -23,14 +23,14 @@
             <li
               class="main-nav-item"
               v-bind:class="{'main-subnav-holder': item.list}"
-              v-bind:target="item.target"
             >
               <h3>
-                <a
+                <router-link
                   class="main-nav-link"
-                  v-bind:href="item.href"
                   v-on:click="$store.commit('closeNav')"
-                >{{item.label}}</a>
+                  v-bind:to="{ path: item.href}"
+                  v-bind:target="item.target"
+                >{{item.label}}</router-link>
               </h3>
               <div
                 class="main-subnav"
@@ -41,12 +41,12 @@
                     class="main-subnav-item"
                     v-for="(item2, index2) in item.list"
                   >
-                    <a
+                    <router-link
                       class="main-subnav-link"
-                      v-bind:href="item2.href"
+                      v-bind:to="{ path: item.href}"
                       v-on:click="$store.commit('closeNav')"
                       v-bind:target="item2.target"
-                    >{{item2.label}}</a>
+                    >{{item2.label}}</router-link>
                   </li>
                 </ul>
               </div>

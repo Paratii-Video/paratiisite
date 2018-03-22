@@ -9,10 +9,15 @@ const routes = [
   {
     path: '/',
     component: PageHome
+  },
+  {
+    path: '/faq',
+    component: PageFaq
   }
 ]
 
 export const router = new VueRouter({
+  mode: 'history',
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
