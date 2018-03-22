@@ -1,12 +1,11 @@
 ;(function () {
   'use strict';
  
-  var vueapp, data_content_pt, data_content_en;
+  var vueapp, appData;
 
   // Lang
   
-  data_content_pt = PARATII.lang.pt;
-  data_content_en = PARATII.lang.en;
+  appData = PARATII.lang;
 
   Vue.config.devtools = true;
 
@@ -57,20 +56,23 @@
     },
     template: '<li class="paratii-faq-item" v-bind:class="faqClass"><h4 class="paratii-faq-item-title" @click="handleActive()">{{ title }}<svg class="paratii-faq-item-icon"><use xlink:href="#icon-faq-arrow"/></svg></h4><div class="paratii-faq-item-entry" v-bind:style="{ height: theHeight }"><p class="paratii-faq-item-text" ref="text" v-html="text"></p></div></li>'
   });
-
+  
   vueapp = new Vue({
     el: '#paratii-main',
     data: {
       nav: false,
-      langEn: true,
-      content: data_content_en
+      langIndex: 0,
+      content: appData
     },
-    mounted: function(e) {
-      document.body.classList.add('hide-cover')
-    },
-    watch: {
-      langEn: function (e) {
-        this.content = this.langEn ? data_content_en : data_content_pt;
+    computed: {
+      getContent: function () {
+        return this.content[this.langIndex]
+      },
+      getSectionsContent: function () {
+        return this.content[this.langIndex].sections
+      },
+      getContentLength: function () {
+        return this.content.length
       }
     },
     methods: {
@@ -111,10 +113,15 @@
       openNav: function (e) {
         this.nav = true;
       },
-      changeLang: function (lang, e) {
-        this.langEn = (lang === 'en');
+      changeLanguage: function (index, e) {
+        if (index !== this.langIndex) {
+          this.langIndex = index
+        }
         this.nav = false;
       }
+    },
+    mounted: function(e) {
+      document.body.classList.add('hide-cover')
     }
   });
 

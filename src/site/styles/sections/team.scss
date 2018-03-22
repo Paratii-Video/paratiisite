@@ -28,13 +28,13 @@ $zindex-paratii-team-avatar-image: 1;
   }
 
   &-item {
-    flex: 0 0 151px;
+    flex: 0 0 10.3%;
     margin: 0 70px 65px 0;
     overflow: hidden;
     text-align: center;
 
     @include screenTablet {
-      flex: 0 0 25.5%;
+      flex: 0 0 18.5%;
       margin: 0 6.5% 65px 0;
     }
 
