@@ -46,9 +46,6 @@
       OnTheNews,
       Videos
     },
-    computed: mapGetters(['getLanguageContent']),
-    created () {
-      console.log(this)
-    }
+    computed: mapGetters(['getLanguageContent'])
   }
 </script>
