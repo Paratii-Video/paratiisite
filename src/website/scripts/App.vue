@@ -2,7 +2,7 @@
   <div
     id="paratii-main"
     class="main-wrapper"
-    v-bind:class="{ 'out-of-top': isOutOfTop || isNavWhite, 'nav-open': isNavOpen }"
+    v-bind:class="mainClass"
   >
     <MainSvg></MainSvg>
     <MainHeader></MainHeader>
@@ -24,7 +24,22 @@
       MainHeader,
       MainFooter
     },
-    computed: mapGetters(['isNavOpen', 'isOutOfTop', 'isNavWhite']),
+    computed: {
+      ...mapGetters([
+        'isNavOpen',
+        'isOutOfTop',
+        'isNavWhite',
+        'getLangLabel'
+      ]),
+      mainClass () {
+        return {
+          'out-of-top': this.isOutOfTop || this.isNavWhite,
+          'nav-open': this.isNavOpen,
+          ['lang-' + this.getLangLabel]: true
+        }
+      }
+
+    },
     methods: {
       onResize () {
         this.$store.commit('closeNav')
