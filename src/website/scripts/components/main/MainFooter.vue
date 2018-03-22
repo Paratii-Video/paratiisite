@@ -2,11 +2,11 @@
   <footer class="paratii-footer">
     <div class="main-section-wrapper">
       <div class="paratii-footer-wrapper">
-        <p class="paratii-footer-text">{{content.footer.text}}</p>
+        <p class="paratii-footer-text">{{getLanguageContent.footer.text}}</p>
         <aside id="follow-us" class="paratii-footer-social">
-          <h2 class="paratii-footer-social-title">{{content.footer.social.title}}</h2>
+          <h2 class="paratii-footer-social-title">{{getLanguageContent.footer.social.title}}</h2>
           <ul class="main-social-list">
-            <li class="main-social-item" v-for="item in content.footer.social.list">
+            <li class="main-social-item" v-for="item in getLanguageContent.footer.social.list">
               <h3 class="visually-hidden">{{item.title}}</h3>
                 <a class="main-social-link" v-bind:href="item.href" target="_blank">
                   <svg class="main-social-svg" v-html="item.icon"></svg>
@@ -21,7 +21,9 @@
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
+
   export default {
-    props: ['content']
+    computed: mapGetters(['getLanguageContent'])
   }
 </script> 

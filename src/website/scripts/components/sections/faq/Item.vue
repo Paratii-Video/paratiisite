@@ -35,15 +35,15 @@
         isActive: this.title.length ? 0 : 1
       }
     },
+    computed: {
+      faqClass () {
+        return this.isActive ? 'active' : null;
+      }
+    },
     methods: {
       handleActive () {
         this.theHeight = this.isActive ? '0px' : this.$refs.text.offsetHeight + 'px';
         this.isActive = !this.isActive;
-      }
-    },
-    computed: {
-      faqClass () {
-        return this.isActive ? 'active' : null;
       }
     }
   }

@@ -2,67 +2,39 @@
   <div
     id="paratii-main"
     class="main-wrapper"
-    v-bind:class="{ 'out-of-top': isOutOfTop, 'nav-open': isNavOpen }"
+    v-bind:class="{ 'out-of-top': isOutOfTop || isNavWhite, 'nav-open': isNavOpen }"
   >
     <MainSvg></MainSvg>
-    <MainHeader
-      v-bind:content="this.content"
-      v-bind:languageIndex="indexLang"
-      v-on:onChangeLanguage="changeLanguage($event)"
-      v-on:onToggleNav="toggleNav"
-      v-on:onCloseNav="closeNav"
-    ></MainHeader>
-    <router-view
-      v-bind:content="this.content.lang[indexLang]"
-      v-on:onOpenNav="openNav"
-      v-on:onCloseNav="closeNav"
-    ></router-view>
-    <MainFooter
-      v-bind:content="this.content.lang[indexLang]"
-    ></MainFooter>
+    <MainHeader></MainHeader>
+    <router-view></router-view>
+    <MainFooter></MainFooter>
   </div>
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
   import MainHeader from './components/main/MainHeader'
   import MainFooter from './components/main/MainFooter'
   import MainSvg from './components/shared/MainSvg'
-  import AppData from '../data/data.json'
 
   export default {
     name: 'App',
-    data () {
-      return {
-        content: AppData,
-        indexLang: 0,
-        isOutOfTop: false,
-        isNavOpen: false
-      }
-    },
     components: {
       MainSvg,
       MainHeader,
       MainFooter
     },
+    computed: mapGetters(['isNavOpen', 'isOutOfTop', 'isNavWhite']),
     methods: {
-      changeLanguage (lang) {
-        this.indexLang = lang
+      onResize () {
+        this.$store.commit('closeNav')
       },
-      toggleNav () {
-        this.isNavOpen = !this.isNavOpen
-      },
-      openNav () {
-        this.isNavOpen = true
-      },
-      closeNav () {
-        this.isNavOpen = false
-      },
-      outOfTop (event) {
-        this.isOutOfTop = window.scrollY > 50
+      outOfTop () {
+        this.$store.commit('outOfTop', window.scrollY > 100)
       }
     },
     created () {
-      window.addEventListener('resize', this.closeNav)
+      window.addEventListener('resize', this.onResize)
       window.addEventListener('scroll', this.outOfTop)
     },
     destroyed () {

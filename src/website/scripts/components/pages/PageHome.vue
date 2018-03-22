@@ -1,27 +1,28 @@
 <template>
   <main id="main" class="paratii-main">
     <ParatiiHeader
-      v-bind:content="content.sections.header"></ParatiiHeader>
+      v-bind:content="getLanguageContent.sections.header"></ParatiiHeader>
     <Audiences
-      v-bind:content="content.sections.audiences"></Audiences>
+      v-bind:content="getLanguageContent.sections.audiences"></Audiences>
     <Features
-      v-bind:content="content.sections.features"></Features>
+      v-bind:content="getLanguageContent.sections.features"></Features>
     <Components
-      v-bind:content="content.sections.components"></Components>
+      v-bind:content="getLanguageContent.sections.components"></Components>
     <Roadmap
-      v-bind:content="content.sections.roadmap"></Roadmap>
+      v-bind:content="getLanguageContent.sections.roadmap"></Roadmap>
     <Opensource
-      v-bind:content="content.sections.opensource"></Opensource>
+      v-bind:content="getLanguageContent.sections.opensource"></Opensource>
     <Team
-      v-bind:content="content.sections.team"></Team>
+      v-bind:content="getLanguageContent.sections.team"></Team>
     <OnTheNews
-      v-bind:content="content.sections.onthenews"></OnTheNews>
+      v-bind:content="getLanguageContent.sections.onthenews"></OnTheNews>
     <Videos
-      v-bind:content="content.sections.videos"></Videos>
+      v-bind:content="getLanguageContent.sections.videos"></Videos>
   </main>
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
   import ParatiiHeader from '../sections/Header'
   import Audiences from '../sections/Audiences'
   import Features from '../sections/Features'
@@ -34,9 +35,6 @@
 
   export default {
     name: 'PageHome',
-    props: [
-      'content'
-    ],
     components: {
       ParatiiHeader,
       Audiences,
@@ -47,6 +45,10 @@
       Team,
       OnTheNews,
       Videos
+    },
+    computed: mapGetters(['getLanguageContent']),
+    created () {
+      console.log(this)
     }
   }
 </script>
