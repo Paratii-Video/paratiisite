@@ -43,6 +43,7 @@
             },
             {
               "label": "Team",
+              "router": true,
               "href": "/#team"
             },
             {
@@ -52,6 +53,7 @@
             },
             {
               "label": "Faq",
+              "router": true,
               "href": "/faq"
             },
             {
@@ -626,6 +628,7 @@
             },
             {
               "label": "Team",
+              "router": true,
               "href": "/#team"
             },
             {
@@ -634,6 +637,7 @@
             },
             {
               "label": "Faq",
+              "router": true,
               "href": "/faq"
             },
             {
@@ -1208,6 +1212,7 @@
             },
             {
               "label": "Team",
+              "router": true,
               "href": "/#team"
             },
             {
@@ -1216,6 +1221,7 @@
             },
             {
               "label": "Faq",
+              "router": true,
               "href": "/faq"
             },
             {

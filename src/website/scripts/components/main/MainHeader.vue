@@ -30,7 +30,15 @@
                   v-on:click="$store.commit('closeNav')"
                   v-bind:to="{ path: item.href}"
                   v-bind:target="item.target"
+                  v-if="item.router"
                 >{{item.label}}</router-link>
+                <a
+                  class="main-nav-link"
+                  v-on:click="$store.commit('closeNav')"
+                  v-bind:href="item.href"
+                  v-bind:target="item.target"
+                  v-else
+                >{{item.label}}</a>
               </h3>
               <div
                 class="main-subnav"
@@ -43,10 +51,18 @@
                   >
                     <router-link
                       class="main-subnav-link"
-                      v-bind:to="{ path: item.href}"
                       v-on:click="$store.commit('closeNav')"
+                      v-bind:to="{ path: item.href}"
                       v-bind:target="item2.target"
+                      v-if="item2.router"
                     >{{item2.label}}</router-link>
+                    <a
+                      class="main-subnav-link"
+                      v-on:click="$store.commit('closeNav')"
+                      v-bind:href="item2.href"
+                      v-bind:target="item2.target"
+                      v-else
+                    >{{item2.label}}</a>
                   </li>
                 </ul>
               </div>
