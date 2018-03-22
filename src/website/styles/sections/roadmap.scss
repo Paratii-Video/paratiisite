@@ -246,7 +246,7 @@ $size-paratii-roadmap-item-bottom: 30px;
       @extend .text-main;
       @extend .pos-a-b;
 
-      color: $color-white;
+      color: $color-purply-blue;
       font-weight: $font-bold;
       transform: translate3d(0, 120px, 0);
       width: 100%;
@@ -256,8 +256,8 @@ $size-paratii-roadmap-item-bottom: 30px;
       //   transform: translate3d(0, 120px, 0);
       // }
 
-      .paratii-roadmap-item--future & {
-        color: $color-purply-blue;
+      .paratii-roadmap-item--past & {
+        color: $color-white;
       }
 
       &-icon {
