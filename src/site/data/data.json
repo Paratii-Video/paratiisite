@@ -523,6 +523,10 @@ window.PARATII = {
             { "href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
               "title": "OLHAR DIGITAL",
               "image": "./public/images/on-the-news/logo-olhardigital.png"
+            },
+            { "href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
+              "title": "Livecoins",
+              "image": "./public/images/on-the-news/logo-livecoins.png"
             }
           ]
         },
@@ -1105,6 +1109,10 @@ window.PARATII = {
             { "href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
               "title": "OLHAR DIGITAL",
               "image": "./public/images/on-the-news/logo-olhardigital.png"
+            },
+            { "href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
+              "title": "Livecoins",
+              "image": "./public/images/on-the-news/logo-livecoins.png"
             }
           ]
         },
@@ -1690,6 +1698,10 @@ window.PARATII = {
             { "href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
               "title": "OLHAR DIGITAL",
               "image": "./public/images/on-the-news/logo-olhardigital.png"
+            },
+            { "href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
+              "title": "Livecoins",
+              "image": "./public/images/on-the-news/logo-livecoins.png"
             }
           ]
         },
