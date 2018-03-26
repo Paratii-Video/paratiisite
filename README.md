@@ -5,7 +5,6 @@
 ## Prerequisites
 
 * npm/yarn
-* gulp
 
 ## Installing
 
@@ -14,9 +13,17 @@
     $ yarn/npm install
 
 ## Development
+serve with hot reload at localhost:8080
+```
+yarn run dev
 
-    $ gulp
+```
 
 ## Deploy
+build for production with minification
+```
+yarn run build
 
-    $ gulp deploy
+```
+
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
