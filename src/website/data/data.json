@@ -18,6 +18,11 @@
                   "label": "Paratii-lib",
                   "href": "https://github.com/Paratii-Video/paratii-lib",
                   "target": "_blank"
+                },
+                {
+                  "label": "The PTI Token",
+                  "href": "https://i.redd.it/3ypnjz1grdo01.png",
+                  "target": "_blank"
                 }
               ]
             },
@@ -623,6 +628,11 @@
                 {
                   "label": "Paratii-lib",
                   "href": "https://github.com/Paratii-Video/paratii-lib"
+                },
+                {
+                  "label": "The PTI Token",
+                  "href": "https://i.redd.it/3ypnjz1grdo01.png",
+                  "target": "_blank"
                 }
               ]
             },
@@ -843,7 +853,7 @@
             {
               "title": "Criadores",
               "text": "Faça upload de conteúdo original, ou simplesmente cole um link e “replique” na Paratii conteúdo que já está em outro lugar. Experimente monetizar sem intermediários. Sem cortes na sua receita. Sem bloqueios ou manipulação com sua audiência.",
-              "button": "Esteja entre os primeiros uploaders",
+              "button": "Seja um uploader",
               "buttonHref": "https://docs.google.com/forms/d/13neNk4DRE3AxofLhQFb7kidPM-8g5QmxMVumrezrE7Y/",
               "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>"
             },
@@ -1215,7 +1225,7 @@
         "title": "Navegação",
         "list": [
             {
-              "label": "Documentação",
+              "label": "Documentation",
               "list": [
                 {
                   "label": "Blueprint document",
@@ -1224,6 +1234,11 @@
                 {
                   "label": "Paratii-lib",
                   "href": "https://github.com/Paratii-Video/paratii-lib"
+                },
+                {
+                  "label": "The PTI Token",
+                  "href": "https://i.redd.it/3ypnjz1grdo01.png",
+                  "target": "_blank"
                 }
               ]
             },
