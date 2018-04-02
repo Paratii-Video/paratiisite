@@ -260,6 +260,10 @@ $size-paratii-roadmap-item-bottom: 30px;
         color: $color-white;
       }
 
+      .paratii-roadmap-list--reverse .paratii-roadmap-item--past & {
+        color: $color-purply-blue;
+      }
+
       &-icon {
         background: $color-white;
         border-radius: 100%;

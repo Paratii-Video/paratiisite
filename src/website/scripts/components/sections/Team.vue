@@ -1,5 +1,5 @@
 <template>
-  <section id="team" class="main-section paratii-team">
+  <section id="team" class="main-section paratii-team" v-bind:class="{colorful: colorful}">
     <div class="main-section-wrapper">
       <SectionHeader
         nomargin
@@ -31,7 +31,10 @@
   import SectionHeader from '../shared/SectionHeader'
 
   export default {
-    props: ['content'],
+    props: [
+      'colorful',
+      'content'
+    ],
     components: {
       SectionHeader
     }

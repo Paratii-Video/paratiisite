@@ -471,13 +471,6 @@
               "text": "Electronic engineer @ Instituto Politecnico di Torino, professor at IED, former web developer."
             },
             {
-              "url": "https://github.com/Leeaandrob",
-              "image": "./dist/assets/images/team/Leandro.png",
-              "name": "Leandro Barbosa",
-              "job": "Devops Engineer",
-              "text": "Python-native video infrastructure builder, previous clients include Esporte Interativo (a sports channel), distance learning platforms and video-heavy startups."
-            },
-            {
               "url": "https://pcasa.myportfolio.com/projetos",
               "image": "./dist/assets/images/team/Pedro.png",
               "name": "Pedro Casagrande",
@@ -507,24 +500,48 @@
             }
           ]
         },
-        "onthenews": {
-          "title": "On the news",
+        "advisors": {
+          "title": "People",
+          "subtitle": "Advisors",
           "list": [
-            { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
-              "title": "ÉPOCA NEGÓCIOS",
-              "image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
+            {
+              "url": "https://medium.com/@felipegachopereira",
+              "image": "./dist/assets/images/team/Felipe.png",
+              "name": "Edu Tibiriça",
+              "job": "Bossa Nova Group",
+              "text": ""
             },
-            { "href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
-              "title": "CRIPTOMOEDAS FÁCIL",
-              "image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
-            },
-            { "href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
-              "title": "TECMUNDO",
-              "image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
-            },
-            { "href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
-              "title": "OLHAR DIGITAL",
-              "image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
+            {
+              "url": "https://github.com/jellegerbrandy",
+              "image": "./dist/assets/images/team/Jelle.png",
+              "name": "Flávio Ribeiro",
+              "job": "New York Times",
+              "text": ""
+            }
+          ]
+        },
+        "onthenews": {
+          "list": [
+            {
+              "title": "On the news",
+              "list": [
+                { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
+                  "title": "ÉPOCA NEGÓCIOS",
+                  "image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
+                },
+                { "href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
+                  "title": "CRIPTOMOEDAS FÁCIL",
+                  "image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
+                },
+                { "href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
+                  "title": "TECMUNDO",
+                  "image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
+                },
+                { "href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
+                  "title": "OLHAR DIGITAL",
+                  "image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
+                }
+              ]
             }
           ]
         },
@@ -1055,13 +1072,6 @@
               "text": "Electronic engineer @ Instituto Politecnico di Torino, professor at IED, former web developer."
             },
             {
-              "url": "https://github.com/Leeaandrob",
-              "image": "./dist/assets/images/team/Leandro.png",
-              "name": "Leandro Barbosa",
-              "job": "Devops Engineer",
-              "text": "Python-native video infrastructure builder, previous clients include Esporte Interativo (a sports channel), distance learning platforms and video-heavy startups."
-            },
-            {
               "url": "https://pcasa.myportfolio.com/projetos",
               "image": "./dist/assets/images/team/Pedro.png",
               "name": "Pedro Casagrande",
@@ -1091,24 +1101,48 @@
             }
           ]
         },
-        "onthenews": {
-          "title": "Na mídia",
+        "advisors": {
+          "title": "People",
+          "subtitle": "Advisors",
           "list": [
-            { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
-              "title": "ÉPOCA NEGÓCIOS",
-              "image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
+            {
+              "url": "https://medium.com/@felipegachopereira",
+              "image": "./dist/assets/images/team/Felipe.png",
+              "name": "Edu Tibiriça",
+              "job": "Bossa Nova Group",
+              "text": ""
             },
-            { "href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
-              "title": "CRIPTOMOEDAS FÁCIL",
-              "image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
-            },
-            { "href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
-              "title": "TECMUNDO",
-              "image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
-            },
-            { "href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
-              "title": "OLHAR DIGITAL",
-              "image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
+            {
+              "url": "https://github.com/jellegerbrandy",
+              "image": "./dist/assets/images/team/Jelle.png",
+              "name": "Flávio Ribeiro",
+              "job": "New York Times",
+              "text": ""
+            }
+          ]
+        },
+        "onthenews": {
+          "list": [
+            {
+              "title": "Na mídia",
+              "list": [
+                { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
+                  "title": "ÉPOCA NEGÓCIOS",
+                  "image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
+                },
+                { "href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
+                  "title": "CRIPTOMOEDAS FÁCIL",
+                  "image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
+                },
+                { "href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
+                  "title": "TECMUNDO",
+                  "image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
+                },
+                { "href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
+                  "title": "OLHAR DIGITAL",
+                  "image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
+                }
+              ]
             }
           ]
         },
@@ -1642,13 +1676,6 @@
               "text": "Instituto Politecnico di Torino 电子工程师，IED 教授，前web开发人员。"
             },
             {
-              "url": "https://github.com/Leeaandrob",
-              "image": "./dist/assets/images/team/Leandro.png",
-              "name": "Leandro Barbosa",
-              "job": "开发运维工程师",
-              "text": "原生Python视频基础设施构建者，以前的客户包括Esporte Interativo(一个体育频道)，远程学习平台和视频创业公司。"
-            },
-            {
               "url": "https://pcasa.myportfolio.com/projetos",
               "image": "./dist/assets/images/team/Pedro.png",
               "name": "Pedro Casagrande",
@@ -1678,24 +1705,48 @@
             }
           ]
         },
-        "onthenews": {
-          "title": "在这些新闻里",
+        "advisors": {
+          "title": "People",
+          "subtitle": "Advisors",
           "list": [
-            { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
-              "title": "ÉPOCA NEGÓCIOS",
-              "image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
+            {
+              "url": "https://medium.com/@felipegachopereira",
+              "image": "./dist/assets/images/team/Felipe.png",
+              "name": "Edu Tibiriça",
+              "job": "Bossa Nova Group",
+              "text": ""
             },
-            { "href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
-              "title": "CRIPTOMOEDAS FÁCIL",
-              "image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
-            },
-            { "href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
-              "title": "TECMUNDO",
-              "image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
-            },
-            { "href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
-              "title": "OLHAR DIGITAL",
-              "image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
+            {
+              "url": "https://github.com/jellegerbrandy",
+              "image": "./dist/assets/images/team/Jelle.png",
+              "name": "Flávio Ribeiro",
+              "job": "New York Times",
+              "text": ""
+            }
+          ]
+        },
+        "onthenews": {
+          "list": [
+            {
+              "title": "在这些新闻里",
+              "list": [
+                { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
+                  "title": "ÉPOCA NEGÓCIOS",
+                  "image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
+                },
+                { "href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
+                  "title": "CRIPTOMOEDAS FÁCIL",
+                  "image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
+                },
+                { "href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
+                  "title": "TECMUNDO",
+                  "image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
+                },
+                { "href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
+                  "title": "OLHAR DIGITAL",
+                  "image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
+                }
+              ]
             }
           ]
         },

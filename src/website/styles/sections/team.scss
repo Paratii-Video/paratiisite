@@ -11,6 +11,10 @@ $zindex-paratii-team-avatar-image: 1;
   overflow: hidden;
   padding-bottom: 80px;
 
+  &.colorful {
+    background: $color-gray;
+  }
+
   @include screenTablet {
     padding-bottom: 50px;
   }
@@ -18,10 +22,10 @@ $zindex-paratii-team-avatar-image: 1;
   &-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     width: calc(100% + 70px);
 
-    @include screenTablet {
+    @include screenMobile {
       justify-content: space-evenly;
       width: 100%;
     }
@@ -95,6 +99,7 @@ $zindex-paratii-team-avatar-image: 1;
       @extend .full-block;
       @extend .pos-a-b;
 
+      backface-visibility: hidden;
       right: 0;
       transition: opacity $anim-time-repaint;
       z-index: $zindex-paratii-team-avatar-image;
