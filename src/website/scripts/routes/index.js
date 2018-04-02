@@ -13,7 +13,8 @@ const routes = [
   {
     path: '/faq',
     component: PageFaq
-  }
+  },
+  { path: "*", component: PageHome }
 ]
 
 export const router = new VueRouter({
