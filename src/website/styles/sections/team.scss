@@ -51,6 +51,25 @@ $zindex-paratii-team-avatar-image: 1;
       flex: 0 0 100%;
     }
 
+    .few & {
+      flex: 0 0 20%;
+      margin: 0 70px 65px 0;
+
+      @include screenTablet {
+        flex: 0 0 30%;
+        margin: 0 6.5% 65px 0;
+      }
+
+      @include screenMobile {
+        flex: 0 0 40%;
+        margin: 0 5% 65px;
+      }
+
+      @include screenMobileMax {
+        flex: 0 0 100%;
+      }
+    }
+
     //
 
     &-avatar {
@@ -93,6 +112,18 @@ $zindex-paratii-team-avatar-image: 1;
 
     &-link {
       display: block;
+
+      .few & {
+        padding: 0 22%;
+
+        @include screenTablet {
+          padding: 0 14%;
+        }
+
+        @include screenPhablet {
+          padding: 0;
+        }
+      }
     }
 
     &-image {

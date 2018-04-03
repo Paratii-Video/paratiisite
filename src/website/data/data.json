@@ -510,41 +510,69 @@
           "subtitle": "Advisors",
           "list": [
             {
-              "url": "https://medium.com/@felipegachopereira",
-              "image": "./dist/assets/images/team/Felipe.png",
-              "name": "Edu Tibiriça",
-              "job": "Bossa Nova Group",
-              "text": ""
+              "url": "http://www.bossanovagroup.com.br/",
+              "image": "./dist/assets/images/advisors/Edu.png",
+              "name": "Edu Tibiriçá",
+              "job": "CEO @ BossaNovaGroup",
+              "text": "Co-founder of Brazil’s 2nd largest film production company, leader of three successful merges, former APRO (National Association of Advertising Producers) president."
             },
             {
-              "url": "https://github.com/jellegerbrandy",
-              "image": "./dist/assets/images/team/Jelle.png",
+              "url": "https://medium.com/@flavioribeiro",
+              "image": "./dist/assets/images/advisors/Ribeiro.png",
               "name": "Flávio Ribeiro",
-              "job": "New York Times",
-              "text": ""
+              "job": "Lead Video Engineer @ NYTimes",
+              "text": "Co-inventor of the Clappr player, co-architect of the 2014 World Cup online live streaming for globo.com, lead video engineer at the New York Times."
             }
           ]
         },
         "onthenews": {
           "list": [
             {
+              "title": "Supporting Us",
+              "list": [
+                {
+                  "byheight": true,
+                  "href": "http://www.bossanovagroup.com.br/",
+                  "title": "Bossa Nova Group",
+                  "image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
+                },
+                {
+                  "byheight": true,
+                  "href": "https://www.facebook.com/GullaneEntretenimento",
+                  "title": "Gullane",
+                  "image": "./dist/assets/images/supporting-us/logo-gullane.png"
+                },
+                {
+                  "byheight": true,
+                  "href": "http://41.mostra.org/br/home/",
+                  "title": "41ª Mostra Internacional de Cinema",
+                  "image": "./dist/assets/images/supporting-us/logo-41mostra.png"
+                }
+              ]
+            },
+            {
               "title": "On the news",
               "list": [
                 { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
-                  "title": "ÉPOCA NEGÓCIOS",
+                  "title": "Época Negócios",
                   "image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
                 },
                 { "href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
-                  "title": "CRIPTOMOEDAS FÁCIL",
+                  "title": "Criptomoedas Fácil",
                   "image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
                 },
                 { "href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
-                  "title": "TECMUNDO",
+                  "title": "TecMundo",
                   "image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
                 },
                 { "href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
-                  "title": "OLHAR DIGITAL",
+                  "title": "Olhar Digital",
                   "image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
+                },
+                {
+                  "href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
+                  "title": "Livecoins",
+                  "image": "./dist/assets/images/on-the-news/logo-livecoins.png"
                 }
               ]
             }
@@ -1116,41 +1144,69 @@
           "subtitle": "Advisors",
           "list": [
             {
-              "url": "https://medium.com/@felipegachopereira",
-              "image": "./dist/assets/images/team/Felipe.png",
-              "name": "Edu Tibiriça",
-              "job": "Bossa Nova Group",
-              "text": ""
+              "url": "http://www.bossanovagroup.com.br/",
+              "image": "./dist/assets/images/advisors/Edu.png",
+              "name": "Edu Tibiriçá",
+              "job": "CEO @ BossaNovaGroup",
+              "text": "Co-founder of Brazil’s 2nd largest film production company, leader of three successful merges, former APRO (National Association of Advertising Producers) president."
             },
             {
-              "url": "https://github.com/jellegerbrandy",
-              "image": "./dist/assets/images/team/Jelle.png",
+              "url": "https://medium.com/@flavioribeiro",
+              "image": "./dist/assets/images/advisors/Ribeiro.png",
               "name": "Flávio Ribeiro",
-              "job": "New York Times",
-              "text": ""
+              "job": "Lead Video Engineer @ NYTimes",
+              "text": "Co-inventor of the Clappr player, co-architect of the 2014 World Cup online live streaming for globo.com, lead video engineer at the New York Times."
             }
           ]
         },
         "onthenews": {
           "list": [
             {
+              "title": "Apoio",
+              "list": [
+                {
+                  "byheight": true,
+                  "href": "http://www.bossanovagroup.com.br/",
+                  "title": "Bossa Nova Group",
+                  "image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
+                },
+                {
+                  "byheight": true,
+                  "href": "https://www.facebook.com/GullaneEntretenimento",
+                  "title": "Gullane",
+                  "image": "./dist/assets/images/supporting-us/logo-gullane.png"
+                },
+                {
+                  "byheight": true,
+                  "href": "http://41.mostra.org/br/home/",
+                  "title": "41ª Mostra Internacional de Cinema",
+                  "image": "./dist/assets/images/supporting-us/logo-41mostra.png"
+                }
+              ]
+            },
+            {
               "title": "Na mídia",
               "list": [
                 { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
-                  "title": "ÉPOCA NEGÓCIOS",
+                  "title": "Época Negócios",
                   "image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
                 },
                 { "href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
-                  "title": "CRIPTOMOEDAS FÁCIL",
+                  "title": "Criptomoedas Fácil",
                   "image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
                 },
                 { "href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
-                  "title": "TECMUNDO",
+                  "title": "TecMundo",
                   "image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
                 },
                 { "href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
-                  "title": "OLHAR DIGITAL",
+                  "title": "Olhar Digital",
                   "image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
+                },
+                {
+                  "href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
+                  "title": "Livecoins",
+                  "image": "./dist/assets/images/on-the-news/logo-livecoins.png"
                 }
               ]
             }
@@ -1725,41 +1781,69 @@
           "subtitle": "Advisors",
           "list": [
             {
-              "url": "https://medium.com/@felipegachopereira",
-              "image": "./dist/assets/images/team/Felipe.png",
-              "name": "Edu Tibiriça",
-              "job": "Bossa Nova Group",
-              "text": ""
+              "url": "http://www.bossanovagroup.com.br/",
+              "image": "./dist/assets/images/advisors/Edu.png",
+              "name": "Edu Tibiriçá",
+              "job": "CEO @ BossaNovaGroup",
+              "text": "Co-founder of Brazil’s 2nd largest film production company, leader of three successful merges, former APRO (National Association of Advertising Producers) president."
             },
             {
-              "url": "https://github.com/jellegerbrandy",
-              "image": "./dist/assets/images/team/Jelle.png",
+              "url": "https://medium.com/@flavioribeiro",
+              "image": "./dist/assets/images/advisors/Ribeiro.png",
               "name": "Flávio Ribeiro",
-              "job": "New York Times",
-              "text": ""
+              "job": "Lead Video Engineer @ NYTimes",
+              "text": "Co-inventor of the Clappr player, co-architect of the 2014 World Cup online live streaming for globo.com, lead video engineer at the New York Times."
             }
           ]
         },
         "onthenews": {
           "list": [
             {
+              "title": "Supporting Us",
+              "list": [
+                {
+                  "byheight": true,
+                  "href": "http://www.bossanovagroup.com.br/",
+                  "title": "Bossa Nova Group",
+                  "image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
+                },
+                {
+                  "byheight": true,
+                  "href": "https://www.facebook.com/GullaneEntretenimento",
+                  "title": "Gullane",
+                  "image": "./dist/assets/images/supporting-us/logo-gullane.png"
+                },
+                {
+                  "byheight": true,
+                  "href": "http://41.mostra.org/br/home/",
+                  "title": "41ª Mostra Internacional de Cinema",
+                  "image": "./dist/assets/images/supporting-us/logo-41mostra.png"
+                }
+              ]
+            },
+            {
               "title": "在这些新闻里",
               "list": [
                 { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
-                  "title": "ÉPOCA NEGÓCIOS",
+                  "title": "Época Negócios",
                   "image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
                 },
                 { "href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
-                  "title": "CRIPTOMOEDAS FÁCIL",
+                  "title": "Criptomoedas Fácil",
                   "image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
                 },
                 { "href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
-                  "title": "TECMUNDO",
+                  "title": "TecMundo",
                   "image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
                 },
                 { "href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
-                  "title": "OLHAR DIGITAL",
+                  "title": "Olhar Digital",
                   "image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
+                },
+                {
+                  "href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
+                  "title": "Livecoins",
+                  "image": "./dist/assets/images/on-the-news/logo-livecoins.png"
                 }
               ]
             }

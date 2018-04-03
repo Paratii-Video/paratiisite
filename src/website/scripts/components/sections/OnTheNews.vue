@@ -4,7 +4,12 @@
       <template v-for="item1 in content.list">
         <h2 class="main-section-title">{{item1.title}}</h2>
         <div class="paratii-onthenews-buttons">
-          <a class="paratii-onthenews-button" v-bind:href="item2.href" target="_blank" v-for="(item2, index) in item1.list">
+          <a
+            class="paratii-onthenews-button"
+            v-bind:class="{ 'by-height' : item2.byheight }"
+            v-bind:href="item2.href"
+            target="_blank" v-for="(item2, index) in item1.list"
+          >
             <img class="paratii-onthenews-button-image" v-bind:src="item2.image" />
           </a>
         </div>
@@ -16,5 +21,6 @@
 <script>
   export default {
     props: ['content']
+
   }
 </script>

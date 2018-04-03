@@ -14,6 +14,10 @@
       v-bind:content="getLanguageContent.sections.opensource"></Opensource>
     <Team
       v-bind:content="getLanguageContent.sections.team"></Team>
+    <Team
+      v-bind:content="getLanguageContent.sections.advisors"
+      colorful="true"
+    ></Team>
     <OnTheNews
       v-bind:content="getLanguageContent.sections.onthenews"></OnTheNews>
     <Videos
