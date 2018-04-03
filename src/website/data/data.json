@@ -528,6 +528,29 @@
         "onthenews": {
           "list": [
             {
+              "title": "Supporting Us",
+              "list": [
+                {
+                  "byheight": true,
+                  "href": "http://www.bossanovagroup.com.br/",
+                  "title": "Bossa Nova Group",
+                  "image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
+                },
+                {
+                  "byheight": true,
+                  "href": "https://www.facebook.com/GullaneEntretenimento",
+                  "title": "Gullane",
+                  "image": "./dist/assets/images/supporting-us/logo-gullane.png"
+                },
+                {
+                  "byheight": true,
+                  "href": "http://41.mostra.org/br/home/",
+                  "title": "41ª Mostra Internacional de Cinema",
+                  "image": "./dist/assets/images/supporting-us/logo-41mostra.png"
+                }
+              ]
+            },
+            {
               "title": "On the news",
               "list": [
                 { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
@@ -1138,6 +1161,29 @@
         },
         "onthenews": {
           "list": [
+            {
+              "title": "Apoio",
+              "list": [
+                {
+                  "byheight": true,
+                  "href": "http://www.bossanovagroup.com.br/",
+                  "title": "Bossa Nova Group",
+                  "image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
+                },
+                {
+                  "byheight": true,
+                  "href": "https://www.facebook.com/GullaneEntretenimento",
+                  "title": "Gullane",
+                  "image": "./dist/assets/images/supporting-us/logo-gullane.png"
+                },
+                {
+                  "byheight": true,
+                  "href": "http://41.mostra.org/br/home/",
+                  "title": "41ª Mostra Internacional de Cinema",
+                  "image": "./dist/assets/images/supporting-us/logo-41mostra.png"
+                }
+              ]
+            },
             {
               "title": "Na mídia",
               "list": [
@@ -1752,6 +1798,29 @@
         },
         "onthenews": {
           "list": [
+            {
+              "title": "Supporting Us",
+              "list": [
+                {
+                  "byheight": true,
+                  "href": "http://www.bossanovagroup.com.br/",
+                  "title": "Bossa Nova Group",
+                  "image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
+                },
+                {
+                  "byheight": true,
+                  "href": "https://www.facebook.com/GullaneEntretenimento",
+                  "title": "Gullane",
+                  "image": "./dist/assets/images/supporting-us/logo-gullane.png"
+                },
+                {
+                  "byheight": true,
+                  "href": "http://41.mostra.org/br/home/",
+                  "title": "41ª Mostra Internacional de Cinema",
+                  "image": "./dist/assets/images/supporting-us/logo-41mostra.png"
+                }
+              ]
+            },
             {
               "title": "在这些新闻里",
               "list": [
