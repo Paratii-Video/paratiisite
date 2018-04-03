@@ -9,9 +9,18 @@
       <div class="main-section-content main-section-content--with-margin">
         <p class="main-section-content-text" v-html="content.text"></p>
       </div>
-      <div class="main-section-content main-section-content--no-padding">
-        <div class="paratii-team-list">
-          <article class="paratii-team-item" itemscope itemtype="http://schema.org/Person" v-for="(item, index) in content.list">
+      <div
+        class="main-section-content main-section-content--no-padding"
+      >
+        <div
+          class="paratii-team-list"
+          v-bind:class="{ few: fewItems }"
+        >
+          <article
+            class="paratii-team-item"
+            v-for="(item, index) in content.list"
+            itemscope itemtype="http://schema.org/Person"
+          >
             <a class="paratii-team-item-link" v-bind:href="item.url" target="_blank">
               <div class="paratii-team-item-avatar">
                 <img class="paratii-team-item-image" v-bind:src="item.image" itemprop="image"  />
@@ -37,6 +46,11 @@
     ],
     components: {
       SectionHeader
+    },
+    computed: {
+      fewItems () {
+        return this.content.list.length < 3 
+      }
     }
   }
 </script>
