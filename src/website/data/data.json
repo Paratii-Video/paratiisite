@@ -63,7 +63,7 @@
             },
             {
               "label": "Around the block",
-              "href": "/around-the-block",
+              "href": "/around-the-block/",
               "target": "_blank"
             }
         ]
@@ -685,7 +685,7 @@
             },
             {
               "label": "Around the block",
-              "href": "/around-the-block",
+              "href": "/around-the-block/",
               "target": "_blank"
             }
         ]
@@ -1307,7 +1307,7 @@
             },
             {
               "label": "Around the block",
-              "href": "/around-the-block",
+              "href": "/around-the-block/",
               "target": "_blank"
             }
         ]
