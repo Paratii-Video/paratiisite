@@ -63,7 +63,7 @@
             },
             {
               "label": "Around the block",
-              "href": "/around-the-block",
+              "href": "/around-the-block/",
               "target": "_blank"
             }
         ]
@@ -601,7 +601,7 @@
             },
             {
               "title": "E-mail",
-              "href": "mailto:hello@paratii.video",
+              "href": "mailto:we@paratii.video",
               "icon": "<use xlink:href=\"#icon-social-email\">"
             },
             {
@@ -685,7 +685,7 @@
             },
             {
               "label": "Around the block",
-              "href": "/around-the-block",
+              "href": "/around-the-block/",
               "target": "_blank"
             }
         ]
@@ -1307,7 +1307,7 @@
             },
             {
               "label": "Around the block",
-              "href": "/around-the-block",
+              "href": "/around-the-block/",
               "target": "_blank"
             }
         ]
@@ -1848,7 +1848,7 @@
             },
             {
               "title": "E-mail",
-              "href": "mailto:hello@paratii.video",
+              "href": "mailto:we@paratii.video",
               "icon": "<use xlink:href=\"#icon-social-email\">"
             },
             {

@@ -14,6 +14,10 @@ const routes = [
     path: '/faq',
     component: PageFaq
   },
+  {
+    path: '/around-the-block',
+    redirect: '/around-the-block/'
+  },
   { path: "*", component: PageHome }
 ]
 
