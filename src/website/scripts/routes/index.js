@@ -16,7 +16,10 @@ const routes = [
   },
   {
     path: '/around-the-block',
-    redirect: '/around-the-block/'
+    component: PageHome,
+    redirect: () => {
+      window.location.href = 'https://paratii.video/around-the-block/'
+    }
   },
   { path: "*", component: PageHome }
 ]
