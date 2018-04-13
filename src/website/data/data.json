@@ -15,13 +15,18 @@
                   "target": "_blank"
                 },
                 {
-                  "label": "Paratii-lib",
-                  "href": "https://github.com/Paratii-Video/paratii-lib",
+                  "label": "Paratii.js",
+                  "href": "https://github.com/Paratii-Video/paratii-js",
                   "target": "_blank"
                 },
                 {
                   "label": "The PTI Token",
                   "href": "https://i.redd.it/3ypnjz1grdo01.png",
+                  "target": "_blank"
+                },
+                {
+                  "label": "Paratii Docs",
+                  "href": "https://docs.paratii.video/",
                   "target": "_blank"
                 }
               ]
@@ -116,7 +121,7 @@
                 },
                 {
                   "title": "I have a webpage or app that distributes videos. How do I use Paratii?",
-                  "text": "The service is designed to be universally embeddable on the web. This means that your website can have all of its video content “hosted” on Paratii, while at the same time showing it with no additional friction to the end user - superficially, it’s just like any other player. If you have your own domain, a Wordpress page or an article on Medium that could use some extra life, all you’ll have to do is paste a link like the following to show video on your content: <a class=\"paratii-link\" href=\"https://portal.paratii.video/play/XXXXXXXXXXXX\" target=\"_blank\">https://portal.paratii.video/play/XXXXXXXXXXXX</a><br/><br/>If you’re a developer and want to use decentralized video in your app, the <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-lib\" target=\"_blank\">paratii-lib</a> library was made for you. It’s used to read and write on the Ethereum blockchain, interact with peers on the IPFS network and search on the Paratii index, for instance. With it, we want to allow anyone to build browser clients such as the Paratii portal (we’ll provide a webpacked version for that) and also nodeJS based applications. All you need to initialize the library is the URL of an Ethereum node (the provider parameter) and the address for the ParatiiRegistry contract (the registry parameter). You can find current documentation <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-lib/tree/dev/docs\" target=\"_blank\">here</a>. Our <a class=\"paratii-link\" href=\"https://www.getrevue.co/profile/Paratii\" target=\"_blank\">newsletter</a> and <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">Gitter</a> are the best channels to get update on the library’s development."
+                  "text": "The service is designed to be universally embeddable on the web. This means that your website can have all of its video content “hosted” on Paratii, while at the same time showing it with no additional friction to the end user - superficially, it’s just like any other player. If you have your own domain, a Wordpress page or an article on Medium that could use some extra life, all you’ll have to do is paste a link like the following to show video on your content: <a class=\"paratii-link\" href=\"https://portal.paratii.video/play/XXXXXXXXXXXX\" target=\"_blank\">https://portal.paratii.video/play/XXXXXXXXXXXX</a><br/><br/>If you’re a developer and want to use decentralized video in your app, the <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js\" target=\"_blank\">paratii.js</a> library was made for you. It’s used to read and write on the Ethereum blockchain, interact with peers on the IPFS network and search on the Paratii index, for instance. With it, we want to allow anyone to build browser clients such as the Paratii portal (we’ll provide a webpacked version for that) and also nodeJS based applications. All you need to initialize the library is the URL of an Ethereum node (the provider parameter) and the address for the ParatiiRegistry contract (the registry parameter). You can find current documentation <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js/tree/dev/docs\" target=\"_blank\">here</a>. Our <a class=\"paratii-link\" href=\"https://www.getrevue.co/profile/Paratii\" target=\"_blank\">newsletter</a> and <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">Gitter</a> are the best channels to get update on the library’s development."
                 },
                 {
                   "title": "How do I upload a video?",
@@ -329,7 +334,7 @@
             {
               "class": "",
               "title": "The Player",
-              "text": "<strong>An embeddable, modular and extensible player</strong> to customise as you wish. Apply it on your page, media channel or news outlet with a single line of code. Share it on social media when you spot one on Twitter, Medium or Telegram. With paratii-lib, developers can also build widgets and plugins to modify frontend and interact with specific modules of the protocol.",
+              "text": "<strong>An embeddable, modular and extensible player</strong> to customise as you wish. Apply it on your page, media channel or news outlet with a single line of code. Share it on social media when you spot one on Twitter, Medium or Telegram. With paratii.js, developers can also build widgets and plugins to modify frontend and interact with specific modules of the protocol.",
               "image": "./dist/assets/svgs/paratii-the-player.svg",
               "href": "https://github.com/Paratii-Video/paratii-mediaplayer"
             }
@@ -365,7 +370,7 @@
               "dateEnd": "2017-12-31"
             },
             {
-              "text": "v0.0.2: Paratii-lib and new plugin-oriented player",
+              "text": "v0.0.2: Paratii.js and new plugin-oriented player",
               "textDate": "Feb 2018",
               "dateStart": "2018-02-01",
               "dateEnd": "2018-02-28"
@@ -639,15 +644,22 @@
               "list": [
                 {
                   "label": "Blueprint document",
-                  "href": "https://github.com/Paratii-Video/wiki/wiki/Paratii-Blueprint"
+                  "href": "https://github.com/Paratii-Video/wiki/wiki/Paratii-Blueprint",
+                  "target": "_blank"
                 },
                 {
-                  "label": "Paratii-lib",
-                  "href": "https://github.com/Paratii-Video/paratii-lib"
+                  "label": "Paratii.js",
+                  "href": "https://github.com/Paratii-Video/paratii-js",
+                  "target": "_blank"
                 },
                 {
                   "label": "The PTI Token",
                   "href": "https://i.redd.it/3ypnjz1grdo01.png",
+                  "target": "_blank"
+                },
+                {
+                  "label": "Paratii Docs",
+                  "href": "https://docs.paratii.video/",
                   "target": "_blank"
                 }
               ]
@@ -738,7 +750,7 @@
                 },
                 {
                   "title": "Tenho uma página ou app por onde distribuo vídeos. Como passo a usar Paratii?",
-                  "text": "O serviço é desenhado para ser universalmente embedável na web. Isso significa que seu site pode ter todo o conteúdo de vídeo “hospedado na Paratii”, e ao mesmo tempo exibi-lo sem encargos adicionais ou fricção para o usuário final - para os desavisados, nosso player é como um player qualquer. Se você tem um domínio próprio, uma página Wordpress, ou um artigo no Medium que precisa ganhar vida, bastará colar um link como esse para materializar um vídeo no seu conteúdo:  <a class=\"paratii-link\" href=\"https://portal.paratii.video/play/XXXXXXXXXXXX\" target=\"_blank\">https://portal.paratii.video/play/XXXXXXXXXXXX</a><br/><br/>Se você for desenvolvedor, e quiser usar vídeo descentralizado dentro de seus aplicativos, a biblioteca <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-lib\" target=\"_blank\">paratii-lib</a> foi feita para você. Ela é usada para ler e escrever na blockchain da Ethereum, interagir com peers da rede do IPFS e fazer buscas no Paratii index, por exemplo. Com ela, queremos permitir a qualquer um construir browser clients, como o paratii-portal (vamos prover uma versão webpack’ed para isso) e também aplicações baseadas em nodeJS. Tudo o que você precisará para inicializar a biblioteca é a URL de um nó da Ethereum (o parâmetro provedor) e o endereço do contrato ParatiiRegistry (o parâmetro registro). Cheque a <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-lib/tree/dev/docs\" target=\"_blank\">documentação atual aqui</a>. Nossa <a class=\"paratii-link\" href=\"https://www.getrevue.co/profile/Paratii\" target=\"_blank\">newsletter</a> e <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">Gitter</a> são os canais certos para receber updates sobre a biblioteca."
+                  "text": "O serviço é desenhado para ser universalmente embedável na web. Isso significa que seu site pode ter todo o conteúdo de vídeo “hospedado na Paratii”, e ao mesmo tempo exibi-lo sem encargos adicionais ou fricção para o usuário final - para os desavisados, nosso player é como um player qualquer. Se você tem um domínio próprio, uma página Wordpress, ou um artigo no Medium que precisa ganhar vida, bastará colar um link como esse para materializar um vídeo no seu conteúdo:  <a class=\"paratii-link\" href=\"https://portal.paratii.video/play/XXXXXXXXXXXX\" target=\"_blank\">https://portal.paratii.video/play/XXXXXXXXXXXX</a><br/><br/>Se você for desenvolvedor, e quiser usar vídeo descentralizado dentro de seus aplicativos, a biblioteca <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js\" target=\"_blank\">paratii.js</a> foi feita para você. Ela é usada para ler e escrever na blockchain da Ethereum, interagir com peers da rede do IPFS e fazer buscas no Paratii index, por exemplo. Com ela, queremos permitir a qualquer um construir browser clients, como o paratii-portal (vamos prover uma versão webpack’ed para isso) e também aplicações baseadas em nodeJS. Tudo o que você precisará para inicializar a biblioteca é a URL de um nó da Ethereum (o parâmetro provedor) e o endereço do contrato ParatiiRegistry (o parâmetro registro). Cheque a <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js/tree/dev/docs\" target=\"_blank\">documentação atual aqui</a>. Nossa <a class=\"paratii-link\" href=\"https://www.getrevue.co/profile/Paratii\" target=\"_blank\">newsletter</a> e <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">Gitter</a> são os canais certos para receber updates sobre a biblioteca."
                 },
                 {
                   "title": "Como faço pra subir um vídeo?",
@@ -951,7 +963,7 @@
             {
               "class": "",
               "title": "O Player",
-              "text": "<strong>Um player de mídia embedável</strong>, modular e extensível, para se customizar como quiser. Aplique-o na sua página, canal de mídia ou site de notícias com uma linha de código. Compartilhe-o em redes sociais quando encontrar com um no Twitter, no Medium ou no Telegram. Com a paratii-lib, desenvolvedores também podem construir facilmente widgets e plugins de todo tipo para modificar o frontend, além interagir com módulos específicos do protocolo.",
+              "text": "<strong>Um player de mídia embedável</strong>, modular e extensível, para se customizar como quiser. Aplique-o na sua página, canal de mídia ou site de notícias com uma linha de código. Compartilhe-o em redes sociais quando encontrar com um no Twitter, no Medium ou no Telegram. Com a paratii.js, desenvolvedores também podem construir facilmente widgets e plugins de todo tipo para modificar o frontend, além interagir com módulos específicos do protocolo.",
               "image": "./dist/assets/svgs/paratii-the-player.svg",
               "href": "https://github.com/Paratii-Video/paratii-mediaplayer"
             }
@@ -987,7 +999,7 @@
               "dateEnd": "2017-12-31"
             },
             {
-              "text": "v0.0.2: Paratii-lib e novo player plugin-oriented",
+              "text": "v0.0.2: Paratii.js e novo player plugin-oriented",
               "textDate": "Fev 2018",
               "dateStart": "2018-02-01",
               "dateEnd": "2018-02-28"
@@ -1261,15 +1273,22 @@
               "list": [
                 {
                   "label": "Blueprint document",
-                  "href": "https://github.com/Paratii-Video/wiki/wiki/Paratii-Blueprint"
+                  "href": "https://github.com/Paratii-Video/wiki/wiki/Paratii-Blueprint",
+                  "target": "_blank"
                 },
                 {
-                  "label": "Paratii-lib",
-                  "href": "https://github.com/Paratii-Video/paratii-lib"
+                  "label": "Paratii.js",
+                  "href": "https://github.com/Paratii-Video/paratii-js",
+                  "target": "_blank"
                 },
                 {
                   "label": "The PTI Token",
                   "href": "https://i.redd.it/3ypnjz1grdo01.png",
+                  "target": "_blank"
+                },
+                {
+                  "label": "Paratii Docs",
+                  "href": "https://docs.paratii.video/",
                   "target": "_blank"
                 }
               ]
@@ -1360,7 +1379,7 @@
                 },
                 {
                   "title": "I have a webpage or app that distributes videos. How do I use Paratii?",
-                  "text": "The service is designed to be universally embeddable on the web. This means that your website can have all of its video content “hosted” on Paratii, while at the same time showing it with no additional friction to the end user - superficially, it’s just like any other player. If you have your own domain, a Wordpress page or an article on Medium that could use some extra life, all you’ll have to do is paste a link like the following to show video on your content: <a class=\"paratii-link\" href=\"https://portal.paratii.video/play/XXXXXXXXXXXX\" target=\"_blank\">https://portal.paratii.video/play/XXXXXXXXXXXX</a><br/><br/>If you’re a developer and want to use decentralized video in your app, the <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-lib\" target=\"_blank\">paratii-lib</a> library was made for you. It’s used to read and write on the Ethereum blockchain, interact with peers on the IPFS network and search on the Paratii index, for instance. With it, we want to allow anyone to build browser clients such as the Paratii portal (we’ll provide a webpacked version for that) and also nodeJS based applications. All you need to initialize the library is the URL of an Ethereum node (the provider parameter) and the address for the ParatiiRegistry contract (the registry parameter). You can find current documentation <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-lib/tree/dev/docs\" target=\"_blank\">here</a>. Our <a class=\"paratii-link\" href=\"https://www.getrevue.co/profile/Paratii\" target=\"_blank\">newsletter</a> and <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">Gitter</a> are the best channels to get update on the library’s development."
+                  "text": "The service is designed to be universally embeddable on the web. This means that your website can have all of its video content “hosted” on Paratii, while at the same time showing it with no additional friction to the end user - superficially, it’s just like any other player. If you have your own domain, a Wordpress page or an article on Medium that could use some extra life, all you’ll have to do is paste a link like the following to show video on your content: <a class=\"paratii-link\" href=\"https://portal.paratii.video/play/XXXXXXXXXXXX\" target=\"_blank\">https://portal.paratii.video/play/XXXXXXXXXXXX</a><br/><br/>If you’re a developer and want to use decentralized video in your app, the <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js\" target=\"_blank\">paratii.js</a> library was made for you. It’s used to read and write on the Ethereum blockchain, interact with peers on the IPFS network and search on the Paratii index, for instance. With it, we want to allow anyone to build browser clients such as the Paratii portal (we’ll provide a webpacked version for that) and also nodeJS based applications. All you need to initialize the library is the URL of an Ethereum node (the provider parameter) and the address for the ParatiiRegistry contract (the registry parameter). You can find current documentation <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js/tree/dev/docs\" target=\"_blank\">here</a>. Our <a class=\"paratii-link\" href=\"https://www.getrevue.co/profile/Paratii\" target=\"_blank\">newsletter</a> and <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">Gitter</a> are the best channels to get update on the library’s development."
                 },
                 {
                   "title": "How do I upload a video?",
@@ -1576,7 +1595,7 @@
               "class": "",
               "icon": "<use xlink:href=\"#icon-social-github\"></use>",
               "title": "播放器",
-              "text": "<strong>一个可嵌入的、模块化和可扩展的播放器</strong>，可以根据你的需要定制。通过一行代码把它到你的网页、媒体通道或新闻市场上。当你在Twitter、Medium或Telegram上发现一个视频时，在社交媒体上分享它。通过paratii-lib，开发人员还可以构建界面图形元素和插件来修改前端，并与协议的特定模块交互。",
+              "text": "<strong>一个可嵌入的、模块化和可扩展的播放器</strong>，可以根据你的需要定制。通过一行代码把它到你的网页、媒体通道或新闻市场上。当你在Twitter、Medium或Telegram上发现一个视频时，在社交媒体上分享它。通过paratii.js，开发人员还可以构建界面图形元素和插件来修改前端，并与协议的特定模块交互。",
               "image": "./dist/assets/svgs/paratii-the-player.svg",
               "href": "https://github.com/Paratii-Video/paratii-mediaplayer"
             }
@@ -1612,7 +1631,7 @@
               "dateEnd": "2017-12-31"
             },
             {
-              "text": "v0.0.2: Paratii-lib和新的基于插件的播放器",
+              "text": "v0.0.2: Paratii.js和新的基于插件的播放器",
               "textDate": "2018年2月",
               "dateStart": "2018-02-01",
               "dateEnd": "2018-02-28"
