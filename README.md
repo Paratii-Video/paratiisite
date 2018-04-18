@@ -1,4 +1,4 @@
-<img src="https://github.com/Paratii-Video/paratiisite/blob/dev/public/images/paratii-src.png" width="200"> 
+<img src="https://github.com/Paratii-Video/paratiisite/blob/dev/dist/assets/svgs/paratii-logo.svg" width="200">
 
 # paratiisite
 
