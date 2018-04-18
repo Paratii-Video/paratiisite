@@ -84,6 +84,86 @@
           "buttonB": "Subscribe",
           "buttonBhref": "https://www.getrevue.co/profile/Paratii"
         },
+        "uploadersform": {
+          "title": "Be an uploader",
+          "subtitle": "Early Uploaders Phase 2",
+          "form": {
+            "title": "Form title",
+            "description": "Form description",
+            "list": [
+              {
+                "type": "text",
+                "name": "name",
+                "label": "Full name",
+                "placeholder": "Enter your full name"
+              },
+              {
+                "type": "text",
+                "name": "channelname",
+                "label": "Channel name",
+                "placeholder": "Enter your channel name"
+              },
+              {
+                "type": "text",
+                "name": "channelurl",
+                "label": "Channel or website URL",
+                "placeholder": "(e.g. https://www.youtube.com/channel/UC5OOwdF37P_oT0OVf2DvuPg)"
+              },
+              {
+                "type": "email",
+                "name": "email",
+                "label": "E-mail",
+                "placeholder": "(e.g. you@yourmail.com)"
+              },
+              {
+                "type": "checkbox",
+                "name": "about",
+                "label": "What’s most attractive to you about Paratii?",
+                "list": [
+                  {
+                    "value": "Flexible monetization options"
+                  },
+                  {
+                    "value": "100% of proceeds to creators"
+                  },
+                  {
+                    "value": "No censorship or restrictive content policy"
+                  },
+                  {
+                    "value": "Decentralized infrastructure"
+                  },
+                  {
+                    "value": "The PTI token"
+                  },
+                  {
+                    "value": "Dissatisfaction with current platform"
+                  }
+                ],
+                "other": true
+              },
+              {
+                "type": "textarea",
+                "name": "kind",
+                "label": "What kind of content do you plan to upload to Paratii?"
+              },
+              {
+                "type": "textarea",
+                "name": "anything",
+                "label": "Anything else we should know about you?"
+              },
+              {
+                "type": "checkbox",
+                "name": "newsletter",
+                "label": "Would you like to be signed up for our newsletter to get updates on development and further testing rounds?",
+                "list": [
+                  {
+                    "value": "Yes"
+                  }
+                ]
+              }
+            ]
+          }
+        },
         "faq": {
           "title": "FAQ",
           "subtitle": "Frequently Asked Questions",
@@ -328,7 +408,8 @@
               "class": "paratii-components-content--color",
               "title": "The PTI Token",
               "text": "Native staking token to the Paratii curated registry, it represents the right to belong to and judicate over a content list, and that of creating your own. The PTI can also be used as a means of payment for certain services, paid videos and content promotion. <strong>It is earnable<strong>: by seeding videos while watching, running a media node or curating content.",
-              "image": "./dist/assets/svgs/paratii-the-token.svg",
+              "video": "./dist/assets/videos/paratii-pti-token.mp4",
+              "videoRef": "PTITokenVideo",
               "href": "https://github.com/Paratii-Video/paratii-contracts"
             },
             {
@@ -712,6 +793,28 @@
           "buttonAhref": "https://goo.gl/forms/HTLaPJEwjH0WfXA13",
           "buttonB": "Inscreva-se",
           "buttonBhref": "https://www.getrevue.co/profile/Paratii"
+        },
+        "uploadersform": {
+          "title": "Be an uploader",
+          "subtitle": "Early Uploaders Phase 2",
+          "form": {
+            "title": "Form title",
+            "description": "Form description",
+            "list": [
+              {
+                "type": "text",
+                "name": "name",
+                "label": "Full name",
+                "placeholder": "Enter your full name"
+              },
+              {
+                "type": "text",
+                "name": "channel",
+                "label": "Channel name",
+                "placeholder": "Enter your channel name"
+              }
+            ]
+          }
         },
         "faq": {
           "title": "FAQ",
@@ -1341,6 +1444,28 @@
           "buttonAhref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
           "buttonB": "订阅",
           "buttonBhref": "https://www.getrevue.co/profile/Paratii"
+        },
+        "uploadersform": {
+          "title": "Be an uploader",
+          "subtitle": "Early Uploaders Phase 2",
+          "form": {
+            "title": "Form title",
+            "description": "Form description",
+            "list": [
+              {
+                "type": "text",
+                "name": "name",
+                "label": "Full name",
+                "placeholder": "Enter your full name"
+              },
+              {
+                "type": "text",
+                "name": "channel",
+                "label": "Channel name",
+                "placeholder": "Enter your channel name"
+              }
+            ]
+          }
         },
         "faq": {
           "title": "FAQ",
