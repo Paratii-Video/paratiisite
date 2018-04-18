@@ -15,7 +15,27 @@
               </a>{{item.title}}</h4>
           <p class="paratii-components-entry-text" v-html="item.text"></p>
         </div>
-        <div class="paratii-components-asset" v-bind:class="setLoopClass('paratii-components-asset--',index)" v-bind:style="backgroundImage(item.image)"></div>
+        <div
+          v-if="item.video"
+          class="paratii-components-asset"
+          v-bind:class="setLoopClass('paratii-components-asset--',index)"
+        >
+          <video
+            class="paratii-components-video"
+            type="video/mp4"
+            loop
+            autoplay
+            v-bind:src="item.video"
+            v-bind:ref="item.videoRef"
+          >
+          </video>
+        </div>
+        <div
+          v-else
+          class="paratii-components-asset"
+          v-bind:class="setLoopClass('paratii-components-asset--',index)"
+          v-bind:style="backgroundImage(item.image)"
+        />
       </div>
     </div>
   </section>
@@ -26,6 +46,11 @@
 
   export default {
     props: ['content'],
+    data () {
+      return {
+        hasVideo: false
+      }
+    },
     components: {
       SectionHeader
     },
@@ -35,11 +60,40 @@
           'background-image': 'url(' + image + ')'
         }
       },
-      setLoopClass: function (start, end) {
+      setLoopClass: (start, end) => {
         if (String(start) && String(end)) {
           return start+end;
         }
       },
+      playVideoOnScroll: (self, event) => {
+        Object.keys(self.$refs).map((item) => {
+          const componentVideo = self.$refs[item][0]
+          const { top, height } = componentVideo.getBoundingClientRect()
+
+          if (top < height && top > (height * -1)) {
+            componentVideo.play()
+          } else {
+            componentVideo.pause()
+          }
+        })
+      }
+    },
+    mounted () {
+      let self = this
+
+      if (Object.keys(this.$refs).length) {
+        this.hasVideo = true
+        window.addEventListener('scroll', (event) => {
+          this.playVideoOnScroll(self, event)
+        })
+      }
+    },
+    destroyed () {
+      if (Object.keys(this.$refs).length) {
+        window.removeEventListener('scroll', (event) => {
+          this.playVideoOnScroll(self, event)
+        })
+      }
     }
   }
 </script>
