@@ -1,0 +1,83 @@
+// Forms(form, inputs, etc)
+
+.paratii-form {
+  padding: 50px 0;
+}
+
+.paratii-input-title {
+  @extend .text-main;
+}
+
+.paratii-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.paratii-input,
+.paratii-input-other,
+.paratii-textarea {
+  @extend .text-main;
+
+  background: none;
+  border-bottom: 1px solid $color-black;
+  color: $color-black;
+  width: 100%;
+}
+
+.paratii-input-other {
+  width: auto;
+}
+
+.paratii-input {
+
+  padding: 15px 2px 16px;
+
+  &:-webkit-autofill {
+    animation-name: autofill;
+    animation-fill-mode: both;
+    font-size: 1rem; // 18px
+    font-weight: $font-regular;
+    line-height: 1.7;
+
+    @include screenTablet {
+      font-size: 1rem;
+    }
+
+    @include screenPhablet {
+      font-size: 1.1rem;
+    }
+
+    @include screenMobileMax {
+      font-size: 0.8rem;
+    }
+  }
+  
+  &::placeholder {
+    color: $color-black;
+    opacity: 0.3;
+    font-size: 1rem; // 18px
+    font-weight: $font-regular;
+    line-height: 1.7;
+
+    @include screenTablet {
+      font-size: 1rem;
+    }
+
+    @include screenPhablet {
+      font-size: 1.1rem;
+    }
+
+    @include screenMobileMax {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+// Checkbox
+
+.paratii-label-checkbox {
+  cursor: pointer;
+  user-select: none;
+}
+
