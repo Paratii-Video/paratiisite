@@ -8,7 +8,16 @@
         <p class="paratii-header-text">{{content.text}}</p>
       </div>
       <div class="paratii-header-subscribe">
-        <form class="paratii-header-form" action="https://video.us15.list-manage.com/subscribe/post?u=3363d6d446b55bfeec00cb430&id=d12f33be57" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+        <form
+          class="paratii-header-form"
+          action="https://video.us15.list-manage.com/subscribe/post?u=3363d6d446b55bfeec00cb430&id=d12f33be57"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          target="_blank"
+          novalidate
+          v-on:submit="sendGA(content.ga)"
+        >
           <label class="paratii-header-label" for="mce-EMAIL">
             <input class="paratii-header-input" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="your@email.here" />
           </label>
@@ -27,8 +36,11 @@
 </template>
 
 <script>
+  import mixins from '../../mixins'
+
   export default {
     props: ['content'],
+    mixins: [mixins],
     methods: {
       backgroundImage (image) {
         return {

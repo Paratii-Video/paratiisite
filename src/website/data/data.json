@@ -82,86 +82,13 @@
           "buttonA": "Request publisher demo",
           "buttonAhref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
           "buttonB": "Subscribe",
-          "buttonBhref": "https://www.getrevue.co/profile/Paratii"
-        },
-        "uploadersform": {
-          "title": "Be an uploader",
-          "subtitle": "Early Uploaders Phase 2",
-          "form": {
-            "title": "Form title",
-            "description": "Form description",
-            "list": [
-              {
-                "type": "text",
-                "name": "name",
-                "label": "Full name",
-                "placeholder": "Enter your full name"
-              },
-              {
-                "type": "text",
-                "name": "channelname",
-                "label": "Channel name",
-                "placeholder": "Enter your channel name"
-              },
-              {
-                "type": "text",
-                "name": "channelurl",
-                "label": "Channel or website URL",
-                "placeholder": "(e.g. https://www.youtube.com/channel/UC5OOwdF37P_oT0OVf2DvuPg)"
-              },
-              {
-                "type": "email",
-                "name": "email",
-                "label": "E-mail",
-                "placeholder": "(e.g. you@yourmail.com)"
-              },
-              {
-                "type": "checkbox",
-                "name": "about",
-                "label": "What’s most attractive to you about Paratii?",
-                "list": [
-                  {
-                    "value": "Flexible monetization options"
-                  },
-                  {
-                    "value": "100% of proceeds to creators"
-                  },
-                  {
-                    "value": "No censorship or restrictive content policy"
-                  },
-                  {
-                    "value": "Decentralized infrastructure"
-                  },
-                  {
-                    "value": "The PTI token"
-                  },
-                  {
-                    "value": "Dissatisfaction with current platform"
-                  }
-                ],
-                "other": true
-              },
-              {
-                "type": "textarea",
-                "name": "kind",
-                "label": "What kind of content do you plan to upload to Paratii?"
-              },
-              {
-                "type": "textarea",
-                "name": "anything",
-                "label": "Anything else we should know about you?"
-              },
-              {
-                "type": "checkbox",
-                "name": "newsletter",
-                "label": "Would you like to be signed up for our newsletter to get updates on development and further testing rounds?",
-                "list": [
-                  {
-                    "value": "Yes"
-                  }
-                ]
-              }
-            ]
+          "buttonBhref": "https://www.getrevue.co/profile/Paratii",
+          "ga": {
+            "hitType": "event",
+            "eventCategory": "Subscribe",
+            "eventAction": "Enviar",
+            "eventLabel": "Site",
+            "eventValue": "100"
           }
         },
         "faq": {
@@ -334,27 +261,55 @@
               "text": "Upload original creations or mirror existing content on Paratii, and experiment monetisation without middlemen. No cuts on your revenue. No blocking or manipulating your audience.",
               "button": "Be among the first uploaders",
               "buttonHref": "https://docs.google.com/forms/d/13neNk4DRE3AxofLhQFb7kidPM-8g5QmxMVumrezrE7Y",
-              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>"
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Creators",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             },
             {
               "title": "Publishers",
               "text": "Embed the player in your page with a line of code to access a self-scalable network whose services get cheaper as your audience grows. Want to go further? You'll be able to download a software package and “profit off” the system by running a special media node.",
               "button": "Request publisher demo",
               "buttonHref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
-              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>"
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Publishers",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             },
             {
               "title": "Community",
               "text": "users are the heart of the network, curating content and providing essential resources. In exchange, they earn tokens, which can come in seamlessly, for example, while one watches a video and streams pieces of it to nearby peers.",
               "button": "Join our Telegram",
               "buttonHref": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
-              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>"
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Community",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             }
           ],
           "call": {
             "text": "<strong class=\"main-section-content-title\">Media buyers & investors:</strong><br> PTI tokens will be publicly distributed in a soon-to-be-announced event.",
             "button": "Request early access",
-            "buttonHref": "https://goo.gl/forms/8zJ6Q6NcqgJXHf7r2"
+            "buttonHref": "https://goo.gl/forms/8zJ6Q6NcqgJXHf7r2",
+            "ga": {
+              "hitType": "event",
+              "eventCategory": "Buyers-Investors",
+              "eventAction": "Enviar",
+              "eventLabel": "Site",
+              "eventValue": "100"
+            }
           }
         },
         "features": {
@@ -792,28 +747,13 @@
           "buttonA": "Publisher? Peça um demo",
           "buttonAhref": "https://goo.gl/forms/HTLaPJEwjH0WfXA13",
           "buttonB": "Inscreva-se",
-          "buttonBhref": "https://www.getrevue.co/profile/Paratii"
-        },
-        "uploadersform": {
-          "title": "Be an uploader",
-          "subtitle": "Early Uploaders Phase 2",
-          "form": {
-            "title": "Form title",
-            "description": "Form description",
-            "list": [
-              {
-                "type": "text",
-                "name": "name",
-                "label": "Full name",
-                "placeholder": "Enter your full name"
-              },
-              {
-                "type": "text",
-                "name": "channel",
-                "label": "Channel name",
-                "placeholder": "Enter your channel name"
-              }
-            ]
+          "buttonBhref": "https://www.getrevue.co/profile/Paratii",
+          "ga": {
+            "hitType": "event",
+            "eventCategory": "Subscribe",
+            "eventAction": "Enviar",
+            "eventLabel": "Site",
+            "eventValue": "100"
           }
         },
         "faq": {
@@ -986,27 +926,55 @@
               "text": "Faça upload de conteúdo original, ou simplesmente cole um link e “replique” na Paratii conteúdo que já está em outro lugar. Experimente monetizar sem intermediários. Sem cortes na sua receita. Sem bloqueios ou manipulação com sua audiência.",
               "button": "Seja um uploader",
               "buttonHref": "https://docs.google.com/forms/d/13neNk4DRE3AxofLhQFb7kidPM-8g5QmxMVumrezrE7Y/",
-              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>"
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Creators",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             },
             {
               "title": "Publishers",
               "text": "Basta uma linha de código para embedar o player na sua página e acessar uma rede auto-escalável em que o serviço fica mais barato conforme a audiência cresce. Quer ir além? Baixe um pacote para “minerar” o sistema, rodando um nó especial, que chamamos de nó de mídia.",
               "button": "Peça uma demo",
               "buttonHref": "https://goo.gl/forms/HTLaPJEwjH0WfXA13",
-              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>"
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Publishers",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             },
             {
               "title": "Comunidade",
               "text": "Usuários são o motor da rede, curando conteúdo e provendo atenção e armazenagem enquanto assistem. Em troca, recebem tokens, que podem ser ganhos imperceptivelmente, por exemplo, quando se assiste um clipe e o player manda alguns pedaços dele para um outro habitante da cidade por acaso assistindo-o também.",
               "button": "Entre no nosso Telegram",
               "buttonHref": "http://t.me/paratiivideo/",
-              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>"
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Community",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             }
           ],
           "call": {
             "text": "<strong class=\"main-section-content-title\">Anunciantes e investidores:</strong><br> tokens PTI serão publicamente distribuídos em um evento a ser anunciado em breve.",
             "button": "Quero ter acesso",
-            "buttonHref": "https://goo.gl/forms/8zJ6Q6NcqgJXHf7r2"
+            "buttonHref": "https://goo.gl/forms/8zJ6Q6NcqgJXHf7r2",
+            "ga": {
+              "hitType": "event",
+              "eventCategory": "Buyers-Investors",
+              "eventAction": "Enviar",
+              "eventLabel": "Site",
+              "eventValue": "100"
+            }
           }
         },
         "features": {
@@ -1443,28 +1411,13 @@
           "buttonA": "申请发布者演示样品",
           "buttonAhref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
           "buttonB": "订阅",
-          "buttonBhref": "https://www.getrevue.co/profile/Paratii"
-        },
-        "uploadersform": {
-          "title": "Be an uploader",
-          "subtitle": "Early Uploaders Phase 2",
-          "form": {
-            "title": "Form title",
-            "description": "Form description",
-            "list": [
-              {
-                "type": "text",
-                "name": "name",
-                "label": "Full name",
-                "placeholder": "Enter your full name"
-              },
-              {
-                "type": "text",
-                "name": "channel",
-                "label": "Channel name",
-                "placeholder": "Enter your channel name"
-              }
-            ]
+          "buttonBhref": "https://www.getrevue.co/profile/Paratii",
+          "ga": {
+            "hitType": "event",
+            "eventCategory": "Subscribe",
+            "eventAction": "Enviar",
+            "eventLabel": "Site",
+            "eventValue": "100"
           }
         },
         "faq": {
@@ -1637,27 +1590,55 @@
               "text": "通过Paratii上传原创内容或映射至现有内容，在没有中间商的情况下获取收益。并且不会削减你的收入，也不会拦截或操纵你的观众。",
               "button": "成为第一批上传者",
               "buttonHref": "https://docs.google.com/forms/d/13neNk4DRE3AxofLhQFb7kidPM-8g5QmxMVumrezrE7Y",
-              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>"
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Creators",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             },
             {
               "title": "发布者",
               "text": "使用一行代码将播放器嵌入到你的页面中，即可访问一个自可伸缩的网络，其服务随着你的观众数量的增长而变得更加便宜。想要更进一步吗？你将能够下载一个软件安装包，运行一个特殊的媒体节点，从而产生收益。",
               "button": "申请发布者演示样品",
               "buttonHref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
-              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>"
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Publishers",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             },
             {
               "title": "社区",
               "text": "用户是网络的核心，对内容进行管理，并提供最基本的资源。作为奖励，他们可以获得通证，整个过程可以做到无缝连接。例如，当一个人观看视频的同时会将视频流传送到附近的节点。",
               "button": "加入Telegram",
               "buttonHref": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
-              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>"
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Community",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             }
           ],
           "call": {
             "text": "<strong class=\"main-section-content-title\">流媒体消费者和投资者：</strong><br> PTI 通证将会在即将公布的活动中公开发行。",
             "button": "申请抢先体验",
-            "buttonHref": "https://goo.gl/forms/8zJ6Q6NcqgJXHf7r2"
+            "buttonHref": "https://goo.gl/forms/8zJ6Q6NcqgJXHf7r2",
+            "ga": {
+              "hitType": "event",
+              "eventCategory": "Buyers-Investors",
+              "eventAction": "Enviar",
+              "eventLabel": "Site",
+              "eventValue": "100"
+            }
           }
         },
         "features": {

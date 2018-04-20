@@ -15,12 +15,22 @@
               <h4 class="paratii-audiences-item-title"><strong>{{item.title}}</strong></h4>
               <p class="paratii-audiences-item-text">{{item.text}}</p>
             </div>
-            <a class="paratii-audiences-item-link" v-bind:href="item.buttonHref" target="_blank">{{item.button}}</a>
+            <a
+              class="paratii-audiences-item-link"
+              target="_blank"
+              v-bind:href="item.buttonHref"
+              v-on:click="sendGA(item.ga)"
+            >{{item.button}}</a>
           </div>
         </div>
         <div class="main-section-call">
           <p class="main-section-content-text" v-html="content.call.text"></p>
-          <a class="paratii-button paratii-button--red" v-bind:href="content.call.buttonHref" target="_blank">{{content.call.button}}</a>
+          <a
+            class="paratii-button paratii-button--red"
+            target="_blank"
+            v-bind:href="content.call.buttonHref"
+            v-on:click="sendGA(content.call.ga)"
+          >{{content.call.button}}</a>
         </div>
       </div>
     </div>
@@ -29,9 +39,11 @@
 
 <script>
   import SectionHeader from '../shared/SectionHeader'
+  import mixins from '../../mixins'
 
   export default {
     props: ['content'],
+    mixins: [mixins],
     components: {
       SectionHeader
     }
