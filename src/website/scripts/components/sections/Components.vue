@@ -68,12 +68,14 @@
       playVideoOnScroll: (self, event) => {
         Object.keys(self.$refs).map((item) => {
           const componentVideo = self.$refs[item][0]
-          const { top, height } = componentVideo.getBoundingClientRect()
+          if (componentVideo) {          
+            const { top, height } = componentVideo.getBoundingClientRect()
 
-          if (top < height && top > (height * -1)) {
-            componentVideo.play()
-          } else {
-            componentVideo.pause()
+            if ((top - (height / 1.1)) < height && top > ((height / 1.7) * -1)) {
+              componentVideo.play()
+            } else {
+              componentVideo.pause()
+            }
           }
         })
       }
