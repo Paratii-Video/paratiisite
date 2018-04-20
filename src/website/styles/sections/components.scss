@@ -147,7 +147,7 @@ $size-paratii-components-asset--1-mobile: 450px;
     height: 100%;
     width: 100%;
 
-    @include screenTablet {
+    @include screenPhablet {
       display: none;
     }
   }
