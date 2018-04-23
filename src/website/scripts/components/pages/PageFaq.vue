@@ -1,5 +1,5 @@
 <template>
-  <main id="main" class="paratii-main">
+  <main id="paratii-main" class="paratii-main">
     <Faq v-bind:content="getLanguageContent.sections.faq"></Faq>
   </main>
 </template>

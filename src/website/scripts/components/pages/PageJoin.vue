@@ -1,5 +1,5 @@
 <template>
-  <main id="main" class="paratii-main">
+  <main id="paratii-main" class="paratii-main">
     <Join v-bind:content="getLanguageContent.sections.join"></Join>
   </main>
 </template>
