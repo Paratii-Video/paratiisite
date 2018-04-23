@@ -1,5 +1,5 @@
 <template>
-  <main id="main" class="paratii-main">
+  <main id="paratii-main" class="paratii-main">
     <ParatiiHeader
       v-bind:content="getLanguageContent.sections.header"></ParatiiHeader>
     <Audiences
@@ -50,6 +50,9 @@
       OnTheNews,
       Videos
     },
-    computed: mapGetters(['getLanguageContent'])
+    computed: mapGetters(['getLanguageContent']),
+    created () {
+      this.$store.commit('navWhite', false)
+    }
   }
 </script>

@@ -1,6 +1,5 @@
 <template>
   <div
-    id="paratii-main"
     class="main-wrapper"
     v-bind:class="mainClass"
   >

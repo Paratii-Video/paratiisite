@@ -1,5 +1,16 @@
 // Buttons & links/anchors)
 
+//
+
+.buttons-wrapper {
+  margin: 30px 0 0;
+  .main-button {
+    margin-right: 10px;
+  }
+}
+
+//
+
 .main-button {
   color: white;
   font-weight: $font-regular;
@@ -59,7 +70,6 @@
 
 
 // Link/Anchors
-
 
 .paratii-link {
   color: $color-lipstick;
