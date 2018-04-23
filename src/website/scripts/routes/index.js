@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import PageHome from '../components/pages/PageHome'
 import PageFaq from '../components/pages/PageFaq'
+import PageJoin from '../components/pages/PageJoin'
 
 Vue.use(VueRouter)
 
@@ -13,6 +14,10 @@ const routes = [
   {
     path: '/faq',
     component: PageFaq
+  },
+  {
+    path: '/join',
+    component: PageJoin
   },
   {
     path: '/around-the-block',
