@@ -1,7 +1,8 @@
 {
   "lang": [
     {
-      "label": "en",
+      "label": "EN",
+      "countryCode": "EN",
       "title": "Change language to english",
       "nav": {
         "title": "Navigation",
@@ -99,7 +100,7 @@
               "title": "Creators",
               "text": "Upload original creations or mirror existing content on Paratii, and experiment monetisation without middlemen. No cuts on your revenue. No blocking or manipulating your audience.",
               "button": "Be among the first uploaders",
-              "buttonHref": "https://docs.google.com/forms/d/13neNk4DRE3AxofLhQFb7kidPM-8g5QmxMVumrezrE7Y",
+              "buttonHref": "https://goo.gl/forms/OLp1NTRZclr0nHu43",
               "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>",
               "ga": {
                 "hitType": "event",
@@ -125,7 +126,7 @@
             },
             {
               "title": "Community",
-              "text": "users are the heart of the network, curating content and providing essential resources. In exchange, they earn tokens, which can come in seamlessly, for example, while one watches a video and streams pieces of it to nearby peers.",
+              "text": "Users are the heart of the network, curating content and providing essential resources. In exchange, they earn tokens, which can come in seamlessly, for example, while one watches a video and streams pieces of it to nearby peers.",
               "button": "Join our Telegram",
               "buttonHref": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
               "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>",
@@ -625,11 +626,11 @@
           "text": "Welcome to the Paratii Early Uploader sign up page! Where are you located?",
           "list": [
             {
-              "label": "Estou no Brasil",
+              "label": "Brazil",
               "href": "https://goo.gl/forms/haKeHqmcJKA9Ggdk1"
             },
             {
-              "label": "I'm in the rest of the world",
+              "label": "Rest of the world",
               "href": "https://goo.gl/forms/OLp1NTRZclr0nHu43"
             }
           ],
@@ -692,7 +693,8 @@
       }
     },
     {
-      "label": "pt",
+      "label": "PT",
+      "countryCode": "PT BR",
       "title": "Mudar a língua para portuguese",
       "nav": {
         "title": "Navegação",
@@ -786,7 +788,7 @@
               "title": "Criadores",
               "text": "Faça upload de conteúdo original, ou simplesmente cole um link e “replique” na Paratii conteúdo que já está em outro lugar. Experimente monetizar sem intermediários. Sem cortes na sua receita. Sem bloqueios ou manipulação com sua audiência.",
               "button": "Seja um uploader",
-              "buttonHref": "https://docs.google.com/forms/d/13neNk4DRE3AxofLhQFb7kidPM-8g5QmxMVumrezrE7Y/",
+              "buttonHref": "https://goo.gl/forms/haKeHqmcJKA9Ggdk1",
               "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>",
               "ga": {
                 "hitType": "event",
@@ -1311,11 +1313,11 @@
           "text": "Bem-vindo à página de inscrições para o programa Paratii Early Uploaders! Onde você está localizado?",
           "list": [
             {
-              "label": "Estou no Brasil",
+              "label": "Brasil",
               "href": "https://goo.gl/forms/haKeHqmcJKA9Ggdk1"
             },
             {
-              "label": "I'm in the rest of the world",
+              "label": "Resto do mundo",
               "href": "https://goo.gl/forms/OLp1NTRZclr0nHu43"
             }
           ],
@@ -1378,7 +1380,8 @@
       }
     },
     {
-      "label": "ch",
+      "label": "CH",
+      "countryCode": "CH",
       "title": "Mudar a língua para portuguese",
       "nav": {
         "title": "Navegação",
@@ -1472,7 +1475,7 @@
               "title": "创作者",
               "text": "通过Paratii上传原创内容或映射至现有内容，在没有中间商的情况下获取收益。并且不会削减你的收入，也不会拦截或操纵你的观众。",
               "button": "成为第一批上传者",
-              "buttonHref": "https://docs.google.com/forms/d/13neNk4DRE3AxofLhQFb7kidPM-8g5QmxMVumrezrE7Y",
+              "buttonHref": "https://goo.gl/forms/OLp1NTRZclr0nHu43",
               "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>",
               "ga": {
                 "hitType": "event",
@@ -2000,11 +2003,11 @@
           "text": "Welcome to the Paratii Early Uploader sign up page! Where are you located?",
           "list": [
             {
-              "label": "Estou no Brasil",
+              "label": "Brazil",
               "href": "https://goo.gl/forms/haKeHqmcJKA9Ggdk1"
             },
             {
-              "label": "I'm in the rest of the world",
+              "label": "Rest of the world",
               "href": "https://goo.gl/forms/OLp1NTRZclr0nHu43"
             }
           ],
