@@ -9,6 +9,6 @@ new Vue({
   router,
   render: h => h(App),
   beforeCreate () {
-    this.$store.dispatch('IpInfo')
+    this.$store.dispatch('setNavLang')
   }
 })
