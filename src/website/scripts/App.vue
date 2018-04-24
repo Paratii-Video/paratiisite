@@ -4,6 +4,10 @@
     v-bind:class="mainClass"
   >
     <MainSvg></MainSvg>
+    <div
+      id="main-cover"
+      v-show="showCover"
+    ></div>
     <MainHeader></MainHeader>
     <router-view></router-view>
     <MainFooter></MainFooter>
@@ -28,7 +32,8 @@
         'isNavOpen',
         'isOutOfTop',
         'isNavWhite',
-        'getLangLabel'
+        'getLangLabel',
+        'showCover'
       ]),
       mainClass () {
         return {
