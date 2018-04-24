@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const actions = {
-  setNavLang ({ commit, state, getters }) {
+  setNavigatorLang ({ commit, state, getters }) {
     let langIndex = 0;
     let navLang = navigator.language
     const languages = getters.getContent.lang

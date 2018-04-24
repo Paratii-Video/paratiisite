@@ -9,6 +9,6 @@ new Vue({
   router,
   render: h => h(App),
   beforeCreate () {
-    this.$store.dispatch('setNavLang')
+    this.$store.dispatch('setNavigatorLang')
   }
 })
