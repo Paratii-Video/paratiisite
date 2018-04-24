@@ -2,7 +2,7 @@
   "lang": [
     {
       "label": "EN",
-      "countryCode": "EN",
+      "language": "en",
       "title": "Change language to english",
       "nav": {
         "title": "Navigation",
@@ -694,7 +694,7 @@
     },
     {
       "label": "PT",
-      "countryCode": "PT BR",
+      "language": "pt",
       "title": "Mudar a língua para portuguese",
       "nav": {
         "title": "Navegação",
@@ -1381,7 +1381,7 @@
     },
     {
       "label": "CH",
-      "countryCode": "CH",
+      "language": "zh",
       "title": "Mudar a língua para portuguese",
       "nav": {
         "title": "Navegação",

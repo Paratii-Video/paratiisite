@@ -11,7 +11,6 @@ const store = new Vuex.Store({
   state: {
     content: AppData,
     lang: 0,
-    ipInfo: {},
     showCover: true,
     isNavOpen: false,
     isOutOfTop: false,
