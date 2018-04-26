@@ -13,6 +13,7 @@
             target="_blank"
             v-for="item in content.list"
             v-bind:href="item.href"
+            v-on:click="sendGA(item.ga)"
           >{{item.label}}</a>
         </div>
       </div>
@@ -29,9 +30,11 @@
 
 <script>
   import SectionHeader from '../shared/SectionHeader'
+  import mixins from '../../mixins'
 
   export default {
     props: ['content'],
+    mixins: [mixins],
     components: {
       SectionHeader
     }

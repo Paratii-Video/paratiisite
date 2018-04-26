@@ -629,11 +629,25 @@
           "list": [
             {
               "label": "Brazil",
-              "href": "https://goo.gl/forms/haKeHqmcJKA9Ggdk1"
+              "href": "https://goo.gl/forms/haKeHqmcJKA9Ggdk1",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Early-Uploaders-Brasil",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             },
             {
               "label": "Rest of the world",
-              "href": "https://goo.gl/forms/OLp1NTRZclr0nHu43"
+              "href": "https://goo.gl/forms/OLp1NTRZclr0nHu43",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Early-Uploaders-Mundo",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             }
           ],
           "call": {
@@ -1317,11 +1331,25 @@
           "list": [
             {
               "label": "Brasil",
-              "href": "https://goo.gl/forms/haKeHqmcJKA9Ggdk1"
+              "href": "https://goo.gl/forms/haKeHqmcJKA9Ggdk1",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Early-Uploaders-Brasil",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             },
             {
               "label": "Resto do mundo",
-              "href": "https://goo.gl/forms/OLp1NTRZclr0nHu43"
+              "href": "https://goo.gl/forms/OLp1NTRZclr0nHu43",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Early-Uploaders-Mundo",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             }
           ],
           "call": {
@@ -2008,11 +2036,25 @@
           "list": [
             {
               "label": "Brazil",
-              "href": "https://goo.gl/forms/haKeHqmcJKA9Ggdk1"
+              "href": "https://goo.gl/forms/haKeHqmcJKA9Ggdk1",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Early-Uploaders-Brasil",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             },
             {
               "label": "Rest of the world",
-              "href": "https://goo.gl/forms/OLp1NTRZclr0nHu43"
+              "href": "https://goo.gl/forms/OLp1NTRZclr0nHu43",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Early-Uploaders-Mundo",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "100"
+              }
             }
           ],
           "call": {
