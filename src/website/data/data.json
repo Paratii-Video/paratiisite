@@ -101,6 +101,8 @@
               "text": "Upload original creations or mirror existing content on Paratii, and experiment monetisation without middlemen. No cuts on your revenue. No blocking or manipulating your audience.",
               "button": "Be among the first uploaders",
               "buttonHref": "https://goo.gl/forms/OLp1NTRZclr0nHu43",
+              "buttonHref": "/join",
+              "router": true,
               "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>",
               "ga": {
                 "hitType": "event",
@@ -788,7 +790,8 @@
               "title": "Criadores",
               "text": "Faça upload de conteúdo original, ou simplesmente cole um link e “replique” na Paratii conteúdo que já está em outro lugar. Experimente monetizar sem intermediários. Sem cortes na sua receita. Sem bloqueios ou manipulação com sua audiência.",
               "button": "Seja um uploader",
-              "buttonHref": "https://goo.gl/forms/haKeHqmcJKA9Ggdk1",
+              "buttonHref": "/join",
+              "router": true,
               "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>",
               "ga": {
                 "hitType": "event",
@@ -1475,7 +1478,8 @@
               "title": "创作者",
               "text": "通过Paratii上传原创内容或映射至现有内容，在没有中间商的情况下获取收益。并且不会削减你的收入，也不会拦截或操纵你的观众。",
               "button": "成为第一批上传者",
-              "buttonHref": "https://goo.gl/forms/OLp1NTRZclr0nHu43",
+              "buttonHref": "/join",
+              "router": true,
               "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>",
               "ga": {
                 "hitType": "event",
