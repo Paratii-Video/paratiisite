@@ -15,11 +15,18 @@
               <h4 class="paratii-audiences-item-title"><strong>{{item.title}}</strong></h4>
               <p class="paratii-audiences-item-text">{{item.text}}</p>
             </div>
+            <router-link
+              class="paratii-audiences-item-link"
+              v-bind:to="item.buttonHref"
+              v-on:click="sendGA(item.ga)"
+              v-if="item.router"
+            >{{item.button}}</router-link>
             <a
               class="paratii-audiences-item-link"
               target="_blank"
               v-bind:href="item.buttonHref"
               v-on:click="sendGA(item.ga)"
+              v-else
             >{{item.button}}</a>
           </div>
         </div>
