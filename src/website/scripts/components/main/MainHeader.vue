@@ -1,7 +1,7 @@
 <template>
   <header class="main-header">
     <div class="main-section-wrapper main-header-wrapper">
-      <Logo></Logo>
+      <ParatiiLogo></ParatiiLogo>
       <nav class="main-nav">
         <h2 class="visually-hidden">{{getLanguageContent.nav.title}}</h2>
         <div class="nav-lang">
@@ -23,6 +23,7 @@
             <li
               class="main-nav-item"
               v-bind:class="{'main-subnav-holder': item.list}"
+              v-bind:key="index"
             >
               <h3>
                 <router-link
@@ -77,12 +78,13 @@
 </template>
 
 <script>
-  import Logo from '../shared/Logo'
+  import ParatiiLogo from '../shared/ParatiiLogo'
   import { mapGetters } from 'vuex'
 
   export default {
+    name: 'MainHeader',
     components: {
-      Logo
+      ParatiiLogo
     },
     computed: mapGetters(['getContent', 'getLanguageContent', 'getLangLength'])
   }

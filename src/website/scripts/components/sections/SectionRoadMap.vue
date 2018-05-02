@@ -11,11 +11,21 @@
       <div class="main-section-content main-section-content--no-padding paratii-roadmap-content">
 
         <ol class="paratii-roadmap-list">
-          <li class="paratii-roadmap-item" v-for="(item, index) in content.listA" v-bind:class="roadmapClass('paratii-roadmap-item--', item)">
+          <li
+            class="paratii-roadmap-item"
+            v-for="(item, index) in content.listA"
+            v-bind:class="roadmapClass('paratii-roadmap-item--', item)"
+            v-bind:key="index"
+          >
             
-            <div class="paratii-roadmap-item-icon" v-bind:class="setLoopClass('paratii-roadmap-item-icon--', index)">
+            <div
+              class="paratii-roadmap-item-icon"
+              v-bind:class="setLoopClass('paratii-roadmap-item-icon--', index)"
+            >
               <svg class="paratii-roadmap-item-svg">
-                <use v-bind:xlink:href="setLoopClass('dist/assets/svgs/paratii-roadmap-icons.svg#roadmap-icon-', index)"/>
+                <use
+                  v-bind:xlink:href="setLoopClass('dist/assets/svgs/paratii-roadmap-icons.svg#roadmap-icon-', index)"
+                />
               </svg>
             </div>
             
@@ -24,11 +34,21 @@
           </li>
         </ol>
         <ol class="paratii-roadmap-list paratii-roadmap-list--reverse">
-          <li class="paratii-roadmap-item" v-for="(item, index) in content.listB" v-bind:class="roadmapClass('paratii-roadmap-item--', item)">
-            
-            <div class="paratii-roadmap-item-icon" v-bind:class="setLoopClass('paratii-roadmap-item-icon--', index)">
+          <li
+           class="paratii-roadmap-item"
+           v-for="(item, index) in content.listB"
+           v-bind:class="roadmapClass('paratii-roadmap-item--', item)"
+           v-bind:key="index"
+          >
+            <div
+              class="paratii-roadmap-item-icon"
+              v-bind:class="setLoopClass('paratii-roadmap-item-icon--', index)"
+              v-bind:key="index"
+            >
               <svg class="paratii-roadmap-item-svg">
-                <use v-bind:xlink:href="setLoopClass('dist/assets/svgs/paratii-roadmap-icons.svg#roadmap-icon-', (index + 5))"/>
+                <use
+                  v-bind:xlink:href="setLoopClass('dist/assets/svgs/paratii-roadmap-icons.svg#roadmap-icon-', (index + 5))"
+                />
               </svg>
             </div>
             

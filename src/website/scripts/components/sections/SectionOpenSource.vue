@@ -6,9 +6,22 @@
         v-bind:subtitle="content.subtitle"
       ></SectionHeader>
       <div class="main-section-content">
-        <p class="main-section-content-text" v-html="content.text"></p>
+        <p 
+          class="main-section-content-text"
+          v-html="content.text"></p>
         <div class="paratii-opensource-buttons">
-          <a class="paratii-opensource-button" v-bind:href="item.href" v-for="(item, index) in content.list" v-bind:class="setLoopClass('paratii-opensource-button--', index)" v-bind:index="index" v-bind:key="item.id" title="{item.title}" target="_blank"><img class="paratii-opensource-button-image" v-bind:src="item.image"></a>
+          <a
+            class="paratii-opensource-button"
+            target="_blank"
+            v-bind:href="item.href"
+            v-for="(item, index) in content.list"
+            v-bind:class="setLoopClass('paratii-opensource-button--', index)"
+            v-bind:index="index"
+            v-bind:key="item.id" title="{item.title}"
+          ><img
+            class="paratii-opensource-button-image"
+            v-bind:src="item.image">
+          </a>
         </div>
       </div>
     </div>

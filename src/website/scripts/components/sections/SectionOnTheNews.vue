@@ -6,9 +6,11 @@
         <div class="paratii-onthenews-buttons">
           <a
             class="paratii-onthenews-button"
+            target="_blank"
             v-bind:class="{ 'by-height' : item2.byheight }"
             v-bind:href="item2.href"
-            target="_blank" v-for="(item2, index) in item1.list"
+            v-for="(item2, index) in item1.list"
+            v-bind:key="index"
           >
             <img class="paratii-onthenews-button-image" v-bind:src="item2.image" />
           </a>
