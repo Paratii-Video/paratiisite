@@ -1,4 +1,8 @@
-// Buttons & links/anchors)
+// Buttons + links/anchors + icons
+
+//
+
+$size-paratii-button-icon: 22px;
 
 //
 
@@ -12,7 +16,9 @@
 //
 
 .main-button {
-  color: white;
+  align-items: center;
+  color: $color-white;
+  display: inline-flex;
   font-weight: $font-regular;
   padding: 15px 25px 16px;
   text-align: center;
@@ -79,4 +85,14 @@
   &:hover {
     opacity: $anim-opacity-value;
   }
+}
+
+// Icons
+
+.paratii-button-icon {
+  display: inline-block;
+  fill: $color-white;
+  height: $size-paratii-button-icon;
+  margin-right: 8px;
+  width: $size-paratii-button-icon;
 }

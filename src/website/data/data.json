@@ -630,6 +630,7 @@
             {
               "label": "Brazil",
               "href": "https://goo.gl/forms/haKeHqmcJKA9Ggdk1",
+              "icon": "icon-brazil",
               "ga": {
                 "hitType": "event",
                 "eventCategory": "Early-Uploaders-Brasil",
@@ -641,6 +642,7 @@
             {
               "label": "Rest of the world",
               "href": "https://goo.gl/forms/OLp1NTRZclr0nHu43",
+              "icon": "icon-global",
               "ga": {
                 "hitType": "event",
                 "eventCategory": "Early-Uploaders-Mundo",
@@ -1332,6 +1334,7 @@
             {
               "label": "Brasil",
               "href": "https://goo.gl/forms/haKeHqmcJKA9Ggdk1",
+              "icon": "icon-brazil",
               "ga": {
                 "hitType": "event",
                 "eventCategory": "Early-Uploaders-Brasil",
@@ -1343,6 +1346,7 @@
             {
               "label": "Resto do mundo",
               "href": "https://goo.gl/forms/OLp1NTRZclr0nHu43",
+              "icon": "icon-global",
               "ga": {
                 "hitType": "event",
                 "eventCategory": "Early-Uploaders-Mundo",
@@ -2037,6 +2041,7 @@
             {
               "label": "Brazil",
               "href": "https://goo.gl/forms/haKeHqmcJKA9Ggdk1",
+              "icon": "icon-brazil",
               "ga": {
                 "hitType": "event",
                 "eventCategory": "Early-Uploaders-Brasil",
@@ -2048,6 +2053,7 @@
             {
               "label": "Rest of the world",
               "href": "https://goo.gl/forms/OLp1NTRZclr0nHu43",
+              "icon": "icon-global",
               "ga": {
                 "hitType": "event",
                 "eventCategory": "Early-Uploaders-Mundo",

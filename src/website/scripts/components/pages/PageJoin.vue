@@ -1,17 +1,17 @@
 <template>
   <main id="paratii-main" class="paratii-main">
-    <Join v-bind:content="getLanguageContent.sections.join"></Join>
+    <SectionJoin v-bind:content="getLanguageContent.sections.join"></SectionJoin>
   </main>
 </template>
 
 <script>
   import { mapGetters } from 'vuex'
-  import Join from '../sections/Join'
+  import SectionJoin from '../sections/SectionJoin'
 
   export default {
     name: 'PageUploaders',
     components: {
-      Join
+      SectionJoin
     },
     computed: mapGetters(['getLanguageContent', 'navWhite']),
     created () {
