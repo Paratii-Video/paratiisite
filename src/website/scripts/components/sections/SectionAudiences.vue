@@ -9,7 +9,11 @@
       </div>
       <div class="main-section-content main-section-content--no-padding">
         <div class="paratii-audiences-list">
-          <div class="paratii-audiences-item" v-for="item in content.list">
+          <div
+            class="paratii-audiences-item"
+            v-for="(item, index) in content.list"
+            v-bind:key="index"
+          >
             <div class="paratii-audiences-item-icon" v-html="item.icon"></div>
             <div class="paratii-audiences-item-content">
               <h4 class="paratii-audiences-item-title"><strong>{{item.title}}</strong></h4>

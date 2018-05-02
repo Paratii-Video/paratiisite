@@ -1,5 +1,5 @@
 <template>
-  <section id="faq" class="main-section paratii-faq">
+  <section id="faq" class="main-section main-section--top paratii-faq">
     <div class="main-section-wrapper">
       <SectionHeader
         v-bind:title="content.title"
@@ -30,7 +30,7 @@
 
 <script>
   import SectionHeader from '../shared/SectionHeader'
-  import FaqItem from './faq/Item'
+  import FaqItem from './faq/FaqItem'
 
   export default {
     props: ['content'],

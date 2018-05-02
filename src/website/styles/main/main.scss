@@ -73,6 +73,10 @@ body {
   color: $color-black;
   padding-top: 120px;
 
+  &--top {
+    padding-top: 170px;
+  }
+
   @include screenMobile {
     padding-top: 90px;
   }

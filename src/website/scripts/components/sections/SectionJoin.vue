@@ -1,5 +1,5 @@
 <template>
-  <section id="faq" class="main-section paratii-join">
+  <section id="faq" class="main-section main-section--top paratii-join">
     <div class="main-section-wrapper">
       <SectionHeader
         v-bind:title="content.title"
@@ -11,10 +11,14 @@
           <a
             class="paratii-button paratii-button--red"
             target="_blank"
-            v-for="item in content.list"
+            v-for="(item, index) in content.list"
             v-bind:href="item.href"
             v-on:click="sendGA(item.ga)"
-          >{{item.label}}</a>
+            v-bind:key="index"
+          >
+          <svg class="paratii-button-icon"><use v-bind:xlink:href="'#' + item.icon" /></svg>
+          {{item.label}}
+      </a>
         </div>
       </div>
       <div class="main-section-content main-section-content--with-margin">

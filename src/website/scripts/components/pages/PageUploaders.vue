@@ -1,21 +1,24 @@
 <template>
-  <main id="paratii-main" class="paratii-main">
-    <SectionJoin v-bind:content="getLanguageContent.sections.join"></SectionJoin>
+  <main id="main" class="paratii-main">
+    <UploadersForm v-bind:content="getLanguageContent.sections.uploadersform"></UploadersForm>
   </main>
 </template>
 
 <script>
+  import UploadersForm from '../sections/UploadersForm'
   import { mapGetters } from 'vuex'
-  import SectionJoin from '../sections/SectionJoin'
 
   export default {
     name: 'PageUploaders',
     components: {
-      SectionJoin
+      UploadersForm
     },
     computed: mapGetters(['getLanguageContent', 'navWhite']),
     created () {
       this.$store.commit('navWhite', true)
+    },
+    destroyed () {
+      this.$store.commit('navWhite', false)
     }
   }
 </script>

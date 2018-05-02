@@ -10,10 +10,22 @@
         <p class="main-section-content-text">{{content.text}}</p>
       </div>
       <div class="paratii-videos-list">
-        <iframe class="paratii-videos-item" v-bind:src="item.url" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"  v-for="item in content.list"></iframe>
+        <iframe
+          class="paratii-videos-item"
+          v-bind:src="item.url"
+          webkitallowfullscreen="true"
+          mozallowfullscreen="true"
+          allowfullscreen="true" 
+          v-for="(item, index) in content.list"
+          v-bind:key="index"
+        />
       </div>
         <div class="main-section-call">
-          <a class="paratii-button paratii-button--red" v-bind:href="content.buttonHref" target="_blank">{{content.button}}</a>
+          <a
+            class="paratii-button paratii-button--red"
+            target="_blank"
+            v-bind:href="content.buttonHref"
+          >{{content.button}}</a>
         </div>
     </div>
   </section>

@@ -6,7 +6,12 @@
         v-bind:subtitle="content.subtitle"
       ></SectionHeader>
     </div>
-    <div class="paratii-components-content" v-for="(item, index) in content.list" v-bind:class="item.class">
+    <div
+      class="paratii-components-content"
+      v-for="(item, index) in content.list"
+      v-bind:class="item.class"
+      v-bind:key="index"
+    >
       <div class="main-section-wrapper paratii-components-content-wrapper">
         <div class="paratii-components-entry">
           <h4 class="paratii-components-entry-title">
@@ -19,6 +24,7 @@
           v-if="item.video"
           class="paratii-components-asset"
           v-bind:class="setLoopClass('paratii-components-asset--',index)"
+          key="paratii-components-asset"
         >
           <video
             class="paratii-components-video"
@@ -35,6 +41,7 @@
           class="paratii-components-asset"
           v-bind:class="setLoopClass('paratii-components-asset--',index)"
           v-bind:style="backgroundImage(item.image)"
+          key="paratii-components-asset"
         />
       </div>
     </div>
@@ -53,6 +60,23 @@
     },
     components: {
       SectionHeader
+    },
+    mounted () {
+      let self = this
+
+      if (Object.keys(this.$refs).length) {
+        this.hasVideo = true
+        window.addEventListener('scroll', (event) => {
+          this.playVideoOnScroll(self, event)
+        })
+      }
+    },
+    destroyed () {
+      if (Object.keys(this.$refs).length) {
+        window.removeEventListener('scroll', (event) => {
+          this.playVideoOnScroll(self, event)
+        })
+      }
     },
     methods: {
       backgroundImage (image) {
@@ -77,23 +101,6 @@
               componentVideo.pause()
             }
           }
-        })
-      }
-    },
-    mounted () {
-      let self = this
-
-      if (Object.keys(this.$refs).length) {
-        this.hasVideo = true
-        window.addEventListener('scroll', (event) => {
-          this.playVideoOnScroll(self, event)
-        })
-      }
-    },
-    destroyed () {
-      if (Object.keys(this.$refs).length) {
-        window.removeEventListener('scroll', (event) => {
-          this.playVideoOnScroll(self, event)
         })
       }
     }

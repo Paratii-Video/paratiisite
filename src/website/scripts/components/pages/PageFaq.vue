@@ -1,17 +1,17 @@
 <template>
   <main id="paratii-main" class="paratii-main">
-    <Faq v-bind:content="getLanguageContent.sections.faq"></Faq>
+    <SectionFaq v-bind:content="getLanguageContent.sections.faq"></SectionFaq>
   </main>
 </template>
 
 <script>
-  import Faq from '../sections/Faq'
+  import SectionFaq from '../sections/SectionFaq'
   import { mapGetters } from 'vuex'
 
   export default {
     name: 'PageFaq',
     components: {
-      Faq
+      SectionFaq
     },
     computed: mapGetters(['getLanguageContent', 'navWhite']),
     created () {

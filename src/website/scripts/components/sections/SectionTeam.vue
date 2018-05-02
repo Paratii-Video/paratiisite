@@ -18,12 +18,21 @@
         >
           <article
             class="paratii-team-item"
-            v-for="(item, index) in content.list"
             itemscope itemtype="http://schema.org/Person"
+            v-for="(item, index) in content.list"
+            v-bind:key="index"
           >
-            <a class="paratii-team-item-link" v-bind:href="item.url" target="_blank">
+            <a
+              class="paratii-team-item-link"
+              target="_blank"
+              v-bind:href="item.url"
+            >
               <div class="paratii-team-item-avatar">
-                <img class="paratii-team-item-image" v-bind:src="item.image" itemprop="image"  />
+                <img
+                  class="paratii-team-item-image"
+                  itemprop="image"
+                  v-bind:src="item.image"
+                />
               </div>
             </a>
             <h4 class="paratii-team-item-name" itemprop="name">{{item.name}}</h4>
