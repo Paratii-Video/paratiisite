@@ -1,0 +1,89 @@
+
+.intro {
+    @extend .pos-f-tl;
+
+    background-color: $color-blue-intro;
+    height: 100%;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    transition: opacity .5s linear;
+    width: 100%;
+    z-index: $zindex-intro;
+
+    &-loader {
+        @extend .pos-a-middle;
+        @extend .font-text-medium;
+
+        pointer-events: none;
+        text-align: center;
+        transition: opacity .35s linear;
+        z-index: 3;
+
+        @include screenphablet {
+            font-size: 4vw;
+        }
+
+        &-wrapper {
+            animation: blink .5s $ease-smooth infinite;
+
+            &::after {
+                animation: dots 3s $ease-smooth infinite;
+                content: '';
+                display: block;
+                height: 20px;
+                line-height: 20px;
+            }
+        }
+
+        &-text {
+            display: block;
+            height: 20px;
+            line-height: 20px;
+        }
+
+        .end & {
+            opacity: 0;
+        }
+    }
+
+    &-media {
+        @extend .pos-a-middle;
+
+        width: 100%;
+
+        .ismobile & {
+            max-width: 15vw;
+
+            @include screenphablet {
+                max-width: 40vw;
+            }
+        }
+    }
+
+    &-video {
+        height: 100%;
+
+        .ismobile & {
+            display: none;
+        }
+    }
+
+    &-image {
+        display: none;
+        opacity: 0;
+        transition: opacity 1s ease-in;
+
+        &.show {
+            opacity: 1;
+        }
+
+        .ismobile & {
+            display: block;
+        }
+    }
+
+    .start & {
+        opacity: 0;
+        pointer-events: none;
+    }
+}

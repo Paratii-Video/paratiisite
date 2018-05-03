@@ -1,0 +1,54 @@
+// Button
+//
+
+.button-text {
+    @extend .font-source;
+    @extend .font-text-medium;
+
+    color: $color-purple-light;
+    letter-spacing: 0.5vw;
+    transition: color .2s;
+    white-space: nowrap;
+
+    &:hover {
+        color: $color-green;
+    }
+}
+
+
+//
+
+.button-submit {
+    @extend .font-source;
+
+    background-color: $color-purple-dark;
+    border: 1px solid $color-purple-light;
+    border-radius: 3px;
+    color: $color-green;
+    font-size: 1.2vw;
+    letter-spacing: 0.12vw;
+    line-height: 2.9vw;
+    padding: 0 2.2vw;
+    transition: border .3s;
+
+    @include screenphablet {
+        border-radius: 1px;
+        font-size: 4.4vw;
+        line-height: 7.5vw;
+        padding: 0 4vw;
+    }
+
+    &:hover {
+        border-color: $color-green;
+    }
+
+    &.red {
+        color: white;
+        background-color: transparent;
+        border-color: $color-red;
+
+        &:hover {
+            border-color: white;
+        }
+    }
+}

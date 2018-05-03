@@ -1,0 +1,58 @@
+// About
+
+
+.about {
+    @extend .center-content;
+
+    background-color: $color-blue-light;
+    overflow: hidden;
+
+    &-content {
+        @extend .padding-left-main;
+        @extend .padding-right-main;
+
+        padding-top: 13vw;
+        padding-bottom: 12vw;
+        position: relative;
+        width: 100%;
+
+        @include screenphablet {
+            padding-bottom: 50vw;
+        }
+    }
+
+    &-entry {
+        position: relative;
+        width: 52%; // 46% fullhd
+        z-index: 2;
+
+        @include screenphablet {
+            width: 100%;
+        }
+    }
+
+    &-asset {
+        @extend .pos-a-middle-v;
+
+        height: 36vw;
+        right: 7vw;
+        width: 35.5vw;
+        z-index: 1;
+
+
+        @include screenphablet {
+            bottom: 0;
+            height: 45.5vw;
+            left: 50%;
+            right: auto;
+            top: auto;
+            transform: translate3d(-50%, 0, 0);
+            width: 39.9vw;
+        }
+    }
+
+    &-svg {
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,71 @@
+// Header
+
+.main-header {
+    @extend .pos-f-tl;
+
+    width: 100%;
+    z-index: $zindex-main-header;
+
+    &-title {
+        @extend .font-logo;
+        @extend .padding-left-max;
+
+        background-color: $color-blue-dark;
+        color: $color-purple-light;
+        display: block;
+        height: $size-height-mainheader;
+        line-height: $size-height-mainheader;
+        transform: translate3d(0, -100%, 0);
+        transition: transform .8s $ease-smooth 1s;
+        white-space: nowrap;
+
+        @include screenphablet {
+            padding-left: 20vw;
+            height: $size-height-mainheader-mobile;
+            line-height: $size-height-mainheader-mobile;
+        }
+
+        .start & {
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    &-button {
+        @extend .pos-a-middle-v;
+
+        left: $size-left-nav-button;
+        transform: translate3d(0, -220%, 0);
+        transition: transform .8s $ease-smooth 1s;
+        width: 1.5vw;
+        z-index: 1;
+
+        .start & {
+            transform: translate3d(0, -50%, 0);
+        }
+
+        &-svg {
+            height: 60%;
+            max-width: 100%;
+        }
+
+        path {
+            fill: $color-green;
+            transition: transform .4s $ease-smooth;
+        }
+
+        &:hover {
+            .path1 {
+                transform: translate3d(0, 10px, 0);
+            }
+
+            .path3 {
+                transform: translate3d(0, -10px, 0);
+            }
+        }
+
+        @include screenphablet {
+            height: 10.8vw;
+            width: 6.4vw;
+        }
+    }
+}

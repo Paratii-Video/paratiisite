@@ -1,0 +1,192 @@
+// Subscribe
+
+//
+
+.subscribe {
+    @extend .padding-left-main;
+
+    background-color: $color-purple-dark;
+    float: left;
+    padding-bottom: 5vw;
+    padding-right: 7.5vw;
+    padding-top: $size-height-mainheader;
+    position: relative;
+    width: 50%;
+
+    @include screenphablet {
+        padding-bottom: 12vw;
+        padding-right: 14vw;
+        padding-top: $size-height-mainheader-mobile;
+        width: 100%;
+    }
+
+    &-loader {
+        @extend .pos-a-full;
+
+        background-color: $color-purple-dark;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity .3s;
+        z-index: 3;
+
+        .wait & {
+            opacity: .8;
+            pointer-events: initial;
+        }
+    }
+
+    &-label {
+        @extend .clearfix;
+
+        display: block;
+        position: relative;
+
+        &::before {
+            background-color: $color-purple-light;
+            bottom: 0;
+            border-radius: 2px;
+            content: '';
+            height: 2px;
+            position: absolute;
+            right: 0;
+            width: 100%;
+            z-index: 1;
+        }
+
+        &.white {
+            &::before {
+                background-color: white;
+            }
+        }
+
+        &-text {
+            @extend .font-text-big;
+
+            background-color: $color-purple-dark;
+            padding-right: 1vw;
+            position: relative;
+            z-index: 2;
+
+            .green & {
+                color: $color-green;
+            }
+        }
+    }
+
+    &-input {
+        @extend .font-source;
+        @extend .font-text-medium;
+
+        background: 0;
+        color: $color-purple-light;
+        font-weight: 300;
+        padding-left: .2vw;
+        position: relative;
+
+        &:-webkit-autofill {
+            @extend .font-source;
+            @extend .font-text-medium;
+
+            background: 0;
+            color: $color-purple-light;
+            font-weight: 300;
+            -webkit-box-shadow: 0 0 0 30px $color-purple-dark inset;
+            -webkit-text-fill-color: $color-purple-light !important;
+        }
+
+        .white & {
+            color: white;
+
+            &:-webkit-autofill {
+                color: white;
+                -webkit-text-fill-color: white !important;
+            }
+        }
+    }
+
+    &-form-01 {
+        .title {
+            @extend .font-title;
+
+            display: block;
+            margin: 0 0 2.1vw;
+
+            @include screenphablet {
+                margin: 0 0 12vw;
+            }
+        }
+        .text {
+            @extend .font-text-big;
+
+            display: block;
+            font-weight: 400;
+            width: 17vw;
+
+            @include screenphablet {
+                width: 52vw;
+            }
+        }
+
+        .subscribe-label-text {
+            height: 30px;
+            line-height: 30px;
+        }
+
+        .subscribe-label {
+            margin: 5vw 0 2.6vw;
+
+            @include screenphablet {
+                margin: 4vw 0 7vw;
+            }
+        }
+
+        .subscribe-label-text {
+            float: left;
+        }
+
+        .subscribe-input {
+            @extend .pos-a-middle-v;
+
+            width: 82%
+        }
+    }
+
+    &-form-02 {
+        margin-top: 2.7vw;
+
+        @include screenphablet {
+            margin-top: 15vw;
+        }
+
+        &-text {
+            @extend .font-title;
+        }
+
+        .subscribe-label,
+        .button-submit, {
+            display: block;
+            margin-top: 3vw;
+
+            @include screenphablet {
+                margin-top: 7vw;
+            }
+        }
+
+        .subscribe-label::before {
+            bottom: 2px;
+        }
+
+        .subscribe-input {
+            display: block;
+            margin-bottom: 3px;
+            padding: 0 .2vw;
+            width: 100%;
+        }
+    }
+
+    .button-submit {
+        .wait & {
+            pointer-events: none;
+        }
+    }
+}
