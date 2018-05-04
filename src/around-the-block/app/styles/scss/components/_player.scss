@@ -1,0 +1,138 @@
+// Player
+
+.medias-controls {
+    bottom: 2%;
+    opacity: 0;
+    padding: 0 2vw;
+    pointer-events: none;
+    position: absolute;
+    transition: opacity .5s;
+    width: 100%;
+    z-index: 3;
+
+    .teasers-medias.show-controls:hover & {
+        opacity: 1;
+        pointer-events: initial;
+    }
+
+    .ismobile & {
+        @extend .visually-hidden;
+    }
+
+    &-thumb {
+        @extend .pos-a-middle-v;
+
+        pointer-events: none;
+        transform: translate3d(-50%, -50%, 0);
+
+        &::before {
+            @extend .pos-a-full;
+
+            content: '';
+            display: block;
+            background-color: white;
+            border-radius: 50%;
+            transform: scale(.7);
+        }
+
+    }
+
+    &-track {
+        height: 1.5vw;
+        position: relative;
+        width: 100%;
+
+        &-timeline {
+            cursor: pointer;
+            height: 100%;
+            width: 100%;
+
+            &::before {
+                content: '';
+                opacity: .3;          
+            }
+        }
+
+        &-timeline::before,
+        &-loadedline {
+            @extend .pos-a-middle-v;
+
+            background-color: white;
+            border-radius: 20px;
+            pointer-events: none;
+            height: 3px;
+            width: 100%;
+        }
+
+        &-thumb {
+            height: 1.2vw;
+            width: 1.2vw;
+        }
+    }
+
+    &-button {
+        height: 2.2vw;
+        margin-right: .1vw;
+        position: relative;
+        width: 2.2vw;
+
+        .svg {
+            fill: white;
+        }
+    }
+
+    &-play-button {
+        svg {
+            @extend .pos-a-full;
+        }
+
+        .svg-pause {
+            display: none;
+
+            .playing & {
+                display: block;
+            }
+        }
+
+        .svg-play {
+            display: block;
+
+            .playing & {
+                display: none;
+            }
+        }
+    }
+
+    &-mute-button {
+    }
+
+    &-volume {
+        display: inline-block;
+        height: 2.2vw;
+        position: relative;
+        width: 5vw;
+
+        &-timeline {
+            cursor: pointer;
+            height: 100%;
+            width: 100%;
+
+            &::before {
+                @extend .pos-a-middle-v;
+
+                background-color: white;
+                border-radius: 10px;
+                content: '';     
+                pointer-events: none;
+                height: 2px;
+                width: 100%;
+            }
+        }
+
+        &-thumb {
+            height: .9vw;
+            left: 100%;
+            width: .9vw;
+        }
+    }
+}

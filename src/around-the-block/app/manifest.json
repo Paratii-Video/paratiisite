@@ -1,0 +1,25 @@
+{   "manifest_version": 1,
+    "version": 0.1,
+    "name": "Around the Block",
+    "short_name": "Around the Block",
+    "description": "Around the Block",
+    "default_locale": "en",
+    "lang": "en",
+    "icons": [
+        {
+            "src": "images/src_image.png?v=1.0",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+    ],
+    "theme_color": "#0f1428",
+    "background_color": "#0f1428",
+    "start_url": "https://paratii.video",
+    "homepage_url": "https://paratii.video",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "omnibox": {
+        "keyword": "around the block"
+    },
+    "offline_enabled": true
+}

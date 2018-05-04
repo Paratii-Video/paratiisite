@@ -1,0 +1,472 @@
+// Event
+
+// Vars
+
+$size-event-lang-icon-height: 20px;
+$size-event-lang-icon-width: 30px;
+
+$size-event-lang-icon-height-mobile: 13px;
+$size-event-lang-icon-width-mobile: 20px;
+
+
+//
+
+.event {
+    @extend .pos-f-tl;
+
+    color: white;
+    font-family: 'sofia-pro';
+    height: 100%;
+    opacity: 0;
+    transition: opacity .4s linear 1s;
+    width: 100%;
+    z-index: $zindex-event;
+
+    &::before {
+        @extend .pos-a-full;
+        content: '';
+        background-color: $color-blue-dark;
+        opacity: .7;
+        z-index: 1;
+    }
+
+    .start & {
+        opacity: 1;
+    }
+
+    &-wrapper {
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        padding: 80px 100px;
+        position: relative;
+        width: 100%;
+        z-index: 2;
+
+        @include screenphablet {
+            padding: 70px 60px;
+        }
+
+        @include screenmobile {
+            padding: 10px;
+        }
+    }
+
+    &-container {
+        background-color: #121212;
+        margin: auto 0;
+        opacity: 0;
+        transition: opacity .4s linear 1.5s;
+        width: 100%;
+        z-index: 2;
+
+        .start & {
+            opacity: 1;
+        }
+    }
+
+    &-content {
+        margin: 0 auto;
+        max-width: 800px;
+
+        @include screenphablet {
+            padding: 0 100px;
+            max-width: initial;
+        }
+
+        @include screenmobile {
+            padding: 0 20px;
+        }
+    }
+
+    // Top
+
+    &-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 60px 90px;
+
+        @include screenphablet {
+            padding: 30px 30px 60px;
+        }
+    }
+
+    &-lang {
+        display: inline-flex;
+        position: relative;
+
+        &::before {
+            background: white;
+            content: '';
+            height: 2px;
+            left: 0;
+            position: absolute;
+            top: $size-event-lang-icon-height + 14;
+            transition: transform .45s $ease-smooth;
+            width: $size-event-lang-icon-width;
+
+            @include screenphablet {
+                top: $size-event-lang-icon-height-mobile + 7;
+                width: $size-event-lang-icon-width-mobile;
+            }
+        }
+
+        .lang-pt & {
+            &::before {
+                transform: translate3d(0, 0, 0);
+            }
+        }
+
+        .lang-en & {
+            &::before {
+                transform: translate3d(60px, 0, 0);
+            }
+        }
+
+        &-item {
+            margin: 0 30px 0 0;
+            width: $size-event-lang-icon-width;
+
+            @include screenphablet {
+                margin-right: 10px;
+                width: $size-event-lang-icon-width-mobile;
+            }
+        }
+        &-link {
+            color: white;
+            display: block;
+        }
+        &-icon {
+            display: block;
+            height: $size-event-lang-icon-height;
+            margin: 0 0 20px;
+            width: 100%;
+
+            @include screenphablet {
+                height: $size-event-lang-icon-height-mobile;
+            }
+        }
+        &-svg {
+            @extend .full-block;
+        }
+
+        &-text {
+            display: block;
+            font-size: 14px;
+            text-align: left;
+            transition: opacity .3s;
+
+            .event-lang-link:hover & {
+                opacity: .5;
+            }
+
+            @include screenphablet {
+                display: none;
+            }
+        }
+    }
+
+    &-button-close {
+        @extend .hover-opacity;
+
+        color: #a1a1a1;
+        font-size: 14px;
+
+        @include screenphablet {
+            font-size: 12px;
+        }
+       
+        @include screenmobile-max {
+            height: 20px;
+            width: 20px;
+        }
+
+        &-text {
+            @include screenmobile {
+                font-size: 10px;
+            }
+            @include screenmobile-max {
+                display: none;
+            }
+        }
+
+        &-icon {
+            stroke: #a1a1a1;
+            height: 20px;
+            vertical-align: middle;
+            width: 20px;
+        }
+    }
+
+
+    // Splash
+
+    &-splash {
+        padding-bottom: 120px;
+
+        .event-content {
+            max-width: 845px;
+
+            @include screenphablet {
+                padding: 0;
+            }
+        }
+
+        &-presents {
+            font-size: 20px;
+            padding: 0 30px;
+
+            @include screenphablet {
+                font-size: 18px;
+                text-align: center;
+            }
+            
+            &-link {
+                @extend .hover-opacity;
+
+                color: white;
+                font-weight: 800;
+            }
+
+        }
+
+        &-title {
+            @extend .hide-text;
+
+            background: url('../images/event/event.png') no-repeat 50% 50%;
+            background-size: contain;
+            height: 400px;
+            margin: 50px 0;
+            width: 100%;
+
+            @include screenphablet {
+                background-size: 65%;
+                margin: 0;
+            }
+        }
+
+        &-text {
+            font-size: 32px;
+            font-weight: 400;
+            text-align: center;
+
+            @include screenphablet {
+                padding: 0 110px;
+            }
+
+            @include screenmobile {
+                padding: 0 20px;
+            }
+        }
+    }
+
+
+    // Speeches
+
+    &-speeches {
+        padding: 150px 0;
+
+        @include screenphablet {
+            padding: 120px 0;
+        }
+
+        &-title {
+            font-size: 24px;
+
+            @include screenphablet {
+                text-align: center;
+            }
+        }
+
+        &-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 50px 0;
+
+            @include screenphablet {
+                justify-content: center;
+            }
+        }
+
+        &-item {
+            font-size: 22px;
+            margin: 0 10px 10px 0;
+
+            @include screenphablet {
+                margin: 0 15px 10px;
+            }
+        }
+
+        &-endtext {
+            height: 77px;
+            margin: 0 auto;
+            position: relative;
+            width: 150px;
+
+            &-text {
+                @extend .pos-a-middle;
+
+                font-size: 24px;
+                white-space: nowrap;
+                z-index: 2;
+            }
+        }
+
+        &-svg {
+            @extend .pos-a-full;
+
+            z-index: 1;
+        }
+    }
+
+
+    // Getin
+
+    &-getin {
+        background: #171717;
+        padding: 120px 0 130px;
+
+        @include screenphablet {
+            padding-bottom: 90px;
+        }
+
+        .event-content {
+            display: flex;
+            justify-content: center;
+
+            @include screenphablet {
+                flex-direction: column;
+                width: 100%;
+            }
+        }
+
+        &-location {
+            width: 360px;
+        }
+
+        &-invite {
+            width: 360px;
+
+            @include screenphablet {
+                margin-top: 100px;
+            }
+        }
+
+        &-location,
+        &-invite {
+            @include screenphablet {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                width: 100%;
+            }
+        }
+
+        &-title {
+            font-size: 28px;
+        }
+
+        .subscribe-input {
+            font-size: 18px;
+            height: 50px;
+
+            &:-webkit-autofill {
+                -webkit-box-shadow: 0 0 0 30px #171717 inset;
+            }
+        }
+
+        .button-submit {
+            display: inline-block;
+            margin: 40px 0 0;
+
+            @include screenphablet {
+                border-radius: 1px;
+                font-size: 2.6vw;
+                line-height: 6.5vw;
+                padding: 0 4vw;
+            }
+
+            @include screenmobile {
+                font-size: 3.6vw;
+                line-height: 8vw;
+            }
+        }
+    }
+
+
+    // Sponsor
+
+    &-sponsor {
+        padding: 80px 0 100px;
+
+        @include screenphablet {
+            padding-bottom: 0;
+        }
+
+        .event-content {
+            display: flex;
+            justify-content: center;
+
+            @include screenphablet {
+                flex-direction: column;
+                width: 100%;
+            }
+        }
+
+        &-content {
+            margin: 0 50px;
+            text-align: center;
+
+            @include screenphablet {
+                margin: 0 50px 100px;
+            }
+        }
+
+
+        &-title {
+            font-size: 23px;
+            margin: 0 0 50px;
+        }
+
+        &-list {
+            display: flex;
+            justify-content: center;
+        }
+
+        &-item {
+            margin: 0 30px;
+        }
+
+        &-link {
+            @extend .hover-opacity;
+
+            display: block;
+            height: 61px;
+
+            &.paratii {
+                width: 132px;
+            }
+
+            &.bossa {
+                width: 55px;
+            }
+
+            &.vya {
+                width: 87px;
+            }
+        }
+
+        &-svg {
+            @extend .full-block;
+        }
+    }
+
+
+    // all elements
+
+    .button-submit {
+        font-family: 'sofia-pro';
+    }
+}

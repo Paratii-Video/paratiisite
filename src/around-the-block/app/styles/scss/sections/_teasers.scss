@@ -1,0 +1,194 @@
+// Teasers
+
+.teasers {
+    @extend .center-content;
+
+    background-color: $color-blue-dark;
+    min-height: 100vh;
+    margin-top: -($size-height-mainheader / 2);
+    position: relative;
+
+    @include screenphablet {
+        min-height: auto;
+        margin: 0;
+        padding: 20vw 0 15vw;
+    }
+
+    &-wrapper {
+        @extend .padding-left-max;
+        @extend .padding-right-max;
+
+        margin-top: $size-height-mainheader;
+        padding-bottom: 6vw;
+        position: relative;
+        width: 100%;
+
+        @include screenphablet {
+            margin-top: 0;
+            padding-bottom: 16vw;
+        }
+    }
+    
+    &-entry {
+        float: left;
+        width: 10%;
+
+        @include screenphablet {
+            margin-bottom: 8vw;
+        }
+    }
+
+    &-text {
+        @extend .font-title-bigger;
+
+        color: $color-purple-light;
+        font-weight: 400;
+        margin-bottom: 2vw;
+
+        strong {
+            color: $color-green;
+            font-size: 80%;
+            font-weight: 400;
+        }
+
+        &-typewrite {
+            display: block;
+            height: 4.5vw;
+
+            @include screenphablet {
+                height: 7.6vw;
+            }
+        }
+    }
+
+    &-medias {
+        // cursor: pointer;
+        float: right;
+        overflow: hidden;
+        position: relative;
+        width: 62%;
+
+        @include screenphablet {
+            padding-bottom: 12%;
+            width: 100%;
+        }
+
+        &-wrapper {
+            float: right;
+            width: 100%;
+        }
+
+        &-item {
+            display: none;
+            height: 100%;
+            opacity: .5;
+            overflow: hidden;
+            width: 100%;
+
+            &::before {
+                @extend .font-source;
+                @extend .pos-a-middle;
+
+                animation: blink .5s $ease-smooth infinite;
+                color: $color-purple-light;
+                content: 'loading';
+                font-size: 1vw;
+
+                @include screenphablet {
+                    font-size: 4vw;
+                }
+            }
+
+            &.iframe {
+                position: relative;
+            }
+
+            &.ready {
+                opacity: 1;
+
+                &::before {
+                    display: none;
+                }
+            }
+
+            &.active {
+                display: block;
+            }
+        }
+    }
+
+    &-video {
+        position: relative;
+        width: 100%;
+        z-index: 1;
+
+        .iframe & {
+            visibility: hidden;
+            pointer-events: none;
+        }
+    }
+
+    &-iframe {
+        @extend .pos-a-full;
+
+        z-index: 2;
+    }
+
+    &-button {
+        &-next {
+            @extend .button-text;
+        }
+
+        &-scroll {
+            bottom: 0;
+            left: 50%;
+            margin: 0 auto;
+            position: absolute;
+            transform: translate3d(-50%, 0, 0);
+            width: 5.6vw;
+            z-index: 3;
+
+            @include screenphablet {
+                width: 20vw;
+            }
+
+            &:hover {
+                opacity: 1;
+
+                path {
+                    fill: $color-green;
+                }
+            }
+
+            path {
+                transition: fill .3s;
+            }
+        }
+    }
+}
+
+/* DEMO-SPECIFIC STYLES */
+
+.words-animation-item {
+    border-right: 2px solid rgba(255,255,255,.75);
+    // display: none;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .06em solid #7e70ff solid $color-purple-light; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    display: inline-block;
+}
+
+
+// Animation
+
+.anim{
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 500%;}
+}
+@keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+}
