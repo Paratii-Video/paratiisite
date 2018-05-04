@@ -89,7 +89,7 @@
             "eventCategory": "Subscribe",
             "eventAction": "Enviar",
             "eventLabel": "Site",
-            "eventValue": "100"
+            "eventValue": "106"
           }
         },
         "audiences": {
@@ -109,7 +109,7 @@
                 "eventCategory": "Creators",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "102"
               }
             },
             {
@@ -123,7 +123,7 @@
                 "eventCategory": "Publishers",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "105"
               }
             },
             {
@@ -137,7 +137,7 @@
                 "eventCategory": "Community",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "101"
               }
             }
           ],
@@ -636,7 +636,7 @@
                 "eventCategory": "Early-Uploaders-Brasil",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "103"
               }
             },
             {
@@ -648,7 +648,7 @@
                 "eventCategory": "Early-Uploaders-Mundo",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "104"
               }
             }
           ],
@@ -795,7 +795,7 @@
             "eventCategory": "Subscribe",
             "eventAction": "Enviar",
             "eventLabel": "Site",
-            "eventValue": "100"
+            "eventValue": "106"
           }
         },
         "audiences": {
@@ -814,7 +814,7 @@
                 "eventCategory": "Creators",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "102"
               }
             },
             {
@@ -828,7 +828,7 @@
                 "eventCategory": "Publishers",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "105"
               }
             },
             {
@@ -842,7 +842,7 @@
                 "eventCategory": "Community",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "101"
               }
             }
           ],
@@ -1340,7 +1340,7 @@
                 "eventCategory": "Early-Uploaders-Brasil",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "103"
               }
             },
             {
@@ -1352,7 +1352,7 @@
                 "eventCategory": "Early-Uploaders-Mundo",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "104"
               }
             }
           ],
@@ -1499,7 +1499,7 @@
             "eventCategory": "Subscribe",
             "eventAction": "Enviar",
             "eventLabel": "Site",
-            "eventValue": "100"
+            "eventValue": "106"
           }
         },
         "audiences": {
@@ -1518,7 +1518,7 @@
                 "eventCategory": "Creators",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "102"
               }
             },
             {
@@ -1532,7 +1532,7 @@
                 "eventCategory": "Publishers",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "105"
               }
             },
             {
@@ -1546,7 +1546,7 @@
                 "eventCategory": "Community",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "101"
               }
             }
           ],
@@ -2047,7 +2047,7 @@
                 "eventCategory": "Early-Uploaders-Brasil",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "103"
               }
             },
             {
@@ -2059,7 +2059,7 @@
                 "eventCategory": "Early-Uploaders-Mundo",
                 "eventAction": "Enviar",
                 "eventLabel": "Site",
-                "eventValue": "100"
+                "eventValue": "104"
               }
             }
           ],
