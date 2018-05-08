@@ -6,6 +6,7 @@ const getters = {
   isNavOpen: state => state.isNavOpen,
   isOutOfTop: state => state.isOutOfTop,
   isNavWhite: state => state.isNavWhite,
+  isCampaignTheme: state => state.isCampaignTheme,
   showCover: state => state.showCover
 }
 

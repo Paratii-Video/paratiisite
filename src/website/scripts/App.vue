@@ -32,6 +32,7 @@
         'isNavOpen',
         'isOutOfTop',
         'isNavWhite',
+        'isCampaignTheme',
         'getLangLabel',
         'showCover'
       ]),
@@ -39,6 +40,7 @@
         return {
           'out-of-top': this.isOutOfTop || this.isNavWhite,
           'nav-open': this.isNavOpen,
+          'campaign-theme': this.isCampaignTheme,
           ['lang-' + this.getLangLabel]: true
         }
       }
@@ -57,7 +59,7 @@
       window.addEventListener('scroll', this.outOfTop)
     },
     destroyed () {
-      window.removeEventListener('resize', this.closeNav)
+      window.removeEventListener('resize', this.onResize)
       window.removeEventListener('scroll', this.outOfTop)
     }
   }

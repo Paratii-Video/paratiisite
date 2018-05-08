@@ -54,7 +54,7 @@ $size-main-nav-mobile-top: 52px;
   }
 
   &-link {
-    color: white;
+    color: $color-white;
     display: block;
     font-size: 0.9rem;
     font-weight: $font-regular;
@@ -76,6 +76,10 @@ $size-main-nav-mobile-top: 52px;
 
     &:hover {
       color: $color-purple-light;
+    }
+
+    .campaign-theme & {
+      color: $color-campaign-text;
     }
   }
 }
@@ -175,6 +179,10 @@ $size-main-nav-mobile-top: 52px;
 
     @include screenMobile {
       color: $color-black;
+    }
+
+    .campaign-theme & {
+      color: $color-campaign-text;
     }
 
     &.active {

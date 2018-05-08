@@ -24,6 +24,10 @@ body {
   @include screenMobile {
     overflow: hidden;
   }
+
+  &.campaign-theme {
+    background: $color-campaign-background;
+  }
 }
 
 .paratii-main {
