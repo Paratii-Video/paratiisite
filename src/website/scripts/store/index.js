@@ -14,7 +14,8 @@ const store = new Vuex.Store({
     showCover: true,
     isNavOpen: false,
     isOutOfTop: false,
-    isNavWhite: false
+    isNavWhite: false,
+    isCampaignTheme: false
   },
   getters,
   mutations,

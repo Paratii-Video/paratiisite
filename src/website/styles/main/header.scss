@@ -37,6 +37,15 @@
       transform: translate3d(0, 0, 0);
       transition: all .7s $ease-smooth;
     }
+
+    .campaign-theme & {
+      background: $color-campaign-header-background;
+      height: $size-main-header-bg-campaign;
+    
+      @include screenMobile {
+        height: $size-main-header-bg-campaign-mobile;
+      }
+    }
   }
 
   .nav-open &::before {
@@ -49,17 +58,28 @@
   //
 
   &-wrapper {
+    align-items: center;
     display: flex;
     justify-content: space-between;
     transform: translate3d(0, $size-main-header-wrapper-top, 0);
     transition: transform .5s $ease-smooth;
 
     @include screenMobile {
+      align-items: initial;
       flex-direction: column;
     }
 
     .out-of-top & {
       transform: translate3d(0, 22px, 0);
+      transition: transform .7s $ease-smooth;
+
+      @include screenMobile {
+        transform: translate3d(0, 13px, 0);
+      }
+    }
+
+    .campaign-theme & {
+      transform: translate3d(0, 11px, 0);
       transition: transform .7s $ease-smooth;
 
       @include screenMobile {
@@ -91,6 +111,16 @@
     transform: scale(0.8);
   }
 
+  .campaign-theme & {
+    height: $size-main-title-height-campaign;
+    width: $size-main-title-width-campaign;
+
+    @include screenMobile {
+      height: $size-main-title-height-campaign-mobile;
+      width: $size-main-title-width-campaign-mobile;
+    }
+  }
+
   &-link {
     @extend .full-block;
 
@@ -113,6 +143,14 @@
 
     .nav-open & {
       fill: $color-black;
+    }
+
+    .campaign-theme & {
+      fill: $color-white;
+    }
+
+    .campaign-theme .main-title-link:hover & {
+      fill: $color-campaign-text;
     }
   }
 }
@@ -145,6 +183,10 @@
     .nav-open &,
     .out-of-top & {
       background: $color-black;
+    }
+
+    .campaign-theme & {
+      background: $color-white;
     }
   }
 

@@ -1,0 +1,358 @@
+// Capaign (may/2018)
+
+.campaign-theme {
+  .hide-on-campaign,
+  .paratii-footer {
+    display: none;
+  }
+}
+
+// @keyframes wobble {
+//   0% {
+//     transform: translateY(0px);
+//   }
+//   50% {
+//     transform: translateY(-100px);
+//   }
+//   100% {
+//     transform: translateY(0px);
+//   }
+// }
+
+// $woobleStart: 1s;
+
+// .animation-wobble-01 {
+//   animation: wobble 5.5s $ease-in-out-sine $woobleStart infinite;
+// }
+
+// .animation-wobble-02 {
+//   animation: wobble 5.5s $ease-in-out-sine $woobleStart infinite;
+// }
+
+//
+
+.page-campaign {
+  font-family: 'Roboto', sans-serif;
+}
+
+.campaign {
+  &-section {
+    text-align: center;
+
+    &-wrapper {
+      margin: 0 auto;
+      max-width: 1120px;
+      padding: 0 40px;
+
+      @include screenPhablet {
+        padding: 0 30px;
+      }
+    }
+
+    &-title {
+      color: $color-campaign-text-light;
+      font-size: 2rem;
+      font-weight: 400;
+      margin-bottom: 30px;
+
+      @include screenPhablet {
+        font-size: 1.2rem;
+      }
+    }
+
+    &-subtitle {
+      color: $color-campaign-text-light;
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 30px;
+
+      @include screenPhablet {
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  &-text {
+    color: $color-campaign-text;
+    font-size: 1.3rem;
+
+    strong {
+      color: $color-campaign-text-light;
+    }
+
+    @include screenPhablet {
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+  }
+
+  &-button {
+    background-color: $color-campaign-purple;
+    padding: 10px 20px 11px;
+
+    &:hover {
+      background-color: #9149EF;
+    }
+  }
+
+  //
+
+  &-header {
+    background: $color-campaign-header-background;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: #{$size-main-header-bg-campaign - 5} 0 0;
+    padding: #{$size-main-header-bg-campaign - 5} 0;
+    min-height: calc(100vh - #{$size-main-header-bg-campaign * 2});
+    position: relative;
+    text-align: center;
+
+    @include screenPhablet {
+      margin: #{$size-main-header-bg-campaign-mobile - 5} 0 0;
+      padding: #{$size-main-header-bg-campaign-mobile - 5} 0;
+      min-height: calc(100vh - #{$size-main-header-bg-campaign-mobile * 2});
+    }
+
+    &-background {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+
+    &-content {
+      margin: 0 auto;
+      max-width: 1200px;
+      padding: 0 40px;
+      position: relative;
+      z-index: 2;
+
+      @include screenPhablet {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+    }
+
+    &-title {
+      font-size: 2.5rem;
+      line-height: 1.5;
+      padding: 0 20px;
+
+      @include screenPhablet {
+        font-size: 1.3rem;
+        line-height: 1.5;
+      }
+    }
+
+    &-text {
+      margin: 20px 0 65px;
+      padding: 0 10px;
+    }
+  }
+
+  // About
+
+  &-about {
+    padding: 130px 0;
+
+    @include screenPhablet {
+      padding: 60px 0;
+    }
+  }
+
+  &-slider {
+    margin-top: 80px;
+
+    &-wrapper {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .3);
+      border-radius: 4px;
+      cursor: pointer;
+      height: 542px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    &-image {
+      @extend .pos-a-h;
+
+      left: 50%;
+      opacity: 0;
+      transform: translate3d(-50%, -50%, 0);
+      transition: opacity .3s;
+      width: 100%;
+
+      &.active {
+        opacity: 1;
+      }
+    }
+
+    &-pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+
+      &-button {
+        background: $color-campaign-text;
+        border-radius: 100%;
+        height: 12px;
+        margin: 0 10px;
+        width: 12px;
+
+        &.active {
+          background: $color-campaign-text-light;
+        }
+      }
+    }
+  }
+
+  &-vendors {
+    margin: 150px 0;
+
+    @include screenPhablet {
+      margin: 80px 0 50px;
+    }
+
+    &-list {
+      display: flex;
+      justify-content: space-between;
+
+      @include screenPhablet {
+        flex-direction: column;
+      }
+    }
+    
+    &-item {
+      flex: 0 1 33%;
+
+      @include screenPhablet {
+        margin-bottom: 50px;
+      }
+    }
+    
+    &-logo {
+      height: 100px;
+      margin: 0 auto 50px;
+      width: 80%;
+
+      @include screenPhablet {
+        height: initial;
+        margin-bottom: 10px;
+        width: 50%;
+      }
+    }
+
+    &-link {
+      @extend .hover-opacity;
+    }
+    
+    &-link,
+    &-svg {
+      @extend .full-block;
+
+      margin: auto;
+      max-height: 100px;
+      max-width: 150px;
+
+      @include screenPhablet {
+        max-height: 80px;
+        max-width: 150px;
+      }
+    }
+
+    &-text {
+      color: $color-campaign-text;
+      font-size: 0.9rem;
+    }
+  }
+
+  &-status {
+    margin: 0 auto;
+    max-width: 1120px;
+
+    &-list {
+      border-top: 1px solid $color-campaign-status-border;
+    }
+
+    &-item {
+      border-bottom: 1px solid $color-campaign-status-border;
+      color: $color-campaign-text;
+      display: flex;
+      padding: 25px 30px;
+
+      &::before {
+        background-color: $color-campaign-purple;
+        border-radius: 100%;
+        content: '';
+        display: block;
+        flex: 0 0 10px;
+        margin: 12px 12px 12px 0;
+        height: 10px;
+      }
+    }
+
+    &-text {
+      text-align: left;
+    }
+  }
+
+  // Contact
+
+  &-contact {
+    background: $color-campaign-contact-background;
+    padding: 130px 0 120px;
+
+    @include screenPhablet {
+      padding: 80px 0;
+    }
+
+    &-icon {
+      display: block;
+      margin: 80px auto 110px;
+      width: 155px;
+
+      @include screenPhablet {
+        margin: 60px auto 75px;
+        width: 100px;
+      }
+    }
+
+    &-button {
+      flex-shrink: 0;
+    }
+
+    &-list {
+      display: flex;
+      justify-content: center;
+      margin: 180px 0 0;
+
+      @include screenPhablet {
+        margin-top: 100px;
+      }
+    }
+
+    &-item {
+      margin: 0 15px;
+
+      @include screenPhablet {
+        margin: 0 10px;
+      }
+
+      &-icon {
+        backface-visibility: hidden;
+        height: 50px;
+
+        @include screenPhablet {
+          height: 35px;
+        }
+      }
+
+      &-link {
+        @extend .hover-opacity;
+      }
+    }
+  }
+}

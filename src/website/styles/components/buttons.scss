@@ -21,7 +21,7 @@ $size-paratii-button-icon: 22px;
   display: inline-flex;
   font-weight: $font-regular;
   padding: 15px 25px 16px;
-  text-align: center;
+  justify-content: center;
   text-transform: uppercase;
 
 }
@@ -78,13 +78,10 @@ $size-paratii-button-icon: 22px;
 // Link/Anchors
 
 .paratii-link {
+  @extend .hover-opacity;
+
   color: $color-lipstick;
   border-bottom: 1px solid $color-lipstick;
-  transition: opacity $anim-time-repaint;
-
-  &:hover {
-    opacity: $anim-opacity-value;
-  }
 }
 
 // Icons

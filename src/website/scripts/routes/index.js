@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import PageHome from '../components/pages/PageHome'
 import PageFaq from '../components/pages/PageFaq'
 import PageJoin from '../components/pages/PageJoin'
+import PageCampaign from '../components/pages/PageCampaign'
 
 Vue.use(VueRouter)
 
@@ -18,6 +19,10 @@ const routes = [
   {
     path: '/join',
     component: PageJoin
+  },
+  {
+    path: '/campaign',
+    component: PageCampaign
   },
   {
     path: '/around-the-block',
