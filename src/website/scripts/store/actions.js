@@ -1,5 +1,3 @@
-import axios from 'axios'
-
 const actions = {
   setNavigatorLang ({ commit, state, getters }) {
     let langIndex = 0;
