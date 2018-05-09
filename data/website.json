@@ -671,13 +671,13 @@
         "campaign": {
           "title": "Campaign",
           "header": {
-            "title": "Seja bem-vindo à primeira<br> comunidade de vídeo descentralizada do Brasil.",
-            "text": "<strong>Isso significa que quem manda é você:</strong> já teve seu vídeo desmonetizado sem motivo? Coisa do passado! Se você que se matou pra gravar o seu conteúdo, por que tem um monte de gente no meio do caminho ganhando em cima disso? Chegou a hora de mudar. Chegou a hora da Paratii.",
-            "button": "Visite o Portal"
+            "title": "Welcome to the world of decentralized video!",
+            "text": "<strong>That means you’re the boss.</strong> Have you ever had a video of yours demonetized for no reason? No more! If you busted your ass to record your content, why should a bunch of middlemen make the money instead of you? It’s time for a change. It’s time for Paratii.",
+            "button": "Access the Portal"
           },
           "about": {
-            "title": "Um projeto em construção",
-            "text": "Temos gente trabalhando no mundo inteiro (é sério, estamos em quatro países) pra transformar nossa visão de um futuro melhor para os criadores de vídeo em realidade. Quase toda semana tem coisa nova, então fica de olho!",
+            "title": "A developing project",
+            "text": "We’ve got people working all over the world (seriously, we’re in four countries) to make our vision of a better future for video content creators a reality. We’ve got new stuff almost every week, so keep an eye on us!",
             "slider": {
               "list": [
                 {
@@ -694,38 +694,38 @@
             "vendors": {
               "list": [
                 {
-                  "text": "Estrutura-base do player",
+                  "text": "Video player framework",
                   "href": "https://github.com/clappr/clappr",
                   "icon": "dist/assets/svgs/campaign/vendors/logo-clappr.svg"
                 },
                 {
-                  "text": "Plataforma de smart contracts",
+                  "text": "Smart contract platform",
                   "href": "https://www.ethereum.org/",
                   "icon": "dist/assets/svgs/campaign/vendors/logo-ethereum.svg"
                 },
                 {
-                  "text": "Rede de armazenamento descentralizada",
+                  "text": "Decentralized storage network",
                   "href": "https://ipfs.io/",
                   "icon": "dist/assets/svgs/campaign/vendors/logo-ipfs.svg"
                 }
               ]
             },
             "status": {
-              "title": "Estado Atual da Plataforma",
+              "title": "Current state of the platform:",
               "list": [
-                "Upload: Habilitado para arquivos .mp4 de até 800mb",
-                "Token: Em testnet (não oficial), custo de 5PTI para subir um vídeo. Recebe-se 25PTI ao confirmar-se seu e-mail.",
-                "Monetização: Ainda não habilitada, vídeos apenas na opção livre por enquanto.",
-                "Perfil/Canal: Informações básicas e lista de uploads.",
-                "Discovery: Busca básica implementada. Conteúdo em destaque ainda selecionado manualmente."
+                "Upload: Enabled for mp4 files of up to 800mb",
+                "Token: operational in a test network, with a staking cost of 5PTI per video. 25PTI is gained when confirming your e-mail.",
+                "Monetization: Not yet enabled; videos can only be uploaded as free.",
+                "Profile/Channel: Basic information.",
+                "Discovery: Basic search has been implemented. Featured content is still manually selected by staff."
               ]
             }
           },
           "contact": {
-            "title": "Dá um alô!",
-            "text": "Sua participação é vital para fazer a Paratii ser a melhor possível para quem importa: você. No nosso grupo do Telegram, nossa equipe está sempre pronta pra te ajudar com qualquer problema ou responder suas perguntas.",
+            "title": "Give us a shout!",
+            "text": "Your participation is vital in making Paratii the best it can be for the one who matters: you. On our Telegram group, the team is always ready and willing to listen and answer questions.",
             "icon": "dist/assets/svgs/campaign/contact/logo-telegram.svg",
-            "button": "Participe do nosso Telegram",
+            "button": "Join our Telegram",
             "buttonHref": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
             "list": [
               {
@@ -1471,8 +1471,8 @@
         "campaign": {
           "title": "Campaign",
           "header": {
-            "title": "Seja bem-vindo à primeira<br> comunidade de vídeo descentralizada do Brasil.",
-            "text": "<strong>Isso significa que quem manda é você:</strong> já teve seu vídeo desmonetizado sem motivo? Coisa do passado! Se você que se matou pra gravar o seu conteúdo, por que tem um monte de gente no meio do caminho ganhando em cima disso? Chegou a hora de mudar. Chegou a hora da Paratii.",
+            "title": "Seja bem-vindo à primeira comunidade de vídeo descentralizada do Brasil.",
+            "text": "<strong>Isso significa que quem manda é você: </strong> já teve seu vídeo desmonetizado sem motivo? Coisa do passado! Se você que se matou pra gravar o seu conteúdo, por que tem um monte de gente no meio do caminho ganhando em cima disso? Chegou a hora de mudar. Chegou a hora da Paratii.",
             "button": "Visite o Portal"
           },
           "about": {
@@ -2274,13 +2274,13 @@
         "campaign": {
           "title": "Campaign",
           "header": {
-            "title": "Seja bem-vindo à primeira<br> comunidade de vídeo descentralizada do Brasil.",
-            "text": "<strong>Isso significa que quem manda é você:</strong> já teve seu vídeo desmonetizado sem motivo? Coisa do passado! Se você que se matou pra gravar o seu conteúdo, por que tem um monte de gente no meio do caminho ganhando em cima disso? Chegou a hora de mudar. Chegou a hora da Paratii.",
-            "button": "Visite o Portal"
+            "title": "Welcome to the world of decentralized video!",
+            "text": "<strong>That means you’re the boss.</strong> Have you ever had a video of yours demonetized for no reason? No more! If you busted your ass to record your content, why should a bunch of middlemen make the money instead of you? It’s time for a change. It’s time for Paratii.",
+            "button": "Access the Portal"
           },
           "about": {
-            "title": "Um projeto em construção",
-            "text": "Temos gente trabalhando no mundo inteiro (é sério, estamos em quatro países) pra transformar nossa visão de um futuro melhor para os criadores de vídeo em realidade. Quase toda semana tem coisa nova, então fica de olho!",
+            "title": "A developing project",
+            "text": "We’ve got people working all over the world (seriously, we’re in four countries) to make our vision of a better future for video content creators a reality. We’ve got new stuff almost every week, so keep an eye on us!",
             "slider": {
               "list": [
                 {
@@ -2297,38 +2297,38 @@
             "vendors": {
               "list": [
                 {
-                  "text": "Estrutura-base do player",
+                  "text": "Video player framework",
                   "href": "https://github.com/clappr/clappr",
                   "icon": "dist/assets/svgs/campaign/vendors/logo-clappr.svg"
                 },
                 {
-                  "text": "Plataforma de smart contracts",
+                  "text": "Smart contract platform",
                   "href": "https://www.ethereum.org/",
                   "icon": "dist/assets/svgs/campaign/vendors/logo-ethereum.svg"
                 },
                 {
-                  "text": "Rede de armazenamento descentralizada",
+                  "text": "Decentralized storage network",
                   "href": "https://ipfs.io/",
                   "icon": "dist/assets/svgs/campaign/vendors/logo-ipfs.svg"
                 }
               ]
             },
             "status": {
-              "title": "Estado Atual da Plataforma",
+              "title": "Current state of the platform:",
               "list": [
-                "Upload: Habilitado para arquivos .mp4 de até 800mb",
-                "Token: Em testnet (não oficial), custo de 5PTI para subir um vídeo. Recebe-se 25PTI ao confirmar-se seu e-mail.",
-                "Monetização: Ainda não habilitada, vídeos apenas na opção livre por enquanto.",
-                "Perfil/Canal: Informações básicas e lista de uploads.",
-                "Discovery: Busca básica implementada. Conteúdo em destaque ainda selecionado manualmente."
+                "Upload: Enabled for mp4 files of up to 800mb",
+                "Token: operational in a test network, with a staking cost of 5PTI per video. 25PTI is gained when confirming your e-mail.",
+                "Monetization: Not yet enabled; videos can only be uploaded as free.",
+                "Profile/Channel: Basic information.",
+                "Discovery: Basic search has been implemented. Featured content is still manually selected by staff."
               ]
             }
           },
           "contact": {
-            "title": "Dá um alô!",
-            "text": "Sua participação é vital para fazer a Paratii ser a melhor possível para quem importa: você. No nosso grupo do Telegram, nossa equipe está sempre pronta pra te ajudar com qualquer problema ou responder suas perguntas.",
+            "title": "Give us a shout!",
+            "text": "Your participation is vital in making Paratii the best it can be for the one who matters: you. On our Telegram group, the team is always ready and willing to listen and answer questions.",
             "icon": "dist/assets/svgs/campaign/contact/logo-telegram.svg",
-            "button": "Participe do nosso Telegram",
+            "button": "Join our Telegram",
             "buttonHref": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
             "list": [
               {
