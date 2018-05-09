@@ -66,7 +66,8 @@
 
   &-button {
     background-color: $color-campaign-purple;
-    padding: 10px 20px 11px;
+    font-size: 0.8rem;
+    padding: 14px 25px 10px;
 
     &:hover {
       background-color: #9149EF;
@@ -146,17 +147,17 @@
     margin-top: 80px;
 
     &-wrapper {
-      box-shadow: 0 10px 20px rgba(0, 0, 0, .3);
-      border-radius: 4px;
       cursor: pointer;
       height: 542px;
-      overflow: hidden;
       position: relative;
     }
 
     &-image {
       @extend .pos-a-h;
 
+      background: transparent;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      display: block;
       left: 50%;
       opacity: 0;
       transform: translate3d(-50%, -50%, 0);
@@ -425,7 +426,7 @@ $wobble-footer-03-y: 307px;
 // Paths
 
 .path-top-01 {
-  animation: wobble-top-01 5.5s $ease-in-out-sine 0s infinite;
+  // animation: wobble-top-01 5.5s $ease-in-out-sine 0s infinite;
   fill: #7d70ff;
   opacity: 0.1;
   transform: translate3d($wobble-top-01-x, $wobble-top-01-y, 0);
@@ -439,7 +440,7 @@ $wobble-footer-03-y: 307px;
 }
 
 .path-top-03 {
-  animation: wobble-top-03 6s $ease-in-out-sine 0.2s infinite;
+  // animation: wobble-top-03 6s $ease-in-out-sine 0.2s infinite;
   fill: #7d70ff;
   opacity: 0.1;
   transform: translate3d($wobble-top-03-x, $wobble-top-03-y, 0);
@@ -453,14 +454,14 @@ $wobble-footer-03-y: 307px;
 }
 
 .path-footer-02 {
-  animation: wobble-footer-02 5.5s $ease-in-out-sine 0.1s infinite;
+  // animation: wobble-footer-02 5.5s $ease-in-out-sine 0.1s infinite;
   fill: #2f3057;
   opacity: 0.3;
   transform: translate3d($wobble-footer-02-x, $wobble-footer-02-y, 0);
 }
 
 .path-footer-03 {
-  animation: wobble-footer-03 5s $ease-in-out-sine 0.3s infinite;
+  // animation: wobble-footer-03 5s $ease-in-out-sine 0.3s infinite;
   fill: #2f3057;
   opacity: 0.3;
   transform: translate3d($wobble-footer-03-x, $wobble-footer-03-y, 0);
