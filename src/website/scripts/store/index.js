@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import AppData from '../../data/data.json'
+import AppData from '../../../../data/website.json'
 import getters from './getters'
 import mutations from './mutations'
 import actions from './actions'
