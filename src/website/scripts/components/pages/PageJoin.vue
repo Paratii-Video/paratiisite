@@ -9,7 +9,7 @@
   import SectionJoin from '../sections/SectionJoin'
 
   export default {
-    name: 'PageUploaders',
+    name: 'PageJoin',
     components: {
       SectionJoin
     },
