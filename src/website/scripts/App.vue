@@ -54,6 +54,9 @@
         this.$store.commit('outOfTop', window.scrollY > 100)
       }
     },
+    beforeCreate () {
+      this.$store.dispatch('setNavigatorLang')
+    },
     created () {
       window.addEventListener('resize', this.onResize)
       window.addEventListener('scroll', this.outOfTop)
