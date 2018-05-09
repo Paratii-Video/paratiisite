@@ -432,7 +432,7 @@ $wobble-footer-03-y: 307px;
 }
 
 .path-top-02 {
-  animation: wobble-top-02 5s $ease-in-out-sine 0.1s infinite;
+  // animation: wobble-top-02 5s $ease-in-out-sine 0.1s infinite;
   fill: #7d70ff;
   opacity: 0.1;
   transform: translate3d($wobble-top-02-x, $wobble-top-02-y, 0);
@@ -446,7 +446,7 @@ $wobble-footer-03-y: 307px;
 }
 
 .path-footer-01 {
-  animation: wobble-footer-01 6s $ease-in-out-sine 0s infinite;
+  // animation: wobble-footer-01 6s $ease-in-out-sine 0s infinite;
   fill: #2f3057;
   opacity: 0.3;
   transform: translate3d($wobble-footer-01-x, $wobble-footer-01-y, 0);
