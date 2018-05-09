@@ -13,6 +13,9 @@ const mutations = {
   },
   showHideCover (state, payload) {
     state.showCover = payload === undefined ? !state.showCover : payload
+  },
+  campaignTheme (state, payload) {
+    state.isCampaignTheme = payload
   }
 }
 

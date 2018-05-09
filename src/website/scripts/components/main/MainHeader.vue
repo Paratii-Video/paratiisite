@@ -22,7 +22,7 @@
           <template v-for="(item, index) in getLanguageContent.nav.list">
             <li
               class="main-nav-item"
-              v-bind:class="{'main-subnav-holder': item.list}"
+              v-bind:class="[item.list ? 'main-subnav-holder' : null, item.class]"
               v-bind:key="index"
             >
               <h3>

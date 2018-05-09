@@ -22,7 +22,7 @@ $zindex-paratii-header-buttons: 6;
 
 .paratii-header {
   align-items: center;
-  color: white;
+  color: $color-white;
   display: flex;
   height: calc(70vh + #{$size-main-title-height});
   min-height: 600px + $size-main-title-height;

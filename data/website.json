@@ -9,6 +9,7 @@
         "list": [
             {
               "label": "Documentation",
+              "class": "hide-on-campaign",
               "list": [
                 {
                   "label": "Blueprint document",
@@ -34,6 +35,7 @@
             },
             {
               "label": "Code",
+              "class": "hide-on-campaign",
               "list": [
                 {
                   "label": "The Player",
@@ -54,21 +56,25 @@
             },
             {
               "label": "Team",
+              "class": "hide-on-campaign",
               "router": true,
               "href": "/#team"
             },
             {
               "label": "Blog",
+              "class": "hide-on-campaign",
               "href": "https://medium.com/paratii",
               "target": "_blank"
             },
             {
-              "label": "Faq",
+              "label": "FAQ",
+              "class": "",
               "router": true,
               "href": "/faq"
             },
             {
               "label": "Around the block",
+              "class": "hide-on-campaign",
               "href": "/around-the-block/",
               "target": "_blank"
             }
@@ -661,6 +667,96 @@
           }
         }
       },
+      "pages": {
+        "campaign": {
+          "title": "Campaign",
+          "header": {
+            "title": "Seja bem-vindo à primeira<br> comunidade de vídeo descentralizada do Brasil.",
+            "text": "<strong>Isso significa que quem manda é você:</strong> já teve seu vídeo desmonetizado sem motivo? Coisa do passado! Se você que se matou pra gravar o seu conteúdo, por que tem um monte de gente no meio do caminho ganhando em cima disso? Chegou a hora de mudar. Chegou a hora da Paratii.",
+            "button": "Visite o Portal"
+          },
+          "about": {
+            "title": "Um projeto em construção",
+            "text": "Temos gente trabalhando no mundo inteiro (é sério, estamos em quatro países) pra transformar nossa visão de um futuro melhor para os criadores de vídeo em realidade. Quase toda semana tem coisa nova, então fica de olho!",
+            "slider": {
+              "list": [
+                {
+                  "src": "dist/assets/images/campaign/slider/flow-03-–-23.png"
+                },
+                {
+                  "src": "dist/assets/images/campaign/slider/flow-03-–-24.png"
+                },
+                {
+                  "src": "dist/assets/images/campaign/slider/search-current-needs-1920.png"
+                }
+              ]
+            },
+            "vendors": {
+              "list": [
+                {
+                  "text": "Estrutura-base do player",
+                  "href": "https://github.com/clappr/clappr",
+                  "icon": "dist/assets/svgs/campaign/vendors/logo-clappr.svg"
+                },
+                {
+                  "text": "Plataforma de smart contracts",
+                  "href": "https://www.ethereum.org/",
+                  "icon": "dist/assets/svgs/campaign/vendors/logo-ethereum.svg"
+                },
+                {
+                  "text": "Rede de armazenamento descentralizada",
+                  "href": "https://ipfs.io/",
+                  "icon": "dist/assets/svgs/campaign/vendors/logo-ipfs.svg"
+                }
+              ]
+            },
+            "status": {
+              "title": "Estado Atual da Plataforma",
+              "list": [
+                "Upload: Habilitado para arquivos .mp4 de até 800mb",
+                "Token: Em testnet (não oficial), custo de 5PTI para subir um vídeo. Recebe-se 25PTI ao confirmar-se seu e-mail.",
+                "Monetização: Ainda não habilitada, vídeos apenas na opção livre por enquanto.",
+                "Perfil/Canal: Informações básicas e lista de uploads.",
+                "Discovery: Busca básica implementada. Conteúdo em destaque ainda selecionado manualmente."
+              ]
+            }
+          },
+          "contact": {
+            "title": "Dá um alô!",
+            "text": "Sua participação é vital para fazer a Paratii ser a melhor possível para quem importa: você. No nosso grupo do Telegram, nossa equipe está sempre pronta pra te ajudar com qualquer problema ou responder suas perguntas.",
+            "icon": "dist/assets/svgs/campaign/contact/logo-telegram.svg",
+            "button": "Participe do nosso Telegram",
+            "buttonHref": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
+            "list": [
+              {
+                "title": "Medium",
+                "href": "https://medium.com/paratii",
+                "icon": "dist/assets/svgs/campaign/contact/logo-medium.svg"
+              },
+              {
+                "title": "Steemit",
+                "href": "http://steemit.com/@paratii",
+                "icon": "dist/assets/svgs/campaign/contact/logo-steemit.svg"
+              },
+              {
+                "title": "Twitter",
+                "href": "https://twitter.com/paratiivideo",
+                "icon": "dist/assets/svgs/campaign/contact/logo-twitter.svg"
+              },
+              {
+                "title": "Facebook",
+                "href": "https://www.facebook.com/paratiivideo/",
+                "icon": "dist/assets/svgs/campaign/contact/logo-facebook.svg"
+              },
+              {
+                "title": "Github",
+                "href": "https://github.com/Paratii-Video/wiki/wiki",
+                "icon": "dist/assets/svgs/campaign/contact/logo-github.svg"
+              }
+            ]
+          }
+        }
+      },
       "footer": {
         "text": "We ♥ open source",
         "social": {
@@ -719,6 +815,7 @@
         "list": [
             {
               "label": "Documentação",
+              "class": "hide-on-campaign",
               "list": [
                 {
                   "label": "Blueprint document",
@@ -744,6 +841,7 @@
             },
             {
               "label": "Code",
+              "class": "hide-on-campaign",
               "list": [
                 {
                   "label": "The Player",
@@ -761,20 +859,24 @@
             },
             {
               "label": "Team",
+              "class": "hide-on-campaign",
               "router": true,
               "href": "/#team"
             },
             {
               "label": "Blog",
+              "class": "hide-on-campaign",
               "href": "https://medium.com/paratii"
             },
             {
-              "label": "Faq",
+              "label": "FAQ",
+              "class": "",
               "router": true,
               "href": "/faq"
             },
             {
               "label": "Around the block",
+              "class": "hide-on-campaign",
               "href": "/around-the-block/",
               "target": "_blank"
             }
@@ -1365,6 +1467,96 @@
           }
         }
       },
+      "pages": {
+        "campaign": {
+          "title": "Campaign",
+          "header": {
+            "title": "Seja bem-vindo à primeira<br> comunidade de vídeo descentralizada do Brasil.",
+            "text": "<strong>Isso significa que quem manda é você:</strong> já teve seu vídeo desmonetizado sem motivo? Coisa do passado! Se você que se matou pra gravar o seu conteúdo, por que tem um monte de gente no meio do caminho ganhando em cima disso? Chegou a hora de mudar. Chegou a hora da Paratii.",
+            "button": "Visite o Portal"
+          },
+          "about": {
+            "title": "Um projeto em construção",
+            "text": "Temos gente trabalhando no mundo inteiro (é sério, estamos em quatro países) pra transformar nossa visão de um futuro melhor para os criadores de vídeo em realidade. Quase toda semana tem coisa nova, então fica de olho!",
+            "slider": {
+              "list": [
+                {
+                  "src": "dist/assets/images/campaign/slider/flow-03-–-23.png"
+                },
+                {
+                  "src": "dist/assets/images/campaign/slider/flow-03-–-24.png"
+                },
+                {
+                  "src": "dist/assets/images/campaign/slider/search-current-needs-1920.png"
+                }
+              ]
+            },
+            "vendors": {
+              "list": [
+                {
+                  "text": "Estrutura-base do player",
+                  "href": "https://github.com/clappr/clappr",
+                  "icon": "dist/assets/svgs/campaign/vendors/logo-clappr.svg"
+                },
+                {
+                  "text": "Plataforma de smart contracts",
+                  "href": "https://www.ethereum.org/",
+                  "icon": "dist/assets/svgs/campaign/vendors/logo-ethereum.svg"
+                },
+                {
+                  "text": "Rede de armazenamento descentralizada",
+                  "href": "https://ipfs.io/",
+                  "icon": "dist/assets/svgs/campaign/vendors/logo-ipfs.svg"
+                }
+              ]
+            },
+            "status": {
+              "title": "Estado Atual da Plataforma",
+              "list": [
+                "Upload: Habilitado para arquivos .mp4 de até 800mb",
+                "Token: Em testnet (não oficial), custo de 5PTI para subir um vídeo. Recebe-se 25PTI ao confirmar-se seu e-mail.",
+                "Monetização: Ainda não habilitada, vídeos apenas na opção livre por enquanto.",
+                "Perfil/Canal: Informações básicas e lista de uploads.",
+                "Discovery: Busca básica implementada. Conteúdo em destaque ainda selecionado manualmente."
+              ]
+            }
+          },
+          "contact": {
+            "title": "Dá um alô!",
+            "text": "Sua participação é vital para fazer a Paratii ser a melhor possível para quem importa: você. No nosso grupo do Telegram, nossa equipe está sempre pronta pra te ajudar com qualquer problema ou responder suas perguntas.",
+            "icon": "dist/assets/svgs/campaign/contact/logo-telegram.svg",
+            "button": "Participe do nosso Telegram",
+            "buttonHref": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
+            "list": [
+              {
+                "title": "Medium",
+                "href": "https://medium.com/paratii",
+                "icon": "dist/assets/svgs/campaign/contact/logo-medium.svg"
+              },
+              {
+                "title": "Steemit",
+                "href": "http://steemit.com/@paratii",
+                "icon": "dist/assets/svgs/campaign/contact/logo-steemit.svg"
+              },
+              {
+                "title": "Twitter",
+                "href": "https://twitter.com/paratiivideo",
+                "icon": "dist/assets/svgs/campaign/contact/logo-twitter.svg"
+              },
+              {
+                "title": "Facebook",
+                "href": "https://www.facebook.com/paratiivideo/",
+                "icon": "dist/assets/svgs/campaign/contact/logo-facebook.svg"
+              },
+              {
+                "title": "Github",
+                "href": "https://github.com/Paratii-Video/wiki/wiki",
+                "icon": "dist/assets/svgs/campaign/contact/logo-github.svg"
+              }
+            ]
+          }
+        }
+      },
       "footer": {
         "text": "Nós ♥ código aberto",
         "social": {
@@ -1417,12 +1609,13 @@
     {
       "label": "CH",
       "language": "zh",
-      "title": "Mudar a língua para portuguese",
+      "title": "Change language to chinese",
       "nav": {
         "title": "Navegação",
         "list": [
             {
               "label": "Documentation",
+              "class": "hide-on-campaign",
               "list": [
                 {
                   "label": "Blueprint document",
@@ -1448,6 +1641,7 @@
             },
             {
               "label": "Code",
+              "class": "hide-on-campaign",
               "list": [
                 {
                   "label": "The Player",
@@ -1465,20 +1659,24 @@
             },
             {
               "label": "Team",
+              "class": "hide-on-campaign",
               "router": true,
               "href": "/#team"
             },
             {
               "label": "Blog",
+              "class": "hide-on-campaign",
               "href": "https://medium.com/paratii"
             },
             {
-              "label": "Faq",
+              "label": "FAQ",
+              "class": "",
               "router": true,
               "href": "/faq"
             },
             {
               "label": "Around the block",
+              "class": "hide-on-campaign",
               "href": "/around-the-block/",
               "target": "_blank"
             }
@@ -2069,6 +2267,96 @@
               "label": "Check out our FAQ",
               "href": "/faq"
             }
+          }
+        }
+      },
+      "pages": {
+        "campaign": {
+          "title": "Campaign",
+          "header": {
+            "title": "Seja bem-vindo à primeira<br> comunidade de vídeo descentralizada do Brasil.",
+            "text": "<strong>Isso significa que quem manda é você:</strong> já teve seu vídeo desmonetizado sem motivo? Coisa do passado! Se você que se matou pra gravar o seu conteúdo, por que tem um monte de gente no meio do caminho ganhando em cima disso? Chegou a hora de mudar. Chegou a hora da Paratii.",
+            "button": "Visite o Portal"
+          },
+          "about": {
+            "title": "Um projeto em construção",
+            "text": "Temos gente trabalhando no mundo inteiro (é sério, estamos em quatro países) pra transformar nossa visão de um futuro melhor para os criadores de vídeo em realidade. Quase toda semana tem coisa nova, então fica de olho!",
+            "slider": {
+              "list": [
+                {
+                  "src": "dist/assets/images/campaign/slider/flow-03-–-23.png"
+                },
+                {
+                  "src": "dist/assets/images/campaign/slider/flow-03-–-24.png"
+                },
+                {
+                  "src": "dist/assets/images/campaign/slider/search-current-needs-1920.png"
+                }
+              ]
+            },
+            "vendors": {
+              "list": [
+                {
+                  "text": "Estrutura-base do player",
+                  "href": "https://github.com/clappr/clappr",
+                  "icon": "dist/assets/svgs/campaign/vendors/logo-clappr.svg"
+                },
+                {
+                  "text": "Plataforma de smart contracts",
+                  "href": "https://www.ethereum.org/",
+                  "icon": "dist/assets/svgs/campaign/vendors/logo-ethereum.svg"
+                },
+                {
+                  "text": "Rede de armazenamento descentralizada",
+                  "href": "https://ipfs.io/",
+                  "icon": "dist/assets/svgs/campaign/vendors/logo-ipfs.svg"
+                }
+              ]
+            },
+            "status": {
+              "title": "Estado Atual da Plataforma",
+              "list": [
+                "Upload: Habilitado para arquivos .mp4 de até 800mb",
+                "Token: Em testnet (não oficial), custo de 5PTI para subir um vídeo. Recebe-se 25PTI ao confirmar-se seu e-mail.",
+                "Monetização: Ainda não habilitada, vídeos apenas na opção livre por enquanto.",
+                "Perfil/Canal: Informações básicas e lista de uploads.",
+                "Discovery: Busca básica implementada. Conteúdo em destaque ainda selecionado manualmente."
+              ]
+            }
+          },
+          "contact": {
+            "title": "Dá um alô!",
+            "text": "Sua participação é vital para fazer a Paratii ser a melhor possível para quem importa: você. No nosso grupo do Telegram, nossa equipe está sempre pronta pra te ajudar com qualquer problema ou responder suas perguntas.",
+            "icon": "dist/assets/svgs/campaign/contact/logo-telegram.svg",
+            "button": "Participe do nosso Telegram",
+            "buttonHref": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
+            "list": [
+              {
+                "title": "Medium",
+                "href": "https://medium.com/paratii",
+                "icon": "dist/assets/svgs/campaign/contact/logo-medium.svg"
+              },
+              {
+                "title": "Steemit",
+                "href": "http://steemit.com/@paratii",
+                "icon": "dist/assets/svgs/campaign/contact/logo-steemit.svg"
+              },
+              {
+                "title": "Twitter",
+                "href": "https://twitter.com/paratiivideo",
+                "icon": "dist/assets/svgs/campaign/contact/logo-twitter.svg"
+              },
+              {
+                "title": "Facebook",
+                "href": "https://www.facebook.com/paratiivideo/",
+                "icon": "dist/assets/svgs/campaign/contact/logo-facebook.svg"
+              },
+              {
+                "title": "Github",
+                "href": "https://github.com/Paratii-Video/wiki/wiki",
+                "icon": "dist/assets/svgs/campaign/contact/logo-github.svg"
+              }
+            ]
           }
         }
       },
