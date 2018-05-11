@@ -271,25 +271,25 @@
               "text": "Release bluepaper + protocol completion",
               "textDate": "Apr 2018",
               "dateStart": "2018-04-01",
-              "dateEnd": "2018-04-30"
+              "dateEnd": "2018-06-30"
             },
             {
               "text": "Token distribution event",
-              "textDate": "May 2018",
-              "dateStart": "2018-05-01",
-              "dateEnd": "2018-05-31"
+              "textDate": "Jul 2018",
+              "dateStart": "2018-07-01",
+              "dateEnd": "2018-07-31"
             },
             {
               "text": "Pilot program with publishers",
               "textDate": "Q2 2018",
-              "dateStart": "2018-06-01",
-              "dateEnd": "2018-06-30"
+              "dateStart": "2018-08-01",
+              "dateEnd": "2018-08-31"
             },
             {
               "text": "Main contracts' bridging to mainnet",
               "textDate": "Q3 2018",
-              "dateStart": "2018-08-01",
-              "dateEnd": "2018-08-30"
+              "dateStart": "2018-09-01",
+              "dateEnd": "2018-09-30"
             }
           ]
         },
@@ -320,7 +320,7 @@
               "image": "./dist/assets/images/team/Felipe.png",
               "name": "Felipe Sant Ana",
               "job": "Project Lead",
-              "text": "Crowdfunding pioneer in Brazil, ESPM alumni, ex-Endeavor & BossaNovaFilms."
+              "text": "Crowdfunding pioneer in Brazil, ESPM alumnus, ex-Endeavor & BossaNovaFilms."
             },
             {
               "url": "https://github.com/jellegerbrandy",
@@ -334,14 +334,14 @@
               "image": "./dist/assets/images/team/Yahya.png",
               "name": "Mohamed Yahya",
               "job": "Lead P2P Engineer",
-              "text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumni."
+              "text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumnus."
             },
             {
               "url": "https://github.com/bent0b0x",
               "image": "./dist/assets/images/team/Ben.png",
               "name": "Benjamin Baum",
               "job": "Lead Frontend Engineer",
-              "text": "University of Cornell alumni and former research assistant, senior software engineer at Hubspot."
+              "text": "University of Cornell alumnus and former research assistant, senior software engineer at Hubspot."
             },
             {
               "url": "http://garou.in/",
@@ -369,7 +369,7 @@
               "image": "./dist/assets/images/team/Pedro.png",
               "name": "Pedro Casagrande",
               "job": "Designer",
-              "text": "ESPM alumni, previously at Estudio Pulpo and Design Lab ESPM."
+              "text": "ESPM alumnus, previously at Estudio Pulpo and Design Lab ESPM."
             },
             {
               "url": "https://www.linkedin.com/in/lupape/",
@@ -383,7 +383,7 @@
               "image": "./dist/assets/images/team/Daniel.png",
               "name": "Daniel Quandt",
               "job": "Community Manager",
-              "text": "USP-SP graduate and intern at innovation agency, reddit dinosaur."
+              "text": "USP alumnus, communication innovation researcher and enthusiast, reddit dinosaur"
             },
             {
               "url": "https://github.com/",
@@ -1071,25 +1071,25 @@
               "text": "Publicação do bluepaper + protocolo funcional",
               "textDate": "Abr 2018",
               "dateStart": "2018-04-01",
-              "dateEnd": "2018-04-30"
+              "dateEnd": "2018-06-30"
             },
             {
               "text": "Evento de distribuição dos tokens",
-              "textDate": "Mai 2018",
-              "dateStart": "2018-05-01",
-              "dateEnd": "2018-05-31"
+              "textDate": "Jul 2018",
+              "dateStart": "2018-07-01",
+              "dateEnd": "2018-07-31"
             },
             {
               "text": "Programa piloto com publishers",
               "textDate": "Q2 2018",
-              "dateStart": "2018-06-01",
-              "dateEnd": "2018-06-30"
+              "dateStart": "2018-08-01",
+              "dateEnd": "2018-08-31"
             },
             {
               "text": "Bridging de contratos principais à mainnet",
               "textDate": "Q3 2018",
-              "dateStart": "2018-08-01",
-              "dateEnd": "2018-08-30"
+              "dateStart": "2018-09-01",
+              "dateEnd": "2018-09-30"
             }
           ]
         },
@@ -1120,7 +1120,7 @@
               "image": "./dist/assets/images/team/Felipe.png",
               "name": "Felipe Sant Ana",
               "job": "Project Lead",
-              "text": "Crowdfunding pioneer in Brazil, ESPM alumni, ex-Endeavor & BossaNovaFilms."
+              "text": "Crowdfunding pioneer in Brazil, ESPM alumnus, ex-Endeavor & BossaNovaFilms."
             },
             {
               "url": "https://github.com/jellegerbrandy",
@@ -1134,14 +1134,14 @@
               "image": "./dist/assets/images/team/Yahya.png",
               "name": "Mohamed Yahya",
               "job": "Lead P2P Engineer",
-              "text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumni."
+              "text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumnus."
             },
             {
               "url": "https://github.com/bent0b0x",
               "image": "./dist/assets/images/team/Ben.png",
               "name": "Benjamin Baum",
               "job": "Lead Frontend Engineer",
-              "text": "University of Cornell alumni and former research assistant, senior software engineer at Hubspot."
+              "text": "University of Cornell alumnus and former research assistant, senior software engineer at Hubspot."
             },
             {
               "url": "http://garou.in/",
@@ -1169,7 +1169,7 @@
               "image": "./dist/assets/images/team/Pedro.png",
               "name": "Pedro Casagrande",
               "job": "Designer",
-              "text": "ESPM alumni, previously at Estudio Pulpo and Design Lab ESPM."
+              "text": "ESPM alumnus, previously at Estudio Pulpo and Design Lab ESPM."
             },
             {
               "url": "https://www.linkedin.com/in/lupape/",
@@ -1183,7 +1183,7 @@
               "image": "./dist/assets/images/team/Daniel.png",
               "name": "Daniel Quandt",
               "job": "Community Manager",
-              "text": "USP-SP graduate and intern at innovation agency, reddit dinosaur."
+              "text": "USP alumnus, communication innovation researcher and enthusiast, reddit dinosaur"
             },
             {
               "url": "",
@@ -1874,25 +1874,25 @@
               "text": "发布蓝皮书 + 完成协议",
               "textDate": "2018年4月",
               "dateStart": "2018-04-01",
-              "dateEnd": "2018-04-30"
+              "dateEnd": "2018-06-30"
             },
             {
               "text": "通证发行",
-              "textDate": "2018年5月",
-              "dateStart": "2018-05-01",
-              "dateEnd": "2018-05-31"
+              "textDate": "2018年7月",
+              "dateStart": "2018-07-01",
+              "dateEnd": "2018-07-31"
             },
             {
               "text": "发布者试点项目",
               "textDate": "2018年二季度",
-              "dateStart": "2018-06-01",
-              "dateEnd": "2018-06-30"
+              "dateStart": "2018-08-01",
+              "dateEnd": "2018-08-31"
             },
             {
               "text": "主合约连接主干网",
               "textDate": "2018年三季度",
-              "dateStart": "2018-08-01",
-              "dateEnd": "2018-08-30"
+              "dateStart": "2018-09-01",
+              "dateEnd": "2018-09-30"
             }
           ]
         },

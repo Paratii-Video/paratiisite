@@ -35,6 +35,7 @@
   import SectionHeader from '../shared/SectionHeader'
 
   export default {
+    name: 'SectionVideos',
     props: ['content'],
     components: {
       SectionHeader

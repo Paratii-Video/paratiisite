@@ -33,6 +33,7 @@
   import FaqItem from './faq/FaqItem'
 
   export default {
+    name: 'SectionFaq',
     props: ['content'],
     components: {
       SectionHeader,

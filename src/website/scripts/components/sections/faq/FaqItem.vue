@@ -28,6 +28,7 @@
 
 <script>
   export default {
+    name: 'FaqItem',
     props: ['title', 'text'],
     data () {
       return {

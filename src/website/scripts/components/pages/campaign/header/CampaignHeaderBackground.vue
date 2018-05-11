@@ -37,3 +37,9 @@
     </g>
   </svg>
 </template>
+
+<script>
+  export default {
+    name: "CampaignHeaderBackground"
+  }
+</script>

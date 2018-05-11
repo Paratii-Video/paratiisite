@@ -12,6 +12,7 @@
   import SectionHeader from '../shared/SectionHeader'
 
   export default {
+    name: 'Admin'
     props: ['content'],
     components: {
       SectionHeader

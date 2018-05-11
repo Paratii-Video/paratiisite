@@ -8,6 +8,10 @@ const mixins = {
         eventLabel: options.eventLabel,
         eventValue: options.eventValue
       });
+    },
+    goTo (to) {
+      this.$store.commit('closeNav')
+      this.$router.push(to)
     }
   }
 }

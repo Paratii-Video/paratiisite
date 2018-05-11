@@ -49,6 +49,7 @@
   import SectionHeader from '../shared/SectionHeader'
 
   export default {
+    name: 'SectionTeam',
     props: [
       'colorful',
       'content'
