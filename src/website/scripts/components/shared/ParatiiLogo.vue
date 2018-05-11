@@ -1,10 +1,19 @@
 <template>
   <h1 class="main-title">
-    <router-link
+    <a
       class="main-title-link"
-      v-bind:to="{ path: '/'}"
+      v-on:click.prevent="goTo('/')"
     >
       <svg class="main-title-svg"><use xlink:href="#paratii-logo"></use></svg>
-    </router-link>
+    </a>
   </h1>
 </template>
+
+<script>
+  import mixins from '../../mixins'
+
+  export default {
+    name: 'ParatiiLogo',
+    mixins: [mixins]
+  }
+</script>

@@ -53,6 +53,7 @@ $size-main-nav-mobile-top: 52px;
     };
   }
 
+  &-fake-link,
   &-link {
     color: $color-white;
     display: block;
@@ -62,7 +63,6 @@ $size-main-nav-mobile-top: 52px;
     line-height: $size-main-title-height;
     letter-spacing: 0.4px;
     transition: color $anim-time-repaint;
-    
     @include screenMobile {
       color: $color-black;
       font-size: 0.9rem;
@@ -74,12 +74,14 @@ $size-main-nav-mobile-top: 52px;
       color: $color-black;
     }
 
-    &:hover {
-      color: $color-purple-light;
-    }
-
     .campaign-theme & {
       color: $color-campaign-text;
+    }
+  }
+
+  &-link {
+    &:hover {
+      color: $color-purple-light;
     }
   }
 }
