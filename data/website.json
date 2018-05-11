@@ -320,7 +320,7 @@
               "image": "./dist/assets/images/team/Felipe.png",
               "name": "Felipe Sant Ana",
               "job": "Project Lead",
-              "text": "Crowdfunding pioneer in Brazil, ESPM alumni, ex-Endeavor & BossaNovaFilms."
+              "text": "Crowdfunding pioneer in Brazil, ESPM alumnus, ex-Endeavor & BossaNovaFilms."
             },
             {
               "url": "https://github.com/jellegerbrandy",
@@ -334,14 +334,14 @@
               "image": "./dist/assets/images/team/Yahya.png",
               "name": "Mohamed Yahya",
               "job": "Lead P2P Engineer",
-              "text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumni."
+              "text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumnus."
             },
             {
               "url": "https://github.com/bent0b0x",
               "image": "./dist/assets/images/team/Ben.png",
               "name": "Benjamin Baum",
               "job": "Lead Frontend Engineer",
-              "text": "University of Cornell alumni and former research assistant, senior software engineer at Hubspot."
+              "text": "University of Cornell alumnus and former research assistant, senior software engineer at Hubspot."
             },
             {
               "url": "http://garou.in/",
@@ -369,7 +369,7 @@
               "image": "./dist/assets/images/team/Pedro.png",
               "name": "Pedro Casagrande",
               "job": "Designer",
-              "text": "ESPM alumni, previously at Estudio Pulpo and Design Lab ESPM."
+              "text": "ESPM alumnus, previously at Estudio Pulpo and Design Lab ESPM."
             },
             {
               "url": "https://www.linkedin.com/in/lupape/",
@@ -383,7 +383,7 @@
               "image": "./dist/assets/images/team/Daniel.png",
               "name": "Daniel Quandt",
               "job": "Community Manager",
-              "text": "USP-SP graduate and intern at innovation agency, reddit dinosaur."
+              "text": "USP alumnus, communication innovation researcher and enthusiast, reddit dinosaur"
             },
             {
               "url": "https://github.com/",
@@ -1120,7 +1120,7 @@
               "image": "./dist/assets/images/team/Felipe.png",
               "name": "Felipe Sant Ana",
               "job": "Project Lead",
-              "text": "Crowdfunding pioneer in Brazil, ESPM alumni, ex-Endeavor & BossaNovaFilms."
+              "text": "Crowdfunding pioneer in Brazil, ESPM alumnus, ex-Endeavor & BossaNovaFilms."
             },
             {
               "url": "https://github.com/jellegerbrandy",
@@ -1134,14 +1134,14 @@
               "image": "./dist/assets/images/team/Yahya.png",
               "name": "Mohamed Yahya",
               "job": "Lead P2P Engineer",
-              "text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumni."
+              "text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumnus."
             },
             {
               "url": "https://github.com/bent0b0x",
               "image": "./dist/assets/images/team/Ben.png",
               "name": "Benjamin Baum",
               "job": "Lead Frontend Engineer",
-              "text": "University of Cornell alumni and former research assistant, senior software engineer at Hubspot."
+              "text": "University of Cornell alumnus and former research assistant, senior software engineer at Hubspot."
             },
             {
               "url": "http://garou.in/",
@@ -1169,7 +1169,7 @@
               "image": "./dist/assets/images/team/Pedro.png",
               "name": "Pedro Casagrande",
               "job": "Designer",
-              "text": "ESPM alumni, previously at Estudio Pulpo and Design Lab ESPM."
+              "text": "ESPM alumnus, previously at Estudio Pulpo and Design Lab ESPM."
             },
             {
               "url": "https://www.linkedin.com/in/lupape/",
@@ -1183,7 +1183,7 @@
               "image": "./dist/assets/images/team/Daniel.png",
               "name": "Daniel Quandt",
               "job": "Community Manager",
-              "text": "USP-SP graduate and intern at innovation agency, reddit dinosaur."
+              "text": "USP alumnus, communication innovation researcher and enthusiast, reddit dinosaur"
             },
             {
               "url": "",
