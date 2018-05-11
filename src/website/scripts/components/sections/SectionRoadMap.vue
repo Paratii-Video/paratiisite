@@ -68,6 +68,7 @@
   import SectionHeader from '../shared/SectionHeader'
 
   export default {
+    name: 'SectionRoadMap',
     props: ['content'],
     components: {
       SectionHeader

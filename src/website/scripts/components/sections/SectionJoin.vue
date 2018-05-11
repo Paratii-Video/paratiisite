@@ -37,6 +37,7 @@
   import mixins from '../../mixins'
 
   export default {
+    name: 'SectionJoin',
     props: ['content'],
     mixins: [mixins],
     components: {

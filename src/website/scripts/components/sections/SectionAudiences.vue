@@ -53,6 +53,7 @@
   import mixins from '../../mixins'
 
   export default {
+    name: 'SectionAudiences',
     props: ['content'],
     mixins: [mixins],
     components: {

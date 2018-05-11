@@ -52,6 +52,7 @@
   import SectionHeader from '../shared/SectionHeader'
 
   export default {
+    name: 'SectionComponents',
     props: ['content'],
     data () {
       return {

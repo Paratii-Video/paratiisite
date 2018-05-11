@@ -30,6 +30,7 @@
   import SectionHeader from '../shared/SectionHeader'
 
   export default {
+    name: 'SectionFeatures',
     props: ['content'],
     components: {
       SectionHeader

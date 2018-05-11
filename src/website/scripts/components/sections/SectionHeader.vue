@@ -39,6 +39,7 @@
   import mixins from '../../mixins'
 
   export default {
+    name: 'SectionHeader',
     props: ['content'],
     mixins: [mixins],
     methods: {
