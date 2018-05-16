@@ -10,9 +10,10 @@
         class="campaign-text campaign-header-text"
         v-html="content.text"
       />
-      <router-link
+      <a
         class="paratii-button campaign-button"
-        to="/"
+        target="_blank"
+        :href="content.buttonHref"
         v-text="content.button"
       />
     </div>
