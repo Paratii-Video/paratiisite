@@ -13,8 +13,9 @@
       <a
         class="paratii-button campaign-button"
         target="_blank"
-        :href="content.buttonHref"
         v-text="content.button"
+        v-bind:href="content.buttonHref"
+        v-on:click="sendGA(content.ga)"
       />
     </div>
   </section>
@@ -22,10 +23,12 @@
 
 <script>
   import CampaignHeaderBg from './header/CampaignHeaderBackground'
+  import mixins from '../../../mixins'
 
   export default {
     name: "CampaignHeader",
     props: ['content'],
+    mixins: [mixins],
     components: {
       CampaignHeaderBg
     }

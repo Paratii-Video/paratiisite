@@ -674,7 +674,14 @@
             "title": "Welcome to the world of decentralized video!",
             "text": "<strong>That means you’re the boss.</strong> Have you ever had a video of yours demonetized for no reason? No more! If you busted your ass to record your content, why should a bunch of middlemen make the money instead of you? It’s time for a change. It’s time for Paratii.",
             "button": "Access the alpha version",
-            "buttonHref": "https://portal.paratii.video/"
+            "buttonHref": "https://portal.paratii.video/",
+            "ga": {
+              "hitType": "event",
+              "eventCategory": "Visite",
+              "eventAction": "Enviar",
+              "eventLabel": "Site",
+              "eventValue": "107"
+            }
           },
           "about": {
             "title": "A developing project",
@@ -1475,7 +1482,14 @@
             "title": "Seja bem-vindo à primeira comunidade de vídeo descentralizada do Brasil.",
             "text": "<strong>Isso significa que quem manda é você: </strong> já teve seu vídeo desmonetizado sem motivo? Coisa do passado! Se você que se matou pra gravar o seu conteúdo, por que tem um monte de gente no meio do caminho ganhando em cima disso? Chegou a hora de mudar. Chegou a hora da Paratii.",
             "button": "Acesse a versão alpha",
-            "buttonHref": "https://portal.paratii.video/"
+            "buttonHref": "https://portal.paratii.video/",
+            "ga": {
+              "hitType": "event",
+              "eventCategory": "Visite",
+              "eventAction": "Enviar",
+              "eventLabel": "Site",
+              "eventValue": "107"
+            }
           },
           "about": {
             "title": "Um projeto em construção",
@@ -2279,7 +2293,14 @@
             "title": "Welcome to the world of decentralized video!",
             "text": "<strong>That means you’re the boss.</strong> Have you ever had a video of yours demonetized for no reason? No more! If you busted your ass to record your content, why should a bunch of middlemen make the money instead of you? It’s time for a change. It’s time for Paratii.",
             "button": "Access the alpha version",
-            "buttonHref": "https://portal.paratii.video/"
+            "buttonHref": "https://portal.paratii.video/",
+            "ga": {
+              "hitType": "event",
+              "eventCategory": "Visite",
+              "eventAction": "Enviar",
+              "eventLabel": "Site",
+              "eventValue": "107"
+            }
           },
           "about": {
             "title": "A developing project",
