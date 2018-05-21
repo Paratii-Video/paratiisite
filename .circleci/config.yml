@@ -19,7 +19,7 @@ jobs:
               sh ./deploy.sh production
             fi
             if [ "${CIRCLE_BRANCH}" == "deployment" then
-              gulp deploy
+              apt install rsync
               rsync -avzh paratiisite ec2-user@www.paratii.video:/home/ec2-user/
               ssh -o StrictHostKeyChecking=no ec2-user@www.paratii.video "bash update.sh"
             fi
