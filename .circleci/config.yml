@@ -16,9 +16,6 @@ jobs:
       - deploy:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              sh ./deploy.sh production
-            fi
-            if [ "${CIRCLE_BRANCH}" == "deployment" ]; then
               cd
               sudo apt install rsync
               rsync -avzh repo ec2-user@www.paratii.video:/home/ec2-user/ -e "ssh -o StrictHostKeyChecking=no"
