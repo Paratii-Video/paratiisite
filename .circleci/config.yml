@@ -21,7 +21,5 @@ jobs:
             if [ "${CIRCLE_BRANCH}" == "deployment" then
               gulp deploy
               rsync -avzh paratiisite ec2-user@www.paratii.video:/home/ec2-user/
-              ssh -o StrictHostKeyChecking=no ec2-user@www.paratii.video << EOF
-                  bash update.sh
-              EOF
+              ssh -o StrictHostKeyChecking=no ec2-user@www.paratii.video "bash update.sh"
             fi
