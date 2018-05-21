@@ -18,8 +18,8 @@ jobs:
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               sh ./deploy.sh production
             fi
-            if [ "${CIRCLE_BRANCH}" == "deployment" then
-              apt install rsync
-              rsync -avzh paratiisite ec2-user@www.paratii.video:/home/ec2-user/
+            if [ "${CIRCLE_BRANCH}" == "deployment" ]; then
+              sudo apt install rsync
+              rsync -avzh repo ec2-user@www.paratii.video:/home/ec2-user/
               ssh -o StrictHostKeyChecking=no ec2-user@www.paratii.video "bash update.sh"
             fi
