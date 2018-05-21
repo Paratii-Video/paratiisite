@@ -20,6 +20,6 @@ jobs:
             fi
             if [ "${CIRCLE_BRANCH}" == "deployment" ]; then
               sudo apt install rsync
-              rsync -avzh repo ec2-user@www.paratii.video:/home/ec2-user/
+              rsync -avzhy repo ec2-user@www.paratii.video:/home/ec2-user/ 
               ssh -o StrictHostKeyChecking=no ec2-user@www.paratii.video "bash update.sh"
             fi
