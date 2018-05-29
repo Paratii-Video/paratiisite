@@ -18,10 +18,6 @@ const routes = [
   },
   {
     path: '/join',
-    component: PageJoin
-  },
-  {
-    path: '/campaign',
     component: PageCampaign
   },
   {
