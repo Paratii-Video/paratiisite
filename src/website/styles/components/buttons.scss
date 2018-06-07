@@ -94,3 +94,46 @@ $size-paratii-button-icon: 22px;
   margin-right: 8px;
   width: $size-paratii-button-icon;
 }
+
+// Styling buttons
+
+.button-telegram {
+  align-items: center;
+  background: $color-lipstick;
+  border: 1px solid $color-lipstick;
+  border-radius: 4px;
+  color: $color-white;
+  display: inline-flex;
+  font-size: 0.9rem;
+  height: 40px;
+  padding: 0 10px;
+  transition: all $anim-time-repaint;
+
+  &:hover {
+    background-color: $color-lipstick-dark;
+    border-color: $color-lipstick-dark;
+    color: $color-white;
+  }
+
+  .out-of-top & {
+    background: transparent;
+    color: $color-campaign-text-light;
+    border-color: $color-campaign-text-light;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &-icon {
+    fill: $color-white;
+    height: 20px;
+    margin-right: 18px;
+    transition: fill $anim-time-repaint;
+    width: 20px;
+
+    .out-of-top & {
+      fill: $color-campaign-text-light;
+    }
+  }
+}

@@ -7,10 +7,11 @@ $size-main-nav-mobile-top: 52px;
 // nav
 
 .main-nav {
+  align-items: center;
   display: flex;
   flex-direction: row-reverse;
 
-  @include screenMobile {
+  @include screenTablet {
     display: block;
     height: calc(100vh - #{$size-main-nav-mobile-top});
     left: 0;
@@ -25,18 +26,26 @@ $size-main-nav-mobile-top: 52px;
     width: 100vw;
   };
 
+  .button-telegram {
+    margin-left: 30px;
+  }
+
   .nav-open & {
-    @include screenMobile {
+    @include screenTablet {
       opacity: 1;
       pointer-events: initial;
       transition: opacity $anim-time-repaint linear .3s;
     };
+
+    .button-telegram {
+      margin: 0 0 30px 30px;
+    }
   }
 
   &-list {
     display: flex;
 
-    @include screenMobile {
+    @include screenTablet {
       flex-direction: column;
     }
   }
@@ -44,11 +53,11 @@ $size-main-nav-mobile-top: 52px;
   &-item {
     margin-left: 30px;
     
-    @include screenPhablet {
+    @include screenTablet {
       margin-left: 15px;
     };
     
-    @include screenMobile {
+    @include screenTablet {
       margin: 0 30px;
     };
   }
@@ -63,7 +72,7 @@ $size-main-nav-mobile-top: 52px;
     line-height: $size-main-title-height;
     letter-spacing: 0.4px;
     transition: color $anim-time-repaint;
-    @include screenMobile {
+    @include screenTablet {
       color: $color-black;
       font-size: 0.9rem;
       height: $size-main-title-height-mobile;
@@ -112,7 +121,7 @@ $size-main-nav-mobile-top: 52px;
     pointer-events: initial;
   }
 
-  @include screenMobile {
+  @include screenTablet {
     box-shadow: initial;
     position: relative;
     transform: translate3d(0, 0, 0);
@@ -141,7 +150,7 @@ $size-main-nav-mobile-top: 52px;
       color: $color-lipstick;
     }
 
-    @include screenMobile {
+    @include screenTablet {
       font-size: 0.9rem;
       height: $size-main-title-height-mobile;
       line-height: $size-main-title-height-mobile;
@@ -179,7 +188,7 @@ $size-main-nav-mobile-top: 52px;
       color: $color-black;
     }
 
-    @include screenMobile {
+    @include screenTablet {
       color: $color-black;
     }
 

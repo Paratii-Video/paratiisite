@@ -91,6 +91,14 @@ $query-desktop: "(min-width: #{$screen-notebook})";
   position: absolute;
 }
 
+// Text
+
+.truncate-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 // Animation
 
 .hover-opacity {
