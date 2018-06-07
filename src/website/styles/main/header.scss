@@ -10,7 +10,7 @@
   z-index: $zindex-main-header;
 
   .nav-open & {
-    @include screenMobile {
+    @include screenTablet {
       height: 100vh;
     };
   }
@@ -29,7 +29,7 @@
     transition: all .5s $ease-smooth;
     width: 100%;
     
-    @include screenMobile {
+    @include screenTablet {
       height: $size-main-header-bg-mobile;
     }
 
@@ -42,14 +42,14 @@
       background: $color-campaign-header-background;
       height: $size-main-header-bg-campaign;
     
-      @include screenMobile {
+      @include screenTablet {
         height: $size-main-header-bg-campaign-mobile;
       }
     }
   }
 
   .nav-open &::before {
-    @include screenMobile {
+    @include screenTablet {
       height: 100vh;
       transform: translate3d(0, 0, 0);
     }
@@ -64,7 +64,7 @@
     transform: translate3d(0, $size-main-header-wrapper-top, 0);
     transition: transform .5s $ease-smooth;
 
-    @include screenMobile {
+    @include screenTablet {
       align-items: initial;
       flex-direction: column;
     }
@@ -73,7 +73,7 @@
       transform: translate3d(0, 22px, 0);
       transition: transform .7s $ease-smooth;
 
-      @include screenMobile {
+      @include screenTablet {
         transform: translate3d(0, 13px, 0);
       }
     }
@@ -82,7 +82,7 @@
       transform: translate3d(0, 11px, 0);
       transition: transform .7s $ease-smooth;
 
-      @include screenMobile {
+      @include screenTablet {
         transform: translate3d(0, 13px, 0);
       }
     }
@@ -98,11 +98,11 @@
   transition: transform .5s $ease-smooth;
   width: $size-main-title-width;
 
-  @include screenPhablet {
+  @include screenTablet {
     width: 155px;
   }
 
-  @include screenMobile {
+  @include screenTablet {
     height: $size-main-title-height-mobile;
     width: $size-main-title-width-mobile;
   }
@@ -115,7 +115,7 @@
     height: $size-main-title-height-campaign;
     width: $size-main-title-width-campaign;
 
-    @include screenMobile {
+    @include screenTablet {
       height: $size-main-title-height-campaign-mobile;
       width: $size-main-title-width-campaign-mobile;
     }
@@ -206,7 +206,7 @@
     }
   }
 
-  @include screenMobile {
+  @include screenTablet {
     display: block;
   }
 }

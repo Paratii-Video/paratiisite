@@ -4,8 +4,17 @@
       <ParatiiLogo></ParatiiLogo>
       <nav class="main-nav">
         <h2 class="visually-hidden">{{getLanguageContent.nav.title}}</h2>
+        <a
+          class="button-telegram"
+          target="_blank"
+          :href="getLanguageContent.nav.buttonTelegramHref">
+          <svg class="button-telegram-icon">
+            <use xlink:href="#icon-social-telegram-2" />
+          </svg>
+          <span>{{getLanguageContent.nav.buttonTelegram}}</span>
+        </a>
         <NavLang />
-        <MainNav />
+        <MainNav />      
       </nav>
     </div>
 
