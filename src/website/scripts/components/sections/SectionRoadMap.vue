@@ -1,65 +1,16 @@
 <template>
-  <section class="main-section main-section--color paratii-roadmap">
+  <section class="main-section paratii-roadmap">
     <div class="main-section-wrapper">
       <SectionHeader
         v-bind:title="content.title"
         v-bind:subtitle="content.subtitle"
       ></SectionHeader>
-      <div class="main-section-content main-section-content--with-margin">
+      <div class="main-section-content">
         <p class="main-section-content-text">{{content.text}}</p>
       </div>
-      <div class="main-section-content main-section-content--no-padding paratii-roadmap-content">
-
-        <ol class="paratii-roadmap-list">
-          <li
-            class="paratii-roadmap-item"
-            v-for="(item, index) in content.listA"
-            v-bind:class="roadmapClass('paratii-roadmap-item--', item)"
-            v-bind:key="index"
-          >
-            
-            <div
-              class="paratii-roadmap-item-icon"
-              v-bind:class="setLoopClass('paratii-roadmap-item-icon--', index)"
-            >
-              <svg class="paratii-roadmap-item-svg">
-                <use
-                  v-bind:xlink:href="setLoopClass('dist/assets/svgs/paratii-roadmap-icons.svg#roadmap-icon-', index)"
-                />
-              </svg>
-            </div>
-            
-            <p class="paratii-roadmap-item-text">{{item.text}}</p>
-            <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>{{item.textDate}}</p>
-          </li>
-        </ol>
-        <ol class="paratii-roadmap-list paratii-roadmap-list--reverse">
-          <li
-           class="paratii-roadmap-item"
-           v-for="(item, index) in content.listB"
-           v-bind:class="roadmapClass('paratii-roadmap-item--', item)"
-           v-bind:key="index"
-          >
-            <div
-              class="paratii-roadmap-item-icon"
-              v-bind:class="setLoopClass('paratii-roadmap-item-icon--', index)"
-              v-bind:key="index"
-            >
-              <svg class="paratii-roadmap-item-svg">
-                <use
-                  v-bind:xlink:href="setLoopClass('dist/assets/svgs/paratii-roadmap-icons.svg#roadmap-icon-', (index + 5))"
-                />
-              </svg>
-            </div>
-            
-            <p class="paratii-roadmap-item-text">{{item.text}}</p>
-            <p class="paratii-roadmap-item-date"><span class="paratii-roadmap-item-date-icon"></span>{{item.textDate}}</p>
-          </li>
-        </ol>
-
-        <span class="paratii-roadmap-path"></span>
-      </div>
     </div>
+    <img class="paratii-roadmap-map hide-phablet" src="/dist/assets/images/roadmap/map.png">
+    <img class="paratii-roadmap-map show-phablet" src="/dist/assets/images/roadmap/map-mobile.png">
   </section>
 
 </template>

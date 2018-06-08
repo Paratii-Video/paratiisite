@@ -8,47 +8,25 @@ $size-paratii-roadmap-item-bottom: 30px;
 //
 
 .paratii-roadmap {
-  background: $color-bluish-purple url('/dist/assets/images/bg-pattern.png');
-  overflow: hidden;
-  padding-bottom: 80px;
-  position: relative;
+  padding-top: 0;
 
-  @include screenTablet {
-    padding-bottom: 25px;
-  }
 
-  @include screenMobile {
-    padding: 90px 0 0;
-  }
-
-  @include screenMobileMax {
-    padding-bottom: 40px;
-  }
-
-  &::after {
-    @extend .pos-a-b;
-
-    background: $color-white;
-    content: '';
-    height: 415px;
-    left: 0;
+  &-map {
     width: 100%;
-    z-index: 1;
+    &.hide-phablet {
+      display: block;
 
-    @include screenTablet {
-      height: 300px;
+      @include screenPhablet {
+        display: none;
+      }
     }
 
-    @include screenPhablet {
-      height: 750px;
-    }
+    &.show-phablet {
+      display: none;
 
-    @include screenMobile {
-      height: 400px;
-    }
-
-    @include screenMobileMax {
-      height: 270px;
+      @include screenPhablet {
+        display: block;
+      }
     }
   }
 

@@ -16,7 +16,7 @@
       v-bind:content="getLanguageContent.sections.team"></SectionTeam>
     <SectionTeam
       v-bind:content="getLanguageContent.sections.advisors"
-      colorful="true"
+      advisors="true"
     ></SectionTeam>
     <SectionOnTheNews
       v-bind:content="getLanguageContent.sections.onthenews"></SectionOnTheNews>
