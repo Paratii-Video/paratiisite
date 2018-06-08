@@ -23,7 +23,7 @@
                 },
                 {
                   "label": "The PTI Token",
-                  "href": "https://i.redd.it/3ypnjz1grdo01.png",
+                  "href": "https://github.com/Paratii-Video/wiki/wiki/The-PTI-token",
                   "target": "_blank"
                 },
                 {
@@ -845,8 +845,8 @@
                   "target": "_blank"
                 },
                 {
-                  "label": "The PTI Token",
-                  "href": "https://i.redd.it/3ypnjz1grdo01.png",
+                  "label": "O token PTI",
+                  "href": "https://github.com/Paratii-Video/wiki/wiki/The-PTI-token",
                   "target": "_blank"
                 },
                 {
@@ -857,19 +857,19 @@
               ]
             },
             {
-              "label": "Code",
+              "label": "Código",
               "class": "hide-on-campaign",
               "list": [
                 {
-                  "label": "The Player",
+                  "label": "O Player",
                   "href": "https://github.com/Paratii-Video/paratii-mediaplayer"
                 },
                 {
-                  "label": "The Contracts",
+                  "label": "Os Contratos",
                   "href": "https://github.com/Paratii-Video/paratii-contracts"
                 },
                 {
-                  "label": "The Protocol",
+                  "label": "O Protocolo",
                   "href": "https://github.com/Paratii-Video/paratii-protocol"
                 }
               ]
@@ -1663,7 +1663,7 @@
                 },
                 {
                   "label": "The PTI Token",
-                  "href": "https://i.redd.it/3ypnjz1grdo01.png",
+                  "href": "https://github.com/Paratii-Video/wiki/wiki/The-PTI-token",
                   "target": "_blank"
                 },
                 {
