@@ -1,5 +1,5 @@
 <template>
-  <section id="team" class="main-section paratii-team" v-bind:class="{colorful: colorful}">
+  <section id="team" class="main-section paratii-team" v-bind:class="{advisors: advisors}">
     <div class="main-section-wrapper">
       <SectionHeader
         nomargin
@@ -51,7 +51,7 @@
   export default {
     name: 'SectionTeam',
     props: [
-      'colorful',
+      'advisors',
       'content'
     ],
     components: {
@@ -59,7 +59,7 @@
     },
     computed: {
       fewItems () {
-        return this.content.list.length < 3 
+        return this.content.list.length < 4 
       }
     }
   }
