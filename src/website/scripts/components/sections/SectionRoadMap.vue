@@ -1,5 +1,5 @@
 <template>
-  <section class="main-section paratii-roadmap">
+  <section id="roadmap" class="main-section paratii-roadmap">
     <div class="main-section-wrapper">
       <SectionHeader
         v-bind:title="content.title"

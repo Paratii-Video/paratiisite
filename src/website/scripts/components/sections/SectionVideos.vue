@@ -10,15 +10,19 @@
         <p class="main-section-content-text">{{content.text}}</p>
       </div>
       <div class="paratii-videos-list">
-        <iframe
+        <div
           class="paratii-videos-item"
-          v-bind:src="item.url"
-          webkitallowfullscreen="true"
-          mozallowfullscreen="true"
-          allowfullscreen="true" 
           v-for="(item, index) in content.list"
           v-bind:key="index"
-        />
+        >
+          <iframe
+            class="paratii-videos-iframe"
+            v-bind:src="item.url"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowfullscreen="true"
+          />
+        </div>
       </div>
         <div class="main-section-call">
           <a
