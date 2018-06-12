@@ -19,7 +19,7 @@
                 {
                   "label": "Roadmap",
                   "href": "/#roadmap",
-                  "target": "_self"
+                  "router": true
                 },
                 {
                   "label": "Whitepaper",
@@ -848,7 +848,7 @@
                   {
                   "label": "Roadmap",
                   "href": "/#roadmap",
-                  "target": "_self"
+                  "router": true
                 },
                 {
                   "label": "Whitepaper",
@@ -1671,7 +1671,7 @@
                 {
                   "label": "Roadmap",
                   "href": "/#roadmap",
-                  "target": "_self"
+                  "router": true
                 },
                 {
                   "label": "Whitepaper",

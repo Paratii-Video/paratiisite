@@ -37,9 +37,9 @@
             >
               <a
                 class="main-subnav-link"
-                v-bind:href="item.href"
+                v-bind:href="item2.href"
                 v-bind:target="item2.target"
-                v-on:click.prevent="goTo(item.href)"
+                v-on:click.prevent="goTo(item2.href)"
                 v-if="item2.router"
               >{{item2.label}}</a>
               <a
