@@ -18,6 +18,7 @@
                 },
                 {
                   "label": "Roadmap",
+                  "router": true,
                   "href": "/#roadmap",
                 },
                 {
@@ -850,6 +851,7 @@
                 },
                 {
                   "label": "Roadmap",
+                  "router": true,
                   "href": "/#roadmap",
                 },
                 {
@@ -1676,6 +1678,7 @@
                 },
                 {
                   "label": "Roadmap",
+                  "router": true,
                   "href": "/#roadmap",
                 },
                 {
