@@ -17,6 +17,10 @@
                   "target": "_blank"
                 },
                 {
+                  "label": "Roadmap",
+                  "href": "/#roadmap",
+                },
+                {
                   "label": "Whitepaper",
                   "href": "https://github.com/Paratii-Video/wiki/wiki/Paratii-Blueprint",
                   "target": "_blank"
@@ -845,6 +849,10 @@
                   "target": "_blank"
                 },
                 {
+                  "label": "Roadmap",
+                  "href": "/#roadmap",
+                },
+                {
                   "label": "Whitepaper",
                   "href": "https://github.com/Paratii-Video/wiki/wiki/Paratii-Blueprint",
                   "target": "_blank"
@@ -1665,6 +1673,10 @@
                   "label": "OnePager",
                   "href": "https://paratii.video/dist/assets/images/OnePager%20Paratii.pdf",
                   "target": "_blank"
+                },
+                {
+                  "label": "Roadmap",
+                  "href": "/#roadmap",
                 },
                 {
                   "label": "Whitepaper",
