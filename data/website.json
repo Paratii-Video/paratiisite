@@ -18,8 +18,8 @@
                 },
                 {
                   "label": "Roadmap",
-                  "router": true,
                   "href": "/#roadmap",
+                  "target": "_self"
                 },
                 {
                   "label": "Whitepaper",
@@ -851,8 +851,8 @@
                 },
                 {
                   "label": "Roadmap",
-                  "router": true,
                   "href": "/#roadmap",
+                  "target": "_self"
                 },
                 {
                   "label": "Whitepaper",
@@ -1678,8 +1678,8 @@
                 },
                 {
                   "label": "Roadmap",
-                  "router": true,
                   "href": "/#roadmap",
+                  "target": "_self"
                 },
                 {
                   "label": "Whitepaper",
