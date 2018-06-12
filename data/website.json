@@ -411,7 +411,7 @@
               "url": "https://medium.com/@flavioribeiro",
               "image": "./dist/assets/images/advisors/Ribeiro.png",
               "name": "Flávio Ribeiro",
-              "job": "Lead Video Engineer @ NYTimes",
+              "job": "Principal Engineer @ CBS Interactive",
               "text": "Co-inventor of the Clappr player, co-architect of the 2014 World Cup online live streaming for globo.com, lead video engineer at the New York Times."
             },
             {
@@ -459,6 +459,11 @@
                   "href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
                   "title": "Livecoins",
                   "image": "./dist/assets/images/on-the-news/logo-livecoins.png"
+                },
+                {
+                  "href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
+                  "title": "Proxxima",
+                  "image": "./dist/assets/images/on-the-news/proxxima.png"
                 }
               ]
             }
@@ -1088,25 +1093,25 @@
             },
             {
               "text": "Publicação do bluepaper + protocolo funcional",
-              "textDate": "Mai 2018",
+              "textDate": "Jun 2018",
               "dateStart": "2018-04-01",
               "dateEnd": "2018-06-30"
             },
             {
               "text": "Evento de distribuição dos tokens",
-              "textDate": "Jul 2018",
+              "textDate": "Q4 2018",
               "dateStart": "2018-07-01",
               "dateEnd": "2018-07-31"
             },
             {
               "text": "Programa piloto com publishers",
-              "textDate": "Q2 2018",
+              "textDate": "Q4 2018",
               "dateStart": "2018-08-01",
               "dateEnd": "2018-08-31"
             },
             {
               "text": "Bridging de contratos principais à mainnet",
-              "textDate": "Q3 2018",
+              "textDate": "Q4 2018",
               "dateStart": "2018-09-01",
               "dateEnd": "2018-09-30"
             }
@@ -1228,7 +1233,7 @@
               "url": "https://medium.com/@flavioribeiro",
               "image": "./dist/assets/images/advisors/Ribeiro.png",
               "name": "Flávio Ribeiro",
-              "job": "Lead Video Engineer @ NYTimes",
+              "job": "Principal Engineer @ CBS Interactive",
               "text": "Co-inventor of the Clappr player, co-architect of the 2014 World Cup online live streaming for globo.com, lead video engineer at the New York Times."
             },
             {
@@ -1276,6 +1281,11 @@
                   "href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
                   "title": "Livecoins",
                   "image": "./dist/assets/images/on-the-news/logo-livecoins.png"
+                },
+                {
+                  "href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
+                  "title": "Proxxima",
+                  "image": "./dist/assets/images/on-the-news/proxxima.png"
                 }
               ]
             }
@@ -2048,7 +2058,7 @@
               "url": "https://medium.com/@flavioribeiro",
               "image": "./dist/assets/images/advisors/Ribeiro.png",
               "name": "Flávio Ribeiro",
-              "job": "Lead Video Engineer @ NYTimes",
+              "job": "Principal Engineer @ CBS Interactive",
               "text": "Co-inventor of the Clappr player, co-architect of the 2014 World Cup online live streaming for globo.com, lead video engineer at the New York Times."
             },
             {
@@ -2096,6 +2106,11 @@
                   "href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
                   "title": "Livecoins",
                   "image": "./dist/assets/images/on-the-news/logo-livecoins.png"
+                },
+                {
+                  "href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
+                  "title": "Proxxima",
+                  "image": "./dist/assets/images/on-the-news/proxxima.png"
                 }
               ]
             }
