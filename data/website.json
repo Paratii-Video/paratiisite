@@ -90,7 +90,7 @@
       "sections": {
         "header": {
           "title": "A new era for your videos",
-          "text": "Share stories without middlemen imposing taxes. Monetize with ads, subscriptions, or the way you wish. Engage audiences by letting them earn while watching.",
+          "text": "Share stories without middlemen imposing taxes. Monetize with ads, subscriptions, or the way you invent. Engage audiences by letting them earn while watching.",
           "image": "./dist/assets/svgs/paratii-header.svg",
           "small": "<strong>Beta version to be released soon.</strong><br> Subscribe now and don't miss out.",
           "buttonA": "Request publisher demo",
@@ -423,8 +423,8 @@
               "url": "https://dna.fund/",
               "image": "./dist/assets/images/advisors/James.png",
               "name": "James Glasscock",
-              "job": "Co-founder @ DNA.Fund",
-              "text": "Previously VP of Distribution Business Development at Warner Bros, SVP of Business Development at Machinima, SVP of Strategic Planning & Broadcast Operations at Playboy TV."
+              "job": "Ex-VP @ Warner Bros, Machinima",
+              "text": "Co-founder of DNA.fund, previously VP of Distribution Business Development at Warner Bros, SVP of Business Development at Machinima, SVP of Strategic Planning & Broadcast Operations at Playboy TV."
             }
           ]
         },
@@ -495,7 +495,7 @@
               "group": [
                 {
                   "title": "What is Paratii?",
-                  "text": "Paratii is a new online platform for video that aims to change the way you publish and consume content on the internet. Through its decentralized architecture and democratic monetization model, as well as having its content displayable on any page or system, Paratii represents a paradigm shift and socioeconomic experiment as much as just another online platform."
+                  "text": "Paratii is a new online platform for video that aims to change the way you publish and consume content on the internet. Through its decentralized architecture and democratic monetization model, as well as the flexibility to emerge on any web page or application, Paratii represents a paradigm shift and socioeconomic experiment."
                 },
                 {
                   "title": "Who is Paratii for?",
@@ -1246,8 +1246,8 @@
               "url": "https://dna.fund/",
               "image": "./dist/assets/images/advisors/James.png",
               "name": "James Glasscock",
-              "job": "Co-founder @ DNA.Fund",
-              "text": "Previously VP of Distribution Business Development at Warner Bros, SVP of Business Development at Machinima, SVP of Strategic Planning & Broadcast Operations at Playboy TV."
+              "job": "Ex-VP @ Warner Bros, Machinima",
+              "text": "Co-founder of DNA.Fund, previously VP of Distribution Business Development at Warner Bros, SVP of Business Development at Machinima, SVP of Strategic Planning & Broadcast Operations at Playboy TV."
             }
           ]
         },
@@ -2072,8 +2072,8 @@
               "url": "https://dna.fund/",
               "image": "./dist/assets/images/advisors/James.png",
               "name": "James Glasscock",
-              "job": "Co-founder @ DNA.Fund",
-              "text": "Previously VP of Distribution Business Development at Warner Bros, SVP of Business Development at Machinima, SVP of Strategic Planning & Broadcast Operations at Playboy TV."
+              "job": "Ex-VP @ Warner Bros, Machinima",
+              "text": "Co-founder @ DNA.Fund, previously VP of Distribution Business Development at Warner Bros, SVP of Business Development at Machinima, SVP of Strategic Planning & Broadcast Operations at Playboy TV."
             }
           ]
         },
