@@ -1,5 +1,5 @@
 <template>
-  <section class="main-section paratii-features">
+  <section id="features" class="main-section paratii-features">
     <div class="main-section-wrapper">
       <SectionHeader
         v-bind:title="content.title"

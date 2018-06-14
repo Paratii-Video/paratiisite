@@ -12,7 +12,17 @@
               "class": "hide-on-campaign",
               "list": [
                 {
-                  "label": "Blueprint Document",
+                  "label": "OnePager",
+                  "href": "https://paratii.video/dist/assets/images/OnePager%20Paratii.pdf",
+                  "target": "_blank"
+                },
+                {
+                  "label": "Roadmap",
+                  "href": "/#roadmap",
+                  "router": true
+                },
+                {
+                  "label": "Whitepaper",
                   "href": "https://github.com/Paratii-Video/wiki/wiki/Paratii-Blueprint",
                   "target": "_blank"
                 },
@@ -23,12 +33,7 @@
                 },
                 {
                   "label": "The PTI Token",
-                  "href": "https://github.com/Paratii-Video/wiki/wiki/The-PTI-token",
-                  "target": "_blank"
-                },
-                {
-                  "label": "Paratii Docs",
-                  "href": "https://docs.paratii.video/",
+                  "href": "https://paratii.video/dist/assets/images/Token%20PTI%20Infographic.pdf",
                   "target": "_blank"
                 }
               ]
@@ -122,7 +127,7 @@
             },
             {
               "title": "Publishers",
-              "text": "Embed the player in your page with a line of code to access a self-scalable network whose services get cheaper as your audience grows. Want to go further? You'll be able to download a software package and “profit off” the system by running a special media node.",
+              "text": "Embed the player in your page with a line of code to access a self-scalable network whose services get cheaper as your audience grows.",
               "button": "Request publisher demo",
               "buttonHref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
               "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>",
@@ -205,14 +210,14 @@
             {
               "class": "",
               "title": "The Protocol",
-              "text": "Coordinates creators, publishers and users to maintain a decentralised exchange of videos and attention, that communicates receipts off-chain and settles compensations on Ethereum contracts. It also bundles <strong>access to all services needed to distribute media and metadata serverlessly and trustlessly<strong>.",
+              "text": "Coordinates creators, publishers and users to maintain a decentralised registry of videos and value signals, that allow for off-chain media bidding and incentivised curation<strong>.",
               "image": "./dist/assets/svgs/paratii-the-protocol.svg",
               "href": "https://github.com/Paratii-Video/paratii-protocol"
             },
             {
               "class": "paratii-components-content--color",
               "title": "The PTI Token",
-              "text": "Native staking token to the Paratii curated registry, it represents the right to belong to and judicate over a content list, and that of creating your own. The PTI can also be used as a means of payment for certain services, paid videos and content promotion. <strong>It is earnable<strong>: by seeding videos while watching, running a media node or curating content.",
+              "text": "Native staking token to the Paratii curated registry, it represents the right to belong to and judicate over a content list, besides that of creating your own collections and smart tokens. <strong>It is earnable<strong> by validating an identity and becoming an active staker (a well-behaving publisher or curator).",
               "video": "./dist/assets/videos/paratii-pti-token.mp4",
               "videoRef": "PTITokenVideo",
               "href": "https://github.com/Paratii-Video/paratii-contracts"
@@ -411,7 +416,7 @@
               "url": "https://medium.com/@flavioribeiro",
               "image": "./dist/assets/images/advisors/Ribeiro.png",
               "name": "Flávio Ribeiro",
-              "job": "Lead Video Engineer @ NYTimes",
+              "job": "Principal Engineer @ CBS Interactive",
               "text": "Co-inventor of the Clappr player, co-architect of the 2014 World Cup online live streaming for globo.com, lead video engineer at the New York Times."
             },
             {
@@ -459,6 +464,11 @@
                   "href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
                   "title": "Livecoins",
                   "image": "./dist/assets/images/on-the-news/logo-livecoins.png"
+                },
+                {
+                  "href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
+                  "title": "Proxxima",
+                  "image": "./dist/assets/images/on-the-news/proxxima.png"
                 }
               ]
             }
@@ -615,19 +625,15 @@
                 },
                 {
                   "title": "Can it be mined?",
-                  "text": "Yes and no - PTI cannot be mined in the same way as Bitcoin, for instance, in which users dedicate processing power to register opeartions on the blockchain, but it can be earned by dedicating processing power and bandwidth to run a media node, becoming part of the network that sustains the platform’s infrastructure."
-                },
-                {
-                  "title": "What is a media node?",
-                  "text": "A media node is software that can be downloaded and run by someone who wishes to provide extra resources and be compensated by the Paratii network. This program, in the vein of a master node, is fit for individuals who have machines with plenty of free space, server owners, or media vehicles interested in supporting and owning a piece of the future. When run, it allows the company to identify itself with an address on Paratii, Ethereum and IPFS (and soon, Livepeer); it allows the device to receive videos uploaded to the platform, prepare them to be watched in multiple resolutions, help to store and index them, and assist in distribution as a gateway."
+                  "text": "Yes and no - PTI cannot be mined in the same way as Bitcoin, for instance, in which users dedicate processing power to compete for computing on the blockchain. The PTI is mintable by validating an identity and being an active staker at each given block, where active stakers are either well-behaving publishers or assertive curators."
                 },
                 {
                   "title": "How many PTI can there be?",
-                  "text": "Just like in Bitcoin’s case, the number of PTI tokens that can exist will never go beyond 21 million. The issuance of new units slows down exponentially as the quantity available to the market approaches that number."
+                  "text": "The number of PTI tokens in existance will never go beyond 150 million. The issuance of new units slows down exponentially as the quantity available to the market approaches that number."
                 },
                 {
                   "title": "Can I get PTI yet?",
-                  "text": "Our plan is to initiate public distribution of the token in May. Keep an eye on our newsletter and social media channels to learn more as we approach that date."
+                  "text": "Our plan is to initiate public distribution of the token in August. Keep an eye on our newsletter and social media channels to learn more as we approach that date."
                 },
                 {
                   "title": "What factors can appreciate or depreciate PTI’s value?",
@@ -835,7 +841,17 @@
               "class": "hide-on-campaign",
               "list": [
                 {
-                  "label": "Blueprint Document",
+                  "label": "OnePager",
+                  "href": "https://paratii.video/dist/assets/images/OnePager%20Paratii.pdf",
+                  "target": "_blank"
+                },
+                  {
+                  "label": "Roadmap",
+                  "href": "/#roadmap",
+                  "router": true
+                },
+                {
+                  "label": "Whitepaper",
                   "href": "https://github.com/Paratii-Video/wiki/wiki/Paratii-Blueprint",
                   "target": "_blank"
                 },
@@ -845,13 +861,8 @@
                   "target": "_blank"
                 },
                 {
-                  "label": "O token PTI",
-                  "href": "https://github.com/Paratii-Video/wiki/wiki/The-PTI-token",
-                  "target": "_blank"
-                },
-                {
-                  "label": "Paratii Docs",
-                  "href": "https://docs.paratii.video/",
+                  "label": "O Token PTI",
+                  "href": "https://paratii.video/dist/assets/images/Token%20PTI%20Infographic.pdf",
                   "target": "_blank"
                 }
               ]
@@ -940,7 +951,7 @@
             },
             {
               "title": "Publishers",
-              "text": "Basta uma linha de código para embedar o player na sua página e acessar uma rede auto-escalável em que o serviço fica mais barato conforme a audiência cresce. Quer ir além? Baixe um pacote para “minerar” o sistema, rodando um nó especial, que chamamos de nó de mídia.",
+              "text": "Basta uma linha de código para embedar o player na sua página e acessar uma rede auto-escalável em que o serviço fica mais barato conforme a audiência cresce.",
               "button": "Peça uma demo",
               "buttonHref": "https://goo.gl/forms/HTLaPJEwjH0WfXA13",
               "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>",
@@ -1023,14 +1034,14 @@
             {
               "class": "",
               "title": "O Protocolo",
-              "text": "Coordena criadores, publishers e usuários na manutenção de um mercado descentralizado de vídeo e atenção, que comunica recibos off-chain e executa compensações em contratos na Ethereum. Também integra o acesso a todos os serviços necessários para se distribuir mídia e metadados <strong>sem depender de intermediários<strong>.",
+              "text": "Coordena criadores, publishers e usuários na manutenção de um mercado descentralizado de vídeos e atenção, que facilita ordens de mídia off-chain e curadoria incentivada. Também integra o acesso a todos os serviços necessários para se distribuir mídia e metadados <strong>sem depender de intermediários<strong>.",
               "image": "./dist/assets/svgs/paratii-the-protocol.svg",
               "href": "https://github.com/Paratii-Video/paratii-protocol"
             },
             {
               "class": "paratii-components-content--color",
               "title": "O token PTI",
-              "text": "Token de “stake” nativo, representa o direito de ter vídeos em uma lista de conteúdo e curá-la, além de poder criar outras. O PTI também pode ser usado como meio de pagamento para certos serviços, vídeos pay-per-view e anúncios. <strong>Como ganhar o token?<strong> Redistribuindo vídeos automaticamente ao assisti-los no browser, rodando um programa que chamamos de 'nó de mídia', ou curando conteúdo.",
+              "text": "Token de “stake” nativo, representa o direito de ter vídeos em uma lista de conteúdo e curá-la, além de poder criar outras. <strong>Como ganhar o token?<strong> Sendo um publicador ou curador de conteúdo ativo - o protocolo remunera esses autonomamente.",
               "image": "./dist/assets/svgs/paratii-the-token.svg",
               "href": "https://github.com/Paratii-Video/paratii-contracts"
             },
@@ -1088,25 +1099,25 @@
             },
             {
               "text": "Publicação do bluepaper + protocolo funcional",
-              "textDate": "Mai 2018",
+              "textDate": "Jun 2018",
               "dateStart": "2018-04-01",
               "dateEnd": "2018-06-30"
             },
             {
               "text": "Evento de distribuição dos tokens",
-              "textDate": "Jul 2018",
+              "textDate": "Q4 2018",
               "dateStart": "2018-07-01",
               "dateEnd": "2018-07-31"
             },
             {
               "text": "Programa piloto com publishers",
-              "textDate": "Q2 2018",
+              "textDate": "Q4 2018",
               "dateStart": "2018-08-01",
               "dateEnd": "2018-08-31"
             },
             {
               "text": "Bridging de contratos principais à mainnet",
-              "textDate": "Q3 2018",
+              "textDate": "Q4 2018",
               "dateStart": "2018-09-01",
               "dateEnd": "2018-09-30"
             }
@@ -1228,7 +1239,7 @@
               "url": "https://medium.com/@flavioribeiro",
               "image": "./dist/assets/images/advisors/Ribeiro.png",
               "name": "Flávio Ribeiro",
-              "job": "Lead Video Engineer @ NYTimes",
+              "job": "Principal Engineer @ CBS Interactive",
               "text": "Co-inventor of the Clappr player, co-architect of the 2014 World Cup online live streaming for globo.com, lead video engineer at the New York Times."
             },
             {
@@ -1276,6 +1287,11 @@
                   "href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
                   "title": "Livecoins",
                   "image": "./dist/assets/images/on-the-news/logo-livecoins.png"
+                },
+                {
+                  "href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
+                  "title": "Proxxima",
+                  "image": "./dist/assets/images/on-the-news/proxxima.png"
                 }
               ]
             }
@@ -1432,19 +1448,15 @@
                 },
                 {
                   "title": "Dá pra minerar?",
-                  "text": "Sim e não - o PTI não é minerável no mesmo sentido que a Bitcoin, por exemplo, em que usuários dedicam poder de processamento para registrar operações na blockchain, mas pode ser obtido dedicando poder de processamento para rodar um “nó de mídia”, tornando-se parte da rede que mantém a infraestrutura da plataforma."
-                },
-                {
-                  "title": "O que é um nó de mídia?",
-                  "text": "Um nó de mídia é um software que pode ser baixado e executado por quem deseja prover recursos extra e ser recompensado pela rede Paratii. Esse programa, na linha de um master node, é adequado para indivíduos com máquinas com bastante espaço livre, donos de servidores, ou veículos de mídia interessados em suportar e possuir uma fatia do futuro. Quando executado, permite à máquina se identificar com um endereço na Paratii, na Ethereum e na IPFS (em breve, Livepeer também); faz com que receba vídeos subidos no sistema; os prepare para serem assistidos em múltiplas resoluções; ajude a armazená-los e indexá-los; e assista na sua distribuição como um gateway."
+                  "text": "Sim e não - o PTI não é minerável no mesmo sentido que o bitcoin, por exemplo, em que usuários dedicam poder de processamento numa competição para computar operações na blockchain. O PTI é emitido autonomamente para usuários que fazem 'stake' ativamente, ou seja, bons publicadores e curadores de conteúdo."
                 },
                 {
                   "title": "Quantas unidades de PTI existem?",
-                  "text": "Assim como no caso do bitcoin, o número de tokens PTI que podem existir jamais ultrapassará 21 milhões. A emissão de novas unidades diminui de ritmo exponencialmente à medida que a quantidade disponível ao mercado aproxima desse número."
+                  "text": "O número de tokens PTI em existência jamais ultrapassará 150 milhões. A emissão de novas unidades diminui de ritmo exponencialmente à medida que a quantidade disponível ao mercado aproxima desse número."
                 },
                 {
                   "title": "Já posso adquirir PTIs?",
-                  "text": "O plano é iniciar a distribuição pública do token em maio. Fique atento na nossa newsletter e redes sociais para saber mais à medida que chegarmos perto dessa data."
+                  "text": "O plano é iniciar a distribuição pública do token em agosto. Fique atento na nossa newsletter e redes sociais para saber mais à medida que chegarmos perto dessa data."
                 },
                 {
                   "title": "Que vetores podem apreciar ou depreciar seu valor?",
@@ -1652,7 +1664,17 @@
               "class": "hide-on-campaign",
               "list": [
                 {
-                  "label": "Blueprint Document",
+                  "label": "OnePager",
+                  "href": "https://paratii.video/dist/assets/images/OnePager%20Paratii.pdf",
+                  "target": "_blank"
+                },
+                {
+                  "label": "Roadmap",
+                  "href": "/#roadmap",
+                  "router": true
+                },
+                {
+                  "label": "Whitepaper",
                   "href": "https://github.com/Paratii-Video/wiki/wiki/Paratii-Blueprint",
                   "target": "_blank"
                 },
@@ -1663,12 +1685,7 @@
                 },
                 {
                   "label": "The PTI Token",
-                  "href": "https://github.com/Paratii-Video/wiki/wiki/The-PTI-token",
-                  "target": "_blank"
-                },
-                {
-                  "label": "Paratii Docs",
-                  "href": "https://docs.paratii.video/",
+                  "href": "https://paratii.video/dist/assets/images/Token%20PTI%20Infographic.pdf",
                   "target": "_blank"
                 }
               ]
@@ -2048,7 +2065,7 @@
               "url": "https://medium.com/@flavioribeiro",
               "image": "./dist/assets/images/advisors/Ribeiro.png",
               "name": "Flávio Ribeiro",
-              "job": "Lead Video Engineer @ NYTimes",
+              "job": "Principal Engineer @ CBS Interactive",
               "text": "Co-inventor of the Clappr player, co-architect of the 2014 World Cup online live streaming for globo.com, lead video engineer at the New York Times."
             },
             {
@@ -2096,6 +2113,11 @@
                   "href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
                   "title": "Livecoins",
                   "image": "./dist/assets/images/on-the-news/logo-livecoins.png"
+                },
+                {
+                  "href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
+                  "title": "Proxxima",
+                  "image": "./dist/assets/images/on-the-news/proxxima.png"
                 }
               ]
             }

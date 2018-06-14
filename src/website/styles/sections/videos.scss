@@ -21,6 +21,7 @@
     border-radius: 4px;
     flex: 0 0 31%;
     height: 223px;
+    overflow: hidden;
 
     @include screenDesktop {
       height: 198px;
@@ -39,6 +40,12 @@
     @include screenMobile {
       height: 310px;
     }
+  }
+
+  &-iframe {
+    display: block;
+    height: 100%;
+    width: 100%;
   }
 
   .main-section-call {
