@@ -719,17 +719,17 @@
                 {
                   "text": "Video player framework",
                   "href": "https://github.com/clappr/clappr",
-                  "icon": "dist/assets/svgs/campaign/vendors/logo-clappr.svg"
+                  "icon": "./dist/assets/svgs/campaign/vendors/logo-clappr.svg"
                 },
                 {
                   "text": "Smart contract platform",
                   "href": "https://www.ethereum.org/",
-                  "icon": "dist/assets/svgs/campaign/vendors/logo-ethereum.svg"
+                  "icon": "./dist/assets/svgs/campaign/vendors/logo-ethereum.svg"
                 },
                 {
                   "text": "Decentralized storage network",
                   "href": "https://ipfs.io/",
-                  "icon": "dist/assets/svgs/campaign/vendors/logo-ipfs.svg"
+                  "icon": "./dist/assets/svgs/campaign/vendors/logo-ipfs.svg"
                 }
               ]
             },
@@ -1542,17 +1542,17 @@
                 {
                   "text": "Estrutura-base do player",
                   "href": "https://github.com/clappr/clappr",
-                  "icon": "dist/assets/svgs/campaign/vendors/logo-clappr.svg"
+                  "icon": "./dist/assets/svgs/campaign/vendors/logo-clappr.svg"
                 },
                 {
                   "text": "Plataforma de smart contracts",
                   "href": "https://www.ethereum.org/",
-                  "icon": "dist/assets/svgs/campaign/vendors/logo-ethereum.svg"
+                  "icon": "./dist/assets/svgs/campaign/vendors/logo-ethereum.svg"
                 },
                 {
                   "text": "Rede de armazenamento descentralizada",
                   "href": "https://ipfs.io/",
-                  "icon": "dist/assets/svgs/campaign/vendors/logo-ipfs.svg"
+                  "icon": "./dist/assets/svgs/campaign/vendors/logo-ipfs.svg"
                 }
               ]
             },
@@ -2372,17 +2372,17 @@
                 {
                   "text": "Video player framework",
                   "href": "https://github.com/clappr/clappr",
-                  "icon": "dist/assets/svgs/campaign/vendors/logo-clappr.svg"
+                  "icon": "./dist/assets/svgs/campaign/vendors/logo-clappr.svg"
                 },
                 {
                   "text": "Smart contract platform",
                   "href": "https://www.ethereum.org/",
-                  "icon": "dist/assets/svgs/campaign/vendors/logo-ethereum.svg"
+                  "icon": "./dist/assets/svgs/campaign/vendors/logo-ethereum.svg"
                 },
                 {
                   "text": "Decentralized storage network",
                   "href": "https://ipfs.io/",
-                  "icon": "dist/assets/svgs/campaign/vendors/logo-ipfs.svg"
+                  "icon": "./dist/assets/svgs/campaign/vendors/logo-ipfs.svg"
                 }
               ]
             },
