@@ -4,8 +4,14 @@
     <div class="main-section-wrapper">
       <span class="paratii-header-asset" v-bind:style="backgroundImage(content.image)"></span>
       <div class="paratii-header-content">
-        <h2 class="paratii-header-title">{{content.title}}</h2>
-        <p class="paratii-header-text">{{content.text}}</p>
+        <h2
+          class="paratii-header-title"
+          v-html="content.title"
+        ></h2>
+        <p
+          class="paratii-header-text"
+          v-html="content.text"
+        ></p>
       </div>
       <div class="paratii-header-subscribe">
         <form
