@@ -89,8 +89,8 @@
       },
       "sections": {
         "header": {
-          "title": "A distributed curation protocol for better distributing value",
-          "text": "Share stories without middlemen imposing taxes. Monetize with subscriptions, access tokens, or the way you invent. Engage audiences by letting them earn while watching.",
+          "title": "A distributed curation protocol and streaming engine",
+          "text": "Microeconomic fairness for all network participants. Monetize with subscriptions, access tokens, or the way you invent. Engage audiences by letting them earn while watching.",
           "image": "./dist/assets/svgs/paratii-header.svg",
           "small": "<strong>Beta version to be released soon.</strong><br> Subscribe now and don't miss out.",
           "buttonA": "Request publisher demo",
