@@ -113,7 +113,6 @@
               "title": "Creators",
               "text": "Upload original creations or mirror existing content on Paratii, and experiment monetisation without middlemen. No cuts on your revenue. No blocking or manipulating your audience.",
               "button": "Be among the first uploaders",
-              "buttonHref": "https://goo.gl/forms/OLp1NTRZclr0nHu43",
               "buttonHref": "/join",
               "router": true,
               "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>",
@@ -605,13 +604,11 @@
               "group": [
                 {
                   "title": "What is the PTI token?",
-                  "text": "PTI is Paratii’s currency. It is issued according to codebound rules, its inflation is non-manipulable and its distribution rewards curators that help to keep content organized and filtered. Some functions in the platform require the user to deposit and “stake” PTIs, losing the ability to transfer them for a determined period but keeping ownership over them, consequently becoming entitled to rewards. As well a staking unit, the token can be used to pay for videos, make paid subscriptions or buy advertising, further on.
-				  
-				  <a class=\"paratii-link\" href=\"https://medium.com/paratii/pti-token-summary-edf048d36245" target=\"_blank\">Click here for an in-depth summary of the PTI token, its uses, technology and distribution model."</a>
+                  "text": "PTI is Paratii’s currency. It is issued according to codebound rules, its inflation is non-manipulable and its distribution rewards curators that help to keep content organized and filtered. Some functions in the platform require the user to deposit and “stake” PTIs, losing the ability to transfer them for a determined period but keeping ownership over them, consequently becoming entitled to rewards. As well a staking unit, the token can be used to pay for videos, make paid subscriptions or buy advertising, further on. <a class=\"paratii-link\" href=\"https://medium.com/paratii/pti-token-summary-edf048d36245\" target=\"_blank\">Click here for an in-depth summary of the PTI token, its uses, technology and distribution model.</a>"
                 },
                 {
                   "title": "What is having PTI good for?",
-                  "text": "We have a nice infographic to explain what the PTI token is all about and what you can do with it - check it out <a class=\"paratii-link\" href=\"https://i.redd.it/3ypnjz1grdo01.png" target=\"_blank\">here</a>."
+                  "text": "We have a nice infographic to explain what the PTI token is all about and what you can do with it - check it out <a class=\"paratii-link\" href=\"https://i.redd.it/3ypnjz1grdo01.png\" target=\"_blank\">here</a>."
                 },
                 {
                   "title": "Couldn’t an existing token be used instead?",
@@ -850,7 +847,7 @@
                 },
                 {
                   "label": "Whitepaper",
-                  "href": "https://paratii.video/dist/assets/images/Paratii%20White%20Paper%20-%20v0.3%20-%20June%202018.pdf"",
+                  "href": "https://paratii.video/dist/assets/images/Paratii%20White%20Paper%20-%20v0.3%20-%20June%202018.pdf",
                   "target": "_blank"
                 },
                 {
@@ -1408,7 +1405,7 @@
                   "text": "Os arquivos estão distribuídos entre os computadores de todos que utilizam a Paratii ou dedicam máquinas a servir conteúdo na rede, sendo enviados a quem os requisita. Funciona de forma semelhante a um torrent, ou programas como o Stremio ou Popcorn Time."
                 },
                 {
-                  "title": "Funciona em qualquer aparelho? ",
+                  "title": "Funciona em qualquer aparelho?",
                   "text": "O primeiro protótipo desenvolvido do player funciona em MAC e Windows (além de iPhone e Android), no navegador Chrome. A segunda versão já funciona nos mesmos sistemas operacionais além de Linux, nos navegadores Chrome, Safari, Brave e Firefox."
                 },
                 {
@@ -1434,7 +1431,7 @@
                 },
                 {
                   "title": "Pra que serve ter PTI?",
-                  "text": "Serve para ter o direito de participar da máquina de conteúdo sustentada pela plataforma: em outras palavras, pode subir vídeos e curar o conteúdo disponível, sendo elegível a recompensas (pagas em PTI). <a class=\"paratii-link\" href=\"https://i.redd.it/3ypnjz1grdo01.png" target=\"_blank\">Este infográfico</a> Este infográfico explica a funcionalidade do token e por enquanto está disponível apenas em inglês - a tradução vem em breve."
+                  "text": "Serve para ter o direito de participar da máquina de conteúdo sustentada pela plataforma: em outras palavras, pode subir vídeos e curar o conteúdo disponível, sendo elegível a recompensas (pagas em PTI). <a class=\"paratii-link\" href=\"https://i.redd.it/3ypnjz1grdo01.png\" target=\"_blank\">Este infográfico</a> Este infográfico explica a funcionalidade do token e por enquanto está disponível apenas em inglês - a tradução vem em breve."
                 },
                 {
                   "title": "Não dava pra usar um token que já existe?",
@@ -1673,7 +1670,7 @@
                 },
                 {
                   "label": "Whitepaper",
-                  "href": "https://paratii.video/dist/assets/images/Paratii%20White%20Paper%20-%20v0.3%20-%20June%202018.pdf"",
+                  "href": "https://paratii.video/dist/assets/images/Paratii%20White%20Paper%20-%20v0.3%20-%20June%202018.pdf",
                   "target": "_blank"
                 },
                 {
@@ -2252,13 +2249,11 @@
               "group": [
                 {
                   "title": "What is the PTI token?",
-                  "text": "PTI is Paratii’s currency. It is issued according to codebound rules, its inflation is non-manipulable and its distribution rewards curators that help to keep content organized and filtered. Some functions in the platform require the user to deposit and “stake” PTIs, losing the ability to transfer them for a determined period but keeping ownership over them, consequently becoming entitled to rewards. As well a staking unit, the token can be used to pay for videos, make paid subscriptions or buy advertising, further on.
-				  
-				  <a class=\"paratii-link\" href=\"https://medium.com/paratii/pti-token-summary-edf048d36245" target=\"_blank\">Click here for an in-depth summary of the PTI token, its uses, technology and distribution model."</a>
+                  "text": "PTI is Paratii’s currency. It is issued according to codebound rules, its inflation is non-manipulable and its distribution rewards curators that help to keep content organized and filtered. Some functions in the platform require the user to deposit and “stake” PTIs, losing the ability to transfer them for a determined period but keeping ownership over them, consequently becoming entitled to rewards. As well a staking unit, the token can be used to pay for videos, make paid subscriptions or buy advertising, further on. <a class=\"paratii-link\" href=\"https://medium.com/paratii/pti-token-summary-edf048d36245\" target=\"_blank\">Click here for an in-depth summary of the PTI token, its uses, technology and distribution model.</a>"
                 },
                 {
                   "title": "What is having PTI good for?",
-                  "text": "We have a nice infographic to explain what the PTI token is all about and what you can do with it - check it out <a class=\"paratii-link\" href=\"https://i.redd.it/3ypnjz1grdo01.png" target=\"_blank\">here</a>."
+                  "text": "We have a nice infographic to explain what the PTI token is all about and what you can do with it - check it out <a class=\"paratii-link\" href=\"https://i.redd.it/3ypnjz1grdo01.png\" target=\"_blank\">here</a>."
                 },
                 {
                   "title": "Couldn’t an existing token be used instead?",
