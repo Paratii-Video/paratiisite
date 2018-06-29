@@ -16,7 +16,9 @@ jobs:
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               yarn build
               cd
-              sudo apt install rsync --fix-missing
+              sudo apt-get clean all
+              sudo apt-get update
+              sudo apt-get install rsync --fix-missing
               rsync -avzh --delete repo ec2-user@www.paratii.video:/home/ec2-user/ -e "ssh -o StrictHostKeyChecking=no"
               ssh -o StrictHostKeyChecking=no ec2-user@www.paratii.video "bash update.sh"
             fi
