@@ -44,7 +44,7 @@
               "list": [
                 {
                   "label": "The Player",
-                  "href": "https://github.com/Paratii-Video/paratii-mediaplayer",
+                  "href": "https://github.com/Paratii-Video/paratii-portal",
                   "target": "_blank"
                 },
                 {
@@ -226,7 +226,7 @@
               "title": "The Player",
               "text": "<strong>An embeddable, modular and extensible player</strong> to customise as you wish. Apply it on your page, media channel or news outlet with a single line of code. Share it on social media when you spot one on Twitter, Medium or Telegram. With paratii.js, developers can also build widgets and plugins to modify frontend and interact with specific modules of the protocol.",
               "image": "./dist/assets/svgs/paratii-the-player.svg",
-              "href": "https://github.com/Paratii-Video/paratii-mediaplayer"
+              "href": "https://github.com/Paratii-Video/paratii-portal"
             }
           ]
         },
@@ -868,7 +868,7 @@
               "list": [
                 {
                   "label": "O Player",
-                  "href": "https://github.com/Paratii-Video/paratii-mediaplayer"
+                  "href": "https://github.com/Paratii-Video/paratii-portal"
                 },
                 {
                   "label": "Os Contratos",
@@ -1045,7 +1045,7 @@
               "title": "O Player",
               "text": "<strong>Um player de mídia embedável</strong>, modular e extensível, para se customizar como quiser. Aplique-o na sua página, canal de mídia ou site de notícias com uma linha de código. Compartilhe-o em redes sociais quando encontrar com um no Twitter, no Medium ou no Telegram. Com a paratii.js, desenvolvedores também podem construir facilmente widgets e plugins de todo tipo para modificar o frontend, além interagir com módulos específicos do protocolo.",
               "image": "./dist/assets/svgs/paratii-the-player.svg",
-              "href": "https://github.com/Paratii-Video/paratii-mediaplayer"
+              "href": "https://github.com/Paratii-Video/paratii-portal"
             }
           ]
         },
@@ -1691,7 +1691,7 @@
               "list": [
                 {
                   "label": "The Player",
-                  "href": "https://github.com/Paratii-Video/paratii-mediaplayer"
+                  "href": "https://github.com/Paratii-Video/paratii-portal"
                 },
                 {
                   "label": "The Contracts",
@@ -1871,7 +1871,7 @@
               "title": "播放器",
               "text": "<strong>一个可嵌入的、模块化和可扩展的播放器</strong>，可以根据你的需要定制。通过一行代码把它到你的网页、媒体通道或新闻市场上。当你在Twitter、Medium或Telegram上发现一个视频时，在社交媒体上分享它。通过paratii.js，开发人员还可以构建界面图形元素和插件来修改前端，并与协议的特定模块交互。",
               "image": "./dist/assets/svgs/paratii-the-player.svg",
-              "href": "https://github.com/Paratii-Video/paratii-mediaplayer"
+              "href": "https://github.com/Paratii-Video/paratii-portal"
             }
           ]
         },
