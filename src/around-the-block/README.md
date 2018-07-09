@@ -9,8 +9,8 @@ This is the repository for developing the About the Block site.
 
 ## Running with
 
-    gulp
+    yarn run dev or gulp
 
 ## Deploy with
 
-    gulp deploy
+    yarn run build or gulp deploy
