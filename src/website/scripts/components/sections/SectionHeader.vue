@@ -14,27 +14,18 @@
         ></p>
       </div>
       <div class="paratii-header-subscribe">
-        <form
-          class="paratii-header-form"
-          action="https://video.us15.list-manage.com/subscribe/post?u=3363d6d446b55bfeec00cb430&id=d12f33be57"
-          method="post"
-          id="mc-embedded-subscribe-form"
-          name="mc-embedded-subscribe-form"
+        <a
+          class="paratii-button paratii-button--red"
           target="_blank"
-          novalidate
-          v-on:submit="sendGA(content.ga)"
-        >
-          <label class="paratii-header-label" for="mce-EMAIL">
-            <input class="paratii-header-input" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="your@email.here" />
-          </label>
-          <button class="paratii-header-button paratii-button-border" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">{{content.buttonB}}</button>
-
-          <div class="visually-hidden" id="mce-responses">
-            <div class="visually-hidden" id="mce-error-response" style="display:none"></div>
-            <div class="visually-hidden" id="mce-success-response" style="display:none"></div>
-            <input class="visually-hidden" type="text" name="b_3363d6d446b55bfeec00cb430_d12f33be57" tabindex="-1" value="">
-          </div>
-        </form>
+          v-bind:href="content.buttonAhref"
+          v-html="content.buttonA"
+        ></a>
+        <a
+          class="paratii-button-border"
+          target="_blank"
+          v-bind:href="content.buttonBhref"
+          v-html="content.buttonB"
+        ></a>
       </div>
       <p class="paratii-header-small" v-html="content.small"></p>
     </div>

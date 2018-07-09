@@ -98,9 +98,10 @@ $size-paratii-button-icon: 22px;
 // Styling buttons
 
 .button-telegram {
+  @extend .hover-opacity;
+
   align-items: center;
-  background: $color-lipstick;
-  border: 1px solid $color-lipstick;
+  border: 1px solid $color-white;
   border-radius: 4px;
   color: $color-white;
   display: inline-flex;
@@ -109,20 +110,9 @@ $size-paratii-button-icon: 22px;
   padding: 0 10px;
   transition: all $anim-time-repaint;
 
-  &:hover {
-    background-color: $color-lipstick-dark;
-    border-color: $color-lipstick-dark;
-    color: $color-white;
-  }
-
   .out-of-top & {
-    background: transparent;
     color: $color-campaign-text-light;
     border-color: $color-campaign-text-light;
-
-    &:hover {
-      opacity: 0.8;
-    }
   }
 
   &-icon {

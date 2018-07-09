@@ -88,10 +88,10 @@ $zindex-paratii-header-buttons: 6;
   }
 
   &-title {
-    @extend .title-big;
+    @extend .title-main;
 
     max-width: 700px;
-    margin: 30px 0 30px;
+    margin: 30px 0 0;
 
     @include screenPhablet {
       margin-top: 130px;
