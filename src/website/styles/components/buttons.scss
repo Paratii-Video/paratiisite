@@ -111,6 +111,7 @@ $size-paratii-button-icon: 22px;
 
   &:hover {
     background-color: $color-lipstick-dark;
+    border-color: $color-lipstick-dark;
   }
 
   @include screenTablet {
