@@ -98,10 +98,9 @@ $size-paratii-button-icon: 22px;
 // Styling buttons
 
 .button-telegram {
-  @extend .hover-opacity;
-
   align-items: center;
-  border: 1px solid $color-white;
+  background-color: $color-lipstick;
+  border: 1px solid $color-lipstick;
   border-radius: 4px;
   color: $color-white;
   display: inline-flex;
@@ -110,9 +109,29 @@ $size-paratii-button-icon: 22px;
   padding: 0 10px;
   transition: all $anim-time-repaint;
 
+  &:hover {
+    background-color: $color-lipstick-dark;
+  }
+
+  @include screenTablet {
+    background-color: transparent;
+    border-color: $color-campaign-text-light;
+    color: $color-campaign-text-light;
+  }
+
   .out-of-top & {
+    background-color: transparent;
     color: $color-campaign-text-light;
     border-color: $color-campaign-text-light;
+
+    &:hover {
+      border-color: $color-purple-light;
+      color: $color-purple-light;
+
+      .button-telegram-icon {
+        fill: $color-purple-light;
+      }
+    }
   }
 
   &-icon {
@@ -121,6 +140,14 @@ $size-paratii-button-icon: 22px;
     margin-right: 18px;
     transition: fill $anim-time-repaint;
     width: 20px;
+
+    @include screenTablet {
+      fill: $color-campaign-text-light;
+
+      .button-telegram:hover & {
+        fill: $color-purple-light;
+      }
+    }
 
     .out-of-top & {
       fill: $color-campaign-text-light;
