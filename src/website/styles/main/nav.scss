@@ -1,9 +1,5 @@
 // Nav, Subnav and navlang
 
-//
-
-$size-main-nav-mobile-top: 52px;
-
 // nav
 
 .main-nav {
@@ -19,7 +15,7 @@ $size-main-nav-mobile-top: 52px;
     overflow-x: hidden;
     overflow-y: scroll;
     pointer-events: none;
-    padding-bottom: 30px;
+    padding-bottom: #{$size-main-nav-mobile-padding-bottom};
     position: absolute;
     transition: opacity $anim-time-repaint;
     top: $size-main-nav-mobile-top;
@@ -51,14 +47,10 @@ $size-main-nav-mobile-top: 52px;
   }
 
   &-item {
-    margin-left: 30px;
+    margin-left: $main-nav-item-margin-left;
     
     @include screenTablet {
-      margin-left: 15px;
-    };
-    
-    @include screenTablet {
-      margin: 0 30px;
+      margin: $main-nav-item-margin-tablet;
     };
   }
 
