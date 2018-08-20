@@ -12,8 +12,18 @@
               "class": "hide-on-campaign",
               "list": [
                 {
-                  "label": "Research",
-                  "href": "https://github.com/Paratii-Video/wiki/wiki/1.-Home-(%F0%9F%91%87Research-material-)",
+                  "label": "OnePager",
+                  "href": "https://paratii.video/dist/assets/images/OnePager%20Paratii.pdf",
+                  "target": "_blank"
+                },
+                {
+                  "label": "Roadmap",
+                  "href": "/#roadmap",
+                  "router": true
+                },
+                {
+                  "label": "Whitepaper",
+                  "href": "https://paratii.video/dist/assets/images/Paratii%20White%20Paper%20-%20v0.3%20-%20June%202018.pdf",
                   "target": "_blank"
                 },
                 {
@@ -21,6 +31,11 @@
                   "href": "https://github.com/Paratii-Video/paratii-js",
                   "target": "_blank"
                 },
+                {
+                  "label": "The PTI Token",
+                  "href": "https://paratii.video/dist/assets/images/Token%20PTI%20Infographic.pdf",
+                  "target": "_blank"
+                }
               ]
             },
             {
@@ -28,24 +43,24 @@
               "class": "hide-on-campaign",
               "list": [
                 {
-                  "label": "Paratii Player",
+                  "label": "The Player",
                   "href": "https://github.com/Paratii-Video/paratii-portal",
                   "target": "_blank"
                 },
                 {
-                  "label": "Smart Contracts",
+                  "label": "The Contracts",
                   "href": "https://github.com/Paratii-Video/paratii-contracts",
                   "target": "_blank"
                 },
                 {
-                  "label": "Lab.paratii Portal",
-                  "href": "https://github.com/Paratii-Video/paratii-portal",
+                  "label": "The Protocol",
+                  "href": "https://github.com/Paratii-Video/paratii-protocol",
                   "target": "_blank"
                 }
               ]
             },
             {
-              "label": "Contributors",
+              "label": "Team",
               "class": "hide-on-campaign",
               "router": true,
               "href": "/#team"
@@ -90,6 +105,67 @@
             "eventValue": "106"
           }
         },
+        "audiences": {
+          "title": "Audiences",
+          "subtitle": "Who needs a decentralised video attribution protocol?",
+          "list": [
+            {
+              "title": "Creators",
+              "text": "Upload original creations or mirror existing content on Paratii, and experiment monetisation without middlemen. No cuts on your revenue. No blocking or manipulating your audience.",
+              "button": "Be among the first uploaders",
+              "buttonHref": "/join",
+              "router": true,
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Creators",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "102"
+              }
+            },
+            {
+              "title": "Publishers",
+              "text": "Embed the player in your page with a line of code to access a self-scalable network whose services get cheaper as your audience grows.",
+              "button": "Request publisher demo",
+              "buttonHref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Publishers",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "105"
+              }
+            },
+            {
+              "title": "Community",
+              "text": "Users are the heart of the network, curating content and providing essential resources. In exchange, they earn tokens, which can come in seamlessly, for example, while one watches a video and streams pieces of it to nearby peers.",
+              "button": "Join our Telegram",
+              "buttonHref": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Community",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "101"
+              }
+            }
+          ],
+          "call": {
+            "text": "<strong class=\"main-section-content-title\">Media buyers & investors:</strong><br> PTI tokens will be publicly distributed in a soon-to-be-announced event.",
+            "button": "Request early access",
+            "buttonHref": "https://goo.gl/forms/8zJ6Q6NcqgJXHf7r2",
+            "ga": {
+              "hitType": "event",
+              "eventCategory": "Buyers-Investors",
+              "eventAction": "Enviar",
+              "eventLabel": "Site",
+              "eventValue": "100"
+            }
+          }
+        },
         "features": {
           "title": "Features",
           "subtitle": "A video player like any other. Except for what’s behind it.",
@@ -119,6 +195,12 @@
               "text": "<strong>Curation is left to the audience</strong>, who’s rewarded for spotting inappropriate content early on or pointing to copyright-infringing material.",
               "icon": "<use xlink:href=\"#icon-like\"></use>"
             }
+          ],
+          "call": {
+            "text": "Experiment version 0.0.1 of the player!",
+            "button": "Try demo",
+            "href": "https://paratii-video.github.io/paratii-embed/"
+          }
         },
         "components": {
           "title": "Components",
@@ -145,6 +227,75 @@
               "text": "<strong>An embeddable, modular and extensible player</strong> to customise as you wish. Apply it on your page, media channel or news outlet with a single line of code. Share it on social media when you spot one on Twitter, Medium or Telegram. With paratii.js, developers can also build widgets and plugins to modify frontend and interact with specific modules of the protocol.",
               "image": "./dist/assets/svgs/paratii-the-player.svg",
               "href": "https://github.com/Paratii-Video/paratii-portal"
+            }
+          ]
+        },
+        "roadmap": {
+          "title": "Roadmap",
+          "subtitle": "A short recap and next milestones",
+          "text": "Paratii has been under design and development for little over an year. Our vision is to provide an open market for audiovisual stories where any agent, independently of its size and bank account, has an equal chance to be heard or seen and profit off the network.",
+          "listA": [
+            {
+              "text": "Team formation",
+              "textDate": "Nov 2016",
+              "dateStart": "2016-11-01",
+              "dateEnd": "2016-11-30"
+            },
+            {
+              "text": "Blueprint published",
+              "textDate": "Jun 2017",
+              "dateStart": "2017-06-01",
+              "dateEnd": "2017-06-30"
+            },
+            {
+              "text": "Paratii foundation incorporated",
+              "textDate": "Oct 2017",
+              "dateStart": "2017-10-01",
+              "dateEnd": "2017-10-31"
+            },
+            {
+              "text": "Paratii player v0.0.1 released",
+              "textDate": "Dec 2017",
+              "dateStart": "2017-12-01",
+              "dateEnd": "2017-12-31"
+            },
+            {
+              "text": "v0.0.2: Paratii.js and new plugin-oriented player",
+              "textDate": "Feb 2018",
+              "dateStart": "2018-02-01",
+              "dateEnd": "2018-02-28"
+            }
+          ],
+          "listB": [
+            {
+              "text": "First web-portal for uploading and browsing",
+              "textDate": "Mar 2018",
+              "dateStart": "2018-03-01",
+              "dateEnd": "2018-03-31"
+            },
+            {
+              "text": "Release bluepaper + protocol completion",
+              "textDate": "May 2018",
+              "dateStart": "2018-04-01",
+              "dateEnd": "2018-06-30"
+            },
+            {
+              "text": "Token distribution event",
+              "textDate": "Jul 2018",
+              "dateStart": "2018-07-01",
+              "dateEnd": "2018-07-31"
+            },
+            {
+              "text": "Pilot program with publishers",
+              "textDate": "Q2 2018",
+              "dateStart": "2018-08-01",
+              "dateEnd": "2018-08-31"
+            },
+            {
+              "text": "Main contracts' bridging to mainnet",
+              "textDate": "Q3 2018",
+              "dateStart": "2018-09-01",
+              "dateEnd": "2018-09-30"
             }
           ]
         },
@@ -277,6 +428,19 @@
           ]
         },
         "onthenews": {
+          "list": [
+            {
+              "title": "Supporting Us",
+              "list": [
+                {
+                  "byheight": true,
+                  "href": "http://www.bossanovagroup.com.br/",
+                  "title": "Bossa Nova Group",
+                  "image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
+                }
+              ]
+            },
+            {
               "title": "On the news",
               "list": [
                 { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
@@ -663,7 +827,7 @@
     {
       "label": "PT",
       "language": "pt",
-      "title": "Mudar a língua para português",
+      "title": "Mudar a língua para portuguese",
       "nav": {
         "title": "Navegação",
         "list": [
@@ -672,8 +836,18 @@
               "class": "hide-on-campaign",
               "list": [
                 {
-                  "label": "Research",
-                  "href": "https://github.com/Paratii-Video/wiki/wiki/1.-Home-(%F0%9F%91%87Research-material-)",
+                  "label": "OnePager",
+                  "href": "https://paratii.video/dist/assets/images/OnePager%20Paratii.pdf",
+                  "target": "_blank"
+                },
+                  {
+                  "label": "Roadmap",
+                  "href": "/#roadmap",
+                  "router": true
+                },
+                {
+                  "label": "Whitepaper",
+                  "href": "https://paratii.video/dist/assets/images/Paratii%20White%20Paper%20-%20v0.3%20-%20June%202018.pdf",
                   "target": "_blank"
                 },
                 {
@@ -681,6 +855,11 @@
                   "href": "https://github.com/Paratii-Video/paratii-js",
                   "target": "_blank"
                 },
+                {
+                  "label": "O Token PTI",
+                  "href": "https://paratii.video/dist/assets/images/Token%20PTI%20Infographic.pdf",
+                  "target": "_blank"
+                }
               ]
             },
             {
@@ -688,21 +867,21 @@
               "class": "hide-on-campaign",
               "list": [
                 {
-                  "label": "Paratii Player",
+                  "label": "O Player",
                   "href": "https://github.com/Paratii-Video/paratii-portal"
                 },
                 {
-                  "label": "Contratos em Solidity",
+                  "label": "Os Contratos",
                   "href": "https://github.com/Paratii-Video/paratii-contracts"
                 },
                 {
-                  "label": "Lab.paratii Portal",
-                  "href": "https://github.com/Paratii-Video/paratii-portal"
+                  "label": "O Protocolo",
+                  "href": "https://github.com/Paratii-Video/paratii-protocol"
                 }
               ]
             },
             {
-              "label": "Contribuidores",
+              "label": "Team",
               "class": "hide-on-campaign",
               "router": true,
               "href": "/#team"
@@ -746,6 +925,67 @@
             "eventValue": "106"
           }
         },
+        "audiences": {
+          "title": "Públicos",
+          "subtitle": "Quem precisa de um mercado de vídeo descentralizado?",
+          "list": [
+            {
+              "title": "Criadores",
+              "text": "Faça upload de conteúdo original, ou simplesmente cole um link e “replique” na Paratii conteúdo que já está em outro lugar. Experimente monetizar sem intermediários. Sem cortes na sua receita. Sem bloqueios ou manipulação com sua audiência.",
+              "button": "Seja um uploader",
+              "buttonHref": "/join",
+              "router": true,
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Creators",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "102"
+              }
+            },
+            {
+              "title": "Publishers",
+              "text": "Basta uma linha de código para embedar o player na sua página e acessar uma rede auto-escalável em que o serviço fica mais barato conforme a audiência cresce.",
+              "button": "Peça uma demo",
+              "buttonHref": "https://goo.gl/forms/HTLaPJEwjH0WfXA13",
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Publishers",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "105"
+              }
+            },
+            {
+              "title": "Comunidade",
+              "text": "Usuários são o motor da rede, curando conteúdo e provendo atenção e armazenagem enquanto assistem. Em troca, recebem tokens, que podem ser ganhos imperceptivelmente, por exemplo, quando se assiste um clipe e o player manda alguns pedaços dele para um outro habitante da cidade por acaso assistindo-o também.",
+              "button": "Entre no nosso Telegram",
+              "buttonHref": "http://t.me/paratiivideo/",
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Community",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "101"
+              }
+            }
+          ],
+          "call": {
+            "text": "<strong class=\"main-section-content-title\">Anunciantes e investidores:</strong><br> tokens PTI serão publicamente distribuídos em um evento a ser anunciado em breve.",
+            "button": "Quero ter acesso",
+            "buttonHref": "https://goo.gl/forms/8zJ6Q6NcqgJXHf7r2",
+            "ga": {
+              "hitType": "event",
+              "eventCategory": "Buyers-Investors",
+              "eventAction": "Enviar",
+              "eventLabel": "Site",
+              "eventValue": "100"
+            }
+          }
+        },
         "features": {
           "title": "Features",
           "subtitle": "Um player de vídeo como qualquer outro. Exceto pelo que há por trás dele.",
@@ -775,6 +1015,12 @@
               "text": "<strong>Quem faz a curadoria é a audiência</strong>, e não um big brother da vida. Usuários são recompensados por apontarem conteúdo inapropriado antes dos outros, ou encontrarem material que infringe copyrights.",
               "icon": "<use xlink:href=\"#icon-like\"></use>"
             }
+          ],
+          "call": {
+            "text": "Experimente a versão 0.0.1 do player!",
+            "button": "Testar demo",
+            "href": "https://paratii-video.github.io/paratii-embed/"
+          }
         },
         "components": {
           "title": "Componentes",
@@ -800,6 +1046,75 @@
               "text": "<strong>Um player de mídia embedável</strong>, modular e extensível, para se customizar como quiser. Aplique-o na sua página, canal de mídia ou site de notícias com uma linha de código. Compartilhe-o em redes sociais quando encontrar com um no Twitter, no Medium ou no Telegram. Com a paratii.js, desenvolvedores também podem construir facilmente widgets e plugins de todo tipo para modificar o frontend, além interagir com módulos específicos do protocolo.",
               "image": "./dist/assets/svgs/paratii-the-player.svg",
               "href": "https://github.com/Paratii-Video/paratii-portal"
+            }
+          ]
+        },
+        "roadmap": {
+          "title": "Roadmap",
+          "subtitle": "Uma breve história e próximos releases",
+          "text": "Paratii está sendo desenhada e desenvolvida há mais de um ano. Nossa visão consiste em semear um mercado aberto para histórias audiovisuais onde qualquer agente, independentemente de seu tamanho ou conta bancária, tem oportunidades iguais de ser ouvido e se beneficiar/lucrar do sistema, conforme esteja disposto a contribuir.",
+          "listA": [
+            {
+              "text": "Formação do time",
+              "textDate": "Nov 2016",
+              "dateStart": "2016-11-01",
+              "dateEnd": "2016-11-30"
+            },
+            {
+              "text": "Blueprint publicado",
+              "textDate": "Jun 2017",
+              "dateStart": "2017-06-01",
+              "dateEnd": "2017-06-30"
+            },
+            {
+              "text": "Fundação Paratii incorporada",
+              "textDate": "Out 2017",
+              "dateStart": "2017-10-01",
+              "dateEnd": "2017-10-31"
+            },
+            {
+              "text": "Release Paratii player v0.0.1",
+              "textDate": "Dez 2017",
+              "dateStart": "2017-12-01",
+              "dateEnd": "2017-12-31"
+            },
+            {
+              "text": "v0.0.2: Paratii.js e novo player plugin-oriented",
+              "textDate": "Fev 2018",
+              "dateStart": "2018-02-01",
+              "dateEnd": "2018-02-28"
+            }
+          ],
+          "listB": [
+            {
+              "text": "1º portal para upload e browsing de conteúdo",
+              "textDate": "Mar 2018",
+              "dateStart": "2018-03-01",
+              "dateEnd": "2018-03-31"
+            },
+            {
+              "text": "Publicação do bluepaper + protocolo funcional",
+              "textDate": "Jun 2018",
+              "dateStart": "2018-04-01",
+              "dateEnd": "2018-06-30"
+            },
+            {
+              "text": "Evento de distribuição dos tokens",
+              "textDate": "Q4 2018",
+              "dateStart": "2018-07-01",
+              "dateEnd": "2018-07-31"
+            },
+            {
+              "text": "Programa piloto com publishers",
+              "textDate": "Q4 2018",
+              "dateStart": "2018-08-01",
+              "dateEnd": "2018-08-31"
+            },
+            {
+              "text": "Bridging de contratos principais à mainnet",
+              "textDate": "Q4 2018",
+              "dateStart": "2018-09-01",
+              "dateEnd": "2018-09-30"
             }
           ]
         },
@@ -932,6 +1247,19 @@
           ]
         },
         "onthenews": {
+          "list": [
+            {
+              "title": "Apoio",
+              "list": [
+                {
+                  "byheight": true,
+                  "href": "http://www.bossanovagroup.com.br/",
+                  "title": "Bossa Nova Group",
+                  "image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
+                }
+              ]
+            },
+            {
               "title": "Na mídia",
               "list": [
                 { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
@@ -1331,8 +1659,18 @@
               "class": "hide-on-campaign",
               "list": [
                 {
-                  "label": "Research",
-                  "href": "https://github.com/Paratii-Video/wiki/wiki/1.-Home-(%F0%9F%91%87Research-material-)",
+                  "label": "OnePager",
+                  "href": "https://paratii.video/dist/assets/images/OnePager%20Paratii.pdf",
+                  "target": "_blank"
+                },
+                {
+                  "label": "Roadmap",
+                  "href": "/#roadmap",
+                  "router": true
+                },
+                {
+                  "label": "Whitepaper",
+                  "href": "https://paratii.video/dist/assets/images/Paratii%20White%20Paper%20-%20v0.3%20-%20June%202018.pdf",
                   "target": "_blank"
                 },
                 {
@@ -1340,26 +1678,33 @@
                   "href": "https://github.com/Paratii-Video/paratii-js",
                   "target": "_blank"
                 },
+                {
+                  "label": "The PTI Token",
+                  "href": "https://paratii.video/dist/assets/images/Token%20PTI%20Infographic.pdf",
+                  "target": "_blank"
+                }
+              ]
+            },
             {
               "label": "Code",
               "class": "hide-on-campaign",
               "list": [
                 {
-                  "label": "Paratii Player",
+                  "label": "The Player",
                   "href": "https://github.com/Paratii-Video/paratii-portal"
                 },
                 {
-                  "label": "Smart Contracts",
+                  "label": "The Contracts",
                   "href": "https://github.com/Paratii-Video/paratii-contracts"
                 },
                 {
-                  "label": "Lab.paratii Portal",
-                  "href": "https://github.com/Paratii-Video/paratii-portal"
+                  "label": "The Protocol",
+                  "href": "https://github.com/Paratii-Video/paratii-protocol"
                 }
               ]
             },
             {
-              "label": "Contributors",
+              "label": "Team",
               "class": "hide-on-campaign",
               "router": true,
               "href": "/#team"
@@ -1403,6 +1748,67 @@
             "eventValue": "106"
           }
         },
+        "audiences": {
+          "title": "观众",
+          "subtitle": "谁需要一个去中心化的视频交易平台？",
+          "list": [
+            {
+              "title": "创作者",
+              "text": "通过Paratii上传原创内容或映射至现有内容，在没有中间商的情况下获取收益。并且不会削减你的收入，也不会拦截或操纵你的观众。",
+              "button": "成为第一批上传者",
+              "buttonHref": "/join",
+              "router": true,
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Creators",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "102"
+              }
+            },
+            {
+              "title": "发布者",
+              "text": "使用一行代码将播放器嵌入到你的页面中，即可访问一个自可伸缩的网络，其服务随着你的观众数量的增长而变得更加便宜。想要更进一步吗？你将能够下载一个软件安装包，运行一个特殊的媒体节点，从而产生收益。",
+              "button": "申请发布者演示样品",
+              "buttonHref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Publishers",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "105"
+              }
+            },
+            {
+              "title": "社区",
+              "text": "用户是网络的核心，对内容进行管理，并提供最基本的资源。作为奖励，他们可以获得通证，整个过程可以做到无缝连接。例如，当一个人观看视频的同时会将视频流传送到附近的节点。",
+              "button": "加入Telegram",
+              "buttonHref": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
+              "icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>",
+              "ga": {
+                "hitType": "event",
+                "eventCategory": "Community",
+                "eventAction": "Enviar",
+                "eventLabel": "Site",
+                "eventValue": "101"
+              }
+            }
+          ],
+          "call": {
+            "text": "<strong class=\"main-section-content-title\">流媒体消费者和投资者：</strong><br> PTI 通证将会在即将公布的活动中公开发行。",
+            "button": "申请抢先体验",
+            "buttonHref": "https://goo.gl/forms/8zJ6Q6NcqgJXHf7r2",
+            "ga": {
+              "hitType": "event",
+              "eventCategory": "Buyers-Investors",
+              "eventAction": "Enviar",
+              "eventLabel": "Site",
+              "eventValue": "100"
+            }
+          }
+        },
         "features": {
           "title": "特性",
           "subtitle": "除了隐藏在其背后真正的内容，它像极了其他的视频播放器。",
@@ -1432,6 +1838,12 @@
               "text": "<strong>由用户进行内容管理</strong>，在早期发现不当内容或侵犯版权的资源时，用户将会获得奖励。",
               "icon": "<use xlink:href=\"#icon-like\"></use>"
             }
+          ],
+          "call": {
+            "text": "播放器试验版本 0.0.1！",
+            "button": "尝试演示样品",
+            "href": "https://paratii-video.github.io/paratii-embed/"
+          }
         },
         "components": {
           "title": "组件",
@@ -1460,6 +1872,75 @@
               "text": "<strong>一个可嵌入的、模块化和可扩展的播放器</strong>，可以根据你的需要定制。通过一行代码把它到你的网页、媒体通道或新闻市场上。当你在Twitter、Medium或Telegram上发现一个视频时，在社交媒体上分享它。通过paratii.js，开发人员还可以构建界面图形元素和插件来修改前端，并与协议的特定模块交互。",
               "image": "./dist/assets/svgs/paratii-the-player.svg",
               "href": "https://github.com/Paratii-Video/paratii-portal"
+            }
+          ]
+        },
+        "roadmap": {
+          "title": "路线图",
+          "subtitle": "简短的回顾和下一个里程碑",
+          "text": "Paratii已经进行了一年多的设计和开发。我们的愿景是为视听故事提供一个开放的市场，任何一个用户，无论其规模大小、是否拥有银行账户，都拥有平等的机会在网络中被听到或看到并由此获利。",
+          "listA": [
+            {
+              "text": "团队构建",
+              "textDate": "2016年11月",
+              "dateStart": "2016-11-01",
+              "dateEnd": "2016-11-30"
+            },
+            {
+              "text": "发布蓝图",
+              "textDate": "2017年6月",
+              "dateStart": "2017-06-01",
+              "dateEnd": "2017-06-30"
+            },
+            {
+              "text": "Paratii 基本会成立",
+              "textDate": "2017年10月",
+              "dateStart": "2017-10-01",
+              "dateEnd": "2017-10-31"
+            },
+            {
+              "text": "Paratii播放器 v0.0.1 发布",
+              "textDate": "2017年12月",
+              "dateStart": "2017-12-01",
+              "dateEnd": "2017-12-31"
+            },
+            {
+              "text": "v0.0.2: Paratii.js和新的基于插件的播放器",
+              "textDate": "2018年2月",
+              "dateStart": "2018-02-01",
+              "dateEnd": "2018-02-28"
+            }
+          ],
+          "listB": [
+            {
+              "text": "第一个可以上传和浏览的门户网站",
+              "textDate": "2018年3月",
+              "dateStart": "2018-03-01",
+              "dateEnd": "2018-03-31"
+            },
+            {
+              "text": "发布蓝皮书 + 完成协议",
+              "textDate": "2018年4月",
+              "dateStart": "2018-04-01",
+              "dateEnd": "2018-06-30"
+            },
+            {
+              "text": "通证发行",
+              "textDate": "2018年7月",
+              "dateStart": "2018-07-01",
+              "dateEnd": "2018-07-31"
+            },
+            {
+              "text": "发布者试点项目",
+              "textDate": "2018年二季度",
+              "dateStart": "2018-08-01",
+              "dateEnd": "2018-08-31"
+            },
+            {
+              "text": "主合约连接主干网",
+              "textDate": "2018年三季度",
+              "dateStart": "2018-09-01",
+              "dateEnd": "2018-09-30"
             }
           ]
         },
@@ -1592,6 +2073,19 @@
           ]
         },
         "onthenews": {
+          "list": [
+            {
+              "title": "Supporting Us",
+              "list": [
+                {
+                  "byheight": true,
+                  "href": "http://www.bossanovagroup.com.br/",
+                  "title": "Bossa Nova Group",
+                  "image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
+                }
+              ]
+            },
+            {
               "title": "在这些新闻里",
               "list": [
                 { "href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
