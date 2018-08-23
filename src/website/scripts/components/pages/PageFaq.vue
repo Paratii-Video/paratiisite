@@ -1,6 +1,6 @@
 <template>
   <main id="paratii-main" class="paratii-main">
-    <SectionFaq v-bind:content="getLanguageContent.sections.faq"></SectionFaq>
+    <SectionFaq v-if="getLanguageContent.sections.faq" v-bind:content="getLanguageContent.sections.faq"></SectionFaq>
   </main>
 </template>
 

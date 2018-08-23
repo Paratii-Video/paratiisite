@@ -1,8 +1,14 @@
 <template>
   <main id="paratii-main" class="paratii-main page-campaign">
-    <CampaignHeader v-bind:content="getContent.header"/>
-    <CampaignAbout v-bind:content="getContent.about"/>
-    <CampaignContact v-bind:content="getContent.contact"/>
+    <CampaignHeader
+      v-if="getContent.header"
+      v-bind:content="getContent.header"/>
+    <CampaignAbout
+      v-if="getContent.about"
+      v-bind:content="getContent.about"/>
+    <CampaignContact
+      v-if="getContent.contact"
+      v-bind:content="getContent.contact"/>
   </main>
 </template>
 
