@@ -441,6 +441,9 @@ GLOBALS.methods = {
             var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
             return reg.test(val);
         }
+    },
+    scrollTo: function (target) {
+      $('html,body').animate({ scrollTop: (target.offset().top - GLOBALS.$title.height()) }, 600);
     }
 };
 // Videos Player
@@ -787,7 +790,7 @@ VideosPlayer.prototype.set = function(video) {
             $nav.removeClass('open');
         }
 
-        function go(y) {
+        function go($target) {
             var delay;
 
             delay = 0;
@@ -800,7 +803,7 @@ VideosPlayer.prototype.set = function(video) {
             if (GLOBALS.methods.pauseVideo) GLOBALS.methods.pauseVideo();
 
             setTimeout(function () {
-                $('html,body').animate({ scrollTop: y - (GLOBALS.$title.height() / 2) }, 600);
+                GLOBALS.methods.scrollTo($target)
             }, delay);
         }
 
@@ -808,7 +811,7 @@ VideosPlayer.prototype.set = function(video) {
             e.preventDefault();
             var $target = $($(this).attr('href'));
             if ($target.length) {
-                go($target.offset().top);
+                go($target);
                 close();
             }
         }
@@ -946,10 +949,7 @@ VideosPlayer.prototype.set = function(video) {
 
         $teasers.on('click', 'button.teasers-button-scroll', function () {
             if (!GLOBALS.state.ismobile) pause();
-
-            $('html,body').animate({
-                scrollTop: $(".about").offset().top - GLOBALS.$title.height()
-            }, 600);
+            GLOBALS.methods.scrollTo($(".about"))
         });
 
         $medias.on('mouseover mousemove', function () {
@@ -1025,7 +1025,7 @@ VideosPlayer.prototype.set = function(video) {
         }
 
         function animate () {
-            $article.find('img.interviews-article-gif').attr('src', '').attr('src', gif);
+            $article.find('img.interviews-article-gif').attr('src', '').attr('src', gif + '?x='+Math.round(Math.random()*1000));
         }
 
         function open (item) {
@@ -1043,7 +1043,7 @@ VideosPlayer.prototype.set = function(video) {
             timeout = setTimeout(function(){
                 if (window.innerWidth < 769) GLOBALS.$body.addClass('no-scroll');
                 animate();
-                giftime = setInterval(animate, 8000);
+                giftime = setInterval(animate, 5000);
             }, 1000);
         }
 
@@ -1057,7 +1057,6 @@ VideosPlayer.prototype.set = function(video) {
 
             GLOBALS.body.scrollTop = rememberY;
             window.scrollTo(0, rememberY);
-            console.log(rememberY);
         }
 
         $interviews.on('click', 'a.interviews-nav-link', function (e) {
@@ -1275,7 +1274,14 @@ VideosPlayer.prototype.set = function(video) {
 
                 media.addEventListener('ended', videoEnded);
                 setTimeout(function () {
-                    media.play();
+                    var promise = media.play();
+                    if (promise !== undefined) {
+                        try {
+                            console.log('around the block: start')
+                        } catch (e) {
+                            console.log('around the block: intro error', e)
+                        }
+                    }
                 }, 400);
             }
         }
