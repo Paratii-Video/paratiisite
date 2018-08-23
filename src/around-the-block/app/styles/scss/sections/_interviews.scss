@@ -41,25 +41,41 @@ $size-interviewsthumb-margin-h-min: 1.2vw;
     }
 
     &-link {
-        @extend .clearfix;
-        display: block;
+        display: flex;
+        min-height: 300px;
+
+        .left & {
+            flex-direction: row;
+        }
+
+        .right & {
+            flex-direction: row-reverse;
+        }
+
+        .left:nth-child(even) & {
+            @include screenphablet {
+                flex-direction: row;
+            }
+        }
+
+        .right:nth-child(odd) & {
+            @include screenphablet {
+                flex-direction: row-reverse;
+            }
+        }
     }
 
     &-entry {
-        @extend .pos-a-middle-v;
-
         box-sizing: border-box;
-        height: 100%;
+        position: relative;
         width: 50%;
 
         .left & {
             padding: 3.1vw $size-interviewsthumb-margin-h-min 3.8vw $size-interviewsthumb-margin-h;
-            right: 0;
             text-align: left;
         }
 
         .right & {
-            left: 0;
             padding: 3.1vw $size-interviewsthumb-margin-h 3.8vw $size-interviewsthumb-margin-h-min;
             text-align: right;
         }
@@ -67,9 +83,7 @@ $size-interviewsthumb-margin-h-min: 1.2vw;
         .left:nth-child(even) &,
         .right:nth-child(even) & {
             @include screenphablet {
-                left: 0;
                 padding: 7vw 6vw 5vw 12vw;
-                right: auto;
                 text-align: right;
             }
         }
@@ -77,9 +91,7 @@ $size-interviewsthumb-margin-h-min: 1.2vw;
         .left:nth-child(odd) &, 
         .right:nth-child(odd) & {
             @include screenphablet {
-                left: auto;
                 padding: 7vw 12vw 5vw 6vw;
-                right: 0;
                 text-align: left;
             }
         }
@@ -137,37 +149,15 @@ $size-interviewsthumb-margin-h-min: 1.2vw;
     }
 
     &-thumb {
+        background-color: $color-blue-intro;
         backface-visibility: hidden;
-        // opacity: .7;
         overflow: hidden;
         transition: filter .35s ease-out;
         width: 50%;
 
         .interviews-nav-link:hover & {
             filter: brightness(1.3);
-            transition: filter .5s ease-out;
-        }
-
-        .left & {
-            float: left;
-        }
-
-        .right & {
-            float: right;
-        }
-
-        .left:nth-child(even) &,
-        .right:nth-child(even) & {
-            @include screenphablet {
-                float: right;
-            }
-        }
-
-        .left:nth-child(odd) &,
-        .right:nth-child(odd) & {
-            @include screenphablet {
-                float: left;
-            }
+            transition: filter .6s ease-out;
         }
     }
 
@@ -175,12 +165,12 @@ $size-interviewsthumb-margin-h-min: 1.2vw;
         display: block;
         max-width: 100%;
         transform: scale(1.05);
-        transition: transform .35s ease-out;
+        transition: transform .65s $ease-out-quad;
 
 
         .interviews-nav-link:hover & {
             transform: scale(1.1);
-            transition: transform .4s ease-out;
+            transition: transform 1s $ease-out-quad;
         }
     }
 }
