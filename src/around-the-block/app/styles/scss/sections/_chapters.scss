@@ -49,23 +49,29 @@
     //
 
     &-list {
-        @extend .clearfix;
-
+        display: flex;
+        justify-content: center;
         position: relative;
-        text-align: center;
         padding: 0 10px;
         z-index: 3;
+
+        @include screenphablet {
+            flex-wrap: wrap;
+        }
     }
 
     &-item {
-        float: left;
-        height: 28.7vw;
-        width: calc(100%/6);
+        flex: 1 1 100%;
+        height: $size-chapters-item-height;
+        max-width: $size-chapters-item-width;
+        width: 100%;
 
         @include screenphablet {
-            height: 78vw;
+            flex: 1 1 50%;
+            height: $size-chapters-item-height-mobile;
             margin-bottom: 0;
-            width: calc(100%/2);
+            max-width: initial;
+            width: 50%;
         }
     }
 
@@ -74,17 +80,18 @@
 
     &-button {
         backface-visibility: hidden;
+        background-color: $color-blue-dark;
         background-position: 50%;
         background-repeat: no-repeat;
         background-size: cover;
-        // box-shadow: 10px 10px 5px #000;
+        // box-shadow: 0 1px 3px rgba(34, 25, 25, 0.2);
         display: block;
         height: 100%;
         overflow: hidden;
         position: relative;
         text-align: left;
         transform: scale(.95);
-        transition: all .5s $ease-smooth;
+        transition: all .85s $ease-smooth;
 
         &:hover {
             transform: scale(1);
@@ -105,11 +112,11 @@
         }
 
         &.green {
-            color: #00f0c8;
+            color: $color-green-light;
         }
 
         &.blue {
-            color: #2363c5;
+            color: $color-blue-light2;
         }
     
         &-info {
@@ -208,42 +215,18 @@
             }
 
             &.title-2 {
-                font-size: 1.75vw;
-                line-height: 0.9;
+                font-size: 2.5vw;
+                line-height: 0.85;
                 left: -0.2vw;
                 letter-spacing: 1px;
 
                 @include screenphablet {
-                    font-size: 5.8vw;
-                    left: -0.4vw;
-                }
-            }
-
-            &.title-3 {
-                font-size: 1.9vw;
-                line-height: 0.9;
-                left: -0.3vw;
-                letter-spacing: 1px;
-
-                @include screenphablet {
-                    font-size: 6vw;
-                    left: -0.8vw;
-                }
-            }
-
-            &.title-4 {
-                font-size: 1.6vw;
-                line-height: 0.9;
-                left: -0.2vw;
-                letter-spacing: 1px;
-
-                @include screenphablet {
-                    font-size: 5vw;
+                    font-size: 8.2vw;
                     left: -0.5vw;
                 }
             }
 
-            &.title-5 {
+            &.title-3 {
                 font-size: 2.6vw;
                 line-height: 0.9;
                 left: -0.3vw;
