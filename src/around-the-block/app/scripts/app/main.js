@@ -93,7 +93,14 @@
 
                 media.addEventListener('ended', videoEnded);
                 setTimeout(function () {
-                    media.play();
+                    var promise = media.play();
+                    if (promise !== undefined) {
+                        try {
+                            console.log('around the block: start')
+                        } catch (e) {
+                            console.log('around the block: intro error', e)
+                        }
+                    }
                 }, 400);
             }
         }
