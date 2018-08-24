@@ -21,7 +21,7 @@
 
         function animate () {
             var play = function () {
-                var rn = GLOBALS.methods.getRandomNumber(1000, 6000);
+                var rn = GLOBALS.methods.getRandomNumber(1000, 10000);
                 $article.find('img.interviews-article-gif').attr('src', '').attr('src', gif + '?x='+Math.round(Math.random()*1000));
                 giftime = setTimeout(play, rn);
             }
