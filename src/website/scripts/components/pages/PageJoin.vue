@@ -1,6 +1,8 @@
 <template>
   <main id="paratii-main" class="paratii-main">
-    <SectionJoin v-bind:content="getLanguageContent.sections.join"></SectionJoin>
+    <SectionJoin
+      v-if="getLanguageContent.sections.join"
+      v-bind:content="getLanguageContent.sections.join"></SectionJoin>
   </main>
 </template>
 

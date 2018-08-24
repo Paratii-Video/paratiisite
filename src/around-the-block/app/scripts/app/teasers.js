@@ -114,10 +114,7 @@
 
         $teasers.on('click', 'button.teasers-button-scroll', function () {
             if (!GLOBALS.state.ismobile) pause();
-
-            $('html,body').animate({
-                scrollTop: $(".about").offset().top - GLOBALS.$title.height()
-            }, 600);
+            GLOBALS.methods.scrollTo($(".about"))
         });
 
         $medias.on('mouseover mousemove', function () {

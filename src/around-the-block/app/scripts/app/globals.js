@@ -17,5 +17,11 @@ GLOBALS.methods = {
             var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
             return reg.test(val);
         }
+    },
+    scrollTo: function (target) {
+      $('html,body').animate({ scrollTop: (target.offset().top - GLOBALS.$title.height()) }, 600);
+    },
+    getRandomNumber: function (min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min
     }
 };

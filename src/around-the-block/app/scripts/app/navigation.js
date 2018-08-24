@@ -20,7 +20,7 @@
             $nav.removeClass('open');
         }
 
-        function go(y) {
+        function go($target) {
             var delay;
 
             delay = 0;
@@ -33,7 +33,7 @@
             if (GLOBALS.methods.pauseVideo) GLOBALS.methods.pauseVideo();
 
             setTimeout(function () {
-                $('html,body').animate({ scrollTop: y - (GLOBALS.$title.height() / 2) }, 600);
+                GLOBALS.methods.scrollTo($target)
             }, delay);
         }
 
@@ -41,7 +41,7 @@
             e.preventDefault();
             var $target = $($(this).attr('href'));
             if ($target.length) {
-                go($target.offset().top);
+                go($target);
                 close();
             }
         }
