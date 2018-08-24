@@ -15,12 +15,17 @@
 
         function clear () {
             if (timeout) clearTimeout(timeout);
-            if (giftime) clearInterval(giftime);
+            if (giftime) clearTimeout(giftime);
             $modal.animate({scrollTop: 0});
         }
 
         function animate () {
-            $article.find('img.interviews-article-gif').attr('src', '').attr('src', gif + '?x='+Math.round(Math.random()*1000));
+            var play = function () {
+                var rn = GLOBALS.methods.getRandomNumber(1000, 6000);
+                $article.find('img.interviews-article-gif').attr('src', '').attr('src', gif + '?x='+Math.round(Math.random()*1000));
+                giftime = setTimeout(play, rn);
+            }
+            play();
         }
 
         function open (item) {
@@ -38,7 +43,6 @@
             timeout = setTimeout(function(){
                 if (window.innerWidth < 769) GLOBALS.$body.addClass('no-scroll');
                 animate();
-                giftime = setInterval(animate, 5000);
             }, 1000);
         }
 
