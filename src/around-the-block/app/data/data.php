@@ -147,7 +147,7 @@
             ],
             'about' => [
                 'title' => 'About',
-                'content' => '<p class="font-text-bigger colorful">Around the Block is a 4-episode documentary series about blockchain technologists who are decentralising the engines of modern society.</p><p class="font-text-bigger">It\'s production is spearheaded by one of Brazil\'s biggest film companies, and launch is scheduled for Q4 2017. Content will be released on Paratii, a decentralised peer-to-peer video player under development.</p>'
+                'content' => '<p class="font-text-bigger colorful">Around the Block is an episodical documentary series about blockchain technologists who are decentralising the engines of modern society.</p><p class="font-text-bigger">It\'s production is spearheaded by one of Brazil\'s biggest film companies, and launch is scheduled for Q3 2018. Content will be released on The Lab, a peer to peer video site built on IPFS, Ethereum and Paratii open source technologies.</p>'
             ],
             'chapters' => [
                 'title' => 'Chapters',
