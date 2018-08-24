@@ -73,7 +73,6 @@
 					"title": "A distributed curation protocol and streaming engine",
 					"text": "Microeconomic fairness for all network participants. Monetize with subscriptions, access tokens, or the way you invent. Engage audiences by letting them earn while watching.",
 					"image": "./dist/assets/svgs/paratii-header.svg",
-					"small": "<strong>Beta version to be released soon.</strong><br> Subscribe now and don't miss out.",
 					"buttonA": "Try the alpha portal",
 					"buttonAhref": "https://portal.paratii.video/",
 					"buttonB": "Subscribe",
@@ -84,41 +83,6 @@
 						"eventAction": "Enviar",
 						"eventLabel": "Site",
 						"eventValue": "106"
-					}
-				},
-				"features": {
-					"title": "Features",
-					"subtitle": "A video player like any other. Except for what’s behind it.",
-					"image": "./dist/assets/svgs/paratii-features.svg",
-					"list": [{
-							"text": "<strong>Videos can be free or have different monetisation models.</strong> They all look similar, but some prompt users to validate micropayments.",
-							"icon": "<use xlink:href=\"#icon-user\"></use>"
-						},
-						{
-							"text": "<strong>Adaptive bitrate streaming: at every point, users get the maximum quality for their device and connection.</strong> The file processing magic is done by a distributed network of transcoders.",
-							"icon": "<use xlink:href=\"#icon-gear\"></use>"
-						},
-						{
-							"text": "<strong>Users can earn tokens whenever they’re active.</strong> These are stored in an in-player wallet, and “excess” funds (think a content creator who’s getting a lot of audience) are transferred to a separate account.",
-							"icon": "<use xlink:href=\"#icon-user\"></use>"
-						},
-						{
-							"text": "<strong>Casual users may watch for hours and still never notice this is not an average player.</strong> Those who sign up can claim tokens earned and use them to curate, acquire or promote videos.",
-							"icon": "<use xlink:href=\"#icon-user\"></use>"
-						},
-						{
-							"text": "<strong>Multiple platforms supported.</strong> Sharing is incentivised if creators choose to divide a portion of their earnings with ‘promoters.",
-							"icon": "<use xlink:href=\"#icon-user\"></use>"
-						},
-						{
-							"text": "<strong>Curation is left to the audience</strong>, who’s rewarded for spotting inappropriate content early on or pointing to copyright-infringing material.",
-							"icon": "<use xlink:href=\"#icon-like\"></use>"
-						}
-					],
-					"call": {
-						"text": "Experiment version 0.0.1 of the player!",
-						"button": "Try demo",
-						"href": "https://paratii-video.github.io/paratii-embed/"
 					}
 				},
 				"components": {
@@ -161,6 +125,11 @@
 							"image": "./dist/assets/images/open-source/logo-ethereum.png",
 							"title": "Ethereum",
 							"href": "https://www.ethereum.org/"
+						},
+						{
+							"image": "./dist/assets/images/open-source/Clappr.png",
+							"title": "Clappr",
+							"href": "https://github.com/clappr/clappr"
 						}
 					]
 				},
@@ -247,75 +216,36 @@
 						}
 					]
 				},
-				"advisors": {
-					"title": "People",
-					"subtitle": "Advisors",
-					"list": [{
-							"url": "http://www.bossanovagroup.com.br/",
-							"image": "./dist/assets/images/advisors/Edu.png",
-							"name": "Edu Tibiriçá",
-							"job": "CEO @ BossaNovaGroup",
-							"text": "Co-founder of Brazil’s 2nd largest film production company, leader of three successful merges, former APRO (National Association of Advertising Producers) president."
-						},
-						{
-							"url": "https://medium.com/@flavioribeiro",
-							"image": "./dist/assets/images/advisors/Ribeiro.png",
-							"name": "Flávio Ribeiro",
-							"job": "Principal Engineer @ CBS Interactive",
-							"text": "Co-inventor of the Clappr player, co-architect of the 2014 World Cup online live streaming for globo.com, lead video engineer at the New York Times."
-						},
-						{
-							"url": "https://dna.fund/",
-							"image": "./dist/assets/images/advisors/James.png",
-							"name": "James Glasscock",
-							"job": "Ex-VP @ Warner Bros, Machinima",
-							"text": "Co-founder of DNA.fund, previously VP of Distribution Business Development at Warner Bros, SVP of Business Development at Machinima, SVP of Strategic Planning & Broadcast Operations at Playboy TV."
-						}
-					]
-				},
 				"onthenews": {
 					"list": [{
-							"title": "Supporting Us",
-							"list": [{
-								"byheight": true,
-								"href": "http://www.bossanovagroup.com.br/",
-								"title": "Bossa Nova Group",
-								"image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
-							}]
+							"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
+							"title": "Época Negócios",
+							"image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
 						},
 						{
-							"title": "On the news",
-							"list": [{
-									"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
-									"title": "Época Negócios",
-									"image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
-								},
-								{
-									"href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
-									"title": "Criptomoedas Fácil",
-									"image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
-								},
-								{
-									"href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
-									"title": "TecMundo",
-									"image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
-								},
-								{
-									"href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
-									"title": "Olhar Digital",
-									"image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
-								},
-								{
-									"href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
-									"title": "Livecoins",
-									"image": "./dist/assets/images/on-the-news/logo-livecoins.png"
-								},
-								{
-									"href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
-									"title": "Proxxima",
-									"image": "./dist/assets/images/on-the-news/proxxima.png"
-								}
-							]
+							"href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
+							"title": "Criptomoedas Fácil",
+							"image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
+						},
+						{
+							"href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
+							"title": "TecMundo",
+							"image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
+						},
+						{
+							"href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
+							"title": "Olhar Digital",
+							"image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
+						},
+						{
+							"href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
+							"title": "Livecoins",
+							"image": "./dist/assets/images/on-the-news/logo-livecoins.png"
+						},
+						{
+							"href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
+							"title": "Proxxima",
+							"image": "./dist/assets/images/on-the-news/proxxima.png"
 						}
 					]
 				},
@@ -736,7 +666,6 @@
 					"title": "Uma nova era para seus vídeos",
 					"text": "Distribua histórias sem intermediários. Colete 100% da receita do seu conteúdo. Transforme audiência em comunidade.",
 					"image": "./dist/assets/svgs/paratii-header.svg",
-					"small": "<strong>Versão beta será lançada em breve.</strong><br> Inscreva-se e não fique de fora.",
 					"buttonA": "Acesse a versão alpha",
 					"buttonAhref": "https://portal.paratii.video/",
 					"buttonB": "Inscreva-se",
@@ -747,41 +676,6 @@
 						"eventAction": "Enviar",
 						"eventLabel": "Site",
 						"eventValue": "106"
-					}
-				},
-				"features": {
-					"title": "Features",
-					"subtitle": "Um player de vídeo como qualquer outro. Exceto pelo que há por trás dele.",
-					"image": "./dist/assets/svgs/paratii-features.svg",
-					"list": [{
-							"text": "<strong>Vídeos podem ser gratuitos ou não.</strong> Para o usuário, parecem a mesma coisa, mas alguns exigem a validação de um micropagamento.",
-							"icon": "<use xlink:href=\"#icon-user\"></use>"
-						},
-						{
-							"text": "<strong>Adaptive bitrate streaming: a cada segundo, usuários recebem a melhor qualidade de arquivo suportada por seu aparelho e conexão.</strong> A mágica de processamento é feita por uma rede distribuída de transcoders.",
-							"icon": "<use xlink:href=\"#icon-gear\"></use>"
-						},
-						{
-							"text": "<strong>Usuários podem ganhar tokens até ao assistir conteúdo.</strong> Estes ficam numa carteira dentro do player, e fundos “em excesso” (pense num criador que anda gerando muita audiência) são transferidos para uma conta separada.",
-							"icon": "<use xlink:href=\"#icon-user\"></use>"
-						},
-						{
-							"text": "<strong>Usuários casuais podem assistir horas de vídeo e nunca notar que este não é um player comum.</strong> Quem fizer login pode reivindicar os tokens gerados pela atividade passada, e usá-los para curar, adquirir ou promover vídeos.",
-							"icon": "<use xlink:href=\"#icon-user\"></use>"
-						},
-						{
-							"text": "<strong>Múltiplas plataformas são suportadas.</strong> Quer ganhar alcance, como criador? Você pode alocar automaticamente parte da receita gerada para aqueles que promoverem o seu conteúdo.",
-							"icon": "<use xlink:href=\"#icon-user\"></use>"
-						},
-						{
-							"text": "<strong>Quem faz a curadoria é a audiência</strong>, e não um big brother da vida. Usuários são recompensados por apontarem conteúdo inapropriado antes dos outros, ou encontrarem material que infringe copyrights.",
-							"icon": "<use xlink:href=\"#icon-like\"></use>"
-						}
-					],
-					"call": {
-						"text": "Experimente a versão 0.0.1 do player!",
-						"button": "Testar demo",
-						"href": "https://paratii-video.github.io/paratii-embed/"
 					}
 				},
 				"components": {
@@ -823,6 +717,11 @@
 							"image": "./dist/assets/images/open-source/logo-ethereum.png",
 							"title": "Ethereum",
 							"href": "https://www.ethereum.org/"
+						},
+						{
+							"image": "./dist/assets/images/open-source/Clappr.png",
+							"title": "Clappr",
+							"href": "https://github.com/clappr/clappr"
 						}
 					]
 				},
@@ -909,75 +808,36 @@
 						}
 					]
 				},
-				"advisors": {
-					"title": "People",
-					"subtitle": "Advisors",
-					"list": [{
-							"url": "http://www.bossanovagroup.com.br/",
-							"image": "./dist/assets/images/advisors/Edu.png",
-							"name": "Edu Tibiriçá",
-							"job": "CEO @ BossaNovaGroup",
-							"text": "Co-founder of Brazil’s 2nd largest film production company, leader of three successful merges, former APRO (National Association of Advertising Producers) president."
-						},
-						{
-							"url": "https://medium.com/@flavioribeiro",
-							"image": "./dist/assets/images/advisors/Ribeiro.png",
-							"name": "Flávio Ribeiro",
-							"job": "Principal Engineer @ CBS Interactive",
-							"text": "Co-inventor of the Clappr player, co-architect of the 2014 World Cup online live streaming for globo.com, lead video engineer at the New York Times."
-						},
-						{
-							"url": "https://dna.fund/",
-							"image": "./dist/assets/images/advisors/James.png",
-							"name": "James Glasscock",
-							"job": "Ex-VP @ Warner Bros, Machinima",
-							"text": "Co-founder of DNA.Fund, previously VP of Distribution Business Development at Warner Bros, SVP of Business Development at Machinima, SVP of Strategic Planning & Broadcast Operations at Playboy TV."
-						}
-					]
-				},
 				"onthenews": {
 					"list": [{
-							"title": "Apoio",
-							"list": [{
-								"byheight": true,
-								"href": "http://www.bossanovagroup.com.br/",
-								"title": "Bossa Nova Group",
-								"image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
-							}]
+							"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
+							"title": "Época Negócios",
+							"image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
 						},
 						{
-							"title": "Na mídia",
-							"list": [{
-									"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
-									"title": "Época Negócios",
-									"image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
-								},
-								{
-									"href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
-									"title": "Criptomoedas Fácil",
-									"image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
-								},
-								{
-									"href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
-									"title": "TecMundo",
-									"image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
-								},
-								{
-									"href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
-									"title": "Olhar Digital",
-									"image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
-								},
-								{
-									"href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
-									"title": "Livecoins",
-									"image": "./dist/assets/images/on-the-news/logo-livecoins.png"
-								},
-								{
-									"href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
-									"title": "Proxxima",
-									"image": "./dist/assets/images/on-the-news/proxxima.png"
-								}
-							]
+							"href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
+							"title": "Criptomoedas Fácil",
+							"image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
+						},
+						{
+							"href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
+							"title": "TecMundo",
+							"image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
+						},
+						{
+							"href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
+							"title": "Olhar Digital",
+							"image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
+						},
+						{
+							"href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
+							"title": "Livecoins",
+							"image": "./dist/assets/images/on-the-news/logo-livecoins.png"
+						},
+						{
+							"href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
+							"title": "Proxxima",
+							"image": "./dist/assets/images/on-the-news/proxxima.png"
 						}
 					]
 				},
@@ -1331,8 +1191,7 @@
 					]
 				}
 			}
-		},
-		{
+		}, {
 			"label": "CH",
 			"language": "zh",
 			"title": "Change language to chinese",
@@ -1402,7 +1261,6 @@
 					"title": "开启视频资源的新时代",
 					"text": "分享你的故事，而无需向中间商支付费用。通过广告、订阅或任何你所希望的方式获取收益。让观众一边观看视频一边赚钱。",
 					"image": "./dist/assets/svgs/paratii-header.svg",
-					"small": "<strong>测试版本很快将会发布.</strong><br> 现在就订阅，不要错过.",
 					"buttonA": "Try the alpha portal",
 					"buttonAhref": "https://portal.paratii.video/",
 					"buttonB": "Subscribe",
@@ -1413,101 +1271,6 @@
 						"eventAction": "Enviar",
 						"eventLabel": "Site",
 						"eventValue": "106"
-					}
-				},
-				"audiences": {
-					"title": "观众",
-					"subtitle": "谁需要一个去中心化的视频交易平台？",
-					"list": [{
-							"title": "创作者",
-							"text": "通过Paratii上传原创内容或映射至现有内容，在没有中间商的情况下获取收益。并且不会削减你的收入，也不会拦截或操纵你的观众。",
-							"button": "成为第一批上传者",
-							"buttonHref": "/join",
-							"router": true,
-							"icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-creators\"></use></svg>",
-							"ga": {
-								"hitType": "event",
-								"eventCategory": "Creators",
-								"eventAction": "Enviar",
-								"eventLabel": "Site",
-								"eventValue": "102"
-							}
-						},
-						{
-							"title": "发布者",
-							"text": "使用一行代码将播放器嵌入到你的页面中，即可访问一个自可伸缩的网络，其服务随着你的观众数量的增长而变得更加便宜。想要更进一步吗？你将能够下载一个软件安装包，运行一个特殊的媒体节点，从而产生收益。",
-							"button": "申请发布者演示样品",
-							"buttonHref": "https://goo.gl/forms/Hbw56PXatK8i7Zvs1",
-							"icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-publishers\"></use></svg>",
-							"ga": {
-								"hitType": "event",
-								"eventCategory": "Publishers",
-								"eventAction": "Enviar",
-								"eventLabel": "Site",
-								"eventValue": "105"
-							}
-						},
-						{
-							"title": "社区",
-							"text": "用户是网络的核心，对内容进行管理，并提供最基本的资源。作为奖励，他们可以获得通证，整个过程可以做到无缝连接。例如，当一个人观看视频的同时会将视频流传送到附近的节点。",
-							"button": "加入Telegram",
-							"buttonHref": "https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A",
-							"icon": "<svg class=\"paratii-audiences-item-svg\"><use xlink:href=\"#icon-audiences-community\"></use></svg>",
-							"ga": {
-								"hitType": "event",
-								"eventCategory": "Community",
-								"eventAction": "Enviar",
-								"eventLabel": "Site",
-								"eventValue": "101"
-							}
-						}
-					],
-					"call": {
-						"text": "<strong class=\"main-section-content-title\">流媒体消费者和投资者：</strong><br> PTI 通证将会在即将公布的活动中公开发行。",
-						"button": "申请抢先体验",
-						"buttonHref": "https://goo.gl/forms/8zJ6Q6NcqgJXHf7r2",
-						"ga": {
-							"hitType": "event",
-							"eventCategory": "Buyers-Investors",
-							"eventAction": "Enviar",
-							"eventLabel": "Site",
-							"eventValue": "100"
-						}
-					}
-				},
-				"features": {
-					"title": "特性",
-					"subtitle": "除了隐藏在其背后真正的内容，它像极了其他的视频播放器。",
-					"image": "./dist/assets/svgs/paratii-features.svg",
-					"list": [{
-							"text": "<strong>视频可以是免费的，也可以有不同的盈利模型。</strong> 它们看起来都很相似，但也有一些将会提示用户进行微支付验证。",
-							"icon": "<use xlink:href=\"#icon-user\"></use>"
-						},
-						{
-							"text": "<strong>自适应比特率流：在每个节点上，用户都能获得设备和连接的最高质量。</strong> 这么不可思议的文件处理过程是由一个分布式的转码网络完成的。",
-							"icon": "<use xlink:href=\"#icon-gear\"></use>"
-						},
-						{
-							"text": "<strong>无论何时，活跃用户都可以获得通证。</strong> 这些通证存储在播放器内置的钱包里，而“多余”的资金（例如那些拥有大量观众的内容创作者）将被转移到一个单独的账户上。",
-							"icon": "<use xlink:href=\"#icon-user\"></use>"
-						},
-						{
-							"text": "<strong>普通用户可能已经看了几个小时，但仍然不会注意到这不是一个普通的播放器。</strong> 注册用户可以认领赚取的通证，并使用通证来管理、获取或推广视频。",
-							"icon": "<use xlink:href=\"#icon-user\"></use>"
-						},
-						{
-							"text": "<strong>支持多种平台。</strong> 如果创作者选择将收入的一部分分给“推广人”，就会激励观众进行分享。",
-							"icon": "<use xlink:href=\"#icon-user\"></use>"
-						},
-						{
-							"text": "<strong>由用户进行内容管理</strong>，在早期发现不当内容或侵犯版权的资源时，用户将会获得奖励。",
-							"icon": "<use xlink:href=\"#icon-like\"></use>"
-						}
-					],
-					"call": {
-						"text": "播放器试验版本 0.0.1！",
-						"button": "尝试演示样品",
-						"href": "https://paratii-video.github.io/paratii-embed/"
 					}
 				},
 				"components": {
@@ -1552,6 +1315,11 @@
 							"image": "./dist/assets/images/open-source/logo-ethereum.png",
 							"title": "以太坊",
 							"href": "https://www.ethereum.org/"
+						},
+						{
+							"image": "./dist/assets/images/open-source/Clappr.png",
+							"title": "Clappr",
+							"href": "https://github.com/clappr/clappr"
 						}
 					]
 				},
@@ -1638,75 +1406,36 @@
 						}
 					]
 				},
-				"advisors": {
-					"title": "People",
-					"subtitle": "Advisors",
-					"list": [{
-							"url": "http://www.bossanovagroup.com.br/",
-							"image": "./dist/assets/images/advisors/Edu.png",
-							"name": "Edu Tibiriçá",
-							"job": "CEO @ BossaNovaGroup",
-							"text": "Co-founder of Brazil’s 2nd largest film production company, leader of three successful merges, former APRO (National Association of Advertising Producers) president."
-						},
-						{
-							"url": "https://medium.com/@flavioribeiro",
-							"image": "./dist/assets/images/advisors/Ribeiro.png",
-							"name": "Flávio Ribeiro",
-							"job": "Principal Engineer @ CBS Interactive",
-							"text": "Co-inventor of the Clappr player, co-architect of the 2014 World Cup online live streaming for globo.com, lead video engineer at the New York Times."
-						},
-						{
-							"url": "https://dna.fund/",
-							"image": "./dist/assets/images/advisors/James.png",
-							"name": "James Glasscock",
-							"job": "Ex-VP @ Warner Bros, Machinima",
-							"text": "Co-founder @ DNA.Fund, previously VP of Distribution Business Development at Warner Bros, SVP of Business Development at Machinima, SVP of Strategic Planning & Broadcast Operations at Playboy TV."
-						}
-					]
-				},
 				"onthenews": {
 					"list": [{
-							"title": "Supporting Us",
-							"list": [{
-								"byheight": true,
-								"href": "http://www.bossanovagroup.com.br/",
-								"title": "Bossa Nova Group",
-								"image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
-							}]
+							"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
+							"title": "Época Negócios",
+							"image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
 						},
 						{
-							"title": "在这些新闻里",
-							"list": [{
-									"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
-									"title": "Época Negócios",
-									"image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
-								},
-								{
-									"href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
-									"title": "Criptomoedas Fácil",
-									"image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
-								},
-								{
-									"href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
-									"title": "TecMundo",
-									"image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
-								},
-								{
-									"href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
-									"title": "Olhar Digital",
-									"image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
-								},
-								{
-									"href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
-									"title": "Livecoins",
-									"image": "./dist/assets/images/on-the-news/logo-livecoins.png"
-								},
-								{
-									"href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
-									"title": "Proxxima",
-									"image": "./dist/assets/images/on-the-news/proxxima.png"
-								}
-							]
+							"href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
+							"title": "Criptomoedas Fácil",
+							"image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
+						},
+						{
+							"href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
+							"title": "TecMundo",
+							"image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
+						},
+						{
+							"href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
+							"title": "Olhar Digital",
+							"image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
+						},
+						{
+							"href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
+							"title": "Livecoins",
+							"image": "./dist/assets/images/on-the-news/logo-livecoins.png"
+						},
+						{
+							"href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
+							"title": "Proxxima",
+							"image": "./dist/assets/images/on-the-news/proxxima.png"
 						}
 					]
 				},
