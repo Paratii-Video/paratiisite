@@ -96,7 +96,7 @@
                     var promise = media.play();
                     if (promise !== undefined) {
                         try {
-                            console.log('around the block: start')
+                            console.log('around the block')
                         } catch (e) {
                             console.log('around the block: intro error', e)
                         }

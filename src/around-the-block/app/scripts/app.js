@@ -444,6 +444,9 @@ GLOBALS.methods = {
     },
     scrollTo: function (target) {
       $('html,body').animate({ scrollTop: (target.offset().top - GLOBALS.$title.height()) }, 600);
+    },
+    getRandomNumber: function (min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min
     }
 };
 // Videos Player
@@ -1020,12 +1023,17 @@ VideosPlayer.prototype.set = function(video) {
 
         function clear () {
             if (timeout) clearTimeout(timeout);
-            if (giftime) clearInterval(giftime);
+            if (giftime) clearTimeout(giftime);
             $modal.animate({scrollTop: 0});
         }
 
         function animate () {
-            $article.find('img.interviews-article-gif').attr('src', '').attr('src', gif + '?x='+Math.round(Math.random()*1000));
+            var play = function () {
+                var rn = GLOBALS.methods.getRandomNumber(1000, 10000);
+                $article.find('img.interviews-article-gif').attr('src', '').attr('src', gif + '?x='+Math.round(Math.random()*1000));
+                giftime = setTimeout(play, rn);
+            }
+            play();
         }
 
         function open (item) {
@@ -1043,7 +1051,6 @@ VideosPlayer.prototype.set = function(video) {
             timeout = setTimeout(function(){
                 if (window.innerWidth < 769) GLOBALS.$body.addClass('no-scroll');
                 animate();
-                giftime = setInterval(animate, 5000);
             }, 1000);
         }
 
@@ -1277,7 +1284,7 @@ VideosPlayer.prototype.set = function(video) {
                     var promise = media.play();
                     if (promise !== undefined) {
                         try {
-                            console.log('around the block: start')
+                            console.log('around the block')
                         } catch (e) {
                             console.log('around the block: intro error', e)
                         }
