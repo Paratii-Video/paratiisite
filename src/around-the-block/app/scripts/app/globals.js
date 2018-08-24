@@ -20,5 +20,8 @@ GLOBALS.methods = {
     },
     scrollTo: function (target) {
       $('html,body').animate({ scrollTop: (target.offset().top - GLOBALS.$title.height()) }, 600);
+    },
+    getRandomNumber: function (min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min
     }
 };
