@@ -136,87 +136,12 @@
 				"team": {
 					"title": "People",
 					"subtitle": "Our team",
-					"text": "A distributed workforce of solid background, skilled and passionate people. You’re welcome to drop by one of <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">our weekly development calls.</a>",
-					"list": [{
-							"url": "https://medium.com/@felipegachopereira",
-							"image": "./dist/assets/images/team/Felipe.png",
-							"name": "Felipe Sant Ana",
-							"job": "Project Lead",
-							"text": "Crowdfunding pioneer in Brazil, ESPM alumnus, ex-Endeavor & BossaNovaFilms."
-						},
-						{
-							"url": "https://github.com/jellegerbrandy",
-							"image": "./dist/assets/images/team/Jelle.png",
-							"name": "Jelle Gerbrandy",
-							"job": "Technical Lead",
-							"text": "Ph.D. in Logic at University of Amsterdam, visiting scholar at Stanford, previously CTO at Backfeed."
-						},
-						{
-							"url": "https://github.com/ya7ya",
-							"image": "./dist/assets/images/team/Yahya.png",
-							"name": "Mohamed Yahya",
-							"job": "Lead P2P Engineer",
-							"text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumnus."
-						},
-						{
-							"url": "https://github.com/bent0b0x",
-							"image": "./dist/assets/images/team/Ben.png",
-							"name": "Benjamin Baum",
-							"job": "Lead Frontend Engineer",
-							"text": "University of Cornell alumnus and former research assistant, senior software engineer at Hubspot."
-						},
-						{
-							"url": "http://garou.in/",
-							"image": "./dist/assets/images/team/Garou.png",
-							"name": "Paulo dos Santos",
-							"job": "Frontend Developer",
-							"text": "HTML, CSS, JS (Less.js); FitC and FWA awards won for projects with global clients."
-						},
-						{
-							"url": "https://github.com/enricocicconi",
-							"image": "./dist/assets/images/team/Enrico.png",
-							"name": "Enrico Cicconi",
-							"job": "Web3 developer",
-							"text": "Engineer @ Instituto Politecnico di Torino, experienced backend developer, responsible for most of the embedding magic the player does."
-						},
-						{
-							"url": "https://github.com/eliawk",
-							"image": "./dist/assets/images/team/Elia.png",
-							"name": "Elia Pellegrino",
-							"job": "Web3 developer",
-							"text": "Electronic engineer @ Instituto Politecnico di Torino, professor at IED, former web developer."
-						},
-						{
-							"url": "https://pcasa.myportfolio.com/projetos",
-							"image": "./dist/assets/images/team/Pedro.png",
-							"name": "Pedro Casagrande",
-							"job": "Designer",
-							"text": "ESPM alumnus, previously at Estudio Pulpo and Design Lab ESPM."
-						},
-						{
-							"url": "https://www.linkedin.com/in/lupape/",
-							"image": "./dist/assets/images/team/Paulo.png",
-							"name": "Paulo Perez",
-							"job": "Strategy & Vision",
-							"text": "Co-founder @ Doubleleft, (acquired by Interpublic). Cannes Lions and Webby Awards winner."
-						},
-						{
-							"url": "https://github.com/",
-							"image": "./dist/assets/images/team/Daniel.png",
-							"name": "Daniel Quandt",
-							"job": "Community Manager",
-							"text": "USP alumnus, communication innovation researcher and enthusiast, reddit dinosaur"
-						},
-						{
-							"url": "https://github.com/",
-							"image": "./dist/assets/images/team/Tom.png",
-							"name": "Tomás Xavier",
-							"job": "Content Producer",
-							"text": "Around the Block lead brain and cinematographer, music maker, film composer and editor."
-						}
-					]
+					"text": "Paratii is the result of contributions by dozens of people, from 8 countries (and counting). <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/wiki/wiki/2.-%F0%9F%91%AA-Contributors\" target=\"_blank\">You can meet them here.</a>",
+					"list": []
 				},
 				"onthenews": {
+					"title": "On the media",
+					"subtitle": "Press & podcasts",
 					"list": [{
 							"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
 							"title": "Época Negócios",
@@ -726,89 +651,14 @@
 					]
 				},
 				"team": {
-					"title": "Time",
-					"subtitle": "Nosso time",
-					"text": "Uma força de trabalho distribuída de gente com background sólido, talento e paixão. Sinta-se bem vindo a aparecer em um dos <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">nossos calls semanais de desenvolvimento.</a>",
-					"list": [{
-							"url": "https://medium.com/@felipegachopereira",
-							"image": "./dist/assets/images/team/Felipe.png",
-							"name": "Felipe Sant Ana",
-							"job": "Project Lead",
-							"text": "Crowdfunding pioneer in Brazil, ESPM alumnus, ex-Endeavor & BossaNovaFilms."
-						},
-						{
-							"url": "https://github.com/jellegerbrandy",
-							"image": "./dist/assets/images/team/Jelle.png",
-							"name": "Jelle Gerbrandy",
-							"job": "Technical Lead",
-							"text": "Ph.D. in Logic at University of Amsterdam, visiting scholar at Stanford, previously CTO at Backfeed."
-						},
-						{
-							"url": "https://github.com/ya7ya",
-							"image": "./dist/assets/images/team/Yahya.png",
-							"name": "Mohamed Yahya",
-							"job": "Lead P2P Engineer",
-							"text": "Contributor to js-ipfs, payment channels early prototyper, Petronas University of Technology alumnus."
-						},
-						{
-							"url": "https://github.com/bent0b0x",
-							"image": "./dist/assets/images/team/Ben.png",
-							"name": "Benjamin Baum",
-							"job": "Lead Frontend Engineer",
-							"text": "University of Cornell alumnus and former research assistant, senior software engineer at Hubspot."
-						},
-						{
-							"url": "http://garou.in/",
-							"image": "./dist/assets/images/team/Garou.png",
-							"name": "Paulo dos Santos",
-							"job": "Frontend Developer",
-							"text": "HTML, CSS, JS (Less.js); FitC and FWA awards won for projects with global clients."
-						},
-						{
-							"url": "https://github.com/enricocicconi",
-							"image": "./dist/assets/images/team/Enrico.png",
-							"name": "Enrico Cicconi",
-							"job": "Web3 developer",
-							"text": "Engineer @ Instituto Politecnico di Torino, experienced backend developer, responsible for most of the embedding magic the player does."
-						},
-						{
-							"url": "https://github.com/eliawk",
-							"image": "./dist/assets/images/team/Elia.png",
-							"name": "Elia Pellegrino",
-							"job": "Web3 developer",
-							"text": "Electronic engineer @ Instituto Politecnico di Torino, professor at IED, former web developer."
-						},
-						{
-							"url": "https://pcasa.myportfolio.com/projetos",
-							"image": "./dist/assets/images/team/Pedro.png",
-							"name": "Pedro Casagrande",
-							"job": "Designer",
-							"text": "ESPM alumnus, previously at Estudio Pulpo and Design Lab ESPM."
-						},
-						{
-							"url": "https://www.linkedin.com/in/lupape/",
-							"image": "./dist/assets/images/team/Paulo.png",
-							"name": "Paulo Perez",
-							"job": "Strategy & Vision",
-							"text": "Co-founder @ Doubleleft, (acquired by Interpublic). Cannes Lions and Webby Awards winner."
-						},
-						{
-							"url": "",
-							"image": "./dist/assets/images/team/Daniel.png",
-							"name": "Daniel Quandt",
-							"job": "Community Manager",
-							"text": "USP alumnus, communication innovation researcher and enthusiast, reddit dinosaur"
-						},
-						{
-							"url": "",
-							"image": "./dist/assets/images/team/Tom.png",
-							"name": "Tomás Xavier",
-							"job": "Content Producer",
-							"text": "Around the Block lead brain and cinematographer, music maker, film composer and editor."
-						}
-					]
+					"title": "Contribuidores",
+					"subtitle": "Pessoas",
+					"text": "Paratii é o resultado de contribuições de dezenas de pessoas, de 8 países(e contando). < a class = \"paratii-link\" href=\"https://github.com/Paratii-Video/wiki/wiki/2.-%F0%9F%91%AA-Contributors\" target=\"_blank\">Conheça-as aqui.</a>",
+					"list": []
 				},
 				"onthenews": {
+					"title": "Na mídia",
+					"subtitle": "Notícias e podcasts",
 					"list": [{
 							"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
 							"title": "Época Negócios",
@@ -1327,86 +1177,11 @@
 					"title": "成员",
 					"subtitle": "我们的团队",
 					"text": "作为分布式团队，成员拥有扎实的工作经验，技术卓越，并充满热情。欢迎你来参加<a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">我们的每周开发会议。</a>",
-					"list": [{
-							"url": "https://medium.com/@felipegachopereira",
-							"image": "./dist/assets/images/team/Felipe.png",
-							"name": "Felipe Sant Ana",
-							"job": "项目主管",
-							"text": "巴西的众筹先锋，ESPM校友，之前就职于Endeavor & BossaNovaFilms。"
-						},
-						{
-							"url": "https://github.com/jellegerbrandy",
-							"image": "./dist/assets/images/team/Jelle.png",
-							"name": "Jelle Gerbrandy",
-							"job": "技术主管",
-							"text": "阿姆斯特丹大学的逻辑学博士，斯坦福大学的访问学者，前Backfeed CTO。"
-						},
-						{
-							"url": "https://github.com/ya7ya",
-							"image": "./dist/assets/images/team/Yahya.png",
-							"name": "Mohamed Yahya",
-							"job": "首席 P2P 工程师",
-							"text": "为js-ipfs贡献代码，支付通道的原型设计师，Petronas科技大学校友。"
-						},
-						{
-							"url": "https://github.com/bent0b0x",
-							"image": "./dist/assets/images/team/Ben.png",
-							"name": "Benjamin Baum",
-							"job": "首席前端工程师",
-							"text": "康奈尔大学校友、前研究助理，Hubspot高级软件工程师。"
-						},
-						{
-							"url": "http://garou.in/",
-							"image": "./dist/assets/images/team/Garou.png",
-							"name": "Paulo dos Santos",
-							"job": "前端工程师",
-							"text": "精通HTML,CSS,javascript(Less.js)，FitC和FWA世界大赛获奖者。"
-						},
-						{
-							"url": "https://github.com/enricocicconi",
-							"image": "./dist/assets/images/team/Enrico.png",
-							"name": "Enrico Cicconi",
-							"job": "Web3 开发工程师",
-							"text": "Instituto Politecnico di Torino 工程师，经验丰富的后端开发人员，负责播放器大部分的嵌入式工作。"
-						},
-						{
-							"url": "https://github.com/eliawk",
-							"image": "./dist/assets/images/team/Elia.png",
-							"name": "Elia Pellegrino",
-							"job": "Web3 开发工程师",
-							"text": "Instituto Politecnico di Torino 电子工程师，IED 教授，前web开发人员。"
-						},
-						{
-							"url": "https://pcasa.myportfolio.com/projetos",
-							"image": "./dist/assets/images/team/Pedro.png",
-							"name": "Pedro Casagrande",
-							"job": "设计师",
-							"text": "ESPM校友，之前就职于Estudio Pulpo和Design Lab ESPM。"
-						},
-						{
-							"url": "https://www.linkedin.com/in/lupape/",
-							"image": "./dist/assets/images/team/Paulo.png",
-							"name": "Paulo Perez",
-							"job": "战略和愿景",
-							"text": "Doubleleft（被Interpublic收购）联合创始人。戛纳电影节和威比奖得主。"
-						},
-						{
-							"url": "https://github.com/",
-							"image": "./dist/assets/images/team/Daniel.png",
-							"name": "Daniel Quandt",
-							"job": "社区经理",
-							"text": "USP-SP 研究生，创新公司实习生，reddit资深用户。"
-						},
-						{
-							"url": "https://github.com/",
-							"image": "./dist/assets/images/team/Tom.png",
-							"name": "Tomás Xavier",
-							"job": "内容制作人",
-							"text": "街区意见领袖和电影摄影师、音乐制作人、电影制作人和编辑。"
-						}
-					]
+					"list": []
 				},
 				"onthenews": {
+					"title": "On the media",
+					"subtitle": "News and podcast",
 					"list": [{
 							"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
 							"title": "Época Negócios",
