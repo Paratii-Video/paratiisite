@@ -70,10 +70,10 @@
 			},
 			"sections": {
 				"header": {
-					"title": "A distributed curation protocol and streaming engine",
-					"text": "Microeconomic fairness for all network participants. Monetize with subscriptions, access tokens, or the way you invent. Engage audiences by letting them earn while watching.",
+					"title": "An open source R&D lab",
+					"text": "We research & develop peer-to-peer technologies that enable ownerless media applications, in the middle-and-upper-layers of the web3 stack.",
 					"image": "./dist/assets/svgs/paratii-header.svg",
-					"buttonA": "Try the alpha portal",
+					"buttonA": "Try The Lab app",
 					"buttonAhref": "https://portal.paratii.video/",
 					"buttonB": "Subscribe",
 					"buttonBhref": "https://video.us15.list-manage.com/subscribe/post?u=3363d6d446b55bfeec00cb430&id=d12f33be57",
@@ -86,27 +86,27 @@
 					}
 				},
 				"components": {
-					"title": "Components",
-					"subtitle": "What are we talking about?",
+					"title": "Research",
+					"subtitle": "How is decentralisation shifting paradigms in video technology?",
 					"list": [{
 							"class": "",
-							"title": "The Protocol",
-							"text": "Coordinates creators, publishers and users to maintain a decentralised registry of videos and value signals, that allow for off-chain media bidding and incentivised curation<strong>.",
+							"title": "Open markets > monopolies",
+							"text": "Decentralization of compute resources can create networks with the convenience and scalability of cloud services, but the cost profile of running on bare metal hardware. We investigate and advance lower-level p2p video technology by building on top of them.",
 							"image": "./dist/assets/svgs/paratii-the-protocol.svg",
 							"href": "https://github.com/Paratii-Video/paratii-protocol"
 						},
 						{
 							"class": "paratii-components-content--color",
-							"title": "The PTI Token",
-							"text": "Native staking token to the Paratii curated registry, it represents the right to belong to and judicate over a content list, besides that of creating your own collections and smart tokens. <strong>It is earnable<strong> by validating an identity and becoming an active staker (a well-behaving publisher or curator).",
+							"title": "Cryptoeconomics",
+							"text": "The deployment of financial incentives via self-executable contracts can lead to distinguished collective behaviours, from FOMO-driven games to highly trustless service-specific networks. We research cryptoeconomics across the web3 video stack, with a focus on distributed curation.",
 							"video": "./dist/assets/videos/paratii-pti-token.mp4",
 							"videoRef": "PTITokenVideo",
 							"href": "https://github.com/Paratii-Video/paratii-contracts"
 						},
 						{
 							"class": "",
-							"title": "The Player",
-							"text": "<strong>An embeddable, modular and extensible player</strong> to customise as you wish. Apply it on your page, media channel or news outlet with a single line of code. Share it on social media when you spot one on Twitter, Medium or Telegram. With paratii.js, developers can also build widgets and plugins to modify frontend and interact with specific modules of the protocol.",
+							"title": "Content monetisation",
+							"text": "The fractional ownership and programmable value properies of cryptoassets open up new ways of thinking monetisation. We built an embeddable, modular and extensible player developers can customise and play with an embedded wallet. With paratii.js, developers can also build widgets and plugins, or leverage a p2p streaming engine.",
 							"image": "./dist/assets/svgs/paratii-the-player.svg",
 							"href": "https://github.com/Paratii-Video/paratii-portal"
 						}
@@ -135,14 +135,14 @@
 				},
 				"team": {
 					"title": "People",
-					"subtitle": "Our team",
+					"subtitle": "Contributors",
 					"text": "Paratii is the result of contributions by dozens of people, from 8 countries (and counting). <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/wiki/wiki/2.-%F0%9F%91%AA-Contributors\" target=\"_blank\">You can meet them here.</a>",
 					"list": []
 				},
 				"onthenews": {
-					"title": "On the media",
-					"subtitle": "Press & podcasts",
+					"title": "On the news",
 					"list": [{
+							"byheight": true,
 							"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
 							"title": "Época Negócios",
 							"image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
@@ -651,15 +651,15 @@
 					]
 				},
 				"team": {
-					"title": "Contribuidores",
-					"subtitle": "Pessoas",
-					"text": "Paratii é o resultado de contribuições de dezenas de pessoas, de 8 países(e contando). < a class = \"paratii-link\" href=\"https://github.com/Paratii-Video/wiki/wiki/2.-%F0%9F%91%AA-Contributors\" target=\"_blank\">Conheça-as aqui.</a>",
+					"title": "Pessoas",
+					"subtitle": "Contribuidores",
+					"text": "Paratii é o resultado de contribuições de dezenas de pessoas, de 8 países (e contando). < a class = \"paratii-link\" href=\"https://github.com/Paratii-Video/wiki/wiki/2.-%F0%9F%91%AA-Contributors\" target=\"_blank\">Conheça-as aqui.</a>",
 					"list": []
 				},
 				"onthenews": {
 					"title": "Na mídia",
-					"subtitle": "Notícias e podcasts",
 					"list": [{
+							"byheight": true,
 							"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
 							"title": "Época Negócios",
 							"image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
@@ -1180,9 +1180,9 @@
 					"list": []
 				},
 				"onthenews": {
-					"title": "On the media",
-					"subtitle": "News and podcast",
+					"title": "On the news",
 					"list": [{
+							"byheight": true,
 							"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
 							"title": "Época Negócios",
 							"image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
