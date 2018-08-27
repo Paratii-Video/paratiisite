@@ -56,6 +56,8 @@
 
   &-fake-link,
   &-link {
+    @extend .truncate-text;
+
     color: $color-white;
     display: block;
     font-size: 0.9rem;
