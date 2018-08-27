@@ -93,7 +93,7 @@
 							"title": "Open markets > monopolies",
 							"text": "Decentralization of compute resources can create networks with the convenience and scalability of cloud services, but the cost profile of running on bare metal hardware. We investigate and advance lower-level p2p video technology by building on top of them.",
 							"image": "./dist/assets/svgs/paratii-the-protocol.svg",
-							"href": "https://github.com/Paratii-Video/paratii-protocol"
+							"href": "https://github.com/Paratii-Video/wiki/wiki/3.-%F0%9F%92%B1-Non-monetary-markets:-generalizing-the-0x-protocol-for-video"
 						},
 						{
 							"class": "paratii-components-content--color",
@@ -101,12 +101,12 @@
 							"text": "The deployment of financial incentives via self-executable contracts can lead to distinguished collective behaviours, from FOMO-driven games to highly trustless service-specific networks. We research cryptoeconomics across the web3 video stack, with a focus on distributed curation.",
 							"video": "./dist/assets/videos/paratii-pti-token.mp4",
 							"videoRef": "PTITokenVideo",
-							"href": "https://github.com/Paratii-Video/paratii-contracts"
+							"href": "https://github.com/Paratii-Video/wiki/wiki/5.-%F0%9F%93%91-TCRs-for-filtering"
 						},
 						{
 							"class": "",
 							"title": "Content monetisation",
-							"text": "The fractional ownership and programmable value properies of cryptoassets open up new ways of thinking monetisation. We built an embeddable, modular and extensible player developers can customise and play with an embedded wallet. With paratii.js, developers can also build widgets and plugins, or leverage a p2p streaming engine.",
+							"text": "Fractional ownership and programmable value: these properties of cryptoassets open up new ways of thinking monetisation. We built an embeddable, modular and extensible player developers can customise and use to play with an integrated ERC20 wallet. With paratii.js, developers can also build widgets and plugins, or leverage a p2p streaming engine.",
 							"image": "./dist/assets/svgs/paratii-the-player.svg",
 							"href": "https://github.com/Paratii-Video/paratii-portal"
 						}
@@ -140,37 +140,48 @@
 					"list": []
 				},
 				"onthenews": {
-					"title": "On the news",
 					"list": [{
-							"byheight": true,
-							"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
-							"title": "Época Negócios",
-							"image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
+							"title": "Supporting Us",
+							"list": [{
+								"byheight": true,
+								"href": "http://www.bossanovagroup.com.br/",
+								"title": "Bossa Nova Group",
+								"image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
+							}]
 						},
 						{
-							"href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
-							"title": "Criptomoedas Fácil",
-							"image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
-						},
-						{
-							"href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
-							"title": "TecMundo",
-							"image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
-						},
-						{
-							"href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
-							"title": "Olhar Digital",
-							"image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
-						},
-						{
-							"href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
-							"title": "Livecoins",
-							"image": "./dist/assets/images/on-the-news/logo-livecoins.png"
-						},
-						{
-							"href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
-							"title": "Proxxima",
-							"image": "./dist/assets/images/on-the-news/proxxima.png"
+							"title": "On the news",
+							"list": [{
+									"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
+									"title": "Época Negócios",
+									"image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
+								},
+								{
+									"href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
+									"title": "Criptomoedas Fácil",
+									"image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
+								},
+								{
+									"href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
+									"title": "TecMundo",
+									"image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
+								},
+								{
+									"href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
+									"title": "Olhar Digital",
+									"image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
+								},
+								{
+									"href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
+									"title": "Livecoins",
+									"image": "./dist/assets/images/on-the-news/logo-livecoins.png"
+								},
+								{
+									"href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
+									"title": "Proxxima",
+									"image": "./dist/assets/images/on-the-news/proxxima.png"
+								}
+							]
 						}
 					]
 				},
@@ -588,10 +599,10 @@
 			},
 			"sections": {
 				"header": {
-					"title": "Uma nova era para seus vídeos",
-					"text": "Distribua histórias sem intermediários. Colete 100% da receita do seu conteúdo. Transforme audiência em comunidade.",
+					"title": "P&D para avançar as fronteiras do vídeo online",
+					"text": "Pesquisamos e desenvolvemos tecnologias peer-to-peer que suportam aplicações de mídia sem autoridade central.",
 					"image": "./dist/assets/svgs/paratii-header.svg",
-					"buttonA": "Acesse a versão alpha",
+					"buttonA": "Acesse o app The Lab",
 					"buttonAhref": "https://portal.paratii.video/",
 					"buttonB": "Inscreva-se",
 					"buttonBhref": "https://video.us15.list-manage.com/subscribe/post?u=3363d6d446b55bfeec00cb430&id=d12f33be57",
@@ -604,26 +615,26 @@
 					}
 				},
 				"components": {
-					"title": "Componentes",
-					"subtitle": "Do que é feita Parati?",
+					"title": "P&D",
+					"subtitle": "Novos paradigmas em tecnologias de processamento, entrega e monetização de vídeos",
 					"list": [{
 							"class": "",
-							"title": "O Protocolo",
-							"text": "Coordena criadores, publishers e usuários na manutenção de um mercado descentralizado de vídeos e atenção, que facilita ordens de mídia off-chain e curadoria incentivada. Também integra o acesso a todos os serviços necessários para se distribuir mídia e metadados <strong>sem depender de intermediários<strong>.",
+							"title": "Mercados em rede > Monopólios",
+							"text": "A decentralização de recursos computacionais pode criar redes com a conveniência de provedores de serviço em nuvem, mas ao custo marginal da execução do código, mais energia. Investigamos e construímos sobre protocolos distribuídos de transcodificação, armazenagem e distribuição de arquivos.",
 							"image": "./dist/assets/svgs/paratii-the-protocol.svg",
-							"href": "https://github.com/Paratii-Video/paratii-protocol"
+							"href": "https://github.com/Paratii-Video/wiki/wiki/3.-%F0%9F%92%B1-Non-monetary-markets:-generalizing-the-0x-protocol-for-video"
 						},
 						{
 							"class": "paratii-components-content--color",
-							"title": "O token PTI",
-							"text": "Token de “stake” nativo, representa o direito de ter vídeos em uma lista de conteúdo e curá-la, além de poder criar outras. <strong>Como ganhar o token?<strong> Sendo um publicador ou curador de conteúdo ativo - o protocolo remunera esses autonomamente.",
+							"title": "Criptoeconomia",
+							"text": "A implementação de incentivos financeiros em contratos autoexecutáveis pode levar a fenômenos únicos, de jogos de loteria massivos a redes performantes em um serviço específico. Pesquisamos aplicações da criptoeconomia às tecnologias por trás do vídeo online, com um foco em curadoria distribuída.",
 							"image": "./dist/assets/svgs/paratii-the-token.svg",
-							"href": "https://github.com/Paratii-Video/paratii-contracts"
+							"href": "https://github.com/Paratii-Video/wiki/wiki/5.-%F0%9F%93%91-TCRs-for-filtering"
 						},
 						{
 							"class": "",
-							"title": "O Player",
-							"text": "<strong>Um player de mídia embedável</strong>, modular e extensível, para se customizar como quiser. Aplique-o na sua página, canal de mídia ou site de notícias com uma linha de código. Compartilhe-o em redes sociais quando encontrar com um no Twitter, no Medium ou no Telegram. Com a paratii.js, desenvolvedores também podem construir facilmente widgets e plugins de todo tipo para modificar o frontend, além interagir com módulos específicos do protocolo.",
+							"title": "Monetização",
+							"text": "Valor programável e propriedade fracional: estas propriedades de cripto-ativos abrem portas para se pensar em novos modelos de monetização. Construímos um player embedável, modular e extensível, que desenvolvedores podem customisar e experimentar com uma carteira ERC20 integrada. Com a biblioteca paratii.js, também podem criar widgets e plugins, ou usar um pipeline de streaming p2p.",
 							"image": "./dist/assets/svgs/paratii-the-player.svg",
 							"href": "https://github.com/Paratii-Video/paratii-portal"
 						}
@@ -657,37 +668,48 @@
 					"list": []
 				},
 				"onthenews": {
-					"title": "Na mídia",
 					"list": [{
-							"byheight": true,
-							"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
-							"title": "Época Negócios",
-							"image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
+							"title": "Apoio",
+							"list": [{
+								"byheight": true,
+								"href": "http://www.bossanovagroup.com.br/",
+								"title": "Bossa Nova Group",
+								"image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
+							}]
 						},
 						{
-							"href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
-							"title": "Criptomoedas Fácil",
-							"image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
-						},
-						{
-							"href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
-							"title": "TecMundo",
-							"image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
-						},
-						{
-							"href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
-							"title": "Olhar Digital",
-							"image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
-						},
-						{
-							"href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
-							"title": "Livecoins",
-							"image": "./dist/assets/images/on-the-news/logo-livecoins.png"
-						},
-						{
-							"href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
-							"title": "Proxxima",
-							"image": "./dist/assets/images/on-the-news/proxxima.png"
+							"title": "Na mídia",
+							"list": [{
+									"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
+									"title": "Época Negócios",
+									"image": "./dist/assets/images/on-the-news/logo-epocanegocios.png"
+								},
+								{
+									"href": "https://www.criptomoedasfacil.com/paratii-um-novo-consenso-para-videos-descentralizados/",
+									"title": "Criptomoedas Fácil",
+									"image": "./dist/assets/images/on-the-news/logo-criptomoedasfacil.png"
+								},
+								{
+									"href": "https://www.tecmundo.com.br/internet/125463-brasileiros-lancam-youtube-servidor-paga-videos-ethereum.htm",
+									"title": "TecMundo",
+									"image": "./dist/assets/images/on-the-news/logo-tecmundo.png"
+								},
+								{
+									"href": "https://olhardigital.com.br/noticia/brasileiros-criam-rival-do-youtube-descentralizado-e-que-paga-em-criptomoeda/73096",
+									"title": "Olhar Digital",
+									"image": "./dist/assets/images/on-the-news/logo-olhardigital.png"
+								},
+								{
+									"href": "https://livecoins.com.br/youtube-e-netflix-na-blockchain/",
+									"title": "Livecoins",
+									"image": "./dist/assets/images/on-the-news/logo-livecoins.png"
+								},
+								{
+									"href": "http://www.proxxima.com.br/home/proxxima/noticias/2018/05/09/decifrando-o-blockchain-para-a-comunicacao.html",
+									"title": "Proxxima",
+									"image": "./dist/assets/images/on-the-news/proxxima.png"
+								}
+							]
 						}
 					]
 				},
