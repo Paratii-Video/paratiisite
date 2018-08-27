@@ -90,7 +90,7 @@
 					"subtitle": "How is decentralisation shifting paradigms in video technology?",
 					"list": [{
 							"class": "",
-							"title": "Open markets > monopolies",
+							"title": "Networked services",
 							"text": "Decentralization of compute resources can create networks with the convenience and scalability of cloud services, but the cost profile of running on bare metal hardware. We investigate and advance lower-level p2p video technology by building on top of them.",
 							"image": "./dist/assets/svgs/paratii-the-protocol.svg",
 							"href": "https://github.com/Paratii-Video/wiki/wiki/3.-%F0%9F%92%B1-Non-monetary-markets:-generalizing-the-0x-protocol-for-video"
@@ -146,17 +146,17 @@
 									"byheight": true,
 									"href": "https://thebitcoinpodcast.com/episode-210/",
 									"title": "The Bitcoin Podcast",
-									"image": ".dist/assets/images/on-the-news/logo-bitcoin-podcast.png"
+									"image": "dist/assets/images/on-the-news/logo-bitcoin-podcast.png"
 								},
 								{
 									"href": "https://softwareengineeringdaily.com/2018/08/02/token-types-with-felipe-pereira",
 									"title": "Software Engineering Daily",
-									"image": ".dist/assets/images/on-the-news/logo-software-engineering-daily.png"
+									"image": "dist/assets/images/on-the-news/logo-software-engineering-daily.png"
 								},
 								{
 									"href": "https://www.tokendaily.co/p/on-the-immaturity-of-tokenized-value-capture-mechanisms",
 									"title": "Token Daily",
-									"image": ".dist/assets/images/on-the-news/logo-token-daily.png"
+									"image": "dist/assets/images/on-the-news/logo-token-daily.png"
 								},
 								{
 									"href": "https://tokeneconomy.co/web3videostack-c423481c32a5",
@@ -326,42 +326,6 @@
 								{
 									"title": "Is the codebase open? How can I follow along?",
 									"text": "Yes! You may follow the activity on our <a class=\"paratii-link\" href=\"https://github.com/paratii-video\" target=\"_blank\">Github repository</a> and even talk to the dev team or ask questions on <a class=\"paratii-link\" href=\"http://gitter.im/Paratii-Video\" target=\"_blank\">Gitter</a>. <a class=\"paratii-link\" href=\"https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A\" target=\"_blank\">Telegram</a> is where you’ll find more informal chatting."
-								}
-							]
-						},
-						{
-							"title": "Token",
-							"group": [{
-									"title": "What is the PTI token?",
-									"text": "PTI is Paratii’s currency. It is issued according to codebound rules, its inflation is non-manipulable and its distribution rewards curators that help to keep content organized and filtered. Some functions in the platform require the user to deposit and “stake” PTIs, losing the ability to transfer them for a determined period but keeping ownership over them, consequently becoming entitled to rewards. As well a staking unit, the token can be used to pay for videos, make paid subscriptions or buy advertising, further on. <a class=\"paratii-link\" href=\"https://medium.com/paratii/pti-token-summary-edf048d36245\" target=\"_blank\">Click here for an in-depth summary of the PTI token, its uses, technology and distribution model.</a>"
-								},
-								{
-									"title": "What is having PTI good for?",
-									"text": "We have a nice infographic to explain what the PTI token is all about and what you can do with it - check it out <a class=\"paratii-link\" href=\"https://i.redd.it/3ypnjz1grdo01.png\" target=\"_blank\">here</a>."
-								},
-								{
-									"title": "Couldn’t an existing token be used instead?",
-									"text": "It is important that the token’s utility be contained within the services provided by Paratii, so that its value is not contaminated by forces external to the microeconomy it supports. Since it is a staking unit, it’s vital that the same token “stored” by the system to execute certain functions also be used to reward those that perform these functions in accordance with collective objectives. A third (but no less important) reason for an isolated token is the possibility of implementing a “monetary policy” that benefits the network’s bootstrapping - incentivizing early adoption, for instance. It should be noted that PTI is issued through the Ethereum blockchain, and compatible with wallets that follow its protocols."
-								},
-								{
-									"title": "How do I get PTI?",
-									"text": "First of all, any user that validates their registration gets a few PTI to start experimenting. This “initial gift” will be reduced in accordance to the userbase’s growth. There are a few different ways of <strong>acquiring</strong> PTI - the most direct one is to buy them from other users or exchanges with money, when the token is on the main net and is sold through third parties. It will be possible to <strong>earn</strong> PTI when interacting with the system in three different ways beside the initial gift: watching a video on the player, contributing to the curation of content uploaded to the system, or running a dedicated machine to serve content on the network."
-								},
-								{
-									"title": "Can it be mined?",
-									"text": "Yes and no - PTI cannot be mined in the same way as Bitcoin, for instance, in which users dedicate processing power to compete for computing on the blockchain. The PTI is mintable by validating an identity and being an active staker at each given block, where active stakers are either well-behaving publishers or assertive curators."
-								},
-								{
-									"title": "How many PTI can there be?",
-									"text": "The number of PTI tokens in existance will never go beyond 150 million. The issuance of new units slows down exponentially as the quantity available to the market approaches that number."
-								},
-								{
-									"title": "Can I get PTI yet?",
-									"text": "Our plan is to initiate public distribution of the token in August. Keep an eye on our newsletter and social media channels to learn more as we approach that date."
-								},
-								{
-									"title": "What factors can appreciate or depreciate PTI’s value?",
-									"text": "Supply and demand. The only factors that directly determine PTI’s market price are the market forces - the prices set in executed buy and sell orders. Demand may rise as creators seek out tokens to support or promote their videos, users participate in the curation process to get rewards, media buyers become interested in advertising on the platform or speculators bet on the platform’s future. On the supply side, the price may go down if users sell their tokens en masse; but it may also go up as tokens are staked and become frozen for a period, or as tokens become lost (deducted from circulation) or unredeemed by anonymous users who don’t know any better."
 								}
 							]
 						}
@@ -615,7 +579,7 @@
 			},
 			"sections": {
 				"header": {
-					"title": "P&D para avançar as fronteiras do vídeo online",
+					"title": "P&D nas fronteiras do vídeo online",
 					"text": "Pesquisamos e desenvolvemos tecnologias peer-to-peer que suportam aplicações de mídia sem autoridade central.",
 					"image": "./dist/assets/svgs/paratii-header.svg",
 					"buttonA": "Acesse o app The Lab",
@@ -680,7 +644,7 @@
 				"team": {
 					"title": "Pessoas",
 					"subtitle": "Contribuidores",
-					"text": "Paratii é o resultado de contribuições de dezenas de pessoas, de 8 países (e contando). < a class = \"paratii-link\" href=\"https://github.com/Paratii-Video/wiki/wiki/2.-%F0%9F%91%AA-Contributors\" target=\"_blank\">Conheça-as aqui.</a>",
+					"text": "Paratii é o resultado de contribuições de dezenas de pessoas, de 8 países (e contando). <a class = \"paratii-link\" href=\"https://github.com/Paratii-Video/wiki/wiki/2.-%F0%9F%91%AA-Contributors\" target=\"_blank\">Conheça-as aqui.</a>",
 					"list": []
 				},
 				"onthenews": {
@@ -690,17 +654,17 @@
 									"byheight": true,
 									"href": "https://thebitcoinpodcast.com/episode-210/",
 									"title": "The Bitcoin Podcast",
-									"image": ".dist/assets/images/on-the-news/logo-bitcoin-podcast.png"
+									"image": "dist/assets/images/on-the-news/logo-bitcoin-podcast.png"
 								},
 								{
 									"href": "https://softwareengineeringdaily.com/2018/08/02/token-types-with-felipe-pereira",
 									"title": "Software Engineering Daily",
-									"image": ".dist/assets/images/on-the-news/logo-software-engineering-daily.png"
+									"image": "dist/assets/images/on-the-news/logo-software-engineering-daily.png"
 								},
 								{
 									"href": "https://www.tokendaily.co/p/on-the-immaturity-of-tokenized-value-capture-mechanisms",
 									"title": "Token Daily",
-									"image": ".dist/assets/images/on-the-news/logo-token-daily.png"
+									"image": "dist/assets/images/on-the-news/logo-token-daily.png"
 								},
 								{
 									"href": "https://tokeneconomy.co/web3videostack-c423481c32a5",
@@ -748,7 +712,7 @@
 				"videos": {
 					"title": "Vídeos",
 					"subtitle": "Nossos vídeos",
-					"text": "Encontre com alguém do time em (ou convide para!) meetups, eventos e conferências, principalmente no Brasil, EUA ou Itália.",
+					"text": "Encontre com alguém da comunidade em (ou convide para!) meetups, eventos e conferências, principalmente no Brasil, EUA ou Itália.",
 					"list": [{
 							"url": "https://portal.paratii.video/embed/akX1Cvz1G7In"
 						},
@@ -769,19 +733,15 @@
 							"title": "Serviço",
 							"group": [{
 									"title": "O que é a Paratii?",
-									"text": "A Paratii é uma nova plataforma de vídeos online que visa mudar a forma como você distribui e consome conteúdo na internet. Com uma arquitetura descentralizada e monetização democrática, além da capacidade de ter seu conteúdo exibido em qualquer página ou sistema, a Paratii representa uma quebra de paradigma e um experimento socioeconômico tanto quanto mais uma plataforma entre tantas na web."
+									"text": "Uma entidade sem fins lucrativos que pesquisa e desenvolve tecnologias capazes de mudar a forma como você distribui e consome conteúdo na internet. Você pode ter nos conhecido pelas nossas inciativas de pesquisa e/ou educacionais com código aberto, ou por meio de nossos produtos, como o player Paratii e a aplicação The Lab (que alguns chamam simplesmente de 'portal')."
 								},
 								{
 									"title": "Para quem é a Paratii?",
-									"text": "A Paratii é para todos aqueles que querem distribuir e/ou consumir vídeo na internet. Dos vídeos mais cotidianos às maiores produções, a plataforma visa a melhor e mais justa experiência possível para <strong>espectadores</strong> e <strong>criadores de conteúdo</strong>. Mais à frente, Paratii deve estreitar relações também com <strong>publishers</strong> (domínios, portais e aplicativos que integram vídeo em seus serviços) e compradores de mídia."
+									"text": "Trabalhamos com desenvolvedores do mundo inteiro, e buscamos fomentar talento técnico para programar sobre plataformas e redes distribuídas, como a Ethereum e o IPFS, no Brasil. Se você se encaixa no perfil, entra em contato! Também ajudamos instituições de mídia a compreenderem e aplicarem tecnologias peer-to-peer, além de promover educação."
 								},
 								{
-									"title": "O serviço já está funcionando? Quando vai ser lançado?",
-									"text": "Sim! Ainda que com recursos básicos, já é possível fazer upload dos seus vídeos. Acesse Paratii.video/join para começar e fique de olho nos nossos canais para saber dos recursos novos que adicionamos semana a semana."
-								},
-								{
-									"title": "Que problemas a Paratii resolve?",
-									"text": "Para criadores: desmonetização, censura, e falta de flexibilidade nas opções de renda. Para audiências: extingue a exploração econômica e outras forma de violação. Para anunciantes, em breve: preços abusivos pela mídia e susceptibilidade a fraudes.<br/>A arquitetura descentralizada da Paratii permite que a plataforma exista sem necessitar da infraestrutura gigantesca exigida por serviços tradicionais e centralizados, uma vez que participantes da rede compartilham recursos computacionais. Além disso, a monetização dos vídeos é gerida diretamente pelos usuários, entre si, por meio de contratos na blockchain da Ethereum, o que serve para libertar os criadores das amarras de instituições e plataformas presas aos interesses de grandes empresas - principalmente os criadores de nicho. Informações históricas e oportunidades de mídia não são resguardadas por um agente central, mas sim públicas (na medida da privacidade exigida por cada usuário), para que se extraia delas o valor ditado pelo mercado, livre de margens para terceiros."
+									"title": "Que problemas a Paratii se propõe a atacar?",
+									"text": "Para criadores: desmonetização, censura, e falta de flexibilidade nas opções de renda. Para audiências: extingue a exploração econômica e outras forma de violação. Para anunciantes, em breve: preços abusivos pela mídia e susceptibilidade a fraudes."
 								},
 								{
 									"title": "Qual é a diferença entre a Paratii e outras plataformas de vídeo?",
@@ -829,7 +789,7 @@
 								},
 								{
 									"title": "Quem está por trás disso?",
-									"text": "Um time distribuído pelo Brasil, EUA, Itália e Egito. <a class=\"paratii-link\" href=\"https://paratii.video/#team\" target=\"_blank\">Você pode conferir a equipe e canais sociais de cada um aqui.</a> Somos, na maioria, desenvolvedores, além dos designers, criativos e das posições de negócio. Como todo código que produzimos é aberto, uma entidade sem fins lucrativos - a Fundação Paratii - sediada na Estônia é responsável por financiar os esforços e recursos empregados e pesquisa, desenvolvimento e comunicação da tecnologia e seus produtos derivados. Recebemos salários em criptomoeda. Somos suportados por investidores privados e por uma das maiores produtoras de cinema e entretenimento do Brasil."
+									"text": "Contribuidores distribuídos pelo Brasil, EUA, Itália e Egito. Somos, na maioria, desenvolvedores, além dos designers e criativos. Como todo código que produzimos é aberto, uma entidade sem fins lucrativos - a Fundação Paratii - sediada na Estônia é responsável por financiar os esforços e recursos empregados e pesquisa, desenvolvimento e comunicação da tecnologia e seus produtos derivados. Essa Fundação já recebeu apoio de investidores privados e de uma das maiores produtoras de cinema e entretenimento do Brasil."
 								}
 							]
 						},
@@ -874,42 +834,6 @@
 								{
 									"title": "O código é aberto? Onde posso acompanhar?",
 									"text": "Sim! É possível acompanhar nosso <a class=\"paratii-link\" href=\"https://github.com/paratii-video\" target=\"_blank\">repositório no Github</a> e até mesmo conversar com o time de desenvolvimento ou fazer perguntas pelo <a class=\"paratii-link\" href=\"http://gitter.im/Paratii-Video\" target=\"_blank\">Gitter</a>. O <a class=\"paratii-link\" href=\"https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A\" target=\"_blank\">Telegram</a> é o espaço certo para papos mais informais."
-								}
-							]
-						},
-						{
-							"title": "Token",
-							"group": [{
-									"title": "O que é o token PTI?",
-									"text": "PTI é a moeda da Paratii. Ela tem a emissão ditada por regras escritas em código, sua inflação é não-manipulável, e sua distribuição remunera curadores que ajudam a manter o conteúdo distribuído devidamente organizado e filtrado. Você pode enxergá-la como uma daquelas fichas que se usa para jogar jogos de arcade e tentar ganhar recompensas, em casas de fliperama. Algumas funções do sistema exigem que o usuário “aposte” PTIs, perdendo a capacidade de transferí-los por um período determinado, mas continuando a ser dono deles, para ter o direito de receber rendimentos em seguida. Além de unidade nativa de “staking”, para esse tipo de função, o token também poderá ser usado para se pagar por vídeos, fazer assinaturas pagas ou comprar publicidade, mais à frente."
-								},
-								{
-									"title": "Pra que serve ter PTI?",
-									"text": "Serve para ter o direito de participar da máquina de conteúdo sustentada pela plataforma: em outras palavras, pode subir vídeos e curar o conteúdo disponível, sendo elegível a recompensas (pagas em PTI). <a class=\"paratii-link\" href=\"https://i.redd.it/3ypnjz1grdo01.png\" target=\"_blank\">Este infográfico</a> Este infográfico explica a funcionalidade do token e por enquanto está disponível apenas em inglês - a tradução vem em breve."
-								},
-								{
-									"title": "Não dava pra usar um token que já existe?",
-									"text": "É importante que a utilidade do token esteja contida dentro dos serviços providos pela Paratii, para que seu valor não seja contaminado por forças extrínsecas à microeconomia que suporta. Como trata-se de uma unidade de staking, é imprescindível que o mesmo token “guardado” pelo sistema para se executar certas funções seja usado para recompensar aqueles que performam tais funções de acordo com os objetivos coletivos. Uma terceira (mas não menos importante) razão para um token isolado é a possibilidade de se implementar uma “política monetária” que influencie positivamente no bootstrap da rede - por exemplo, incentivando early adopters. Vale ressaltar que o PTI é emitido sobre a blockchain da Ethereum, e compatível com carteiras que sigam os padrões da rede-mãe."
-								},
-								{
-									"title": "Como consigo PTI?",
-									"text": "Antes de mais nada, todo usuário que valida seu registro recebe alguns PTIs para começar a experimentar. Esse “presente incial” vai diminuir conforme a base de usuários crescer. Há algumas formas diferentes de se <strong>adquirir</strong> PTIs - a mais direta é comprá-los de outros usuários ou corretoras com dinheiro, quando o token estiver na main net e for vendido em plataformas terceiras. Será possível <strong>ganhar</strong> PTIs ao se interagir com o sistema de três formas (além da citada anteriormente, na validação do cadastro): assistindo a um vídeo no player; contribuindo na curadoria do conteúdo subido no sistema; ou dedicando uma máquina ou parte dela a servir conteúdo na rede."
-								},
-								{
-									"title": "Dá pra minerar?",
-									"text": "Sim e não - o PTI não é minerável no mesmo sentido que o bitcoin, por exemplo, em que usuários dedicam poder de processamento numa competição para computar operações na blockchain. O PTI é emitido autonomamente para usuários que fazem 'stake' ativamente, ou seja, bons publicadores e curadores de conteúdo."
-								},
-								{
-									"title": "Quantas unidades de PTI existem?",
-									"text": "O número de tokens PTI em existência jamais ultrapassará 150 milhões. A emissão de novas unidades diminui de ritmo exponencialmente à medida que a quantidade disponível ao mercado aproxima desse número."
-								},
-								{
-									"title": "Já posso adquirir PTIs?",
-									"text": "O plano é iniciar a distribuição pública do token em agosto. Fique atento na nossa newsletter e redes sociais para saber mais à medida que chegarmos perto dessa data."
-								},
-								{
-									"title": "Que vetores podem apreciar ou depreciar seu valor?",
-									"text": "Oferta e demanda. Os únicos fatores que determinam diretamente o preço do PTI no mercado são as forças de mercado - os preços praticados pelas ordens de compra e venda executadas. A demanda pode aumentar conforme criadores busquem tokens para suportar ou promover seus vídeos, usuários desejem participar do processo de curadoria para receber recompensas, compradores de mídia estejam interessados em anunciar através do sistema ou especuladores apostarem no futuro da plataforma. Do lado da oferta, o preço pode ser puxado para baixo se usuários venderem seus tokens em massa; mas também pode subir conforme tokens forem “apostados” e ficarem presos por certos períodos, ou conforme tokens forem perdidos (deduzidos da oferta corrente) ou não-resgatados por usuários anônimos desavisados. "
 								}
 							]
 						}
