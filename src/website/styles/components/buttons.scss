@@ -98,6 +98,8 @@ $size-paratii-button-icon: 22px;
 // Styling buttons
 
 .button-telegram {
+  @extend .truncate-text;
+
   align-items: center;
   background-color: $color-lipstick;
   border: 1px solid $color-lipstick;
