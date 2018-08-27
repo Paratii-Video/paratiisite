@@ -141,16 +141,32 @@
 				},
 				"onthenews": {
 					"list": [{
-							"title": "Supporting Us",
+							"title": "International media",
 							"list": [{
-								"byheight": true,
-								"href": "http://www.bossanovagroup.com.br/",
-								"title": "Bossa Nova Group",
-								"image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
-							}]
+									"byheight": true,
+									"href": "https://thebitcoinpodcast.com/episode-210/",
+									"title": "The Bitcoin Podcast",
+									"image": ".dist/assets/images/on-the-news/logo-bitcoin-podcast.png"
+								},
+								{
+									"href": "https://softwareengineeringdaily.com/2018/08/02/token-types-with-felipe-pereira",
+									"title": "Software Engineering Daily",
+									"image": ".dist/assets/images/on-the-news/logo-software-engineering-daily.png"
+								},
+								{
+									"href": "https://www.tokendaily.co/p/on-the-immaturity-of-tokenized-value-capture-mechanisms",
+									"title": "Token Daily",
+									"image": ".dist/assets/images/on-the-news/logo-token-daily.png"
+								},
+								{
+									"href": "https://tokeneconomy.co/web3videostack-c423481c32a5",
+									"title": "Token Economy",
+									"image": "dist/assets/images/on-the-news/logo-token-economy.png"
+								}
+							]
 						},
 						{
-							"title": "On the news",
+							"title": "Brazilian media",
 							"list": [{
 									"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
 									"title": "Época Negócios",
@@ -669,16 +685,32 @@
 				},
 				"onthenews": {
 					"list": [{
-							"title": "Apoio",
+							"title": "Mídia internacional",
 							"list": [{
-								"byheight": true,
-								"href": "http://www.bossanovagroup.com.br/",
-								"title": "Bossa Nova Group",
-								"image": "./dist/assets/images/supporting-us/logo-bossanovagroup.png"
-							}]
+									"byheight": true,
+									"href": "https://thebitcoinpodcast.com/episode-210/",
+									"title": "The Bitcoin Podcast",
+									"image": ".dist/assets/images/on-the-news/logo-bitcoin-podcast.png"
+								},
+								{
+									"href": "https://softwareengineeringdaily.com/2018/08/02/token-types-with-felipe-pereira",
+									"title": "Software Engineering Daily",
+									"image": ".dist/assets/images/on-the-news/logo-software-engineering-daily.png"
+								},
+								{
+									"href": "https://www.tokendaily.co/p/on-the-immaturity-of-tokenized-value-capture-mechanisms",
+									"title": "Token Daily",
+									"image": ".dist/assets/images/on-the-news/logo-token-daily.png"
+								},
+								{
+									"href": "https://tokeneconomy.co/web3videostack-c423481c32a5",
+									"title": "Token Economy",
+									"image": "dist/assets/images/on-the-news/logo-token-economy.png"
+								}
+							]
 						},
 						{
-							"title": "Na mídia",
+							"title": "Mídia brasileira",
 							"list": [{
 									"href": "http://epocanegocios.globo.com/colunas/Tecneira/noticia/2017/12/brasileiros-criam-youtube-descentralizado-com-ajuda-do-blockchain.html",
 									"title": "Época Negócios",
