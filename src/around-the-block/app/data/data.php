@@ -154,6 +154,7 @@
                 'alert' => 'Not available yet',
                 'items' => [
                     [
+                        'href' => 'https://lab.paratii.video/',
                         'label' => 'chapter_1',
                         'title' => 'The<br> Genesis<br> Block',
                         'text' => 'networks start from a single individual. individuals start from a single purpose.',
@@ -161,6 +162,7 @@
                         'background-info' => 'https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/chapters/chapter-01-info.png',
                     ],
                     [
+                        'href' => '#',
                         'label' => 'chapter_2',
                         'title' => 'Scars<br> of<br> consensus',
                         'text' => 'every new community is born from a diaspora.',
@@ -168,6 +170,7 @@
                         'background-info' => 'https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/chapters/chapter-02-info.png',
                     ],
                     [
+                        'href' => '#',
                         'label' => 'chapter_3',
                         'title' => 'Where<br> Darwin<br> meets<br> Turing',
                         'text' => 'autonomous programs defy common sense. Defy intermediaries. Defy human corruptibility. Can they defy instructions?',
@@ -175,6 +178,7 @@
                         'background-info' => 'https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/chapters/chapter-03-info.png',
                     ],
                     [
+                        'href' => '#',
                         'label' => 'chapter_4',
                         'title' => 'Proof<br> of<br> humanity',
                         'text' => 'code-incentivized human behaviours, “universal basic equity”, the first decentralized autonomous states, and… wait - haven’t we heard this all before?',

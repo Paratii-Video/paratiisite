@@ -12,7 +12,7 @@
         <ul class="chapters-list">
             <?php foreach ($CHAPTERS['items'] as $key => $value) : ?>
                 <li class="chapters-item item-<?php echo $key; ?>">
-                    <a class="chapters-button <?php echo ($key % 2) ? ' blue' : ' green'; ?>" href="#" style="background-image: url(<?php echo $value['background']; ?>);">
+                    <a class="chapters-button <?php echo ($key % 2) ? ' blue' : ' green'; ?>" href="<?php echo $value['href']; ?>" target="_blank" style="background-image: url(<?php echo $value['background']; ?>);">
                         <span class="chapters-button-label"><?php echo $value['label']; ?></span>
                         <div class="chapters-button-info" style="background-image: url(<?php echo $value['background-info']; ?>);">
                             <p class="chapters-button-info-text"><?php echo $CHAPTERS['alert']; ?></p>
