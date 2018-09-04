@@ -149,11 +149,11 @@
     function init () {
         GLOBALS.body.scrollTop = 0;
         
-        if ($('.intro').length) {
-            intro(start);
-        } else {
+        // if ($('.intro').length) {
+        //     intro(start);
+        // } else {
             start();
-        }
+        // }
     }
 
     init();
