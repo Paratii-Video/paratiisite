@@ -28,6 +28,7 @@
             var md = new MobileDetect(window.navigator.userAgent);
             var ismobile = (md.mobile() || md.tablet());
             var bodyclass = (ismobile) ? 'ismobile ' + md.os() : '';
+            bodyclass += ' has-banner';
         </script>
     </head>
     <body class="">
@@ -496,7 +497,12 @@
                             </ul>
         </div>
     </div>
-</header>        <h2 class="around-copyright">Web Series powered by <a href="http://paratii.video" target="_blank">Paratii</a></h2>
+</header>
+<div id="banner-top" class="banner-top">
+    <p class="banner-top-title">Ep. 1 launch in <strong class="banner-top-date">2 days</strong></p>
+</div>
+
+        <h2 class="around-copyright">Web Series powered by <a href="http://paratii.video" target="_blank">Paratii</a></h2>
         <main class="around-main" itemscope itemtype="http://schema.org/Movie" data-logo="https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/intro/logo-around-the-block-mobile.png">
             <meta itemprop="name" content="Around the Block"/>
             <meta itemprop="dateCreated" content="2017"/>

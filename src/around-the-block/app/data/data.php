@@ -83,6 +83,10 @@
             'loader' => 'loading'
         ],
         'sections' => [
+            'banner' => [
+                'label' => 'launch in',
+                'date' => '2 days'
+            ],
             'event' => [
                 'title' => 'Event'
             ],
