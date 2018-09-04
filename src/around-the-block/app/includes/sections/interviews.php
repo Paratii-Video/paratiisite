@@ -6,7 +6,10 @@
         <?php foreach($INTERVIEWS['items'] as $key => $value): ?>
         <li class="interviews-nav-item <?php echo $value['class']; ?>">
             <a href="#<?php echo $value['href']; ?>" class="interviews-nav-link" data-title="<?php echo $value['title']; ?>">
-                <div class="interviews-nav-thumb"><img class="interviews-nav-image" src="<?php echo $value['image']; ?>" /></div>
+                <div class="interviews-nav-thumb" style="background-image: url('<?php echo $value['image']; ?>')">
+                    <img class="interviews-nav-img" src="<?php echo $value['image']; ?>" />
+                    <img class="interviews-nav-image"  style="background-image: url('<?php echo $value['image']; ?>')" />
+                </div>
                 <div class="interviews-nav-entry">
                     <p class="interviews-nav-title"><?php echo $value['nav-title']; ?></p>
                     <p class="interviews-nav-text"><?php echo $value['about']; ?></p>

@@ -41,6 +41,8 @@ $size-interviewsthumb-margin-h-min: 1.2vw;
     }
 
     &-link {
+        @extend .clearfix;
+
         display: flex;
         min-height: 300px;
 
@@ -152,6 +154,7 @@ $size-interviewsthumb-margin-h-min: 1.2vw;
         background-color: $color-blue-intro;
         backface-visibility: hidden;
         overflow: hidden;
+        position: relative;
         transition: filter .35s ease-out;
         width: 50%;
 
@@ -162,16 +165,26 @@ $size-interviewsthumb-margin-h-min: 1.2vw;
     }
 
     &-image {
-        display: block;
-        max-width: 100%;
+        @extend .pos-a-full;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
         transform: scale(1.05);
         transition: transform .65s $ease-out-quad;
+        width: 100%;
 
 
         .interviews-nav-link:hover & {
             transform: scale(1.1);
             transition: transform 1s $ease-out-quad;
         }
+    }
+
+    &-img {
+        @extend .pos-a-full;
+
+        visibility: hidden;
     }
 }
 
