@@ -41,7 +41,10 @@ $size-interviewsthumb-margin-h-min: 1.2vw;
     }
 
     &-link {
+        @extend .clearfix;
+
         display: flex;
+        height: 100%;
         min-height: 300px;
 
         .left & {
@@ -52,16 +55,22 @@ $size-interviewsthumb-margin-h-min: 1.2vw;
             flex-direction: row-reverse;
         }
 
-        .left:nth-child(even) & {
+        .left:nth-child(even) &,
+        .right:nth-child(even) & {
             @include screenphablet {
                 flex-direction: row;
             }
         }
 
+        .left:nth-child(odd) &,
         .right:nth-child(odd) & {
             @include screenphablet {
                 flex-direction: row-reverse;
             }
+        }
+
+        @include screenphablet {
+
         }
     }
 
@@ -152,6 +161,7 @@ $size-interviewsthumb-margin-h-min: 1.2vw;
         background-color: $color-blue-intro;
         backface-visibility: hidden;
         overflow: hidden;
+        position: relative;
         transition: filter .35s ease-out;
         width: 50%;
 
@@ -162,16 +172,27 @@ $size-interviewsthumb-margin-h-min: 1.2vw;
     }
 
     &-image {
-        display: block;
-        max-width: 100%;
+        @extend .pos-a-full;
+
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
         transform: scale(1.05);
         transition: transform .65s $ease-out-quad;
+        width: 100%;
 
 
         .interviews-nav-link:hover & {
             transform: scale(1.1);
             transition: transform 1s $ease-out-quad;
         }
+    }
+
+    &-img {
+        @extend .pos-a-full;
+
+        visibility: hidden;
     }
 }
 

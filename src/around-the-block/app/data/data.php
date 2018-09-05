@@ -83,6 +83,10 @@
             'loader' => 'loading'
         ],
         'sections' => [
+            'banner' => [
+                'label' => '🕒 Ep. 1 launch',
+                'date' => '2018-09-18T15:00:00'
+            ],
             'event' => [
                 'title' => 'Event'
             ],

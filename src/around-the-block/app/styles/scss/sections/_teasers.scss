@@ -18,13 +18,11 @@
         @extend .padding-left-max;
         @extend .padding-right-max;
 
-        margin-top: $size-height-mainheader;
         padding-bottom: 6vw;
         position: relative;
         width: 100%;
 
         @include screenphablet {
-            margin-top: 0;
             padding-bottom: 16vw;
         }
     }

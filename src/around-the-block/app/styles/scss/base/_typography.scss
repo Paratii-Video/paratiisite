@@ -107,3 +107,12 @@ p {
         font-size: 2.7vw;
     }
 }
+
+.font-text-small {
+    font-size: 0.8vw;
+    line-height: 1.8;
+
+    @include screenphablet {
+        font-size: 2.5vw;
+    }
+}

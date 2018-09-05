@@ -1,0 +1,29 @@
+// Banner top
+
+.banner-top {
+    @extend .padding-left-max;
+    @extend .padding-right-max;
+
+    background-color: $color-blue-light;
+    margin-top: $size-height-mainheader;
+    padding-bottom: .7vw;
+    padding-top: .7vw;
+    text-align: center;
+
+    @include screenphablet {
+        margin-top: 20vw;
+        padding-bottom: 1.8vw;
+        padding-top: 1.8vw;
+    }
+
+    &-title {
+        @extend .font-text;
+
+        color: $color-purple-light;
+    }
+
+    &-date {
+        color: $color-green;
+        font-weight: inherit;
+    }
+}

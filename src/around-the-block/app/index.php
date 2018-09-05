@@ -36,6 +36,7 @@
             var md = new MobileDetect(window.navigator.userAgent);
             var ismobile = (md.mobile() || md.tablet());
             var bodyclass = (ismobile) ? 'ismobile ' + md.os() : '';
+            bodyclass += ' has-banner';
         </script>
     </head>
     <body class="">
@@ -44,6 +45,7 @@
             include './includes/components/svg.php';
             include './includes/sections/intro.php';
             include './includes/sections/header.php';
+            include './includes/sections/banner-top.php';
         ?>
         <h2 class="around-copyright"><?php echo $GLOBALS['copyright']; ?></h2>
         <main class="around-main" itemscope itemtype="http://schema.org/Movie" data-logo="<?php echo $GLOBALS['logo']; ?>">
@@ -86,7 +88,6 @@
             ga('create', '<?php echo $GLOBALS['GA']; ?>', 'auto');
             ga('send', 'pageview');
         </script>
-        <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
         <script src="scripts/app.js"></script>
     </body>
 </html>
