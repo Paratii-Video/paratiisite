@@ -88,7 +88,6 @@
             ga('create', '<?php echo $GLOBALS['GA']; ?>', 'auto');
             ga('send', 'pageview');
         </script>
-        <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
         <script src="scripts/app.js"></script>
     </body>
 </html>

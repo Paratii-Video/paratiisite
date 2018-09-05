@@ -29,6 +29,7 @@ var app_scripts = [
   'app/scripts/app/globals.js',
   'app/scripts/app/player.js',
   'app/scripts/app/navigation.js',
+  'app/scripts/app/banner-top.js',
   'app/scripts/app/teasers.js',
   'app/scripts/app/chapters.js',
   'app/scripts/app/interviews.js',

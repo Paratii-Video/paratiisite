@@ -55,16 +55,22 @@ $size-interviewsthumb-margin-h-min: 1.2vw;
             flex-direction: row-reverse;
         }
 
-        .left:nth-child(even) & {
+        .left:nth-child(even) &,
+        .right:nth-child(even) & {
             @include screenphablet {
                 flex-direction: row;
             }
         }
 
+        .left:nth-child(odd) &,
         .right:nth-child(odd) & {
             @include screenphablet {
                 flex-direction: row-reverse;
             }
+        }
+
+        @include screenphablet {
+
         }
     }
 
@@ -168,6 +174,7 @@ $size-interviewsthumb-margin-h-min: 1.2vw;
     &-image {
         @extend .pos-a-full;
 
+        background-position: 50%;
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
