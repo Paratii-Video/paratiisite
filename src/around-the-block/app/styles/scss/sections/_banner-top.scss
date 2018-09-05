@@ -8,13 +8,14 @@
     margin-top: $size-height-mainheader;
     padding-bottom: .7vw;
     padding-top: .7vw;
+    text-align: center;
 
     @include screenphablet {
         margin-top: 20vw;
     }
 
     &-title {
-        @extend .font-text-small;
+        @extend .font-text;
 
         color: $color-purple-light;
     }
