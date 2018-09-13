@@ -74,7 +74,7 @@
 					"text": "We research & develop peer-to-peer technologies that enable ownerless media applications, in the middle-and-upper-layers of the stack.",
 					"image": "./dist/assets/svgs/paratii-header.svg",
 					"buttonA": "Try The Lab app",
-					"buttonAhref": "https://portal.paratii.video/",
+					"buttonAhref": "https://lab.paratii.video/",
 					"buttonB": "Subscribe",
 					"buttonBhref": "https://video.us15.list-manage.com/subscribe/post?u=3363d6d446b55bfeec00cb430&id=d12f33be57",
 					"ga": {
@@ -205,13 +205,13 @@
 					"subtitle": "Our videos",
 					"text": "You can find someone of the team regularly in (or invite to!) meetups, events and conferences mostly in Brazil, the U.S and Italy.",
 					"list": [{
-							"url": "https://portal.paratii.video/embed/akX1Cvz1G7In"
+							"url": "https://lab.paratii.video/embed/akX1Cvz1G7In"
 						},
 						{
-							"url": "https://portal.paratii.video/embed/FVssfM5OiRfc"
+							"url": "https://lab.paratii.video/embed/FVssfM5OiRfc"
 						},
 						{
-							"url": "https://portal.paratii.video/embed/b9yOYeQrYIxR"
+							"url": "https://lab.paratii.video/embed/b9yOYeQrYIxR"
 						}
 					],
 					"button": "See more",
@@ -244,7 +244,7 @@
 								},
 								{
 									"title": "I have a webpage or app that distributes videos. How do I use Paratii?",
-									"text": "If you have your own domain, a Wordpress page or an article on Medium that could use some extra life, all you’ll have to do is paste a link like the following to show video on your content via the Paratii player: <a class=\"paratii-link\" href=\"https://portal.paratii.video/play/XXXXXXXXXXXX\" target=\"_blank\">https://portal.paratii.video/play/XXXXXXXXXXXX</a><br/><br/>If you’re a developer and want to use distributed video in your app, the <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js\" target=\"_blank\">paratii.js</a> library was made for you. It’s used to read and write on the Ethereum blockchain, interact with peers on the IPFS network and search on the Paratii index, for instance. With it, we want to allow anyone to build browser clients such as The Lab app (we’ll provide a webpacked version for that) and also nodeJS based applications. All you need to initialize the library is the URL of an Ethereum node (the provider parameter) and the address for the ParatiiRegistry contract (the registry parameter). You can find current documentation <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js/tree/dev/docs\" target=\"_blank\">here</a>. Our <a class=\"paratii-link\" href=\"https://www.getrevue.co/profile/Paratii\" target=\"_blank\">newsletter</a> and <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">Gitter</a> are the best channels to get update on the library’s development."
+									"text": "If you have your own domain, a Wordpress page or an article on Medium that could use some extra life, all you’ll have to do is paste a link like the following to show video on your content via the Paratii player: <a class=\"paratii-link\" href=\"https://lab.paratii.video/play/XXXXXXXXXXXX\" target=\"_blank\">https://portal.paratii.video/play/XXXXXXXXXXXX</a><br/><br/>If you’re a developer and want to use distributed video in your app, the <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js\" target=\"_blank\">paratii.js</a> library was made for you. It’s used to read and write on the Ethereum blockchain, interact with peers on the IPFS network and search on the Paratii index, for instance. With it, we want to allow anyone to build browser clients such as The Lab app (we’ll provide a webpacked version for that) and also nodeJS based applications. All you need to initialize the library is the URL of an Ethereum node (the provider parameter) and the address for the ParatiiRegistry contract (the registry parameter). You can find current documentation <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js/tree/dev/docs\" target=\"_blank\">here</a>. Our <a class=\"paratii-link\" href=\"https://www.getrevue.co/profile/Paratii\" target=\"_blank\">newsletter</a> and <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">Gitter</a> are the best channels to get update on the library’s development."
 								},
 								{
 									"title": "How do I upload a video to The Lab app?",
@@ -260,7 +260,7 @@
 								},
 								{
 									"title": "How do I keep up with news about Paratii?",
-									"text": "There are many ways! Sign up for our newsletter, <a class=\"paratii-link\" href=\"#follow-us\">follow us</a> and check out our <a class=\"paratii-link\" href=\"http://www.paratii.video\" target=\"_blank\">website</a> to see what’s new. Feel free to ask questions and participate in the community by joining our <a class=\"paratii-link\" href=\"https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A\" target=\"_blank\">Telegram</a> group as well.."
+									"text": "There are many ways! Sign up for our newsletter, <a class=\"paratii-link\" href=\"#follow-us\">follow us</a> and check out our <a class=\"paratii-link\" href=\"https://paratii.video/\" target=\"_blank\">website</a> to see what’s new. Feel free to ask questions and participate in the community by joining our <a class=\"paratii-link\" href=\"https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A\" target=\"_blank\">Telegram</a> group as well.."
 								},
 								{
 									"title": "I represent a media outlet and want to write about Paratii - how do I get in touch?",
@@ -355,7 +355,7 @@
 						"title": "Welcome to the world of decentralized video!",
 						"text": "<strong>That means you’re the boss.</strong> Have you ever had a video of yours demonetized for no reason? No more! If you did the work to record your content, why should a bunch of middlemen make the money instead of you? It’s time for a change. It’s time for Paratii.",
 						"button": "Access the alpha version",
-						"buttonHref": "https://portal.paratii.video/",
+						"buttonHref": "https://lab.paratii.video/",
 						"ga": {
 							"hitType": "event",
 							"eventCategory": "Visite",
@@ -562,7 +562,7 @@
 					"text": "Pesquisamos e desenvolvemos tecnologias peer-to-peer que suportam aplicações de mídia sem autoridade central.",
 					"image": "./dist/assets/svgs/paratii-header.svg",
 					"buttonA": "Acesse o app The Lab",
-					"buttonAhref": "https://portal.paratii.video/",
+					"buttonAhref": "https://lab.paratii.video/",
 					"buttonB": "Inscreva-se",
 					"buttonBhref": "https://video.us15.list-manage.com/subscribe/post?u=3363d6d446b55bfeec00cb430&id=d12f33be57",
 					"ga": {
@@ -692,13 +692,13 @@
 					"subtitle": "Nossos vídeos",
 					"text": "Encontre com alguém da comunidade em (ou convide para!) meetups, eventos e conferências, principalmente no Brasil, EUA ou Itália.",
 					"list": [{
-							"url": "https://portal.paratii.video/embed/akX1Cvz1G7In"
+							"url": "https://lab.paratii.video/embed/akX1Cvz1G7In"
 						},
 						{
-							"url": "https://portal.paratii.video/embed/FVssfM5OiRfc"
+							"url": "https://lab.paratii.video/embed/FVssfM5OiRfc"
 						},
 						{
-							"url": "https://portal.paratii.video/embed/b9yOYeQrYIxR"
+							"url": "https://lab.paratii.video/embed/b9yOYeQrYIxR"
 						}
 					],
 					"button": "Veja mais",
@@ -731,7 +731,7 @@
 								},
 								{
 									"title": "Tenho uma página ou app por onde distribuo vídeos. Como passo a usar Paratii?",
-									"text": "Para os desavisados, nosso player é como um player qualquer. Se você tem um domínio próprio, uma página Wordpress, ou um artigo no Medium que precisa ganhar vida, bastará colar um link como esse para materializar um vídeo no seu conteúdo:  <a class=\"paratii-link\" href=\"https://portal.paratii.video/play/XXXXXXXXXXXX\" target=\"_blank\">https://portal.paratii.video/play/XXXXXXXXXXXX</a><br/><br/>Se você for desenvolvedor, e quiser usar vídeo descentralizado dentro de seus aplicativos, a biblioteca <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js\" target=\"_blank\">paratii.js</a> foi feita para você. Ela é usada para ler e escrever na blockchain da Ethereum, interagir com peers da rede do IPFS e fazer buscas no Paratii index, por exemplo. Com ela, queremos permitir a qualquer um construir browser clients, como o paratii-portal (vamos prover uma versão webpack’ed para isso) e também aplicações baseadas em nodeJS. Tudo o que você precisará para inicializar a biblioteca é a URL de um nó da Ethereum (o parâmetro provedor) e o endereço do contrato ParatiiRegistry (o parâmetro registro). Cheque a <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js/tree/dev/docs\" target=\"_blank\">documentação atual aqui</a>. Nossa <a class=\"paratii-link\" href=\"https://www.getrevue.co/profile/Paratii\" target=\"_blank\">newsletter</a> e <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">Gitter</a> são os canais certos para receber updates sobre a biblioteca."
+									"text": "Para os desavisados, nosso player é como um player qualquer. Se você tem um domínio próprio, uma página Wordpress, ou um artigo no Medium que precisa ganhar vida, bastará colar um link como esse para materializar um vídeo no seu conteúdo:  <a class=\"paratii-link\" href=\"https://lab.paratii.video/play/XXXXXXXXXXXX\" target=\"_blank\">https://portal.paratii.video/play/XXXXXXXXXXXX</a><br/><br/>Se você for desenvolvedor, e quiser usar vídeo descentralizado dentro de seus aplicativos, a biblioteca <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js\" target=\"_blank\">paratii.js</a> foi feita para você. Ela é usada para ler e escrever na blockchain da Ethereum, interagir com peers da rede do IPFS e fazer buscas no Paratii index, por exemplo. Com ela, queremos permitir a qualquer um construir browser clients, como o paratii-portal (vamos prover uma versão webpack’ed para isso) e também aplicações baseadas em nodeJS. Tudo o que você precisará para inicializar a biblioteca é a URL de um nó da Ethereum (o parâmetro provedor) e o endereço do contrato ParatiiRegistry (o parâmetro registro). Cheque a <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js/tree/dev/docs\" target=\"_blank\">documentação atual aqui</a>. Nossa <a class=\"paratii-link\" href=\"https://www.getrevue.co/profile/Paratii\" target=\"_blank\">newsletter</a> e <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">Gitter</a> são os canais certos para receber updates sobre a biblioteca."
 								},
 								{
 									"title": "Como faço pra submeter um vídeo à Paratii?",
@@ -751,7 +751,7 @@
 								},
 								{
 									"title": "Como faço pra acompanhar as notícias da Paratii?",
-									"text": "Tem muitos jeitos! Assine nossa newsletter, <a class=\"paratii-link\" href=\"#follow-us\">acompanhe nossos canais</a> e confira <a class=\"paratii-link\" href=\"http://www.paratii.video\" target=\"_blank\">nosso site</a> para ver o que há de novo! Fique à vontade para fazer perguntas e participar na comunidade no nosso grupo do Telegram, também, cujo link você encontra lá em cima da página!."
+									"text": "Tem muitos jeitos! Assine nossa newsletter, <a class=\"paratii-link\" href=\"#follow-us\">acompanhe nossos canais</a> e confira <a class=\"paratii-link\" href=\"https://paratii.video/\" target=\"_blank\">nosso site</a> para ver o que há de novo! Fique à vontade para fazer perguntas e participar na comunidade no nosso grupo do Telegram, também, cujo link você encontra lá em cima da página!."
 								},
 								{
 									"title": "Essa história já saiu na mídia?",
@@ -846,7 +846,7 @@
 						"title": "Seja bem-vindo à primeira comunidade de vídeo descentralizada do Brasil.",
 						"text": "<strong>Isso significa que quem manda é você: </strong> já teve seu vídeo desmonetizado sem motivo? Coisa do passado! Se você que se matou pra gravar o seu conteúdo, por que tem um monte de gente no meio do caminho ganhando em cima disso? Chegou a hora de mudar. Chegou a hora da Paratii.",
 						"button": "Acesse a versão alpha",
-						"buttonHref": "https://portal.paratii.video/",
+						"buttonHref": "https://lab.paratii.video/",
 						"ga": {
 							"hitType": "event",
 							"eventCategory": "Visite",
@@ -1052,7 +1052,7 @@
 					"text": "分享你的故事，而无需向中间商支付费用。通过广告、订阅或任何你所希望的方式获取收益。让观众一边观看视频一边赚钱。",
 					"image": "./dist/assets/svgs/paratii-header.svg",
 					"buttonA": "Try the alpha portal",
-					"buttonAhref": "https://portal.paratii.video/",
+					"buttonAhref": "https://lab.paratii.video/",
 					"buttonB": "Subscribe",
 					"buttonBhref": "https://video.us15.list-manage.com/subscribe/post?u=3363d6d446b55bfeec00cb430&id=d12f33be57",
 					"ga": {
@@ -1159,13 +1159,13 @@
 					"subtitle": "我们的视频",
 					"text": "你经常会发现团队中的某个人在(或被邀请参加)线下聚会、活动和会议上，大多数是在巴西、美国和意大利。",
 					"list": [{
-							"url": "https://portal.paratii.video/embed/akX1Cvz1G7In"
+							"url": "https://lab.paratii.video/embed/akX1Cvz1G7In"
 						},
 						{
-							"url": "https://portal.paratii.video/embed/FVssfM5OiRfc"
+							"url": "https://lab.paratii.video/embed/FVssfM5OiRfc"
 						},
 						{
-							"url": "https://portal.paratii.video/embed/b9yOYeQrYIxR"
+							"url": "https://lab.paratii.video/embed/b9yOYeQrYIxR"
 						}
 					],
 					"button": "观看更多",
@@ -1206,7 +1206,7 @@
 								},
 								{
 									"title": "I have a webpage or app that distributes videos. How do I use Paratii?",
-									"text": "The service is designed to be universally embeddable on the web. This means that your website can have all of its video content “hosted” on Paratii, while at the same time showing it with no additional friction to the end user - superficially, it’s just like any other player. If you have your own domain, a Wordpress page or an article on Medium that could use some extra life, all you’ll have to do is paste a link like the following to show video on your content: <a class=\"paratii-link\" href=\"https://portal.paratii.video/play/XXXXXXXXXXXX\" target=\"_blank\">https://portal.paratii.video/play/XXXXXXXXXXXX</a><br/><br/>If you’re a developer and want to use decentralized video in your app, the <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js\" target=\"_blank\">paratii.js</a> library was made for you. It’s used to read and write on the Ethereum blockchain, interact with peers on the IPFS network and search on the Paratii index, for instance. With it, we want to allow anyone to build browser clients such as the Paratii portal (we’ll provide a webpacked version for that) and also nodeJS based applications. All you need to initialize the library is the URL of an Ethereum node (the provider parameter) and the address for the ParatiiRegistry contract (the registry parameter). You can find current documentation <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js/tree/dev/docs\" target=\"_blank\">here</a>. Our <a class=\"paratii-link\" href=\"https://www.getrevue.co/profile/Paratii\" target=\"_blank\">newsletter</a> and <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">Gitter</a> are the best channels to get update on the library’s development."
+									"text": "The service is designed to be universally embeddable on the web. This means that your website can have all of its video content “hosted” on Paratii, while at the same time showing it with no additional friction to the end user - superficially, it’s just like any other player. If you have your own domain, a Wordpress page or an article on Medium that could use some extra life, all you’ll have to do is paste a link like the following to show video on your content: <a class=\"paratii-link\" href=\"https://lab.paratii.video/play/XXXXXXXXXXXX\" target=\"_blank\">https://portal.paratii.video/play/XXXXXXXXXXXX</a><br/><br/>If you’re a developer and want to use decentralized video in your app, the <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js\" target=\"_blank\">paratii.js</a> library was made for you. It’s used to read and write on the Ethereum blockchain, interact with peers on the IPFS network and search on the Paratii index, for instance. With it, we want to allow anyone to build browser clients such as the Paratii portal (we’ll provide a webpacked version for that) and also nodeJS based applications. All you need to initialize the library is the URL of an Ethereum node (the provider parameter) and the address for the ParatiiRegistry contract (the registry parameter). You can find current documentation <a class=\"paratii-link\" href=\"https://github.com/Paratii-Video/paratii-js/tree/dev/docs\" target=\"_blank\">here</a>. Our <a class=\"paratii-link\" href=\"https://www.getrevue.co/profile/Paratii\" target=\"_blank\">newsletter</a> and <a class=\"paratii-link\" href=\"https://gitter.im/Paratii-Video/dev\" target=\"_blank\">Gitter</a> are the best channels to get update on the library’s development."
 								},
 								{
 									"title": "How do I upload a video?",
@@ -1226,7 +1226,7 @@
 								},
 								{
 									"title": "How do I keep up with news about Paratii?",
-									"text": "There are many ways! Sign up for our newsletter, <a class=\"paratii-link\" href=\"#follow-us\">follow us</a> and check out our <a class=\"paratii-link\" href=\"http://www.paratii.video\" target=\"_blank\">website</a> to see what’s new. Feel free to ask questions and participate in the community by joining our <a class=\"paratii-link\" href=\"https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A\" target=\"_blank\">Telegram</a> group as well.."
+									"text": "There are many ways! Sign up for our newsletter, <a class=\"paratii-link\" href=\"#follow-us\">follow us</a> and check out our <a class=\"paratii-link\" href=\"https://paratii.video/\" target=\"_blank\">website</a> to see what’s new. Feel free to ask questions and participate in the community by joining our <a class=\"paratii-link\" href=\"https://t.me/joinchat/EWZMBQ9mnqJ1--NKHpyF8A\" target=\"_blank\">Telegram</a> group as well.."
 								},
 								{
 									"title": "I represent a media outlet and want to write about Paratii - how do I get in touch?",
@@ -1365,7 +1365,7 @@
 						"title": "Welcome to the world of decentralized video!",
 						"text": "<strong>That means you’re the boss.</strong> Have you ever had a video of yours demonetized for no reason? No more! If you did the work to record your content, why should a bunch of middlemen make the money instead of you? It’s time for a change. It’s time for Paratii.",
 						"button": "Access the alpha version",
-						"buttonHref": "https://portal.paratii.video/",
+						"buttonHref": "https://lab.paratii.video/",
 						"ga": {
 							"hitType": "event",
 							"eventCategory": "Visite",
