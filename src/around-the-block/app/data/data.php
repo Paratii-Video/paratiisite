@@ -84,8 +84,8 @@
         ],
         'sections' => [
             'banner' => [
-                'label' => '🕒 Ep. 1 launch',
-                'date' => '2018-09-06T15:00:00'
+                'label' => '🕒 Ep. 2 launch',
+                'date' => '2018-09-21T15:00:00'
             ],
             'event' => [
                 'title' => 'Event'
@@ -158,7 +158,7 @@
                 'alert' => 'Not available yet',
                 'items' => [
                     [
-                        'href' => 'https://lab.paratii.video/',
+                        'href' => 'https://lab.paratii.video/play/GLdcTbPq9fXb',
                         'label' => 'chapter_1',
                         'title' => 'The<br> Genesis<br> Block',
                         'text' => 'networks start from a single individual. individuals start from a single purpose.',
