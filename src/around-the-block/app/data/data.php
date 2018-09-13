@@ -84,8 +84,8 @@
         ],
         'sections' => [
             'banner' => [
-                'label' => '🕒 Ep. 1 launch',
-                'date' => '2018-09-18T18:00:00'
+                'label' => '🕒 Ep. 2 launch',
+                'date' => '2018-09-21T15:00:00'
             ],
             'event' => [
                 'title' => 'Event'
