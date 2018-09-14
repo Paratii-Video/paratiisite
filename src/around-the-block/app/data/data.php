@@ -110,7 +110,6 @@
                 'button-scroll' => 'Keep scrolling',
                 'items' => [
                     [
-                        'class' => 'active',
                         'src' => 'https://lab.paratii.video/embed/GLdcTbPq9fXb',
                     ]
                 ]
