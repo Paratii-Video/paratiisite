@@ -26,41 +26,24 @@
                 </span>
                 <span class="teasers-text-after"><?php echo $TEASERS['typewrite']['phrase-after']; ?></span>
             </div>
-            
-            <button class="teasers-button-next"><?php echo $TEASERS['button-video']; ?></button>
+            <?php if(count($TEASERS['items']) > 1): ?>
+                <button class="teasers-button-next"><?php echo $TEASERS['button-video']; ?></button>
+            <?php endif; ?>
         </div>
         <div class="teasers-medias">
-            <div class="medias-controls"></div>
             <div class="teasers-medias-wrapper">
-                <?php
-                    foreach ($TEASERS['items'] as $key => $value) :
-                    $gotiframe = isset($value['iframe']);
-                ?>
-                    <div class="teasers-medias-item <?php echo $value['class']; ?> <?php if ($gotiframe) echo 'iframe';  ?>" itemprop="trailer" itemscope itemtype="http://schema.org/VideoObject">
-
-                        <?php if ($gotiframe) echo $value['iframe'];  ?>
-
-                        <video class="teasers-video" poster="<?php echo $value['poster']; ?>" preload="auto">
-                            <?php foreach($value['media'] as $key2 => $value2): ?>
-                                <source src="<?php echo $value2['src']; ?>" type="<?php echo $value2['type']; ?>">
-                            <?php endforeach; ?>
-                        </video>
-                        <meta itemprop='name' content='<?php echo $value['name']; ?>'/>
-                        <meta itemprop='description' content='<?php echo $value['description']; ?>'/>
-                        <meta itemprop="contentUrl" content="<?php echo $value2['src']; ?>">
-                        <meta itemprop="thumbnailUrl" content="<?php echo $value['poster']; ?>">
-                        <meta itemprop="uploadDate" content="08/31/2017">
-                        <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-                            <meta itemprop="name" content="Paratii">
-                            <meta itemprop="url" content="http://paratii.video/">
-                            <div  itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-                                <meta itemprop="url" content="http://paratii.video/imagens/cropped-logo_colorido_horizontal.png">
-                                <meta itemprop="width" content="1349">
-                                <meta itemprop="height" content="550">
-                            </div>
-                        </div>
-                    </div>
-                <?php endforeach; ?>   
+                <div class="teasers-medias-item"">
+                    <?php
+                        $teasersVideos = '';
+                        foreach ($TEASERS['items'] as $key => $value) :
+                            if ($key != 0) {
+                                $teasersVideos .= ';';
+                            }
+                            $teasersVideos .= $value['src'];
+                        endforeach;
+                    ?>
+                    <iframe id="teasers-iframe" class="teasers-iframe" data-videos="<?php echo $teasersVideos; ?>" src="<?php echo $TEASERS['items'][0]['src']; ?>" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
+                </div>                
             </div>
         </div>
         <button class="teasers-button-scroll" title="<?php echo $TEASERS['button-scroll']; ?>">

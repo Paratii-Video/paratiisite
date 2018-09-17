@@ -77,52 +77,10 @@
         }
 
         &-item {
-            display: none;
-            height: 100%;
-            opacity: .5;
+            height: $size-teasers-medias-item-height;
             overflow: hidden;
+            position: relative;
             width: 100%;
-
-            &::before {
-                @extend .font-source;
-                @extend .pos-a-middle;
-
-                animation: blink .5s $ease-smooth infinite;
-                color: $color-purple-light;
-                content: 'loading';
-                font-size: 1vw;
-
-                @include screenphablet {
-                    font-size: 4vw;
-                }
-            }
-
-            &.iframe {
-                position: relative;
-            }
-
-            &.ready {
-                opacity: 1;
-
-                &::before {
-                    display: none;
-                }
-            }
-
-            &.active {
-                display: block;
-            }
-        }
-    }
-
-    &-video {
-        position: relative;
-        width: 100%;
-        z-index: 1;
-
-        .iframe & {
-            visibility: hidden;
-            pointer-events: none;
         }
     }
 

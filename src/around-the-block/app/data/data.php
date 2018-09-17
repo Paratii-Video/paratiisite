@@ -110,43 +110,8 @@
                 'button-scroll' => 'Keep scrolling',
                 'items' => [
                     [
-                        'class' => 'active',
-                        'name' => 'Around The Block - Trailer',
-                        'description' => 'Around the Block is a 4-episode documentary series about blockchain technologists who are decentralising the engines of modern society.',
-
-                        'poster' => 'https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/trailers/around-the-block-trailer-01-leg.png',
-                        'media' => [
-                            [
-                                'src' => 'https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/videos/trailers/around-the-block-trailer-01-leg.mp4' ,
-                                'type' => 'video/mp4', 
-                            ]
-                        ]
-                    ],
-                    [
-                        'class' => '',
-                        'name' => 'Around The Block - Teaser 2 - Alex Van de Sande',
-                        'description' => 'Designer and frontend developer, team lead for Mist (the Ethereum browser)',
-
-                        'poster' => 'https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/teasers/teaser-01.jpg',
-                        'media' => [
-                            [
-                                'src' => 'https://s3-us-west-1.amazonaws.com/paratiivideo/videos/teaser-01.mp4' ,
-                                'type' => 'video/mp4', 
-                            ]
-                        ]
-                    ],
-                    [
-                        'class' => '',
-                        'name' => 'Around The Block Series - Teaser 1 - Sergio Lerner',
-                        'description' => 'Security researcher, co-founder of RSK Labs, author of the Lumino-Compression Transaction Protocol',
-                        'poster' => 'https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/teasers/teaser-02.jpg',
-                        'media' => [
-                            [
-                                'src' => 'https://s3-us-west-1.amazonaws.com/paratiivideo/videos/teaser-02.mp4' ,
-                                'type' => 'video/mp4', 
-                            ],
-                        ]
-                    ],
+                        'src' => 'https://lab.paratii.video/embed/GLdcTbPq9fXb',
+                    ]
                 ]
             ],
             'about' => [
@@ -187,7 +152,7 @@
                         'title' => 'Proof<br> of<br> humanity',
                         'text' => 'code-incentivized human behaviours, “universal basic equity”, the first decentralized autonomous states, and… wait - haven’t we heard this all before?',
                         'background' => 'https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/chapters/chapter-06.png',
-                        'background-info' => 'https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/chapters/chapter-06-info.png',
+                        'background-info' => 'https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/chapters/chapter-04-info.png',
                     ],
                 ]
             ],
