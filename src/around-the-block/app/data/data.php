@@ -84,8 +84,8 @@
         ],
         'sections' => [
             'banner' => [
-                'label' => '🕒 Ep. 2 launch',
-                'date' => '2018-09-28T15:00:00'
+                'label' => '🕒 Ep. 3 launch',
+                'date' => '2018-10-08T15:00:00'
             ],
             'event' => [
                 'title' => 'Event'
@@ -109,6 +109,9 @@
                 'button-video' => 'Next video',
                 'button-scroll' => 'Keep scrolling',
                 'items' => [
+                    [
+                        'src' => 'https://www.youtube.com/embed/yMbOxJQ1Hlo',
+                    ],
                     [
                         'src' => 'https://lab.paratii.video/embed/GLdcTbPq9fXb',
                     ]
