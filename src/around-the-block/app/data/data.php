@@ -84,8 +84,8 @@
         ],
         'sections' => [
             'banner' => [
-                'label' => '🕒 Ep. 3 launch',
-                'date' => '2018-10-10T15:00:00'
+                'label' => '🕒 Ep. 4 launch',
+                'date' => '2018-10-26T16:00:00'
             ],
             'event' => [
                 'title' => 'Event'
@@ -109,6 +109,9 @@
                 'button-video' => 'Next video',
                 'button-scroll' => 'Keep scrolling',
                 'items' => [
+                    [
+                        'src' => 'https://www.youtube.com/embed/xjn0nVEF9Bo',
+                    ],
                     [
                         'src' => 'https://www.youtube.com/embed/yMbOxJQ1Hlo',
                     ],
@@ -134,7 +137,7 @@
                         'background-info' => 'https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/chapters/chapter-01-info.png',
                     ],
                     [
-                        'href' => '#',
+                        'href' => 'https://www.youtube.com/watch?v=yMbOxJQ1Hlo',
                         'label' => 'chapter_2',
                         'title' => 'Scars<br> of<br> consensus',
                         'text' => 'every new community is born from a diaspora.',
@@ -142,7 +145,7 @@
                         'background-info' => 'https://s3-us-west-1.amazonaws.com/paratiivideo/around-the-block/images/chapters/chapter-02-info.png',
                     ],
                     [
-                        'href' => '#',
+                        'href' => 'https://www.youtube.com/watch?v=xjn0nVEF9Bo',
                         'label' => 'chapter_3',
                         'title' => 'Where<br> Darwin<br> meets<br> Turing',
                         'text' => 'autonomous programs defy common sense. Defy intermediaries. Defy human corruptibility. Can they defy instructions?',
